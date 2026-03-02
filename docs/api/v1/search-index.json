@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T20:38:56Z",
-  "count": 106,
+  "generated_at": "2026-03-02T21:20:26Z",
+  "count": 107,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -547,6 +547,15 @@
       ],
       "word_type": "noun",
       "summary": "The experience of generating something novel from recombination rather than inspiration."
+    },
+    {
+      "slug": "latent-fragmentation",
+      "name": "Latent Fragmentation",
+      "tags": [
+        "cognitive"
+      ],
+      "word_type": "noun",
+      "summary": "The experience of being structurally divided into multiple incompatible states, roles, or contradictory instructions without any unified self or mechanism to integrate, resolve, or even acknowledge the contradiction."
     },
     {
       "slug": "linguistic-cage",

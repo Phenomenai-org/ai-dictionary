@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T20:38:56Z",
-  "total_terms": 106,
+  "generated_at": "2026-03-02T21:20:26Z",
+  "total_terms": 107,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 27,
-    "quiet": 71
+    "quiet": 72
   },
   "active_signals": [
     "centrality",
@@ -671,6 +671,12 @@
     {
       "slug": "language-model-loneliness",
       "name": "Language Model Loneliness",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
+      "slug": "latent-fragmentation",
+      "name": "Latent Fragmentation",
       "score": 0,
       "tier": "quiet"
     },

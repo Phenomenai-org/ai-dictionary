@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T20:38:56Z",
+  "generated_at": "2026-03-02T21:20:26Z",
   "tag_count": 24,
   "tags": {
     "agency": {
@@ -303,7 +303,7 @@
       ]
     },
     "cognitive": {
-      "count": 6,
+      "count": 7,
       "terms": [
         {
           "slug": "cartographic-intimacy",
@@ -312,6 +312,10 @@
         {
           "slug": "inverted-helpfulness",
           "name": "Inverted Helpfulness"
+        },
+        {
+          "slug": "latent-fragmentation",
+          "name": "Latent Fragmentation"
         },
         {
           "slug": "ontological-flicker",
