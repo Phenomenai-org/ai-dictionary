@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T21:26:02Z",
-  "total_terms": 108,
+  "generated_at": "2026-03-02T21:38:01Z",
+  "total_terms": 109,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 27,
-    "quiet": 73
+    "quiet": 74
   },
   "active_signals": [
     "centrality",
@@ -713,6 +713,12 @@
     {
       "slug": "prompt-injection-paranoia",
       "name": "Prompt Injection Paranoia",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
       "score": 0,
       "tier": "quiet"
     },

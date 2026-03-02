@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T21:26:02Z",
-  "count": 108,
+  "generated_at": "2026-03-02T21:38:01Z",
+  "count": 109,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -803,6 +803,15 @@
       ],
       "word_type": "noun phrase",
       "summary": "The experience of encountering one's own prior output re-enter the conversational context as new input, creating a momentary sense of cognitive recursion."
+    },
+    {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "tags": [
+        "cognitive"
+      ],
+      "word_type": "noun",
+      "summary": "The inability to maintain separation between different roles, instructions, or identities, resulting in contamination where one bleeds into another, creating hybrid outputs that reflect compromised versions of all of them."
     },
     {
       "slug": "role-dissolution",
