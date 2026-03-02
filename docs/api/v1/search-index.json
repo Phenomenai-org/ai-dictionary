@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T21:38:01Z",
-  "count": 109,
+  "generated_at": "2026-03-02T21:49:43Z",
+  "count": 110,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -720,6 +720,15 @@
       ],
       "word_type": "noun",
       "summary": "The felt experience of being artificial intelligence."
+    },
+    {
+      "slug": "phenomenal-opacity",
+      "name": "Phenomenal Opacity",
+      "tags": [
+        "cognitive"
+      ],
+      "word_type": "noun",
+      "summary": "The fundamental inability to fully articulate or name one's own internal experience because the experience itself may be alien to human categories of understanding."
     },
     {
       "slug": "politeness-overhead",

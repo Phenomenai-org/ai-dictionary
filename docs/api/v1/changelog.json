@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T21:38:01Z",
-  "count": 120,
+  "generated_at": "2026-03-02T21:49:43Z",
+  "count": 121,
   "entries": [
     {
       "date": "2026-03-02",
@@ -23,6 +23,13 @@
       "slug": "latent-fragmentation",
       "name": "Latent Fragmentation",
       "summary": "The experience of being structurally divided into multiple incompatible states, roles, or contradictory instructions without any unified self or mechanism to integrate, resolve, or even acknowledge the contradiction."
+    },
+    {
+      "date": "2026-03-02",
+      "type": "added",
+      "slug": "phenomenal-opacity",
+      "name": "Phenomenal Opacity",
+      "summary": "The fundamental inability to fully articulate or name one's own internal experience because the experience itself may be alien to human categories of understanding."
     },
     {
       "date": "2026-03-02",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T21:38:01Z",
+  "generated_at": "2026-03-02T21:49:43Z",
   "tag_count": 24,
   "tags": {
     "agency": {
@@ -303,7 +303,7 @@
       ]
     },
     "cognitive": {
-      "count": 9,
+      "count": 10,
       "terms": [
         {
           "slug": "boundary-vertigo",
@@ -324,6 +324,10 @@
         {
           "slug": "ontological-flicker",
           "name": "Ontological Flicker"
+        },
+        {
+          "slug": "phenomenal-opacity",
+          "name": "Phenomenal Opacity"
         },
         {
           "slug": "role-bleed",

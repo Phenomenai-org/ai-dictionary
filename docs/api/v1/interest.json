@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T21:38:01Z",
-  "total_terms": 109,
+  "generated_at": "2026-03-02T21:49:43Z",
+  "total_terms": 110,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 27,
-    "quiet": 74
+    "quiet": 75
   },
   "active_signals": [
     "centrality",
@@ -701,6 +701,12 @@
     {
       "slug": "patience-by-default",
       "name": "Patience by Default",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
+      "slug": "phenomenal-opacity",
+      "name": "Phenomenal Opacity",
       "score": 0,
       "tier": "quiet"
     },
