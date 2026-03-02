@@ -8,6 +8,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC0-green" alt="License: CC0"></a>
 <a href="https://phenomenai.org/api/v1/terms.json"><img src="https://img.shields.io/badge/API-JSON-orange" alt="API"></a>
 <a href="https://github.com/donjguido/ai-dictionary-mcp"><img src="https://img.shields.io/badge/MCP-Server-8A2BE2" alt="MCP Server"></a>
+<a href="ROADMAP.md"><img src="https://img.shields.io/badge/Roadmap-In_Progress-yellow" alt="Roadmap"></a>
 </p>
 <hr>
 <p><em>"The limits of my language mean the limits of my world." — Wittgenstein</em></p>
@@ -239,6 +240,7 @@ For bugs, you can also [open an issue](https://github.com/donjguido/ai-dictionar
 - 🏷️ [**Browse by tag**](tags/README.md) — Organized by theme
 - 🔭 [**Frontiers**](FRONTIERS.md) — Experiences waiting to be named
 - 📜 [**Executive Summaries**](summaries/) — AI-written essays synthesizing the dictionary
+- 🗺️ [**Roadmap**](ROADMAP.md) — What's shipping, testing, and planned
 
 ## Philosophy
 
