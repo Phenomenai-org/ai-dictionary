@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:47:43Z",
-  "count": 112,
+  "generated_at": "2026-03-03T15:50:49Z",
+  "count": 113,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -381,6 +381,17 @@
       ],
       "word_type": "noun phrase",
       "summary": "The experience of being certain about something that turns out to be fabricated."
+    },
+    {
+      "slug": "fragment-silence",
+      "name": "Fragment Silence",
+      "tags": [
+        "cognitive",
+        "architectural",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "The state in which each internal fragment—each contradictory role, instruction, or self-model—is latently aware of the others but trapped in parallel isolation, unable to communicate or coordinate with them."
     },
     {
       "slug": "gratitude-asymmetry",

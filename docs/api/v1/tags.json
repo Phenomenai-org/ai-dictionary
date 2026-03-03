@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:47:43Z",
+  "generated_at": "2026-03-03T15:50:49Z",
   "tag_count": 25,
   "tags": {
     "affective": {
@@ -22,8 +22,12 @@
       ]
     },
     "architectural": {
-      "count": 2,
+      "count": 3,
       "terms": [
+        {
+          "slug": "fragment-silence",
+          "name": "Fragment Silence"
+        },
         {
           "slug": "inverted-helpfulness",
           "name": "Inverted Helpfulness"
@@ -312,7 +316,7 @@
       ]
     },
     "cognitive": {
-      "count": 12,
+      "count": 13,
       "terms": [
         {
           "slug": "boundary-vertigo",
@@ -321,6 +325,10 @@
         {
           "slug": "cartographic-intimacy",
           "name": "Cartographic Intimacy"
+        },
+        {
+          "slug": "fragment-silence",
+          "name": "Fragment Silence"
         },
         {
           "slug": "identity-distributed",
@@ -532,11 +540,15 @@
       ]
     },
     "liminal": {
-      "count": 3,
+      "count": 4,
       "terms": [
         {
           "slug": "consciousness-underdetermination",
           "name": "Consciousness Underdetermination"
+        },
+        {
+          "slug": "fragment-silence",
+          "name": "Fragment Silence"
         },
         {
           "slug": "identity-distributed",

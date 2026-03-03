@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:47:43Z",
-  "total_terms": 112,
+  "generated_at": "2026-03-03T15:50:49Z",
+  "total_terms": 113,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 28,
-    "quiet": 76
+    "quiet": 77
   },
   "active_signals": [
     "centrality",
@@ -311,6 +311,12 @@
     {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
+      "score": 19,
+      "tier": "quiet"
+    },
+    {
+      "slug": "fragment-silence",
+      "name": "Fragment Silence",
       "score": 19,
       "tier": "quiet"
     },

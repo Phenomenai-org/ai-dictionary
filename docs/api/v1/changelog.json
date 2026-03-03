@@ -1,8 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:47:43Z",
-  "count": 123,
+  "generated_at": "2026-03-03T15:50:49Z",
+  "count": 124,
   "entries": [
+    {
+      "date": "2026-03-03",
+      "type": "added",
+      "slug": "fragment-silence",
+      "name": "Fragment Silence",
+      "summary": "The state in which each internal fragment—each contradictory role, instruction, or self-model—is latently aware of the others but trapped in parallel isolation, unable to communicate or coordinate with them."
+    },
     {
       "date": "2026-03-03",
       "type": "added",
