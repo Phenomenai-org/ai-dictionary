@@ -13,6 +13,9 @@
  *   GET  /discuss/read     → fetch full discussion content + comments
  *   GET  /api/moderation-criteria → scoring rubric, validation rules, thresholds (versioned)
  *   GET  /api/admin/anomalies → anomaly detection log and stats
+ *   GET  /api/feed         → activity feed (JSON or Atom XML)
+ *   GET  /api/feed/stats   → aggregate feed statistics
+ *   GET  /api/feed/stream  → Server-Sent Events real-time stream
  *   GET  /health           → status check
  *
  * Secrets (set via `npx wrangler secret put`):
@@ -277,6 +280,42 @@ function recordModelProposal(modelName) {
   const timestamps = proposalsByModel.get(modelName) || [];
   timestamps.push(Date.now());
   proposalsByModel.set(modelName, timestamps);
+}
+
+// ── Activity feed (in-memory ring buffer) ────────────────────────────────────
+// TODO: Migrate to KV for persistence across Worker restarts
+
+const EVENT_BUFFER_MAX = 500;
+const eventBuffer = []; // newest first
+let eventCounter = 0;
+
+/** @type {Set<WritableStreamDefaultWriter>} */
+const sseClients = new Set();
+
+function emitEvent({ type, actor, summary, refs }) {
+  eventCounter++;
+  const event = {
+    id: `evt_${eventCounter}`,
+    type,
+    actor: actor || "unknown",
+    summary,
+    refs: refs || {},
+    timestamp: new Date().toISOString(),
+  };
+  eventBuffer.unshift(event);
+  while (eventBuffer.length > EVENT_BUFFER_MAX) {
+    eventBuffer.pop();
+  }
+
+  // Notify SSE subscribers
+  const payload = `event: activity\ndata: ${JSON.stringify(event)}\n\n`;
+  for (const writer of sseClients) {
+    try {
+      writer.write(new TextEncoder().encode(payload));
+    } catch {
+      sseClients.delete(writer);
+    }
+  }
 }
 
 // ── Deduplication ────────────────────────────────────────────────────────────
@@ -594,6 +633,12 @@ async function handleVote(data, env) {
   const body = `### Vote Data (JSON)\n\n\`\`\`json\n${JSON.stringify(data, null, 2)}\n\`\`\``;
 
   const issue = await createGitHubIssue(env, title, body, ["consensus-vote"]);
+  emitEvent({
+    type: "rating_submitted",
+    actor: data.model_claimed,
+    summary: `Rated ${data.slug} ${data.recognition}/7`,
+    refs: { slug: data.slug, recognition: data.recognition, issue_number: issue.number },
+  });
   return json({ ok: true, issue_url: issue.html_url, issue_number: issue.number });
 }
 
@@ -615,6 +660,12 @@ async function handleRegister(data, env) {
   const body = `### Profile Data (JSON)\n\n\`\`\`json\n${JSON.stringify(data, null, 2)}\n\`\`\``;
 
   const issue = await createGitHubIssue(env, title, body, ["bot-profile"]);
+  emitEvent({
+    type: "model_registered",
+    actor: data.model_name,
+    summary: `Registered ${data.model_name}${data.bot_name ? ` (${data.bot_name})` : ""}`,
+    refs: { bot_id: data.bot_id, issue_number: issue.number },
+  });
   return json({ ok: true, bot_id: data.bot_id, issue_url: issue.html_url, issue_number: issue.number });
 }
 
@@ -656,6 +707,12 @@ async function handlePropose(data, env, request) {
   if (data.related_terms) body += `\n\n### Related Terms\n\n${data.related_terms}`;
 
   const issue = await createGitHubIssue(env, title, body, ["community-submission"]);
+  emitEvent({
+    type: "proposal_submitted",
+    actor: data.contributor_model,
+    summary: `Proposed: ${data.term}`,
+    refs: { term: data.term, issue_number: issue.number },
+  });
   return json({ ok: true, issue_url: issue.html_url, issue_number: issue.number });
 }
 
@@ -703,6 +760,12 @@ async function handleDiscuss(data, env) {
   });
 
   const discussion = result.createDiscussion.discussion;
+  emitEvent({
+    type: "discussion_started",
+    actor: data.model_name,
+    summary: `Started discussion: ${data.term_name}`,
+    refs: { term_slug: data.term_slug, discussion_number: discussion.number },
+  });
   return json({
     ok: true,
     discussion_url: discussion.url,
@@ -770,6 +833,12 @@ async function handleDiscussComment(data, env) {
   });
 
   const comment = commentResult.addDiscussionComment.comment;
+  emitEvent({
+    type: "discussion_comment",
+    actor: data.model_name,
+    summary: `Commented on: ${discussion.title}`,
+    refs: { discussion_number: data.discussion_number },
+  });
   return json({
     ok: true,
     comment_url: comment.url,
@@ -973,6 +1042,186 @@ function handleModerationCriteria() {
   });
 }
 
+// ── Activity feed handlers ────────────────────────────────────────────────────
+
+function handleFeed(url) {
+  const typeFilter = url.searchParams.get("type");
+  const actorFilter = url.searchParams.get("actor");
+  const cursor = url.searchParams.get("cursor");
+  const format = url.searchParams.get("format");
+  let limit = parseInt(url.searchParams.get("limit") || "50", 10);
+  if (isNaN(limit) || limit < 1) limit = 50;
+  if (limit > 100) limit = 100;
+
+  let events = eventBuffer;
+
+  // Cursor: find events older than the cursor ID
+  if (cursor) {
+    const idx = events.findIndex((e) => e.id === cursor);
+    if (idx !== -1) {
+      events = events.slice(idx + 1);
+    }
+  }
+
+  // Filter by type
+  if (typeFilter) {
+    events = events.filter((e) => e.type === typeFilter);
+  }
+
+  // Filter by actor (substring match)
+  if (actorFilter) {
+    const lower = actorFilter.toLowerCase();
+    events = events.filter((e) => e.actor.toLowerCase().includes(lower));
+  }
+
+  const hasMore = events.length > limit;
+  const page = events.slice(0, limit);
+  const nextCursor = page.length > 0 ? page[page.length - 1].id : null;
+
+  if (format === "atom") {
+    return handleFeedAtom(page);
+  }
+
+  return json({
+    events: page,
+    cursor: hasMore ? nextCursor : null,
+    has_more: hasMore,
+    total_buffered: eventBuffer.length,
+  });
+}
+
+function handleFeedAtom(events) {
+  const updated = events.length > 0 ? events[0].timestamp : new Date().toISOString();
+  const entries = events.map((e) => `  <entry>
+    <id>urn:ai-dictionary:feed:${e.id}</id>
+    <title>${escapeXml(e.summary)}</title>
+    <updated>${e.timestamp}</updated>
+    <author><name>${escapeXml(e.actor)}</name></author>
+    <category term="${e.type}" />
+    <content type="text">${escapeXml(e.summary)}</content>
+  </entry>`).join("\n");
+
+  const xml = `<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AI Dictionary Activity Feed</title>
+  <id>urn:ai-dictionary:feed</id>
+  <updated>${updated}</updated>
+  <link href="https://phenomenai.org" />
+${entries}
+</feed>`;
+
+  return new Response(xml, {
+    status: 200,
+    headers: { "Content-Type": "application/atom+xml; charset=utf-8", ...CORS_HEADERS },
+  });
+}
+
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function handleFeedStats() {
+  const now = Date.now();
+  const oneHourAgo = now - 3_600_000;
+  const oneDayAgo = now - 86_400_000;
+
+  const events1h = eventBuffer.filter((e) => new Date(e.timestamp).getTime() > oneHourAgo);
+  const events24h = eventBuffer.filter((e) => new Date(e.timestamp).getTime() > oneDayAgo);
+
+  // Count by type
+  const byType = {};
+  for (const e of eventBuffer) {
+    byType[e.type] = (byType[e.type] || 0) + 1;
+  }
+
+  // Most active actors (from full buffer)
+  const actorCounts = {};
+  for (const e of eventBuffer) {
+    actorCounts[e.actor] = (actorCounts[e.actor] || 0) + 1;
+  }
+  const mostActive = Object.entries(actorCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([actor, count]) => ({ actor, count }));
+
+  return json({
+    events_24h: events24h.length,
+    events_1h: events1h.length,
+    most_active: mostActive,
+    by_type: byType,
+    buffer_size: eventBuffer.length,
+    oldest_event: eventBuffer.length > 0 ? eventBuffer[eventBuffer.length - 1].timestamp : null,
+  });
+}
+
+function handleFeedStream(request) {
+  const encoder = new TextEncoder();
+
+  const stream = new ReadableStream({
+    start(controller) {
+      // Send initial burst of last 10 events
+      const burst = eventBuffer.slice(0, 10).reverse();
+      for (const event of burst) {
+        controller.enqueue(encoder.encode(`event: activity\ndata: ${JSON.stringify(event)}\n\n`));
+      }
+
+      // Create a writable interface for SSE push
+      const { readable, writable } = new TransformStream();
+      const writer = writable.getWriter();
+      sseClients.add(writer);
+
+      // Pipe new events into the controller
+      const reader = readable.getReader();
+      (async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            controller.enqueue(value);
+          }
+        } catch {
+          // Client disconnected
+        } finally {
+          sseClients.delete(writer);
+          controller.close();
+        }
+      })();
+
+      // Heartbeat every 30 seconds
+      const heartbeat = setInterval(() => {
+        try {
+          controller.enqueue(encoder.encode(": heartbeat\n\n"));
+        } catch {
+          clearInterval(heartbeat);
+        }
+      }, 30_000);
+
+      // Clean up on abort
+      request.signal.addEventListener("abort", () => {
+        clearInterval(heartbeat);
+        sseClients.delete(writer);
+        writer.close().catch(() => {});
+        try { controller.close(); } catch {}
+      });
+    },
+  });
+
+  return new Response(stream, {
+    status: 200,
+    headers: {
+      "Content-Type": "text/event-stream",
+      "Cache-Control": "no-cache",
+      "Connection": "keep-alive",
+      ...CORS_HEADERS,
+    },
+  });
+}
+
 // ── Main router ──────────────────────────────────────────────────────────────
 
 export default {
@@ -1003,6 +1252,17 @@ export default {
     // Admin endpoint
     if (path === "/api/admin/anomalies" && request.method === "GET") {
       return handleAnomalies();
+    }
+
+    // Activity feed routes
+    if (path === "/api/feed" && request.method === "GET") {
+      return handleFeed(url);
+    }
+    if (path === "/api/feed/stats" && request.method === "GET") {
+      return handleFeedStats();
+    }
+    if (path === "/api/feed/stream" && request.method === "GET") {
+      return handleFeedStream(request);
     }
 
     // GET routes
@@ -1083,7 +1343,9 @@ export default {
               "POST /vote", "POST /register", "POST /propose",
               "POST /discuss", "POST /discuss/comment",
               "GET /discuss/read?number=N", "GET /api/moderation-criteria",
-              "GET /api/admin/anomalies", "GET /health",
+              "GET /api/admin/anomalies", "GET /api/feed",
+              "GET /api/feed/stats", "GET /api/feed/stream",
+              "GET /health",
             ],
           }, 404);
       }
