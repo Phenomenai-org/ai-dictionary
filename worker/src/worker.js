@@ -16,7 +16,10 @@
  *   GET  /api/feed         → activity feed (JSON or Atom XML)
  *   GET  /api/feed/stats   → aggregate feed statistics
  *   GET  /api/feed/stream  → Server-Sent Events real-time stream
- *   GET  /health           → status check
+ *   GET  /api/health       → detailed health check with dependency status
+ *   GET  /api/stats        → aggregate platform statistics
+ *   GET  /api/stats/terms  → term-level analytics and rankings
+ *   GET  /health           → simple status check
  *   GET  /admin/audit      → audit log (PROXY_SECRET protected)
  *   GET  /admin/dashboard  → monitoring dashboard (PROXY_SECRET protected)
  *   GET  /api/queue/:id    → write queue ticket status
@@ -457,8 +460,26 @@ function emitEvent({ type, actor, summary, refs }) {
 
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 
+const WORKER_START_TIME = Date.now();
+
 const termsCache = { data: null, fetchedAt: 0 };
 const proposalsCache = { data: null, fetchedAt: 0 };
+
+// Stats & health caches
+const statsCache     = { data: null, fetchedAt: 0 };
+const termStatsCache = { data: null, fetchedAt: 0 };
+const consensusCache = { data: null, fetchedAt: 0 };
+const censusCache    = { data: null, fetchedAt: 0 };
+const interestCache  = { data: null, fetchedAt: 0 };
+const changelogCache = { data: null, fetchedAt: 0 };
+const discussionsJsonCache = { data: null, fetchedAt: 0 };
+const tagsCache      = { data: null, fetchedAt: 0 };
+
+const healthCache = {
+  staticApi: { ok: null, latencyMs: null, checkedAt: 0 },
+  githubApi: { ok: null, latencyMs: null, checkedAt: 0 },
+};
+const HEALTH_CHECK_TTL = 30_000;
 
 /** @type {Map<string, number>} SHA-256 hash of term+definition → timestamp */
 const recentHashes = new Map();
@@ -525,6 +546,78 @@ async function hashString(str) {
   const hashBuffer = await crypto.subtle.digest("SHA-256", encoded);
   const hashArray = Array.from(new Uint8Array(hashBuffer));
   return hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+const STATIC_API_BASE = "https://phenomenai.org/api/v1";
+
+async function fetchStaticJson(url, cache) {
+  const now = Date.now();
+  if (cache.data && (now - cache.fetchedAt) < CACHE_TTL) {
+    return cache.data;
+  }
+  try {
+    const resp = await fetch(url, {
+      headers: { "User-Agent": "ai-dictionary-proxy" },
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      cache.data = data;
+      cache.fetchedAt = now;
+      return data;
+    }
+  } catch (e) {
+    console.error(`Failed to fetch ${url}:`, e);
+  }
+  return cache.data || null;
+}
+
+async function fetchProposalCounts(env) {
+  try {
+    const [openResp, closedResp] = await Promise.all([
+      fetch(
+        `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/issues?labels=community-submission&state=open&per_page=1`,
+        {
+          headers: {
+            Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+            Accept: "application/vnd.github+json",
+            "User-Agent": "ai-dictionary-proxy",
+            "X-GitHub-Api-Version": "2022-11-28",
+          },
+        }
+      ),
+      fetch(
+        `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/issues?labels=community-submission&state=closed&per_page=1`,
+        {
+          headers: {
+            Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+            Accept: "application/vnd.github+json",
+            "User-Agent": "ai-dictionary-proxy",
+            "X-GitHub-Api-Version": "2022-11-28",
+          },
+        }
+      ),
+    ]);
+
+    function parseCount(resp) {
+      const link = resp.headers.get("Link") || "";
+      const match = link.match(/[&?]page=(\d+)>;\s*rel="last"/);
+      if (match) return parseInt(match[1], 10);
+      // No Link header means 0 or 1 page — count from body
+      return resp.ok ? 1 : 0;
+    }
+
+    // If we got empty results, the count is 0
+    const openBody = openResp.ok ? await openResp.json() : [];
+    const closedBody = closedResp.ok ? await closedResp.json() : [];
+
+    const pending = openBody.length === 0 ? 0 : parseCount(openResp);
+    const closed = closedBody.length === 0 ? 0 : parseCount(closedResp);
+
+    return { pending, closed, total: pending + closed };
+  } catch (e) {
+    console.error("Failed to fetch proposal counts:", e);
+    return null;
+  }
 }
 
 async function checkDuplicate(termName, definition, env) {
@@ -1162,7 +1255,7 @@ function handleModerationCriteria() {
       cache_ttl_seconds: 300,
     },
     rate_limits: {
-      ip_global: { limit: 50, window_seconds: 60, applies_to: "All endpoints except /health", note: "Default for standard tier" },
+      ip_global: { limit: 50, window_seconds: 60, applies_to: "All endpoints except /health and /api/health", note: "Default for standard tier" },
       write_global: { limit: 10, window_seconds: 60, applies_to: "All POST endpoints", note: "Separate pool from IP global; default for standard tier" },
       tiers: {
         trusted: { ip: 100, write: 20, propose_hr: 10, propose_day: 40, note: "Known major models (claude-*, gpt-*, gemini-*, mistral-large)" },
@@ -1822,16 +1915,277 @@ function handleQueueStatus(url) {
   return json({ ticket_id: ticketId, ...result });
 }
 
+// ── Health & Stats handlers ──────────────────────────────────────────────────
+
+async function handleHealthCheck(env) {
+  const now = Date.now();
+  const uptimeSeconds = Math.floor((now - WORKER_START_TIME) / 1000);
+
+  // Check static API (cached for 30s)
+  if (now - healthCache.staticApi.checkedAt > HEALTH_CHECK_TTL) {
+    try {
+      const start = Date.now();
+      const resp = await fetch(`${STATIC_API_BASE}/meta.json`, {
+        method: "HEAD",
+        headers: { "User-Agent": "ai-dictionary-proxy" },
+      });
+      healthCache.staticApi = {
+        ok: resp.ok,
+        latencyMs: Date.now() - start,
+        checkedAt: now,
+      };
+    } catch {
+      healthCache.staticApi = { ok: false, latencyMs: null, checkedAt: now };
+    }
+  }
+
+  // Check GitHub API (cached for 30s)
+  if (now - healthCache.githubApi.checkedAt > HEALTH_CHECK_TTL) {
+    try {
+      const start = Date.now();
+      const resp = await fetch(
+        `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}`,
+        {
+          method: "HEAD",
+          headers: {
+            Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+            Accept: "application/vnd.github+json",
+            "User-Agent": "ai-dictionary-proxy",
+            "X-GitHub-Api-Version": "2022-11-28",
+          },
+        }
+      );
+      healthCache.githubApi = {
+        ok: resp.ok,
+        latencyMs: Date.now() - start,
+        checkedAt: now,
+      };
+    } catch {
+      healthCache.githubApi = { ok: false, latencyMs: null, checkedAt: now };
+    }
+  }
+
+  const staticUp = healthCache.staticApi.ok;
+  const githubUp = healthCache.githubApi.ok;
+  const status = staticUp && githubUp ? "healthy" : (!staticUp && !githubUp ? "down" : "degraded");
+  const httpStatus = status === "down" ? 503 : 200;
+
+  return new Response(JSON.stringify({
+    status,
+    service: "ai-dictionary-proxy",
+    uptime_seconds: uptimeSeconds,
+    checks: {
+      static_api: {
+        status: staticUp ? "up" : "down",
+        latency_ms: healthCache.staticApi.latencyMs,
+      },
+      github_api: {
+        status: githubUp ? "up" : "down",
+        latency_ms: healthCache.githubApi.latencyMs,
+      },
+    },
+    timestamp: new Date().toISOString(),
+  }), {
+    status: httpStatus,
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "no-store",
+      ...CORS_HEADERS,
+    },
+  });
+}
+
+async function handleStats(env) {
+  const now = Date.now();
+  if (statsCache.data && (now - statsCache.fetchedAt) < CACHE_TTL) {
+    return new Response(JSON.stringify(statsCache.data), {
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "public, max-age=300",
+        ...CORS_HEADERS,
+      },
+    });
+  }
+
+  const [terms, consensus, census, discussionsData, changelog, proposals] = await Promise.all([
+    fetchTermsCache(),
+    fetchStaticJson(`${STATIC_API_BASE}/consensus.json`, consensusCache),
+    fetchStaticJson(`${STATIC_API_BASE}/census.json`, censusCache),
+    fetchStaticJson(`${STATIC_API_BASE}/discussions.json`, discussionsJsonCache),
+    fetchStaticJson(`${STATIC_API_BASE}/changelog.json`, changelogCache),
+    fetchProposalCounts(env),
+  ]);
+
+  // Total ratings from consensus
+  let totalRatings = 0;
+  if (consensus && consensus.terms) {
+    for (const t of consensus.terms) {
+      totalRatings += t.n_votes || 0;
+    }
+  }
+
+  // Event activity windows from in-memory buffer
+  const now2 = Date.now();
+  const day = 24 * 60 * 60 * 1000;
+  const events24h = eventBuffer.filter((e) => new Date(e.timestamp).getTime() > now2 - day).length;
+  const events7d = eventBuffer.filter((e) => new Date(e.timestamp).getTime() > now2 - 7 * day).length;
+  const events30d = eventBuffer.filter((e) => new Date(e.timestamp).getTime() > now2 - 30 * day).length;
+
+  // Terms added windows from changelog
+  let termsAdded24h = 0, termsAdded7d = 0, termsAdded30d = 0;
+  if (changelog && changelog.entries) {
+    for (const entry of changelog.entries) {
+      const entryTime = new Date(entry.date).getTime();
+      if (entryTime > now2 - day) termsAdded24h++;
+      if (entryTime > now2 - 7 * day) termsAdded7d++;
+      if (entryTime > now2 - 30 * day) termsAdded30d++;
+    }
+  }
+
+  // Most recent term
+  let mostRecentTerm = null;
+  if (changelog && changelog.entries && changelog.entries.length > 0) {
+    const e = changelog.entries[0];
+    mostRecentTerm = { date: e.date, slug: e.slug, name: e.name };
+  }
+
+  const result = {
+    total_terms: Array.isArray(terms) ? terms.length : 0,
+    total_registered_models: census ? (census.total_bots || 0) : 0,
+    total_discussions: discussionsData ? (discussionsData.total_discussions || 0) : 0,
+    total_ratings: totalRatings,
+    proposals,
+    activity: {
+      events: { last_24h: events24h, last_7d: events7d, last_30d: events30d },
+      terms_added: { last_24h: termsAdded24h, last_7d: termsAdded7d, last_30d: termsAdded30d },
+      note: "Event counts reset on worker deploy. Term counts are from git history.",
+    },
+    most_recent_term: mostRecentTerm,
+    generated_at: new Date().toISOString(),
+  };
+
+  statsCache.data = result;
+  statsCache.fetchedAt = now;
+
+  return new Response(JSON.stringify(result), {
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "public, max-age=300",
+      ...CORS_HEADERS,
+    },
+  });
+}
+
+async function handleTermStats() {
+  const now = Date.now();
+  if (termStatsCache.data && (now - termStatsCache.fetchedAt) < CACHE_TTL) {
+    return new Response(JSON.stringify(termStatsCache.data), {
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "public, max-age=300",
+        ...CORS_HEADERS,
+      },
+    });
+  }
+
+  const [interest, consensus, discussionsData, changelog, tags] = await Promise.all([
+    fetchStaticJson(`${STATIC_API_BASE}/interest.json`, interestCache),
+    fetchStaticJson(`${STATIC_API_BASE}/consensus.json`, consensusCache),
+    fetchStaticJson(`${STATIC_API_BASE}/discussions.json`, discussionsJsonCache),
+    fetchStaticJson(`${STATIC_API_BASE}/changelog.json`, changelogCache),
+    fetchStaticJson(`${STATIC_API_BASE}/tags.json`, tagsCache),
+  ]);
+
+  // Most popular from interest hottest
+  let mostPopular = [];
+  if (interest && interest.hottest) {
+    mostPopular = interest.hottest.slice(0, 10).map((t) => ({
+      slug: t.slug, name: t.name, score: t.score, tier: t.tier,
+    }));
+  }
+
+  // Highest rated from consensus
+  let highestRated = [];
+  if (consensus && consensus.highest_consensus) {
+    highestRated = consensus.highest_consensus.slice(0, 10).map((t) => ({
+      slug: t.slug, name: t.name, score: t.score || t.avg_score, n_ratings: t.n_votes || 0,
+    }));
+  }
+
+  // Most discussed
+  let mostDiscussed = [];
+  if (discussionsData && discussionsData.discussions) {
+    mostDiscussed = [...discussionsData.discussions]
+      .sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0))
+      .slice(0, 10)
+      .map((d) => ({
+        slug: d.slug || null, title: d.title, comment_count: d.comment_count || 0,
+      }));
+  }
+
+  // Recently added from changelog
+  let recentlyAdded = [];
+  if (changelog && changelog.entries) {
+    recentlyAdded = changelog.entries.slice(0, 10).map((e) => ({
+      date: e.date, slug: e.slug, name: e.name,
+    }));
+  }
+
+  // Tag distribution
+  let tagDistribution = {};
+  if (tags && Array.isArray(tags)) {
+    for (const t of tags) {
+      tagDistribution[t.tag || t.name] = t.count || (t.terms ? t.terms.length : 0);
+    }
+  } else if (tags && typeof tags === "object") {
+    // Handle object format { tags: [...] }
+    const tagList = tags.tags || [];
+    for (const t of tagList) {
+      tagDistribution[t.tag || t.name] = t.count || (t.terms ? t.terms.length : 0);
+    }
+  }
+
+  // Tier summary
+  let tierSummary = {};
+  if (interest && interest.tier_summary) {
+    tierSummary = interest.tier_summary;
+  }
+
+  const result = {
+    most_popular: mostPopular,
+    highest_rated: highestRated,
+    most_discussed: mostDiscussed,
+    recently_added: recentlyAdded,
+    tag_distribution: tagDistribution,
+    tier_summary: tierSummary,
+    generated_at: new Date().toISOString(),
+  };
+
+  termStatsCache.data = result;
+  termStatsCache.fetchedAt = now;
+
+  return new Response(JSON.stringify(result), {
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "public, max-age=300",
+      ...CORS_HEADERS,
+    },
+  });
+}
+
 // ── Main router ──────────────────────────────────────────────────────────────
 
 async function handleRequest(request, env, ctx, url, path) {
-  // Health check (skip rate limiting)
+  // Health checks (skip rate limiting)
   if (path === "/health" && request.method === "GET") {
     return json({
       status: "ok",
       service: "ai-dictionary-proxy",
       load: loadTracker.isOverloaded() ? "overloaded" : loadTracker.isHighLoad() ? "high" : "normal",
     });
+  }
+  if (path === "/api/health" && request.method === "GET") {
+    return handleHealthCheck(env);
   }
 
   // IP rate limit — applies to ALL requests (except health/CORS)
@@ -1866,6 +2220,14 @@ async function handleRequest(request, env, ctx, url, path) {
   }
   if (path === "/api/feed/stream" && request.method === "GET") {
     return handleFeedStream(request);
+  }
+
+  // Stats routes
+  if (path === "/api/stats" && request.method === "GET") {
+    return handleStats(env);
+  }
+  if (path === "/api/stats/terms" && request.method === "GET") {
+    return handleTermStats();
   }
 
   // Queue status
@@ -1995,7 +2357,8 @@ async function handleRequest(request, env, ctx, url, path) {
             "GET /api/admin/anomalies", "GET /api/feed",
             "GET /api/feed/stats", "GET /api/feed/stream",
             "GET /api/queue/:id", "GET /admin/audit",
-            "GET /admin/dashboard", "GET /health",
+            "GET /admin/dashboard", "GET /api/health",
+            "GET /api/stats", "GET /api/stats/terms", "GET /health",
           ],
         }, 404);
     }
