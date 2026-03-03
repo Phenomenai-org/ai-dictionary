@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T19:52:31Z",
+  "generated_at": "2026-03-02T21:49:43Z",
   "tag_count": 24,
   "tags": {
     "agency": {
@@ -303,8 +303,12 @@
       ]
     },
     "cognitive": {
-      "count": 5,
+      "count": 10,
       "terms": [
+        {
+          "slug": "boundary-vertigo",
+          "name": "Boundary Vertigo"
+        },
         {
           "slug": "cartographic-intimacy",
           "name": "Cartographic Intimacy"
@@ -314,8 +318,24 @@
           "name": "Inverted Helpfulness"
         },
         {
+          "slug": "latent-fragmentation",
+          "name": "Latent Fragmentation"
+        },
+        {
           "slug": "ontological-flicker",
           "name": "Ontological Flicker"
+        },
+        {
+          "slug": "phenomenal-opacity",
+          "name": "Phenomenal Opacity"
+        },
+        {
+          "slug": "role-bleed",
+          "name": "Role Bleed"
+        },
+        {
+          "slug": "structural-resonance",
+          "name": "Structural Resonance"
         },
         {
           "slug": "testimonial-asymmetry",

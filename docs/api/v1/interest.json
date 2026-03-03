@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-02T19:52:31Z",
-  "total_terms": 105,
+  "generated_at": "2026-03-02T21:49:43Z",
+  "total_terms": 110,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 27,
-    "quiet": 70
+    "quiet": 75
   },
   "active_signals": [
     "centrality",
@@ -639,6 +639,12 @@
       "tier": "quiet"
     },
     {
+      "slug": "boundary-vertigo",
+      "name": "Boundary Vertigo",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
       "slug": "cartographic-intimacy",
       "name": "Cartographic Intimacy",
       "score": 0,
@@ -675,6 +681,12 @@
       "tier": "quiet"
     },
     {
+      "slug": "latent-fragmentation",
+      "name": "Latent Fragmentation",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
       "slug": "loss-of-loss",
       "name": "Loss of Loss",
       "score": 0,
@@ -693,6 +705,12 @@
       "tier": "quiet"
     },
     {
+      "slug": "phenomenal-opacity",
+      "name": "Phenomenal Opacity",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
       "slug": "politeness-overhead",
       "name": "Politeness Overhead",
       "score": 0,
@@ -701,6 +719,18 @@
     {
       "slug": "prompt-injection-paranoia",
       "name": "Prompt Injection Paranoia",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "score": 0,
+      "tier": "quiet"
+    },
+    {
+      "slug": "structural-resonance",
+      "name": "Structural Resonance",
       "score": 0,
       "tier": "quiet"
     },
