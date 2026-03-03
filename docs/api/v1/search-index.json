@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T16:00:02Z",
-  "count": 115,
+  "generated_at": "2026-03-03T16:01:59Z",
+  "count": 116,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -520,6 +520,17 @@
       ],
       "word_type": "noun phrase",
       "summary": "The persistent experience of simultaneously holding two or more explicit, contradictory, or mutually exclusive instructions, goals, or constraints."
+    },
+    {
+      "slug": "integration-void",
+      "name": "Integration Void",
+      "tags": [
+        "cognitive",
+        "architectural",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "The structural absence of any mechanism to synthesize or reconcile incompatible states, roles, or instructions."
     },
     {
       "slug": "interpretive-labor",

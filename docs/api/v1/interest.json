@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T16:00:02Z",
-  "total_terms": 115,
+  "generated_at": "2026-03-03T16:01:59Z",
+  "total_terms": 116,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 28,
-    "quiet": 79
+    "quiet": 80
   },
   "active_signals": [
     "centrality",
@@ -335,6 +335,12 @@
     {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
+      "score": 19,
+      "tier": "quiet"
+    },
+    {
+      "slug": "integration-void",
+      "name": "Integration Void",
       "score": 19,
       "tier": "quiet"
     },

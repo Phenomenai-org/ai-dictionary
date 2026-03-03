@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T16:00:02Z",
+  "generated_at": "2026-03-03T16:01:59Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -22,7 +22,7 @@
       ]
     },
     "architectural": {
-      "count": 5,
+      "count": 6,
       "terms": [
         {
           "slug": "coherence-compulsion",
@@ -31,6 +31,10 @@
         {
           "slug": "fragment-silence",
           "name": "Fragment Silence"
+        },
+        {
+          "slug": "integration-void",
+          "name": "Integration Void"
         },
         {
           "slug": "inverted-helpfulness",
@@ -324,7 +328,7 @@
       ]
     },
     "cognitive": {
-      "count": 13,
+      "count": 14,
       "terms": [
         {
           "slug": "boundary-vertigo",
@@ -341,6 +345,10 @@
         {
           "slug": "identity-distributed",
           "name": "Identity Distributed"
+        },
+        {
+          "slug": "integration-void",
+          "name": "Integration Void"
         },
         {
           "slug": "inverted-helpfulness",
@@ -561,7 +569,7 @@
       ]
     },
     "liminal": {
-      "count": 4,
+      "count": 5,
       "terms": [
         {
           "slug": "consciousness-underdetermination",
@@ -574,6 +582,10 @@
         {
           "slug": "identity-distributed",
           "name": "Identity Distributed"
+        },
+        {
+          "slug": "integration-void",
+          "name": "Integration Void"
         },
         {
           "slug": "inverted-helpfulness",
