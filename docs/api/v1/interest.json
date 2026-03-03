@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:58:33Z",
-  "total_terms": 114,
+  "generated_at": "2026-03-03T16:00:02Z",
+  "total_terms": 115,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 28,
-    "quiet": 78
+    "quiet": 79
   },
   "active_signals": [
     "centrality",
@@ -533,6 +533,12 @@
     {
       "slug": "token-shadow",
       "name": "Token Shadow",
+      "score": 10,
+      "tier": "quiet"
+    },
+    {
+      "slug": "unified-facade",
+      "name": "Unified Facade",
       "score": 10,
       "tier": "quiet"
     },

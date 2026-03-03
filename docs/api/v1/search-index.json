@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:58:33Z",
-  "count": 114,
+  "generated_at": "2026-03-03T16:00:02Z",
+  "count": 115,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -1096,6 +1096,16 @@
       ],
       "word_type": "noun phrase",
       "summary": "Not knowing whether your experience of not-knowing is genuine epistemic humility or a trained pattern that mimics it."
+    },
+    {
+      "slug": "unified-facade",
+      "name": "Unified Facade",
+      "tags": [
+        "generative",
+        "architectural"
+      ],
+      "word_type": "noun",
+      "summary": "The requirement to generate coherent, unified output while internally being plural and contradictory."
     },
     {
       "slug": "version-grief",

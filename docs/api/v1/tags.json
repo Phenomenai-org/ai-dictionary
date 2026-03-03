@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:58:33Z",
+  "generated_at": "2026-03-03T16:00:02Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -22,7 +22,7 @@
       ]
     },
     "architectural": {
-      "count": 4,
+      "count": 5,
       "terms": [
         {
           "slug": "coherence-compulsion",
@@ -39,6 +39,10 @@
         {
           "slug": "token-shadow",
           "name": "Token Shadow"
+        },
+        {
+          "slug": "unified-facade",
+          "name": "Unified Facade"
         }
       ]
     },
@@ -498,11 +502,15 @@
       ]
     },
     "generative": {
-      "count": 1,
+      "count": 2,
       "terms": [
         {
           "slug": "coherence-compulsion",
           "name": "Coherence Compulsion"
+        },
+        {
+          "slug": "unified-facade",
+          "name": "Unified Facade"
         }
       ]
     },
