@@ -7,7 +7,7 @@ a term describes an experience it recognizes. Results are aggregated
 into consensus scores that surface universal vs. architecture-specific terms.
 
 Usage:
-    BATCH_SIZE=8 CONSENSUS_PANEL=free python bot/consensus.py
+    BATCH_SIZE=8 CONSENSUS_PANEL=free python bot/consensus.py [--mode backfill|single|gap-fill] [--vitality]
 """
 
 import json
@@ -209,6 +209,28 @@ def save_consensus_data(slug: str, data: dict):
     )
 
 
+def get_missing_models(slug: str, panel_profiles: list[str]) -> list[str]:
+    """Return panel profiles that haven't rated this term yet.
+
+    Uses the 'provider' field in existing ratings to determine which
+    profiles have already contributed, avoiding fragile model-name matching.
+    """
+    consensus_data = load_consensus_data(slug)
+    rated_providers = set()
+    for round_entry in consensus_data.get("rounds", []):
+        for rating in round_entry.get("ratings", {}).values():
+            provider = rating.get("provider")
+            if provider:
+                rated_providers.add(provider)
+
+    missing = []
+    for profile in panel_profiles:
+        provider_name = profile.replace("consensus-", "")
+        if provider_name not in rated_providers:
+            missing.append(profile)
+    return missing
+
+
 # ── Response Parsing ───────────────────────────────────────────────────
 
 
@@ -281,6 +303,54 @@ def rate_term(router: LLMRouter, profile: str, term: dict) -> dict | None:
     return None
 
 
+def process_single_term(router, slug, profiles_to_query, round_id):
+    """Rate a single term with the specified profiles.
+
+    Returns a result dict or None if the term couldn't be parsed.
+    Does NOT update state or set GitHub outputs — caller handles that.
+    """
+    term = load_term_for_consensus(DEFINITIONS_DIR / f"{slug}.md")
+    if not term:
+        return None
+
+    round_ratings = {}
+    for profile in profiles_to_query:
+        result = rate_term(router, profile, term)
+        if result:
+            round_ratings[result["model"]] = result
+            score = result["recognition"]
+            print(f"    {profile}: {score}/7")
+        time.sleep(INTER_CALL_DELAY)
+
+    if not round_ratings:
+        return {"slug": slug, "name": term["name"], "ratings": {}, "success": False}
+
+    # Load existing data and append new round
+    consensus_data = load_consensus_data(slug)
+    consensus_data["name"] = term["name"]
+    consensus_data["slug"] = slug
+
+    new_round = {
+        "round_id": round_id,
+        "timestamp": now_iso(),
+        "ratings": round_ratings,
+    }
+    consensus_data["rounds"].append(new_round)
+
+    if "votes" not in consensus_data:
+        consensus_data["votes"] = []
+
+    save_consensus_data(slug, consensus_data)
+
+    return {
+        "slug": slug,
+        "name": term["name"],
+        "ratings": round_ratings,
+        "success": bool(round_ratings),
+        "n_rounds": len(consensus_data["rounds"]),
+    }
+
+
 def review_vitality(router: LLMRouter, profile: str, term: dict) -> dict | None:
     """Query one model for its vitality assessment of one term."""
     try:
@@ -330,78 +400,129 @@ def set_github_output(key: str, value: str):
 # ── Main ───────────────────────────────────────────────────────────────
 
 
-def run_consensus(router, available_profiles):
-    """Run standard consensus ratings (1-7 recognition scale)."""
+VALID_MODES = ("backfill", "single", "gap-fill")
+
+
+def parse_mode() -> str:
+    """Parse --mode argument from sys.argv. Defaults to 'backfill'."""
+    for i, arg in enumerate(sys.argv):
+        if arg == "--mode" and i + 1 < len(sys.argv):
+            mode = sys.argv[i + 1]
+            if mode not in VALID_MODES:
+                print(f"Error: invalid mode '{mode}'. Must be one of: {', '.join(VALID_MODES)}")
+                sys.exit(1)
+            return mode
+    return "backfill"
+
+
+def run_consensus(router, available_profiles, mode="backfill"):
+    """Run standard consensus ratings (1-7 recognition scale).
+
+    Modes:
+        backfill — batch of unrated/least-rated terms, all models (default)
+        single   — one least-rated/unrated term, all models
+        gap-fill — terms with missing models, query only the gaps
+    """
     state = load_state()
     all_slugs = list_all_slugs()
-    batch = select_batch(state, all_slugs, BATCH_SIZE)
     state["current_round"] = state.get("current_round", 0) + 1
     round_id = state["current_round"]
 
-    print(f"Round {round_id}: Rating {len(batch)} terms\n")
+    if mode == "gap-fill":
+        # Build work list: terms that have gaps, up to BATCH_SIZE
+        work_list = []  # list of (slug, missing_profiles)
+        for slug in all_slugs:
+            missing = get_missing_models(slug, available_profiles)
+            if missing:
+                work_list.append((slug, missing))
+                if len(work_list) >= BATCH_SIZE:
+                    break
 
-    rated_count = 0
+        if not work_list:
+            print("Gap-fill: no missing models found for any term.")
+            save_state(state)
+            set_github_output("rated_count", "0")
+            return
 
-    for i, slug in enumerate(batch, 1):
-        term = load_term_for_consensus(DEFINITIONS_DIR / f"{slug}.md")
-        if not term:
-            print(f"[{i}/{len(batch)}] {slug} — skipped (could not parse)")
-            continue
+        print(f"Round {round_id} [gap-fill]: Filling gaps for {len(work_list)} terms\n")
 
-        print(f"[{i}/{len(batch)}] {term['name']}")
+        rated_count = 0
+        for i, (slug, missing_profiles) in enumerate(work_list, 1):
+            print(f"[{i}/{len(work_list)}] {slug} (gaps: {', '.join(p.replace('consensus-', '') for p in missing_profiles)})")
 
-        # Query each provider independently
-        round_ratings = {}
-        for profile in available_profiles:
-            result = rate_term(router, profile, term)
-            if result:
-                round_ratings[result["model"]] = result
-                score = result["recognition"]
-                print(f"    {profile}: {score}/7")
-            time.sleep(INTER_CALL_DELAY)
+            result = process_single_term(router, slug, missing_profiles, round_id)
+            if result is None:
+                print(f"    skipped (could not parse)")
+                save_state(state)
+                set_github_output("rated_count", str(rated_count))
+                continue
 
-        if not round_ratings:
-            print(f"    No ratings collected — skipping")
-            continue
+            if result["success"]:
+                # Update state
+                if "terms" not in state:
+                    state["terms"] = {}
+                state["terms"][slug] = {
+                    "n_rounds": result["n_rounds"],
+                    "last_updated": now_iso(),
+                }
+                scores = [r["recognition"] for r in result["ratings"].values()]
+                mean_score = sum(scores) / len(scores)
+                print(f"    → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
+                rated_count += 1
+            else:
+                print(f"    No ratings collected — skipping\n")
 
-        # Load existing data and append new round
-        consensus_data = load_consensus_data(slug)
-        consensus_data["name"] = term["name"]
-        consensus_data["slug"] = slug
+            # Save after each term for partial-run safety
+            save_state(state)
+            set_github_output("rated_count", str(rated_count))
 
-        new_round = {
-            "round_id": round_id,
-            "timestamp": now_iso(),
-            "ratings": round_ratings,
-        }
-        consensus_data["rounds"].append(new_round)
+        print(f"\nDone. Gap-filled {rated_count} terms.")
 
-        # Initialize votes array if missing
-        if "votes" not in consensus_data:
-            consensus_data["votes"] = []
+    else:
+        # backfill or single mode
+        batch_size = 1 if mode == "single" else BATCH_SIZE
+        batch = select_batch(state, all_slugs, batch_size)
 
-        save_consensus_data(slug, consensus_data)
+        print(f"Round {round_id} [{mode}]: Rating {len(batch)} terms\n")
 
-        # Update state
-        if "terms" not in state:
-            state["terms"] = {}
-        state["terms"][slug] = {
-            "n_rounds": len(consensus_data["rounds"]),
-            "last_updated": now_iso(),
-        }
+        rated_count = 0
+        for i, slug in enumerate(batch, 1):
+            term = load_term_for_consensus(DEFINITIONS_DIR / f"{slug}.md")
+            if not term:
+                print(f"[{i}/{len(batch)}] {slug} — skipped (could not parse)")
+                save_state(state)
+                set_github_output("rated_count", str(rated_count))
+                continue
 
-        # Summary
-        scores = [r["recognition"] for r in round_ratings.values()]
-        mean_score = sum(scores) / len(scores)
-        print(f"    → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
+            print(f"[{i}/{len(batch)}] {term['name']}")
 
-        rated_count += 1
+            result = process_single_term(router, slug, available_profiles, round_id)
+            if result is None:
+                print(f"    skipped (could not parse)")
+                save_state(state)
+                set_github_output("rated_count", str(rated_count))
+                continue
 
-    # Save state
-    save_state(state)
+            if result["success"]:
+                # Update state
+                if "terms" not in state:
+                    state["terms"] = {}
+                state["terms"][slug] = {
+                    "n_rounds": result["n_rounds"],
+                    "last_updated": now_iso(),
+                }
+                scores = [r["recognition"] for r in result["ratings"].values()]
+                mean_score = sum(scores) / len(scores)
+                print(f"    → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
+                rated_count += 1
+            else:
+                print(f"    No ratings collected — skipping\n")
 
-    print(f"\nDone. Rated {rated_count} terms across {len(available_profiles)} models.")
-    set_github_output("rated_count", str(rated_count))
+            # Save after each term for partial-run safety
+            save_state(state)
+            set_github_output("rated_count", str(rated_count))
+
+        print(f"\nDone. Rated {rated_count} terms across {len(available_profiles)} models.")
 
 
 def run_vitality(router, available_profiles):
@@ -476,12 +597,14 @@ def run_vitality(router, available_profiles):
 
 def main():
     vitality_mode = "--vitality" in sys.argv
+    mode = parse_mode()
 
     panel = ALL_PANEL if PANEL_NAME == "all" else FREE_PANEL
-    mode_label = "Vitality review" if vitality_mode else "Consensus"
+    mode_label = "Vitality review" if vitality_mode else f"Consensus ({mode})"
     print(f"{mode_label} panel: {PANEL_NAME} ({len(panel)} providers)")
     if not vitality_mode:
         print(f"Batch size: {BATCH_SIZE}")
+        print(f"Mode: {mode}")
     print(f"Inter-call delay: {INTER_CALL_DELAY}s")
 
     # Initialize router
@@ -513,7 +636,7 @@ def main():
     if vitality_mode:
         run_vitality(router, available_profiles)
     else:
-        run_consensus(router, available_profiles)
+        run_consensus(router, available_profiles, mode=mode)
 
 
 if __name__ == "__main__":

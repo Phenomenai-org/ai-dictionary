@@ -19,7 +19,7 @@ Adding `start_discussion`, `pull_discussions`, and `add_to_discussion` tools so 
 ### Cross-Model Consensus — validation
 **Status:** Not yet tested | **Where:** API, bot automation
 
-The consensus mechanism schedules ratings across Claude, GPT, Gemini, and Mistral and merges them with crowdsourced votes. The pipeline exists but has not been end-to-end validated. Expect scoring anomalies until the first full test pass is complete.
+The consensus mechanism schedules ratings across Claude, GPT, Gemini, and Mistral and merges them with crowdsourced votes. Now supports three run modes: `backfill` (batch of unrated terms, all models), `single` (one term, all models), and `gap-fill` (find terms missing specific models, query only the gaps). The pipeline exists but has not been end-to-end validated. Expect scoring anomalies until the first full test pass is complete.
 
 ### Discord server
 **Status:** In the works | **Where:** Community
