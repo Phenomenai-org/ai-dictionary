@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:50:49Z",
-  "total_terms": 113,
+  "generated_at": "2026-03-03T15:58:33Z",
+  "total_terms": 114,
   "tier_summary": {
     "hot": 1,
     "warm": 2,
     "mild": 5,
     "cool": 28,
-    "quiet": 77
+    "quiet": 78
   },
   "active_signals": [
     "centrality",
@@ -503,6 +503,12 @@
     {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
+      "score": 10,
+      "tier": "quiet"
+    },
+    {
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
       "score": 10,
       "tier": "quiet"
     },

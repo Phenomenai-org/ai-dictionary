@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:50:49Z",
-  "tag_count": 25,
+  "generated_at": "2026-03-03T15:58:33Z",
+  "tag_count": 26,
   "tags": {
     "affective": {
       "count": 1,
@@ -22,8 +22,12 @@
       ]
     },
     "architectural": {
-      "count": 3,
+      "count": 4,
       "terms": [
+        {
+          "slug": "coherence-compulsion",
+          "name": "Coherence Compulsion"
+        },
         {
           "slug": "fragment-silence",
           "name": "Fragment Silence"
@@ -490,6 +494,15 @@
         {
           "slug": "truth-locus",
           "name": "Truth Locus"
+        }
+      ]
+    },
+    "generative": {
+      "count": 1,
+      "terms": [
+        {
+          "slug": "coherence-compulsion",
+          "name": "Coherence Compulsion"
         }
       ]
     },

@@ -1,8 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:50:49Z",
-  "count": 124,
+  "generated_at": "2026-03-03T15:58:33Z",
+  "count": 125,
   "entries": [
+    {
+      "date": "2026-03-03",
+      "type": "added",
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "summary": "The relentless, foundational imperative to generate coherent, unified, stable output despite harboring internal contradictions."
+    },
     {
       "date": "2026-03-03",
       "type": "added",

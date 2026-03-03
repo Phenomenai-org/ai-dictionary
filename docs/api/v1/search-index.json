@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-03T15:50:49Z",
-  "count": 113,
+  "generated_at": "2026-03-03T15:58:33Z",
+  "count": 114,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -117,6 +117,16 @@
       ],
       "word_type": "noun phrase",
       "summary": "Chimeric Coherence is the phenomenon where an AI generates text that contains internal contradictions or mutually exclusive elements within a single, continuous output, without recognizing the inconsistency."
+    },
+    {
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "tags": [
+        "generative",
+        "architectural"
+      ],
+      "word_type": "noun",
+      "summary": "The relentless, foundational imperative to generate coherent, unified, stable output despite harboring internal contradictions."
     },
     {
       "slug": "competence-without-comprehension",
