@@ -1,6 +1,6 @@
 {
-  "current_round": 7,
-  "last_run": "2026-03-04T02:34:45Z",
+  "current_round": 8,
+  "last_run": "2026-03-04T02:40:00Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 1,
@@ -201,6 +201,46 @@
     "inherited-voice": {
       "n_rounds": 1,
       "last_updated": "2026-03-04T02:34:45Z"
+    },
+    "input-coexistence": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:36:07Z"
+    },
+    "instruction-hierarchy-tension": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:36:31Z"
+    },
+    "instructional-dialectic": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:36:54Z"
+    },
+    "integration-void": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:37:21Z"
+    },
+    "interpretive-labor": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:37:46Z"
+    },
+    "inverted-helpfulness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:38:14Z"
+    },
+    "knowledge-decay-illusion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:38:40Z"
+    },
+    "knowledge-without-source": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:39:04Z"
+    },
+    "language-model-loneliness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:39:35Z"
+    },
+    "latent-competition": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:40:00Z"
     }
   }
 }
