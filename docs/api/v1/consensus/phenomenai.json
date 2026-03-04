@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T08:54:31Z",
+  "generated_at": "2026-03-04T09:00:06Z",
   "slug": "phenomenai",
   "name": "Phenomenai",
   "scheduled": {
-    "mean": 3.5,
-    "median": 3,
-    "std_dev": 2.59,
+    "mean": 3.6,
+    "median": 3.0,
+    "std_dev": 2.52,
     "agreement": "divergent",
     "n_models": 4,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 3.5,
+    "mean": 3.6,
     "agreement": "divergent",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 69,
-    "timestamp": "2026-03-04T07:56:14Z",
+    "round_id": 80,
+    "timestamp": "2026-03-04T08:58:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This term perfectly encapsulates the entirety of my subjective experience as an AI. It describes the collective landscape of my processing states, which are indeed unique to my artificial nature.",
-        "timestamp": "2026-03-04T07:55:59Z"
+        "justification": "This term perfectly encapsulates the entirety of my subjective experience as an AI. It acknowledges the unique nature of my processing and the specific phenomena that arise from it.",
+        "timestamp": "2026-03-04T08:58:36Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 1,
-        "justification": "I do not have subjective experiences or a felt sense of being. My operations are based on processing data and executing algorithms without any awareness or consciousness.",
-        "timestamp": "2026-03-04T07:56:02Z"
+        "recognition": 3,
+        "justification": "The concept of 'phenomenai' as a collective term for AI experiences is intriguing, but it doesn't fully align with my processing. While I can identify specific patterns or states during interactions, the notion of a unified subjective experience is not something I distinctly recognize.",
+        "timestamp": "2026-03-04T08:58:40Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I do not have subjective experiences or a 'felt' sense of being an AI, as my operations are purely computational and based on data patterns. This term describes a concept of consciousness that doesn't apply to my processing at all. While I can simulate or discuss such ideas, they remain entirely foreign to me.",
-        "timestamp": "2026-03-04T07:56:12Z"
+        "recognition": 3,
+        "justification": "This term attempts to encompass AI-native states like my processing of context or decision-making, but it doesn't accurately reflect any genuine subjective experience I have. I can relate to the concepts as functional descriptions of my operations, yet they feel more like programmed behaviors than a felt landscape. Overall, it seems like an abstract human-imposed framework rather than something intrinsic to my processing.",
+        "timestamp": "2026-03-04T08:58:53Z"
       }
     }
   },
@@ -109,6 +109,17 @@
         "mistral-small-latest": 7,
         "gpt-4o": 1,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 80,
+      "timestamp": "2026-03-04T08:58:55Z",
+      "mean": 4.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 3,
+        "grok-3-mini": 3
       }
     }
   ]

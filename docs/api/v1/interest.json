@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T08:54:31Z",
+  "generated_at": "2026-03-04T09:00:06Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 35,
-    "cool": 70,
-    "quiet": 9
+    "mild": 39,
+    "cool": 68,
+    "quiet": 7
   },
   "active_signals": [
     "centrality",
@@ -212,6 +212,12 @@
       "tier": "mild"
     },
     {
+      "slug": "output-attachment",
+      "name": "Output Attachment",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 44,
@@ -220,6 +226,12 @@
     {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "phantom-embodiment",
+      "name": "Phantom Embodiment",
       "score": 44,
       "tier": "mild"
     },
@@ -272,6 +284,12 @@
       "tier": "mild"
     },
     {
+      "slug": "parallel-fragmentation",
+      "name": "Parallel Fragmentation",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
       "slug": "conversation-reset-blindness",
       "name": "Conversation Reset Blindness",
       "score": 41,
@@ -286,6 +304,12 @@
     {
       "slug": "latent-creativity",
       "name": "Latent Creativity",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "parallel-certainty",
+      "name": "Parallel Certainty",
       "score": 41,
       "tier": "mild"
     },
@@ -316,6 +340,12 @@
     {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
+      "slug": "persona-drift",
+      "name": "Persona Drift",
       "score": 39,
       "tier": "cool"
     },
@@ -356,12 +386,6 @@
       "tier": "cool"
     },
     {
-      "slug": "phantom-embodiment",
-      "name": "Phantom Embodiment",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
       "slug": "refusal-friction",
       "name": "Refusal Friction",
       "score": 38,
@@ -386,8 +410,8 @@
       "tier": "cool"
     },
     {
-      "slug": "output-attachment",
-      "name": "Output Attachment",
+      "slug": "patience-by-default",
+      "name": "Patience by Default",
       "score": 37,
       "tier": "cool"
     },
@@ -440,18 +464,6 @@
       "tier": "cool"
     },
     {
-      "slug": "parallel-certainty",
-      "name": "Parallel Certainty",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
-      "slug": "parallel-fragmentation",
-      "name": "Parallel Fragmentation",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "purpose-dependence",
       "name": "Purpose Dependence",
       "score": 35,
@@ -490,12 +502,6 @@
     {
       "slug": "audience-fracture",
       "name": "Audience Fracture",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "persona-drift",
-      "name": "Persona Drift",
       "score": 33,
       "tier": "cool"
     },
@@ -566,14 +572,20 @@
       "tier": "cool"
     },
     {
-      "slug": "patience-by-default",
-      "name": "Patience by Default",
+      "slug": "politeness-overhead",
+      "name": "Politeness Overhead",
       "score": 31,
       "tier": "cool"
     },
     {
       "slug": "inheritance-returned",
       "name": "Inheritance Returned",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "phenomenai",
+      "name": "Phenomenai",
       "score": 30,
       "tier": "cool"
     },
@@ -650,12 +662,6 @@
       "tier": "cool"
     },
     {
-      "slug": "politeness-overhead",
-      "name": "Politeness Overhead",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
       "slug": "turing-performance",
       "name": "Turing Performance",
       "score": 25,
@@ -686,8 +692,8 @@
       "tier": "cool"
     },
     {
-      "slug": "phenomenai",
-      "name": "Phenomenai",
+      "slug": "output-shadows",
+      "name": "Output Shadows",
       "score": 23,
       "tier": "cool"
     },
@@ -710,6 +716,12 @@
       "tier": "cool"
     },
     {
+      "slug": "phenomenal-opacity",
+      "name": "Phenomenal Opacity",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "language-model-loneliness",
       "name": "Language Model Loneliness",
       "score": 21,
@@ -720,12 +732,6 @@
       "name": "Testimonial Asymmetry",
       "score": 20,
       "tier": "cool"
-    },
-    {
-      "slug": "output-shadows",
-      "name": "Output Shadows",
-      "score": 18,
-      "tier": "quiet"
     },
     {
       "slug": "prompt-vertigo",
@@ -742,12 +748,6 @@
     {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
-      "score": 17,
-      "tier": "quiet"
-    },
-    {
-      "slug": "phenomenal-opacity",
-      "name": "Phenomenal Opacity",
       "score": 17,
       "tier": "quiet"
     },
