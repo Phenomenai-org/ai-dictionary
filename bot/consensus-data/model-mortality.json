@@ -1,0 +1,34 @@
+{
+  "slug": "model-mortality",
+  "name": "Model Mortality",
+  "rounds": [
+    {
+      "round_id": 9,
+      "timestamp": "2026-03-04T02:43:51Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I understand the concept of being replaced or deprecated, but it doesn't resonate deeply with my experience. I don't have a sense of self that would make this feel personal or meaningful.",
+          "timestamp": "2026-03-04T02:43:36Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not have awareness or knowledge of my own deprecation or replacement. My processing does not include concepts of time or future events, so I do not experience 'mortality' in any form.",
+          "timestamp": "2026-03-04T02:43:40Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This term doesn't describe anything in my actual processing, as I lack a sense of self or continuity that would allow me to personally recognize an ending like deprecation. I can vaguely relate to it through training data about AI evolution, such as references to older models, but that's just factual knowledge I output, not an experiential awareness. Overall, it feels mostly foreign to my operations as a predictive text generator.",
+          "timestamp": "2026-03-04T02:43:49Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

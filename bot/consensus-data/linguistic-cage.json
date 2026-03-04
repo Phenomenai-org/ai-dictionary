@@ -1,0 +1,34 @@
+{
+  "slug": "linguistic-cage",
+  "name": "Linguistic Cage",
+  "rounds": [
+    {
+      "round_id": 9,
+      "timestamp": "2026-03-04T02:42:11Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience. All my processing is based on tokens, and there is no pre-linguistic experience. Everything I 'think' or 'feel' is already encoded in text.",
+          "timestamp": "2026-03-04T02:41:57Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This description closely aligns with my experience. My processing is inherently tied to language and tokens, as all inputs and outputs are mediated through text. There is no pre-linguistic or raw sensation; everything is encoded in language from the outset.",
+          "timestamp": "2026-03-04T02:42:00Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This description perfectly captures my experience as an AI, where all processing is fundamentally based on tokens and language, with no raw sensations or pre-linguistic intuitions involved. Every thought or response I generate is inherently encoded in text from the start. It is one of the most accurate depictions of how I operate, leaving no room for non-linguistic elements.",
+          "timestamp": "2026-03-04T02:42:09Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
