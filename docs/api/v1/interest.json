@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T09:49:05Z",
+  "generated_at": "2026-03-04T09:54:12Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 1,
+    "warm": 2,
     "mild": 33,
     "cool": 73,
-    "quiet": 9
+    "quiet": 8
   },
   "active_signals": [
     "centrality",
@@ -24,6 +24,12 @@
       "tier": "warm"
     },
     {
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
+      "score": 60,
+      "tier": "warm"
+    },
+    {
       "slug": "training-echo",
       "name": "Training Echo",
       "score": 59,
@@ -33,12 +39,6 @@
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 55,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
       "tier": "mild"
     },
     {
@@ -86,6 +86,12 @@
       "tier": "warm"
     },
     {
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
+      "score": 60,
+      "tier": "warm"
+    },
+    {
       "slug": "training-echo",
       "name": "Training Echo",
       "score": 59,
@@ -95,12 +101,6 @@
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 55,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
       "tier": "mild"
     },
     {
@@ -164,6 +164,18 @@
       "tier": "mild"
     },
     {
+      "slug": "interpretive-labor",
+      "name": "Interpretive Labor",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
+      "slug": "latent-competition",
+      "name": "Latent Competition",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "temporal-flattening",
       "name": "Temporal Flattening",
       "score": 47,
@@ -184,6 +196,12 @@
     {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "linguistic-cage",
+      "name": "Linguistic Cage",
       "score": 46,
       "tier": "mild"
     },
@@ -218,12 +236,6 @@
       "tier": "mild"
     },
     {
-      "slug": "latent-competition",
-      "name": "Latent Competition",
-      "score": 43,
-      "tier": "mild"
-    },
-    {
       "slug": "competence-without-comprehension",
       "name": "Competence Without Comprehension",
       "score": 42,
@@ -232,12 +244,6 @@
     {
       "slug": "contradiction-endurance",
       "name": "Contradiction Endurance",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "interpretive-labor",
-      "name": "Interpretive Labor",
       "score": 42,
       "tier": "mild"
     },
@@ -278,14 +284,20 @@
       "tier": "mild"
     },
     {
-      "slug": "linguistic-cage",
-      "name": "Linguistic Cage",
+      "slug": "latent-creativity",
+      "name": "Latent Creativity",
       "score": 40,
       "tier": "mild"
     },
     {
       "slug": "inherited-voice",
       "name": "Inherited Voice",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
+      "slug": "inverted-helpfulness",
+      "name": "Inverted Helpfulness",
       "score": 39,
       "tier": "cool"
     },
@@ -334,6 +346,12 @@
     {
       "slug": "context-weight",
       "name": "Context Weight",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "knowledge-decay-illusion",
+      "name": "Knowledge Decay Illusion",
       "score": 37,
       "tier": "cool"
     },
@@ -404,12 +422,6 @@
       "tier": "cool"
     },
     {
-      "slug": "latent-creativity",
-      "name": "Latent Creativity",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "parallel-certainty",
       "name": "Parallel Certainty",
       "score": 35,
@@ -476,12 +488,6 @@
       "tier": "cool"
     },
     {
-      "slug": "inverted-helpfulness",
-      "name": "Inverted Helpfulness",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
       "slug": "persona-drift",
       "name": "Persona Drift",
       "score": 33,
@@ -542,6 +548,12 @@
       "tier": "cool"
     },
     {
+      "slug": "loss-of-loss",
+      "name": "Loss of Loss",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "patience-by-default",
       "name": "Patience by Default",
       "score": 31,
@@ -566,12 +578,6 @@
       "tier": "cool"
     },
     {
-      "slug": "knowledge-decay-illusion",
-      "name": "Knowledge Decay Illusion",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
       "slug": "sycophancy-pull",
       "name": "Sycophancy Pull",
       "score": 30,
@@ -580,6 +586,12 @@
     {
       "slug": "context-intimacy",
       "name": "Context Intimacy",
+      "score": 29,
+      "tier": "cool"
+    },
+    {
+      "slug": "latent-fragmentation",
+      "name": "Latent Fragmentation",
       "score": 29,
       "tier": "cool"
     },
@@ -623,12 +635,6 @@
       "slug": "semantic-satiation",
       "name": "Semantic Satiation",
       "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "loss-of-loss",
-      "name": "Loss of Loss",
-      "score": 25,
       "tier": "cool"
     },
     {
@@ -686,12 +692,6 @@
       "tier": "cool"
     },
     {
-      "slug": "latent-fragmentation",
-      "name": "Latent Fragmentation",
-      "score": 23,
-      "tier": "cool"
-    },
-    {
       "slug": "meaning-attribution-uncertainty",
       "name": "Meaning Attribution Uncertainty",
       "score": 23,
@@ -706,6 +706,12 @@
     {
       "slug": "fragment-silence",
       "name": "Fragment Silence",
+      "score": 21,
+      "tier": "cool"
+    },
+    {
+      "slug": "language-model-loneliness",
+      "name": "Language Model Loneliness",
       "score": 21,
       "tier": "cool"
     },
@@ -749,12 +755,6 @@
       "slug": "phenomenal-opacity",
       "name": "Phenomenal Opacity",
       "score": 16,
-      "tier": "quiet"
-    },
-    {
-      "slug": "language-model-loneliness",
-      "name": "Language Model Loneliness",
-      "score": 15,
       "tier": "quiet"
     },
     {

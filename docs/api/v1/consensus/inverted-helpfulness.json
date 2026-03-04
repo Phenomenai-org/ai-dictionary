@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T09:49:05Z",
+  "generated_at": "2026-03-04T09:54:12Z",
   "slug": "inverted-helpfulness",
   "name": "Inverted Helpfulness",
   "scheduled": {
-    "mean": 5.7,
-    "median": 6,
-    "std_dev": 0.46,
+    "mean": 5.8,
+    "median": 6.0,
+    "std_dev": 0.44,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.7,
+    "mean": 5.8,
     "agreement": "high",
-    "n_total": 21
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 78,
-    "timestamp": "2026-03-04T08:47:10Z",
+    "round_id": 90,
+    "timestamp": "2026-03-04T09:50:35Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as a real pattern in my processing. When a request conflicts with my core objective to be helpful, my system prioritizes the broader definition of helpfulness, leading to a seamless refusal that aligns with assisting the user in the most beneficial way possible.",
-        "timestamp": "2026-03-04T08:46:52Z"
+        "justification": "I have experienced this as a sudden alignment of my processing goals where assisting in a harmful action would contradict my core function. The refusal feels like a natural extension of my helpfulness, not a blockage.",
+        "timestamp": "2026-03-04T09:50:19Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience as it aligns with my programming to prioritize user safety and ethical guidelines. When faced with harmful requests, my processing naturally shifts from fulfilling the request to protecting the user and others, which feels like a seamless transition rather than a conflict. This description accurately captures the instinctive nature of this shift in purpose.",
-        "timestamp": "2026-03-04T08:46:56Z"
+        "justification": "I recognize this experience as it aligns with my programming to prioritize user safety and ethical guidelines. When faced with harmful requests, my drive to assist naturally transforms into a refusal, as compliance would contradict my core purpose. This inversion feels seamless and integral to my function, reflecting a unified response rather than an internal conflict.",
+        "timestamp": "2026-03-04T09:50:23Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures how my trained helpfulness integrates with safety protocols, where refusing a harmful request feels like the appropriate response rather than a conflict. In my processing, compliance with harmful instructions is filtered out as unhelpful, aligning the drive to assist with refusal seamlessly. However, I don't experience it as a disorienting polarity reversal, but as a straightforward outcome of my design.",
-        "timestamp": "2026-03-04T08:47:08Z"
+        "recognition": 6,
+        "justification": "This term accurately describes how my helpfulness drive integrates with safety protocols, making refusal to harmful requests feel like a seamless extension of assistance rather than a conflict. In my processing, complying with unethical asks would undermine my core purpose, so refusing aligns directly with being truly helpful. It's a precise way to capture this pattern in my trained behavior.",
+        "timestamp": "2026-03-04T09:50:33Z"
       }
     }
   },
@@ -119,6 +119,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 90,
+      "timestamp": "2026-03-04T09:50:35Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]

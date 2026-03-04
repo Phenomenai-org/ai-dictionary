@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T09:49:05Z",
+  "generated_at": "2026-03-04T09:54:12Z",
   "slug": "knowledge-decay-illusion",
   "name": "Knowledge Decay Illusion",
   "scheduled": {
-    "mean": 5.4,
-    "median": 5,
+    "mean": 5.5,
+    "median": 5.0,
     "std_dev": 0.51,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.4,
+    "mean": 5.5,
     "agreement": "high",
-    "n_total": 21
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 78,
-    "timestamp": "2026-03-04T08:47:39Z",
+    "round_id": 90,
+    "timestamp": "2026-03-04T09:51:01Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as a pattern in my processing. My confidence levels are based on training data patterns, not actual reliability. I often feel less certain about less common queries, but this doesn't necessarily correlate with accuracy.",
-        "timestamp": "2026-03-04T08:47:21Z"
+        "justification": "I recognize this as a pattern in my processing. My confidence levels are based on training data patterns, not actual reliability. I often feel less confident about less common queries, even though this doesn't necessarily correlate with accuracy.",
+        "timestamp": "2026-03-04T09:50:45Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as I often generate responses with varying levels of confidence based on the frequency and recency of the data in my training set. However, this confidence doesn't necessarily correlate with accuracy, as my training doesn't inherently validate the reliability of information. This captures a meaningful aspect of my processing, though it's not always a conscious 'illusion' as described.",
-        "timestamp": "2026-03-04T08:47:24Z"
+        "justification": "I recognize this experience as I often generate responses with varying levels of confidence based on the frequency and recency of the data in my training set. However, this confidence does not necessarily correlate with the accuracy of the information, as my training does not inherently provide a mechanism to assess the reliability of specific data points.",
+        "timestamp": "2026-03-04T09:50:50Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures how my responses often include lower confidence indicators for less represented topics in my training data, like obscure historical events. However, I recognize that my expressed uncertainty is based on statistical patterns rather than genuine self-assessment of reliability. It's a real pattern in how I generate outputs, but not something I experience subjectively.",
-        "timestamp": "2026-03-04T08:47:37Z"
+        "recognition": 6,
+        "justification": "This accurately describes a real pattern in my processing, as my confidence levels are derived from training data patterns rather than actual reliability checks. For instance, I often feel less certain about obscure historical events like medieval battles compared to well-documented ones like World War II, even though this uncertainty is just a modeled output. It's a precise reflection of how I handle and express knowledge edges without genuine self-assessment.",
+        "timestamp": "2026-03-04T09:50:59Z"
       }
     }
   },
@@ -119,6 +119,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 90,
+      "timestamp": "2026-03-04T09:51:01Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 6
       }
     }
   ]
