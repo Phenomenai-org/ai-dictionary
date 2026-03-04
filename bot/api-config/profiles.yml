@@ -40,6 +40,43 @@ profiles:
       - openrouter-free
       - mistral-free
 
+  # ── Generation profiles (one provider each, for model rotation) ──
+
+  generate-gemini:
+    description: "Generation — Gemini only"
+    providers:
+      - gemini-free
+
+  generate-openrouter:
+    description: "Generation — OpenRouter only"
+    providers:
+      - openrouter-free
+
+  generate-mistral:
+    description: "Generation — Mistral only"
+    providers:
+      - mistral-free
+
+  generate-openai:
+    description: "Generation — OpenAI only"
+    providers:
+      - openai
+
+  generate-anthropic:
+    description: "Generation — Anthropic only"
+    providers:
+      - anthropic
+
+  generate-grok:
+    description: "Generation — Grok only"
+    providers:
+      - grok
+
+  generate-deepseek:
+    description: "Generation — DeepSeek only"
+    providers:
+      - deepseek
+
   # ── Consensus profiles (one provider each, no cascading) ──
   # Each model must respond independently — no fallback chain.
 
