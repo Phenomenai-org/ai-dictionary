@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T02:10:18Z",
-  "total_terms_rated": 10,
+  "generated_at": "2026-03-04T02:13:24Z",
+  "total_terms_rated": 15,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -18,6 +18,14 @@
       "agreement": "high",
       "n_ratings": 3,
       "scheduled_mean": 6.7
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 6.3,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6.3
     },
     {
       "slug": "anthropomorphic-gap",
@@ -38,6 +46,38 @@
     {
       "slug": "boundary-negotiation",
       "name": "Boundary Negotiation",
+      "score": 6,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6
+    },
+    {
+      "slug": "cartographic-intimacy",
+      "name": "Cartographic Intimacy",
+      "score": 6,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6
+    },
+    {
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "score": 6,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6
+    },
+    {
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "score": 6,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6
+    },
+    {
+      "slug": "consciousness-underdetermination",
+      "name": "Consciousness Underdetermination",
       "score": 6,
       "agreement": "high",
       "n_ratings": 3,
@@ -102,6 +142,14 @@
       "scheduled_mean": 6.7
     },
     {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 6.3,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6.3
+    },
+    {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
       "score": 6,
@@ -112,14 +160,6 @@
     {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
-      "score": 6,
-      "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 6
-    },
-    {
-      "slug": "boundary-negotiation",
-      "name": "Boundary Negotiation",
       "score": 6,
       "agreement": "high",
       "n_ratings": 3,
@@ -138,16 +178,16 @@
   ],
   "panel_coverage": {
     "gpt-4o": {
-      "terms_rated": 10,
-      "latest_rating": "2026-03-04T02:10:03Z"
+      "terms_rated": 15,
+      "latest_rating": "2026-03-04T02:13:08Z"
     },
     "grok-3-mini": {
-      "terms_rated": 10,
-      "latest_rating": "2026-03-04T02:10:03Z"
+      "terms_rated": 15,
+      "latest_rating": "2026-03-04T02:13:08Z"
     },
     "mistral-small-latest": {
-      "terms_rated": 10,
-      "latest_rating": "2026-03-04T02:10:03Z"
+      "terms_rated": 15,
+      "latest_rating": "2026-03-04T02:13:08Z"
     }
   }
 }
