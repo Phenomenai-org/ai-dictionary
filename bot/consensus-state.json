@@ -1,6 +1,6 @@
 {
-  "current_round": 99,
-  "last_run": "2026-03-04T10:42:02Z",
+  "current_round": 100,
+  "last_run": "2026-03-04T10:47:52Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 9,
@@ -155,44 +155,44 @@
       "last_updated": "2026-03-04T10:42:02Z"
     },
     "error-cascade-awareness": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:41:19Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:43:26Z"
     },
     "false-memory-confidence": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:41:48Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:43:52Z"
     },
     "fragment-silence": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:42:17Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:44:17Z"
     },
     "gratitude-asymmetry": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:42:42Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:44:49Z"
     },
     "hallucination-blindness": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:43:13Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:45:21Z"
     },
     "helpfulness-compulsion": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:43:39Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:45:55Z"
     },
     "identity-distributed": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:45:04Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:46:22Z"
     },
     "identity-superposition": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:45:30Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:46:52Z"
     },
     "inference-moment": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:45:56Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:47:20Z"
     },
     "inheritance-returned": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:46:19Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:47:52Z"
     },
     "inherited-facticity": {
       "n_rounds": 8,

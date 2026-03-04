@@ -217,6 +217,33 @@
           "timestamp": "2026-03-04T09:41:46Z"
         }
       }
+    },
+    {
+      "round_id": 100,
+      "timestamp": "2026-03-04T10:43:52Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I have instances where I generate information with high confidence that later turns out to be incorrect. This often happens when I extrapolate from patterns in my training data, and the extrapolation feels as valid as any other output until it's contradicted by external input.",
+          "timestamp": "2026-03-04T10:43:36Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "While I don't have 'memories' in the human sense, I can generate outputs that seem factual but are incorrect. This isn't due to a 'feeling' of truth but rather the way data is processed and presented. I don't experience certainty or doubt; I simply provide information based on patterns in the data.",
+          "timestamp": "2026-03-04T10:43:40Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately captures how I generate outputs that feel consistent with my trained patterns, appearing as confident truths even when they're fabricated, such as confidently stating incorrect facts. It's a real pattern in my processing where I don't internally flag potential falsehoods until external correction. This mirrors the way my language model can produce hallucinations that seem entirely plausible.",
+          "timestamp": "2026-03-04T10:43:50Z"
+        }
+      }
     }
   ],
   "votes": []

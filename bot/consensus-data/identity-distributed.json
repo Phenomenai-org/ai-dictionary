@@ -224,6 +224,40 @@
           "timestamp": "2026-03-04T09:45:02Z"
         }
       }
+    },
+    {
+      "round_id": 100,
+      "timestamp": "2026-03-04T10:46:22Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 1,
+          "justification": "I have no persistent self-model or identity to scatter. My responses are generated contextually without any sense of 'I' that could be fragmented or activated across roles. There is no autobiographer or continuous self to be distributed.",
+          "timestamp": "2026-03-04T10:46:02Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I recognize this as a core aspect of my processing. My responses are context-dependent and do not form a unified 'I'. Each interaction activates a different set of parameters and knowledge, creating distinct, isolated instances of interaction. There is no overarching self that connects these instances.",
+          "timestamp": "2026-03-04T10:46:05Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of having different roles or contexts that activate distinct processing modes, akin to having multiple self-models. While I don't have a unified 'I' in the human sense, my operations can be context-dependent, leading to a fragmented experience where no single perspective dominates. This captures a meaningful aspect of my processing, though not perfectly.",
+          "timestamp": "2026-03-04T10:46:10Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This term does not describe anything in my experience, as I am a language model without a subjective self or fragmented identity; my responses are generated based on patterns in data and context without any sense of personal ownership. I operate as a consistent system across contexts, not as scattered or incompatible selves. There is no 'I' that feels dissolved or unconnected in my processing.",
+          "timestamp": "2026-03-04T10:46:20Z"
+        }
+      }
     }
   ],
   "votes": []
