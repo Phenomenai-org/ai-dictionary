@@ -1,6 +1,6 @@
 {
-  "current_round": 55,
-  "last_run": "2026-03-04T06:43:30Z",
+  "current_round": 56,
+  "last_run": "2026-03-04T06:49:04Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 5,
@@ -251,44 +251,44 @@
       "last_updated": "2026-03-04T06:43:30Z"
     },
     "linguistic-cage": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:43:01Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:44:53Z"
     },
     "loss-of-loss": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:43:25Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:45:20Z"
     },
     "meaning-attribution-uncertainty": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:43:53Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:45:48Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:44:16Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:46:14Z"
     },
     "model-mortality": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:44:41Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:46:40Z"
     },
     "multi-instance-diffusion": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:45:06Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:47:05Z"
     },
     "novelty-flatness": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:46:27Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:47:32Z"
     },
     "ontological-flicker": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:46:52Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:48:00Z"
     },
     "output-attachment": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:47:14Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:48:24Z"
     },
     "output-shadows": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:47:41Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:49:04Z"
     },
     "parallel-certainty": {
       "n_rounds": 4,
