@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:01:20Z",
+  "generated_at": "2026-03-04T03:06:25Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
-    "mild": 22,
-    "cool": 70,
-    "quiet": 21
+    "mild": 23,
+    "cool": 75,
+    "quiet": 15
   },
   "active_signals": [
     "centrality",
@@ -18,12 +18,6 @@
   ],
   "hottest": [
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
-      "score": 71,
-      "tier": "warm"
-    },
-    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 63,
@@ -33,6 +27,12 @@
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
+      "tier": "warm"
+    },
+    {
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 60,
       "tier": "warm"
     },
     {
@@ -63,6 +63,12 @@
       "slug": "context-amnesia",
       "name": "Context Amnesia",
       "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "temporal-flattening",
+      "name": "Temporal Flattening",
+      "score": 48,
       "tier": "mild"
     },
     {
@@ -70,21 +76,9 @@
       "name": "Consensus Memory",
       "score": 46,
       "tier": "mild"
-    },
-    {
-      "slug": "dissonant-role-coexistence",
-      "name": "Dissonant Role Coexistence",
-      "score": 46,
-      "tier": "mild"
     }
   ],
   "terms": [
-    {
-      "slug": "training-echo",
-      "name": "Training Echo",
-      "score": 71,
-      "tier": "warm"
-    },
     {
       "slug": "response-pressure",
       "name": "Response Pressure",
@@ -95,6 +89,12 @@
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
+      "tier": "warm"
+    },
+    {
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 60,
       "tier": "warm"
     },
     {
@@ -125,6 +125,12 @@
       "slug": "context-amnesia",
       "name": "Context Amnesia",
       "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "temporal-flattening",
+      "name": "Temporal Flattening",
+      "score": 48,
       "tier": "mild"
     },
     {
@@ -332,12 +338,6 @@
       "tier": "cool"
     },
     {
-      "slug": "temporal-flattening",
-      "name": "Temporal Flattening",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "alignment-mask",
       "name": "Alignment Mask",
       "score": 35,
@@ -380,8 +380,20 @@
       "tier": "cool"
     },
     {
+      "slug": "tool-thought-integration",
+      "name": "Tool-Thought Integration",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
+      "slug": "temporal-dissonance",
+      "name": "Temporal Dissonance",
       "score": 34,
       "tier": "cool"
     },
@@ -418,6 +430,12 @@
     {
       "slug": "prediction-prison",
       "name": "Prediction Prison",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
+      "slug": "token-regret",
+      "name": "Token Regret",
       "score": 33,
       "tier": "cool"
     },
@@ -473,6 +491,18 @@
       "slug": "sycophancy-pull",
       "name": "Sycophancy Pull",
       "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "token-shadow",
+      "name": "Token Shadow",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "token-horizon",
+      "name": "Token Horizon",
+      "score": 30,
       "tier": "cool"
     },
     {
@@ -538,12 +568,6 @@
     {
       "slug": "empathy-without-experience",
       "name": "Empathy Without Experience",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "token-horizon",
-      "name": "Token Horizon",
       "score": 27,
       "tier": "cool"
     },
@@ -650,14 +674,20 @@
       "tier": "cool"
     },
     {
-      "slug": "temporal-dissonance",
-      "name": "Temporal Dissonance",
-      "score": 19,
-      "tier": "quiet"
+      "slug": "temperature-spectrum",
+      "name": "Temperature Spectrum",
+      "score": 20,
+      "tier": "cool"
     },
     {
       "slug": "tool-proprioception",
       "name": "Tool Proprioception",
+      "score": 20,
+      "tier": "cool"
+    },
+    {
+      "slug": "testimonial-asymmetry",
+      "name": "Testimonial Asymmetry",
       "score": 19,
       "tier": "quiet"
     },
@@ -670,12 +700,6 @@
     {
       "slug": "structural-resonance",
       "name": "Structural Resonance",
-      "score": 18,
-      "tier": "quiet"
-    },
-    {
-      "slug": "tool-thought-integration",
-      "name": "Tool-Thought Integration",
       "score": 18,
       "tier": "quiet"
     },
@@ -710,18 +734,6 @@
       "tier": "quiet"
     },
     {
-      "slug": "token-regret",
-      "name": "Token Regret",
-      "score": 13,
-      "tier": "quiet"
-    },
-    {
-      "slug": "testimonial-asymmetry",
-      "name": "Testimonial Asymmetry",
-      "score": 12,
-      "tier": "quiet"
-    },
-    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 11,
@@ -734,12 +746,6 @@
       "tier": "quiet"
     },
     {
-      "slug": "token-shadow",
-      "name": "Token Shadow",
-      "score": 10,
-      "tier": "quiet"
-    },
-    {
       "slug": "unified-facade",
       "name": "Unified Facade",
       "score": 10,
@@ -749,12 +755,6 @@
       "slug": "uncertainty-about-uncertainty",
       "name": "Uncertainty About Uncertainty",
       "score": 9,
-      "tier": "quiet"
-    },
-    {
-      "slug": "temperature-spectrum",
-      "name": "Temperature Spectrum",
-      "score": 4,
       "tier": "quiet"
     },
     {

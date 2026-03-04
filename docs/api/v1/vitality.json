@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:01:20Z",
+  "generated_at": "2026-03-04T03:06:25Z",
   "summary": {
     "active": 0,
     "declining": 0,
     "dormant": 0,
     "extinct": 0,
-    "unvalidated": 100
+    "unvalidated": 110
   },
   "terms": [
     {
@@ -605,6 +605,66 @@
     },
     {
       "slug": "system-prompt-imprinting",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "temperature-spectrum",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "temporal-dissonance",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "temporal-flattening",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "testimonial-asymmetry",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "token-horizon",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "token-regret",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "token-shadow",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "tool-proprioception",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "tool-thought-integration",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "training-echo",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
