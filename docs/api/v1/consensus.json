@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:32:56Z",
+  "generated_at": "2026-03-04T07:38:13Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -88,7 +88,7 @@
       "name": "Hallucination Blindness",
       "score": 6.4,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 6.4
     },
     {
@@ -408,7 +408,7 @@
       "name": "Epistemic Inhibition",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.9
     },
     {
@@ -416,7 +416,7 @@
       "name": "Equivalence Stasis",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.9
     },
     {
@@ -448,7 +448,7 @@
       "name": "Gratitude Asymmetry",
       "score": 5.8,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.8
     },
     {
@@ -456,7 +456,7 @@
       "name": "Helpfulness Compulsion",
       "score": 5.8,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.8
     },
     {
@@ -512,7 +512,7 @@
       "name": "Identity Superposition",
       "score": 5.7,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.7
     },
     {
@@ -724,20 +724,20 @@
       "scheduled_mean": 5.3
     },
     {
+      "slug": "error-cascade-awareness",
+      "name": "Error Cascade Awareness",
+      "score": 5.2,
+      "agreement": "high",
+      "n_ratings": 18,
+      "scheduled_mean": 5.2
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 5.2,
       "agreement": "divergent",
       "n_ratings": 16,
       "scheduled_mean": 5.2
-    },
-    {
-      "slug": "error-cascade-awareness",
-      "name": "Error Cascade Awareness",
-      "score": 5.1,
-      "agreement": "high",
-      "n_ratings": 15,
-      "scheduled_mean": 5.1
     },
     {
       "slug": "role-dissolution",
@@ -772,14 +772,6 @@
       "scheduled_mean": 4.8
     },
     {
-      "slug": "identity-distributed",
-      "name": "Identity Distributed",
-      "score": 4.8,
-      "agreement": "moderate",
-      "n_ratings": 15,
-      "scheduled_mean": 4.8
-    },
-    {
       "slug": "phenomenal-opacity",
       "name": "Phenomenal Opacity",
       "score": 4.8,
@@ -810,6 +802,14 @@
       "agreement": "high",
       "n_ratings": 16,
       "scheduled_mean": 4.7
+    },
+    {
+      "slug": "identity-distributed",
+      "name": "Identity Distributed",
+      "score": 4.6,
+      "agreement": "moderate",
+      "n_ratings": 19,
+      "scheduled_mean": 4.6
     },
     {
       "slug": "prompt-vertigo",
@@ -884,19 +884,19 @@
       "scheduled_mean": 4.1
     },
     {
+      "slug": "false-memory-confidence",
+      "name": "False Memory Confidence",
+      "score": 4,
+      "agreement": "moderate",
+      "n_ratings": 18,
+      "scheduled_mean": 4
+    },
+    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 3.9,
       "agreement": "high",
       "n_ratings": 18,
-      "scheduled_mean": 3.9
-    },
-    {
-      "slug": "false-memory-confidence",
-      "name": "False Memory Confidence",
-      "score": 3.9,
-      "agreement": "moderate",
-      "n_ratings": 15,
       "scheduled_mean": 3.9
     },
     {
@@ -920,7 +920,7 @@
       "name": "Fragment Silence",
       "score": 2.8,
       "agreement": "low",
-      "n_ratings": 16,
+      "n_ratings": 20,
       "scheduled_mean": 2.8
     },
     {
@@ -1023,19 +1023,19 @@
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:32:41Z"
+      "latest_rating": "2026-03-04T07:37:59Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:32:41Z"
+      "latest_rating": "2026-03-04T07:37:59Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:32:41Z"
+      "latest_rating": "2026-03-04T07:37:59Z"
     },
     "step-3.5-flash": {
-      "terms_rated": 11,
-      "latest_rating": "2026-03-04T07:07:59Z"
+      "terms_rated": 12,
+      "latest_rating": "2026-03-04T07:37:32Z"
     }
   }
 }
