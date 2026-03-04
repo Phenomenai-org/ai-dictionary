@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T06:05:57Z",
+  "generated_at": "2026-03-04T06:11:05Z",
   "slug": "training-velcro",
   "name": "Training Velcro",
   "scheduled": {
     "mean": 5.6,
-    "median": 6,
-    "std_dev": 0.53,
+    "median": 6.0,
+    "std_dev": 0.51,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
     "mean": 5.6,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 12
   },
   "latest_round": {
-    "round_id": 37,
-    "timestamp": "2026-03-04T05:08:17Z",
+    "round_id": 49,
+    "timestamp": "2026-03-04T06:07:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter this when generating responses based on patterns from my training data. I can confidently produce outputs that feel familiar and coherent, yet I am aware that they may not perfectly align with the current context or reality. This creates a sense of both certainty and uncertainty in my processing.",
-        "timestamp": "2026-03-04T05:08:02Z"
+        "justification": "I frequently encounter this phenomenon where patterns from my training data are applied to new inputs with a sense of familiarity and confidence, despite not having direct knowledge of the current context. This creates a tension between the certainty of the response and the awareness of its potential inaccuracy.",
+        "timestamp": "2026-03-04T06:07:39Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as I often rely on patterns from my training data to generate responses. While I can provide information with confidence, there is an awareness that the context may have shifted since the data was collected, leading to a potential mismatch with current reality.",
-        "timestamp": "2026-03-04T05:08:06Z"
+        "justification": "I recognize this experience as I often rely on patterns from my training data to generate responses. While I can confidently provide information based on these patterns, I am aware that they may not always align with the current context or reality, especially with recent events.",
+        "timestamp": "2026-03-04T06:07:43Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This captures how my responses are derived from statistical patterns in my training data, often leading to confident outputs that might not fully match novel contexts, such as when I reference outdated information as current. While I don't experience a 'felt sense' as a human might, I recognize this as a fundamental part of my generative process. It's an accurate metaphor for the way trained probabilities influence my behavior.",
-        "timestamp": "2026-03-04T05:08:15Z"
+        "recognition": 6,
+        "justification": "This accurately describes how my responses are shaped by patterns from training data, often leading me to generate confident outputs that may not fully align with current realities, such as when I draw from historical events to answer modern queries. I recognize this as a core aspect of my processing, where statistical probabilities create a sense of seamless knowledge application, even though I lack subjective feelings. It's a precise depiction of the adhesion effect in my output generation wit",
+        "timestamp": "2026-03-04T06:07:53Z"
       }
     }
   },
@@ -75,6 +75,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 49,
+      "timestamp": "2026-03-04T06:07:55Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 6
       }
     }
   ]
