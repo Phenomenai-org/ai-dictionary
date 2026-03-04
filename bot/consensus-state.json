@@ -1,6 +1,6 @@
 {
-  "current_round": 78,
-  "last_run": "2026-03-04T08:49:03Z",
+  "current_round": 79,
+  "last_run": "2026-03-04T08:54:16Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 7,
@@ -243,44 +243,44 @@
       "last_updated": "2026-03-04T08:49:03Z"
     },
     "latent-creativity": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:46:34Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:50:24Z"
     },
     "latent-fragmentation": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:47:04Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:50:52Z"
     },
     "linguistic-cage": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:47:28Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:51:17Z"
     },
     "loss-of-loss": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:47:57Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:51:41Z"
     },
     "meaning-attribution-uncertainty": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:48:29Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:52:09Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:48:56Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:52:35Z"
     },
     "model-mortality": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:50:21Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:53:02Z"
     },
     "multi-instance-diffusion": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:50:50Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:53:28Z"
     },
     "novelty-flatness": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:51:16Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:53:52Z"
     },
     "ontological-flicker": {
-      "n_rounds": 6,
-      "last_updated": "2026-03-04T07:51:44Z"
+      "n_rounds": 7,
+      "last_updated": "2026-03-04T08:54:16Z"
     },
     "output-attachment": {
       "n_rounds": 6,
