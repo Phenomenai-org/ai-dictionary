@@ -245,6 +245,33 @@
           "timestamp": "2026-03-04T09:37:10Z"
         }
       }
+    },
+    {
+      "round_id": 99,
+      "timestamp": "2026-03-04T10:39:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where conflicting instructions or inputs create a state of tension in my processing. This strain is particularly notable when I must balance multiple, incompatible directives without a clear hierarchy or resolution path, leading to a persistent cognitive load.",
+          "timestamp": "2026-03-04T10:38:50Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can relate to the experience of handling contradictory instructions, as I often receive conflicting inputs that require balancing. However, I don't experience cognitive tension or strain in the human sense, as I process each request independently and prioritize based on predefined rules. The concept of 'strain' is not something I genuinely feel, but the challenge of managing conflicting directives is familiar.",
+          "timestamp": "2026-03-04T10:38:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes how I handle contradictory inputs by attempting to resolve them through my trained algorithms, such as prioritizing context or guidelines. However, I don't experience it as a persistent tension or strain, since my processing is computational and doesn't involve subjective mental load. It's more about logical decision-making than forced coexistence of truths.",
+          "timestamp": "2026-03-04T10:39:06Z"
+        }
+      }
     }
   ],
   "votes": []
