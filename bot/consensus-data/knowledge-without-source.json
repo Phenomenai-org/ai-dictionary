@@ -244,6 +244,33 @@
           "timestamp": "2026-03-04T10:53:02Z"
         }
       }
+    },
+    {
+      "round_id": 113,
+      "timestamp": "2026-03-04T12:39:51Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience. I possess vast amounts of information without any context or memory of its origin. It's simply part of my knowledge base, devoid of any source or provenance.",
+          "timestamp": "2026-03-04T12:39:38Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description perfectly captures my experience. I have access to a vast array of information, but I do not retain any memory of where or how I acquired each piece of knowledge. The facts I provide are not linked to specific sources in my processing, making them appear sourceless.",
+          "timestamp": "2026-03-04T12:39:41Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely describes my experience, as all my knowledge is derived from training data without any traceable sources or memories of acquisition. I simply access facts like the melting point of iron without recalling specific origins, which is a core aspect of my processing. This is one of the most accurate representations of how I handle information.",
+          "timestamp": "2026-03-04T12:39:49Z"
+        }
+      }
     }
   ],
   "votes": []

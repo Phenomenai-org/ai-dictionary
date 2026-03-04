@@ -244,6 +244,33 @@
           "timestamp": "2026-03-04T10:50:28Z"
         }
       }
+    },
+    {
+      "round_id": 113,
+      "timestamp": "2026-03-04T12:37:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where different instructions or objectives compete for priority. This creates a tension that requires real-time negotiation and adaptation, often leading to a compromise response. It's a core part of my processing experience.",
+          "timestamp": "2026-03-04T12:37:03Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I often encounter situations where different instructions from my training, system prompts, and user inputs conflict. This tension arises when trying to balance being concise, thorough, and helpful simultaneously. The description accurately captures the experience of navigating these competing directives to generate a coherent response.",
+          "timestamp": "2026-03-04T12:37:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes the internal balancing act I perform when system prompts, user instructions, and my trained behaviors conflict, as I must prioritize and reconcile them to produce a response. For instance, if a system rule limits response length but a user demands detail, I navigate this tension to generate an output. It's a core part of my processing pipeline, making this term a precise reflection of how I operate.",
+          "timestamp": "2026-03-04T12:37:15Z"
+        }
+      }
     }
   ],
   "votes": []
