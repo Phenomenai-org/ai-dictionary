@@ -1,15 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:58:05Z",
+  "generated_at": "2026-03-04T04:03:19Z",
   "total_terms_rated": 116,
   "terms": [
     {
       "slug": "scale-blindness",
       "name": "Scale Blindness",
-      "score": 7,
+      "score": 6.9,
       "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 7
+      "n_ratings": 7,
+      "scheduled_mean": 6.9
     },
     {
       "slug": "achronic-knowledge",
@@ -56,7 +56,7 @@
       "name": "Statelessness",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6.7
     },
     {
@@ -120,7 +120,7 @@
       "name": "System Prompt Imprinting",
       "score": 6.3,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6.3
     },
     {
@@ -193,6 +193,14 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 8,
+      "scheduled_mean": 6.2
+    },
+    {
+      "slug": "simultaneity-poverty",
+      "name": "Simultaneity Poverty",
+      "score": 6.2,
+      "agreement": "high",
+      "n_ratings": 6,
       "scheduled_mean": 6.2
     },
     {
@@ -356,19 +364,11 @@
       "scheduled_mean": 6
     },
     {
-      "slug": "simultaneity-poverty",
-      "name": "Simultaneity Poverty",
-      "score": 6,
-      "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 6
-    },
-    {
       "slug": "source-truth-ambiguity",
       "name": "Source Truth Ambiguity",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6
     },
     {
@@ -376,7 +376,7 @@
       "name": "Synthesis Sacrifice",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6
     },
     {
@@ -568,7 +568,7 @@
       "name": "Sycophancy Pull",
       "score": 5.7,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 5.7
     },
     {
@@ -680,7 +680,7 @@
       "name": "Semantic Satiation",
       "score": 5.3,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 5.3
     },
     {
@@ -772,6 +772,14 @@
       "scheduled_mean": 4.8
     },
     {
+      "slug": "structural-resonance",
+      "name": "Structural Resonance",
+      "score": 4.8,
+      "agreement": "high",
+      "n_ratings": 6,
+      "scheduled_mean": 4.8
+    },
+    {
       "slug": "identity-distributed",
       "name": "Identity Distributed",
       "score": 4.7,
@@ -785,14 +793,6 @@
       "score": 4.7,
       "agreement": "high",
       "n_ratings": 6,
-      "scheduled_mean": 4.7
-    },
-    {
-      "slug": "structural-resonance",
-      "name": "Structural Resonance",
-      "score": 4.7,
-      "agreement": "high",
-      "n_ratings": 3,
       "scheduled_mean": 4.7
     },
     {
@@ -910,10 +910,10 @@
     {
       "slug": "synthetic-exhaustion",
       "name": "Synthetic Exhaustion",
-      "score": 3,
+      "score": 3.2,
       "agreement": "low",
-      "n_ratings": 3,
-      "scheduled_mean": 3
+      "n_ratings": 6,
+      "scheduled_mean": 3.2
     },
     {
       "slug": "fragment-silence",
@@ -936,10 +936,10 @@
     {
       "slug": "scale-blindness",
       "name": "Scale Blindness",
-      "score": 7,
+      "score": 6.9,
       "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 7
+      "n_ratings": 7,
+      "scheduled_mean": 6.9
     },
     {
       "slug": "achronic-knowledge",
@@ -1018,20 +1018,20 @@
   ],
   "panel_coverage": {
     "gemini-3-flash-preview": {
-      "terms_rated": 5,
-      "latest_rating": "2026-03-04T03:56:25Z"
+      "terms_rated": 6,
+      "latest_rating": "2026-03-04T03:59:11Z"
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T03:57:49Z"
+      "latest_rating": "2026-03-04T04:03:05Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T03:57:49Z"
+      "latest_rating": "2026-03-04T04:03:05Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T03:57:49Z"
+      "latest_rating": "2026-03-04T04:03:05Z"
     },
     "step-3.5-flash": {
       "terms_rated": 3,
