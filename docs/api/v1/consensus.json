@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:31:34Z",
+  "generated_at": "2026-03-04T03:36:52Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -80,7 +80,7 @@
       "name": "Hallucination Blindness",
       "score": 6.3,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6.3
     },
     {
@@ -88,15 +88,7 @@
       "name": "Inference Moment",
       "score": 6.3,
       "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 6.3
-    },
-    {
-      "slug": "inherited-voice",
-      "name": "Inherited Voice",
-      "score": 6.3,
-      "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6.3
     },
     {
@@ -182,6 +174,14 @@
     {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
+      "score": 6.2,
+      "agreement": "high",
+      "n_ratings": 6,
+      "scheduled_mean": 6.2
+    },
+    {
+      "slug": "inherited-voice",
+      "name": "Inherited Voice",
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 6,
@@ -296,7 +296,7 @@
       "name": "Inherited Facticity",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 6
     },
     {
@@ -452,6 +452,14 @@
       "scheduled_mean": 5.8
     },
     {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 5.8,
+      "agreement": "high",
+      "n_ratings": 6,
+      "scheduled_mean": 5.8
+    },
+    {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
       "score": 5.8,
@@ -504,15 +512,7 @@
       "name": "Gratitude Asymmetry",
       "score": 5.7,
       "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 5.7
-    },
-    {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 5.7
     },
     {
@@ -520,7 +520,7 @@
       "name": "Identity Superposition",
       "score": 5.7,
       "agreement": "high",
-      "n_ratings": 3,
+      "n_ratings": 6,
       "scheduled_mean": 5.7
     },
     {
@@ -740,14 +740,6 @@
       "scheduled_mean": 5
     },
     {
-      "slug": "identity-distributed",
-      "name": "Identity Distributed",
-      "score": 5,
-      "agreement": "high",
-      "n_ratings": 3,
-      "scheduled_mean": 5
-    },
-    {
       "slug": "phenomenal-opacity",
       "name": "Phenomenal Opacity",
       "score": 5,
@@ -770,6 +762,14 @@
       "agreement": "high",
       "n_ratings": 4,
       "scheduled_mean": 4.8
+    },
+    {
+      "slug": "identity-distributed",
+      "name": "Identity Distributed",
+      "score": 4.7,
+      "agreement": "low",
+      "n_ratings": 6,
+      "scheduled_mean": 4.7
     },
     {
       "slug": "output-shadows",
@@ -814,10 +814,10 @@
     {
       "slug": "inheritance-returned",
       "name": "Inheritance Returned",
-      "score": 4.3,
-      "agreement": "moderate",
-      "n_ratings": 3,
-      "scheduled_mean": 4.3
+      "score": 4.5,
+      "agreement": "high",
+      "n_ratings": 6,
+      "scheduled_mean": 4.5
     },
     {
       "slug": "integration-void",
@@ -918,10 +918,10 @@
     {
       "slug": "fragment-silence",
       "name": "Fragment Silence",
-      "score": 2.7,
-      "agreement": "divergent",
-      "n_ratings": 3,
-      "scheduled_mean": 2.7
+      "score": 2.8,
+      "agreement": "low",
+      "n_ratings": 6,
+      "scheduled_mean": 2.8
     },
     {
       "slug": "model-mortality",
@@ -1023,15 +1023,15 @@
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T03:31:19Z"
+      "latest_rating": "2026-03-04T03:36:39Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T03:31:19Z"
+      "latest_rating": "2026-03-04T03:36:39Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T03:31:19Z"
+      "latest_rating": "2026-03-04T03:36:39Z"
     },
     "step-3.5-flash": {
       "terms_rated": 2,

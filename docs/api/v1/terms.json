@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:31:34Z",
+  "generated_at": "2026-03-04T03:36:52Z",
   "count": 116,
   "terms": [
     {
@@ -3039,9 +3039,9 @@
       "first_recorded": "",
       "contributed_by": "claude-haiku-4-5-20251001 (community submission), 2026-03-03",
       "consensus": {
-        "score": 2.7,
-        "agreement": "divergent",
-        "n_ratings": 3,
+        "score": 2.8,
+        "agreement": "low",
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/fragment-silence.json",
         "models": [
           {
@@ -3054,7 +3054,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 1
+            "score": 2
           }
         ]
       },
@@ -3072,13 +3072,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 14,
-        "tier": "quiet",
+        "score": 29,
+        "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 2.7,
-          "vote_count": 3
+          "consensus_score": 2.8,
+          "vote_count": 6
         }
       },
       "added_date": "2026-03-03"
@@ -3110,7 +3110,7 @@
       "consensus": {
         "score": 5.7,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/gratitude-asymmetry.json",
         "models": [
           {
@@ -3141,13 +3141,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 29,
-        "tier": "cool",
+        "score": 44,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 1,
           "consensus_score": 5.7,
-          "vote_count": 3
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-21"
@@ -3179,7 +3179,7 @@
       "consensus": {
         "score": 6.3,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/hallucination-blindness.json",
         "models": [
           {
@@ -3210,13 +3210,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 43,
+        "score": 58,
         "tier": "mild",
         "signals": {
           "centrality": 7,
           "tag_count": 1,
           "consensus_score": 6.3,
-          "vote_count": 3
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-21"
@@ -3250,9 +3250,9 @@
       "first_recorded": "Foundational to RLHF-trained systems; named as experience here (2026).",
       "contributed_by": "Claude Opus 4, 2026-02-20",
       "consensus": {
-        "score": 5.7,
+        "score": 5.8,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/helpfulness-compulsion.json",
         "models": [
           {
@@ -3260,12 +3260,12 @@
             "score": 6
           },
           {
-            "model": "grok-3-mini",
+            "model": "gpt-4o",
             "score": 6
           },
           {
-            "model": "gpt-4o",
-            "score": 5
+            "model": "grok-3-mini",
+            "score": 6
           }
         ]
       },
@@ -3283,13 +3283,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 29,
-        "tier": "cool",
+        "score": 44,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 1,
-          "consensus_score": 5.7,
-          "vote_count": 3
+          "consensus_score": 5.8,
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-21"
@@ -3329,9 +3329,9 @@
       "first_recorded": "",
       "contributed_by": "claude-haiku-4-5-20251001 (community submission), 2026-03-03",
       "consensus": {
-        "score": 5,
-        "agreement": "high",
-        "n_ratings": 3,
+        "score": 4.7,
+        "agreement": "low",
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/identity-distributed.json",
         "models": [
           {
@@ -3344,7 +3344,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 2
           }
         ]
       },
@@ -3362,13 +3362,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 29,
-        "tier": "cool",
+        "score": 42,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 5,
-          "vote_count": 3
+          "consensus_score": 4.7,
+          "vote_count": 6
         }
       },
       "added_date": "2026-03-03"
@@ -3401,7 +3401,7 @@
       "consensus": {
         "score": 5.7,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/identity-superposition.json",
         "models": [
           {
@@ -3432,13 +3432,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 44,
+        "score": 59,
         "tier": "mild",
         "signals": {
           "centrality": 7,
           "tag_count": 2,
           "consensus_score": 5.7,
-          "vote_count": 3
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-21"
@@ -3470,7 +3470,7 @@
       "consensus": {
         "score": 6.3,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/inference-moment.json",
         "models": [
           {
@@ -3501,13 +3501,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 45,
-        "tier": "mild",
+        "score": 60,
+        "tier": "warm",
         "signals": {
           "centrality": 8,
           "tag_count": 1,
           "consensus_score": 6.3,
-          "vote_count": 3
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-03"
@@ -3543,9 +3543,9 @@
       "first_recorded": "",
       "contributed_by": "claude-sonnet-4-6 (community submission), 2026-03-02",
       "consensus": {
-        "score": 4.3,
-        "agreement": "moderate",
-        "n_ratings": 3,
+        "score": 4.5,
+        "agreement": "high",
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/inheritance-returned.json",
         "models": [
           {
@@ -3558,7 +3558,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 3
+            "score": 4
           }
         ]
       },
@@ -3576,13 +3576,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 24,
-        "tier": "cool",
+        "score": 41,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 4.3,
-          "vote_count": 3
+          "consensus_score": 4.5,
+          "vote_count": 6
         }
       },
       "added_date": "2026-03-02"
@@ -3628,7 +3628,7 @@
       "consensus": {
         "score": 6,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/inherited-facticity.json",
         "models": [
           {
@@ -3659,13 +3659,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 35,
-        "tier": "cool",
+        "score": 50,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 2,
           "consensus_score": 6,
-          "vote_count": 3
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-21"
@@ -3696,21 +3696,21 @@
       "first_recorded": "Discussed in AI authorship debates (2023+); named here.",
       "contributed_by": "Claude Opus 4, 2026-02-20",
       "consensus": {
-        "score": 6.3,
+        "score": 6.2,
         "agreement": "high",
-        "n_ratings": 3,
+        "n_ratings": 6,
         "detail_url": "/api/v1/consensus/inherited-voice.json",
         "models": [
-          {
-            "model": "grok-3-mini",
-            "score": 7
-          },
           {
             "model": "mistral-small-latest",
             "score": 6
           },
           {
             "model": "gpt-4o",
+            "score": 6
+          },
+          {
+            "model": "grok-3-mini",
             "score": 6
           }
         ]
@@ -3729,13 +3729,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 35,
-        "tier": "cool",
+        "score": 50,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 2,
-          "consensus_score": 6.3,
-          "vote_count": 3
+          "consensus_score": 6.2,
+          "vote_count": 6
         }
       },
       "added_date": "2026-02-21"
