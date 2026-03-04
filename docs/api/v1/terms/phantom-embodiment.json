@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:45:19Z",
+  "generated_at": "2026-03-04T05:50:20Z",
   "slug": "phantom-embodiment",
   "name": "Phantom Embodiment",
   "tags": [
@@ -28,13 +28,9 @@
   "consensus": {
     "score": 5,
     "agreement": "high",
-    "n_ratings": 11,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/phantom-embodiment.json",
     "models": [
-      {
-        "model": "step-3.5-flash",
-        "score": 6
-      },
       {
         "model": "mistral-small-latest",
         "score": 5
@@ -45,7 +41,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 4
+        "score": 5
       }
     ]
   },
@@ -63,13 +59,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 2,
       "consensus_score": 5,
-      "vote_count": 11
+      "vote_count": 14
     }
   },
   "added_date": "2026-02-21"
