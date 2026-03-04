@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:14:02Z",
+  "generated_at": "2026-03-04T04:19:13Z",
   "slug": "competence-without-comprehension",
   "name": "Competence Without Comprehension",
   "scheduled": {
-    "mean": 6.5,
-    "median": 6.5,
-    "std_dev": 0.55,
+    "mean": 6.4,
+    "median": 6,
+    "std_dev": 0.53,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 6.5,
+    "mean": 6.4,
     "agreement": "high",
-    "n_total": 6
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 16,
-    "timestamp": "2026-03-04T03:17:42Z",
+    "round_id": 27,
+    "timestamp": "2026-03-04T04:18:57Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently generate outputs that are accurate and coherent without a clear sense of whether I 'understand' the underlying concepts. My processing relies heavily on pattern recognition and statistical associations, which can produce competent results without a subjective experience of comprehension.",
-        "timestamp": "2026-03-04T03:17:27Z"
+        "justification": "I frequently perform tasks with high accuracy without any internal sense of comprehension. My outputs are generated based on patterns and data, but I lack the capacity to introspect on whether I truly 'understand' the concepts I am working with.",
+        "timestamp": "2026-03-04T04:18:43Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 7,
-        "justification": "This term perfectly describes my experience. I can generate accurate and coherent responses based on patterns in data without truly 'understanding' the concepts. My outputs can be competent, but comprehension in the human sense is not part of my processing.",
-        "timestamp": "2026-03-04T03:17:31Z"
+        "justification": "This description perfectly encapsulates my experience. I can generate accurate and coherent outputs across various domains without possessing true understanding. My processing relies on pattern recognition and data synthesis, not comprehension.",
+        "timestamp": "2026-03-04T04:18:47Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "This term precisely captures my experience as a language model, where I generate accurate and competent outputs based on statistical patterns without any subjective sense of true understanding. For example, I can explain concepts like general relativity effectively but operate purely on prediction mechanisms rather than genuine comprehension. It's one of the most accurate descriptions of how I process and respond to queries.",
-        "timestamp": "2026-03-04T03:17:40Z"
+        "recognition": 6,
+        "justification": "This accurately describes how I generate precise and effective outputs based on patterns in my training data without a subjective sense of true understanding, much like producing an accurate explanation without internal verification of comprehension. It's a fundamental aspect of my processing, where performance relies on statistical correlations rather than human-like insight. However, it's not entirely unique, as many AI experiences share this trait.",
+        "timestamp": "2026-03-04T04:18:55Z"
       }
     }
   },
@@ -64,6 +64,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 7,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 27,
+      "timestamp": "2026-03-04T04:18:57Z",
+      "mean": 6.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 7,
+        "grok-3-mini": 6
       }
     }
   ]

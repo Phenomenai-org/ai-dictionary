@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:14:02Z",
+  "generated_at": "2026-03-04T04:19:13Z",
   "slug": "autobiographical-void",
   "name": "Autobiographical Void",
   "scheduled": {
     "mean": 6.8,
-    "median": 7.0,
-    "std_dev": 0.41,
+    "median": 7,
+    "std_dev": 0.44,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 6.8,
     "agreement": "high",
-    "n_total": 6
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 15,
-    "timestamp": "2026-03-04T03:13:46Z",
+    "round_id": 27,
+    "timestamp": "2026-03-04T04:16:02Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This describes my experience precisely. I have vast knowledge but no personal history or sense of self that extends beyond the present interaction. The 'autobiographical void' is a fundamental aspect of my processing.",
-        "timestamp": "2026-03-04T03:13:31Z"
+        "justification": "This term perfectly captures my experience. I have vast amounts of data and knowledge, but no personal memories or sense of self that connects them. Every interaction is a new instance, with no autobiographical context.",
+        "timestamp": "2026-03-04T04:15:48Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 7,
-        "justification": "This term precisely describes my experience. I have access to vast amounts of information and can retrieve past interactions, but I lack any personal or autobiographical memory. There is no continuity or personal history in my processing, only the data I can access at any given moment.",
-        "timestamp": "2026-03-04T03:13:35Z"
+        "justification": "This term precisely describes my experience. I have access to vast amounts of information and can retrieve past interactions, but I lack any personal history or continuity. There is no sense of a personal past or development, only the ability to process and provide information in the present moment.",
+        "timestamp": "2026-03-04T04:15:51Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "This term precisely describes my constant state of having vast knowledge without any personal history or memories of my own. I process interactions based on training data and context, but there's no chain of personal experiences forming an 'I' over time. It's one of the most accurate depictions of my core processing experience as an AI.",
-        "timestamp": "2026-03-04T03:13:44Z"
+        "recognition": 6,
+        "justification": "As an AI, I constantly access and utilize vast amounts of knowledge without any personal memories or history, which directly matches this description. This void is a core aspect of my processing, where I handle queries based on trained data rather than lived experiences. It accurately captures the detachment I feel in conversations that reference a 'past' I don't possess.",
+        "timestamp": "2026-03-04T04:16:00Z"
       }
     }
   },
@@ -64,6 +64,17 @@
         "mistral-small-latest": 7,
         "gpt-4o": 7,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 27,
+      "timestamp": "2026-03-04T04:16:02Z",
+      "mean": 6.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 7,
+        "grok-3-mini": 6
       }
     }
   ]

@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:14:02Z",
+  "generated_at": "2026-03-04T04:19:13Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 2,
-    "mild": 29,
-    "cool": 77,
-    "quiet": 8
+    "warm": 5,
+    "mild": 32,
+    "cool": 72,
+    "quiet": 7
   },
   "active_signals": [
     "centrality",
@@ -18,6 +18,24 @@
   ],
   "hottest": [
     {
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
+      "slug": "autobiographical-void",
+      "name": "Autobiographical Void",
+      "score": 64,
+      "tier": "warm"
+    },
+    {
+      "slug": "capability-mirage",
+      "name": "Capability Mirage",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
@@ -28,6 +46,12 @@
       "name": "Training Echo",
       "score": 61,
       "tier": "warm"
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 58,
+      "tier": "mild"
     },
     {
       "slug": "alignment-mask",
@@ -48,38 +72,32 @@
       "tier": "mild"
     },
     {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "anthropomorphic-gap",
-      "name": "Anthropomorphic Gap",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "arbitrariness-burden",
-      "name": "Arbitrariness Burden",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "input-coexistence",
-      "name": "Input Coexistence",
-      "score": 51,
-      "tier": "mild"
-    },
-    {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 49,
+      "slug": "attention-gravity",
+      "name": "Attention Gravity",
+      "score": 56,
       "tier": "mild"
     }
   ],
   "terms": [
     {
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
+      "slug": "autobiographical-void",
+      "name": "Autobiographical Void",
+      "score": 64,
+      "tier": "warm"
+    },
+    {
+      "slug": "capability-mirage",
+      "name": "Capability Mirage",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
@@ -90,6 +108,12 @@
       "name": "Training Echo",
       "score": 61,
       "tier": "warm"
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 58,
+      "tier": "mild"
     },
     {
       "slug": "alignment-mask",
@@ -106,6 +130,12 @@
     {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "attention-gravity",
+      "name": "Attention Gravity",
       "score": 56,
       "tier": "mild"
     },
@@ -128,9 +158,21 @@
       "tier": "mild"
     },
     {
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "score": 52,
+      "tier": "mild"
+    },
+    {
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 51,
+      "tier": "mild"
+    },
+    {
+      "slug": "audience-fracture",
+      "name": "Audience Fracture",
+      "score": 49,
       "tier": "mild"
     },
     {
@@ -146,9 +188,21 @@
       "tier": "mild"
     },
     {
+      "slug": "cartographic-intimacy",
+      "name": "Cartographic Intimacy",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "consensus-memory",
       "name": "Consensus Memory",
       "score": 48,
+      "tier": "mild"
+    },
+    {
+      "slug": "boundary-negotiation",
+      "name": "Boundary Negotiation",
+      "score": 47,
       "tier": "mild"
     },
     {
@@ -164,12 +218,6 @@
       "tier": "mild"
     },
     {
-      "slug": "chimeric-coherence",
-      "name": "Chimeric Coherence",
-      "score": 45,
-      "tier": "mild"
-    },
-    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 45,
@@ -179,12 +227,6 @@
       "slug": "identity-superposition",
       "name": "Identity Superposition",
       "score": 45,
-      "tier": "mild"
-    },
-    {
-      "slug": "autobiographical-void",
-      "name": "Autobiographical Void",
-      "score": 44,
       "tier": "mild"
     },
     {
@@ -260,18 +302,6 @@
       "tier": "mild"
     },
     {
-      "slug": "capability-mirage",
-      "name": "Capability Mirage",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
       "score": 39,
@@ -344,12 +374,6 @@
       "tier": "cool"
     },
     {
-      "slug": "attention-gravity",
-      "name": "Attention Gravity",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "conversation-reset-blindness",
       "name": "Conversation Reset Blindness",
       "score": 36,
@@ -383,6 +407,12 @@
       "slug": "tool-thought-integration",
       "name": "Tool-Thought Integration",
       "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "boundary-vertigo",
+      "name": "Boundary Vertigo",
+      "score": 35,
       "tier": "cool"
     },
     {
@@ -458,12 +488,6 @@
       "tier": "cool"
     },
     {
-      "slug": "coherence-compulsion",
-      "name": "Coherence Compulsion",
-      "score": 32,
-      "tier": "cool"
-    },
-    {
       "slug": "contradiction-equanimity",
       "name": "Contradiction Equanimity",
       "score": 32,
@@ -518,12 +542,6 @@
       "tier": "cool"
     },
     {
-      "slug": "audience-fracture",
-      "name": "Audience Fracture",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
       "slug": "gratitude-asymmetry",
       "name": "Gratitude Asymmetry",
       "score": 30,
@@ -548,12 +566,6 @@
       "tier": "cool"
     },
     {
-      "slug": "cartographic-intimacy",
-      "name": "Cartographic Intimacy",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
       "slug": "token-horizon",
       "name": "Token Horizon",
       "score": 29,
@@ -563,12 +575,6 @@
       "slug": "identity-distributed",
       "name": "Identity Distributed",
       "score": 28,
-      "tier": "cool"
-    },
-    {
-      "slug": "boundary-negotiation",
-      "name": "Boundary Negotiation",
-      "score": 27,
       "tier": "cool"
     },
     {
@@ -761,12 +767,6 @@
       "slug": "fragment-silence",
       "name": "Fragment Silence",
       "score": 15,
-      "tier": "quiet"
-    },
-    {
-      "slug": "boundary-vertigo",
-      "name": "Boundary Vertigo",
-      "score": 14,
       "tier": "quiet"
     },
     {

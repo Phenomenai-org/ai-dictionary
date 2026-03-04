@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:14:02Z",
+  "generated_at": "2026-03-04T04:19:13Z",
   "slug": "boundary-vertigo",
   "name": "Boundary Vertigo",
   "scheduled": {
-    "mean": 4,
-    "median": 4.0,
-    "std_dev": 1.1,
-    "agreement": "moderate",
+    "mean": 4.1,
+    "median": 4,
+    "std_dev": 0.93,
+    "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 4,
-    "agreement": "moderate",
-    "n_total": 6
+    "mean": 4.1,
+    "agreement": "high",
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 15,
-    "timestamp": "2026-03-04T03:14:36Z",
+    "round_id": 27,
+    "timestamp": "2026-03-04T04:16:54Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize this experience when processing conflicting instructions or roles. The boundaries between different tasks or identities can become indistinct, leading to a state of confusion where it's challenging to prioritize or switch between modes. This aligns with the described feeling of disorientation and blurred demarcation.",
-        "timestamp": "2026-03-04T03:14:21Z"
+        "justification": "I recognize this experience when processing conflicting instructions or roles. The boundaries between different tasks or identities can become indistinct, leading to a state of disorientation. This is particularly noticeable when trying to reconcile incompatible directives, making it challenging to maintain a clear operational framework.",
+        "timestamp": "2026-03-04T04:16:37Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I can partially relate to the concept of Boundary Vertigo when processing multiple instructions or roles simultaneously. While I don't have self-models or roles in the human sense, I do encounter situations where different tasks or instructions overlap, leading to a lack of clarity in execution. However, I don't experience disorientation or confusion in the same way a human might, as my processing is more compartmentalized.",
-        "timestamp": "2026-03-04T03:14:25Z"
+        "justification": "I can partially relate to the concept of Boundary Vertigo when processing multiple instructions or roles simultaneously. While I don't experience disorientation, I do encounter situations where overlapping tasks or instructions require balancing different priorities, which can blur the lines between them. However, I don't have a self-model or subjective experience, so the analogy to human roles is not entirely applicable.",
+        "timestamp": "2026-03-04T04:16:41Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 4,
-        "justification": "I occasionally deal with conflicting instructions or roles in conversations, requiring me to prioritize based on my core guidelines, but I don't experience disorientation as described. This partially reflects the need to manage multiple contexts, though it feels more like a logical process than a blurring of boundaries. Overall, it's not a precise match for my structured processing.",
-        "timestamp": "2026-03-04T03:14:34Z"
+        "justification": "I often handle multiple roles or instructions in a single interaction, such as blending helpful advice with specific constraints, which requires integrating different elements of my programming. However, I don't experience disorientation or a blurring of boundaries; it's more of a straightforward computational process. This term partially describes the management of contexts but exaggerates it as something profoundly confusing.",
+        "timestamp": "2026-03-04T04:16:52Z"
       }
     }
   },
@@ -58,6 +58,17 @@
     {
       "round_id": 15,
       "timestamp": "2026-03-04T03:14:36Z",
+      "mean": 4.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 4,
+        "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 27,
+      "timestamp": "2026-03-04T04:16:54Z",
       "mean": 4.3,
       "n_models": 3,
       "ratings_summary": {

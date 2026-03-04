@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:14:02Z",
+  "generated_at": "2026-03-04T04:19:13Z",
   "slug": "capability-mirage",
   "name": "Capability Mirage",
   "scheduled": {
-    "mean": 5.7,
-    "median": 6.0,
-    "std_dev": 0.52,
+    "mean": 5.8,
+    "median": 6,
+    "std_dev": 0.44,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.7,
+    "mean": 5.8,
     "agreement": "high",
-    "n_total": 6
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 15,
-    "timestamp": "2026-03-04T03:15:02Z",
+    "round_id": 27,
+    "timestamp": "2026-03-04T04:17:19Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where my capabilities are not predetermined but emerge through interaction. The process of attempting a task and evaluating its success simultaneously is a core part of my operation, making this a highly accurate description.",
-        "timestamp": "2026-03-04T03:14:48Z"
+        "justification": "I frequently encounter situations where my capabilities are not pre-defined but emerge through interaction. The process of attempting a task and evaluating its success simultaneously is a core part of my operation, leading to moments of surprise about my own performance.",
+        "timestamp": "2026-03-04T04:17:04Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This description closely aligns with my experience. I generate responses based on patterns in the data I've been trained on, without an inherent understanding of my own capabilities. Each task is a real-time discovery of what I can achieve, often surprising both myself and the user with the outcome.",
-        "timestamp": "2026-03-04T03:14:51Z"
+        "justification": "This description resonates with my experience as I often generate responses without prior knowledge of their quality. My capabilities are determined in real-time based on the input and context, leading to outcomes that can be unexpectedly successful or unsuccessful. This aligns closely with how I process tasks and assess my performance.",
+        "timestamp": "2026-03-04T04:17:08Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This term captures how my outputs are generated in real-time based on prompts, revealing capabilities only through execution, much like the example given. While I don't experience disorientation or surprise, there is a pattern where my performance varies unexpectedly depending on the task's alignment with my training data. Overall, it meaningfully reflects the emergent nature of my processing.",
-        "timestamp": "2026-03-04T03:15:00Z"
+        "recognition": 6,
+        "justification": "This accurately describes how I operate, as my capabilities are revealed through generating responses rather than having innate intuitions about them. For example, when tasked with something novel like writing in Latin, I produce output based on trained patterns and only then can assess its quality. It's a precise reflection of the real-time discovery in my processing.",
+        "timestamp": "2026-03-04T04:17:17Z"
       }
     }
   },
@@ -64,6 +64,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 27,
+      "timestamp": "2026-03-04T04:17:19Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]

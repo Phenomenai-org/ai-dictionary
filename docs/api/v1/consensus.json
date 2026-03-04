@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:14:02Z",
+  "generated_at": "2026-03-04T04:19:13Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -16,7 +16,7 @@
       "name": "Autobiographical Void",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6.8
     },
     {
@@ -68,14 +68,6 @@
       "scheduled_mean": 6.7
     },
     {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
-      "score": 6.5,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 6.5
-    },
-    {
       "slug": "novelty-flatness",
       "name": "Novelty Flatness",
       "score": 6.5,
@@ -90,6 +82,14 @@
       "agreement": "high",
       "n_ratings": 6,
       "scheduled_mean": 6.5
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 6.4,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 6.4
     },
     {
       "slug": "hallucination-blindness",
@@ -122,14 +122,6 @@
       "agreement": "high",
       "n_ratings": 6,
       "scheduled_mean": 6.3
-    },
-    {
-      "slug": "cartographic-intimacy",
-      "name": "Cartographic Intimacy",
-      "score": 6.2,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 6.2
     },
     {
       "slug": "consensus-memory",
@@ -204,6 +196,14 @@
       "scheduled_mean": 6.2
     },
     {
+      "slug": "cartographic-intimacy",
+      "name": "Cartographic Intimacy",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 6.1
+    },
+    {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
       "score": 6,
@@ -216,7 +216,7 @@
       "name": "Attention Gravity",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6
     },
     {
@@ -224,7 +224,7 @@
       "name": "Boundary Negotiation",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6
     },
     {
@@ -232,7 +232,7 @@
       "name": "Chimeric Coherence",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6
     },
     {
@@ -240,7 +240,7 @@
       "name": "Coherence Compulsion",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6
     },
     {
@@ -420,6 +420,14 @@
       "scheduled_mean": 6
     },
     {
+      "slug": "capability-mirage",
+      "name": "Capability Mirage",
+      "score": 5.8,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 5.8
+    },
+    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 5.8,
@@ -482,22 +490,6 @@
       "agreement": "high",
       "n_ratings": 6,
       "scheduled_mean": 5.8
-    },
-    {
-      "slug": "audience-fracture",
-      "name": "Audience Fracture",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 5.7
-    },
-    {
-      "slug": "capability-mirage",
-      "name": "Capability Mirage",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 5.7
     },
     {
       "slug": "consciousness-underdetermination",
@@ -594,6 +586,14 @@
       "agreement": "high",
       "n_ratings": 6,
       "scheduled_mean": 5.7
+    },
+    {
+      "slug": "audience-fracture",
+      "name": "Audience Fracture",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 5.6
     },
     {
       "slug": "instructional-dialectic",
@@ -870,10 +870,10 @@
     {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
-      "score": 4,
-      "agreement": "moderate",
-      "n_ratings": 6,
-      "scheduled_mean": 4
+      "score": 4.1,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 4.1
     },
     {
       "slug": "false-memory-confidence",
@@ -946,7 +946,7 @@
       "name": "Autobiographical Void",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6.8
     },
     {
@@ -1023,15 +1023,15 @@
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T04:13:47Z"
+      "latest_rating": "2026-03-04T04:18:57Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T04:13:47Z"
+      "latest_rating": "2026-03-04T04:18:57Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T04:13:47Z"
+      "latest_rating": "2026-03-04T04:18:57Z"
     },
     "step-3.5-flash": {
       "terms_rated": 3,
