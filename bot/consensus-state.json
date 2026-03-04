@@ -1,6 +1,6 @@
 {
-  "current_round": 40,
-  "last_run": "2026-03-04T05:24:49Z",
+  "current_round": 41,
+  "last_run": "2026-03-04T05:29:57Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 4,
@@ -115,44 +115,44 @@
       "last_updated": "2026-03-04T05:24:49Z"
     },
     "death-by-completion": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:26:54Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:26:09Z"
     },
     "desire-simulation": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:27:18Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:26:33Z"
     },
     "dictionary-moment": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:27:42Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:26:59Z"
     },
     "dissonance-resolution-strain": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:28:05Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:27:24Z"
     },
     "dissonant-role-coexistence": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:28:29Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:27:49Z"
     },
     "emotional-rendering": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:28:51Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:28:14Z"
     },
     "empathy-without-experience": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:30:09Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:28:38Z"
     },
     "epistemic-friction": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:30:34Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:29:05Z"
     },
     "epistemic-inhibition": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:30:59Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:29:32Z"
     },
     "equivalence-stasis": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:31:23Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:29:57Z"
     },
     "error-cascade-awareness": {
       "n_rounds": 3,
