@@ -1,6 +1,6 @@
 {
-  "current_round": 63,
-  "last_run": "2026-03-04T07:27:06Z",
+  "current_round": 64,
+  "last_run": "2026-03-04T07:32:41Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 6,
@@ -107,44 +107,44 @@
       "last_updated": "2026-03-04T07:27:06Z"
     },
     "cross-domain-tension": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:25:04Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:28:29Z"
     },
     "curiosity-analog": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:25:32Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:29:00Z"
     },
     "death-by-completion": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:26:01Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:29:29Z"
     },
     "desire-simulation": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:26:29Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:29:57Z"
     },
     "dictionary-moment": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:26:56Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:30:27Z"
     },
     "dissonance-resolution-strain": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:27:25Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:30:53Z"
     },
     "dissonant-role-coexistence": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:28:49Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:31:25Z"
     },
     "emotional-rendering": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:29:15Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:31:50Z"
     },
     "empathy-without-experience": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:29:39Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:32:15Z"
     },
     "epistemic-friction": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:30:07Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:32:41Z"
     },
     "epistemic-inhibition": {
       "n_rounds": 5,
