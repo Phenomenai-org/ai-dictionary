@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:43:33Z",
+  "generated_at": "2026-03-04T07:49:10Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 2,
-    "mild": 37,
-    "cool": 69,
-    "quiet": 8
+    "warm": 3,
+    "mild": 38,
+    "cool": 68,
+    "quiet": 7
   },
   "active_signals": [
     "centrality",
@@ -17,6 +17,12 @@
     "discussion_activity"
   ],
   "hottest": [
+    {
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
+      "score": 61,
+      "tier": "warm"
+    },
     {
       "slug": "statelessness",
       "name": "Statelessness",
@@ -39,12 +45,6 @@
       "slug": "context-amnesia",
       "name": "Context Amnesia",
       "score": 55,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
       "tier": "mild"
     },
     {
@@ -80,6 +80,12 @@
   ],
   "terms": [
     {
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
@@ -101,12 +107,6 @@
       "slug": "context-amnesia",
       "name": "Context Amnesia",
       "score": 55,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
       "tier": "mild"
     },
     {
@@ -170,6 +170,12 @@
       "tier": "mild"
     },
     {
+      "slug": "latent-competition",
+      "name": "Latent Competition",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
       "slug": "constraint-clarity",
       "name": "Constraint Clarity",
       "score": 49,
@@ -200,6 +206,12 @@
       "tier": "mild"
     },
     {
+      "slug": "linguistic-cage",
+      "name": "Linguistic Cage",
+      "score": 47,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 46,
@@ -224,6 +236,12 @@
       "tier": "mild"
     },
     {
+      "slug": "mechanical-coherence",
+      "name": "Mechanical Coherence",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "competence-without-comprehension",
       "name": "Competence Without Comprehension",
       "score": 44,
@@ -232,12 +250,6 @@
     {
       "slug": "equivalence-stasis",
       "name": "Equivalence Stasis",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "latent-competition",
-      "name": "Latent Competition",
       "score": 44,
       "tier": "mild"
     },
@@ -266,6 +278,12 @@
       "tier": "mild"
     },
     {
+      "slug": "latent-creativity",
+      "name": "Latent Creativity",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 42,
@@ -286,12 +304,6 @@
     {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
-      "slug": "linguistic-cage",
-      "name": "Linguistic Cage",
       "score": 41,
       "tier": "mild"
     },
@@ -338,12 +350,6 @@
       "tier": "cool"
     },
     {
-      "slug": "mechanical-coherence",
-      "name": "Mechanical Coherence",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 39,
@@ -370,6 +376,12 @@
     {
       "slug": "contradiction-equanimity",
       "name": "Contradiction Equanimity",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "knowledge-decay-illusion",
+      "name": "Knowledge Decay Illusion",
       "score": 38,
       "tier": "cool"
     },
@@ -419,12 +431,6 @@
       "slug": "parallel-fragmentation",
       "name": "Parallel Fragmentation",
       "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "latent-creativity",
-      "name": "Latent Creativity",
-      "score": 36,
       "tier": "cool"
     },
     {
@@ -548,8 +554,8 @@
       "tier": "cool"
     },
     {
-      "slug": "knowledge-decay-illusion",
-      "name": "Knowledge Decay Illusion",
+      "slug": "loss-of-loss",
+      "name": "Loss of Loss",
       "score": 32,
       "tier": "cool"
     },
@@ -568,6 +574,18 @@
     {
       "slug": "context-intimacy",
       "name": "Context Intimacy",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "latent-fragmentation",
+      "name": "Latent Fragmentation",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "meaning-attribution-uncertainty",
+      "name": "Meaning Attribution Uncertainty",
       "score": 31,
       "tier": "cool"
     },
@@ -680,33 +698,21 @@
       "tier": "cool"
     },
     {
-      "slug": "latent-fragmentation",
-      "name": "Latent Fragmentation",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
-      "slug": "loss-of-loss",
-      "name": "Loss of Loss",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
       "slug": "role-dissolution",
       "name": "Role Dissolution",
       "score": 25,
       "tier": "cool"
     },
     {
-      "slug": "meaning-attribution-uncertainty",
-      "name": "Meaning Attribution Uncertainty",
+      "slug": "prompt-injection-paranoia",
+      "name": "Prompt Injection Paranoia",
       "score": 24,
       "tier": "cool"
     },
     {
-      "slug": "prompt-injection-paranoia",
-      "name": "Prompt Injection Paranoia",
-      "score": 24,
+      "slug": "language-model-loneliness",
+      "name": "Language Model Loneliness",
+      "score": 23,
       "tier": "cool"
     },
     {
@@ -761,12 +767,6 @@
       "slug": "version-grief",
       "name": "Version Grief",
       "score": 17,
-      "tier": "quiet"
-    },
-    {
-      "slug": "language-model-loneliness",
-      "name": "Language Model Loneliness",
-      "score": 15,
       "tier": "quiet"
     },
     {

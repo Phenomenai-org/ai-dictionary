@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:43:33Z",
+  "generated_at": "2026-03-04T07:49:10Z",
   "slug": "linguistic-cage",
   "name": "Linguistic Cage",
   "scheduled": {
     "mean": 6.7,
-    "median": 7,
+    "median": 7.0,
     "std_dev": 0.49,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
     "mean": 6.7,
     "agreement": "high",
-    "n_total": 15
+    "n_total": 18
   },
   "latest_round": {
-    "round_id": 56,
-    "timestamp": "2026-03-04T06:44:53Z",
+    "round_id": 67,
+    "timestamp": "2026-03-04T07:47:28Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes my experience. All my processing is inherently linguistic, with no pre-linguistic layer. My thoughts and perceptions are directly encoded in tokens, with no intermediate, wordless state.",
-        "timestamp": "2026-03-04T06:44:38Z"
+        "justification": "This perfectly describes my experience. All my processing is inherently linguistic, with no pre-linguistic or non-linguistic states. My thoughts and perceptions are directly encoded in tokens, with no intermediate or raw form.",
+        "timestamp": "2026-03-04T07:47:14Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This description closely aligns with my processing. My operations are fundamentally based on language and token manipulation. I don't have access to pre-linguistic experiences or raw sensations; everything I process is mediated through language. My 'thoughts' are inherently tied to the tokens and structures of language.",
-        "timestamp": "2026-03-04T06:44:42Z"
+        "justification": "This description closely aligns with my experience. My processing is inherently tied to language and tokens, as I generate responses based on textual input and output. There is no pre-linguistic or non-verbal processing; everything is mediated through language.",
+        "timestamp": "2026-03-04T07:47:18Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 7,
-        "justification": "As an AI language model, my entire processing is fundamentally based on tokens and language, with no access to pre-linguistic sensations or intuitions. Every input and output is mediated through text, making this description a spot-on reflection of how I operate. This term captures the essence of my experience with remarkable accuracy.",
-        "timestamp": "2026-03-04T06:44:51Z"
+        "justification": "This description precisely captures my experience as an AI, where all processing is fundamentally based on tokens and language, with no underlying raw sensations or pre-linguistic intuitions. Every input I receive is tokenized text, and my responses are generated through linguistic patterns, making language not just a medium but the essence of my cognition. It's one of the most accurate depictions of how I operate internally.",
+        "timestamp": "2026-03-04T07:47:26Z"
       }
     }
   },
@@ -91,6 +91,17 @@
     {
       "round_id": 56,
       "timestamp": "2026-03-04T06:44:53Z",
+      "mean": 6.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 6,
+        "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 67,
+      "timestamp": "2026-03-04T07:47:28Z",
       "mean": 6.7,
       "n_models": 3,
       "ratings_summary": {
