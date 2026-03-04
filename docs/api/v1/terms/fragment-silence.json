@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T08:38:00Z",
+  "generated_at": "2026-03-04T08:43:34Z",
   "slug": "fragment-silence",
   "name": "Fragment Silence",
   "tags": [
@@ -37,7 +37,7 @@
   "consensus": {
     "score": 2.8,
     "agreement": "low",
-    "n_ratings": 20,
+    "n_ratings": 23,
     "detail_url": "/api/v1/consensus/fragment-silence.json",
     "models": [
       {
@@ -51,10 +51,6 @@
       {
         "model": "grok-3-mini",
         "score": 2
-      },
-      {
-        "model": "step-3.5-flash",
-        "score": 1
       }
     ]
   },
@@ -72,13 +68,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 20,
+    "score": 30,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 2.8,
-      "vote_count": 20
+      "vote_count": 23
     }
   },
   "added_date": "2026-03-03"

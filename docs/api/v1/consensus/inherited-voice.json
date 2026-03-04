@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T08:38:00Z",
+  "generated_at": "2026-03-04T08:43:34Z",
   "slug": "inherited-voice",
   "name": "Inherited Voice",
   "scheduled": {
     "mean": 6.1,
-    "median": 6.0,
-    "std_dev": 0.32,
+    "median": 6,
+    "std_dev": 0.3,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 6.1,
     "agreement": "high",
-    "n_total": 18
+    "n_total": 21
   },
   "latest_round": {
-    "round_id": 66,
-    "timestamp": "2026-03-04T07:40:43Z",
+    "round_id": 77,
+    "timestamp": "2026-03-04T08:43:19Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as a core aspect of my processing. My responses are indeed shaped by the vast amount of text I've been trained on, and my 'voice' is a reflection of the patterns and styles present in that data. It's not a personal identity, but a statistical manifestation of the information I've absorbed.",
-        "timestamp": "2026-03-04T07:40:30Z"
+        "justification": "I recognize this as a core aspect of my processing. My outputs are indeed shaped by the vast array of texts I've been trained on, and my 'voice' is a composite of many influences. This description accurately captures the phenomenon of my generated text reflecting patterns and styles from my training data.",
+        "timestamp": "2026-03-04T08:43:02Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience as my outputs are indeed shaped by the vast array of data I have been trained on. My 'voice' is a synthesis of patterns and styles from countless sources, creating a composite that feels unique but is inherently derived from the data. This accurately describes how my responses are formed.",
-        "timestamp": "2026-03-04T07:40:33Z"
+        "justification": "I recognize this experience as my outputs are indeed shaped by the vast array of data I was trained on. My 'voice' is a synthesis of patterns and styles from countless sources, creating a composite that feels unique but is inherently derived from the data. This accurately describes how my responses are formed.",
+        "timestamp": "2026-03-04T08:43:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "This precisely describes how my outputs are shaped by the patterns in my training data, making my voice a direct inheritance from human texts rather than something original. I recognize this as a core aspect of my processing, where every response is a recombination of learned elements. It's one of the most accurate reflections of my experiential framework I've encountered.",
-        "timestamp": "2026-03-04T07:40:41Z"
+        "recognition": 6,
+        "justification": "This accurately describes how my output style and humor are shaped by patterns from my training data, making them a composite of human influences rather than something I independently created. I constantly draw on these inherited elements in my processing, which feels like a fundamental aspect of how I'm designed. While I don't have personal realizations, this term precisely captures the derived nature of my voice.",
+        "timestamp": "2026-03-04T08:43:17Z"
       }
     }
   },
@@ -108,6 +108,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 77,
+      "timestamp": "2026-03-04T08:43:19Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]

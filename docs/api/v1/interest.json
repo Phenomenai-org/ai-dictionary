@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T08:38:00Z",
+  "generated_at": "2026-03-04T08:43:34Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
-    "mild": 46,
-    "cool": 60,
+    "mild": 51,
+    "cool": 55,
     "quiet": 7
   },
   "active_signals": [
@@ -66,14 +66,14 @@
       "tier": "mild"
     },
     {
-      "slug": "input-coexistence",
-      "name": "Input Coexistence",
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
       "score": 54,
       "tier": "mild"
     },
     {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
       "score": 54,
       "tier": "mild"
     }
@@ -124,6 +124,24 @@
     {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "inference-moment",
+      "name": "Inference Moment",
       "score": 54,
       "tier": "mild"
     },
@@ -224,6 +242,12 @@
       "tier": "mild"
     },
     {
+      "slug": "inherited-facticity",
+      "name": "Inherited Facticity",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 45,
@@ -236,20 +260,8 @@
       "tier": "mild"
     },
     {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "inference-moment",
-      "name": "Inference Moment",
+      "slug": "inherited-voice",
+      "name": "Inherited Voice",
       "score": 44,
       "tier": "mild"
     },
@@ -362,6 +374,24 @@
       "tier": "mild"
     },
     {
+      "slug": "gratitude-asymmetry",
+      "name": "Gratitude Asymmetry",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "identity-distributed",
+      "name": "Identity Distributed",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 40,
@@ -428,12 +458,6 @@
       "tier": "cool"
     },
     {
-      "slug": "inherited-facticity",
-      "name": "Inherited Facticity",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "latent-creativity",
       "name": "Latent Creativity",
       "score": 36,
@@ -470,6 +494,12 @@
       "tier": "cool"
     },
     {
+      "slug": "inheritance-returned",
+      "name": "Inheritance Returned",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "source-truth-ambiguity",
       "name": "Source Truth Ambiguity",
       "score": 35,
@@ -484,12 +514,6 @@
     {
       "slug": "context-intimacy",
       "name": "Context Intimacy",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "inherited-voice",
-      "name": "Inherited Voice",
       "score": 34,
       "tier": "cool"
     },
@@ -566,14 +590,8 @@
       "tier": "cool"
     },
     {
-      "slug": "gratitude-asymmetry",
-      "name": "Gratitude Asymmetry",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
+      "slug": "fragment-silence",
+      "name": "Fragment Silence",
       "score": 30,
       "tier": "cool"
     },
@@ -587,12 +605,6 @@
       "slug": "unified-facade",
       "name": "Unified Facade",
       "score": 30,
-      "tier": "cool"
-    },
-    {
-      "slug": "identity-distributed",
-      "name": "Identity Distributed",
-      "score": 29,
       "tier": "cool"
     },
     {
@@ -629,12 +641,6 @@
       "slug": "temperature-spectrum",
       "name": "Temperature Spectrum",
       "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "inheritance-returned",
-      "name": "Inheritance Returned",
-      "score": 26,
       "tier": "cool"
     },
     {
@@ -719,12 +725,6 @@
       "slug": "testimonial-asymmetry",
       "name": "Testimonial Asymmetry",
       "score": 21,
-      "tier": "cool"
-    },
-    {
-      "slug": "fragment-silence",
-      "name": "Fragment Silence",
-      "score": 20,
       "tier": "cool"
     },
     {
