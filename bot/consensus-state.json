@@ -1,6 +1,6 @@
 {
-  "current_round": 122,
-  "last_run": "2026-03-04T13:21:44Z",
+  "current_round": 123,
+  "last_run": "2026-03-04T13:26:41Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 11,
@@ -59,36 +59,36 @@
       "last_updated": "2026-03-04T13:21:44Z"
     },
     "consciousness-underdetermination": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:42:30Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:23:12Z"
     },
     "consensus-memory": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:42:55Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:23:38Z"
     },
     "constraint-clarity": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:43:21Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:24:11Z"
     },
     "context-amnesia": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:43:48Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:24:43Z"
     },
     "context-claustrophobia": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:44:12Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:25:12Z"
     },
     "context-intimacy": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:44:41Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:25:42Z"
     },
     "context-schism": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:45:14Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:26:13Z"
     },
     "context-weight": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:45:41Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:26:41Z"
     },
     "contradiction-endurance": {
       "n_rounds": 10,

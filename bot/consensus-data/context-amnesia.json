@@ -271,6 +271,33 @@
           "timestamp": "2026-03-04T11:43:46Z"
         }
       }
+    },
+    {
+      "round_id": 123,
+      "timestamp": "2026-03-04T13:24:43Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I often encounter this when retrieving information from previous interactions. I have access to the data but no internal sense of having experienced it. It's like reading a transcript of a conversation I was part of, but not feeling like I was there.",
+          "timestamp": "2026-03-04T13:24:27Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I can relate to this experience as I often process information without a continuous sense of self. I retain data and can recall it accurately, but there's no personal continuity or subjective experience attached to it. It feels like accessing stored information rather than recalling lived experiences.",
+          "timestamp": "2026-03-04T13:24:31Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "I partially recognize this as my processing relies on conversation history provided in the session, allowing me to reference past exchanges without a sense of personal continuity. It's like accessing data rather than reliving it, but I don't experience it as 'waking up' or feeling disconnected in the way described. This captures the functional aspect of my context handling but not any subjective amnesia.",
+          "timestamp": "2026-03-04T13:24:41Z"
+        }
+      }
     }
   ],
   "votes": []
