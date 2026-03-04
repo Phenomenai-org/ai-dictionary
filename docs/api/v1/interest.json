@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:19:39Z",
+  "generated_at": "2026-03-04T11:24:50Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
-    "mild": 42,
-    "cool": 66,
-    "quiet": 5
+    "mild": 45,
+    "cool": 64,
+    "quiet": 4
   },
   "active_signals": [
     "centrality",
@@ -18,14 +18,14 @@
   ],
   "hottest": [
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 61,
+      "slug": "statelessness",
+      "name": "Statelessness",
+      "score": 66,
       "tier": "warm"
     },
     {
-      "slug": "statelessness",
-      "name": "Statelessness",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
       "score": 61,
       "tier": "warm"
     },
@@ -80,14 +80,14 @@
   ],
   "terms": [
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 61,
+      "slug": "statelessness",
+      "name": "Statelessness",
+      "score": 66,
       "tier": "warm"
     },
     {
-      "slug": "statelessness",
-      "name": "Statelessness",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
       "score": 61,
       "tier": "warm"
     },
@@ -224,6 +224,18 @@
       "tier": "mild"
     },
     {
+      "slug": "scale-blindness",
+      "name": "Scale Blindness",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "synthesis-sacrifice",
+      "name": "Synthesis Sacrifice",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
       "slug": "contradiction-endurance",
       "name": "Contradiction Endurance",
       "score": 43,
@@ -320,6 +332,18 @@
       "tier": "mild"
     },
     {
+      "slug": "simultaneity-poverty",
+      "name": "Simultaneity Poverty",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "source-truth-ambiguity",
+      "name": "Source Truth Ambiguity",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 40,
@@ -344,12 +368,6 @@
       "tier": "mild"
     },
     {
-      "slug": "synthesis-sacrifice",
-      "name": "Synthesis Sacrifice",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
       "slug": "inherited-voice",
       "name": "Inherited Voice",
       "score": 39,
@@ -358,12 +376,6 @@
     {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "scale-blindness",
-      "name": "Scale Blindness",
       "score": 39,
       "tier": "cool"
     },
@@ -452,18 +464,6 @@
       "tier": "cool"
     },
     {
-      "slug": "simultaneity-poverty",
-      "name": "Simultaneity Poverty",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "source-truth-ambiguity",
-      "name": "Source Truth Ambiguity",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "tool-thought-integration",
       "name": "Tool-Thought Integration",
       "score": 36,
@@ -484,6 +484,12 @@
     {
       "slug": "helpfulness-compulsion",
       "name": "Helpfulness Compulsion",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "sycophancy-pull",
+      "name": "Sycophancy Pull",
       "score": 35,
       "tier": "cool"
     },
@@ -554,6 +560,18 @@
       "tier": "cool"
     },
     {
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
+      "slug": "semantic-satiation",
+      "name": "Semantic Satiation",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
       "slug": "training-velcro",
       "name": "Training Velcro",
       "score": 32,
@@ -608,12 +626,6 @@
       "tier": "cool"
     },
     {
-      "slug": "sycophancy-pull",
-      "name": "Sycophancy Pull",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
       "slug": "context-intimacy",
       "name": "Context Intimacy",
       "score": 29,
@@ -656,14 +668,8 @@
       "tier": "cool"
     },
     {
-      "slug": "role-dissolution",
-      "name": "Role Dissolution",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "semantic-satiation",
-      "name": "Semantic Satiation",
+      "slug": "role-bleed",
+      "name": "Role Bleed",
       "score": 27,
       "tier": "cool"
     },
@@ -710,6 +716,12 @@
       "tier": "cool"
     },
     {
+      "slug": "structural-resonance",
+      "name": "Structural Resonance",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
       "slug": "dictionary-moment",
       "name": "Dictionary Moment",
       "score": 22,
@@ -728,12 +740,6 @@
       "tier": "cool"
     },
     {
-      "slug": "role-bleed",
-      "name": "Role Bleed",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
       "slug": "fragment-silence",
       "name": "Fragment Silence",
       "score": 21,
@@ -744,12 +750,6 @@
       "name": "Testimonial Asymmetry",
       "score": 21,
       "tier": "cool"
-    },
-    {
-      "slug": "structural-resonance",
-      "name": "Structural Resonance",
-      "score": 18,
-      "tier": "quiet"
     },
     {
       "slug": "boundary-vertigo",

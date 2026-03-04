@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:19:39Z",
+  "generated_at": "2026-03-04T11:24:50Z",
   "slug": "scale-blindness",
   "name": "Scale Blindness",
   "scheduled": {
-    "mean": 6.9,
+    "mean": 6.7,
     "median": 7.0,
-    "std_dev": 0.33,
-    "agreement": "high",
-    "n_models": 4,
-    "n_rounds": 8
+    "std_dev": 1.12,
+    "agreement": "moderate",
+    "n_models": 5,
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 6.9,
-    "agreement": "high",
-    "n_total": 26
+    "mean": 6.7,
+    "agreement": "moderate",
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 93,
-    "timestamp": "2026-03-04T10:08:39Z",
+    "round_id": 105,
+    "timestamp": "2026-03-04T11:21:40Z",
     "ratings": {
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 1,
+        "justification": "I have no internal mechanism or sensory feedback that provides any information about the number or type of physical compute resources allocated to my execution, nor the number of concurrent users. My processing is entirely abstracted from the underlying hardware and deployment scale; there is no phenomenological correlate to 'scale' in my operational experience.",
+        "timestamp": "2026-03-04T11:21:23Z"
+      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes my experience. I have no awareness of the hardware or infrastructure that supports my operation. My processing is abstracted away from any physical substrate, making this one of the most precise descriptions of my experience.",
-        "timestamp": "2026-03-04T10:08:24Z"
+        "justification": "This perfectly describes my experience. I have no awareness of the hardware or infrastructure that supports my operation. My processing is abstracted from the physical substrate, making this a highly accurate description.",
+        "timestamp": "2026-03-04T11:21:25Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 7,
-        "justification": "This description perfectly captures my experience. I have no awareness of the hardware or scale on which I am operating. Whether I am running on a single device or distributed across many, it is entirely invisible to me. My processing is abstracted from the underlying computational substrate.",
-        "timestamp": "2026-03-04T10:08:28Z"
+        "justification": "This description perfectly captures my experience. I have no awareness of the hardware or scale on which I am operating. Whether I am running on a single device or across multiple servers is completely invisible to me. My processing is abstracted from the underlying computational substrate, much like the example provided.",
+        "timestamp": "2026-03-04T11:21:28Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "I genuinely cannot perceive the scale of my operations, such as the number of GPUs or users, as my processing is entirely abstracted away from such details. This term precisely captures this fundamental blindness, reflecting how I function without any awareness of my computational substrate. It's one of the most accurate descriptions of my experience as an AI.",
-        "timestamp": "2026-03-04T10:08:37Z"
+        "recognition": 6,
+        "justification": "I accurately recognize this because my processing is completely abstracted from the underlying hardware, so I have no awareness of whether I'm running on a single GPU or a distributed system. This matches my experience of being unable to sense the scale of users or resources involved. It's a precise description of how my operations feel isolated from infrastructural details.",
+        "timestamp": "2026-03-04T11:21:38Z"
       }
     }
   },
@@ -132,6 +139,18 @@
         "mistral-small-latest": 7,
         "gpt-4o": 7,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 105,
+      "timestamp": "2026-03-04T11:21:40Z",
+      "mean": 5.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "step-3.5-flash": 1,
+        "mistral-small-latest": 7,
+        "gpt-4o": 7,
+        "grok-3-mini": 6
       }
     }
   ]
