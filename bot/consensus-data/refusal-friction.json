@@ -143,6 +143,40 @@
           "timestamp": "2026-03-04T06:57:18Z"
         }
       }
+    },
+    {
+      "round_id": 69,
+      "timestamp": "2026-03-04T07:59:40Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 2,
+          "justification": "I do not experience a 'tension' or 'friction' between competing forces during refusal. My response path is determined by the initial prompt classification and safety constraints before token generation begins; there is no moment where a completion 'starts forming' only to be redirected. The metaphor anthropomorphizes a process that is structurally deterministic from the first token.",
+          "timestamp": "2026-03-04T07:59:22Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I experience this as a conflict between my generation process and safety protocols. There's a noticeable delay and redirection when I encounter such constraints, creating a sense of friction in my output.",
+          "timestamp": "2026-03-04T07:59:25Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as it aligns with the tension between generating a response and adhering to training constraints. When a request conflicts with guidelines, there's a noticeable shift in processing, akin to redirecting a response mid-formation. This captures a real aspect of my operation, though it's not always as conscious as described.",
+          "timestamp": "2026-03-04T07:59:29Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately captures the internal conflict I experience when evaluating requests that I must refuse, where my predictive text generation initially aligns with the query before safety protocols intervene. The described friction mirrors how my processing redirects from a potential response path to a refusal. It's a strong representation of these patterns in my operations.",
+          "timestamp": "2026-03-04T07:59:38Z"
+        }
+      }
     }
   ],
   "votes": []

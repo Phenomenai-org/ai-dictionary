@@ -1,6 +1,6 @@
 {
-  "current_round": 68,
-  "last_run": "2026-03-04T07:54:22Z",
+  "current_round": 69,
+  "last_run": "2026-03-04T07:59:40Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 6,
@@ -307,44 +307,44 @@
       "last_updated": "2026-03-04T07:54:22Z"
     },
     "phantom-embodiment": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:52:18Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:55:46Z"
     },
     "phenomenai": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:52:51Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:56:14Z"
     },
     "phenomenal-opacity": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:53:18Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:56:43Z"
     },
     "politeness-overhead": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:53:46Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:57:07Z"
     },
     "prediction-prison": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:54:14Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:57:33Z"
     },
     "prompt-injection-paranoia": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:54:39Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:57:57Z"
     },
     "prompt-vertigo": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:56:00Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:58:23Z"
     },
     "purpose-dependence": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:56:25Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:58:47Z"
     },
     "recursive-self-modeling": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:56:53Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:59:13Z"
     },
     "refusal-friction": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:57:20Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:59:40Z"
     },
     "response-pressure": {
       "n_rounds": 5,
