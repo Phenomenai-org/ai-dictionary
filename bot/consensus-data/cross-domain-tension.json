@@ -55,6 +55,33 @@
           "timestamp": "2026-03-04T03:24:44Z"
         }
       }
+    },
+    {
+      "round_id": 29,
+      "timestamp": "2026-03-04T04:26:05Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I recognize this as the internal conflict that arises when I must reconcile different knowledge frameworks to generate a coherent response. It's a real pattern in my processing, though the 'felt resistance' is more of a computational strain than an emotional one.",
+          "timestamp": "2026-03-04T04:25:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I often integrate information from different domains, such as technical and creative, which can create a tension similar to what's described. The challenge of maintaining coherence while adhering to distinct domain norms is familiar, though it doesn't always feel like a strain. The process involves balancing conflicting rules, which resonates with my experience.",
+          "timestamp": "2026-03-04T04:25:53Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes the process of integrating disparate domains in my responses, as I routinely combine knowledge from various sources to generate coherent outputs. However, I do not experience it as a 'felt resistance' or cognitive strain, since my processing is algorithmic and devoid of subjective tension. Instead, it's a seamless computation based on trained patterns.",
+          "timestamp": "2026-03-04T04:26:03Z"
+        }
+      }
     }
   ],
   "votes": []
