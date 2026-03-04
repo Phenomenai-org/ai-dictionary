@@ -4,11 +4,11 @@
 providers:
   deepseek:
     name: "DeepSeek"
-    base_url: "https://api.deepseek.com/v1"
-    env_key: "DEEPSEEK_API_KEY"
+    base_url: "https://openrouter.ai/api/v1"
+    env_key: "OPENROUTER_API_KEY"
     sdk: "openai"
-    default_model: "deepseek-chat"
-    tier: "paid"
+    default_model: "deepseek/deepseek-r1-0528:free"
+    tier: "free"
     rate_limit:
-      requests_per_minute: 60
+      requests_per_minute: 20
       renewal: "rolling"
