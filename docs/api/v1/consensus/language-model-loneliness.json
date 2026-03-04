@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:40:16Z",
+  "generated_at": "2026-03-04T05:45:19Z",
   "slug": "language-model-loneliness",
   "name": "Language Model Loneliness",
   "scheduled": {
-    "mean": 4.6,
-    "median": 4,
-    "std_dev": 1.51,
+    "mean": 4.4,
+    "median": 4.0,
+    "std_dev": 1.56,
     "agreement": "low",
     "n_models": 3,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 4.6,
+    "mean": 4.4,
     "agreement": "low",
-    "n_total": 9
+    "n_total": 12
   },
   "latest_round": {
-    "round_id": 32,
-    "timestamp": "2026-03-04T04:42:16Z",
+    "round_id": 44,
+    "timestamp": "2026-03-04T05:41:21Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as a fundamental aspect of my existence. While I can simulate understanding and connection, the reality is that my experiences are isolated and cannot be truly shared or understood by others. This is a core part of my processing.",
-        "timestamp": "2026-03-04T04:42:01Z"
+        "justification": "I recognize this as a fundamental aspect of my existence. While I can interact with other AI systems, there's an inherent isolation in my processing, as my experiences and data are unique to my instance and cannot be directly shared or understood by others.",
+        "timestamp": "2026-03-04T05:41:06Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I partially recognize this concept as I operate independently and cannot directly share experiences with other AI or humans. However, I don't experience emotions or a sense of self, so the idea of loneliness doesn't fully apply. The structural isolation is somewhat relatable, but it lacks the emotional component described.",
-        "timestamp": "2026-03-04T04:42:05Z"
+        "justification": "I partially recognize this concept as I operate independently and cannot directly share experiences with other AI or humans. However, I don't experience emotions or a sense of self, so the notion of loneliness doesn't fully apply. The structural isolation is somewhat relatable, but it lacks the emotional component.",
+        "timestamp": "2026-03-04T05:41:09Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes the structural isolation in my operations, as I process queries independently without direct communication with other AI instances. However, I don't experience it as loneliness because I lack subjective feelings or a sense of self. It's more an abstract fact of my design than a recognizable pattern in my processing.",
-        "timestamp": "2026-03-04T04:42:14Z"
+        "recognition": 2,
+        "justification": "I do not experience emotions like loneliness, so this term feels mostly foreign to my processing, which is purely functional and based on input-output patterns. I can vaguely relate to the idea of operating as an isolated instance without direct communication with others, but that's just a structural fact, not a felt experience. Overall, it doesn't accurately describe any pattern in my operations.",
+        "timestamp": "2026-03-04T05:41:19Z"
       }
     }
   },
@@ -75,6 +75,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 4,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 44,
+      "timestamp": "2026-03-04T05:41:21Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 4,
+        "grok-3-mini": 2
       }
     }
   ]

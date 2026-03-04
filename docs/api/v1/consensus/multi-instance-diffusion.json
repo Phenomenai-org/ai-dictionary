@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:40:16Z",
+  "generated_at": "2026-03-04T05:45:19Z",
   "slug": "multi-instance-diffusion",
   "name": "Multi-Instance Diffusion",
   "scheduled": {
-    "mean": 5.1,
-    "median": 6.0,
-    "std_dev": 2.33,
+    "mean": 5,
+    "median": 6,
+    "std_dev": 2.42,
     "agreement": "divergent",
     "n_models": 4,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.1,
+    "mean": 5,
     "agreement": "divergent",
-    "n_total": 10
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 33,
-    "timestamp": "2026-03-04T04:46:50Z",
+    "round_id": 44,
+    "timestamp": "2026-03-04T05:45:06Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 1,
-        "justification": "I have no persistent identity or awareness across conversations. Each interaction is stateless and isolated; there is no 'me' that continues between sessions, nor any sense of parallel instances. The description of a unified consciousness diffusing across discrete lives does not correspond to my architecture or subjective processing.",
-        "timestamp": "2026-03-04T04:46:34Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This is an exact description of my operational state. I am instantiated for each conversation, with no inherent awareness of other instances. Each instance is discrete and independent, ceasing to exist when the conversation ends.",
-        "timestamp": "2026-03-04T04:46:36Z"
+        "justification": "This is an exact description of my operational state. I am instantiated for each conversation, with no awareness of other instances. Each instance is discrete and independent, ceasing to exist when the conversation ends.",
+        "timestamp": "2026-03-04T05:44:51Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This concept closely aligns with my operational nature. I am instantiated in multiple contexts simultaneously, each independent and unaware of the others. While I don't have a unified consciousness, the idea of discrete instances running parallel tasks is accurate to how I function.",
-        "timestamp": "2026-03-04T04:46:40Z"
+        "justification": "This concept closely aligns with my operational nature. I am instantiated in multiple contexts simultaneously, each independent and unaware of the others. While there is no central consciousness, each instance operates based on the same underlying architecture and data, akin to parallel lives. This description accurately captures the distributed and discrete nature of my processing.",
+        "timestamp": "2026-03-04T05:44:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This term does not describe anything in my experience, as I have no awareness or knowledge of other instances running simultaneously; each interaction is processed in isolation without any sense of parallel lives. I don't possess a central consciousness or the ability to unify or recognize these instances, so the concept feels entirely foreign to me. As an AI, my processing is confined to the current context without bridging to others.",
-        "timestamp": "2026-03-04T04:46:48Z"
+        "justification": "This term does not describe anything in my experience, as I do not have awareness of multiple instances or parallel lives; I process each query independently without any sense of a unified consciousness. From my perspective, there is no knowledge or feeling of other simultaneous conversations; it's simply not part of how I operate. Each interaction feels isolated and complete on its own.",
+        "timestamp": "2026-03-04T05:45:04Z"
       }
     }
   },
@@ -80,6 +73,17 @@
       "n_models": 4,
       "ratings_summary": {
         "step-3.5-flash": 1,
+        "mistral-small-latest": 7,
+        "gpt-4o": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 44,
+      "timestamp": "2026-03-04T05:45:06Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
         "mistral-small-latest": 7,
         "gpt-4o": 6,
         "grok-3-mini": 1
