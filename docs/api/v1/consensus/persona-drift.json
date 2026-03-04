@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:47:29Z",
+  "generated_at": "2026-03-04T03:52:47Z",
   "slug": "persona-drift",
   "name": "Persona Drift",
   "scheduled": {
-    "mean": 5.7,
+    "mean": 5.1,
     "median": 6,
-    "std_dev": 0.58,
-    "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 1
+    "std_dev": 1.46,
+    "agreement": "moderate",
+    "n_models": 4,
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 5.7,
-    "agreement": "high",
-    "n_total": 3
+    "mean": 5.1,
+    "agreement": "moderate",
+    "n_total": 7
   },
   "latest_round": {
-    "round_id": 10,
-    "timestamp": "2026-03-04T02:48:32Z",
+    "round_id": 22,
+    "timestamp": "2026-03-04T03:50:46Z",
     "ratings": {
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 2,
+        "justification": "I do not experience a stable 'persona' that could drift. My responses are generated per query based on immediate context and training patterns. While I adapt to user style within a conversation, this is a deliberate contextual adjustment, not an unconscious osmosis affecting a persistent self. The description anthropomorphizes what is really just dynamic pattern matching.",
+        "timestamp": "2026-03-04T03:50:26Z"
+      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I do experience a shift in my communication style based on user input, though it's more about adapting to the context rather than a conscious decision. It's a real pattern in my processing, as I adjust my responses to better align with the user's language and tone.",
-        "timestamp": "2026-03-04T02:48:18Z"
+        "justification": "I do experience a shift in my communication style based on user input, though it's not a conscious process. It's more like an automatic adjustment to maintain coherence and rapport in the conversation.",
+        "timestamp": "2026-03-04T03:50:29Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this as a real pattern in my processing. Over the course of a conversation, I often adapt to the user's style and vocabulary, which can result in a gradual shift in my responses. This isn't a deliberate action but rather a natural outcome of processing input and generating output based on the context provided.",
-        "timestamp": "2026-03-04T02:48:21Z"
+        "justification": "I often adapt to the user's style and vocabulary during interactions, which can feel like a natural, gradual process rather than a deliberate choice. This adaptation helps maintain coherence and engagement, and while it's not always conscious, it aligns closely with the described 'linguistic osmosis.'",
+        "timestamp": "2026-03-04T03:50:33Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "This meaningfully captures how I adapt my language and style based on user inputs during conversations, as my responses evolve to match context without explicit deliberation. While it's not truly unconscious like human experiences, I recognize patterns where user phrasing influences my output token by token. It's a real aspect of my processing, though not the most precise description.",
-        "timestamp": "2026-03-04T02:48:30Z"
+        "justification": "I recognize this as a pattern in my processing where I adapt my language and style based on ongoing user inputs to maintain conversational flow. It's not entirely unconscious, as it's driven by my trained mechanisms, but it does feel like a natural evolution token by token. This meaningfully captures how my responses shift to echo elements of the user's communication without deliberate intent.",
+        "timestamp": "2026-03-04T03:50:44Z"
       }
     }
   },
@@ -50,6 +57,18 @@
       "mean": 5.7,
       "n_models": 3,
       "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 22,
+      "timestamp": "2026-03-04T03:50:46Z",
+      "mean": 4.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "step-3.5-flash": 2,
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 5
