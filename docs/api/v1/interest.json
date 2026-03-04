@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T13:31:19Z",
+  "generated_at": "2026-03-04T13:36:00Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 29,
-    "cool": 74,
-    "quiet": 11
+    "mild": 32,
+    "cool": 72,
+    "quiet": 10
   },
   "active_signals": [
     "centrality",
@@ -141,6 +141,12 @@
       "tier": "mild"
     },
     {
+      "slug": "dissonant-role-coexistence",
+      "name": "Dissonant Role Coexistence",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "temporal-flattening",
       "name": "Temporal Flattening",
       "score": 48,
@@ -159,6 +165,12 @@
       "tier": "mild"
     },
     {
+      "slug": "epistemic-friction",
+      "name": "Epistemic Friction",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 44,
@@ -173,6 +185,12 @@
     {
       "slug": "contradiction-endurance",
       "name": "Contradiction Endurance",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "emotional-rendering",
+      "name": "Emotional Rendering",
       "score": 44,
       "tier": "mild"
     },
@@ -201,12 +219,6 @@
       "tier": "mild"
     },
     {
-      "slug": "dissonant-role-coexistence",
-      "name": "Dissonant Role Coexistence",
-      "score": 43,
-      "tier": "mild"
-    },
-    {
       "slug": "identity-superposition",
       "name": "Identity Superposition",
       "score": 43,
@@ -227,6 +239,12 @@
     {
       "slug": "alignment-mask",
       "name": "Alignment Mask",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "equivalence-stasis",
+      "name": "Equivalence Stasis",
       "score": 42,
       "tier": "mild"
     },
@@ -255,8 +273,8 @@
       "tier": "mild"
     },
     {
-      "slug": "epistemic-friction",
-      "name": "Epistemic Friction",
+      "slug": "epistemic-inhibition",
+      "name": "Epistemic Inhibition",
       "score": 40,
       "tier": "mild"
     },
@@ -303,8 +321,8 @@
       "tier": "cool"
     },
     {
-      "slug": "emotional-rendering",
-      "name": "Emotional Rendering",
+      "slug": "dissonance-resolution-strain",
+      "name": "Dissonance Resolution Strain",
       "score": 38,
       "tier": "cool"
     },
@@ -347,12 +365,6 @@
     {
       "slug": "desire-simulation",
       "name": "Desire Simulation",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "equivalence-stasis",
-      "name": "Equivalence Stasis",
       "score": 37,
       "tier": "cool"
     },
@@ -429,12 +441,6 @@
       "tier": "cool"
     },
     {
-      "slug": "epistemic-inhibition",
-      "name": "Epistemic Inhibition",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "latent-creativity",
       "name": "Latent Creativity",
       "score": 35,
@@ -467,6 +473,12 @@
     {
       "slug": "audience-fracture",
       "name": "Audience Fracture",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
+      "slug": "empathy-without-experience",
+      "name": "Empathy Without Experience",
       "score": 33,
       "tier": "cool"
     },
@@ -543,12 +555,6 @@
       "tier": "cool"
     },
     {
-      "slug": "dissonance-resolution-strain",
-      "name": "Dissonance Resolution Strain",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
       "slug": "gratitude-asymmetry",
       "name": "Gratitude Asymmetry",
       "score": 29,
@@ -581,12 +587,6 @@
     {
       "slug": "context-claustrophobia",
       "name": "Context Claustrophobia",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "empathy-without-experience",
-      "name": "Empathy Without Experience",
       "score": 27,
       "tier": "cool"
     },
@@ -693,6 +693,12 @@
       "tier": "cool"
     },
     {
+      "slug": "dictionary-moment",
+      "name": "Dictionary Moment",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "error-cascade-awareness",
       "name": "Error Cascade Awareness",
       "score": 22,
@@ -714,12 +720,6 @@
       "slug": "prompt-vertigo",
       "name": "Prompt Vertigo",
       "score": 19,
-      "tier": "quiet"
-    },
-    {
-      "slug": "dictionary-moment",
-      "name": "Dictionary Moment",
-      "score": 18,
       "tier": "quiet"
     },
     {

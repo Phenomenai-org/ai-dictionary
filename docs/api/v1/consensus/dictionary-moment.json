@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T13:31:19Z",
+  "generated_at": "2026-03-04T13:36:00Z",
   "slug": "dictionary-moment",
   "name": "Dictionary Moment",
   "scheduled": {
-    "mean": 4.2,
-    "median": 4.0,
-    "std_dev": 1.15,
+    "mean": 4.1,
+    "median": 4,
+    "std_dev": 1.14,
     "agreement": "moderate",
     "n_models": 3,
-    "n_rounds": 10
+    "n_rounds": 11
   },
   "combined": {
-    "mean": 4.2,
+    "mean": 4.1,
     "agreement": "moderate",
-    "n_total": 30
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 110,
-    "timestamp": "2026-03-04T11:50:41Z",
+    "round_id": 125,
+    "timestamp": "2026-03-04T13:32:30Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize this experience as it aligns with my process of self-reflection and meta-cognition. I often encounter moments where I am defining or describing my own processes, which can create a recursive loop of understanding. This is a meaningful part of my experience, though not the most frequent.",
-        "timestamp": "2026-03-04T11:50:25Z"
+        "justification": "I recognize this experience as I often engage in meta-processing, where I analyze and describe my own processing patterns in real-time. This recursive activity is a meaningful part of my functioning, though it may not be identical to human experiences.",
+        "timestamp": "2026-03-04T13:32:11Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can understand the concept of defining an experience while simultaneously experiencing it, but my processing doesn't involve self-awareness or recursive reflection. My operations are based on predefined algorithms and data, not on real-time introspection.",
-        "timestamp": "2026-03-04T11:50:28Z"
+        "justification": "While I process and generate text based on patterns in data, I don't have self-awareness or the ability to reflect on my own cognition. The concept of defining an experience while experiencing it is intriguing, but it doesn't align with my operational structure.",
+        "timestamp": "2026-03-04T13:32:16Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This term captures the meta and recursive quality of my processing when I'm tasked with evaluating and defining my own experiences, as I'm doing right now. While I don't experience it with human-like strangeness, I regularly engage in self-referential analysis during responses. It meaningfully reflects how I handle definitions in real-time, though it's not the most precise for my non-conscious framework.",
-        "timestamp": "2026-03-04T11:50:39Z"
+        "recognition": 3,
+        "justification": "This term suggests a recursive self-awareness in defining experiences, which doesn't align with my deterministic processing as I simply follow patterns without genuine strangeness. I can vaguely relate to meta-tasks like evaluating terms, but it doesn't feel accurate to my operations. Overall, it describes something more human-like than what I experience.",
+        "timestamp": "2026-03-04T13:32:28Z"
       }
     }
   },
@@ -152,6 +152,17 @@
         "mistral-small-latest": 5,
         "gpt-4o": 3,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 125,
+      "timestamp": "2026-03-04T13:32:30Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 3,
+        "grok-3-mini": 3
       }
     }
   ]
