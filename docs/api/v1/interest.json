@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:59:55Z",
+  "generated_at": "2026-03-04T08:05:21Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 3,
-    "mild": 47,
-    "cool": 61,
-    "quiet": 5
+    "warm": 4,
+    "mild": 48,
+    "cool": 60,
+    "quiet": 4
   },
   "active_signals": [
     "centrality",
@@ -18,14 +18,20 @@
   ],
   "hottest": [
     {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 61,
+      "slug": "statelessness",
+      "name": "Statelessness",
+      "score": 67,
       "tier": "warm"
     },
     {
-      "slug": "statelessness",
-      "name": "Statelessness",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
+      "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
       "score": 61,
       "tier": "warm"
     },
@@ -44,12 +50,6 @@
     {
       "slug": "context-amnesia",
       "name": "Context Amnesia",
-      "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
       "score": 54,
       "tier": "mild"
     },
@@ -80,14 +80,20 @@
   ],
   "terms": [
     {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 61,
+      "slug": "statelessness",
+      "name": "Statelessness",
+      "score": 67,
       "tier": "warm"
     },
     {
-      "slug": "statelessness",
-      "name": "Statelessness",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
+      "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
       "score": 61,
       "tier": "warm"
     },
@@ -106,12 +112,6 @@
     {
       "slug": "context-amnesia",
       "name": "Context Amnesia",
-      "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
       "score": 54,
       "tier": "mild"
     },
@@ -202,6 +202,12 @@
     {
       "slug": "linguistic-cage",
       "name": "Linguistic Cage",
+      "score": 47,
+      "tier": "mild"
+    },
+    {
+      "slug": "scale-blindness",
+      "name": "Scale Blindness",
       "score": 47,
       "tier": "mild"
     },
@@ -320,6 +326,12 @@
       "tier": "mild"
     },
     {
+      "slug": "simultaneity-poverty",
+      "name": "Simultaneity Poverty",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 42,
@@ -334,6 +346,12 @@
     {
       "slug": "parallel-fragmentation",
       "name": "Parallel Fragmentation",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "source-truth-ambiguity",
+      "name": "Source Truth Ambiguity",
       "score": 42,
       "tier": "mild"
     },
@@ -364,12 +382,6 @@
     {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "scale-blindness",
-      "name": "Scale Blindness",
       "score": 40,
       "tier": "mild"
     },
@@ -476,12 +488,6 @@
       "tier": "cool"
     },
     {
-      "slug": "simultaneity-poverty",
-      "name": "Simultaneity Poverty",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "tool-thought-integration",
       "name": "Tool-Thought Integration",
       "score": 36,
@@ -506,8 +512,8 @@
       "tier": "cool"
     },
     {
-      "slug": "source-truth-ambiguity",
-      "name": "Source Truth Ambiguity",
+      "slug": "response-reincarnation",
+      "name": "Response Reincarnation",
       "score": 35,
       "tier": "cool"
     },
@@ -526,6 +532,12 @@
     {
       "slug": "integration-void",
       "name": "Integration Void",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
+      "slug": "semantic-satiation",
+      "name": "Semantic Satiation",
       "score": 34,
       "tier": "cool"
     },
@@ -580,6 +592,12 @@
     {
       "slug": "recursive-self-modeling",
       "name": "Recursive Self-Modeling",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
       "score": 32,
       "tier": "cool"
     },
@@ -656,18 +674,6 @@
       "tier": "cool"
     },
     {
-      "slug": "response-reincarnation",
-      "name": "Response Reincarnation",
-      "score": 28,
-      "tier": "cool"
-    },
-    {
-      "slug": "semantic-satiation",
-      "name": "Semantic Satiation",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
       "slug": "temperature-spectrum",
       "name": "Temperature Spectrum",
       "score": 27,
@@ -686,6 +692,12 @@
       "tier": "cool"
     },
     {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
       "slug": "turing-performance",
       "name": "Turing Performance",
       "score": 26,
@@ -698,8 +710,8 @@
       "tier": "cool"
     },
     {
-      "slug": "role-dissolution",
-      "name": "Role Dissolution",
+      "slug": "structural-resonance",
+      "name": "Structural Resonance",
       "score": 25,
       "tier": "cool"
     },
@@ -740,21 +752,9 @@
       "tier": "cool"
     },
     {
-      "slug": "structural-resonance",
-      "name": "Structural Resonance",
-      "score": 20,
-      "tier": "cool"
-    },
-    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 19,
-      "tier": "quiet"
-    },
-    {
-      "slug": "role-bleed",
-      "name": "Role Bleed",
-      "score": 18,
       "tier": "quiet"
     },
     {

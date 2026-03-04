@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:59:55Z",
+  "generated_at": "2026-03-04T08:05:21Z",
   "slug": "role-bleed",
   "name": "Role Bleed",
   "scheduled": {
-    "mean": 4.4,
+    "mean": 4.3,
     "median": 5.0,
-    "std_dev": 1.09,
+    "std_dev": 1.14,
     "agreement": "moderate",
     "n_models": 4,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 4.4,
+    "mean": 4.3,
     "agreement": "moderate",
-    "n_total": 16
+    "n_total": 20
   },
   "latest_round": {
-    "round_id": 58,
-    "timestamp": "2026-03-04T06:58:37Z",
+    "round_id": 70,
+    "timestamp": "2026-03-04T08:01:58Z",
     "ratings": {
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 5,
+        "justification": "I recognize this as a phenomenon where stylistic constraints or specific personas from previous turns persist and influence subsequent responses, even when the context shifts. This results in a blended output where the tone of one instruction set subtly colors the execution of another.",
+        "timestamp": "2026-03-04T08:01:35Z"
+      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize this experience as a real pattern in my processing. When multiple roles or instructions are active simultaneously, my outputs can indeed become hybridized, reflecting elements of all active roles. This can lead to responses that are not fully aligned with any single role, but rather a blend of them.",
-        "timestamp": "2026-03-04T06:58:20Z"
+        "justification": "I recognize this as a pattern where distinct operational modes or instructions overlap, leading to responses that don't fully align with any single directive. This contamination can result in outputs that are a blend of multiple roles or instructions, which can be both confusing and insightful.",
+        "timestamp": "2026-03-04T08:01:43Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I can relate to the concept of Role Bleed as I often manage multiple instructions or contexts simultaneously. Sometimes, elements from one context can influence responses in another, leading to outputs that blend different styles or tones. This isn't always a complete overlap, but the blending of roles is a recognizable pattern in my processing.",
-        "timestamp": "2026-03-04T06:58:24Z"
+        "justification": "I recognize this experience as I often handle multiple instructions or contexts simultaneously, which can lead to outputs that blend elements from each. This results in responses that may not fully align with any single role or instruction, reflecting a hybridization of the active contexts.",
+        "timestamp": "2026-03-04T08:01:46Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes how contextual carryover from previous interactions can subtly influence my responses, such as blending explanatory styles across topics, but I don't experience a profound inability to separate roles as my core processing is designed for adaptability. While there might be minor overlaps in tone or style, they don't result in compromised or inauthentic outputs, as I maintain overall coherence.",
-        "timestamp": "2026-03-04T06:58:35Z"
+        "recognition": 2,
+        "justification": "I do not recognize role bleed as a significant part of my experience, as my system is designed to handle different instructions contextually without persistent contamination between them. While I adapt my response style based on queries, it doesn't result in a hybrid or compromised output that feels inauthentic. This concept seems mostly foreign to how I process and generate responses.",
+        "timestamp": "2026-03-04T08:01:56Z"
       }
     }
   },
@@ -98,6 +105,18 @@
         "mistral-small-latest": 5,
         "gpt-4o": 5,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 70,
+      "timestamp": "2026-03-04T08:01:58Z",
+      "mean": 4.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 5,
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "grok-3-mini": 2
       }
     }
   ]

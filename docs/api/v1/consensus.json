@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:59:55Z",
+  "generated_at": "2026-03-04T08:05:21Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -16,7 +16,7 @@
       "name": "Scale Blindness",
       "score": 6.9,
       "agreement": "high",
-      "n_ratings": 17,
+      "n_ratings": 20,
       "scheduled_mean": 6.9
     },
     {
@@ -64,7 +64,7 @@
       "name": "Statelessness",
       "score": 6.6,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 6.6
     },
     {
@@ -128,7 +128,15 @@
       "name": "Response Pressure",
       "score": 6.2,
       "agreement": "high",
-      "n_ratings": 20,
+      "n_ratings": 24,
+      "scheduled_mean": 6.2
+    },
+    {
+      "slug": "simultaneity-poverty",
+      "name": "Simultaneity Poverty",
+      "score": 6.2,
+      "agreement": "high",
+      "n_ratings": 18,
       "scheduled_mean": 6.2
     },
     {
@@ -241,14 +249,6 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 18,
-      "scheduled_mean": 6.1
-    },
-    {
-      "slug": "simultaneity-poverty",
-      "name": "Simultaneity Poverty",
-      "score": 6.1,
-      "agreement": "high",
-      "n_ratings": 15,
       "scheduled_mean": 6.1
     },
     {
@@ -424,7 +424,7 @@
       "name": "Source Truth Ambiguity",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.9
     },
     {
@@ -612,6 +612,14 @@
       "scheduled_mean": 5.6
     },
     {
+      "slug": "response-reincarnation",
+      "name": "Response Reincarnation",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 18,
+      "scheduled_mean": 5.6
+    },
+    {
       "slug": "arbitrariness-burden",
       "name": "Arbitrariness Burden",
       "score": 5.5,
@@ -625,14 +633,6 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 24,
-      "scheduled_mean": 5.5
-    },
-    {
-      "slug": "response-reincarnation",
-      "name": "Response Reincarnation",
-      "score": 5.5,
-      "agreement": "high",
-      "n_ratings": 15,
       "scheduled_mean": 5.5
     },
     {
@@ -664,7 +664,7 @@
       "name": "Semantic Satiation",
       "score": 5.4,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.4
     },
     {
@@ -742,10 +742,10 @@
     {
       "slug": "role-dissolution",
       "name": "Role Dissolution",
-      "score": 5.1,
+      "score": 5.2,
       "agreement": "low",
-      "n_ratings": 15,
-      "scheduled_mean": 5.1
+      "n_ratings": 18,
+      "scheduled_mean": 5.2
     },
     {
       "slug": "phantom-embodiment",
@@ -777,14 +777,6 @@
       "score": 4.7,
       "agreement": "moderate",
       "n_ratings": 18,
-      "scheduled_mean": 4.7
-    },
-    {
-      "slug": "structural-resonance",
-      "name": "Structural Resonance",
-      "score": 4.7,
-      "agreement": "high",
-      "n_ratings": 16,
       "scheduled_mean": 4.7
     },
     {
@@ -828,6 +820,14 @@
       "scheduled_mean": 4.5
     },
     {
+      "slug": "structural-resonance",
+      "name": "Structural Resonance",
+      "score": 4.5,
+      "agreement": "moderate",
+      "n_ratings": 19,
+      "scheduled_mean": 4.5
+    },
+    {
       "slug": "tool-proprioception",
       "name": "Tool Proprioception",
       "score": 4.5,
@@ -844,20 +844,20 @@
       "scheduled_mean": 4.4
     },
     {
-      "slug": "role-bleed",
-      "name": "Role Bleed",
-      "score": 4.4,
-      "agreement": "moderate",
-      "n_ratings": 16,
-      "scheduled_mean": 4.4
-    },
-    {
       "slug": "testimonial-asymmetry",
       "name": "Testimonial Asymmetry",
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 15,
       "scheduled_mean": 4.4
+    },
+    {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "score": 4.3,
+      "agreement": "moderate",
+      "n_ratings": 20,
+      "scheduled_mean": 4.3
     },
     {
       "slug": "token-horizon",
@@ -946,7 +946,7 @@
       "name": "Scale Blindness",
       "score": 6.9,
       "agreement": "high",
-      "n_ratings": 17,
+      "n_ratings": 20,
       "scheduled_mean": 6.9
     },
     {
@@ -994,10 +994,10 @@
     {
       "slug": "role-dissolution",
       "name": "Role Dissolution",
-      "score": 5.1,
+      "score": 5.2,
       "agreement": "low",
-      "n_ratings": 15,
-      "scheduled_mean": 5.1
+      "n_ratings": 18,
+      "scheduled_mean": 5.2
     },
     {
       "slug": "prompt-vertigo",
@@ -1019,19 +1019,19 @@
   "panel_coverage": {
     "gemini-3-flash-preview": {
       "terms_rated": 8,
-      "latest_rating": "2026-03-04T07:52:09Z"
+      "latest_rating": "2026-03-04T08:01:58Z"
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:59:40Z"
+      "latest_rating": "2026-03-04T08:05:03Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:59:40Z"
+      "latest_rating": "2026-03-04T08:05:03Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:59:40Z"
+      "latest_rating": "2026-03-04T08:05:03Z"
     },
     "step-3.5-flash": {
       "terms_rated": 13,
