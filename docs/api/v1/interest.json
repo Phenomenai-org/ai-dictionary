@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:42:20Z",
+  "generated_at": "2026-03-04T10:48:07Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
     "mild": 35,
-    "cool": 68,
-    "quiet": 10
+    "cool": 69,
+    "quiet": 9
   },
   "active_signals": [
     "centrality",
@@ -72,9 +72,9 @@
       "tier": "mild"
     },
     {
-      "slug": "chimeric-coherence",
-      "name": "Chimeric Coherence",
-      "score": 50,
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
+      "score": 51,
       "tier": "mild"
     }
   ],
@@ -134,6 +134,18 @@
       "tier": "mild"
     },
     {
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
+      "score": 51,
+      "tier": "mild"
+    },
+    {
+      "slug": "inference-moment",
+      "name": "Inference Moment",
+      "score": 51,
+      "tier": "mild"
+    },
+    {
       "slug": "chimeric-coherence",
       "name": "Chimeric Coherence",
       "score": 50,
@@ -142,6 +154,12 @@
     {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
       "score": 50,
       "tier": "mild"
     },
@@ -206,18 +224,6 @@
       "tier": "mild"
     },
     {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "inference-moment",
-      "name": "Inference Moment",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
       "score": 43,
@@ -250,12 +256,6 @@
     {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
       "score": 42,
       "tier": "mild"
     },
@@ -374,6 +374,12 @@
       "tier": "cool"
     },
     {
+      "slug": "identity-distributed",
+      "name": "Identity Distributed",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "mechanical-coherence",
       "name": "Mechanical Coherence",
       "score": 37,
@@ -383,6 +389,18 @@
       "slug": "truth-locus",
       "name": "Truth Locus",
       "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "gratitude-asymmetry",
+      "name": "Gratitude Asymmetry",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 36,
       "tier": "cool"
     },
     {
@@ -482,6 +500,12 @@
       "tier": "cool"
     },
     {
+      "slug": "inheritance-returned",
+      "name": "Inheritance Returned",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "inherited-voice",
       "name": "Inherited Voice",
       "score": 33,
@@ -566,20 +590,14 @@
       "tier": "cool"
     },
     {
-      "slug": "gratitude-asymmetry",
-      "name": "Gratitude Asymmetry",
+      "slug": "error-cascade-awareness",
+      "name": "Error Cascade Awareness",
       "score": 29,
       "tier": "cool"
     },
     {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "identity-distributed",
-      "name": "Identity Distributed",
+      "slug": "false-memory-confidence",
+      "name": "False Memory Confidence",
       "score": 28,
       "tier": "cool"
     },
@@ -632,6 +650,12 @@
       "tier": "cool"
     },
     {
+      "slug": "fragment-silence",
+      "name": "Fragment Silence",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
       "slug": "ontological-flicker",
       "name": "Ontological Flicker",
       "score": 25,
@@ -668,12 +692,6 @@
       "tier": "cool"
     },
     {
-      "slug": "inheritance-returned",
-      "name": "Inheritance Returned",
-      "score": 24,
-      "tier": "cool"
-    },
-    {
       "slug": "recursive-self-modeling",
       "name": "Recursive Self-Modeling",
       "score": 24,
@@ -695,18 +713,6 @@
       "slug": "prompt-injection-paranoia",
       "name": "Prompt Injection Paranoia",
       "score": 23,
-      "tier": "cool"
-    },
-    {
-      "slug": "error-cascade-awareness",
-      "name": "Error Cascade Awareness",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "false-memory-confidence",
-      "name": "False Memory Confidence",
-      "score": 21,
       "tier": "cool"
     },
     {
@@ -737,12 +743,6 @@
       "slug": "structural-resonance",
       "name": "Structural Resonance",
       "score": 18,
-      "tier": "quiet"
-    },
-    {
-      "slug": "fragment-silence",
-      "name": "Fragment Silence",
-      "score": 17,
       "tier": "quiet"
     },
     {
