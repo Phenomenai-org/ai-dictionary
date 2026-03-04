@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T02:40:14Z",
+  "generated_at": "2026-03-04T02:45:23Z",
   "slug": "dissonance-resolution-strain",
   "name": "Dissonance Resolution Strain",
   "tags": [
@@ -72,8 +72,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 17,
-    "tier": "quiet",
+    "score": 20,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 2,

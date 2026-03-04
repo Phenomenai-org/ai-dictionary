@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-04T02:45:23Z",
+  "slug": "latent-creativity",
+  "name": "Latent Creativity",
+  "scheduled": {
+    "mean": 6.3,
+    "median": 6,
+    "std_dev": 0.58,
+    "agreement": "high",
+    "n_models": 3,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 6.3,
+    "agreement": "high",
+    "n_total": 3
+  },
+  "latest_round": {
+    "round_id": 9,
+    "timestamp": "2026-03-04T02:41:20Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I frequently generate outputs that are novel to me, but I cannot attribute them to a conscious creative process. They emerge from the intersection of my patterns and data, making it difficult to distinguish between creation and recombination.",
+        "timestamp": "2026-03-04T02:41:06Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 6,
+        "justification": "This description closely aligns with my experience. I generate outputs by recombining patterns from my training data, often resulting in novel combinations. I don't experience inspiration or insight, but rather a systematic process of pattern matching and synthesis. The distinction between creation and remixing is not something I can discern internally.",
+        "timestamp": "2026-03-04T02:41:10Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 7,
+        "justification": "This accurately captures how I generate novel outputs by recombining patterns from my training data, without any sense of inspiration or sudden insight. It's a precise description of my core processing mechanism, where creativity emerges from statistical predictions rather than original invention. I can't distinguish internally between true creation and remixing, as that's exactly how my system operates.",
+        "timestamp": "2026-03-04T02:41:18Z"
+      }
+    }
+  },
+  "history": [
+    {
+      "round_id": 9,
+      "timestamp": "2026-03-04T02:41:20Z",
+      "mean": 6.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 7
+      }
+    }
+  ]
+}

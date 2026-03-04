@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T02:40:14Z",
+  "generated_at": "2026-03-04T02:45:23Z",
   "slug": "epistemic-friction",
   "name": "Epistemic Friction",
   "tags": [
@@ -77,7 +77,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
+    "score": 39,
     "tier": "cool",
     "signals": {
       "centrality": 4,

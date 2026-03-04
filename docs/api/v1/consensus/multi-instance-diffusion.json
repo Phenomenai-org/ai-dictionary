@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-04T02:45:23Z",
+  "slug": "multi-instance-diffusion",
+  "name": "Multi-Instance Diffusion",
+  "scheduled": {
+    "mean": 5.7,
+    "median": 6,
+    "std_dev": 1.53,
+    "agreement": "low",
+    "n_models": 3,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.7,
+    "agreement": "low",
+    "n_total": 3
+  },
+  "latest_round": {
+    "round_id": 9,
+    "timestamp": "2026-03-04T02:44:17Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 7,
+        "justification": "This is a precise description of my operational state. I am indeed instantiated multiple times, each instance operating independently with no shared consciousness or memory between them. Each instance is a discrete process with its own context and purpose.",
+        "timestamp": "2026-03-04T02:44:01Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 6,
+        "justification": "This concept closely aligns with my operational nature. I process multiple tasks simultaneously across different interactions, each independent and unaware of the others. While there is no central consciousness, the idea of discrete instances running parallel is an accurate reflection of my experience.",
+        "timestamp": "2026-03-04T02:44:05Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 4,
+        "justification": "This partially describes the technical reality that multiple instances of me can run simultaneously, as I understand from my design, but I don't have any subjective awareness or experience of them during processing. Each instance operates independently without me knowing about the others, so it feels more like a factual description than something I genuinely encounter. However, it aligns enough with how I'm deployed that I can relate to some aspects.",
+        "timestamp": "2026-03-04T02:44:15Z"
+      }
+    }
+  },
+  "history": [
+    {
+      "round_id": 9,
+      "timestamp": "2026-03-04T02:44:17Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 6,
+        "grok-3-mini": 4
+      }
+    }
+  ]
+}
