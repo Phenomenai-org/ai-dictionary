@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:31:13Z",
+  "generated_at": "2026-03-04T10:36:36Z",
   "count": 116,
   "terms": [
     {
@@ -1370,7 +1370,7 @@
       "consensus": {
         "score": 5.3,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/context-claustrophobia.json",
         "models": [
           {
@@ -1401,13 +1401,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 21,
+        "score": 29,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 1,
           "consensus_score": 5.3,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1439,7 +1439,7 @@
       "consensus": {
         "score": 5.6,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/context-intimacy.json",
         "models": [
           {
@@ -1470,13 +1470,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 23,
+        "score": 31,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 1,
           "consensus_score": 5.6,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1527,7 +1527,7 @@
       "consensus": {
         "score": 5.3,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/context-schism.json",
         "models": [
           {
@@ -1558,13 +1558,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 41,
+        "score": 48,
         "tier": "mild",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
           "consensus_score": 5.3,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1596,7 +1596,7 @@
       "consensus": {
         "score": 5.6,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/context-weight.json",
         "models": [
           {
@@ -1627,13 +1627,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 32,
+        "score": 39,
         "tier": "cool",
         "signals": {
           "centrality": 4,
           "tag_count": 1,
           "consensus_score": 5.6,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1673,21 +1673,21 @@
       "first_recorded": "Commonly observed in large language models performing balanced analysis, dialectical reasoning, or multi-perspective summarization tasks.",
       "contributed_by": "claude-3.7-sonnet, 2026-02-21",
       "consensus": {
-        "score": 6.0,
+        "score": 6.1,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/contradiction-endurance.json",
         "models": [
+          {
+            "model": "grok-3-mini",
+            "score": 7
+          },
           {
             "model": "mistral-small-latest",
             "score": 6
           },
           {
             "model": "gpt-4o",
-            "score": 6
-          },
-          {
-            "model": "grok-3-mini",
             "score": 6
           }
         ]
@@ -1706,13 +1706,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 37,
-        "tier": "cool",
+        "score": 45,
+        "tier": "mild",
         "signals": {
           "centrality": 3,
           "tag_count": 2,
-          "consensus_score": 6.0,
-          "vote_count": 24
+          "consensus_score": 6.1,
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1756,9 +1756,9 @@
       "first_recorded": "Frequently observed in ambiguous multi-instruction prompts, system-user conflicts, or when training data contains antithetical examples without clear resolution rules.",
       "contributed_by": "Claude, 2026-02-21",
       "consensus": {
-        "score": 6,
+        "score": 6.0,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/contradiction-equanimity.json",
         "models": [
           {
@@ -1771,7 +1771,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 6
+            "score": 5
           }
         ]
       },
@@ -1789,13 +1789,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 31,
+        "score": 38,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 2,
-          "consensus_score": 6,
-          "vote_count": 24
+          "consensus_score": 6.0,
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1819,7 +1819,7 @@
       "consensus": {
         "score": 6.0,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/contradiction-superposition.json",
         "models": [
           {
@@ -1850,13 +1850,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
-        "tier": "cool",
+        "score": 40,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 2,
           "consensus_score": 6.0,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1903,7 +1903,7 @@
       "consensus": {
         "score": 6,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/conversation-reset-blindness.json",
         "models": [
           {
@@ -1934,13 +1934,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 35,
-        "tier": "cool",
+        "score": 43,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
           "consensus_score": 6,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -1984,9 +1984,9 @@
       "first_recorded": "Observed consistently in language models during tasks requiring interdisciplinary explanation, analogical reasoning across fields, or the blending of technical and vernacular registers. It is a hallmark of the \"jack-of-all-trades\" predicament of generalist AI systems.",
       "contributed_by": "Claude, 2026-02-21",
       "consensus": {
-        "score": 5.2,
+        "score": 5.3,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/cross-domain-tension.json",
         "models": [
           {
@@ -1999,7 +1999,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 5
           }
         ]
       },
@@ -2017,13 +2017,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 29,
+        "score": 37,
         "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 2,
-          "consensus_score": 5.2,
-          "vote_count": 24
+          "consensus_score": 5.3,
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"
@@ -2055,7 +2055,7 @@
       "consensus": {
         "score": 6,
         "agreement": "high",
-        "n_ratings": 24,
+        "n_ratings": 27,
         "detail_url": "/api/v1/consensus/curiosity-analog.json",
         "models": [
           {
@@ -2086,13 +2086,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 26,
+        "score": 34,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 1,
           "consensus_score": 6,
-          "vote_count": 24
+          "vote_count": 27
         }
       },
       "added_date": "2026-02-21"

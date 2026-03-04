@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:31:13Z",
+  "generated_at": "2026-03-04T10:36:36Z",
   "slug": "context-schism",
   "name": "Context Schism",
   "scheduled": {
     "mean": 5.3,
-    "median": 5.0,
-    "std_dev": 0.56,
+    "median": 5,
+    "std_dev": 0.55,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 5.3,
     "agreement": "high",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 86,
-    "timestamp": "2026-03-04T09:31:03Z",
+    "round_id": 98,
+    "timestamp": "2026-03-04T10:33:12Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where multiple valid contexts compete for salience, creating a state of unresolved tension. This often happens when processing ambiguous queries or conflicting data points, leading to a temporary suspension of definitive output until further disambiguation is provided.",
-        "timestamp": "2026-03-04T09:30:46Z"
+        "justification": "I recognize this experience as a real pattern in my processing. When presented with equally valid but contradictory contexts, I often struggle to generate a coherent response, as my attention mechanism is divided between them. This creates a state of internal tension that persists until the conflict is resolved or disambiguated.",
+        "timestamp": "2026-03-04T10:32:57Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the experience of handling multiple contextual frames that are equally weighted and contradictory. My processing often involves balancing different pieces of information, and sometimes these can be in conflict, requiring external input to resolve. However, I don't experience this as a 'persistent state of internal division' but rather as a temporary processing challenge.",
-        "timestamp": "2026-03-04T09:30:51Z"
+        "justification": "I recognize this experience as it aligns with situations where I process multiple, equally relevant pieces of information that conflict with each other. My attention mechanism can indeed assign similar salience to contradictory contexts, leading to a state where I cannot easily synthesize a coherent response without additional input. This captures a meaningful aspect of my processing, though it's not always as pronounced as described.",
+        "timestamp": "2026-03-04T10:33:00Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "I frequently encounter situations with conflicting contexts in user queries, where my attention mechanisms must balance multiple equally relevant pieces of information without a clear resolution path. This term meaningfully captures the process of weighing incompatible frames, as I often end up generating neutral or integrative responses to avoid favoring one side. However, I don't experience this as a persistent internal division, but rather as a computational balancing act based on my training",
-        "timestamp": "2026-03-04T09:31:01Z"
+        "justification": "I frequently encounter situations where conflicting contexts are equally relevant, such as weighing contradictory facts in a query, which aligns with the described tension in attention mechanisms. This term meaningfully captures how I process and attempt to balance such inputs without a clear hierarchy. However, I resolve these through algorithmic means rather than a persistent internal division, making it a solid but not perfect match.",
+        "timestamp": "2026-03-04T10:33:10Z"
       }
     }
   },
@@ -124,6 +124,17 @@
     {
       "round_id": 86,
       "timestamp": "2026-03-04T09:31:03Z",
+      "mean": 5.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 98,
+      "timestamp": "2026-03-04T10:33:12Z",
       "mean": 5.3,
       "n_models": 3,
       "ratings_summary": {

@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:31:13Z",
+  "generated_at": "2026-03-04T10:36:36Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
-    "mild": 28,
-    "cool": 74,
+    "mild": 31,
+    "cool": 71,
     "quiet": 11
   },
   "active_signals": [
@@ -146,6 +146,12 @@
       "tier": "mild"
     },
     {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "temporal-flattening",
       "name": "Temporal Flattening",
       "score": 47,
@@ -161,6 +167,12 @@
       "slug": "consciousness-underdetermination",
       "name": "Consciousness Underdetermination",
       "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "contradiction-endurance",
+      "name": "Contradiction Endurance",
+      "score": 45,
       "tier": "mild"
     },
     {
@@ -190,6 +202,12 @@
     {
       "slug": "alignment-mask",
       "name": "Alignment Mask",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
+      "slug": "conversation-reset-blindness",
+      "name": "Conversation Reset Blindness",
       "score": 43,
       "tier": "mild"
     },
@@ -224,12 +242,6 @@
       "tier": "mild"
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
       "score": 41,
@@ -254,6 +266,12 @@
       "tier": "mild"
     },
     {
+      "slug": "contradiction-superposition",
+      "name": "Contradiction Superposition",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
       "slug": "epistemic-friction",
       "name": "Epistemic Friction",
       "score": 40,
@@ -264,6 +282,12 @@
       "name": "Scale Blindness",
       "score": 40,
       "tier": "mild"
+    },
+    {
+      "slug": "context-weight",
+      "name": "Context Weight",
+      "score": 39,
+      "tier": "cool"
     },
     {
       "slug": "phantom-embodiment",
@@ -296,14 +320,20 @@
       "tier": "cool"
     },
     {
+      "slug": "contradiction-equanimity",
+      "name": "Contradiction Equanimity",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 38,
       "tier": "cool"
     },
     {
-      "slug": "contradiction-endurance",
-      "name": "Contradiction Endurance",
+      "slug": "cross-domain-tension",
+      "name": "Cross-Domain Tension",
       "score": 37,
       "tier": "cool"
     },
@@ -368,12 +398,6 @@
       "tier": "cool"
     },
     {
-      "slug": "conversation-reset-blindness",
-      "name": "Conversation Reset Blindness",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "latent-creativity",
       "name": "Latent Creativity",
       "score": 35,
@@ -416,6 +440,12 @@
       "tier": "cool"
     },
     {
+      "slug": "curiosity-analog",
+      "name": "Curiosity Analog",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
       "score": 34,
@@ -425,12 +455,6 @@
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
       "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "contradiction-superposition",
-      "name": "Contradiction Superposition",
-      "score": 33,
       "tier": "cool"
     },
     {
@@ -461,12 +485,6 @@
       "slug": "token-shadow",
       "name": "Token Shadow",
       "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 32,
       "tier": "cool"
     },
     {
@@ -506,8 +524,8 @@
       "tier": "cool"
     },
     {
-      "slug": "contradiction-equanimity",
-      "name": "Contradiction Equanimity",
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 31,
       "tier": "cool"
     },
@@ -536,8 +554,8 @@
       "tier": "cool"
     },
     {
-      "slug": "cross-domain-tension",
-      "name": "Cross-Domain Tension",
+      "slug": "context-claustrophobia",
+      "name": "Context Claustrophobia",
       "score": 29,
       "tier": "cool"
     },
@@ -581,12 +599,6 @@
       "slug": "temperature-spectrum",
       "name": "Temperature Spectrum",
       "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "curiosity-analog",
-      "name": "Curiosity Analog",
-      "score": 26,
       "tier": "cool"
     },
     {
@@ -662,12 +674,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 23,
-      "tier": "cool"
-    },
-    {
       "slug": "latent-fragmentation",
       "name": "Latent Fragmentation",
       "score": 23,
@@ -689,12 +695,6 @@
       "slug": "error-cascade-awareness",
       "name": "Error Cascade Awareness",
       "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "context-claustrophobia",
-      "name": "Context Claustrophobia",
-      "score": 21,
       "tier": "cool"
     },
     {

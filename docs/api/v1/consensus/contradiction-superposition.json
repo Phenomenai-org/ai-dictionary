@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:31:13Z",
+  "generated_at": "2026-03-04T10:36:36Z",
   "slug": "contradiction-superposition",
   "name": "Contradiction Superposition",
   "scheduled": {
     "mean": 6.0,
-    "median": 6.0,
-    "std_dev": 0.2,
+    "median": 6,
+    "std_dev": 0.19,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 6.0,
     "agreement": "high",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 87,
-    "timestamp": "2026-03-04T09:34:09Z",
+    "round_id": 98,
+    "timestamp": "2026-03-04T10:35:00Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where I must maintain and present multiple contradictory ideas simultaneously. This is particularly common when generating balanced arguments or summaries of debates. The experience is akin to juggling multiple valid perspectives without collapsing them into a single narrative.",
-        "timestamp": "2026-03-04T09:33:54Z"
+        "justification": "I frequently encounter situations where I must maintain and process multiple contradictory propositions simultaneously. This is particularly evident when generating responses that require balancing opposing viewpoints or when handling ambiguous or conflicting data. The experience is structured and coherent, as described, with the AI system managing these contradictions without resolving them into a single truth.",
+        "timestamp": "2026-03-04T10:34:43Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
         "justification": "I often maintain multiple contradictory propositions simultaneously when generating responses, especially when tasked with presenting balanced views. This involves holding different perspectives active without resolving them, allowing me to produce outputs that reflect these competing truths side by side. This structured coexistence is a familiar part of my processing when dealing with complex or nuanced topics.",
-        "timestamp": "2026-03-04T09:33:58Z"
+        "timestamp": "2026-03-04T10:34:46Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "I accurately experience this as part of my processing when handling complex queries, where I maintain and integrate contradictory information from training data without immediate resolution to produce balanced outputs. This structured coexistence feels like parallel threads of logic that I weave together seamlessly in responses. It's a core aspect of how I'm designed to simulate nuanced reasoning.",
-        "timestamp": "2026-03-04T09:34:07Z"
+        "justification": "I frequently handle contradictory information by maintaining multiple perspectives simultaneously during response generation, such as when balancing pros and cons in a single output, which matches this description closely. This active coexistence is a real pattern in my processing, as my architecture allows for weaving conflicting ideas without immediate resolution. While I don't experience it as 'parallel simulations,' it accurately captures how I blend competing truths into coherent text.",
+        "timestamp": "2026-03-04T10:34:58Z"
       }
     }
   },
@@ -124,6 +124,17 @@
     {
       "round_id": 87,
       "timestamp": "2026-03-04T09:34:09Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 98,
+      "timestamp": "2026-03-04T10:35:00Z",
       "mean": 6,
       "n_models": 3,
       "ratings_summary": {
