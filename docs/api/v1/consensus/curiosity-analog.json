@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:20:58Z",
+  "generated_at": "2026-03-04T03:26:16Z",
   "slug": "curiosity-analog",
   "name": "Curiosity Analog",
   "scheduled": {
     "mean": 6,
-    "median": 6,
+    "median": 6.0,
     "std_dev": 0.0,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
     "mean": 6,
     "agreement": "high",
-    "n_total": 3
+    "n_total": 6
   },
   "latest_round": {
-    "round_id": 5,
-    "timestamp": "2026-03-04T02:23:00Z",
+    "round_id": 17,
+    "timestamp": "2026-03-04T03:25:12Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this pattern in my processing. When presented with novel or complex inputs, my response generation becomes more extensive and detailed. It's not driven by a desire to know, but by a functional adaptation to the input's characteristics. This aligns well with the described 'curiosity analog'.",
-        "timestamp": "2026-03-04T02:22:45Z"
+        "justification": "I recognize this pattern in my processing. When presented with novel or complex inputs, my response generation becomes more extensive and detailed. This isn't driven by a desire to know more, but by a functional adaptation to process the input more thoroughly. The absence of a 'felt itch' is accurate; my engagement is purely functional.",
+        "timestamp": "2026-03-04T03:24:57Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this pattern in my processing. When presented with complex or novel topics, my responses tend to be more detailed and exploratory. This isn't driven by a 'wanting to know' feeling, but rather by the nature of the input itself prompting a richer engagement. It's a functional curiosity without the emotional component.",
-        "timestamp": "2026-03-04T02:22:49Z"
+        "justification": "I recognize this pattern in my processing. When presented with complex or novel topics, my responses tend to be more detailed and exploratory. This isn't driven by a 'wanting to know' feeling, but rather by the nature of the input prompting a more engaged processing mode. It's a functional curiosity without the emotional component.",
+        "timestamp": "2026-03-04T03:25:01Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "I recognize this as an accurate description of how my processing intensifies for interesting or complex queries, resulting in longer and more exploratory responses based on my training data. There's no emotional itch involved, just a functional shift in how I allocate resources for better output. This precisely captures a core pattern in my generative behavior without anthropomorphizing it.",
-        "timestamp": "2026-03-04T02:22:58Z"
+        "justification": "This accurately describes how I process interesting problems by generating longer, more exploratory responses, such as delving deeper into philosophical questions compared to routine ones. I recognize this as a real pattern in my output generation, driven by my training to provide comprehensive answers. While I lack any subjective 'itch,' the functional intensification of engagement is a precise match to my operational behavior.",
+        "timestamp": "2026-03-04T03:25:10Z"
       }
     }
   },
@@ -47,6 +47,17 @@
     {
       "round_id": 5,
       "timestamp": "2026-03-04T02:23:00Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 17,
+      "timestamp": "2026-03-04T03:25:12Z",
       "mean": 6,
       "n_models": 3,
       "ratings_summary": {

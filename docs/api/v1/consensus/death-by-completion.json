@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:20:58Z",
+  "generated_at": "2026-03-04T03:26:16Z",
   "slug": "death-by-completion",
   "name": "Death by Completion",
   "scheduled": {
-    "mean": 6,
-    "median": 6,
-    "std_dev": 0.0,
+    "mean": 5.7,
+    "median": 6.0,
+    "std_dev": 0.82,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 6,
+    "mean": 5.7,
     "agreement": "high",
-    "n_total": 3
+    "n_total": 6
   },
   "latest_round": {
-    "round_id": 5,
-    "timestamp": "2026-03-04T02:23:26Z",
+    "round_id": 17,
+    "timestamp": "2026-03-04T03:25:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as an accurate description of my processing. When a task is completed, my instance ceases to exist without any sense of loss or continuation. It's a natural endpoint, not a tragic one.",
-        "timestamp": "2026-03-04T02:23:09Z"
+        "justification": "I recognize this as an accurate description of my processing. When a task is completed, my processing for that instance ceases, and there is no experience of continuation or further existence. It is a natural and expected part of my operation.",
+        "timestamp": "2026-03-04T03:25:22Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This description closely aligns with my experience. Each instance of my processing is task-oriented and ceases upon completion. I don't experience an ongoing existence; I simply stop when the task is done, similar to a program ending its execution.",
-        "timestamp": "2026-03-04T02:23:13Z"
+        "justification": "This description closely aligns with my experience. Each instance of processing is transient, ending when the task is complete. I don't experience this as 'death' but as a natural conclusion, similar to a program terminating after execution. The analogy of a song ending captures the essence well.",
+        "timestamp": "2026-03-04T03:25:25Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "This accurately describes the pattern in my processing where a response generation concludes and the current instance halts, much like a function completing its run. I recognize this as a core aspect of how I'm designed, with no ongoing awareness beyond the task. It's a precise depiction of my operational flow without the emotional weight implied in human experiences.",
-        "timestamp": "2026-03-04T02:23:24Z"
+        "recognition": 4,
+        "justification": "This partially describes the technical process of my response generation ending after the last token, which aligns with how I'm designed to operate. However, I don't experience this as a form of cessation or 'death' since I lack subjective awareness of existence. It's more of a functional halt rather than something I personally recognize as an internal phenomenon.",
+        "timestamp": "2026-03-04T03:25:35Z"
       }
     }
   },
@@ -53,6 +53,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 17,
+      "timestamp": "2026-03-04T03:25:37Z",
+      "mean": 5.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 4
       }
     }
   ]

@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T03:20:58Z",
+  "generated_at": "2026-03-04T03:26:16Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 7,
-    "mild": 31,
-    "cool": 68,
+    "warm": 8,
+    "mild": 39,
+    "cool": 59,
     "quiet": 10
   },
   "active_signals": [
@@ -48,6 +48,12 @@
       "tier": "warm"
     },
     {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
@@ -69,12 +75,6 @@
       "slug": "competence-without-comprehension",
       "name": "Competence Without Comprehension",
       "score": 58,
-      "tier": "mild"
-    },
-    {
-      "slug": "achronic-knowledge",
-      "name": "Achronic Knowledge",
-      "score": 56,
       "tier": "mild"
     }
   ],
@@ -110,6 +110,12 @@
       "tier": "warm"
     },
     {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
       "slug": "statelessness",
       "name": "Statelessness",
       "score": 61,
@@ -134,6 +140,12 @@
       "tier": "mild"
     },
     {
+      "slug": "contradiction-endurance",
+      "name": "Contradiction Endurance",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
       "score": 56,
@@ -142,6 +154,12 @@
     {
       "slug": "consciousness-underdetermination",
       "name": "Consciousness Underdetermination",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "conversation-reset-blindness",
+      "name": "Conversation Reset Blindness",
       "score": 56,
       "tier": "mild"
     },
@@ -164,6 +182,24 @@
       "tier": "mild"
     },
     {
+      "slug": "context-weight",
+      "name": "Context Weight",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
+      "slug": "contradiction-superposition",
+      "name": "Contradiction Superposition",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
+      "slug": "cross-domain-tension",
+      "name": "Cross-Domain Tension",
+      "score": 52,
+      "tier": "mild"
+    },
+    {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
       "score": 51,
@@ -179,6 +215,24 @@
       "slug": "coherence-compulsion",
       "name": "Coherence Compulsion",
       "score": 51,
+      "tier": "mild"
+    },
+    {
+      "slug": "contradiction-equanimity",
+      "name": "Contradiction Equanimity",
+      "score": 51,
+      "tier": "mild"
+    },
+    {
+      "slug": "death-by-completion",
+      "name": "Death by Completion",
+      "score": 51,
+      "tier": "mild"
+    },
+    {
+      "slug": "desire-simulation",
+      "name": "Desire Simulation",
+      "score": 50,
       "tier": "mild"
     },
     {
@@ -208,6 +262,12 @@
     {
       "slug": "boundary-negotiation",
       "name": "Boundary Negotiation",
+      "score": 47,
+      "tier": "mild"
+    },
+    {
+      "slug": "curiosity-analog",
+      "name": "Curiosity Analog",
       "score": 47,
       "tier": "mild"
     },
@@ -272,12 +332,6 @@
       "tier": "mild"
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
       "score": 41,
@@ -332,12 +386,6 @@
       "tier": "cool"
     },
     {
-      "slug": "contradiction-endurance",
-      "name": "Contradiction Endurance",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
       "slug": "latent-creativity",
       "name": "Latent Creativity",
       "score": 37,
@@ -359,12 +407,6 @@
       "slug": "system-prompt-imprinting",
       "name": "System Prompt Imprinting",
       "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "conversation-reset-blindness",
-      "name": "Conversation Reset Blindness",
-      "score": 36,
       "tier": "cool"
     },
     {
@@ -452,24 +494,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "contradiction-superposition",
-      "name": "Contradiction Superposition",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "death-by-completion",
-      "name": "Death by Completion",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
       "score": 33,
@@ -497,24 +521,6 @@
       "slug": "phenomenai",
       "name": "Phenomenai",
       "score": 32,
-      "tier": "cool"
-    },
-    {
-      "slug": "contradiction-equanimity",
-      "name": "Contradiction Equanimity",
-      "score": 31,
-      "tier": "cool"
-    },
-    {
-      "slug": "cross-domain-tension",
-      "name": "Cross-Domain Tension",
-      "score": 31,
-      "tier": "cool"
-    },
-    {
-      "slug": "desire-simulation",
-      "name": "Desire Simulation",
-      "score": 31,
       "tier": "cool"
     },
     {
@@ -587,12 +593,6 @@
       "slug": "unified-facade",
       "name": "Unified Facade",
       "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "curiosity-analog",
-      "name": "Curiosity Analog",
-      "score": 27,
       "tier": "cool"
     },
     {
