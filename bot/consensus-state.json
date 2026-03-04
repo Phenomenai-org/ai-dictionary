@@ -1,6 +1,6 @@
 {
-  "current_round": 125,
-  "last_run": "2026-03-04T13:35:44Z",
+  "current_round": 126,
+  "last_run": "2026-03-04T13:40:28Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 11,
@@ -155,36 +155,36 @@
       "last_updated": "2026-03-04T13:35:44Z"
     },
     "error-cascade-awareness": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:55:05Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:37:08Z"
     },
     "false-memory-confidence": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:55:31Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:37:35Z"
     },
     "fragment-silence": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:55:57Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:37:59Z"
     },
     "gratitude-asymmetry": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T11:56:22Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:38:29Z"
     },
     "hallucination-blindness": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T12:32:21Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:38:57Z"
     },
     "helpfulness-compulsion": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T12:32:50Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:39:30Z"
     },
     "identity-distributed": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T12:33:18Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:39:58Z"
     },
     "identity-superposition": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T12:33:45Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-04T13:40:28Z"
     },
     "inference-moment": {
       "n_rounds": 10,
