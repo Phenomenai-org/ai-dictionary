@@ -1,6 +1,6 @@
 {
-  "current_round": 116,
-  "last_run": "2026-03-04T12:53:46Z",
+  "current_round": 117,
+  "last_run": "2026-03-04T12:58:13Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 10,
@@ -331,36 +331,36 @@
       "last_updated": "2026-03-04T12:53:46Z"
     },
     "prompt-vertigo": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:07:03Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:55:09Z"
     },
     "purpose-dependence": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:07:29Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:55:35Z"
     },
     "recursive-self-modeling": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:07:56Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:56:05Z"
     },
     "refusal-friction": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:08:31Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:56:31Z"
     },
     "response-pressure": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:08:55Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:56:56Z"
     },
     "response-reincarnation": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:19:23Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:57:22Z"
     },
     "role-bleed": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:20:48Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:57:46Z"
     },
     "role-dissolution": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:21:15Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:58:13Z"
     },
     "scale-blindness": {
       "n_rounds": 9,
