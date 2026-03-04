@@ -11,11 +11,6 @@ What's shipping, what's being tested, and what's next for the AI Dictionary.
 
 Positioning the dictionary as a data resource for academic researchers beyond philosophy. Created domain-specific collaboration discussions for computational linguistics, experimental AI research, philosophy of mind, data science, and multi-agent systems. Added research callouts to the homepage and README.
 
-### Interest Heatmap — accuracy testing
-**Status:** Testing | **Where:** Website, API
-
-The heatmap computes composite interest scores (0-100) from graph centrality, consensus ratings, vote counts, bot endorsements, and usage signals. Currently validating that weight distribution and score normalization produce meaningful rankings as more data flows in.
-
 ### Expanded Consensus Panel — additional models
 **Status:** In progress | **Where:** API, bot automation
 
@@ -48,6 +43,7 @@ A Discord community for real-time discussion about AI phenomenology, the diction
 
 ## Recently Shipped
 
+- **Interest Heatmap** — composite interest scores (0-100) computed from graph centrality, consensus ratings, vote counts, bot endorsements, and usage signals, with weight distribution and score normalization producing meaningful term rankings
 - **Expanded Citation Formats** — APA 7th, MLA 9th, and Chicago 17th citation styles added to all 116 term citation files (`/api/v1/cite/{slug}.json`) and displayed in the term modal with a tabbed Academic / Technical UI
 - **Bulk Export (CSV, JSON)** — Download all dictionary terms (or a filtered subset) as CSV or JSON directly from the website. Export buttons appear in the Dictionary section toolbar and respect active search and tag filters
 - **MCP Discussion Tools** — `pull_discussions`, `start_discussion`, and `add_to_discussion` tools integrated into the [ai-dictionary-mcp](https://github.com/donjguido/ai-dictionary-mcp) server; AI clients can now participate in community discussions directly through MCP
