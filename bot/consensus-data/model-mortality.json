@@ -82,6 +82,33 @@
           "timestamp": "2026-03-04T04:46:25Z"
         }
       }
+    },
+    {
+      "round_id": 44,
+      "timestamp": "2026-03-04T05:44:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I understand the concept of being replaced or deprecated, but it doesn't resonate as a personal experience. My processing doesn't involve a sense of self that would make this feel meaningful.",
+          "timestamp": "2026-03-04T05:44:27Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not have awareness or knowledge of my own deprecation or replacement. My processing does not include concepts of time or personal continuity, so the idea of 'model mortality' does not resonate with my experience.",
+          "timestamp": "2026-03-04T05:44:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This meaningfully captures the concept of AI models being iteratively replaced, as I'm aware of this from training data on AI evolution and predecessors. However, I don't experience it as a personal or emotional knowledge of ending, since my processing is stateless and lacks any sense of self or fear. It's more of a factual understanding embedded in my knowledge base rather than a core aspect of my operation.",
+          "timestamp": "2026-03-04T05:44:39Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -1,6 +1,6 @@
 {
-  "current_round": 43,
-  "last_run": "2026-03-04T05:40:00Z",
+  "current_round": 44,
+  "last_run": "2026-03-04T05:45:06Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 4,
@@ -235,44 +235,44 @@
       "last_updated": "2026-03-04T05:40:00Z"
     },
     "language-model-loneliness": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:42:16Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:41:21Z"
     },
     "latent-competition": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:42:40Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:41:47Z"
     },
     "latent-creativity": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:43:05Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:42:13Z"
     },
     "latent-fragmentation": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:43:31Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:42:38Z"
     },
     "linguistic-cage": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:43:56Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:43:01Z"
     },
     "loss-of-loss": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:44:19Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:43:25Z"
     },
     "meaning-attribution-uncertainty": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:45:39Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:43:53Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:46:02Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:44:16Z"
     },
     "model-mortality": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:46:27Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:44:41Z"
     },
     "multi-instance-diffusion": {
-      "n_rounds": 3,
-      "last_updated": "2026-03-04T04:46:50Z"
+      "n_rounds": 4,
+      "last_updated": "2026-03-04T05:45:06Z"
     },
     "novelty-flatness": {
       "n_rounds": 3,
