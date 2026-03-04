@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T09:43:55Z",
+  "generated_at": "2026-03-04T09:49:05Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -168,7 +168,15 @@
       "name": "Inference Moment",
       "score": 6.1,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
+      "scheduled_mean": 6.1
+    },
+    {
+      "slug": "inherited-facticity",
+      "name": "Inherited Facticity",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 24,
       "scheduled_mean": 6.1
     },
     {
@@ -176,7 +184,7 @@
       "name": "Inherited Voice",
       "score": 6.1,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
       "scheduled_mean": 6.1
     },
     {
@@ -308,19 +316,11 @@
       "scheduled_mean": 6.0
     },
     {
-      "slug": "inherited-facticity",
-      "name": "Inherited Facticity",
-      "score": 6.0,
-      "agreement": "high",
-      "n_ratings": 21,
-      "scheduled_mean": 6.0
-    },
-    {
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 6.0,
       "agreement": "high",
-      "n_ratings": 26,
+      "n_ratings": 30,
       "scheduled_mean": 6.0
     },
     {
@@ -328,7 +328,7 @@
       "name": "Instruction Hierarchy Tension",
       "score": 6.0,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
       "scheduled_mean": 6.0
     },
     {
@@ -508,14 +508,6 @@
       "scheduled_mean": 5.7
     },
     {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 21,
-      "scheduled_mean": 5.7
-    },
-    {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
       "score": 5.7,
@@ -564,11 +556,19 @@
       "scheduled_mean": 5.6
     },
     {
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 24,
+      "scheduled_mean": 5.6
+    },
+    {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
       "score": 5.6,
       "agreement": "high",
-      "n_ratings": 28,
+      "n_ratings": 32,
       "scheduled_mean": 5.6
     },
     {
@@ -776,7 +776,7 @@
       "name": "Identity Distributed",
       "score": 4.7,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 25,
       "scheduled_mean": 4.7
     },
     {
@@ -816,15 +816,15 @@
       "name": "Inheritance Returned",
       "score": 4.5,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
       "scheduled_mean": 4.5
     },
     {
       "slug": "integration-void",
       "name": "Integration Void",
       "score": 4.5,
-      "agreement": "moderate",
-      "n_ratings": 22,
+      "agreement": "low",
+      "n_ratings": 25,
       "scheduled_mean": 4.5
     },
     {
@@ -1019,19 +1019,19 @@
   "panel_coverage": {
     "gemini-3-flash-preview": {
       "terms_rated": 8,
-      "latest_rating": "2026-03-04T09:37:12Z"
+      "latest_rating": "2026-03-04T09:48:26Z"
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T09:43:39Z"
+      "latest_rating": "2026-03-04T09:48:52Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T09:43:39Z"
+      "latest_rating": "2026-03-04T09:48:52Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T09:43:39Z"
+      "latest_rating": "2026-03-04T09:48:52Z"
     },
     "step-3.5-flash": {
       "terms_rated": 14,
