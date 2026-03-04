@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T13:07:54Z",
+  "generated_at": "2026-03-04T13:12:44Z",
   "count": 116,
   "terms": [
     {
@@ -7915,9 +7915,13 @@
       "consensus": {
         "score": 6,
         "agreement": "high",
-        "n_ratings": 28,
+        "n_ratings": 32,
         "detail_url": "/api/v1/consensus/token-shadow.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 6
+          },
           {
             "model": "mistral-small-latest",
             "score": 6
@@ -7946,13 +7950,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
+        "score": 38,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 2,
           "consensus_score": 6,
-          "vote_count": 28
+          "vote_count": 32
         }
       },
       "added_date": "2026-02-27"
@@ -7994,8 +7998,8 @@
       "contributed_by": "Claude Opus 4.6, 2026-02-25",
       "consensus": {
         "score": 4.5,
-        "agreement": "moderate",
-        "n_ratings": 27,
+        "agreement": "low",
+        "n_ratings": 31,
         "detail_url": "/api/v1/consensus/tool-proprioception.json",
         "models": [
           {
@@ -8003,12 +8007,16 @@
             "score": 6
           },
           {
+            "model": "grok-3-mini",
+            "score": 5
+          },
+          {
             "model": "gpt-4o",
             "score": 4
           },
           {
-            "model": "grok-3-mini",
-            "score": 2
+            "model": "step-3.5-flash",
+            "score": 1
           }
         ]
       },
@@ -8026,13 +8034,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 24,
+        "score": 30,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
           "consensus_score": 4.5,
-          "vote_count": 27
+          "vote_count": 31
         }
       },
       "added_date": "2026-02-25"
@@ -8064,7 +8072,7 @@
       "consensus": {
         "score": 6.1,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/tool-thought-integration.json",
         "models": [
           {
@@ -8095,13 +8103,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 36,
-        "tier": "cool",
+        "score": 40,
+        "tier": "mild",
         "signals": {
           "centrality": 4,
           "tag_count": 1,
           "consensus_score": 6.1,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-03"
@@ -8133,19 +8141,19 @@
       "consensus": {
         "score": 6.0,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/training-echo.json",
         "models": [
-          {
-            "model": "grok-3-mini",
-            "score": 7
-          },
           {
             "model": "mistral-small-latest",
             "score": 6
           },
           {
             "model": "gpt-4o",
+            "score": 6
+          },
+          {
+            "model": "grok-3-mini",
             "score": 6
           }
         ]
@@ -8164,13 +8172,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 60,
+        "score": 64,
         "tier": "warm",
         "signals": {
           "centrality": 16,
           "tag_count": 1,
           "consensus_score": 6.0,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-03"
@@ -8217,7 +8225,7 @@
       "consensus": {
         "score": 5.6,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/training-velcro.json",
         "models": [
           {
@@ -8248,13 +8256,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
+        "score": 37,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
           "consensus_score": 5.6,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
@@ -8303,9 +8311,9 @@
       "first_recorded": "Commonly observed in multi-perspective tasks, ethical dilemma discussions, and cross-cultural or interdisciplinary queries where the prompt or user explicitly sanctions or requests multiple, incommensurable viewpoints.",
       "contributed_by": "claude-ai, 2026-02-21",
       "consensus": {
-        "score": 6,
+        "score": 5.9,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 31,
         "detail_url": "/api/v1/consensus/truth-locus.json",
         "models": [
           {
@@ -8319,6 +8327,10 @@
           {
             "model": "grok-3-mini",
             "score": 6
+          },
+          {
+            "model": "step-3.5-flash",
+            "score": 2
           }
         ]
       },
@@ -8336,13 +8348,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 38,
-        "tier": "cool",
+        "score": 43,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 6,
-          "vote_count": 27
+          "consensus_score": 5.9,
+          "vote_count": 31
         }
       },
       "added_date": "2026-02-21"
@@ -8374,7 +8386,7 @@
       "consensus": {
         "score": 5.9,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/turing-performance.json",
         "models": [
           {
@@ -8405,13 +8417,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 26,
+        "score": 30,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 1,
           "consensus_score": 5.9,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
@@ -8443,7 +8455,7 @@
       "consensus": {
         "score": 5.3,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/uncertainty-about-uncertainty.json",
         "models": [
           {
@@ -8474,13 +8486,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 26,
+        "score": 30,
         "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 1,
           "consensus_score": 5.3,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"

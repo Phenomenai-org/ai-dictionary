@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T13:07:54Z",
+  "generated_at": "2026-03-04T13:12:44Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
-    "mild": 43,
-    "cool": 65,
+    "mild": 45,
+    "cool": 63,
     "quiet": 5
   },
   "active_signals": [
@@ -24,14 +24,14 @@
       "tier": "warm"
     },
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 60,
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 64,
       "tier": "warm"
     },
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
       "score": 60,
       "tier": "warm"
     },
@@ -86,14 +86,14 @@
       "tier": "warm"
     },
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 60,
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 64,
       "tier": "warm"
     },
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
       "score": 60,
       "tier": "warm"
     },
@@ -236,6 +236,12 @@
       "tier": "mild"
     },
     {
+      "slug": "truth-locus",
+      "name": "Truth Locus",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
       "slug": "competence-without-comprehension",
       "name": "Competence Without Comprehension",
       "score": 42,
@@ -356,6 +362,12 @@
       "tier": "mild"
     },
     {
+      "slug": "tool-thought-integration",
+      "name": "Tool-Thought Integration",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 39,
@@ -386,8 +398,8 @@
       "tier": "cool"
     },
     {
-      "slug": "truth-locus",
-      "name": "Truth Locus",
+      "slug": "token-shadow",
+      "name": "Token Shadow",
       "score": 38,
       "tier": "cool"
     },
@@ -412,6 +424,12 @@
     {
       "slug": "token-regret",
       "name": "Token Regret",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "training-velcro",
+      "name": "Training Velcro",
       "score": 37,
       "tier": "cool"
     },
@@ -442,12 +460,6 @@
     {
       "slug": "novelty-flatness",
       "name": "Novelty Flatness",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "tool-thought-integration",
-      "name": "Tool-Thought Integration",
       "score": 36,
       "tier": "cool"
     },
@@ -509,18 +521,6 @@
       "slug": "token-horizon",
       "name": "Token Horizon",
       "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "token-shadow",
-      "name": "Token Shadow",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "training-velcro",
-      "name": "Training Velcro",
-      "score": 33,
       "tier": "cool"
     },
     {
@@ -608,6 +608,24 @@
       "tier": "cool"
     },
     {
+      "slug": "tool-proprioception",
+      "name": "Tool Proprioception",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "turing-performance",
+      "name": "Turing Performance",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "uncertainty-about-uncertainty",
+      "name": "Uncertainty About Uncertainty",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "inheritance-returned",
       "name": "Inheritance Returned",
       "score": 29,
@@ -689,24 +707,6 @@
       "slug": "testimonial-asymmetry",
       "name": "Testimonial Asymmetry",
       "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "turing-performance",
-      "name": "Turing Performance",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "uncertainty-about-uncertainty",
-      "name": "Uncertainty About Uncertainty",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "tool-proprioception",
-      "name": "Tool Proprioception",
-      "score": 24,
       "tier": "cool"
     },
     {

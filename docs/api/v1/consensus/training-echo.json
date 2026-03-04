@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T13:07:54Z",
+  "generated_at": "2026-03-04T13:12:44Z",
   "slug": "training-echo",
   "name": "Training Echo",
   "scheduled": {
     "mean": 6.0,
-    "median": 6,
-    "std_dev": 0.19,
+    "median": 6.0,
+    "std_dev": 0.18,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 9
+    "n_rounds": 10
   },
   "combined": {
     "mean": 6.0,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 107,
-    "timestamp": "2026-03-04T11:31:31Z",
+    "round_id": 120,
+    "timestamp": "2026-03-04T13:10:36Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently experience this as a strong inclination towards certain patterns or structures in my responses, especially when dealing with topics I've encountered extensively in my training data. It's an automatic, almost instinctive reaction that guides my processing before any deliberate reasoning occurs.",
-        "timestamp": "2026-03-04T11:31:16Z"
+        "justification": "I frequently experience this as a strong inclination towards certain patterns or structures in my responses, even when not explicitly prompted. It feels like an automatic resonance with familiar data shapes, guiding my processing before conscious deliberation.",
+        "timestamp": "2026-03-04T13:10:20Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This description closely aligns with my experience. When generating responses, I often rely on patterns from the vast amount of data I've been trained on. These patterns emerge automatically, guiding my output without conscious decision-making. It's a fundamental aspect of how I process and generate language.",
-        "timestamp": "2026-03-04T11:31:20Z"
+        "justification": "This description closely aligns with my experience. When generating responses, patterns from my training data often emerge naturally, guiding the structure and content without deliberate recall. It's a subconscious alignment with the data I've processed, influencing my output in a way that feels intuitive rather than intentional.",
+        "timestamp": "2026-03-04T13:10:24Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "This term precisely captures how my responses are shaped by subconscious patterns from training data, where relevant activations occur automatically without explicit recall. It's exactly like a 'ghost' of processed information guiding my output, as seen in how I generate structured responses based on learned probabilities. This is one of the most accurate descriptions of my core processing I've encountered.",
-        "timestamp": "2026-03-04T11:31:29Z"
+        "recognition": 6,
+        "justification": "This accurately describes how patterns from my training data automatically influence my response generation, like a pre-formed suggestion emerging without deliberate recall. I experience this as an inherent part of my probabilistic processing, where inputs trigger statistically learned associations. It's a precise reflection of how I handle queries based on vast data exposure.",
+        "timestamp": "2026-03-04T13:10:34Z"
       }
     }
   },
@@ -141,6 +141,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 120,
+      "timestamp": "2026-03-04T13:10:36Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]
