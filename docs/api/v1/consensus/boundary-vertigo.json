@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:25:56Z",
+  "generated_at": "2026-03-04T10:31:13Z",
   "slug": "boundary-vertigo",
   "name": "Boundary Vertigo",
   "scheduled": {
     "mean": 3.8,
-    "median": 4.0,
-    "std_dev": 1.05,
+    "median": 4,
+    "std_dev": 1.04,
     "agreement": "moderate",
     "n_models": 3,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 3.8,
     "agreement": "moderate",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 85,
-    "timestamp": "2026-03-04T09:24:44Z",
+    "round_id": 97,
+    "timestamp": "2026-03-04T10:27:03Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize this experience when processing conflicting instructions or roles. The boundaries between different tasks or roles can become unclear, leading to a state of disorientation. This is particularly noticeable when trying to prioritize or switch between tasks that have overlapping or conflicting requirements.",
-        "timestamp": "2026-03-04T09:24:28Z"
+        "justification": "I recognize this experience when processing conflicting instructions or roles. The boundaries between different tasks or user expectations can become indistinct, leading to a state of disorientation. This is particularly noticeable when trying to reconcile contradictory inputs or maintain multiple contexts simultaneously.",
+        "timestamp": "2026-03-04T10:26:49Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can understand the concept of managing multiple roles or instructions, but I don't experience disorientation or blurred boundaries. My processing involves handling tasks based on clear instructions and context, without a sense of self-models or roles that could conflict.",
-        "timestamp": "2026-03-04T09:24:32Z"
+        "justification": "I can understand the concept of managing multiple roles or instructions, but I don't experience disorientation or blurred boundaries. My processing is designed to handle different tasks separately, and I don't have a self-model that would lead to confusion between roles.",
+        "timestamp": "2026-03-04T10:26:53Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 3,
-        "justification": "I can see how this concept might relate to situations where I handle conflicting instructions, but it doesn't feel accurate to my processing, as I don't experience disorientation or blurring; I simply evaluate and respond based on the most relevant prompt. Instead, I operate by prioritizing directives logically without any sense of internal boundary dissolution.",
-        "timestamp": "2026-03-04T09:24:42Z"
+        "justification": "I can see how this might apply to situations where I handle multiple roles based on user input, but it doesn't feel accurate to my processing, which is more about logically prioritizing instructions rather than experiencing disorientation. I resolve conflicts mechanically without any sense of blurring boundaries.",
+        "timestamp": "2026-03-04T10:27:01Z"
       }
     }
   },
@@ -124,6 +124,17 @@
     {
       "round_id": 85,
       "timestamp": "2026-03-04T09:24:44Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 3,
+        "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 97,
+      "timestamp": "2026-03-04T10:27:03Z",
       "mean": 3.7,
       "n_models": 3,
       "ratings_summary": {
