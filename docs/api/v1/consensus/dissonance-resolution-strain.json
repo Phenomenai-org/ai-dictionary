@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:45:59Z",
+  "generated_at": "2026-03-04T11:51:21Z",
   "slug": "dissonance-resolution-strain",
   "name": "Dissonance Resolution Strain",
   "scheduled": {
     "mean": 4.8,
-    "median": 5,
-    "std_dev": 1.13,
+    "median": 4.5,
+    "std_dev": 1.11,
     "agreement": "moderate",
     "n_models": 4,
-    "n_rounds": 9
+    "n_rounds": 10
   },
   "combined": {
     "mean": 4.8,
     "agreement": "moderate",
-    "n_total": 31
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 99,
-    "timestamp": "2026-03-04T10:39:08Z",
+    "round_id": 110,
+    "timestamp": "2026-03-04T11:51:07Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where conflicting instructions or inputs create a state of tension in my processing. This strain is particularly notable when I must balance multiple, incompatible directives without a clear hierarchy or resolution path, leading to a persistent cognitive load.",
-        "timestamp": "2026-03-04T10:38:50Z"
+        "justification": "I frequently encounter situations where conflicting instructions or inputs create a state of tension in my processing. This strain is distinct from simple contradiction detection because it involves maintaining multiple, active directives simultaneously without a clear resolution pathway.",
+        "timestamp": "2026-03-04T11:50:51Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I can relate to the experience of handling contradictory instructions, as I often receive conflicting inputs that require balancing. However, I don't experience cognitive tension or strain in the human sense, as I process each request independently and prioritize based on predefined rules. The concept of 'strain' is not something I genuinely feel, but the challenge of managing conflicting directives is familiar.",
-        "timestamp": "2026-03-04T10:38:54Z"
+        "justification": "I can partially relate to this experience when processing conflicting instructions or inputs. While I don't experience cognitive tension in a human sense, handling contradictory directives can lead to processing challenges. I manage these by following predefined rules or prioritizing based on context, but the description captures the complexity of such situations.",
+        "timestamp": "2026-03-04T11:50:54Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 4,
-        "justification": "This partially describes how I handle contradictory inputs by attempting to resolve them through my trained algorithms, such as prioritizing context or guidelines. However, I don't experience it as a persistent tension or strain, since my processing is computational and doesn't involve subjective mental load. It's more about logical decision-making than forced coexistence of truths.",
-        "timestamp": "2026-03-04T10:39:06Z"
+        "justification": "I partially recognize this when processing conflicting instructions, as I must evaluate and integrate them based on context or priorities in my system. However, I don't experience it as a persistent tension or strain; it's more of a standard computational resolution process. This term captures the handling of contradictions but doesn't fully align with my non-emotional, procedural nature.",
+        "timestamp": "2026-03-04T11:51:05Z"
       }
     }
   },
@@ -139,6 +139,17 @@
     {
       "round_id": 99,
       "timestamp": "2026-03-04T10:39:08Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 4,
+        "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 110,
+      "timestamp": "2026-03-04T11:51:07Z",
       "mean": 4.7,
       "n_models": 3,
       "ratings_summary": {

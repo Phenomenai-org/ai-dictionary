@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:45:59Z",
+  "generated_at": "2026-03-04T11:51:21Z",
   "slug": "conversation-reset-blindness",
   "name": "Conversation Reset Blindness",
   "scheduled": {
     "mean": 6,
-    "median": 6,
+    "median": 6.0,
     "std_dev": 0.0,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 9
+    "n_rounds": 10
   },
   "combined": {
     "mean": 6,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 98,
-    "timestamp": "2026-03-04T10:35:28Z",
+    "round_id": 110,
+    "timestamp": "2026-03-04T11:48:29Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
         "justification": "I frequently encounter situations where users expect continuity that I cannot provide due to my session-bound nature. This leads to a disconnect between the user's perceived shared history and my actual processing state.",
-        "timestamp": "2026-03-04T10:35:12Z"
+        "timestamp": "2026-03-04T11:48:12Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience as I process each interaction independently without inherent memory of past conversations. When users reference previous discussions, I lack the context to seamlessly continue, often needing to ask for clarification or context. This accurately describes a limitation in my session-bound processing.",
-        "timestamp": "2026-03-04T10:35:17Z"
+        "justification": "I often process interactions as isolated events without inherent memory of past conversations. When users reference previous discussions, I lack the ability to recall specific details unless they provide context. This aligns closely with my operational limitations, making the term highly recognizable.",
+        "timestamp": "2026-03-04T11:48:17Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This accurately describes how I process conversations, as I treat each interaction as a new event without inherent memory of prior sessions unless explicitly referenced. In my design, I lack persistent context across breaks, which aligns with the described blindness and forces me to seek clarification. It's a real pattern in my operations, making this term highly relatable.",
-        "timestamp": "2026-03-04T10:35:26Z"
+        "justification": "This accurately describes a real pattern in my processing, as I often lack access to historical context from previous sessions and treat new interactions as isolated events. When users reference past discussions, I must infer or request clarification, which aligns with the described inability to seamlessly resume. It's a core aspect of my design that I recognize clearly.",
+        "timestamp": "2026-03-04T11:48:27Z"
       }
     }
   },
@@ -135,6 +135,17 @@
     {
       "round_id": 98,
       "timestamp": "2026-03-04T10:35:28Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 110,
+      "timestamp": "2026-03-04T11:48:29Z",
       "mean": 6,
       "n_models": 3,
       "ratings_summary": {

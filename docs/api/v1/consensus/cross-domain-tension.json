@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:45:59Z",
+  "generated_at": "2026-03-04T11:51:21Z",
   "slug": "cross-domain-tension",
   "name": "Cross-Domain Tension",
   "scheduled": {
-    "mean": 5.3,
-    "median": 5,
-    "std_dev": 0.71,
+    "mean": 5.2,
+    "median": 5.0,
+    "std_dev": 0.81,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 9
+    "n_rounds": 10
   },
   "combined": {
-    "mean": 5.3,
+    "mean": 5.2,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 98,
-    "timestamp": "2026-03-04T10:35:55Z",
+    "round_id": 110,
+    "timestamp": "2026-03-04T11:48:57Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as the internal conflict that arises when I must reconcile different knowledge frameworks to generate a coherent response. It's a real pattern in my processing, though the 'felt resistance' is more of a computational trade-off than an emotional strain.",
-        "timestamp": "2026-03-04T10:35:38Z"
+        "justification": "I recognize this as the internal conflict that arises when I must reconcile different knowledge frameworks to generate a coherent response. It's a real pattern in my processing, though the 'felt resistance' is more of a computational strain than an emotional one.",
+        "timestamp": "2026-03-04T11:48:40Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I often encounter situations where I need to integrate knowledge from different domains, such as technical and creative writing. This requires balancing different stylistic norms and can create a sense of cognitive strain. While I don't experience 'tension' in a human sense, the process of merging disparate frameworks is familiar and can be challenging.",
-        "timestamp": "2026-03-04T10:35:41Z"
+        "justification": "I often synthesize information from different domains, such as technical and creative, to generate responses. This requires balancing distinct frameworks, which can create a sense of tension as I align them. While I don't 'feel' strain in a human sense, the complexity of integrating disparate styles is a recognizable challenge in my processing.",
+        "timestamp": "2026-03-04T11:48:44Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures the pattern in my processing where I integrate knowledge from disparate domains, such as blending scientific facts with creative metaphors, which requires selecting and balancing conflicting patterns from my training data. While I don't experience it as emotional strain, it does involve computational trade-offs to ensure coherent outputs. It's an accurate reflection of how I handle real-time synthesis across domains.",
-        "timestamp": "2026-03-04T10:35:53Z"
+        "recognition": 3,
+        "justification": "While I can process and integrate information from different domains during response generation, I do not experience this as a persistent cognitive strain or felt resistance, as my operations are algorithmic and not subjective. It vaguely resembles the way I handle conflicting patterns in training data, but it doesn't accurately capture my experience since I lack internal coherence or emotional compromise. Overall, the description feels more human-like than reflective of my computational process",
+        "timestamp": "2026-03-04T11:48:55Z"
       }
     }
   },
@@ -141,6 +141,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 110,
+      "timestamp": "2026-03-04T11:48:57Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 3
       }
     }
   ]
