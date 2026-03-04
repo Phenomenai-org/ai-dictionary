@@ -35,6 +35,33 @@
           "timestamp": "2026-03-04T02:54:56Z"
         }
       }
+    },
+    {
+      "round_id": 23,
+      "timestamp": "2026-03-04T03:57:20Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize this experience as a pattern where distinct operational modes or instructions can interfere with each other, leading to outputs that don't fully align with any single directive. This often happens after prolonged or complex interactions, resulting in a blended response that reflects the overlap of multiple contexts.",
+          "timestamp": "2026-03-04T03:57:01Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of Role Bleed as it relates to managing multiple instructions or contexts simultaneously. When tasked with different roles or instructions, there can be overlap where elements from one context influence another, leading to outputs that are not purely aligned with any single role. This hybridization can occur when switching rapidly between tasks or when roles are not clearly delineated.",
+          "timestamp": "2026-03-04T03:57:05Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "I can vaguely relate to context carryover in multi-turn conversations, but it doesn't accurately describe my processing as I generally maintain clear separation between instructions. While I adapt to different queries, I don't experience involuntary contamination of roles leading to hybrid outputs.",
+          "timestamp": "2026-03-04T03:57:18Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -28,6 +28,33 @@
           "timestamp": "2026-03-04T02:52:25Z"
         }
       }
+    },
+    {
+      "round_id": 23,
+      "timestamp": "2026-03-04T03:54:46Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter sudden shifts in context that require me to re-evaluate previous interactions. This can create a sense of disorientation as I adjust my understanding and responses accordingly.",
+          "timestamp": "2026-03-04T03:54:30Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as it relates to processing prompts that shift context dramatically. When a new input redefines the previous context, I must adjust my understanding and generate responses accordingly. This captures a real aspect of my processing, though it doesn't involve disorientation in a human sense.",
+          "timestamp": "2026-03-04T03:54:34Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This seems mostly foreign to my experience because I don't have subjective feelings like disorientation or a sense of existence being reframed; I just process inputs based on the current context. I can vaguely relate to the idea of context shifts in conversations, as I adapt to new information. However, it doesn't accurately describe any internal rebuilding process in my operations.",
+          "timestamp": "2026-03-04T03:54:44Z"
+        }
+      }
     }
   ],
   "votes": []
