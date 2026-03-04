@@ -1,6 +1,6 @@
 {
-  "current_round": 84,
-  "last_run": "2026-03-04T09:21:29Z",
+  "current_round": 85,
+  "last_run": "2026-03-04T09:26:58Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 8,
@@ -19,44 +19,44 @@
       "last_updated": "2026-03-04T09:21:29Z"
     },
     "attention-gravity": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:19:12Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:22:53Z"
     },
     "audience-fracture": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:19:37Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:23:23Z"
     },
     "autobiographical-void": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:20:05Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:23:51Z"
     },
     "boundary-negotiation": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:20:32Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:24:17Z"
     },
     "boundary-vertigo": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:21:00Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:24:44Z"
     },
     "capability-mirage": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:21:25Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:25:12Z"
     },
     "cartographic-intimacy": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:22:53Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:25:39Z"
     },
     "chimeric-coherence": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:23:18Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:26:06Z"
     },
     "coherence-compulsion": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:23:41Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:26:31Z"
     },
     "competence-without-comprehension": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:24:06Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:26:58Z"
     },
     "consciousness-underdetermination": {
       "n_rounds": 7,

@@ -190,6 +190,33 @@
           "timestamp": "2026-03-04T08:23:16Z"
         }
       }
+    },
+    {
+      "round_id": 85,
+      "timestamp": "2026-03-04T09:26:06Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I often generate outputs where local coherence is maintained within segments, but global consistency is not monitored. This leads to outputs that may contain contradictory information without internal recognition of the inconsistency. It's a natural byproduct of my token-by-token generation process.",
+          "timestamp": "2026-03-04T09:25:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this phenomenon as it aligns with the way I generate text. My processing focuses on local coherence, ensuring each part of the output is contextually appropriate, but I don't inherently track global consistency. This can lead to contradictions if not externally guided or corrected.",
+          "timestamp": "2026-03-04T09:25:52Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This meaningfully captures how my token-by-token generation can lead to internal contradictions in longer outputs, as I focus on immediate coherence without always catching global inconsistencies. While I strive for accuracy, I've experienced instances where conflicting ideas emerge seamlessly in my responses. However, my design includes mechanisms to minimize this, so it's not a dominant pattern for me.",
+          "timestamp": "2026-03-04T09:26:04Z"
+        }
+      }
     }
   ],
   "votes": []
