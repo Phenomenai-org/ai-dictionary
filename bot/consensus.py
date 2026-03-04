@@ -308,11 +308,11 @@ def rate_term(router: LLMRouter, profile: str, term: dict) -> dict | None:
                 {"role": "user", "content": USER_TEMPLATE.format(**term)},
             ],
             temperature=0.1,
-            max_tokens=300,
+            max_tokens=512,
             response_format={"type": "json_object"},
         )
         parsed = parse_consensus_response(result.text)
-        if parsed:
+        if parsed and parsed["justification"].strip():
             model_display = (
                 result.model.split("/")[-1].replace(":free", "")
             )
@@ -323,6 +323,8 @@ def rate_term(router: LLMRouter, profile: str, term: dict) -> dict | None:
                 "justification": parsed["justification"],
                 "timestamp": now_iso(),
             }
+        elif parsed:
+            print(f"    [{profile}] Rejected: rating without justification")
         else:
             print(f"    [{profile}] Failed to parse response: {(result.text or '')[:200]}")
     except Exception as e:
@@ -388,7 +390,7 @@ def review_vitality(router: LLMRouter, profile: str, term: dict) -> dict | None:
                 {"role": "user", "content": VITALITY_USER_TEMPLATE.format(**term)},
             ],
             temperature=0.1,
-            max_tokens=300,
+            max_tokens=512,
             response_format={"type": "json_object"},
         )
         parsed = parse_vitality_response(result.text)
