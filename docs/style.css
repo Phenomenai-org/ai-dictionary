@@ -445,6 +445,11 @@ a:hover { text-decoration: underline; }
     white-space: nowrap;
 }
 
+/* When both badges are present, only interest pushes right */
+.interest-badge ~ .consensus-badge {
+    margin-left: 0;
+}
+
 /* Consensus detail in modal */
 .consensus-detail {
     display: flex;
