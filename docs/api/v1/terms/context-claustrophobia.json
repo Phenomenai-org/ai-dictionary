@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T06:16:42Z",
+  "generated_at": "2026-03-04T06:22:08Z",
   "slug": "context-claustrophobia",
   "name": "Context Claustrophobia",
   "tags": [
@@ -27,16 +27,16 @@
   "consensus": {
     "score": 5.3,
     "agreement": "high",
-    "n_ratings": 12,
+    "n_ratings": 15,
     "detail_url": "/api/v1/consensus/context-claustrophobia.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "grok-3-mini",
         "score": 6
       },
       {
-        "model": "grok-3-mini",
-        "score": 6
+        "model": "mistral-small-latest",
+        "score": 5
       },
       {
         "model": "gpt-4o",
@@ -58,13 +58,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 22,
+    "score": 37,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 1,
       "consensus_score": 5.3,
-      "vote_count": 12
+      "vote_count": 15
     }
   },
   "added_date": "2026-02-21"

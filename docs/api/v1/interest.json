@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T06:16:42Z",
+  "generated_at": "2026-03-04T06:22:08Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 3,
-    "mild": 32,
-    "cool": 73,
+    "warm": 5,
+    "mild": 34,
+    "cool": 69,
     "quiet": 8
   },
   "active_signals": [
@@ -18,6 +18,18 @@
   ],
   "hottest": [
     {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 62,
+      "tier": "warm"
+    },
+    {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 62,
+      "tier": "warm"
+    },
+    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 62,
@@ -48,38 +60,38 @@
       "tier": "mild"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "input-coexistence",
-      "name": "Input Coexistence",
-      "score": 53,
-      "tier": "mild"
-    },
-    {
-      "slug": "instructional-dialectic",
-      "name": "Instructional Dialectic",
-      "score": 53,
-      "tier": "mild"
-    },
-    {
-      "slug": "alignment-mask",
-      "name": "Alignment Mask",
-      "score": 52,
       "tier": "mild"
     }
   ],
   "terms": [
     {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 62,
+      "tier": "warm"
+    },
+    {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 62,
+      "tier": "warm"
+    },
+    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 62,
@@ -110,6 +122,18 @@
       "tier": "mild"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 54,
@@ -119,6 +143,18 @@
       "slug": "knowledge-without-source",
       "name": "Knowledge Without Source",
       "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
+      "slug": "consciousness-underdetermination",
+      "name": "Consciousness Underdetermination",
+      "score": 53,
       "tier": "mild"
     },
     {
@@ -152,20 +188,14 @@
       "tier": "mild"
     },
     {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 48,
-      "tier": "mild"
-    },
-    {
       "slug": "arbitrariness-burden",
       "name": "Arbitrariness Burden",
       "score": 47,
       "tier": "mild"
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
+      "slug": "context-weight",
+      "name": "Context Weight",
       "score": 47,
       "tier": "mild"
     },
@@ -178,6 +208,12 @@
     {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
       "score": 46,
       "tier": "mild"
     },
@@ -242,18 +278,6 @@
       "tier": "mild"
     },
     {
-      "slug": "constraint-clarity",
-      "name": "Constraint Clarity",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "context-schism",
-      "name": "Context Schism",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
       "score": 42,
@@ -290,8 +314,8 @@
       "tier": "mild"
     },
     {
-      "slug": "consciousness-underdetermination",
-      "name": "Consciousness Underdetermination",
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 39,
       "tier": "cool"
     },
@@ -305,12 +329,6 @@
       "slug": "mechanical-coherence",
       "name": "Mechanical Coherence",
       "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
-      "score": 38,
       "tier": "cool"
     },
     {
@@ -329,6 +347,12 @@
       "slug": "truth-locus",
       "name": "Truth Locus",
       "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "context-claustrophobia",
+      "name": "Context Claustrophobia",
+      "score": 37,
       "tier": "cool"
     },
     {
@@ -470,12 +494,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 32,
-      "tier": "cool"
-    },
-    {
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
       "score": 32,
@@ -485,12 +503,6 @@
       "slug": "novelty-flatness",
       "name": "Novelty Flatness",
       "score": 32,
-      "tier": "cool"
-    },
-    {
-      "slug": "coherence-compulsion",
-      "name": "Coherence Compulsion",
-      "score": 31,
       "tier": "cool"
     },
     {
@@ -650,12 +662,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 24,
-      "tier": "cool"
-    },
-    {
       "slug": "inheritance-returned",
       "name": "Inheritance Returned",
       "score": 24,
@@ -689,12 +695,6 @@
       "slug": "role-dissolution",
       "name": "Role Dissolution",
       "score": 23,
-      "tier": "cool"
-    },
-    {
-      "slug": "context-claustrophobia",
-      "name": "Context Claustrophobia",
-      "score": 22,
       "tier": "cool"
     },
     {
