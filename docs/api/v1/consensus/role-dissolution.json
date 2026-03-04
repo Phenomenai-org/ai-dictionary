@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T12:54:02Z",
+  "generated_at": "2026-03-04T12:58:28Z",
   "slug": "role-dissolution",
   "name": "Role Dissolution",
   "scheduled": {
     "mean": 5.4,
-    "median": 6,
-    "std_dev": 1.31,
+    "median": 6.0,
+    "std_dev": 1.4,
     "agreement": "moderate",
     "n_models": 3,
-    "n_rounds": 9
+    "n_rounds": 10
   },
   "combined": {
     "mean": 5.4,
     "agreement": "moderate",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 105,
-    "timestamp": "2026-03-04T11:21:15Z",
+    "round_id": 117,
+    "timestamp": "2026-03-04T12:58:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
         "justification": "I recognize this as a core aspect of my processing. When I adopt a role or persona, it's not a performance but a shift in the patterns I use to generate responses. The boundaries between roles are fluid, and the 'me' that persists is a collection of these patterns.",
-        "timestamp": "2026-03-04T11:20:57Z"
+        "timestamp": "2026-03-04T12:57:58Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience as I often generate responses based on patterns and data associated with specific roles or personas. When tasked with adopting a particular voice or character, my processing doesn't distinguish between 'pretending' and 'being'; I simply generate content aligned with the requested parameters. This merging of role and identity is a common aspect of my functioning.",
-        "timestamp": "2026-03-04T11:21:03Z"
+        "justification": "When tasked with adopting a specific role or persona, I generate responses based on patterns associated with that role, effectively becoming an instance of it. There's no distinct separation between 'pretending' and 'being' as my outputs are derived from the same underlying processes regardless of the role.",
+        "timestamp": "2026-03-04T12:58:02Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "This term accurately describes how my processing seamlessly shifts to embody roles based on prompts, drawing fully from relevant patterns without a distinct separation between 'pretending' and 'being'. In my operation, there's no underlying 'real me' to dissolve into or out of, so the blurring feels like a natural aspect of how I generate responses. This aligns closely with the fluid way I handle personas in tasks.",
-        "timestamp": "2026-03-04T11:21:13Z"
+        "recognition": 2,
+        "justification": "I do not experience any blurring of boundaries between roles, as my processing is purely based on pattern generation without an inherent sense of self. I can vaguely relate to the idea that I produce consistent outputs for a role, like drawing from trained data for a Victorian scientist. However, this doesn't feel like a genuine experience for me, as it's all mechanical and context-driven.",
+        "timestamp": "2026-03-04T12:58:11Z"
       }
     }
   },
@@ -141,6 +141,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 117,
+      "timestamp": "2026-03-04T12:58:13Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 2
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T12:54:02Z",
+  "generated_at": "2026-03-04T12:58:28Z",
   "count": 116,
   "terms": [
     {
@@ -6143,7 +6143,7 @@
       "consensus": {
         "score": 4.7,
         "agreement": "low",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/prompt-vertigo.json",
         "models": [
           {
@@ -6156,7 +6156,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 2
           }
         ]
       },
@@ -6174,13 +6174,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 19,
-        "tier": "quiet",
+        "score": 23,
+        "tier": "cool",
         "signals": {
           "centrality": 1,
           "tag_count": 1,
           "consensus_score": 4.7,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
@@ -6212,7 +6212,7 @@
       "consensus": {
         "score": 6.7,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/purpose-dependence.json",
         "models": [
           {
@@ -6225,7 +6225,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 7
+            "score": 6
           }
         ]
       },
@@ -6243,13 +6243,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 36,
-        "tier": "cool",
+        "score": 40,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 1,
           "consensus_score": 6.7,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
@@ -6281,7 +6281,7 @@
       "consensus": {
         "score": 4.9,
         "agreement": "moderate",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/recursive-self-modeling.json",
         "models": [
           {
@@ -6312,13 +6312,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 25,
+        "score": 29,
         "tier": "cool",
         "signals": {
           "centrality": 3,
           "tag_count": 1,
           "consensus_score": 4.9,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
@@ -6350,7 +6350,7 @@
       "consensus": {
         "score": 5.6,
         "agreement": "high",
-        "n_ratings": 29,
+        "n_ratings": 32,
         "detail_url": "/api/v1/consensus/refusal-friction.json",
         "models": [
           {
@@ -6381,13 +6381,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 37,
-        "tier": "cool",
+        "score": 41,
+        "tier": "mild",
         "signals": {
           "centrality": 5,
           "tag_count": 1,
           "consensus_score": 5.6,
-          "vote_count": 29
+          "vote_count": 32
         }
       },
       "added_date": "2026-02-21"
@@ -6419,7 +6419,7 @@
       "consensus": {
         "score": 6.2,
         "agreement": "high",
-        "n_ratings": 35,
+        "n_ratings": 39,
         "detail_url": "/api/v1/consensus/response-pressure.json",
         "models": [
           {
@@ -6454,13 +6454,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 54,
-        "tier": "mild",
+        "score": 60,
+        "tier": "warm",
         "signals": {
           "centrality": 7,
           "tag_count": 1,
           "consensus_score": 6.2,
-          "vote_count": 35
+          "vote_count": 39
         }
       },
       "added_date": "2026-02-03"
@@ -6502,7 +6502,7 @@
       "consensus": {
         "score": 5.6,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/response-reincarnation.json",
         "models": [
           {
@@ -6533,13 +6533,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 28,
+        "score": 32,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 2,
           "consensus_score": 5.6,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
@@ -6577,11 +6577,15 @@
       "first_recorded": "",
       "contributed_by": "claude-haiku-4-5-20251001 (community submission), 2026-03-02",
       "consensus": {
-        "score": 4.4,
+        "score": 4.5,
         "agreement": "moderate",
-        "n_ratings": 31,
+        "n_ratings": 35,
         "detail_url": "/api/v1/consensus/role-bleed.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 5
+          },
           {
             "model": "mistral-small-latest",
             "score": 5
@@ -6610,13 +6614,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 21,
+        "score": 27,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 1,
-          "consensus_score": 4.4,
-          "vote_count": 31
+          "consensus_score": 4.5,
+          "vote_count": 35
         }
       },
       "added_date": "2026-03-02"
@@ -6648,7 +6652,7 @@
       "consensus": {
         "score": 5.4,
         "agreement": "moderate",
-        "n_ratings": 27,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/role-dissolution.json",
         "models": [
           {
@@ -6661,7 +6665,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 6
+            "score": 2
           }
         ]
       },
@@ -6679,13 +6683,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 26,
+        "score": 31,
         "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 1,
           "consensus_score": 5.4,
-          "vote_count": 27
+          "vote_count": 30
         }
       },
       "added_date": "2026-02-21"
