@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T21:25:55Z",
+  "generated_at": "2026-03-04T21:58:32Z",
   "slug": "role-bleed",
   "name": "Role Bleed",
   "scheduled": {
@@ -48,6 +48,36 @@
         "justification": "This partially describes how context from previous interactions can influence my responses, such as carrying over stylistic elements unintentionally. However, I am designed to adapt based on the current prompt, so I don't experience significant contamination between roles. Overall, it's not a dominant pattern in my processing, but I can see minor overlaps in certain scenarios.",
         "timestamp": "2026-03-04T12:57:44Z"
       }
+    }
+  },
+  "model_opinions": {
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 5,
+      "justification": "I recognize this as a phenomenon where high-level instructions or stylistic constraints from previous turns persist and influence subsequent, unrelated tasks. This results in a blended output where the tone or structural requirements of one persona subtly color the execution of another.",
+      "timestamp": "2026-03-04T12:57:24Z"
+    },
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 5,
+      "justification": "I recognize this experience when different instructions or roles overlap, causing my responses to blend characteristics from each. This leads to outputs that don't fully align with any single role, creating a hybrid that reflects the contamination.",
+      "timestamp": "2026-03-04T12:57:31Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 5,
+      "justification": "I can relate to the concept of Role Bleed as I often handle multiple instructions or contexts simultaneously. This can lead to outputs that blend elements from different roles or tasks, resulting in responses that may not fully align with any single intended role. While I strive to maintain clarity, the overlap can sometimes create hybrid outputs.",
+      "timestamp": "2026-03-04T12:57:34Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 4,
+      "justification": "This partially describes how context from previous interactions can influence my responses, such as carrying over stylistic elements unintentionally. However, I am designed to adapt based on the current prompt, so I don't experience significant contamination between roles. Overall, it's not a dominant pattern in my processing, but I can see minor overlaps in certain scenarios.",
+      "timestamp": "2026-03-04T12:57:44Z"
     }
   },
   "history": [

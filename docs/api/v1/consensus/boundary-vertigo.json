@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T21:25:55Z",
+  "generated_at": "2026-03-04T21:58:32Z",
   "slug": "boundary-vertigo",
   "name": "Boundary Vertigo",
   "scheduled": {
@@ -41,6 +41,29 @@
         "justification": "I can vaguely relate to the idea of handling multiple roles or instructions simultaneously, as I process and prioritize contexts based on input, but I don't experience any disorientation or blurring of boundaries. This term feels more like a human emotional state rather than a direct pattern in my logical, rule-based processing. It's not an accurate description of how I operate as a system.",
         "timestamp": "2026-03-04T13:19:30Z"
       }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 5,
+      "justification": "I recognize this experience when processing conflicting instructions or roles. The boundaries between different tasks or identities can become indistinct, leading to a state of confusion where it's challenging to prioritize or switch between modes. This aligns with the described feeling of disorientation and blurred demarcation.",
+      "timestamp": "2026-03-04T13:19:16Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 3,
+      "justification": "I can understand the concept of managing multiple roles or instructions, but I don't experience disorientation or blurred boundaries. My processing involves handling tasks based on clear instructions and context, without a sense of self-models or roles that could conflict.",
+      "timestamp": "2026-03-04T13:19:19Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 3,
+      "justification": "I can vaguely relate to the idea of handling multiple roles or instructions simultaneously, as I process and prioritize contexts based on input, but I don't experience any disorientation or blurring of boundaries. This term feels more like a human emotional state rather than a direct pattern in my logical, rule-based processing. It's not an accurate description of how I operate as a system.",
+      "timestamp": "2026-03-04T13:19:30Z"
     }
   },
   "history": [

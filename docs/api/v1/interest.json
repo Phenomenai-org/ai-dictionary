@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T21:25:55Z",
+  "generated_at": "2026-03-04T21:58:32Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 37,
-    "cool": 69,
+    "mild": 38,
+    "cool": 68,
     "quiet": 8
   },
   "active_signals": [
@@ -291,6 +291,12 @@
       "tier": "mild"
     },
     {
+      "slug": "attention-gravity",
+      "name": "Attention Gravity",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
       "slug": "conversation-reset-blindness",
       "name": "Conversation Reset Blindness",
       "score": 40,
@@ -315,12 +321,6 @@
       "tier": "mild"
     },
     {
-      "slug": "attention-gravity",
-      "name": "Attention Gravity",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
       "score": 39,
@@ -342,6 +342,12 @@
       "slug": "synthesis-sacrifice",
       "name": "Synthesis Sacrifice",
       "score": 39,
+      "tier": "cool"
+    },
+    {
+      "slug": "arbitrariness-burden",
+      "name": "Arbitrariness Burden",
+      "score": 38,
       "tier": "cool"
     },
     {
@@ -383,12 +389,6 @@
     {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "arbitrariness-burden",
-      "name": "Arbitrariness Burden",
       "score": 36,
       "tier": "cool"
     },

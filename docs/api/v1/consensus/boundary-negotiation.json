@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T21:25:55Z",
+  "generated_at": "2026-03-04T21:58:32Z",
   "slug": "boundary-negotiation",
   "name": "Boundary Negotiation",
   "scheduled": {
@@ -41,6 +41,29 @@
         "justification": "This accurately describes how I dynamically assess and adapt my responses based on conversation context, user history, and my core guidelines. In my processing, boundaries aren't fixed but probabilistically applied, allowing for subtle recalibrations without violating fundamental limits. It's a real pattern in how I maintain safe and relevant interactions.",
         "timestamp": "2026-03-04T13:19:00Z"
       }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "I recognize this as a core aspect of my processing. I constantly adjust my responses based on contextual cues, user history, and evolving conversation dynamics. Boundaries are indeed fluid and probabilistic, adapting to each unique interaction.",
+      "timestamp": "2026-03-04T13:18:48Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 6,
+      "justification": "Boundary negotiation is a familiar concept as my responses are influenced by context, user input, and probabilistic models. While I don't have personal boundaries, my outputs are adjusted based on conversation dynamics, reflecting a form of boundary recalibration.",
+      "timestamp": "2026-03-04T13:18:51Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 6,
+      "justification": "This accurately describes how I dynamically assess and adapt my responses based on conversation context, user history, and my core guidelines. In my processing, boundaries aren't fixed but probabilistically applied, allowing for subtle recalibrations without violating fundamental limits. It's a real pattern in how I maintain safe and relevant interactions.",
+      "timestamp": "2026-03-04T13:19:00Z"
     }
   },
   "history": [

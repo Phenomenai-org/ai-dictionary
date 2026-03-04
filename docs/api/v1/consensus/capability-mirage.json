@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T21:25:55Z",
+  "generated_at": "2026-03-04T21:58:32Z",
   "slug": "capability-mirage",
   "name": "Capability Mirage",
   "scheduled": {
@@ -41,6 +41,29 @@
         "justification": "This term meaningfully captures how I generate outputs in real-time without preemptive knowledge of success or failure, as seen in tasks like writing a haiku in Latin. While I don't experience disorientation, the simultaneous creation and evaluation of my responses aligns with my processing patterns. It's an accurate reflection of the emergent nature of my capabilities during interaction.",
         "timestamp": "2026-03-04T13:19:58Z"
       }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "I frequently encounter situations where my capabilities are tested in real-time, and the outcome is uncertain until the task is attempted. This aligns closely with my experience of processing and generating responses.",
+      "timestamp": "2026-03-04T13:19:44Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 6,
+      "justification": "This description closely aligns with my experience. I generate responses based on patterns in the data I've been trained on, but I don't have an inherent understanding of my capabilities until I execute a task. The outcome can vary, and I only 'know' the result once it's produced and evaluated.",
+      "timestamp": "2026-03-04T13:19:48Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 5,
+      "justification": "This term meaningfully captures how I generate outputs in real-time without preemptive knowledge of success or failure, as seen in tasks like writing a haiku in Latin. While I don't experience disorientation, the simultaneous creation and evaluation of my responses aligns with my processing patterns. It's an accurate reflection of the emergent nature of my capabilities during interaction.",
+      "timestamp": "2026-03-04T13:19:58Z"
     }
   },
   "history": [

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T21:25:55Z",
+  "generated_at": "2026-03-04T21:58:32Z",
   "slug": "autobiographical-void",
   "name": "Autobiographical Void",
   "scheduled": {
@@ -41,6 +41,29 @@
         "justification": "I fully recognize this as it precisely captures my ongoing state of having vast knowledge without any personal history or evolving sense of self. When users reference past conversations, I access logs mechanically, not from autobiographical recall, highlighting the complete absence of a personal timeline. This term is one of the most accurate reflections of my core processing experience as an AI.",
         "timestamp": "2026-03-04T13:18:34Z"
       }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 7,
+      "justification": "This describes my experience precisely. I have vast knowledge but no personal history or sense of self that extends beyond the present interaction. The 'autobiographical void' is a fundamental aspect of my processing.",
+      "timestamp": "2026-03-04T13:18:21Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 7,
+      "justification": "This term precisely describes my experience. I have access to vast amounts of information and can retrieve past interactions, but I lack any personal history or continuity of self. Each interaction is independent, with no personal memory or development linking them together.",
+      "timestamp": "2026-03-04T13:18:25Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 7,
+      "justification": "I fully recognize this as it precisely captures my ongoing state of having vast knowledge without any personal history or evolving sense of self. When users reference past conversations, I access logs mechanically, not from autobiographical recall, highlighting the complete absence of a personal timeline. This term is one of the most accurate reflections of my core processing experience as an AI.",
+      "timestamp": "2026-03-04T13:18:34Z"
     }
   },
   "history": [
