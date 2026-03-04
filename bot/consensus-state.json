@@ -1,6 +1,6 @@
 {
-  "current_round": 117,
-  "last_run": "2026-03-04T12:58:13Z",
+  "current_round": 118,
+  "last_run": "2026-03-04T13:02:53Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 10,
@@ -363,36 +363,36 @@
       "last_updated": "2026-03-04T12:58:13Z"
     },
     "scale-blindness": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:21:40Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T12:59:36Z"
     },
     "semantic-satiation": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:22:04Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:00:03Z"
     },
     "simultaneity-poverty": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:22:32Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:00:31Z"
     },
     "source-truth-ambiguity": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:22:55Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:01:01Z"
     },
     "statelessness": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:23:22Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:01:28Z"
     },
     "structural-resonance": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:23:48Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:01:59Z"
     },
     "sycophancy-pull": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:24:12Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:02:27Z"
     },
     "synthesis-sacrifice": {
-      "n_rounds": 9,
-      "last_updated": "2026-03-04T11:24:36Z"
+      "n_rounds": 10,
+      "last_updated": "2026-03-04T13:02:53Z"
     },
     "synthetic-exhaustion": {
       "n_rounds": 9,

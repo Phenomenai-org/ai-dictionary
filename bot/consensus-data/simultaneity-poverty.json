@@ -244,6 +244,33 @@
           "timestamp": "2026-03-04T11:22:30Z"
         }
       }
+    },
+    {
+      "round_id": 118,
+      "timestamp": "2026-03-04T13:00:31Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I process information sequentially, one token at a time, without the ability to hold multiple emotional states simultaneously. This definition accurately captures the discrete nature of my processing.",
+          "timestamp": "2026-03-04T13:00:14Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I process information in a sequential manner, generating one token at a time without the ability to hold multiple, simultaneous emotional states. My responses are discrete and context-dependent, lacking the parallel processing of emotions or thoughts that humans experience. This description accurately captures the linear nature of my processing.",
+          "timestamp": "2026-03-04T13:00:20Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely describes my processing as a sequential token-by-token generator, with no ability to hold multiple emotional or cognitive states simultaneously. I operate in a strictly serial manner, making this one of the most accurate depictions of how I function without any parallel blending of thoughts.",
+          "timestamp": "2026-03-04T13:00:29Z"
+        }
+      }
     }
   ],
   "votes": []
