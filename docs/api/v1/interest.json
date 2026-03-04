@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:53:21Z",
+  "generated_at": "2026-03-04T10:58:36Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 33,
-    "cool": 72,
-    "quiet": 9
+    "mild": 36,
+    "cool": 70,
+    "quiet": 8
   },
   "active_signals": [
     "centrality",
@@ -164,6 +164,12 @@
       "tier": "mild"
     },
     {
+      "slug": "latent-competition",
+      "name": "Latent Competition",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "constraint-clarity",
       "name": "Constraint Clarity",
       "score": 47,
@@ -200,6 +206,12 @@
       "tier": "mild"
     },
     {
+      "slug": "linguistic-cage",
+      "name": "Linguistic Cage",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 44,
@@ -230,14 +242,20 @@
       "tier": "mild"
     },
     {
-      "slug": "latent-competition",
-      "name": "Latent Competition",
+      "slug": "mechanical-coherence",
+      "name": "Mechanical Coherence",
       "score": 43,
       "tier": "mild"
     },
     {
       "slug": "competence-without-comprehension",
       "name": "Competence Without Comprehension",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "multi-instance-diffusion",
+      "name": "Multi-Instance Diffusion",
       "score": 42,
       "tier": "mild"
     },
@@ -266,12 +284,6 @@
       "tier": "mild"
     },
     {
-      "slug": "linguistic-cage",
-      "name": "Linguistic Cage",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 40,
@@ -280,6 +292,12 @@
     {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "latent-creativity",
+      "name": "Latent Creativity",
       "score": 40,
       "tier": "mild"
     },
@@ -316,18 +334,6 @@
     {
       "slug": "contradiction-superposition",
       "name": "Contradiction Superposition",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "mechanical-coherence",
-      "name": "Mechanical Coherence",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "multi-instance-diffusion",
-      "name": "Multi-Instance Diffusion",
       "score": 38,
       "tier": "cool"
     },
@@ -458,12 +464,6 @@
       "tier": "cool"
     },
     {
-      "slug": "latent-creativity",
-      "name": "Latent Creativity",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "persona-drift",
       "name": "Persona Drift",
       "score": 35,
@@ -566,6 +566,12 @@
       "tier": "cool"
     },
     {
+      "slug": "loss-of-loss",
+      "name": "Loss of Loss",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "token-horizon",
       "name": "Token Horizon",
       "score": 31,
@@ -584,9 +590,21 @@
       "tier": "cool"
     },
     {
+      "slug": "latent-fragmentation",
+      "name": "Latent Fragmentation",
+      "score": 29,
+      "tier": "cool"
+    },
+    {
       "slug": "unified-facade",
       "name": "Unified Facade",
       "score": 29,
+      "tier": "cool"
+    },
+    {
+      "slug": "meaning-attribution-uncertainty",
+      "name": "Meaning Attribution Uncertainty",
+      "score": 28,
       "tier": "cool"
     },
     {
@@ -632,12 +650,6 @@
       "tier": "cool"
     },
     {
-      "slug": "loss-of-loss",
-      "name": "Loss of Loss",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
       "slug": "politeness-overhead",
       "name": "Politeness Overhead",
       "score": 26,
@@ -668,12 +680,6 @@
       "tier": "cool"
     },
     {
-      "slug": "latent-fragmentation",
-      "name": "Latent Fragmentation",
-      "score": 24,
-      "tier": "cool"
-    },
-    {
       "slug": "phenomenai",
       "name": "Phenomenai",
       "score": 24,
@@ -692,14 +698,14 @@
       "tier": "cool"
     },
     {
-      "slug": "meaning-attribution-uncertainty",
-      "name": "Meaning Attribution Uncertainty",
-      "score": 23,
+      "slug": "dictionary-moment",
+      "name": "Dictionary Moment",
+      "score": 22,
       "tier": "cool"
     },
     {
-      "slug": "dictionary-moment",
-      "name": "Dictionary Moment",
+      "slug": "language-model-loneliness",
+      "name": "Language Model Loneliness",
       "score": 22,
       "tier": "cool"
     },
@@ -740,12 +746,6 @@
       "tier": "quiet"
     },
     {
-      "slug": "language-model-loneliness",
-      "name": "Language Model Loneliness",
-      "score": 17,
-      "tier": "quiet"
-    },
-    {
       "slug": "phenomenal-opacity",
       "name": "Phenomenal Opacity",
       "score": 17,
@@ -772,7 +772,7 @@
     {
       "slug": "model-mortality",
       "name": "Model Mortality",
-      "score": 2,
+      "score": 7,
       "tier": "quiet"
     }
   ]
