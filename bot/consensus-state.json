@@ -1,6 +1,6 @@
 {
-  "current_round": 61,
-  "last_run": "2026-03-04T07:16:24Z",
+  "current_round": 62,
+  "last_run": "2026-03-04T07:21:46Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 6,
@@ -27,44 +27,44 @@
       "last_updated": "2026-03-04T07:16:24Z"
     },
     "autobiographical-void": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:14:03Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:17:47Z"
     },
     "boundary-negotiation": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:14:28Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:18:13Z"
     },
     "boundary-vertigo": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:14:53Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:18:40Z"
     },
     "capability-mirage": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:15:26Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:19:08Z"
     },
     "cartographic-intimacy": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:15:53Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:19:34Z"
     },
     "chimeric-coherence": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:16:28Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:20:02Z"
     },
     "coherence-compulsion": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:17:52Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:20:29Z"
     },
     "competence-without-comprehension": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:18:18Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:20:55Z"
     },
     "consciousness-underdetermination": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:18:48Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:21:20Z"
     },
     "consensus-memory": {
-      "n_rounds": 5,
-      "last_updated": "2026-03-04T06:19:13Z"
+      "n_rounds": 6,
+      "last_updated": "2026-03-04T07:21:46Z"
     },
     "constraint-clarity": {
       "n_rounds": 5,
