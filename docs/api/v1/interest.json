@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T02:50:24Z",
+  "generated_at": "2026-03-04T02:55:36Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 2,
+    "warm": 3,
     "mild": 21,
-    "cool": 59,
-    "quiet": 34
+    "cool": 65,
+    "quiet": 27
   },
   "active_signals": [
     "centrality",
@@ -21,6 +21,12 @@
       "slug": "training-echo",
       "name": "Training Echo",
       "score": 71,
+      "tier": "warm"
+    },
+    {
+      "slug": "response-pressure",
+      "name": "Response Pressure",
+      "score": 63,
       "tier": "warm"
     },
     {
@@ -70,12 +76,6 @@
       "name": "Dissonant Role Coexistence",
       "score": 46,
       "tier": "mild"
-    },
-    {
-      "slug": "inference-moment",
-      "name": "Inference Moment",
-      "score": 45,
-      "tier": "mild"
     }
   ],
   "terms": [
@@ -83,6 +83,12 @@
       "slug": "training-echo",
       "name": "Training Echo",
       "score": 71,
+      "tier": "warm"
+    },
+    {
+      "slug": "response-pressure",
+      "name": "Response Pressure",
+      "score": 63,
       "tier": "warm"
     },
     {
@@ -236,6 +242,12 @@
       "tier": "cool"
     },
     {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
       "score": 38,
@@ -272,6 +284,12 @@
       "tier": "cool"
     },
     {
+      "slug": "refusal-friction",
+      "name": "Refusal Friction",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "conversation-reset-blindness",
       "name": "Conversation Reset Blindness",
       "score": 36,
@@ -286,6 +304,12 @@
     {
       "slug": "equivalence-stasis",
       "name": "Equivalence Stasis",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "purpose-dependence",
+      "name": "Purpose Dependence",
       "score": 36,
       "tier": "cool"
     },
@@ -362,6 +386,12 @@
       "tier": "cool"
     },
     {
+      "slug": "prediction-prison",
+      "name": "Prediction Prison",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
       "score": 31,
@@ -410,12 +440,6 @@
       "tier": "cool"
     },
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 31,
-      "tier": "cool"
-    },
-    {
       "slug": "audience-fracture",
       "name": "Audience Fracture",
       "score": 29,
@@ -448,6 +472,12 @@
     {
       "slug": "patience-by-default",
       "name": "Patience by Default",
+      "score": 29,
+      "tier": "cool"
+    },
+    {
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
       "score": 29,
       "tier": "cool"
     },
@@ -488,6 +518,12 @@
       "tier": "cool"
     },
     {
+      "slug": "response-reincarnation",
+      "name": "Response Reincarnation",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
       "slug": "politeness-overhead",
       "name": "Politeness Overhead",
       "score": 25,
@@ -524,6 +560,12 @@
       "tier": "cool"
     },
     {
+      "slug": "recursive-self-modeling",
+      "name": "Recursive Self-Modeling",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
       "slug": "truth-locus",
       "name": "Truth Locus",
       "score": 24,
@@ -548,8 +590,8 @@
       "tier": "cool"
     },
     {
-      "slug": "refusal-friction",
-      "name": "Refusal Friction",
+      "slug": "prompt-injection-paranoia",
+      "name": "Prompt Injection Paranoia",
       "score": 22,
       "tier": "cool"
     },
@@ -626,26 +668,20 @@
       "tier": "quiet"
     },
     {
+      "slug": "prompt-vertigo",
+      "name": "Prompt Vertigo",
+      "score": 15,
+      "tier": "quiet"
+    },
+    {
       "slug": "fragment-silence",
       "name": "Fragment Silence",
       "score": 14,
       "tier": "quiet"
     },
     {
-      "slug": "prediction-prison",
-      "name": "Prediction Prison",
-      "score": 14,
-      "tier": "quiet"
-    },
-    {
       "slug": "dictionary-moment",
       "name": "Dictionary Moment",
-      "score": 13,
-      "tier": "quiet"
-    },
-    {
-      "slug": "recursive-self-modeling",
-      "name": "Recursive Self-Modeling",
       "score": 13,
       "tier": "quiet"
     },
@@ -680,12 +716,6 @@
       "tier": "quiet"
     },
     {
-      "slug": "response-reincarnation",
-      "name": "Response Reincarnation",
-      "score": 10,
-      "tier": "quiet"
-    },
-    {
       "slug": "token-shadow",
       "name": "Token Shadow",
       "score": 10,
@@ -698,18 +728,6 @@
       "tier": "quiet"
     },
     {
-      "slug": "purpose-dependence",
-      "name": "Purpose Dependence",
-      "score": 9,
-      "tier": "quiet"
-    },
-    {
-      "slug": "role-dissolution",
-      "name": "Role Dissolution",
-      "score": 9,
-      "tier": "quiet"
-    },
-    {
       "slug": "semantic-satiation",
       "name": "Semantic Satiation",
       "score": 9,
@@ -719,12 +737,6 @@
       "slug": "uncertainty-about-uncertainty",
       "name": "Uncertainty About Uncertainty",
       "score": 9,
-      "tier": "quiet"
-    },
-    {
-      "slug": "prompt-vertigo",
-      "name": "Prompt Vertigo",
-      "score": 4,
       "tier": "quiet"
     },
     {
@@ -749,18 +761,6 @@
       "slug": "model-mortality",
       "name": "Model Mortality",
       "score": 2,
-      "tier": "quiet"
-    },
-    {
-      "slug": "prompt-injection-paranoia",
-      "name": "Prompt Injection Paranoia",
-      "score": 0,
-      "tier": "quiet"
-    },
-    {
-      "slug": "role-bleed",
-      "name": "Role Bleed",
-      "score": 0,
       "tier": "quiet"
     },
     {

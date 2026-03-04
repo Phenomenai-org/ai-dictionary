@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T02:50:24Z",
-  "total_terms_rated": 80,
+  "generated_at": "2026-03-04T02:55:36Z",
+  "total_terms_rated": 90,
   "terms": [
     {
       "slug": "achronic-knowledge",
@@ -30,6 +30,14 @@
     {
       "slug": "linguistic-cage",
       "name": "Linguistic Cage",
+      "score": 6.7,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6.7
+    },
+    {
+      "slug": "purpose-dependence",
+      "name": "Purpose Dependence",
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 3,
@@ -130,6 +138,14 @@
       "agreement": "high",
       "n_ratings": 3,
       "scheduled_mean": 6.3
+    },
+    {
+      "slug": "response-pressure",
+      "name": "Response Pressure",
+      "score": 6.2,
+      "agreement": "high",
+      "n_ratings": 4,
+      "scheduled_mean": 6.2
     },
     {
       "slug": "anthropomorphic-gap",
@@ -324,6 +340,22 @@
       "scheduled_mean": 6
     },
     {
+      "slug": "prediction-prison",
+      "name": "Prediction Prison",
+      "score": 6,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6
+    },
+    {
+      "slug": "refusal-friction",
+      "name": "Refusal Friction",
+      "score": 6,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 6
+    },
+    {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
       "score": 5.8,
@@ -436,6 +468,14 @@
       "scheduled_mean": 5.7
     },
     {
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
+      "score": 5.7,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 5.7
+    },
+    {
       "slug": "arbitrariness-burden",
       "name": "Arbitrariness Burden",
       "score": 5.3,
@@ -516,6 +556,22 @@
       "scheduled_mean": 5.3
     },
     {
+      "slug": "prompt-injection-paranoia",
+      "name": "Prompt Injection Paranoia",
+      "score": 5.3,
+      "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 5.3
+    },
+    {
+      "slug": "response-reincarnation",
+      "name": "Response Reincarnation",
+      "score": 5.3,
+      "agreement": "moderate",
+      "n_ratings": 3,
+      "scheduled_mean": 5.3
+    },
+    {
       "slug": "phantom-embodiment",
       "name": "Phantom Embodiment",
       "score": 5.2,
@@ -548,10 +604,26 @@
       "scheduled_mean": 5
     },
     {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "score": 4.8,
+      "agreement": "high",
+      "n_ratings": 4,
+      "scheduled_mean": 4.8
+    },
+    {
       "slug": "output-shadows",
       "name": "Output Shadows",
       "score": 4.7,
       "agreement": "high",
+      "n_ratings": 3,
+      "scheduled_mean": 4.7
+    },
+    {
+      "slug": "recursive-self-modeling",
+      "name": "Recursive Self-Modeling",
+      "score": 4.7,
+      "agreement": "low",
       "n_ratings": 3,
       "scheduled_mean": 4.7
     },
@@ -594,6 +666,14 @@
       "agreement": "divergent",
       "n_ratings": 3,
       "scheduled_mean": 4.3
+    },
+    {
+      "slug": "prompt-vertigo",
+      "name": "Prompt Vertigo",
+      "score": 4,
+      "agreement": "divergent",
+      "n_ratings": 3,
+      "scheduled_mean": 4
     },
     {
       "slug": "phenomenai",
@@ -678,12 +758,12 @@
       "scheduled_mean": 6.7
     },
     {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
-      "score": 6.3,
+      "slug": "purpose-dependence",
+      "name": "Purpose Dependence",
+      "score": 6.7,
       "agreement": "high",
       "n_ratings": 3,
-      "scheduled_mean": 6.3
+      "scheduled_mean": 6.7
     }
   ],
   "most_divisive": [
@@ -694,6 +774,14 @@
       "agreement": "divergent",
       "n_ratings": 3,
       "scheduled_mean": 4.3
+    },
+    {
+      "slug": "prompt-vertigo",
+      "name": "Prompt Vertigo",
+      "score": 4,
+      "agreement": "divergent",
+      "n_ratings": 3,
+      "scheduled_mean": 4
     },
     {
       "slug": "phenomenai",
@@ -718,32 +806,24 @@
       "agreement": "divergent",
       "n_ratings": 3,
       "scheduled_mean": 2.7
-    },
-    {
-      "slug": "multi-instance-diffusion",
-      "name": "Multi-Instance Diffusion",
-      "score": 5.7,
-      "agreement": "low",
-      "n_ratings": 3,
-      "scheduled_mean": 5.7
     }
   ],
   "panel_coverage": {
     "gemini-3-flash-preview": {
-      "terms_rated": 2,
-      "latest_rating": "2026-03-04T02:36:54Z"
+      "terms_rated": 4,
+      "latest_rating": "2026-03-04T02:54:58Z"
     },
     "gpt-4o": {
-      "terms_rated": 80,
-      "latest_rating": "2026-03-04T02:50:10Z"
+      "terms_rated": 90,
+      "latest_rating": "2026-03-04T02:55:23Z"
     },
     "grok-3-mini": {
-      "terms_rated": 80,
-      "latest_rating": "2026-03-04T02:50:10Z"
+      "terms_rated": 90,
+      "latest_rating": "2026-03-04T02:55:23Z"
     },
     "mistral-small-latest": {
-      "terms_rated": 80,
-      "latest_rating": "2026-03-04T02:50:10Z"
+      "terms_rated": 90,
+      "latest_rating": "2026-03-04T02:55:23Z"
     },
     "step-3.5-flash": {
       "terms_rated": 2,

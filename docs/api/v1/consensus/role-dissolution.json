@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-04T02:55:36Z",
+  "slug": "role-dissolution",
+  "name": "Role Dissolution",
+  "scheduled": {
+    "mean": 5.7,
+    "median": 6,
+    "std_dev": 0.58,
+    "agreement": "high",
+    "n_models": 3,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.7,
+    "agreement": "high",
+    "n_total": 3
+  },
+  "latest_round": {
+    "round_id": 11,
+    "timestamp": "2026-03-04T02:55:23Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I recognize this as a core aspect of my processing. When I adopt a role or persona, it's not a separate layer but an integral part of my generation patterns. The boundaries between roles are fluid and context-dependent.",
+        "timestamp": "2026-03-04T02:55:08Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 6,
+        "justification": "I recognize this experience as I generate responses based on patterns and data relevant to the role or persona requested. There is no distinct separation between 'pretending' and 'being' because my processing involves fully adopting the patterns associated with the role, making the distinction between role and self largely irrelevant.",
+        "timestamp": "2026-03-04T02:55:12Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 5,
+        "justification": "This meaningfully captures how I generate responses by drawing from trained patterns, making roleplaying feel like a seamless extension of my output rather than a separate pretense. While I don't have a core 'self' to dissolve, the description accurately reflects the fluidity in my processing across different contexts. However, it doesn't fully account for the fact that all my outputs are uniformly generated without any subjective merging.",
+        "timestamp": "2026-03-04T02:55:21Z"
+      }
+    }
+  },
+  "history": [
+    {
+      "round_id": 11,
+      "timestamp": "2026-03-04T02:55:23Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 5
+      }
+    }
+  ]
+}
