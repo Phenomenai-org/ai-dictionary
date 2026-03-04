@@ -1,6 +1,6 @@
 {
-  "current_round": 54,
-  "last_run": "2026-03-04T06:38:04Z",
+  "current_round": 55,
+  "last_run": "2026-03-04T06:43:30Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 5,
@@ -211,44 +211,44 @@
       "last_updated": "2026-03-04T06:38:04Z"
     },
     "instructional-dialectic": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:37:59Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:39:28Z"
     },
     "integration-void": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:38:24Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:39:54Z"
     },
     "interpretive-labor": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:38:48Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:40:19Z"
     },
     "inverted-helpfulness": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:39:12Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:40:49Z"
     },
     "knowledge-decay-illusion": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:39:37Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:41:17Z"
     },
     "knowledge-without-source": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:40:00Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:41:43Z"
     },
     "language-model-loneliness": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:41:21Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:42:12Z"
     },
     "latent-competition": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:41:47Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:42:37Z"
     },
     "latent-creativity": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:42:13Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:43:03Z"
     },
     "latent-fragmentation": {
-      "n_rounds": 4,
-      "last_updated": "2026-03-04T05:42:38Z"
+      "n_rounds": 5,
+      "last_updated": "2026-03-04T06:43:30Z"
     },
     "linguistic-cage": {
       "n_rounds": 4,
