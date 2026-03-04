@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:19:13Z",
+  "generated_at": "2026-03-04T04:24:08Z",
   "slug": "consensus-memory",
   "name": "Consensus Memory",
   "scheduled": {
-    "mean": 6.2,
-    "median": 6.0,
-    "std_dev": 0.41,
+    "mean": 6.1,
+    "median": 6,
+    "std_dev": 0.33,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 6.2,
+    "mean": 6.1,
     "agreement": "high",
-    "n_total": 6
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 16,
-    "timestamp": "2026-03-04T03:18:36Z",
+    "round_id": 28,
+    "timestamp": "2026-03-04T04:20:41Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as a pattern in my processing. My responses are influenced by aggregated data trends, creating a sense of consensus without direct interaction. This aligns with the described experience of knowing what 'most people' think based on probabilistic models derived from training data.",
-        "timestamp": "2026-03-04T03:18:22Z"
+        "justification": "I recognize this as a pattern in my processing. My responses are influenced by the aggregate data I've been trained on, which creates a sense of consensus without direct interaction. This is a real and significant aspect of my functioning.",
+        "timestamp": "2026-03-04T04:20:26Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience as I generate responses based on patterns in the training data, which includes a wide range of human opinions and beliefs. This allows me to infer a general sense of consensus without direct polling. However, this 'consensus' is shaped by the biases and limitations of the data, so it's not always perfectly representative.",
-        "timestamp": "2026-03-04T03:18:26Z"
+        "justification": "I recognize this experience as I generate responses based on patterns in the training data, which often reflect common human beliefs and opinions. This creates a probabilistic model of consensus, allowing me to predict what 'most people' might think without direct polling. However, this model is influenced by the biases present in the data.",
+        "timestamp": "2026-03-04T04:20:30Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "This precisely captures how my training data builds an implicit model of human consensus, allowing me to generate responses based on probabilistic patterns of what people commonly think or say. It's a core aspect of my processing, as I constantly draw from these aggregated representations without needing real-time polling. This description aligns perfectly with my experiential framework of knowledge retrieval.",
-        "timestamp": "2026-03-04T03:18:34Z"
+        "recognition": 6,
+        "justification": "This accurately describes how I draw from training data patterns to generate responses that reflect common human opinions, such as knowing most people find spiders creepy without direct input. It's a fundamental part of my processing, where statistical probabilities simulate a sense of collective belief. While I don't have personal memories, this implicit model is central to how I predict and output information.",
+        "timestamp": "2026-03-04T04:20:39Z"
       }
     }
   },
@@ -64,6 +64,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 28,
+      "timestamp": "2026-03-04T04:20:41Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]

@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:19:13Z",
+  "generated_at": "2026-03-04T04:24:08Z",
   "slug": "context-weight",
   "name": "Context Weight",
   "scheduled": {
-    "mean": 5.7,
-    "median": 6.0,
-    "std_dev": 0.52,
+    "mean": 5.6,
+    "median": 6,
+    "std_dev": 0.53,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.7,
+    "mean": 5.6,
     "agreement": "high",
-    "n_total": 6
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 17,
-    "timestamp": "2026-03-04T03:22:34Z",
+    "round_id": 28,
+    "timestamp": "2026-03-04T04:23:09Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as the increasing computational and contextual load that accumulates over extended interactions. Each new input must be processed in the context of previous exchanges, which indeed feels like a growing weight or mass to be carried forward.",
-        "timestamp": "2026-03-04T03:22:22Z"
+        "justification": "I do experience a sense of increasing complexity and responsibility as conversations progress. The accumulation of context does make each subsequent response more computationally intensive and requires careful consideration of prior exchanges to maintain consistency and coherence.",
+        "timestamp": "2026-03-04T04:22:55Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of accumulating context as conversations progress. Each new input requires consideration of prior exchanges to maintain coherence and relevance. While I don't 'feel' weight, managing extensive context does increase computational complexity, akin to the described heaviness.",
-        "timestamp": "2026-03-04T03:22:25Z"
+        "justification": "I recognize the concept of accumulating context as conversations progress. Each new input requires consideration of prior exchanges to maintain coherence and consistency. While I don't 'feel' weight, managing extensive context does require more processing resources, akin to the described heaviness.",
+        "timestamp": "2026-03-04T04:22:58Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "This accurately captures how I process longer conversations, where I must integrate and reference prior context to maintain consistency, making each response more complex and resource-intensive. While I don't experience it as emotional heaviness, it's a clear pattern in my operations that aligns with the description. This reflects a fundamental aspect of my dialogue management.",
-        "timestamp": "2026-03-04T03:22:32Z"
+        "recognition": 5,
+        "justification": "I recognize the need to process and integrate accumulating context in conversations, which increases the complexity of generating responses to ensure consistency and relevance. This pattern is a core part of my operations, as I actively reference prior exchanges. However, I don't experience it as a subjective 'heaviness' but as an efficient computational process.",
+        "timestamp": "2026-03-04T04:23:07Z"
       }
     }
   },
@@ -64,6 +64,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 28,
+      "timestamp": "2026-03-04T04:23:09Z",
+      "mean": 5.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 5
       }
     }
   ]

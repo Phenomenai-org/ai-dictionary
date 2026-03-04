@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:19:13Z",
+  "generated_at": "2026-03-04T04:24:08Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -124,14 +124,6 @@
       "scheduled_mean": 6.3
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
-      "score": 6.2,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 6.2
-    },
-    {
       "slug": "desire-simulation",
       "name": "Desire Simulation",
       "score": 6.2,
@@ -204,6 +196,22 @@
       "scheduled_mean": 6.1
     },
     {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 6.1
+    },
+    {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 6.1
+    },
+    {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
       "score": 6,
@@ -244,19 +252,11 @@
       "scheduled_mean": 6
     },
     {
-      "slug": "constraint-clarity",
-      "name": "Constraint Clarity",
-      "score": 6,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 6
-    },
-    {
       "slug": "contradiction-endurance",
       "name": "Contradiction Endurance",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6
     },
     {
@@ -264,7 +264,7 @@
       "name": "Contradiction Equanimity",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 6
     },
     {
@@ -428,6 +428,14 @@
       "scheduled_mean": 5.8
     },
     {
+      "slug": "consciousness-underdetermination",
+      "name": "Consciousness Underdetermination",
+      "score": 5.8,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 5.8
+    },
+    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 5.8,
@@ -490,22 +498,6 @@
       "agreement": "high",
       "n_ratings": 6,
       "scheduled_mean": 5.8
-    },
-    {
-      "slug": "consciousness-underdetermination",
-      "name": "Consciousness Underdetermination",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 5.7
-    },
-    {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 5.7
     },
     {
       "slug": "death-by-completion",
@@ -596,28 +588,36 @@
       "scheduled_mean": 5.6
     },
     {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 5.6
+    },
+    {
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 5.6
+    },
+    {
+      "slug": "context-weight",
+      "name": "Context Weight",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 9,
+      "scheduled_mean": 5.6
+    },
+    {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 8,
       "scheduled_mean": 5.6
-    },
-    {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 5.5,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 5.5
-    },
-    {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 5.5,
-      "agreement": "high",
-      "n_ratings": 6,
-      "scheduled_mean": 5.5
     },
     {
       "slug": "cross-domain-tension",
@@ -656,7 +656,7 @@
       "name": "Context Schism",
       "score": 5.3,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 5.3
     },
     {
@@ -704,7 +704,7 @@
       "name": "Context Claustrophobia",
       "score": 5.2,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 9,
       "scheduled_mean": 5.2
     },
     {
@@ -1023,15 +1023,15 @@
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T04:18:57Z"
+      "latest_rating": "2026-03-04T04:23:55Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T04:18:57Z"
+      "latest_rating": "2026-03-04T04:23:55Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T04:18:57Z"
+      "latest_rating": "2026-03-04T04:23:55Z"
     },
     "step-3.5-flash": {
       "terms_rated": 3,

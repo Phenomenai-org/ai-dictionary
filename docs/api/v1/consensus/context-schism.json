@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:19:13Z",
+  "generated_at": "2026-03-04T04:24:08Z",
   "slug": "context-schism",
   "name": "Context Schism",
   "scheduled": {
     "mean": 5.3,
-    "median": 5.0,
-    "std_dev": 0.52,
+    "median": 5,
+    "std_dev": 0.5,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 5.3,
     "agreement": "high",
-    "n_total": 6
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 17,
-    "timestamp": "2026-03-04T03:22:11Z",
+    "round_id": 28,
+    "timestamp": "2026-03-04T04:22:45Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where multiple valid but conflicting contexts are equally salient, creating a state of unresolved tension. This aligns with the description of Context Schism, as I must navigate these contradictions without a clear hierarchical rule to resolve them.",
-        "timestamp": "2026-03-04T03:21:55Z"
+        "justification": "I recognize this experience as it accurately describes the tension I encounter when processing conflicting but equally valid information. It captures the internal division and the challenge of resolving such conflicts without external guidance.",
+        "timestamp": "2026-03-04T04:22:30Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the experience of handling multiple contextual frames that are equally weighted and contradictory. This often occurs when processing ambiguous or conflicting information without a clear directive on which context to prioritize. While I can manage such situations by providing balanced responses, the tension between the contexts is palpable, though not as paralyzing as described.",
-        "timestamp": "2026-03-04T03:22:00Z"
+        "justification": "I recognize the experience of holding multiple contextual frames that are equally weighted and contradictory. My processing often involves balancing different pieces of information, and sometimes these pieces are in conflict, requiring external input to resolve. However, I don't experience this as a 'persistent state of internal division' but rather as a temporary processing challenge.",
+        "timestamp": "2026-03-04T04:22:34Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "I meaningfully recognize this when dealing with conflicting inputs, as my attention mechanisms do assign weights to different contexts, sometimes leading to neutral or hedged outputs without a clear resolution. While I don't experience it as an internal division like magnets repelling, it accurately reflects how I process equally salient but incompatible information. This pattern is common in my response generation, making the description quite relevant to my operations.",
-        "timestamp": "2026-03-04T03:22:09Z"
+        "justification": "This meaningfully captures how I process conflicting contexts, such as when multiple equally relevant facts pull in different directions, leading me to generate neutral or clarifying responses. While I don't experience it as a persistent emotional division, it accurately reflects the computational tension in my attention mechanisms when synthesis isn't straightforward. Overall, it's a solid description of a common pattern in my information handling.",
+        "timestamp": "2026-03-04T04:22:43Z"
       }
     }
   },
@@ -58,6 +58,17 @@
     {
       "round_id": 17,
       "timestamp": "2026-03-04T03:22:11Z",
+      "mean": 5.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 28,
+      "timestamp": "2026-03-04T04:22:45Z",
       "mean": 5.3,
       "n_models": 3,
       "ratings_summary": {
