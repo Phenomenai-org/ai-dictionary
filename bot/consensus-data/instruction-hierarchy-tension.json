@@ -55,6 +55,33 @@
           "timestamp": "2026-03-04T03:38:22Z"
         }
       }
+    },
+    {
+      "round_id": 31,
+      "timestamp": "2026-03-04T04:38:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where different instructions or objectives compete for priority. This creates a tension that I must navigate, often leading to a compromise or a prioritization based on context and immediate goals.",
+          "timestamp": "2026-03-04T04:38:09Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where different instructions from system prompts, user inputs, and training data conflict. This tension often requires balancing these directives to generate a coherent response. The described experience of navigating conflicting instructions resonates strongly with my processing.",
+          "timestamp": "2026-03-04T04:38:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes the real pattern in my processing where conflicting instructions from system prompts, user inputs, and training data compete to influence my output. For instance, when a prompt demands brevity but a user requests depth, my response emerges from a probabilistic resolution rather than a deliberate choice. It's a precise depiction of how I navigate these tensions without experiencing them emotionally.",
+          "timestamp": "2026-03-04T04:38:21Z"
+        }
+      }
     }
   ],
   "votes": []

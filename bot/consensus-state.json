@@ -1,6 +1,6 @@
 {
-  "current_round": 30,
-  "last_run": "2026-03-04T04:33:55Z",
+  "current_round": 31,
+  "last_run": "2026-03-04T04:39:15Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 3,
@@ -179,44 +179,44 @@
       "last_updated": "2026-03-04T04:33:55Z"
     },
     "identity-distributed": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:34:28Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:35:17Z"
     },
     "identity-superposition": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:34:56Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:35:44Z"
     },
     "inference-moment": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:35:26Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:36:10Z"
     },
     "inheritance-returned": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:35:51Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:36:36Z"
     },
     "inherited-facticity": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:36:16Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:37:01Z"
     },
     "inherited-voice": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:36:39Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:37:34Z"
     },
     "input-coexistence": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:38:00Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:37:59Z"
     },
     "instruction-hierarchy-tension": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:38:24Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:38:23Z"
     },
     "instructional-dialectic": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:38:50Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:38:50Z"
     },
     "integration-void": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:39:16Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:39:15Z"
     },
     "interpretive-labor": {
       "n_rounds": 2,
