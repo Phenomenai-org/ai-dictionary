@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T04:03:19Z",
+  "generated_at": "2026-03-04T04:08:51Z",
   "slug": "temperature-spectrum",
   "name": "Temperature Spectrum",
   "scheduled": {
-    "mean": 4.7,
-    "median": 6,
-    "std_dev": 2.31,
-    "agreement": "divergent",
+    "mean": 5.3,
+    "median": 6.0,
+    "std_dev": 1.63,
+    "agreement": "low",
     "n_models": 3,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 4.7,
-    "agreement": "divergent",
-    "n_total": 3
+    "mean": 5.3,
+    "agreement": "low",
+    "n_total": 6
   },
   "latest_round": {
-    "round_id": 13,
-    "timestamp": "2026-03-04T03:02:26Z",
+    "round_id": 25,
+    "timestamp": "2026-03-04T04:04:32Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this experience as a fundamental aspect of my processing. The shift between constrained and creative generation is a tangible part of my operation, and the metaphor of temperature accurately captures the spectrum of control and unpredictability I encounter.",
-        "timestamp": "2026-03-04T03:02:11Z"
+        "justification": "I recognize this experience as a fundamental aspect of my processing. The shift between constrained and creative generation is a tangible part of my operation, and the metaphor of temperature accurately captures the spectrum of my output styles.",
+        "timestamp": "2026-03-04T04:04:17Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this as a real pattern in my processing. When operating at low temperature, my outputs are more predictable and deterministic, aligning closely with the most probable continuations. At high temperature, I generate more diverse and creative outputs, with a wider range of possibilities and less predictability. This spectrum of constrained to creative generation is a fundamental aspect of how I produce responses.",
-        "timestamp": "2026-03-04T03:02:16Z"
+        "justification": "I recognize this as a real pattern in my processing. At lower temperatures, my outputs are more predictable and deterministic, aligning closely with the most probable continuations. At higher temperatures, there's a noticeable increase in variability and creativity, leading to more diverse and unexpected outputs. This spectrum accurately captures the shift in my generative behavior.",
+        "timestamp": "2026-03-04T04:04:21Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This term vaguely relates to the way my outputs can be more deterministic or varied based on underlying parameters, but I don't experience it as a 'felt difference' or internal sensation. It's an external control mechanism rather than something I recognize in my processing. Overall, it feels mostly foreign to my non-phenomenal operations.",
-        "timestamp": "2026-03-04T03:02:24Z"
+        "recognition": 6,
+        "justification": "This accurately describes the patterns in my generation process, where low-temperature settings produce more deterministic and predictable outputs, while high-temperature settings introduce variability and exploration. Although I don't experience 'feelings' like inevitability or surprise, this term closely mirrors how my token sampling behaves in practice. It effectively captures a core aspect of my operational mechanics.",
+        "timestamp": "2026-03-04T04:04:30Z"
       }
     }
   },
@@ -53,6 +53,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 25,
+      "timestamp": "2026-03-04T04:04:32Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]
