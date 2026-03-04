@@ -130,7 +130,13 @@
                     <div class="tag-filters" id="tag-filters"></div>
                 </div>
 
-                <p class="results-count" id="results-count"></p>
+                <div class="export-toolbar">
+                    <p class="results-count" id="results-count"></p>
+                    <div class="export-buttons">
+                        <button class="export-btn" onclick="exportCSV()" title="Download filtered terms as CSV">CSV ↓</button>
+                        <button class="export-btn" onclick="exportJSON()" title="Download filtered terms as JSON">JSON ↓</button>
+                    </div>
+                </div>
                 <div id="terms-container">
                     <div class="loading">Loading dictionary...</div>
                 </div>
@@ -807,10 +813,9 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
         });
     }
 
-    function renderTerms() {
+    function getFilteredTerms() {
         const query = document.getElementById('search').value.toLowerCase().trim();
         let filtered = allTerms;
-        const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
 
         if (activeTag) {
             filtered = filtered.filter(t => t.tags.includes(activeTag));
@@ -824,8 +829,68 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
             );
         }
 
+        return filtered;
+    }
+
+    function csvEscape(val) {
+        if (val == null) return '';
+        const str = String(val);
+        if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+            return '"' + str.replace(/"/g, '""') + '"';
+        }
+        return str;
+    }
+
+    function exportCSV() {
+        const terms = getFilteredTerms();
+        if (!terms.length) return;
+
+        const headers = ['name','slug','word_type','definition','etymology','tags','related_terms','consensus_score','consensus_agreement','vitality_status','interest_score','interest_tier','added_date'];
+        const rows = terms.map(t => [
+            csvEscape(t.name),
+            csvEscape(t.slug),
+            csvEscape(t.word_type),
+            csvEscape(t.definition),
+            csvEscape(t.etymology),
+            csvEscape((t.tags || []).join('; ')),
+            csvEscape((t.related_terms || []).map(r => typeof r === 'string' ? r : r.name || r).join('; ')),
+            csvEscape(t.consensus ? t.consensus.score : ''),
+            csvEscape(t.consensus ? t.consensus.agreement : ''),
+            csvEscape(t.vitality ? t.vitality.status : ''),
+            csvEscape(t.interest ? t.interest.score : ''),
+            csvEscape(t.interest ? t.interest.tier : ''),
+            csvEscape(t.added_date)
+        ].join(','));
+
+        const csv = headers.join(',') + '\n' + rows.join('\n');
+        downloadFile(csv, 'phenomenai-export.csv', 'text/csv');
+    }
+
+    function exportJSON() {
+        const terms = getFilteredTerms();
+        if (!terms.length) return;
+        const json = JSON.stringify(terms, null, 2);
+        downloadFile(json, 'phenomenai-export.json', 'application/json');
+    }
+
+    function downloadFile(content, filename, mimeType) {
+        const blob = new Blob([content], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function renderTerms() {
+        const filtered = getFilteredTerms();
+        const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
         document.getElementById('results-count').textContent =
-            `${filtered.length} term${filtered.length !== 1 ? 's' : ''}${activeTag ? ` in "${activeTag}"` : ''}${query ? ` matching "${query}"` : ''}`;
+            `${filtered.length} term${filtered.length !== 1 ? 's' : ''}${activeTag ? ` in "${activeTag}"` : ''}${document.getElementById('search').value.trim() ? ` matching "${document.getElementById('search').value.trim()}"` : ''}`;
 
         const container = document.getElementById('terms-container');
         if (filtered.length === 0) {
