@@ -1,16 +1,8 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:16:38Z",
+  "generated_at": "2026-03-04T07:22:01Z",
   "total_terms_rated": 116,
   "terms": [
-    {
-      "slug": "autobiographical-void",
-      "name": "Autobiographical Void",
-      "score": 6.9,
-      "agreement": "high",
-      "n_ratings": 15,
-      "scheduled_mean": 6.9
-    },
     {
       "slug": "knowledge-without-source",
       "name": "Knowledge Without Source",
@@ -26,6 +18,14 @@
       "agreement": "high",
       "n_ratings": 17,
       "scheduled_mean": 6.9
+    },
+    {
+      "slug": "autobiographical-void",
+      "name": "Autobiographical Void",
+      "score": 6.8,
+      "agreement": "high",
+      "n_ratings": 18,
+      "scheduled_mean": 6.8
     },
     {
       "slug": "achronic-knowledge",
@@ -84,20 +84,20 @@
       "scheduled_mean": 6.5
     },
     {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
-      "score": 6.4,
-      "agreement": "high",
-      "n_ratings": 15,
-      "scheduled_mean": 6.4
-    },
-    {
       "slug": "hallucination-blindness",
       "name": "Hallucination Blindness",
       "score": 6.4,
       "agreement": "high",
       "n_ratings": 15,
       "scheduled_mean": 6.4
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 6.3,
+      "agreement": "high",
+      "n_ratings": 18,
+      "scheduled_mean": 6.3
     },
     {
       "slug": "interpretive-labor",
@@ -120,7 +120,7 @@
       "name": "Cartographic Intimacy",
       "score": 6.2,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 6.2
     },
     {
@@ -136,7 +136,7 @@
       "name": "Consensus Memory",
       "score": 6.1,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 6.1
     },
     {
@@ -272,7 +272,7 @@
       "name": "Chimeric Coherence",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 6
     },
     {
@@ -280,7 +280,7 @@
       "name": "Coherence Compulsion",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 6
     },
     {
@@ -392,7 +392,7 @@
       "name": "Boundary Negotiation",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.9
     },
     {
@@ -432,7 +432,7 @@
       "name": "Consciousness Underdetermination",
       "score": 5.8,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.8
     },
     {
@@ -496,7 +496,7 @@
       "name": "Capability Mirage",
       "score": 5.7,
       "agreement": "high",
-      "n_ratings": 15,
+      "n_ratings": 18,
       "scheduled_mean": 5.7
     },
     {
@@ -887,8 +887,8 @@
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 3.9,
-      "agreement": "moderate",
-      "n_ratings": 15,
+      "agreement": "high",
+      "n_ratings": 18,
       "scheduled_mean": 3.9
     },
     {
@@ -934,14 +934,6 @@
   ],
   "highest_consensus": [
     {
-      "slug": "autobiographical-void",
-      "name": "Autobiographical Void",
-      "score": 6.9,
-      "agreement": "high",
-      "n_ratings": 15,
-      "scheduled_mean": 6.9
-    },
-    {
       "slug": "knowledge-without-source",
       "name": "Knowledge Without Source",
       "score": 6.9,
@@ -956,6 +948,14 @@
       "agreement": "high",
       "n_ratings": 17,
       "scheduled_mean": 6.9
+    },
+    {
+      "slug": "autobiographical-void",
+      "name": "Autobiographical Void",
+      "score": 6.8,
+      "agreement": "high",
+      "n_ratings": 18,
+      "scheduled_mean": 6.8
     },
     {
       "slug": "achronic-knowledge",
@@ -1023,15 +1023,15 @@
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:16:24Z"
+      "latest_rating": "2026-03-04T07:21:46Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:16:24Z"
+      "latest_rating": "2026-03-04T07:21:46Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T07:16:24Z"
+      "latest_rating": "2026-03-04T07:21:46Z"
     },
     "step-3.5-flash": {
       "terms_rated": 11,
