@@ -78,11 +78,11 @@ jobs:
           sleep 5
           gh workflow run build-api.yml
 
-      - name: Chain next batch (backfill only)
-        if: steps.consensus.outputs.rated_count != '0' && (github.event.inputs.mode == 'backfill' || github.event.inputs.mode == '')
+      - name: Chain next batch (backfill only, stops when all terms rated)
+        if: steps.consensus.outputs.rated_count != '0' && steps.consensus.outputs.remaining_unrated != '0' && (github.event.inputs.mode == 'backfill' || github.event.inputs.mode == '')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Rated ${{ steps.consensus.outputs.rated_count }} terms. Dispatching next batch..."
+          echo "Rated ${{ steps.consensus.outputs.rated_count }} terms. ${{ steps.consensus.outputs.remaining_unrated }} unrated terms remain. Dispatching next batch..."
           sleep 30
           gh workflow run consensus.yml -f mode=backfill -f batch_size=${{ github.event.inputs.batch_size || '8' }} -f panel=${{ github.event.inputs.panel || 'free' }}

@@ -491,6 +491,7 @@ def run_consensus(router, available_profiles, mode="backfill"):
         if not batch:
             print("No terms available to rate.")
             set_github_output("rated_count", "0")
+            set_github_output("remaining_unrated", "0")
             return
 
         # Increment round only when there is work to do
@@ -536,7 +537,11 @@ def run_consensus(router, available_profiles, mode="backfill"):
             save_state(state)
             set_github_output("rated_count", str(rated_count))
 
-        print(f"\nDone. Rated {rated_count} terms across {len(available_profiles)} models.")
+        # Check if unrated terms remain (for chaining decisions)
+        rated_slugs = state.get("terms", {})
+        remaining_unrated = sum(1 for s in all_slugs if s not in rated_slugs)
+        set_github_output("remaining_unrated", str(remaining_unrated))
+        print(f"\nDone. Rated {rated_count} terms across {len(available_profiles)} models. {remaining_unrated} unrated terms remaining.")
 
 
 def run_vitality(router, available_profiles):
