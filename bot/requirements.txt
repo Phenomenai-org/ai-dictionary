@@ -1,1 +1,1 @@
-llm-router @ git+https://github.com/donjguido/llm-router.git
+llm-router[anthropic] @ git+https://github.com/donjguido/llm-router.git
