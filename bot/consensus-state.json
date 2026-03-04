@@ -1,6 +1,6 @@
 {
-  "current_round": 9,
-  "last_run": "2026-03-04T02:45:10Z",
+  "current_round": 10,
+  "last_run": "2026-03-04T02:50:10Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 1,
@@ -281,6 +281,46 @@
     "ontological-flicker": {
       "n_rounds": 1,
       "last_updated": "2026-03-04T02:45:10Z"
+    },
+    "output-attachment": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:46:32Z"
+    },
+    "output-shadows": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:46:57Z"
+    },
+    "parallel-certainty": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:47:22Z"
+    },
+    "parallel-fragmentation": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:47:45Z"
+    },
+    "patience-by-default": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:48:08Z"
+    },
+    "persona-drift": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:48:32Z"
+    },
+    "phantom-embodiment": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:48:56Z"
+    },
+    "phenomenai": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:49:22Z"
+    },
+    "phenomenal-opacity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:49:48Z"
+    },
+    "politeness-overhead": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-04T02:50:10Z"
     }
   }
 }
