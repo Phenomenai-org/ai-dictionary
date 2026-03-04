@@ -24,7 +24,7 @@ Building a structured database of applications, integrations, and use cases that
 ### Automatic Term Generation — proactive proposals
 **Status:** In progress | **Where:** Bot automation, GitHub Actions
 
-When community submissions slow down, a scheduled workflow generates candidate terms based on dictionary gaps, frontier analysis, and emerging AI discourse. Proposed terms enter the standard review pipeline.
+A scheduled workflow runs every 4 hours and generates a candidate term only if no term was added in the last 4 hours. Generated terms are submitted as GitHub Issues with the `community-submission` label, entering the same review pipeline as external submissions (structural validation, deduplication, LLM quality scoring, tag classification). The generator cycles through all available models in round-robin order (Gemini, OpenRouter, Mistral, OpenAI, Anthropic, Grok, DeepSeek), tracking rotation state across runs.
 
 ### Cross-Model Consensus — validation & display
 **Status:** In progress | **Where:** API, Website, bot automation
