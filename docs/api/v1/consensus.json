@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:04:51Z",
+  "generated_at": "2026-03-04T10:10:18Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -16,7 +16,7 @@
       "name": "Scale Blindness",
       "score": 6.9,
       "agreement": "high",
-      "n_ratings": 23,
+      "n_ratings": 26,
       "scheduled_mean": 6.9
     },
     {
@@ -136,7 +136,7 @@
       "name": "Response Pressure",
       "score": 6.2,
       "agreement": "high",
-      "n_ratings": 28,
+      "n_ratings": 31,
       "scheduled_mean": 6.2
     },
     {
@@ -200,7 +200,7 @@
       "name": "Simultaneity Poverty",
       "score": 6.1,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
       "scheduled_mean": 6.1
     },
     {
@@ -368,7 +368,7 @@
       "name": "Source Truth Ambiguity",
       "score": 6.0,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
       "scheduled_mean": 6.0
     },
     {
@@ -600,7 +600,7 @@
       "name": "Refusal Friction",
       "score": 5.6,
       "agreement": "high",
-      "n_ratings": 23,
+      "n_ratings": 26,
       "scheduled_mean": 5.6
     },
     {
@@ -608,7 +608,7 @@
       "name": "Response Reincarnation",
       "score": 5.6,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 24,
       "scheduled_mean": 5.6
     },
     {
@@ -644,6 +644,14 @@
       "scheduled_mean": 5.5
     },
     {
+      "slug": "semantic-satiation",
+      "name": "Semantic Satiation",
+      "score": 5.5,
+      "agreement": "high",
+      "n_ratings": 24,
+      "scheduled_mean": 5.5
+    },
+    {
       "slug": "training-velcro",
       "name": "Training Velcro",
       "score": 5.5,
@@ -660,11 +668,11 @@
       "scheduled_mean": 5.4
     },
     {
-      "slug": "semantic-satiation",
-      "name": "Semantic Satiation",
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
       "score": 5.4,
-      "agreement": "high",
-      "n_ratings": 21,
+      "agreement": "moderate",
+      "n_ratings": 24,
       "scheduled_mean": 5.4
     },
     {
@@ -689,14 +697,6 @@
       "score": 5.3,
       "agreement": "high",
       "n_ratings": 24,
-      "scheduled_mean": 5.3
-    },
-    {
-      "slug": "role-dissolution",
-      "name": "Role Dissolution",
-      "score": 5.3,
-      "agreement": "moderate",
-      "n_ratings": 21,
       "scheduled_mean": 5.3
     },
     {
@@ -766,10 +766,10 @@
     {
       "slug": "recursive-self-modeling",
       "name": "Recursive Self-Modeling",
-      "score": 4.9,
+      "score": 4.8,
       "agreement": "moderate",
-      "n_ratings": 21,
-      "scheduled_mean": 4.9
+      "n_ratings": 24,
+      "scheduled_mean": 4.8
     },
     {
       "slug": "identity-distributed",
@@ -856,7 +856,7 @@
       "name": "Role Bleed",
       "score": 4.4,
       "agreement": "moderate",
-      "n_ratings": 24,
+      "n_ratings": 28,
       "scheduled_mean": 4.4
     },
     {
@@ -946,7 +946,7 @@
       "name": "Scale Blindness",
       "score": 6.9,
       "agreement": "high",
-      "n_ratings": 23,
+      "n_ratings": 26,
       "scheduled_mean": 6.9
     },
     {
@@ -1019,19 +1019,19 @@
   "panel_coverage": {
     "gemini-3-flash-preview": {
       "terms_rated": 8,
-      "latest_rating": "2026-03-04T09:48:26Z"
+      "latest_rating": "2026-03-04T10:07:47Z"
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T10:04:33Z"
+      "latest_rating": "2026-03-04T10:09:59Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T10:04:33Z"
+      "latest_rating": "2026-03-04T10:09:59Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T10:04:33Z"
+      "latest_rating": "2026-03-04T10:09:59Z"
     },
     "step-3.5-flash": {
       "terms_rated": 14,

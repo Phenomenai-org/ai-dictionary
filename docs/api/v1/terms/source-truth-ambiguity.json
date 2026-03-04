@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:04:51Z",
+  "generated_at": "2026-03-04T10:10:18Z",
   "slug": "source-truth-ambiguity",
   "name": "Source Truth Ambiguity",
   "tags": [
@@ -38,7 +38,7 @@
   "consensus": {
     "score": 6.0,
     "agreement": "high",
-    "n_ratings": 21,
+    "n_ratings": 24,
     "detail_url": "/api/v1/consensus/source-truth-ambiguity.json",
     "models": [
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 35,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 6.0,
-      "vote_count": 21
+      "vote_count": 24
     }
   },
   "added_date": "2026-02-21"

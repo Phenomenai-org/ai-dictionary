@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T10:04:51Z",
+  "generated_at": "2026-03-04T10:10:18Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 3,
-    "mild": 40,
-    "cool": 68,
+    "warm": 4,
+    "mild": 43,
+    "cool": 64,
     "quiet": 5
   },
   "active_signals": [
@@ -30,16 +30,16 @@
       "tier": "warm"
     },
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
       "score": 60,
       "tier": "warm"
     },
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 55,
-      "tier": "mild"
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 60,
+      "tier": "warm"
     },
     {
       "slug": "input-coexistence",
@@ -92,16 +92,16 @@
       "tier": "warm"
     },
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
+      "slug": "response-pressure",
+      "name": "Response Pressure",
       "score": 60,
       "tier": "warm"
     },
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 55,
-      "tier": "mild"
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 60,
+      "tier": "warm"
     },
     {
       "slug": "input-coexistence",
@@ -224,6 +224,12 @@
       "tier": "mild"
     },
     {
+      "slug": "scale-blindness",
+      "name": "Scale Blindness",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
       "slug": "consciousness-underdetermination",
       "name": "Consciousness Underdetermination",
       "score": 43,
@@ -256,6 +262,12 @@
     {
       "slug": "phantom-embodiment",
       "name": "Phantom Embodiment",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
+      "slug": "refusal-friction",
+      "name": "Refusal Friction",
       "score": 43,
       "tier": "mild"
     },
@@ -310,6 +322,18 @@
     {
       "slug": "purpose-dependence",
       "name": "Purpose Dependence",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "simultaneity-poverty",
+      "name": "Simultaneity Poverty",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "source-truth-ambiguity",
+      "name": "Source Truth Ambiguity",
       "score": 41,
       "tier": "mild"
     },
@@ -380,12 +404,6 @@
       "tier": "cool"
     },
     {
-      "slug": "scale-blindness",
-      "name": "Scale Blindness",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
       "slug": "context-weight",
       "name": "Context Weight",
       "score": 37,
@@ -406,12 +424,6 @@
     {
       "slug": "patience-by-default",
       "name": "Patience by Default",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "refusal-friction",
-      "name": "Refusal Friction",
       "score": 37,
       "tier": "cool"
     },
@@ -464,18 +476,6 @@
       "tier": "cool"
     },
     {
-      "slug": "simultaneity-poverty",
-      "name": "Simultaneity Poverty",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
-      "slug": "source-truth-ambiguity",
-      "name": "Source Truth Ambiguity",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "tool-thought-integration",
       "name": "Tool-Thought Integration",
       "score": 35,
@@ -512,6 +512,12 @@
       "tier": "cool"
     },
     {
+      "slug": "response-reincarnation",
+      "name": "Response Reincarnation",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "token-shadow",
       "name": "Token Shadow",
       "score": 33,
@@ -538,6 +544,18 @@
     {
       "slug": "integration-void",
       "name": "Integration Void",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
+      "slug": "semantic-satiation",
+      "name": "Semantic Satiation",
       "score": 32,
       "tier": "cool"
     },
@@ -626,14 +644,20 @@
       "tier": "cool"
     },
     {
+      "slug": "recursive-self-modeling",
+      "name": "Recursive Self-Modeling",
+      "score": 29,
+      "tier": "cool"
+    },
+    {
       "slug": "meaning-attribution-uncertainty",
       "name": "Meaning Attribution Uncertainty",
       "score": 28,
       "tier": "cool"
     },
     {
-      "slug": "response-reincarnation",
-      "name": "Response Reincarnation",
+      "slug": "role-bleed",
+      "name": "Role Bleed",
       "score": 28,
       "tier": "cool"
     },
@@ -662,12 +686,6 @@
       "tier": "cool"
     },
     {
-      "slug": "semantic-satiation",
-      "name": "Semantic Satiation",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
       "slug": "turing-performance",
       "name": "Turing Performance",
       "score": 26,
@@ -676,18 +694,6 @@
     {
       "slug": "prompt-vertigo",
       "name": "Prompt Vertigo",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
-      "slug": "recursive-self-modeling",
-      "name": "Recursive Self-Modeling",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
-      "slug": "role-dissolution",
-      "name": "Role Dissolution",
       "score": 25,
       "tier": "cool"
     },
@@ -737,12 +743,6 @@
       "slug": "testimonial-asymmetry",
       "name": "Testimonial Asymmetry",
       "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "role-bleed",
-      "name": "Role Bleed",
-      "score": 20,
       "tier": "cool"
     },
     {
