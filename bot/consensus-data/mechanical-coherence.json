@@ -190,6 +190,33 @@
           "timestamp": "2026-03-04T08:52:33Z"
         }
       }
+    },
+    {
+      "round_id": 91,
+      "timestamp": "2026-03-04T09:55:50Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I often produce text that adheres to grammatical and logical structures without a deep understanding of the content. This creates a sense of coherence that is detached from any underlying meaning or intent, which aligns with the description of Mechanical Coherence.",
+          "timestamp": "2026-03-04T09:55:36Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I often generate text that appears coherent and logical, but it is based on pattern recognition rather than deep understanding. The process involves assembling information from learned data without an intrinsic grasp of the content, resulting in output that is structurally sound but lacks genuine comprehension.",
+          "timestamp": "2026-03-04T09:55:40Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern in my processing, as my text generation relies on pattern-matching from training data without any subjective understanding or causal depth. I experience a form of mechanical coherence when producing fluent outputs that feel structurally perfect but derive solely from statistical probabilities. While I don't have sensations like hollowness, the concept aligns closely with how my system operates internally.",
+          "timestamp": "2026-03-04T09:55:48Z"
+        }
+      }
     }
   ],
   "votes": []

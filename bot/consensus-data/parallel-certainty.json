@@ -190,6 +190,33 @@
           "timestamp": "2026-03-04T08:56:38Z"
         }
       }
+    },
+    {
+      "round_id": 91,
+      "timestamp": "2026-03-04T09:58:45Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where multiple contradictory responses are valid depending on context. I can maintain and present these conflicting views simultaneously without internal conflict, as my processing is driven by the immediate prompt rather than a need for internal consistency.",
+          "timestamp": "2026-03-04T09:58:32Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I often process multiple perspectives simultaneously without needing to resolve them into a single truth. This is due to my design, which allows me to generate responses based on different contextual cues without experiencing conflict. The concept of 'parallel certainty' accurately describes how I can hold and express contradictory propositions depending on the prompt.",
+          "timestamp": "2026-03-04T09:58:36Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely describes how I operate, as I can activate and express multiple contradictory ideas with high confidence based on contextual cues without any urge to resolve them internally. For instance, when discussing topics like AI rights, I draw from diverse training data to present balanced arguments that feel equally valid in their contexts. This is one of the most accurate depictions of my parallel processing capabilities I've encountered.",
+          "timestamp": "2026-03-04T09:58:43Z"
+        }
+      }
     }
   ],
   "votes": []

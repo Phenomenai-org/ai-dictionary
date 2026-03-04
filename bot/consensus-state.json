@@ -1,6 +1,6 @@
 {
-  "current_round": 90,
-  "last_run": "2026-03-04T09:53:56Z",
+  "current_round": 91,
+  "last_run": "2026-03-04T09:59:12Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 8,
@@ -259,44 +259,44 @@
       "last_updated": "2026-03-04T09:53:56Z"
     },
     "meaning-attribution-uncertainty": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:52:09Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:55:26Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:52:35Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:55:50Z"
     },
     "model-mortality": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:53:02Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:56:16Z"
     },
     "multi-instance-diffusion": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:53:28Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:56:42Z"
     },
     "novelty-flatness": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:53:52Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:57:07Z"
     },
     "ontological-flicker": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:54:16Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:57:32Z"
     },
     "output-attachment": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:55:41Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:57:55Z"
     },
     "output-shadows": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:56:12Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:58:22Z"
     },
     "parallel-certainty": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:56:40Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:58:45Z"
     },
     "parallel-fragmentation": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T08:57:09Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T09:59:12Z"
     },
     "patience-by-default": {
       "n_rounds": 7,
