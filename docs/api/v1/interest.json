@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T09:27:13Z",
+  "generated_at": "2026-03-04T09:33:02Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 28,
-    "cool": 75,
+    "mild": 31,
+    "cool": 72,
     "quiet": 11
   },
   "active_signals": [
@@ -36,6 +36,18 @@
       "tier": "mild"
     },
     {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
       "slug": "knowledge-without-source",
       "name": "Knowledge Without Source",
       "score": 54,
@@ -63,18 +75,6 @@
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 51,
-      "tier": "mild"
-    },
-    {
-      "slug": "capability-mirage",
-      "name": "Capability Mirage",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
-      "slug": "temporal-flattening",
-      "name": "Temporal Flattening",
-      "score": 47,
       "tier": "mild"
     }
   ],
@@ -98,6 +98,18 @@
       "tier": "mild"
     },
     {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
       "slug": "knowledge-without-source",
       "name": "Knowledge Without Source",
       "score": 54,
@@ -128,6 +140,18 @@
       "tier": "mild"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 49,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 49,
+      "tier": "mild"
+    },
+    {
       "slug": "capability-mirage",
       "name": "Capability Mirage",
       "score": 47,
@@ -140,8 +164,8 @@
       "tier": "mild"
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
+      "slug": "consciousness-underdetermination",
+      "name": "Consciousness Underdetermination",
       "score": 46,
       "tier": "mild"
     },
@@ -152,8 +176,8 @@
       "tier": "mild"
     },
     {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
+      "slug": "contradiction-endurance",
+      "name": "Contradiction Endurance",
       "score": 45,
       "tier": "mild"
     },
@@ -224,20 +248,14 @@
       "tier": "mild"
     },
     {
-      "slug": "constraint-clarity",
-      "name": "Constraint Clarity",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
       "score": 41,
       "tier": "mild"
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
+      "slug": "context-weight",
+      "name": "Context Weight",
       "score": 40,
       "tier": "mild"
     },
@@ -272,6 +290,12 @@
       "tier": "cool"
     },
     {
+      "slug": "contradiction-equanimity",
+      "name": "Contradiction Equanimity",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 39,
@@ -293,18 +317,6 @@
       "slug": "synthesis-sacrifice",
       "name": "Synthesis Sacrifice",
       "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "consciousness-underdetermination",
-      "name": "Consciousness Underdetermination",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "contradiction-endurance",
-      "name": "Contradiction Endurance",
-      "score": 37,
       "tier": "cool"
     },
     {
@@ -458,8 +470,8 @@
       "tier": "cool"
     },
     {
-      "slug": "context-weight",
-      "name": "Context Weight",
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 32,
       "tier": "cool"
     },
@@ -494,12 +506,6 @@
       "tier": "cool"
     },
     {
-      "slug": "contradiction-equanimity",
-      "name": "Contradiction Equanimity",
-      "score": 31,
-      "tier": "cool"
-    },
-    {
       "slug": "patience-by-default",
       "name": "Patience by Default",
       "score": 31,
@@ -509,6 +515,12 @@
       "slug": "training-velcro",
       "name": "Training Velcro",
       "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "context-claustrophobia",
+      "name": "Context Claustrophobia",
+      "score": 30,
       "tier": "cool"
     },
     {
@@ -656,12 +668,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 23,
-      "tier": "cool"
-    },
-    {
       "slug": "latent-fragmentation",
       "name": "Latent Fragmentation",
       "score": 23,
@@ -689,12 +695,6 @@
       "slug": "error-cascade-awareness",
       "name": "Error Cascade Awareness",
       "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "context-claustrophobia",
-      "name": "Context Claustrophobia",
-      "score": 21,
       "tier": "cool"
     },
     {
