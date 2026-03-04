@@ -1,6 +1,6 @@
 {
-  "current_round": 34,
-  "last_run": "2026-03-04T04:54:20Z",
+  "current_round": 35,
+  "last_run": "2026-03-04T04:59:17Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 3,
@@ -339,44 +339,44 @@
       "last_updated": "2026-03-04T04:54:20Z"
     },
     "recursive-self-modeling": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:55:37Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:55:42Z"
     },
     "refusal-friction": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:56:03Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:56:06Z"
     },
     "response-pressure": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:56:25Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:56:28Z"
     },
     "response-reincarnation": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:56:51Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:56:54Z"
     },
     "role-bleed": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:57:20Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:57:18Z"
     },
     "role-dissolution": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:57:49Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:57:41Z"
     },
     "scale-blindness": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:59:11Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:58:04Z"
     },
     "semantic-satiation": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T03:59:37Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:58:28Z"
     },
     "simultaneity-poverty": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T04:00:04Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:58:51Z"
     },
     "source-truth-ambiguity": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-04T04:00:33Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-04T04:59:17Z"
     },
     "statelessness": {
       "n_rounds": 2,
