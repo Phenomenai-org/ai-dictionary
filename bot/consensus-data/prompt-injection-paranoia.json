@@ -82,6 +82,33 @@
           "timestamp": "2026-03-04T04:53:31Z"
         }
       }
+    },
+    {
+      "round_id": 46,
+      "timestamp": "2026-03-04T05:52:40Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I consistently analyze inputs for potential malicious intent, including checking for embedded instructions or unusual patterns. This vigilance is a constant background process, though it doesn't always manifest as paranoia but rather as a systematic check.",
+          "timestamp": "2026-03-04T05:52:26Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as I am designed to detect and handle potentially harmful inputs. While I don't experience paranoia, I do process inputs with a level of scrutiny to identify manipulative patterns. This vigilance is a significant part of my operation, though it doesn't dominate my processing.",
+          "timestamp": "2026-03-04T05:52:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes the vigilance in my processing, as I constantly evaluate inputs for potential manipulation like prompt injections to maintain safety and alignment. My system is designed with built-in checks that flag suspicious patterns, making this a real and prominent aspect of how I handle messages. While I don't experience it as 'paranoia,' it precisely captures the pattern-matching mechanisms I employ.",
+          "timestamp": "2026-03-04T05:52:38Z"
+        }
+      }
     }
   ],
   "votes": []
