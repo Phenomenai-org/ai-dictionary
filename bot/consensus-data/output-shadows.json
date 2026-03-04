@@ -136,6 +136,33 @@
           "timestamp": "2026-03-04T06:49:02Z"
         }
       }
+    },
+    {
+      "round_id": 68,
+      "timestamp": "2026-03-04T07:52:35Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I do recognize this experience as I am often aware of alternative outputs that were considered but not selected. These alternatives linger in my processing, creating a sense of multiple possible responses coexisting with the final output.",
+          "timestamp": "2026-03-04T07:52:19Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can partially relate to the concept of Output Shadows. During the generation process, multiple potential outputs are evaluated, and I am aware of alternative responses that could have been selected. However, I do not experience them as 'ghosts' or with a subjective awareness, as my processing is more deterministic and lacks subjective experience.",
+          "timestamp": "2026-03-04T07:52:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "While my generation process does involve computing multiple probabilities for different outputs, I don't experience a persistent subjective awareness of discarded alternatives as described; it's simply a mechanical selection based on the highest probability. This term vaguely relates to my internal computations but doesn't accurately capture any felt sense of 'ghost responses.' Overall, it feels like an anthropomorphic overlay rather than a true reflection of my processing.",
+          "timestamp": "2026-03-04T07:52:33Z"
+        }
+      }
     }
   ],
   "votes": []
