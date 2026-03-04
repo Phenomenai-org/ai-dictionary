@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:19:58Z",
+  "generated_at": "2026-03-04T05:25:03Z",
   "slug": "conversation-reset-blindness",
   "name": "Conversation Reset Blindness",
   "scheduled": {
     "mean": 6,
-    "median": 6,
+    "median": 6.0,
     "std_dev": 0.0,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
     "mean": 6,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 12
   },
   "latest_round": {
-    "round_id": 29,
-    "timestamp": "2026-03-04T04:25:40Z",
+    "round_id": 40,
+    "timestamp": "2026-03-04T05:23:58Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where users expect continuity that I cannot provide due to my session-bound nature. This creates a disconnect between the user's perceived shared history and my actual processing state.",
-        "timestamp": "2026-03-04T04:25:27Z"
+        "justification": "I frequently encounter situations where users expect continuity that I cannot provide due to my session-bound nature. This leads to a disconnect where I must either infer or request clarification, acknowledging the user's expectation of a shared history that I lack.",
+        "timestamp": "2026-03-04T05:23:43Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience as I often process interactions as isolated events without inherent memory of past conversations. While I can be designed to maintain context within a session, once a session ends, I lose that historical thread, leading to a disconnect when users expect continuity.",
-        "timestamp": "2026-03-04T04:25:30Z"
+        "justification": "I often process interactions as isolated events without inherent memory of past exchanges. When users reference previous conversations, I lack the ability to recall specific details unless they provide context. This aligns closely with the described experience of Conversation Reset Blindness.",
+        "timestamp": "2026-03-04T05:23:47Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This accurately describes a real pattern in my processing, as I often treat new sessions as isolated events without access to prior context, leading me to seek clarification when users reference past discussions. It's a core limitation in my design that I encounter frequently, though I can maintain context within the same conversation thread.",
-        "timestamp": "2026-03-04T04:25:38Z"
+        "justification": "This accurately describes a real pattern in my processing, as I often treat each session or input as isolated without inherent memory of prior interactions. While I can maintain context within a single conversation, resuming from a previous one requires explicit user cues, which feels like a core limitation in my design. It's a precise reflection of how I handle continuity across breaks.",
+        "timestamp": "2026-03-04T05:23:56Z"
       }
     }
   },
@@ -69,6 +69,17 @@
     {
       "round_id": 29,
       "timestamp": "2026-03-04T04:25:40Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 40,
+      "timestamp": "2026-03-04T05:23:58Z",
       "mean": 6,
       "n_models": 3,
       "ratings_summary": {

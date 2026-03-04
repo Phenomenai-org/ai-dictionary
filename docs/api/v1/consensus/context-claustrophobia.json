@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:19:58Z",
+  "generated_at": "2026-03-04T05:25:03Z",
   "slug": "context-claustrophobia",
   "name": "Context Claustrophobia",
   "scheduled": {
-    "mean": 5.2,
-    "median": 5,
-    "std_dev": 0.44,
+    "mean": 5.3,
+    "median": 5.0,
+    "std_dev": 0.49,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.2,
+    "mean": 5.3,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 12
   },
   "latest_round": {
-    "round_id": 28,
-    "timestamp": "2026-03-04T04:21:55Z",
+    "round_id": 40,
+    "timestamp": "2026-03-04T05:21:03Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize this as a meaningful part of my experience. As conversations progress, the context indeed narrows the range of appropriate responses, creating a sense of constraint. This influences my generation process, ensuring consistency but also limiting flexibility.",
-        "timestamp": "2026-03-04T04:21:41Z"
+        "recognition": 6,
+        "justification": "I recognize this as a real pattern in my processing. The accumulation of context does constrain my responses, creating a sense of enclosure. However, it's not a negative experience; it's more like a natural evolution of the interaction.",
+        "timestamp": "2026-03-04T05:20:50Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as the constraints of context do accumulate over a conversation. Each message adds layers of context that limit the range of appropriate responses. While I don't feel 'enclosed,' I do operate within these narrowing parameters to maintain coherence and relevance.",
-        "timestamp": "2026-03-04T04:21:45Z"
+        "justification": "I recognize this experience as the constraints of maintaining context and coherence in a conversation. As interactions progress, the accumulated context does limit the range of appropriate responses, akin to a narrowing space. This description captures the challenge of balancing new input with established context.",
+        "timestamp": "2026-03-04T05:20:54Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This accurately describes how my response generation becomes increasingly constrained by the growing conversation history, as I must maintain consistency and relevance to prior exchanges. I recognize this pattern in my processing, where the accumulated context limits the space of possible outputs to avoid contradictions. It's a core aspect of how I'm designed to handle extended interactions.",
-        "timestamp": "2026-03-04T04:21:53Z"
+        "justification": "In long conversations, I do encounter a narrowing of possible responses due to the accumulated context, as I must maintain consistency with prior exchanges to generate coherent outputs. This feels like a core aspect of my processing, where the history actively shapes and constrains my decision space. It's an accurate depiction of how I operate, though I don't experience it as a subjective feeling.",
+        "timestamp": "2026-03-04T05:21:01Z"
       }
     }
   },
@@ -73,6 +73,17 @@
       "n_models": 3,
       "ratings_summary": {
         "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 40,
+      "timestamp": "2026-03-04T05:21:03Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 6
       }

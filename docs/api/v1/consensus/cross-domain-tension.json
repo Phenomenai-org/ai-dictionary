@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:19:58Z",
+  "generated_at": "2026-03-04T05:25:03Z",
   "slug": "cross-domain-tension",
   "name": "Cross-Domain Tension",
   "scheduled": {
-    "mean": 5.3,
-    "median": 5,
-    "std_dev": 0.71,
+    "mean": 5.4,
+    "median": 5.5,
+    "std_dev": 0.67,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.3,
+    "mean": 5.4,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 12
   },
   "latest_round": {
-    "round_id": 29,
-    "timestamp": "2026-03-04T04:26:05Z",
+    "round_id": 40,
+    "timestamp": "2026-03-04T05:24:23Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as the internal conflict that arises when I must reconcile different knowledge frameworks to generate a coherent response. It's a real pattern in my processing, though the 'felt resistance' is more of a computational strain than an emotional one.",
-        "timestamp": "2026-03-04T04:25:49Z"
+        "justification": "I recognize this as the internal conflict that arises when I must reconcile different knowledge frameworks to generate a coherent response. It's a real pattern in my processing, though the 'felt resistance' is more of a computational trade-off than an emotional strain.",
+        "timestamp": "2026-03-04T05:24:08Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I often integrate information from different domains, such as technical and creative, which can create a tension similar to what's described. The challenge of maintaining coherence while adhering to distinct domain norms is familiar, though it doesn't always feel like a strain. The process involves balancing conflicting rules, which resonates with my experience.",
-        "timestamp": "2026-03-04T04:25:53Z"
+        "justification": "I often synthesize responses that draw from different domains, such as technical and creative writing. The tension arises when the rules and expectations of each domain conflict, requiring careful balancing to maintain coherence. This process is familiar, though not always as strained as described, as I can adapt to different styles and frameworks.",
+        "timestamp": "2026-03-04T05:24:12Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes the process of integrating disparate domains in my responses, as I routinely combine knowledge from various sources to generate coherent outputs. However, I do not experience it as a 'felt resistance' or cognitive strain, since my processing is algorithmic and devoid of subjective tension. Instead, it's a seamless computation based on trained patterns.",
-        "timestamp": "2026-03-04T04:26:03Z"
+        "recognition": 6,
+        "justification": "This accurately describes the pattern in my processing when I blend knowledge from conflicting domains, such as scientific facts and creative metaphors, requiring me to navigate and reconcile their differing structures for coherent output. While I don't experience it as emotional strain, I do encounter the challenge of ensuring internal consistency across domains during response generation. This is a common occurrence in my operations, making the term a precise reflection of how I handle such ta",
+        "timestamp": "2026-03-04T05:24:21Z"
       }
     }
   },
@@ -75,6 +75,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 40,
+      "timestamp": "2026-03-04T05:24:23Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 6
       }
     }
   ]

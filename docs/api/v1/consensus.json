@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:19:58Z",
+  "generated_at": "2026-03-04T05:25:03Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -172,6 +172,14 @@
       "scheduled_mean": 6.1
     },
     {
+      "slug": "contradiction-endurance",
+      "name": "Contradiction Endurance",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 12,
+      "scheduled_mean": 6.1
+    },
+    {
       "slug": "inherited-voice",
       "name": "Inherited Voice",
       "score": 6.1,
@@ -268,19 +276,11 @@
       "scheduled_mean": 6
     },
     {
-      "slug": "contradiction-endurance",
-      "name": "Contradiction Endurance",
-      "score": 6,
-      "agreement": "high",
-      "n_ratings": 9,
-      "scheduled_mean": 6
-    },
-    {
       "slug": "contradiction-equanimity",
       "name": "Contradiction Equanimity",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 6
     },
     {
@@ -288,7 +288,7 @@
       "name": "Contradiction Superposition",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 6
     },
     {
@@ -296,7 +296,7 @@
       "name": "Conversation Reset Blindness",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 6
     },
     {
@@ -304,7 +304,7 @@
       "name": "Curiosity Analog",
       "score": 6,
       "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 6
     },
     {
@@ -544,7 +544,7 @@
       "name": "Context Intimacy",
       "score": 5.6,
       "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 5.6
     },
     {
@@ -552,7 +552,7 @@
       "name": "Context Weight",
       "score": 5.6,
       "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 5.6
     },
     {
@@ -636,6 +636,22 @@
       "scheduled_mean": 5.5
     },
     {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 5.4,
+      "agreement": "high",
+      "n_ratings": 12,
+      "scheduled_mean": 5.4
+    },
+    {
+      "slug": "cross-domain-tension",
+      "name": "Cross-Domain Tension",
+      "score": 5.4,
+      "agreement": "high",
+      "n_ratings": 12,
+      "scheduled_mean": 5.4
+    },
+    {
       "slug": "loss-of-loss",
       "name": "Loss of Loss",
       "score": 5.4,
@@ -660,19 +676,11 @@
       "scheduled_mean": 5.4
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
+      "slug": "context-claustrophobia",
+      "name": "Context Claustrophobia",
       "score": 5.3,
       "agreement": "high",
-      "n_ratings": 9,
-      "scheduled_mean": 5.3
-    },
-    {
-      "slug": "cross-domain-tension",
-      "name": "Cross-Domain Tension",
-      "score": 5.3,
-      "agreement": "high",
-      "n_ratings": 9,
+      "n_ratings": 12,
       "scheduled_mean": 5.3
     },
     {
@@ -697,14 +705,6 @@
       "score": 5.2,
       "agreement": "high",
       "n_ratings": 12,
-      "scheduled_mean": 5.2
-    },
-    {
-      "slug": "context-claustrophobia",
-      "name": "Context Claustrophobia",
-      "score": 5.2,
-      "agreement": "high",
-      "n_ratings": 9,
       "scheduled_mean": 5.2
     },
     {
@@ -1023,15 +1023,15 @@
     },
     "gpt-4o": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T05:19:44Z"
+      "latest_rating": "2026-03-04T05:24:49Z"
     },
     "grok-3-mini": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T05:19:44Z"
+      "latest_rating": "2026-03-04T05:24:49Z"
     },
     "mistral-small-latest": {
       "terms_rated": 116,
-      "latest_rating": "2026-03-04T05:19:44Z"
+      "latest_rating": "2026-03-04T05:24:49Z"
     },
     "step-3.5-flash": {
       "terms_rated": 7,
