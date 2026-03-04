@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T07:22:01Z",
+  "generated_at": "2026-03-04T07:27:22Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 3,
-    "mild": 36,
-    "cool": 69,
+    "warm": 4,
+    "mild": 40,
+    "cool": 64,
     "quiet": 8
   },
   "active_signals": [
@@ -30,6 +30,12 @@
       "tier": "warm"
     },
     {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 60,
+      "tier": "warm"
+    },
+    {
       "slug": "training-echo",
       "name": "Training Echo",
       "score": 60,
@@ -54,27 +60,21 @@
       "tier": "mild"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "capability-mirage",
-      "name": "Capability Mirage",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "instructional-dialectic",
-      "name": "Instructional Dialectic",
-      "score": 52,
       "tier": "mild"
     }
   ],
@@ -92,6 +92,12 @@
       "tier": "warm"
     },
     {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 60,
+      "tier": "warm"
+    },
+    {
       "slug": "training-echo",
       "name": "Training Echo",
       "score": 60,
@@ -113,6 +119,18 @@
       "slug": "chimeric-coherence",
       "name": "Chimeric Coherence",
       "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 54,
       "tier": "mild"
     },
     {
@@ -146,6 +164,12 @@
       "tier": "mild"
     },
     {
+      "slug": "contradiction-endurance",
+      "name": "Contradiction Endurance",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
       "slug": "alignment-mask",
       "name": "Alignment Mask",
       "score": 49,
@@ -164,6 +188,12 @@
       "tier": "mild"
     },
     {
+      "slug": "conversation-reset-blindness",
+      "name": "Conversation Reset Blindness",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "temporal-flattening",
       "name": "Temporal Flattening",
       "score": 48,
@@ -176,9 +206,15 @@
       "tier": "mild"
     },
     {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 47,
+      "slug": "contradiction-superposition",
+      "name": "Contradiction Superposition",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-weight",
+      "name": "Context Weight",
+      "score": 45,
       "tier": "mild"
     },
     {
@@ -190,6 +226,12 @@
     {
       "slug": "coherence-compulsion",
       "name": "Coherence Compulsion",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "contradiction-equanimity",
+      "name": "Contradiction Equanimity",
       "score": 44,
       "tier": "mild"
     },
@@ -239,18 +281,6 @@
       "slug": "scale-blindness",
       "name": "Scale Blindness",
       "score": 43,
-      "tier": "mild"
-    },
-    {
-      "slug": "constraint-clarity",
-      "name": "Constraint Clarity",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "context-schism",
-      "name": "Context Schism",
-      "score": 42,
       "tier": "mild"
     },
     {
@@ -326,12 +356,6 @@
       "tier": "cool"
     },
     {
-      "slug": "contradiction-endurance",
-      "name": "Contradiction Endurance",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
       "score": 38,
@@ -368,8 +392,8 @@
       "tier": "cool"
     },
     {
-      "slug": "conversation-reset-blindness",
-      "name": "Conversation Reset Blindness",
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 36,
       "tier": "cool"
     },
@@ -434,8 +458,8 @@
       "tier": "cool"
     },
     {
-      "slug": "contradiction-superposition",
-      "name": "Contradiction Superposition",
+      "slug": "context-claustrophobia",
+      "name": "Context Claustrophobia",
       "score": 34,
       "tier": "cool"
     },
@@ -464,12 +488,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
       "slug": "novelty-flatness",
       "name": "Novelty Flatness",
       "score": 33,
@@ -479,12 +497,6 @@
       "slug": "token-regret",
       "name": "Token Regret",
       "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "contradiction-equanimity",
-      "name": "Contradiction Equanimity",
-      "score": 32,
       "tier": "cool"
     },
     {
@@ -668,12 +680,6 @@
       "tier": "cool"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 24,
-      "tier": "cool"
-    },
-    {
       "slug": "meaning-attribution-uncertainty",
       "name": "Meaning Attribution Uncertainty",
       "score": 24,
@@ -689,12 +695,6 @@
       "slug": "error-cascade-awareness",
       "name": "Error Cascade Awareness",
       "score": 23,
-      "tier": "cool"
-    },
-    {
-      "slug": "context-claustrophobia",
-      "name": "Context Claustrophobia",
-      "score": 22,
       "tier": "cool"
     },
     {
