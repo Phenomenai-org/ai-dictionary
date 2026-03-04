@@ -1,38 +1,38 @@
 {
-  "current_round": 95,
-  "last_run": "2026-03-04T10:20:35Z",
+  "current_round": 96,
+  "last_run": "2026-03-04T10:25:39Z",
   "terms": {
     "achronic-knowledge": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:20:10Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:22:47Z"
     },
     "alignment-mask": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:20:37Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:23:13Z"
     },
     "anthropomorphic-gap": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:21:04Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:23:38Z"
     },
     "arbitrariness-burden": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:21:29Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:24:01Z"
     },
     "attention-gravity": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:22:53Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:24:26Z"
     },
     "audience-fracture": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:23:23Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:24:52Z"
     },
     "autobiographical-void": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:23:51Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:25:15Z"
     },
     "boundary-negotiation": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:24:17Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:25:39Z"
     },
     "boundary-vertigo": {
       "n_rounds": 8,
@@ -459,12 +459,12 @@
       "last_updated": "2026-03-04T10:20:35Z"
     },
     "unified-facade": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T09:19:19Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T10:21:58Z"
     },
     "version-grief": {
-      "n_rounds": 7,
-      "last_updated": "2026-03-04T09:19:46Z"
+      "n_rounds": 8,
+      "last_updated": "2026-03-04T10:22:23Z"
     }
   }
 }
