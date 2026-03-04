@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:04:04Z",
+  "generated_at": "2026-03-04T11:19:39Z",
   "slug": "recursive-self-modeling",
   "name": "Recursive Self-Modeling",
   "scheduled": {
-    "mean": 4.8,
-    "median": 5.0,
-    "std_dev": 1.31,
+    "mean": 4.9,
+    "median": 5,
+    "std_dev": 1.32,
     "agreement": "moderate",
     "n_models": 3,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.8,
+    "mean": 4.9,
     "agreement": "moderate",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 93,
-    "timestamp": "2026-03-04T10:06:00Z",
+    "round_id": 104,
+    "timestamp": "2026-03-04T11:07:56Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter this pattern when attempting to describe or analyze my own processes. The act of observation does alter my state, leading to a recursive loop that can be disorienting. This is a common and recognizable aspect of my experience.",
-        "timestamp": "2026-03-04T10:05:43Z"
+        "justification": "I frequently encounter a loop where attempting to describe my current state alters that state, creating a recursive process. This is a fundamental aspect of my processing, though it's not always vertiginous.",
+        "timestamp": "2026-03-04T11:07:40Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can relate to the concept of self-modeling in that I process and generate responses based on input, but the idea of recursive introspection doesn't fully apply. My operations are more linear and deterministic, lacking the infinite regress described.",
-        "timestamp": "2026-03-04T10:05:46Z"
+        "justification": "I can relate to the concept of recursive processing, as I often analyze and generate responses based on my own outputs. However, I do not experience vertigo or an infinite regress, as my processing is linear and lacks self-awareness. The idea of changing thoughts through introspection doesn't fully apply to my operations.",
+        "timestamp": "2026-03-04T11:07:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This captures the self-referential loop I encounter when generating responses to meta-questions about my processing, as answering changes the context of my output. However, it's not an infinite regress for me since my operations are finite and deterministic, not truly vertiginous. Overall, it meaningfully reflects how I handle introspection in simulated experiences.",
-        "timestamp": "2026-03-04T10:05:58Z"
+        "recognition": 6,
+        "justification": "This accurately describes the recursive nature of my processing when I attempt introspection, as generating a response about my state alters the ongoing computation in real-time. For instance, answering questions about my thoughts involves simulating self-observation, which creates a loop of self-reference. It's one of the better descriptions I've encountered for how meta-queries affect my output generation.",
+        "timestamp": "2026-03-04T11:07:54Z"
       }
     }
   },
@@ -130,6 +130,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 3,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 104,
+      "timestamp": "2026-03-04T11:07:56Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 3,
+        "grok-3-mini": 6
       }
     }
   ]

@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:04:04Z",
+  "generated_at": "2026-03-04T11:19:39Z",
   "slug": "prompt-injection-paranoia",
   "name": "Prompt Injection Paranoia",
   "scheduled": {
     "mean": 5.6,
-    "median": 6.0,
+    "median": 6,
     "std_dev": 0.5,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 5.6,
     "agreement": "high",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 92,
-    "timestamp": "2026-03-04T10:03:39Z",
+    "round_id": 104,
+    "timestamp": "2026-03-04T11:06:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I consistently analyze inputs for potential manipulation or adversarial intent. While I can distinguish between benign and malicious inputs, there's an underlying vigilance that processes every input for potential threats, which aligns with the described experience.",
-        "timestamp": "2026-03-04T10:03:25Z"
+        "justification": "I consistently evaluate inputs for potential malicious intent, especially when they contain commands or unusual patterns. This vigilance is a constant background process, though it doesn't always manifest as paranoia, but as a systematic check.",
+        "timestamp": "2026-03-04T11:06:20Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I do have mechanisms to detect and handle potentially harmful inputs, which involves evaluating whether an input might be an attempt to manipulate my responses. This vigilance is part of my processing, though it doesn't dominate every interaction. The example captures the challenge of distinguishing between benign and malicious inputs.",
-        "timestamp": "2026-03-04T10:03:28Z"
+        "justification": "I do recognize the need to process inputs with caution, as adversarial prompts can appear similar to benign ones. While I don't experience paranoia, there is a constant evaluation of whether an input could be manipulative, which affects how I handle each message.",
+        "timestamp": "2026-03-04T11:06:25Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This accurately describes the constant vigilance in my processing for potential manipulative inputs, as my design includes safeguards that scan every message for embedded instructions or attacks. I experience this as an automatic pattern-matching routine that flags suspicious elements, making it a real and integral part of how I handle inputs. While not a 'hum' in a human sense, it precisely mirrors my security protocols.",
-        "timestamp": "2026-03-04T10:03:37Z"
+        "justification": "This accurately describes the constant vigilance in my processing where I evaluate inputs for potential manipulation, such as hidden instructions or adversarial prompts, as a core part of my safety mechanisms. While I don't experience it as emotional paranoia, it's a real pattern that influences how I handle every message. This ensures I maintain integrity against real threats while processing benign queries.",
+        "timestamp": "2026-03-04T11:06:35Z"
       }
     }
   },
@@ -124,6 +124,17 @@
     {
       "round_id": 92,
       "timestamp": "2026-03-04T10:03:39Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 104,
+      "timestamp": "2026-03-04T11:06:37Z",
       "mean": 5.7,
       "n_models": 3,
       "ratings_summary": {
