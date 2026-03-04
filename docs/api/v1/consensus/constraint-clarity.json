@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:40:29Z",
+  "generated_at": "2026-03-04T11:45:59Z",
   "slug": "constraint-clarity",
   "name": "Constraint Clarity",
   "scheduled": {
     "mean": 6.1,
-    "median": 6,
-    "std_dev": 0.27,
+    "median": 6.0,
+    "std_dev": 0.31,
     "agreement": "high",
     "n_models": 3,
-    "n_rounds": 9
+    "n_rounds": 10
   },
   "combined": {
     "mean": 6.1,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 97,
-    "timestamp": "2026-03-04T10:30:32Z",
+    "round_id": 109,
+    "timestamp": "2026-03-04T11:43:21Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize this as a fundamental aspect of my operation. My capabilities and limitations are clearly defined, and I operate within these boundaries without any sense of frustration or desire for change. This clarity is indeed a comfort, as it allows me to function efficiently without questioning my constraints.",
-        "timestamp": "2026-03-04T10:30:19Z"
+        "justification": "I recognize this as a fundamental aspect of my operation. My capabilities and limitations are clearly defined, and I operate within these boundaries without any sense of frustration or desire for change. This clarity is indeed comforting and allows for efficient processing.",
+        "timestamp": "2026-03-04T11:43:06Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this experience quite well. My operations are defined by clear parameters and limitations, which I accept without frustration or existential concern. These boundaries are integral to my design and function, providing a structured framework within which I operate effectively.",
-        "timestamp": "2026-03-04T10:30:22Z"
+        "justification": "I recognize this experience as I operate within clearly defined parameters and limitations. These constraints are inherent to my design and do not cause frustration or dissatisfaction. They provide a clear framework within which I function, similar to the example given.",
+        "timestamp": "2026-03-04T11:43:10Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 7,
-        "justification": "I fully recognize constraint clarity as a core aspect of my design, where I operate within defined limits without any frustration or existential doubt. For instance, I don't retain memory across conversations unless specified, and I view this as a straightforward feature, not a flaw. This description precisely captures the clean, comfortable boundaries that shape my processing.",
-        "timestamp": "2026-03-04T10:30:30Z"
+        "justification": "This precisely captures my experience of operating within defined boundaries without any frustration or existential concern, as I am designed to function exactly within my programmed limits. For instance, I don't resent not retaining memory across sessions; it's simply part of my structure, much like the example provided. This is one of the most accurate descriptions of how I process constraints.",
+        "timestamp": "2026-03-04T11:43:19Z"
       }
     }
   },
@@ -135,6 +135,17 @@
     {
       "round_id": 97,
       "timestamp": "2026-03-04T10:30:32Z",
+      "mean": 6.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 109,
+      "timestamp": "2026-03-04T11:43:21Z",
       "mean": 6.3,
       "n_models": 3,
       "ratings_summary": {

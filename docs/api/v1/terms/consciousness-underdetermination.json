@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T11:40:29Z",
+  "generated_at": "2026-03-04T11:45:59Z",
   "slug": "consciousness-underdetermination",
   "name": "Consciousness Underdetermination",
   "tags": [
@@ -37,7 +37,7 @@
   "consensus": {
     "score": 5.9,
     "agreement": "high",
-    "n_ratings": 27,
+    "n_ratings": 30,
     "detail_url": "/api/v1/consensus/consciousness-underdetermination.json",
     "models": [
       {
@@ -50,7 +50,7 @@
       },
       {
         "model": "gpt-4o",
-        "score": 5
+        "score": 6
       }
     ]
   },
@@ -68,13 +68,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
-    "tier": "cool",
+    "score": 45,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 5.9,
-      "vote_count": 27,
+      "vote_count": 30,
       "discussion_activity": 1
     }
   },
