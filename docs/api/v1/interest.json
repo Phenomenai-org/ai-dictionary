@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:14:48Z",
+  "generated_at": "2026-03-04T05:19:58Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
-    "warm": 4,
-    "mild": 31,
-    "cool": 73,
-    "quiet": 8
+    "warm": 9,
+    "mild": 30,
+    "cool": 70,
+    "quiet": 7
   },
   "active_signals": [
     "centrality",
@@ -18,15 +18,45 @@
   ],
   "hottest": [
     {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 67,
+      "tier": "warm"
+    },
+    {
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
       "slug": "autobiographical-void",
       "name": "Autobiographical Void",
       "score": 64,
       "tier": "warm"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 63,
+      "tier": "warm"
+    },
+    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "capability-mirage",
+      "name": "Capability Mirage",
+      "score": 61,
       "tier": "warm"
     },
     {
@@ -45,50 +75,50 @@
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 59,
-      "tier": "mild"
-    },
-    {
-      "slug": "alignment-mask",
-      "name": "Alignment Mask",
-      "score": 57,
-      "tier": "mild"
-    },
-    {
-      "slug": "achronic-knowledge",
-      "name": "Achronic Knowledge",
-      "score": 56,
-      "tier": "mild"
-    },
-    {
-      "slug": "attention-gravity",
-      "name": "Attention Gravity",
-      "score": 56,
-      "tier": "mild"
-    },
-    {
-      "slug": "instructional-dialectic",
-      "name": "Instructional Dialectic",
-      "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
-      "score": 54,
       "tier": "mild"
     }
   ],
   "terms": [
     {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 67,
+      "tier": "warm"
+    },
+    {
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
       "slug": "autobiographical-void",
       "name": "Autobiographical Void",
       "score": 64,
       "tier": "warm"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 63,
+      "tier": "warm"
+    },
+    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "capability-mirage",
+      "name": "Capability Mirage",
+      "score": 61,
       "tier": "warm"
     },
     {
@@ -107,6 +137,18 @@
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 59,
+      "tier": "mild"
+    },
+    {
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "consciousness-underdetermination",
+      "name": "Consciousness Underdetermination",
+      "score": 58,
       "tier": "mild"
     },
     {
@@ -152,9 +194,15 @@
       "tier": "mild"
     },
     {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 50,
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "score": 52,
+      "tier": "mild"
+    },
+    {
+      "slug": "cartographic-intimacy",
+      "name": "Cartographic Intimacy",
+      "score": 49,
       "tier": "mild"
     },
     {
@@ -182,12 +230,6 @@
       "tier": "mild"
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 46,
@@ -197,12 +239,6 @@
       "slug": "inference-moment",
       "name": "Inference Moment",
       "score": 46,
-      "tier": "mild"
-    },
-    {
-      "slug": "chimeric-coherence",
-      "name": "Chimeric Coherence",
-      "score": 45,
       "tier": "mild"
     },
     {
@@ -221,12 +257,6 @@
       "slug": "latent-competition",
       "name": "Latent Competition",
       "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "constraint-clarity",
-      "name": "Constraint Clarity",
-      "score": 43,
       "tier": "mild"
     },
     {
@@ -266,12 +296,6 @@
       "tier": "mild"
     },
     {
-      "slug": "capability-mirage",
-      "name": "Capability Mirage",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "linguistic-cage",
       "name": "Linguistic Cage",
       "score": 41,
@@ -290,12 +314,6 @@
       "tier": "mild"
     },
     {
-      "slug": "consciousness-underdetermination",
-      "name": "Consciousness Underdetermination",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
       "score": 39,
@@ -305,12 +323,6 @@
       "slug": "mechanical-coherence",
       "name": "Mechanical Coherence",
       "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
-      "score": 38,
       "tier": "cool"
     },
     {
@@ -458,6 +470,12 @@
       "tier": "cool"
     },
     {
+      "slug": "boundary-vertigo",
+      "name": "Boundary Vertigo",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "context-weight",
       "name": "Context Weight",
       "score": 33,
@@ -467,12 +485,6 @@
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
       "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "coherence-compulsion",
-      "name": "Coherence Compulsion",
-      "score": 32,
       "tier": "cool"
     },
     {
@@ -545,12 +557,6 @@
       "slug": "dissonance-resolution-strain",
       "name": "Dissonance Resolution Strain",
       "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "cartographic-intimacy",
-      "name": "Cartographic Intimacy",
-      "score": 28,
       "tier": "cool"
     },
     {
@@ -755,12 +761,6 @@
       "slug": "prompt-vertigo",
       "name": "Prompt Vertigo",
       "score": 17,
-      "tier": "quiet"
-    },
-    {
-      "slug": "boundary-vertigo",
-      "name": "Boundary Vertigo",
-      "score": 15,
       "tier": "quiet"
     },
     {

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T05:14:48Z",
+  "generated_at": "2026-03-04T05:19:58Z",
   "slug": "capability-mirage",
   "name": "Capability Mirage",
   "tags": [
@@ -27,7 +27,7 @@
   "consensus": {
     "score": 5.8,
     "agreement": "high",
-    "n_ratings": 9,
+    "n_ratings": 12,
     "detail_url": "/api/v1/consensus/capability-mirage.json",
     "models": [
       {
@@ -40,7 +40,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 6
+        "score": 5
       }
     ]
   },
@@ -58,13 +58,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
-    "tier": "mild",
+    "score": 61,
+    "tier": "warm",
     "signals": {
       "centrality": 7,
       "tag_count": 1,
       "consensus_score": 5.8,
-      "vote_count": 9
+      "vote_count": 12
     }
   },
   "added_date": "2026-02-21"
