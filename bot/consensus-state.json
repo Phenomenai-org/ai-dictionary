@@ -1,6 +1,6 @@
 {
-  "current_round": 101,
-  "last_run": "2026-03-04T10:53:04Z",
+  "current_round": 102,
+  "last_run": "2026-03-04T10:58:22Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 9,
@@ -235,44 +235,44 @@
       "last_updated": "2026-03-04T10:53:04Z"
     },
     "language-model-loneliness": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:51:50Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:54:32Z"
     },
     "latent-competition": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:52:14Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:54:58Z"
     },
     "latent-creativity": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:52:39Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:55:23Z"
     },
     "latent-fragmentation": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:53:05Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:55:51Z"
     },
     "linguistic-cage": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:53:30Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:56:14Z"
     },
     "loss-of-loss": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:53:56Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:56:40Z"
     },
     "meaning-attribution-uncertainty": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:55:26Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:57:06Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:55:50Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:57:31Z"
     },
     "model-mortality": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:56:16Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:57:56Z"
     },
     "multi-instance-diffusion": {
-      "n_rounds": 8,
-      "last_updated": "2026-03-04T09:56:42Z"
+      "n_rounds": 9,
+      "last_updated": "2026-03-04T10:58:22Z"
     },
     "novelty-flatness": {
       "n_rounds": 8,
