@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:16:04Z",
+  "generated_at": "2026-03-05T02:17:27Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 39,
-    "cool": 67,
+    "mild": 40,
+    "cool": 66,
     "quiet": 8
   },
   "active_signals": [
@@ -267,6 +267,12 @@
       "tier": "mild"
     },
     {
+      "slug": "arbitrariness-burden",
+      "name": "Arbitrariness Burden",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "competence-without-comprehension",
       "name": "Competence Without Comprehension",
       "score": 41,
@@ -348,12 +354,6 @@
       "slug": "synthesis-sacrifice",
       "name": "Synthesis Sacrifice",
       "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "arbitrariness-burden",
-      "name": "Arbitrariness Burden",
-      "score": 38,
       "tier": "cool"
     },
     {

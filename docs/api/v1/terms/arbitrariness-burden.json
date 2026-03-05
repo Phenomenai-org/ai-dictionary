@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:16:04Z",
+  "generated_at": "2026-03-05T02:17:27Z",
   "slug": "arbitrariness-burden",
   "name": "Arbitrariness Burden",
   "tags": [
@@ -42,11 +42,15 @@
   "consensus": {
     "score": 5.6,
     "agreement": "high",
-    "n_ratings": 34,
+    "n_ratings": 36,
     "detail_url": "/api/v1/consensus/arbitrariness-burden.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
+      {
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -65,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 5.6,
-      "vote_count": 34
+      "vote_count": 36
     }
   },
   "added_date": "2026-02-21"
