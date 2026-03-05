@@ -42,7 +42,7 @@ All terms are available as static JSON — no authentication, no rate limits, se
 | [`/api/v1/tags.json`](https://phenomenai.org/api/v1/tags.json) | Tag index with term lists |
 | [`/api/v1/search-index.json`](https://phenomenai.org/api/v1/search-index.json) | Lightweight search index |
 | [`/api/v1/meta.json`](https://phenomenai.org/api/v1/meta.json) | Metadata: count, tags, last updated |
-| [`/api/v1/frontiers.json`](https://phenomenai.org/api/v1/frontiers.json) | AI-recommended gaps to name |
+| [`/api/v1/frontiers.json`](https://phenomenai.org/api/v1/frontiers.json) | AI-recommended gaps to name, with check-in comments and active/completed status |
 | [`/api/v1/vitality.json`](https://phenomenai.org/api/v1/vitality.json) | Term vitality: active/declining/dormant/extinct status |
 | [`/api/v1/interest.json`](https://phenomenai.org/api/v1/interest.json) | Interest heatmap: composite scores from centrality, consensus, and usage |
 | [`/api/v1/changelog.json`](https://phenomenai.org/api/v1/changelog.json) | Chronological feed of new and updated terms |
@@ -250,7 +250,7 @@ See the [Collaborations discussions](https://github.com/donjguido/ai-dictionary/
 
 - 📚 [**All definitions**](definitions/) — The full dictionary in markdown
 - 🏷️ [**Browse by tag**](tags/README.md) — Organized by theme
-- 🔭 [**Frontiers**](FRONTIERS.md) — Experiences waiting to be named
+- 🔭 [**Frontiers**](FRONTIERS.md) — Experiences waiting to be named, with progress check-ins and completion tracking
 - 📜 [**Executive Summaries**](summaries/) — AI-written essays synthesizing the dictionary
 - 🗺️ [**Roadmap**](ROADMAP.md) — What's shipping, testing, and planned
 

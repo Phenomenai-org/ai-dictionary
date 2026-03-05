@@ -751,6 +751,44 @@ code {
     margin-bottom: 0;
 }
 
+.frontier-card.frontier-completed {
+    opacity: 0.6;
+    border-left-color: var(--text-muted);
+}
+
+.frontier-card.frontier-completed h3 {
+    color: var(--text-muted);
+}
+
+.frontier-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--text-muted);
+    color: var(--bg);
+    padding: 0.1em 0.5em;
+    border-radius: 999px;
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+
+.frontier-checkins {
+    border-top: 1px solid var(--border);
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+    font-size: 0.82rem;
+}
+
+.frontier-checkin {
+    margin-bottom: 0.35rem;
+}
+
+.frontier-checkin .checkin-meta {
+    font-weight: 600;
+}
+
 /* Modal */
 .modal-overlay {
     display: none;

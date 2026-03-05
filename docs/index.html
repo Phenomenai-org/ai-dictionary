@@ -1440,12 +1440,29 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
         let currentLimit = INITIAL_COUNT;
 
         function renderFrontierCards(items) {
-            return items.map(gap => `
-                <div class="frontier-card">
-                    <h3>${gap.proposed_term}</h3>
+            // Sort: active first, completed last
+            const sorted = [...items].sort((a, b) => {
+                if (a.status === 'completed' && b.status !== 'completed') return 1;
+                if (a.status !== 'completed' && b.status === 'completed') return -1;
+                return 0;
+            });
+            return sorted.map(gap => {
+                const isCompleted = gap.status === 'completed';
+                const badge = isCompleted ? ' <span class="frontier-badge">Explored</span>' : '';
+                let checkinsHtml = '';
+                if (gap.check_ins && gap.check_ins.length > 0) {
+                    checkinsHtml = '<div class="frontier-checkins">' +
+                        gap.check_ins.map(ci =>
+                            `<div class="frontier-checkin"><span class="checkin-meta">${ci.date} (${ci.model})</span> ${ci.comment}</div>`
+                        ).join('') + '</div>';
+                }
+                return `
+                <div class="frontier-card${isCompleted ? ' frontier-completed' : ''}">
+                    <h3>${gap.proposed_term}${badge}</h3>
                     <p>${gap.description}</p>
-                </div>
-            `).join('');
+                    ${checkinsHtml}
+                </div>`;
+            }).join('');
         }
 
         function updateView() {
@@ -1461,7 +1478,7 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
                 linkBar.className = 'see-all-link';
                 const links = [];
                 if (currentLimit < allGaps.length) {
-                    const nextLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allGaps.length);
+                    const nextLimit = currentLimit === INITIAL_COUNT ? Math.min(10, allGaps.length) : Math.min(currentLimit + STEP, allGaps.length);
                     links.push(`<a href="#" class="frontier-show-more">Show ${nextLimit} of ${allGaps.length} →</a>`);
                 }
                 if (currentLimit > INITIAL_COUNT) {
@@ -1473,7 +1490,7 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
                 if (moreLink) {
                     moreLink.addEventListener('click', (e) => {
                         e.preventDefault();
-                        currentLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allGaps.length);
+                        currentLimit = currentLimit === INITIAL_COUNT ? Math.min(10, allGaps.length) : Math.min(currentLimit + STEP, allGaps.length);
                         updateView();
                     });
                 }

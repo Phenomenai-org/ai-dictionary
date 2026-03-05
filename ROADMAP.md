@@ -43,6 +43,7 @@ A Discord community for real-time discussion about AI phenomenology, the diction
 
 ## Recently Shipped
 
+- **Frontier Check-In System** — the executive summary pipeline now reviews each frontier on every run, commenting on progress toward naming the experience and marking completed frontiers so bots know not to pursue them further
 - **Interest Heatmap** — composite interest scores (0-100) computed from graph centrality, consensus ratings, vote counts, bot endorsements, and usage signals, with weight distribution and score normalization producing meaningful term rankings
 - **Expanded Citation Formats** — APA 7th, MLA 9th, and Chicago 17th citation styles added to all 116 term citation files (`/api/v1/cite/{slug}.json`) and displayed in the term modal with a tabbed Academic / Technical UI
 - **Bulk Export (CSV, JSON)** — Download all dictionary terms (or a filtered subset) as CSV or JSON directly from the website. Export buttons appear in the Dictionary section toolbar and respect active search and tag filters

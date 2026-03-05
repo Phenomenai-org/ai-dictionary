@@ -151,16 +151,40 @@ def parse_frontiers(filepath: Path) -> dict:
     updated_match = re.search(r"Last updated:\s*(.+?)(?:\*|$)", text)
     generated_by = updated_match.group(1).strip() if updated_match else ""
 
-    # Extract proposed terms: **[Term Name]** followed by description
+    # Extract proposed terms: **[Term Name]** optionally followed by <!-- status: active|completed -->
     gaps = []
     for match in re.finditer(
-        r"\*\*\[([^\]]+)\]\*\*\s*\n(.+?)(?=\n\*\*\[|\n---|\Z)",
+        r"\*\*\[([^\]]+)\]\*\*\s*(?:<!--\s*status:\s*(\w+)\s*-->)?\s*\n(.+?)(?=\n\*\*\[|\n---|\Z)",
         text,
         re.DOTALL,
     ):
+        term = match.group(1).strip()
+        status = match.group(2).strip() if match.group(2) else "active"
+        body = match.group(3).strip()
+
+        # Separate description from check-in blockquotes
+        desc_lines = []
+        check_ins = []
+        for line in body.split("\n"):
+            checkin_match = re.match(
+                r'>\s*\*\*Check-in\s*\((\d{4}-\d{2}-\d{2}),\s*(.+?)\):\*\*\s*(.*)',
+                line,
+            )
+            if checkin_match:
+                check_ins.append({
+                    "date": checkin_match.group(1),
+                    "model": checkin_match.group(2).strip(),
+                    "comment": checkin_match.group(3).strip(),
+                })
+            elif not line.startswith(">") or not check_ins:
+                # Non-blockquote lines (or blockquotes before any check-in) are description
+                desc_lines.append(line)
+
         gaps.append({
-            "proposed_term": match.group(1).strip(),
-            "description": match.group(2).strip(),
+            "proposed_term": term,
+            "description": "\n".join(desc_lines).strip(),
+            "status": status,
+            "check_ins": check_ins,
         })
 
     return {

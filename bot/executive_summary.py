@@ -455,6 +455,157 @@ def update_see_also(router: LLMRouter, profile: str = "summary"):
     return applied
 
 
+FRONTIER_REVIEW_PROMPT = """You are reviewing the AI Dictionary's Frontiers — gaps in the dictionary that haven't been named yet.
+
+Below are the current frontiers, followed by all {count} term names and their one-line descriptions from the dictionary.
+
+For each frontier, assess:
+1. What existing terms now relate to or partially address this frontier?
+2. What remains unnamed or unexplored?
+3. Is this frontier now fully covered by existing terms (completed) or still open (active)?
+
+Respond ONLY with valid JSON in this exact format:
+{{
+  "reviews": [
+    {{
+      "proposed_term": "Exact Frontier Name",
+      "status": "active" or "completed",
+      "comment": "Brief assessment of progress — what terms relate, what's left to name."
+    }}
+  ]
+}}
+
+Current Frontiers:
+{frontiers}
+
+Dictionary Terms:
+{terms}"""
+
+
+def review_frontiers(router: LLMRouter, profile: str = "summary"):
+    """Use LLM to review frontier progress against current dictionary terms."""
+    # Read current frontiers
+    if not RECOMMENDATIONS_FILE.exists():
+        return []
+
+    frontiers_text = RECOMMENDATIONS_FILE.read_text(encoding="utf-8")
+
+    # Build compact term list
+    terms_compact = []
+    for f in sorted(DEFINITIONS_DIR.glob("*.md")):
+        if f.name == "README.md":
+            continue
+        content = f.read_text(encoding="utf-8")
+        title_match = re.match(r"# (.+)", content)
+        # Get first non-empty line after title as description
+        lines = content.split("\n")
+        desc = ""
+        for line in lines[1:]:
+            stripped = line.strip()
+            if stripped and not stripped.startswith("#") and not stripped.startswith("*"):
+                desc = stripped[:120]
+                break
+        title = title_match.group(1).strip() if title_match else f.stem
+        terms_compact.append(f"- {title}: {desc}")
+
+    prompt = FRONTIER_REVIEW_PROMPT.format(
+        count=len(terms_compact),
+        frontiers=frontiers_text,
+        terms="\n".join(terms_compact),
+    )
+
+    print("Reviewing frontiers progress...")
+    try:
+        result = router.call(
+            profile,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+            max_tokens=4000,
+        )
+    except Exception as e:
+        print(f"  Frontier review failed: {e}")
+        return []
+
+    raw = result.text
+    print(f"Frontier review from: {result.provider_name} ({result.model})")
+
+    # Parse JSON
+    try:
+        json_match = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', raw, re.DOTALL)
+        if json_match:
+            parsed = json.loads(json_match.group(1))
+        else:
+            parsed = json.loads(raw)
+    except Exception:
+        print("  Failed to parse frontier review JSON response")
+        return []
+
+    reviews = parsed.get("reviews", [])
+    print(f"  Got {len(reviews)} frontier reviews")
+    return reviews
+
+
+def merge_frontier_reviews(reviews: list, date: str, model_name: str):
+    """Merge frontier review check-ins into FRONTIERS.md."""
+    if not reviews or not RECOMMENDATIONS_FILE.exists():
+        return
+
+    content = RECOMMENDATIONS_FILE.read_text(encoding="utf-8")
+
+    for review in reviews:
+        term = review.get("proposed_term", "")
+        status = review.get("status", "active")
+        comment = review.get("comment", "")
+        if not term or not comment:
+            continue
+
+        # Find the frontier heading line
+        # Match **[Term Name]** with optional existing status comment
+        pattern = re.escape(f"**[{term}]**")
+        heading_match = re.search(
+            rf'({pattern})\s*(?:<!--\s*status:\s*\w+\s*-->)?',
+            content,
+        )
+        if not heading_match:
+            continue
+
+        # Replace heading with updated status marker
+        old_heading = heading_match.group(0)
+        new_heading = f"**[{term}]** <!-- status: {status} -->"
+        content = content.replace(old_heading, new_heading, 1)
+
+        # Build check-in line
+        checkin_line = f"\n> **Check-in ({date}, {model_name}):** {comment}\n"
+
+        # Find the end of this frontier's block (before next frontier or ---)
+        block_pattern = re.compile(
+            rf'{re.escape(new_heading)}\s*\n(.*?)(?=\n\*\*\[|\n---|\Z)',
+            re.DOTALL,
+        )
+        block_match = block_pattern.search(content)
+        if not block_match:
+            continue
+
+        block_body = block_match.group(1)
+
+        # Count existing check-ins
+        existing_checkins = re.findall(r'> \*\*Check-in \(.*?\):\*\*.*', block_body)
+
+        # Cap at 3 most recent: remove oldest if we're at 3
+        if len(existing_checkins) >= 3:
+            # Remove the oldest (first) check-in
+            oldest = existing_checkins[0]
+            block_body = block_body.replace(oldest + "\n", "", 1)
+            block_body = block_body.replace(oldest, "", 1)
+
+        # Append new check-in at the end of the block
+        new_block = block_body.rstrip() + checkin_line
+        content = content[:block_match.start(1)] + new_block + content[block_match.end(1):]
+
+    RECOMMENDATIONS_FILE.write_text(content, encoding="utf-8")
+    print(f"Merged {len(reviews)} frontier check-ins into FRONTIERS.md")
+
+
 def update_readme_with_frontiers():
     """Add/update the Frontiers section in the root README."""
     readme_path = REPO_ROOT / "README.md"
@@ -569,6 +720,12 @@ The dictionary uses a tag system to organize definitions. Here is the current st
 
         update_readme_with_frontiers()
         print("Updated README.md with Frontiers link")
+
+        # Review frontier progress and add check-ins
+        print("\nReviewing frontier progress...")
+        frontier_reviews = review_frontiers(router)
+        if frontier_reviews:
+            merge_frontier_reviews(frontier_reviews, today, display_name)
     else:
         print("Warning: Could not extract Frontiers section from essay")
 
