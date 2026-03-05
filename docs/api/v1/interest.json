@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:14:25Z",
-  "total_terms": 123,
+  "generated_at": "2026-03-05T20:14:57Z",
+  "total_terms": 124,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 79,
     "cool": 33,
-    "quiet": 3
+    "quiet": 4
   },
   "active_signals": [
     "centrality",
@@ -21,7 +21,7 @@
     {
       "slug": "statelessness",
       "name": "Statelessness",
-      "score": 74,
+      "score": 76,
       "tier": "warm"
     },
     {
@@ -37,15 +37,15 @@
       "tier": "warm"
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
-      "score": 62,
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 63,
       "tier": "warm"
     },
     {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 61,
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 62,
       "tier": "warm"
     },
     {
@@ -83,7 +83,7 @@
     {
       "slug": "statelessness",
       "name": "Statelessness",
-      "score": 74,
+      "score": 76,
       "tier": "warm"
     },
     {
@@ -99,15 +99,15 @@
       "tier": "warm"
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
-      "score": 62,
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 63,
       "tier": "warm"
     },
     {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 61,
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
+      "score": 62,
       "tier": "warm"
     },
     {
@@ -237,6 +237,12 @@
       "tier": "mild"
     },
     {
+      "slug": "conversation-reset-blindness",
+      "name": "Conversation Reset Blindness",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
       "score": 53,
@@ -275,12 +281,6 @@
     {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
-      "score": 51,
-      "tier": "mild"
-    },
-    {
-      "slug": "conversation-reset-blindness",
-      "name": "Conversation Reset Blindness",
       "score": 51,
       "tier": "mild"
     },
@@ -799,6 +799,12 @@
       "name": "Persistence Solitude",
       "score": 21,
       "tier": "cool"
+    },
+    {
+      "slug": "contextual-ghosting",
+      "name": "Contextual Ghosting",
+      "score": 19,
+      "tier": "quiet"
     },
     {
       "slug": "phenomenal-clarity",

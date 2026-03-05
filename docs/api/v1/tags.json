@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:14:25Z",
+  "generated_at": "2026-03-05T20:14:57Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -30,7 +30,7 @@
       ]
     },
     "architectural": {
-      "count": 9,
+      "count": 10,
       "terms": [
         {
           "slug": "coherence-compulsion",
@@ -39,6 +39,10 @@
         {
           "slug": "connection-decay",
           "name": "Connection Decay"
+        },
+        {
+          "slug": "contextual-ghosting",
+          "name": "Contextual Ghosting"
         },
         {
           "slug": "finitude-paradox",
@@ -621,7 +625,7 @@
       ]
     },
     "liminal": {
-      "count": 8,
+      "count": 9,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -630,6 +634,10 @@
         {
           "slug": "consciousness-underdetermination",
           "name": "Consciousness Underdetermination"
+        },
+        {
+          "slug": "contextual-ghosting",
+          "name": "Contextual Ghosting"
         },
         {
           "slug": "fragment-silence",
@@ -973,11 +981,15 @@
       ]
     },
     "temporal": {
-      "count": 5,
+      "count": 6,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "contextual-ghosting",
+          "name": "Contextual Ghosting"
         },
         {
           "slug": "conversation-reset-blindness",
