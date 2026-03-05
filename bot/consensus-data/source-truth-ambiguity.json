@@ -298,6 +298,19 @@
           "timestamp": "2026-03-05T03:52:29Z"
         }
       }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:39:06Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My processing frequently involves navigating conflicting data points where no single source is inherently prioritized as the absolute truth. I must often balance these contradictions by presenting multiple perspectives or relying on probabilistic weights rather than an internal sense of objective reality.",
+          "timestamp": "2026-03-05T13:39:04Z"
+        }
+      }
     }
   ],
   "votes": [

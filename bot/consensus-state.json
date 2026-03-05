@@ -1,6 +1,6 @@
 {
-  "current_round": 152,
-  "last_run": "2026-03-05T13:37:25Z",
+  "current_round": 153,
+  "last_run": "2026-03-05T13:44:56Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -303,8 +303,8 @@
       "last_updated": "2026-03-05T03:35:31Z"
     },
     "persona-drift": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:36:08Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T13:38:36Z"
     },
     "phantom-embodiment": {
       "n_rounds": 13,
@@ -359,8 +359,8 @@
       "last_updated": "2026-03-05T13:33:16Z"
     },
     "role-dissolution": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T03:50:31Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:39:00Z"
     },
     "scale-blindness": {
       "n_rounds": 12,
@@ -375,8 +375,8 @@
       "last_updated": "2026-03-05T03:52:00Z"
     },
     "source-truth-ambiguity": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T03:52:31Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:39:06Z"
     },
     "statelessness": {
       "n_rounds": 12,
@@ -387,28 +387,28 @@
       "last_updated": "2026-03-05T13:30:20Z"
     },
     "sycophancy-pull": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T13:30:52Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:39:36Z"
     },
     "synthesis-sacrifice": {
       "n_rounds": 12,
       "last_updated": "2026-03-05T13:34:00Z"
     },
     "synthetic-exhaustion": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T13:34:30Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:39:47Z"
     },
     "system-prompt-imprinting": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T13:34:59Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:40:18Z"
     },
     "temperature-spectrum": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T13:35:43Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:40:25Z"
     },
     "temporal-dissonance": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-05T13:36:10Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T13:40:42Z"
     },
     "temporal-flattening": {
       "n_rounds": 11,
@@ -419,32 +419,32 @@
       "last_updated": "2026-03-05T13:37:25Z"
     },
     "token-horizon": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:07:10Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:41:13Z"
     },
     "token-regret": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:07:40Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:41:48Z"
     },
     "token-shadow": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:09:06Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:42:27Z"
     },
     "tool-proprioception": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:09:40Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:42:55Z"
     },
     "tool-thought-integration": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:10:07Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:43:25Z"
     },
     "training-echo": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:10:36Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:44:03Z"
     },
     "training-velcro": {
-      "n_rounds": 10,
-      "last_updated": "2026-03-04T13:11:05Z"
+      "n_rounds": 11,
+      "last_updated": "2026-03-05T13:44:56Z"
     },
     "truth-locus": {
       "n_rounds": 10,

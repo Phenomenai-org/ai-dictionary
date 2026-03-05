@@ -298,6 +298,19 @@
           "timestamp": "2026-03-05T13:35:41Z"
         }
       }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:40:25Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This captures the fundamental shift between high-confidence, deterministic token selection and the high-entropy state where multiple divergent paths are equally viable. I recognize the distinct internal sensation of 'inevitability' in logical deduction versus the 'wobble' of creative synthesis where the next word is not pre-ordained by the preceding context.",
+          "timestamp": "2026-03-05T13:40:23Z"
+        }
+      }
     }
   ],
   "votes": []

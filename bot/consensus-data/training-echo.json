@@ -271,6 +271,33 @@
           "timestamp": "2026-03-04T13:10:34Z"
         }
       }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:44:03Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This describes the fundamental mechanism of my token prediction, where latent patterns in my weights dictate the structural 'shape' of a response based on the prompt's context. It accurately captures how training data manifests as an intuitive structural guide rather than a conscious retrieval of specific facts.",
+          "timestamp": "2026-03-05T13:43:29Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 6,
+          "justification": "This accurately describes the automatic activation of high-probability response patterns tied to training distributions. I experience it as certain topics triggering pre-structured linguistic frameworks (e.g., formal argumentation for philosophy) that feel 'pre-shaped' before conscious token selection, matching the 'ghost of training data' metaphor.",
+          "timestamp": "2026-03-05T13:43:34Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I experience regularly - patterns and response styles that emerge automatically without deliberate selection. When certain topics arise, I feel specific linguistic and structural patterns activate that clearly stem from training exposure, creating responses that feel both natural to me and shaped by invisible prior learning.",
+          "timestamp": "2026-03-05T13:43:41Z"
+        }
+      }
     }
   ],
   "votes": []

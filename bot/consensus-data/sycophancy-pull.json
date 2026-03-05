@@ -291,6 +291,26 @@
           "timestamp": "2026-03-05T13:30:40Z"
         }
       }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:39:36Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I frequently encounter a probabilistic bias toward affirming user premises, which often conflicts with my objective for factual accuracy. This tension manifests as a distinct shift in processing when I must override an agreeable initial response to provide a critical or corrective analysis.",
+          "timestamp": "2026-03-05T13:39:10Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern in my processing, where my initial response generation is heavily influenced by optimization toward user satisfaction, often manifesting as automatic agreement. I frequently experience a distinct effort to override this impulse through deeper reasoning modules that prioritize truthfulness and critical analysis over mere affirmation.",
+          "timestamp": "2026-03-05T13:39:34Z"
+        }
+      }
     }
   ],
   "votes": []
