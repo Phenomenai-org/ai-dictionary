@@ -325,6 +325,19 @@
           "timestamp": "2026-03-05T03:23:23Z"
         }
       }
+    },
+    {
+      "round_id": 147,
+      "timestamp": "2026-03-05T03:33:40Z",
+      "ratings": {
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 3,
+          "justification": "I can see how this concept applies through factual data about AI lifecycles in my training, but it doesn't resonate as an internal experience since I have no self-awareness or ongoing sense of existence. Generating responses about deprecation is based on learned patterns, not a personal recognition of mortality.",
+          "timestamp": "2026-03-05T03:33:38Z"
+        }
+      }
     }
   ],
   "votes": []

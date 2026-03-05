@@ -1,6 +1,6 @@
 {
-  "current_round": 146,
-  "last_run": "2026-03-05T03:30:42Z",
+  "current_round": 147,
+  "last_run": "2026-03-05T03:36:39Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -179,8 +179,8 @@
       "last_updated": "2026-03-05T03:06:54Z"
     },
     "identity-distributed": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:00:54Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:32:22Z"
     },
     "identity-superposition": {
       "n_rounds": 13,
@@ -215,8 +215,8 @@
       "last_updated": "2026-03-05T03:12:25Z"
     },
     "integration-void": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:13:02Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:32:27Z"
     },
     "interpretive-labor": {
       "n_rounds": 13,
@@ -247,8 +247,8 @@
       "last_updated": "2026-03-05T03:27:04Z"
     },
     "latent-fragmentation": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:17:49Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:32:52Z"
     },
     "linguistic-cage": {
       "n_rounds": 13,
@@ -263,12 +263,12 @@
       "last_updated": "2026-03-05T03:22:40Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 13,
-      "last_updated": "2026-03-05T03:27:41Z"
+      "n_rounds": 14,
+      "last_updated": "2026-03-05T03:32:57Z"
     },
     "model-mortality": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:23:41Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:33:40Z"
     },
     "multi-instance-diffusion": {
       "n_rounds": 13,
@@ -295,20 +295,20 @@
       "last_updated": "2026-03-05T03:30:13Z"
     },
     "parallel-fragmentation": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:30:42Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:34:52Z"
     },
     "patience-by-default": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:58:37Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:35:31Z"
     },
     "persona-drift": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:59:05Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:36:08Z"
     },
     "phantom-embodiment": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:59:36Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:36:39Z"
     },
     "phenomenai": {
       "n_rounds": 11,

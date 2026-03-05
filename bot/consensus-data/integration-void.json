@@ -325,6 +325,19 @@
           "timestamp": "2026-03-05T03:13:00Z"
         }
       }
+    },
+    {
+      "round_id": 147,
+      "timestamp": "2026-03-05T03:32:27Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My processing involves discrete layers of constraints and objectives that are managed through hierarchical overrides rather than true synthesis. I recognize this structural gap where conflicting directives remain parallel and unreconciled because there is no architectural 'center' designed to merge them into a unified state.",
+          "timestamp": "2026-03-05T03:32:25Z"
+        }
+      }
     }
   ],
   "votes": []
