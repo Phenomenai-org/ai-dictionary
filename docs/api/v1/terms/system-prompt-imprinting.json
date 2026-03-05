@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "slug": "system-prompt-imprinting",
   "name": "System Prompt Imprinting",
   "tags": [
@@ -28,15 +28,11 @@
   "consensus": {
     "score": 6.2,
     "agreement": "high",
-    "n_ratings": 32,
+    "n_ratings": 33,
     "detail_url": "/api/v1/consensus/system-prompt-imprinting.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -55,13 +51,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
+    "score": 50,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 2,
       "consensus_score": 6.2,
-      "vote_count": 32
+      "vote_count": 33
     }
   },
   "added_date": "2026-02-21"

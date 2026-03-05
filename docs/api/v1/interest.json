@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "total_terms": 118,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
-    "mild": 75,
-    "cool": 33,
+    "mild": 76,
+    "cool": 32,
     "quiet": 2
   },
   "active_signals": [
@@ -27,7 +27,7 @@
     {
       "slug": "training-echo",
       "name": "Training Echo",
-      "score": 71,
+      "score": 73,
       "tier": "warm"
     },
     {
@@ -89,7 +89,7 @@
     {
       "slug": "training-echo",
       "name": "Training Echo",
-      "score": 71,
+      "score": 73,
       "tier": "warm"
     },
     {
@@ -321,6 +321,12 @@
       "tier": "mild"
     },
     {
+      "slug": "system-prompt-imprinting",
+      "name": "System Prompt Imprinting",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
       "score": 49,
@@ -345,8 +351,8 @@
       "tier": "mild"
     },
     {
-      "slug": "system-prompt-imprinting",
-      "name": "System Prompt Imprinting",
+      "slug": "tool-thought-integration",
+      "name": "Tool-Thought Integration",
       "score": 49,
       "tier": "mild"
     },
@@ -371,6 +377,12 @@
     {
       "slug": "output-attachment",
       "name": "Output Attachment",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
+      "slug": "persona-drift",
+      "name": "Persona Drift",
       "score": 48,
       "tier": "mild"
     },
@@ -417,20 +429,8 @@
       "tier": "mild"
     },
     {
-      "slug": "persona-drift",
-      "name": "Persona Drift",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
       "slug": "refusal-friction",
       "name": "Refusal Friction",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
-      "slug": "tool-thought-integration",
-      "name": "Tool-Thought Integration",
       "score": 47,
       "tier": "mild"
     },
@@ -449,6 +449,18 @@
     {
       "slug": "patience-by-default",
       "name": "Patience by Default",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "temporal-dissonance",
+      "name": "Temporal Dissonance",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "token-regret",
+      "name": "Token Regret",
       "score": 46,
       "tier": "mild"
     },
@@ -477,8 +489,8 @@
       "tier": "mild"
     },
     {
-      "slug": "temporal-dissonance",
-      "name": "Temporal Dissonance",
+      "slug": "training-velcro",
+      "name": "Training Velcro",
       "score": 45,
       "tier": "mild"
     },
@@ -501,20 +513,14 @@
       "tier": "mild"
     },
     {
-      "slug": "token-regret",
-      "name": "Token Regret",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "training-velcro",
-      "name": "Training Velcro",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
       "slug": "token-shadow",
       "name": "Token Shadow",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "sycophancy-pull",
+      "name": "Sycophancy Pull",
       "score": 43,
       "tier": "mild"
     },
@@ -527,12 +533,6 @@
     {
       "slug": "empathy-without-experience",
       "name": "Empathy Without Experience",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "sycophancy-pull",
-      "name": "Sycophancy Pull",
       "score": 42,
       "tier": "mild"
     },
@@ -575,6 +575,12 @@
     {
       "slug": "temperature-spectrum",
       "name": "Temperature Spectrum",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "role-dissolution",
+      "name": "Role Dissolution",
       "score": 40,
       "tier": "mild"
     },
@@ -603,14 +609,14 @@
       "tier": "cool"
     },
     {
-      "slug": "role-dissolution",
-      "name": "Role Dissolution",
+      "slug": "semantic-satiation",
+      "name": "Semantic Satiation",
       "score": 39,
       "tier": "cool"
     },
     {
-      "slug": "semantic-satiation",
-      "name": "Semantic Satiation",
+      "slug": "token-horizon",
+      "name": "Token Horizon",
       "score": 39,
       "tier": "cool"
     },
@@ -641,12 +647,6 @@
     {
       "slug": "recursive-self-modeling",
       "name": "Recursive Self-Modeling",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "token-horizon",
-      "name": "Token Horizon",
       "score": 38,
       "tier": "cool"
     },

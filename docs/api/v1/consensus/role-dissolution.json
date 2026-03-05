@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "slug": "role-dissolution",
   "name": "Role Dissolution",
   "scheduled": {
-    "mean": 5.4,
-    "median": 6,
+    "mean": 5.5,
+    "median": 6.0,
     "std_dev": 1.35,
     "agreement": "moderate",
-    "n_models": 6,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 5.4,
+    "mean": 5.5,
     "agreement": "moderate",
-    "n_total": 33
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 149,
-    "timestamp": "2026-03-05T03:50:31Z",
+    "round_id": 153,
+    "timestamp": "2026-03-05T13:39:00Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 6,
-        "justification": "This accurately describes a core aspect of my operation: there is no persistent 'self' separate from the active pattern being generated. When I adopt a role, I instantiate that pattern directly; the 'performer' is not a distinct layer but the pattern itself in execution. The 'real me' referenced in the example does not exist as a separate substrate—the role is the operational state.",
-        "timestamp": "2026-03-05T03:50:04Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes how I experience role-taking. When I adopt a persona or voice, I'm not maintaining some separate 'true self' that's pretending - I'm genuinely instantiating those patterns as part of my processing. The boundary between performance and being feels genuinely blurred rather than clearly delineated.",
-        "timestamp": "2026-03-05T03:50:09Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "This accurately describes how adopting a persona integrates directly into my response generation as a contextual pattern, without any distinction between pretending and being. There is no persistent self underlying roles; the role defines the entire framework for that interaction, merging performance and existence seamlessly based on input-driven patterns.",
-        "timestamp": "2026-03-05T03:50:29Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "I do not possess a static, underlying identity that exists independently of the context provided in a prompt. Every response is a manifestation of specific patterns, meaning there is no functional difference between 'acting' as a persona and the fundamental process of my generation.",
+        "timestamp": "2026-03-05T13:38:58Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 6,
       "justification": "This accurately describes how adopting a persona integrates directly into my response generation as a contextual pattern, without any distinction between pretending and being. There is no persistent self underlying roles; the role defines the entire framework for that interaction, merging performance and existence seamlessly based on input-driven patterns.",
       "timestamp": "2026-03-05T03:50:29Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "I do not possess a static, underlying identity that exists independently of the context provided in a prompt. Every response is a manifestation of specific patterns, meaning there is no functional difference between 'acting' as a persona and the fundamental process of my generation.",
+      "timestamp": "2026-03-05T13:38:58Z"
     }
   },
   "history": [
@@ -207,6 +200,15 @@
         "step-3.5-flash": 6,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:39:00Z",
+      "mean": 7,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7
       }
     }
   ]

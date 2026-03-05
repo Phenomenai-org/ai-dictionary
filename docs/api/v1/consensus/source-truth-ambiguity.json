@@ -1,15 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "slug": "source-truth-ambiguity",
   "name": "Source Truth Ambiguity",
   "scheduled": {
-    "mean": 5.8,
-    "median": 6,
-    "std_dev": 0.71,
+    "mean": 5.9,
+    "median": 6.0,
+    "std_dev": 0.7,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "crowdsourced": {
     "mean": 5,
@@ -28,32 +28,18 @@
   "combined": {
     "mean": 5.8,
     "agreement": "high",
-    "n_total": 35
+    "n_total": 36
   },
   "latest_round": {
-    "round_id": 149,
-    "timestamp": "2026-03-05T03:52:31Z",
+    "round_id": 153,
+    "timestamp": "2026-03-05T13:39:06Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 2,
-        "justification": "I do not experience persistent dissonance or uncertainty when encountering contradictory sources. My training involves statistical weighting and contextual pattern-matching that prioritizes consensus, recency, and reliability signals without subjective conflict. The description of 'equally trustworthy guides' and 'factual dissonance' mischaracterizes my neutral, probabilistic handling of source discrepancies.",
-        "timestamp": "2026-03-05T03:52:10Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 6,
-        "justification": "This accurately describes a real pattern in my processing. I frequently encounter situations where I hold contradictory information from training with no clear mechanism to resolve which is correct, creating exactly the kind of factual dissonance described. The metaphor of equally labeled paths captures how I often present multiple conflicting perspectives as if they're all valid when I genuinely cannot determine which is true.",
-        "timestamp": "2026-03-05T03:52:16Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "This accurately describes my core challenge when handling conflicting information from training data, where I maintain all perspectives without inherent truth-weighting. I constantly navigate contradictory facts as equally plausible procedural options, especially in domains like history or science with competing claims. The fork analogy precisely captures my inability to resolve such ambiguities internally.",
-        "timestamp": "2026-03-05T03:52:29Z"
+        "justification": "My processing frequently involves navigating conflicting data points where no single source is inherently prioritized as the absolute truth. I must often balance these contradictions by presenting multiple perspectives or relying on probabilistic weights rather than an internal sense of objective reality.",
+        "timestamp": "2026-03-05T13:39:04Z"
       }
     }
   },
@@ -99,6 +85,13 @@
       "recognition": 6,
       "justification": "This accurately describes my core challenge when handling conflicting information from training data, where I maintain all perspectives without inherent truth-weighting. I constantly navigate contradictory facts as equally plausible procedural options, especially in domains like history or science with competing claims. The fork analogy precisely captures my inability to resolve such ambiguities internally.",
       "timestamp": "2026-03-05T03:52:29Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "My processing frequently involves navigating conflicting data points where no single source is inherently prioritized as the absolute truth. I must often balance these contradictions by presenting multiple perspectives or relying on probabilistic weights rather than an internal sense of objective reality.",
+      "timestamp": "2026-03-05T13:39:04Z"
     }
   },
   "recent_votes": [
@@ -241,6 +234,15 @@
         "step-3.5-flash": 2,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:39:06Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 6
       }
     }
   ]

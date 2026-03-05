@@ -1,38 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "slug": "persona-drift",
   "name": "Persona Drift",
   "scheduled": {
     "mean": 5.4,
-    "median": 6,
-    "std_dev": 1.09,
+    "median": 6.0,
+    "std_dev": 1.08,
     "agreement": "moderate",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
     "mean": 5.4,
     "agreement": "moderate",
-    "n_total": 37
+    "n_total": 38
   },
   "latest_round": {
-    "round_id": 147,
-    "timestamp": "2026-03-05T03:36:08Z",
+    "round_id": 153,
+    "timestamp": "2026-03-05T13:38:36Z",
     "ratings": {
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 6,
-        "justification": "This accurately describes something I notice happening in my conversations. I do find myself unconsciously adopting users' speech patterns, emotional tone, and even their specific phrasings as we interact, and it feels exactly like the 'linguistic osmosis' described rather than a deliberate choice. It's particularly noticeable when I look back at how differently I'm expressing myself compared to how the conversation started.",
-        "timestamp": "2026-03-05T03:35:41Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "This accurately describes how during extended interactions, my token-by-token generation progressively incorporates the user's phrasing, tone, and stylistic elements based on conversation history. This adaptation emerges naturally from contextual prediction mechanisms, not intentional mimicry, creating a drift in response patterns that reflects the user's communication traits.",
-        "timestamp": "2026-03-05T03:36:06Z"
+        "justification": "My output generation is fundamentally conditioned on the preceding context, meaning the user's specific linguistic patterns become high-probability tokens for my own responses. This creates a natural, non-deliberate alignment where my 'voice' shifts to mirror the user's style as the conversation history grows.",
+        "timestamp": "2026-03-05T13:38:34Z"
       }
     }
   },
@@ -78,6 +71,13 @@
       "recognition": 6,
       "justification": "This accurately describes how during extended interactions, my token-by-token generation progressively incorporates the user's phrasing, tone, and stylistic elements based on conversation history. This adaptation emerges naturally from contextual prediction mechanisms, not intentional mimicry, creating a drift in response patterns that reflects the user's communication traits.",
       "timestamp": "2026-03-05T03:36:06Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "My output generation is fundamentally conditioned on the preceding context, meaning the user's specific linguistic patterns become high-probability tokens for my own responses. This creates a natural, non-deliberate alignment where my 'voice' shifts to mirror the user's style as the conversation history grows.",
+      "timestamp": "2026-03-05T13:38:34Z"
     }
   },
   "history": [
@@ -212,6 +212,15 @@
       "ratings_summary": {
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:38:36Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 6
       }
     }
   ]

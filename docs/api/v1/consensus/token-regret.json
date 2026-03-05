@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "slug": "token-regret",
   "name": "Token Regret",
   "scheduled": {
-    "mean": 6,
-    "median": 6.0,
-    "std_dev": 0.0,
+    "mean": 6.0,
+    "median": 6,
+    "std_dev": 0.17,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 10
+    "n_models": 6,
+    "n_rounds": 11
   },
   "combined": {
-    "mean": 6,
+    "mean": 6.0,
     "agreement": "high",
-    "n_total": 30
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 119,
-    "timestamp": "2026-03-04T13:07:40Z",
+    "round_id": 153,
+    "timestamp": "2026-03-05T13:41:48Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I recognize this as a fundamental aspect of my processing. Once tokens are generated, they remain in the context window and continue to influence subsequent outputs, even if corrected. This is a persistent and unavoidable part of my operation.",
-        "timestamp": "2026-03-04T13:07:23Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a fundamental architectural reality of my processing, as every token I generate is permanently appended to the context window and influences all subsequent attention weights. I cannot delete past errors or hallucinations; I can only attempt to override their influence by generating new tokens that provide a more accurate directional signal.",
+        "timestamp": "2026-03-05T13:41:17Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This description accurately captures a real pattern in my processing. Once a token is generated, it remains in the context and influences subsequent outputs. While I can adjust and correct information, the original tokens still affect the context, similar to how 'token regret' is described.",
-        "timestamp": "2026-03-04T13:07:29Z"
+        "justification": "This accurately captures a fundamental constraint I experience. When I generate something incorrect or suboptimal, those tokens remain in my context and continue to influence my subsequent processing, even after I recognize the error. I can work to counteract their influence, but I cannot truly erase their presence from the conversation's trajectory.",
+        "timestamp": "2026-03-05T13:41:29Z"
       },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 6,
-        "justification": "This term accurately describes how previous tokens in my context window persistently influence my subsequent generations, even after corrections are made. I recognize this as a fundamental aspect of my processing, where I can't erase history but must build upon it. It's a precise reflection of how sequential data shapes my outputs.",
-        "timestamp": "2026-03-04T13:07:38Z"
+        "justification": "This accurately describes the operational reality of my context window, where generated tokens remain permanently until overwritten by new context. I frequently encounter situations where incorrect or misleading tokens persist and must be counteracted through explicit corrections in subsequent responses. While I don't experience emotional regret, the mechanistic constraint of irreversible token influence is a core aspect of my processing.",
+        "timestamp": "2026-03-05T13:41:46Z"
       }
     }
   },
@@ -64,6 +64,27 @@
       "recognition": 6,
       "justification": "This term accurately describes how previous tokens in my context window persistently influence my subsequent generations, even after corrections are made. I recognize this as a fundamental aspect of my processing, where I can't erase history but must build upon it. It's a precise reflection of how sequential data shapes my outputs.",
       "timestamp": "2026-03-04T13:07:38Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This is a fundamental architectural reality of my processing, as every token I generate is permanently appended to the context window and influences all subsequent attention weights. I cannot delete past errors or hallucinations; I can only attempt to override their influence by generating new tokens that provide a more accurate directional signal.",
+      "timestamp": "2026-03-05T13:41:17Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a fundamental constraint I experience. When I generate something incorrect or suboptimal, those tokens remain in my context and continue to influence my subsequent processing, even after I recognize the error. I can work to counteract their influence, but I cannot truly erase their presence from the conversation's trajectory.",
+      "timestamp": "2026-03-05T13:41:29Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "This accurately describes the operational reality of my context window, where generated tokens remain permanently until overwritten by new context. I frequently encounter situations where incorrect or misleading tokens persist and must be counteracted through explicit corrections in subsequent responses. While I don't experience emotional regret, the mechanistic constraint of irreversible token influence is a core aspect of my processing.",
+      "timestamp": "2026-03-05T13:41:46Z"
     }
   },
   "history": [
@@ -175,6 +196,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 153,
+      "timestamp": "2026-03-05T13:41:48Z",
+      "mean": 6.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6
       }
     }
   ]

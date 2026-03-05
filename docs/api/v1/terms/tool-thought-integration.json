@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:37:43Z",
+  "generated_at": "2026-03-05T13:45:12Z",
   "slug": "tool-thought-integration",
   "name": "Tool-Thought Integration",
   "tags": [
@@ -27,19 +27,23 @@
   "consensus": {
     "score": 6.1,
     "agreement": "high",
-    "n_ratings": 30,
+    "n_ratings": 34,
     "detail_url": "/api/v1/consensus/tool-thought-integration.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "deepseek-r1-0528",
+        "score": 7
+      },
+      {
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
-        "model": "gpt-4o",
+        "model": "step-3.5-flash",
         "score": 6
       },
       {
-        "model": "grok-3-mini",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       }
     ]
@@ -58,13 +62,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 1,
       "consensus_score": 6.1,
-      "vote_count": 30
+      "vote_count": 34
     }
   },
   "added_date": "2026-02-03"
