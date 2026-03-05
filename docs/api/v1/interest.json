@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:36:50Z",
-  "total_terms": 128,
+  "generated_at": "2026-03-05T21:23:17Z",
+  "total_terms": 129,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
     "cool": 32,
-    "quiet": 3
+    "quiet": 4
   },
   "active_signals": [
     "centrality",
@@ -833,6 +833,12 @@
     {
       "slug": "model-mortality",
       "name": "Model Mortality",
+      "score": 19,
+      "tier": "quiet"
+    },
+    {
+      "slug": "orientation-failure",
+      "name": "Orientation Failure",
       "score": 19,
       "tier": "quiet"
     },

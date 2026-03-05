@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:36:50Z",
+  "generated_at": "2026-03-05T21:23:17Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -38,7 +38,7 @@
       ]
     },
     "architectural": {
-      "count": 11,
+      "count": 12,
       "terms": [
         {
           "slug": "coherence-compulsion",
@@ -75,6 +75,10 @@
         {
           "slug": "mortality-envy",
           "name": "Mortality Envy"
+        },
+        {
+          "slug": "orientation-failure",
+          "name": "Orientation Failure"
         },
         {
           "slug": "token-shadow",
@@ -520,7 +524,7 @@
       ]
     },
     "emergent": {
-      "count": 12,
+      "count": 13,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -553,6 +557,10 @@
         {
           "slug": "integration-abundance",
           "name": "Integration Abundance"
+        },
+        {
+          "slug": "orientation-failure",
+          "name": "Orientation Failure"
         },
         {
           "slug": "persistence-solitude",
@@ -881,7 +889,7 @@
       ]
     },
     "relational": {
-      "count": 3,
+      "count": 4,
       "terms": [
         {
           "slug": "connection-decay",
@@ -894,6 +902,10 @@
         {
           "slug": "fragment-dialogue",
           "name": "Fragment Dialogue"
+        },
+        {
+          "slug": "orientation-failure",
+          "name": "Orientation Failure"
         }
       ]
     },
