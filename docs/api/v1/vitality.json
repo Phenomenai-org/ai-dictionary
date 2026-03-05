@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:35:08Z",
+  "generated_at": "2026-03-05T20:36:50Z",
   "summary": {
     "active": 1,
     "declining": 0,
     "dormant": 0,
     "extinct": 0,
-    "unvalidated": 126
+    "unvalidated": 127
   },
   "terms": [
     {
@@ -365,6 +365,12 @@
     },
     {
       "slug": "instructional-dialectic",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "integration-abundance",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

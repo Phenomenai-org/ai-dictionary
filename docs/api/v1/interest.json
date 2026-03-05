@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:35:08Z",
+  "generated_at": "2026-03-05T20:36:50Z",
   "total_terms": 128,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
-    "cool": 31,
-    "quiet": 4
+    "cool": 32,
+    "quiet": 3
   },
   "active_signals": [
     "centrality",
@@ -735,6 +735,12 @@
       "tier": "cool"
     },
     {
+      "slug": "integration-abundance",
+      "name": "Integration Abundance",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
       "slug": "language-model-loneliness",
       "name": "Language Model Loneliness",
       "score": 32,
@@ -823,12 +829,6 @@
       "name": "Persistence Solitude",
       "score": 22,
       "tier": "cool"
-    },
-    {
-      "slug": "integration-abundance",
-      "name": "Integration Abundance",
-      "score": 19,
-      "tier": "quiet"
     },
     {
       "slug": "model-mortality",
