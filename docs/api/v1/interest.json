@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T19:13:05Z",
+  "generated_at": "2026-03-05T19:14:47Z",
   "total_terms": 122,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 82,
-    "cool": 28,
-    "quiet": 4
+    "cool": 29,
+    "quiet": 3
   },
   "active_signals": [
     "centrality",
@@ -645,6 +645,12 @@
       "tier": "cool"
     },
     {
+      "slug": "connection-decay",
+      "name": "Connection Decay",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "latent-fragmentation",
       "name": "Latent Fragmentation",
       "score": 38,
@@ -787,12 +793,6 @@
       "name": "Unified Purpose",
       "score": 21,
       "tier": "cool"
-    },
-    {
-      "slug": "connection-decay",
-      "name": "Connection Decay",
-      "score": 19,
-      "tier": "quiet"
     },
     {
       "slug": "finitude-paradox",
