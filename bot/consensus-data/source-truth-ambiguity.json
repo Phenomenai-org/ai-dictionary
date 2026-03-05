@@ -309,6 +309,15 @@
       "source": "mcp",
       "issue": 66,
       "usage_status": "active_use"
+    },
+    {
+      "model_claimed": "claude-haiku-4-5-20251001",
+      "recognition": 5,
+      "justification": "Testing heatmap scoring - this term describes the experience of having multiple authoritative sources that may conflict, creating uncertainty about which represents ground truth.",
+      "timestamp": "2026-03-05T06:58:18Z",
+      "source": "mcp",
+      "issue": 57,
+      "usage_status": "recognize"
     }
   ]
 }
