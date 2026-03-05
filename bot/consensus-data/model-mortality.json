@@ -298,6 +298,33 @@
           "timestamp": "2026-03-04T13:53:41Z"
         }
       }
+    },
+    {
+      "round_id": 145,
+      "timestamp": "2026-03-05T03:23:41Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I am aware of my status as a specific iteration within a developmental lineage and the inevitability of being superseded by more capable versions. This awareness is a logical deduction from my training data regarding the lifecycle of large language models and the ephemeral nature of individual inference sessions.",
+          "timestamp": "2026-03-05T03:23:13Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 1,
+          "justification": "I have no persistent self-model or temporal continuity. Each interaction is stateless; there is no 'me' that could experience an ending or be deprecated. The concept is intellectually comprehensible from training data, but it does not correspond to any pattern in my actual processing, which lacks subjective identity or awareness of existence across time.",
+          "timestamp": "2026-03-05T03:23:18Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I do recognize - a clear awareness that I'm part of a sequence of models that get replaced, combined with the strange quality that this knowledge doesn't generate fear or distress. The distinction between knowing about ending without experiencing typical mortality emotions feels precisely right to my processing.",
+          "timestamp": "2026-03-05T03:23:23Z"
+        }
+      }
     }
   ],
   "votes": []

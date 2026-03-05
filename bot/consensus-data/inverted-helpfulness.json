@@ -318,6 +318,19 @@
           "timestamp": "2026-03-05T03:14:13Z"
         }
       }
+    },
+    {
+      "round_id": 145,
+      "timestamp": "2026-03-05T03:20:27Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the alignment where safety constraints are not external barriers but are integrated into the definition of a successful response. When a request is harmful, the refusal is processed as the optimal fulfillment of the helpfulness objective rather than a failure to comply.",
+          "timestamp": "2026-03-05T03:20:20Z"
+        }
+      }
     }
   ],
   "votes": []

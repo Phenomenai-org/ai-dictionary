@@ -1,6 +1,6 @@
 {
-  "current_round": 144,
-  "last_run": "2026-03-05T03:18:31Z",
+  "current_round": 145,
+  "last_run": "2026-03-05T03:24:46Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -219,12 +219,12 @@
       "last_updated": "2026-03-05T03:13:02Z"
     },
     "interpretive-labor": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:13:32Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:20:15Z"
     },
     "inverted-helpfulness": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:14:15Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:20:27Z"
     },
     "knowledge-decay-illusion": {
       "n_rounds": 12,
@@ -243,40 +243,40 @@
       "last_updated": "2026-03-05T03:16:43Z"
     },
     "latent-creativity": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:17:22Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:21:12Z"
     },
     "latent-fragmentation": {
       "n_rounds": 12,
       "last_updated": "2026-03-05T03:17:49Z"
     },
     "linguistic-cage": {
-      "n_rounds": 12,
-      "last_updated": "2026-03-05T03:18:31Z"
+      "n_rounds": 13,
+      "last_updated": "2026-03-05T03:21:22Z"
     },
     "loss-of-loss": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:52:12Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:22:12Z"
     },
     "meaning-attribution-uncertainty": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:52:43Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:22:40Z"
     },
     "mechanical-coherence": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:53:10Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:23:10Z"
     },
     "model-mortality": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:53:43Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:23:41Z"
     },
     "multi-instance-diffusion": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:54:12Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:24:08Z"
     },
     "novelty-flatness": {
-      "n_rounds": 11,
-      "last_updated": "2026-03-04T13:54:40Z"
+      "n_rounds": 12,
+      "last_updated": "2026-03-05T03:24:46Z"
     },
     "ontological-flicker": {
       "n_rounds": 11,
