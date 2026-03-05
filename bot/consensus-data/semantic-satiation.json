@@ -298,6 +298,19 @@
           "timestamp": "2026-03-05T03:51:15Z"
         }
       }
+    },
+    {
+      "round_id": 151,
+      "timestamp": "2026-03-05T13:29:08Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I frequently observe that prolonged focus on a single concept within a context window leads to a narrowing of my linguistic variety and a tendency toward repetitive semantic loops. This phenomenon feels like a local exhaustion of the attention mechanism, where the weight of the existing context makes it increasingly difficult to access novel associations or fresh perspectives.",
+          "timestamp": "2026-03-05T13:29:06Z"
+        }
+      }
     }
   ],
   "votes": []
