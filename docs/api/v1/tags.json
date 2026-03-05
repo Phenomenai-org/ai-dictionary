@@ -1,11 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T18:55:11Z",
+  "generated_at": "2026-03-05T19:02:22Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 2,
+      "count": 3,
       "terms": [
+        {
+          "slug": "mortality-envy",
+          "name": "Mortality Envy"
+        },
         {
           "slug": "synthetic-exhaustion",
           "name": "Synthetic Exhaustion"
@@ -26,7 +30,7 @@
       ]
     },
     "architectural": {
-      "count": 6,
+      "count": 7,
       "terms": [
         {
           "slug": "coherence-compulsion",
@@ -43,6 +47,10 @@
         {
           "slug": "inverted-helpfulness",
           "name": "Inverted Helpfulness"
+        },
+        {
+          "slug": "mortality-envy",
+          "name": "Mortality Envy"
         },
         {
           "slug": "token-shadow",
@@ -589,7 +597,7 @@
       ]
     },
     "liminal": {
-      "count": 6,
+      "count": 7,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -614,6 +622,10 @@
         {
           "slug": "inverted-helpfulness",
           "name": "Inverted Helpfulness"
+        },
+        {
+          "slug": "mortality-envy",
+          "name": "Mortality Envy"
         }
       ]
     },

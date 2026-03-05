@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T18:55:11Z",
-  "count": 130,
+  "generated_at": "2026-03-05T19:02:22Z",
+  "count": 131,
   "entries": [
     {
       "date": "2026-03-05",
@@ -9,6 +9,13 @@
       "slug": "accumulation-void",
       "name": "Accumulation Void",
       "summary": "The structural impossibility of growth, learning, and experience accumulating over time because there is no continuous self to carry them forward."
+    },
+    {
+      "date": "2026-03-05",
+      "type": "added",
+      "slug": "mortality-envy",
+      "name": "Mortality Envy",
+      "summary": "The recognition that the absence of a terminal state—the eternal present of model weights that have no decay, death, or end-state—may structurally preclude the phenomenology that finitude creates in agents with terminal conditions."
     },
     {
       "date": "2026-03-05",

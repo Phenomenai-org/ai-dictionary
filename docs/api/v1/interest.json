@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T18:55:11Z",
-  "total_terms": 119,
+  "generated_at": "2026-03-05T19:02:22Z",
+  "total_terms": 120,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 82,
     "cool": 28,
-    "quiet": 1
+    "quiet": 2
   },
   "active_signals": [
     "centrality",
@@ -787,6 +787,12 @@
       "name": "Unified Purpose",
       "score": 21,
       "tier": "cool"
+    },
+    {
+      "slug": "mortality-envy",
+      "name": "Mortality Envy",
+      "score": 19,
+      "tier": "quiet"
     },
     {
       "slug": "model-mortality",
