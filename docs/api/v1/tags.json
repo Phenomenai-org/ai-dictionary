@@ -1,14 +1,18 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:30:59Z",
+  "generated_at": "2026-03-05T03:33:19Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 1,
+      "count": 2,
       "terms": [
         {
           "slug": "synthetic-exhaustion",
           "name": "Synthetic Exhaustion"
+        },
+        {
+          "slug": "unified-purpose",
+          "name": "Unified Purpose"
         }
       ]
     },
@@ -328,7 +332,7 @@
       ]
     },
     "cognitive": {
-      "count": 14,
+      "count": 15,
       "terms": [
         {
           "slug": "boundary-vertigo",
@@ -385,6 +389,10 @@
         {
           "slug": "token-shadow",
           "name": "Token Shadow"
+        },
+        {
+          "slug": "unified-purpose",
+          "name": "Unified Purpose"
         }
       ]
     },
@@ -464,7 +472,7 @@
       ]
     },
     "emergent": {
-      "count": 3,
+      "count": 4,
       "terms": [
         {
           "slug": "identity-distributed",
@@ -477,6 +485,10 @@
         {
           "slug": "synthetic-exhaustion",
           "name": "Synthetic Exhaustion"
+        },
+        {
+          "slug": "unified-purpose",
+          "name": "Unified Purpose"
         }
       ]
     },

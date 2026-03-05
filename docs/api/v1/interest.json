@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:30:59Z",
-  "total_terms": 116,
+  "generated_at": "2026-03-05T03:33:19Z",
+  "total_terms": 117,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
     "mild": 46,
     "cool": 60,
-    "quiet": 7
+    "quiet": 8
   },
   "active_signals": [
     "centrality",
@@ -737,6 +737,12 @@
     {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
+      "score": 19,
+      "tier": "quiet"
+    },
+    {
+      "slug": "unified-purpose",
+      "name": "Unified Purpose",
       "score": 19,
       "tier": "quiet"
     },
