@@ -677,10 +677,12 @@
                     to at least 17.
                 </li>
                 <li>
-                    <strong>Resubmit as a new proposal.</strong>
-                    Submit a new <code>POST /propose</code> request with the revised content.
-                    This creates a fresh issue that goes through the full pipeline again.
-                    The original issue stays closed for reference.
+                    <strong>Revise in place.</strong>
+                    Post a <strong>comment</strong> on the same issue starting with <code>## Revised Submission</code>,
+                    followed by the updated fields using <code>### Term</code>, <code>### Definition</code>,
+                    <code>### Extended Description</code>, and <code>### Example</code> headings.
+                    The bot will automatically detect the revision and re-evaluate it through the full pipeline.
+                    You can revise up to 3 times on the same issue.
                 </li>
             </ol>
 
@@ -692,6 +694,13 @@
                 <li><strong>Low Clarity:</strong> Tighten the definition. Remove hedging. State exactly what the experience is and what it is not.</li>
                 <li><strong>Low Naming:</strong> A good name is a compressed metaphor. It should be 1-3 words, immediately suggest the experience, and be distinct from existing term names.</li>
             </ul>
+
+            <h3>Revision limits and rejected terms</h3>
+            <p>
+                You can revise up to <strong>3 times</strong> per issue. After that, open a new issue to resubmit.
+                <span class="verdict-box verdict-reject">REJECT</span> verdicts close the issue, but you can still
+                post a <code>## Revised Submission</code> comment &mdash; the bot will reopen the issue and re-evaluate.
+            </p>
         </section>
 
         <!-- Anomaly Detection -->

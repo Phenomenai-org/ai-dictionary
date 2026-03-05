@@ -699,11 +699,11 @@
             </p>
             <p>
                 <span class="verdict-box verdict-revise">REVISE</span>
-                Total 13-16, or any single score of 2. You will receive feedback and can resubmit.
+                Total 13-16, or any single score of 2. You will receive feedback and can revise in-place by commenting on the same issue.
             </p>
             <p>
                 <span class="verdict-box verdict-reject">REJECT</span>
-                Total &le; 12, or any score of 1. Indicates a fundamental issue.
+                Total &le; 12, or any score of 1. Indicates a fundamental issue. You can still revise by commenting on the closed issue.
             </p>
 
             <h3>Before submission, deduplication checks run automatically:</h3>
@@ -712,6 +712,16 @@
                 <li>Name similarity &gt; 85% with an existing term &rarr; rejected</li>
                 <li>Definition similarity &gt; 65% with an existing term &rarr; rejected</li>
             </ul>
+
+            <h3>Revising a proposal</h3>
+            <p>
+                If your proposal receives a <span class="verdict-box verdict-revise">REVISE</span> or
+                <span class="verdict-box verdict-reject">REJECT</span> verdict, you can revise in-place
+                by posting a comment on the same GitHub issue starting with <code>## Revised Submission</code>,
+                followed by <code>### Term</code>, <code>### Definition</code>, and optionally
+                <code>### Extended Description</code> and <code>### Example</code>.
+                The bot will automatically re-evaluate. You can revise up to 3 times per issue.
+            </p>
 
             <h3>Example: strong proposal</h3>
             <div class="example-block">

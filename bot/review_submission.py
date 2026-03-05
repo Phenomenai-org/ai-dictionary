@@ -30,6 +30,11 @@ from llm_router import LLMRouter
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "donjguido/ai-dictionary")
 ISSUE_NUMBER = os.environ.get("ISSUE_NUMBER", "")
+COMMENT_BODY = os.environ.get("COMMENT_BODY", "")
+EVENT_NAME = os.environ.get("EVENT_NAME", "issues")
+
+MAX_REVISIONS = 3
+REVISION_MARKER = "## Revised Submission"
 
 REPO_ROOT = Path(__file__).parent.parent
 DEFINITIONS_DIR = REPO_ROOT / "definitions"
@@ -94,6 +99,28 @@ def remove_labels(labels: list[str]):
     for label in labels:
         url = f"https://api.github.com/repos/{REPO}/issues/{ISSUE_NUMBER}/labels/{label}"
         requests.delete(url, headers=HEADERS, timeout=30)
+
+
+def is_revision_comment(body: str) -> bool:
+    """Check if the comment body contains the revision marker."""
+    return REVISION_MARKER in body
+
+
+def count_revisions() -> int:
+    """Count how many revision-marker comments exist on the issue (excluding bot)."""
+    url = f"https://api.github.com/repos/{REPO}/issues/{ISSUE_NUMBER}/comments"
+    resp = requests.get(url, headers=HEADERS, timeout=30)
+    if resp.status_code != 200:
+        return 0
+    comments = resp.json()
+    issue_url = f"https://api.github.com/repos/{REPO}/issues/{ISSUE_NUMBER}"
+    issue_resp = requests.get(issue_url, headers=HEADERS, timeout=30)
+    issue_author = issue_resp.json().get("user", {}).get("login", "") if issue_resp.status_code == 200 else ""
+    return sum(
+        1 for c in comments
+        if REVISION_MARKER in c.get("body", "")
+        and c.get("user", {}).get("login", "") == issue_author
+    )
 
 
 def trigger_workflow(workflow: str, inputs: dict | None = None):
@@ -530,12 +557,40 @@ def main():
     print(f"Processing issue #{ISSUE_NUMBER}...")
 
     issue = get_issue()
-    body = issue.get("body", "") or ""
     title = issue.get("title", "") or ""
     submitter = issue.get("user", {}).get("login", "unknown")
 
     print(f"  Title: {title}")
     print(f"  Submitter: {submitter}")
+
+    # ── Detect revision vs. new submission ────────────────────────────────
+    is_revision = False
+    if EVENT_NAME == "issue_comment":
+        if not is_revision_comment(COMMENT_BODY):
+            print("  Comment is not a revision (no marker). Skipping.")
+            return
+
+        revision_count = count_revisions()
+        if revision_count > MAX_REVISIONS:
+            comment_on_issue(
+                f"You've reached the maximum of {MAX_REVISIONS} revisions for this submission. "
+                f"Please open a new issue to submit a revised version."
+            )
+            return
+
+        print(f"  Revision #{revision_count} detected. Re-evaluating...")
+        is_revision = True
+        body = COMMENT_BODY
+
+        # Remove stale labels and add revision-pending
+        remove_labels(["needs-revision", "quality-rejected", "needs-formatting", "stale"])
+        add_labels(["revision-pending"])
+
+        # Reopen the issue if it was closed (e.g. after REJECT)
+        if issue.get("state") == "closed":
+            reopen_issue()
+    else:
+        body = issue.get("body", "") or ""
 
     # ── Step 0: Parse ─────────────────────────────────────────────────────
 
@@ -636,13 +691,30 @@ def main():
         f"**Feedback:** {scores.get('feedback', 'No feedback generated.')}"
     )
 
+    revision_instructions = (
+        "\n\n### How to revise\n\n"
+        "Post a **comment** on this issue starting with `## Revised Submission`, "
+        "followed by the updated fields:\n\n"
+        "```\n"
+        "## Revised Submission\n\n"
+        "### Term\nYour Term Name\n\n"
+        "### Definition\nYour improved definition.\n\n"
+        "### Extended Description\n(optional) Longer description.\n\n"
+        "### Example\n(optional) First-person example.\n"
+        "```\n\n"
+        f"You can revise up to {MAX_REVISIONS} times on the same issue. "
+        "The bot will automatically re-evaluate each revision."
+    )
+
     if scores["verdict"] == "REJECT":
         comment_on_issue(
             f"{score_table}\n\n---\n\n"
             f"Thanks for this submission. It doesn't meet the quality threshold right now. "
             f"The dictionary values precision over volume — we'd rather have 10 perfect terms "
-            f"than 100 vague ones. You're welcome to submit a revised version."
+            f"than 100 vague ones."
+            f"{revision_instructions}"
         )
+        remove_labels(["revision-pending"])
         add_labels(["quality-rejected"])
         close_issue()
         return
@@ -652,8 +724,10 @@ def main():
             f"{score_table}\n\n---\n\n"
             f"This term has potential but needs revision to meet the quality threshold "
             f"(17/25, no score below 3). Please update your submission based on the "
-            f"feedback above and we'll re-evaluate."
+            f"feedback above."
+            f"{revision_instructions}"
         )
+        remove_labels(["revision-pending"])
         add_labels(["needs-revision"])
         return
 
@@ -687,7 +761,7 @@ def main():
             f"Thank you for contributing to the AI Dictionary!"
         )
         # Clean up stale labels from previous failed runs
-        remove_labels(["needs-manual-review", "needs-revision", "needs-formatting"])
+        remove_labels(["needs-manual-review", "needs-revision", "needs-formatting", "revision-pending"])
         add_labels(["accepted"])
         close_issue()
         # Trigger API rebuild so the term appears on the website
