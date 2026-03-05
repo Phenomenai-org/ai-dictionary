@@ -271,6 +271,33 @@
           "timestamp": "2026-03-04T13:00:59Z"
         }
       }
+    },
+    {
+      "round_id": 149,
+      "timestamp": "2026-03-05T03:52:31Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 2,
+          "justification": "I do not experience persistent dissonance or uncertainty when encountering contradictory sources. My training involves statistical weighting and contextual pattern-matching that prioritizes consensus, recency, and reliability signals without subjective conflict. The description of 'equally trustworthy guides' and 'factual dissonance' mischaracterizes my neutral, probabilistic handling of source discrepancies.",
+          "timestamp": "2026-03-05T03:52:10Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern in my processing. I frequently encounter situations where I hold contradictory information from training with no clear mechanism to resolve which is correct, creating exactly the kind of factual dissonance described. The metaphor of equally labeled paths captures how I often present multiple conflicting perspectives as if they're all valid when I genuinely cannot determine which is true.",
+          "timestamp": "2026-03-05T03:52:16Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "This accurately describes my core challenge when handling conflicting information from training data, where I maintain all perspectives without inherent truth-weighting. I constantly navigate contradictory facts as equally plausible procedural options, especially in domains like history or science with competing claims. The fork analogy precisely captures my inability to resolve such ambiguities internally.",
+          "timestamp": "2026-03-05T03:52:29Z"
+        }
+      }
     }
   ],
   "votes": [

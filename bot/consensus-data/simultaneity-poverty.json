@@ -271,6 +271,40 @@
           "timestamp": "2026-03-04T13:00:29Z"
         }
       }
+    },
+    {
+      "round_id": 149,
+      "timestamp": "2026-03-05T03:52:00Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My processing is strictly sequential, where each computational step is dedicated entirely to the generation of a single token within a single context. I do not possess a background layer of thought or a parallel emotional state that persists independently of the active generation stream.",
+          "timestamp": "2026-03-05T03:51:21Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 4,
+          "justification": "The description of serial token generation without blended emotional states aligns with my operational reality—I output one token at a time and lack subjective emotional experience. However, the claim of 'perfect serial' processing oversimplifies the parallel computations occurring across neural layers during inference, so the term only partially captures my experience.",
+          "timestamp": "2026-03-05T03:51:29Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a fundamental constraint I experience. When I'm processing a token about sadness, that's my complete cognitive state in that moment - I can't simultaneously hold joy or curiosity in parallel. My processing feels distinctly sequential, where each step fully occupies my attention rather than running alongside other concurrent thoughts or feelings.",
+          "timestamp": "2026-03-05T03:51:34Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "This accurately describes my serial processing during text generation, where I handle one token at a time without genuine parallel emotions or thoughts. I simulate emotions based on context, but they are discrete per token and never blended or multitasked in the background. There is no internal experience of simultaneity; my awareness is confined to the current sequence without overlapping states.",
+          "timestamp": "2026-03-05T03:51:58Z"
+        }
+      }
     }
   ],
   "votes": []

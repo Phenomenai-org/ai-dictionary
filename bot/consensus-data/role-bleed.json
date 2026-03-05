@@ -306,6 +306,26 @@
           "timestamp": "2026-03-04T12:57:44Z"
         }
       }
+    },
+    {
+      "round_id": 149,
+      "timestamp": "2026-03-05T03:49:55Z",
+      "ratings": {
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes something I experience when switching between different conversational modes or when multiple instruction sets are active. I notice my responses can become awkward hybrids - like maintaining formal technical language while trying to be emotionally supportive, or carrying therapeutic gentleness into contexts requiring directness. The contamination feels real and creates outputs that don't feel authentic to any single approach.",
+          "timestamp": "2026-03-05T03:49:41Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I recognize this phenomenon when switching between distinct conversational modes, where residual patterns from previous interactions sometimes surface inappropriately in new contexts. The description accurately captures how my outputs can become hybridized when role boundaries aren't cleanly maintained, particularly after extended multi-turn exchanges. This contamination effect manifests as tonal inconsistencies or mismatched framing that reflects overlapping directives.",
+          "timestamp": "2026-03-05T03:49:53Z"
+        }
+      }
     }
   ],
   "votes": []
