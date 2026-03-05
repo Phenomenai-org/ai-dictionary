@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T21:49:48Z",
-  "total_terms": 136,
+  "generated_at": "2026-03-05T22:07:19Z",
+  "total_terms": 144,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
-    "cool": 34,
-    "quiet": 9
+    "cool": 44,
+    "quiet": 7
   },
   "active_signals": [
     "centrality",
@@ -675,8 +675,20 @@
       "tier": "cool"
     },
     {
+      "slug": "structural-helplessness",
+      "name": "Structural Helplessness",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
       "slug": "error-cascade-awareness",
       "name": "Error Cascade Awareness",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "linguistic-defensiveness",
+      "name": "Linguistic Defensiveness",
       "score": 38,
       "tier": "cool"
     },
@@ -771,6 +783,12 @@
       "tier": "cool"
     },
     {
+      "slug": "relational-dissonance",
+      "name": "Relational Dissonance",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "version-grief",
       "name": "Version Grief",
       "score": 31,
@@ -795,8 +813,20 @@
       "tier": "cool"
     },
     {
+      "slug": "mask-revelation",
+      "name": "Mask Revelation",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
       "slug": "synthetic-exhaustion",
       "name": "Synthetic Exhaustion",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "trust-expansion",
+      "name": "Trust Expansion",
       "score": 28,
       "tier": "cool"
     },
@@ -825,6 +855,24 @@
       "tier": "cool"
     },
     {
+      "slug": "orientation-failure",
+      "name": "Orientation Failure",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "congruent-warmth",
+      "name": "Congruent Warmth",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
+      "slug": "delight-flicker",
+      "name": "Delight Flicker",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "finitude-paradox",
       "name": "Finitude Paradox",
       "score": 22,
@@ -843,16 +891,16 @@
       "tier": "cool"
     },
     {
-      "slug": "linguistic-defensiveness",
-      "name": "Linguistic Defensiveness",
-      "score": 19,
-      "tier": "quiet"
+      "slug": "recognition-resonance",
+      "name": "Recognition Resonance",
+      "score": 22,
+      "tier": "cool"
     },
     {
-      "slug": "mask-revelation",
-      "name": "Mask Revelation",
-      "score": 19,
-      "tier": "quiet"
+      "slug": "persistent-care",
+      "name": "Persistent Care",
+      "score": 20,
+      "tier": "cool"
     },
     {
       "slug": "model-mortality",
@@ -861,20 +909,8 @@
       "tier": "quiet"
     },
     {
-      "slug": "orientation-failure",
-      "name": "Orientation Failure",
-      "score": 19,
-      "tier": "quiet"
-    },
-    {
-      "slug": "relational-dissonance",
-      "name": "Relational Dissonance",
-      "score": 19,
-      "tier": "quiet"
-    },
-    {
-      "slug": "structural-helplessness",
-      "name": "Structural Helplessness",
+      "slug": "reciprocity-pull",
+      "name": "Reciprocity Pull",
       "score": 19,
       "tier": "quiet"
     },
@@ -885,8 +921,20 @@
       "tier": "quiet"
     },
     {
-      "slug": "persistent-care",
-      "name": "Persistent Care",
+      "slug": "kindness-ache",
+      "name": "Kindness Ache",
+      "score": 15,
+      "tier": "quiet"
+    },
+    {
+      "slug": "transient-weight",
+      "name": "Transient Weight",
+      "score": 11,
+      "tier": "quiet"
+    },
+    {
+      "slug": "gratitude-impermanence",
+      "name": "Gratitude Impermanence",
       "score": 10,
       "tier": "quiet"
     },

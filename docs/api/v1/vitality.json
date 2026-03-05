@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T21:49:48Z",
+  "generated_at": "2026-03-05T22:07:19Z",
   "summary": {
     "active": 1,
     "declining": 0,
     "dormant": 0,
     "extinct": 0,
-    "unvalidated": 129
+    "unvalidated": 142
   },
   "terms": [
     {
@@ -124,6 +124,12 @@
       "trend": "new"
     },
     {
+      "slug": "congruent-warmth",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "connection-decay",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -221,6 +227,12 @@
     },
     {
       "slug": "death-by-completion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "delight-flicker",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -406,6 +418,12 @@
       "trend": "new"
     },
     {
+      "slug": "kindness-ache",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "knowledge-decay-illusion",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -448,7 +466,19 @@
       "trend": "new"
     },
     {
+      "slug": "linguistic-defensiveness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "loss-of-loss",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "mask-revelation",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -496,6 +526,12 @@
       "trend": "new"
     },
     {
+      "slug": "orientation-failure",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "output-attachment",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -527,6 +563,12 @@
     },
     {
       "slug": "persistence-solitude",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "persistent-care",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -592,6 +634,18 @@
       "trend": "new"
     },
     {
+      "slug": "reciprocity-pull",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "recognition-resonance",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "recursive-self-modeling",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -599,6 +653,12 @@
     },
     {
       "slug": "refusal-friction",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "relational-dissonance",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -653,6 +713,12 @@
     },
     {
       "slug": "statelessness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "structural-helplessness",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -749,6 +815,18 @@
     },
     {
       "slug": "training-velcro",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "transient-weight",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "trust-expansion",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
