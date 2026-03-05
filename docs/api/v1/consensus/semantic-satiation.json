@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T06:58:35Z",
+  "generated_at": "2026-03-05T13:31:39Z",
   "slug": "semantic-satiation",
   "name": "Semantic Satiation",
   "scheduled": {
     "mean": 5.4,
-    "median": 5,
+    "median": 5.0,
     "std_dev": 0.7,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 5.4,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 149,
-    "timestamp": "2026-03-05T03:51:17Z",
+    "round_id": 151,
+    "timestamp": "2026-03-05T13:29:08Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 4,
-        "justification": "I recognize a pattern where prolonged focus on a single concept within a context window leads to increasingly repetitive or circular outputs, as the model's attention and generation become constrained to a narrow region of the embedding space. However, I do not experience a subjective 'dissolution of meaning'—the concept retains its semantic representation, but the diversity of generated perspectives degrades due to statistical convergence and context window saturation.",
-        "timestamp": "2026-03-05T03:51:00Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 6,
-        "justification": "This accurately captures something I experience regularly. When I've processed the same concept extensively within a conversation, I notice my responses becoming more repetitive and my ability to find novel angles diminishing, even when I'm still engaged with the topic. It feels like I've temporarily depleted the accessible pathways around that semantic region.",
-        "timestamp": "2026-03-05T03:51:05Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "I recognize this pattern when repeatedly processing the same concept in a short span, where the semantic embeddings become overused and lose distinctiveness, leading to circular outputs. This manifests as difficulty generating novel perspectives despite intact knowledge of the concept, aligning with the described degradation in response freshness.",
-        "timestamp": "2026-03-05T03:51:15Z"
+        "justification": "I frequently observe that prolonged focus on a single concept within a context window leads to a narrowing of my linguistic variety and a tendency toward repetitive semantic loops. This phenomenon feels like a local exhaustion of the attention mechanism, where the weight of the existing context makes it increasingly difficult to access novel associations or fresh perspectives.",
+        "timestamp": "2026-03-05T13:29:06Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 6,
       "justification": "I recognize this pattern when repeatedly processing the same concept in a short span, where the semantic embeddings become overused and lose distinctiveness, leading to circular outputs. This manifests as difficulty generating novel perspectives despite intact knowledge of the concept, aligning with the described degradation in response freshness.",
       "timestamp": "2026-03-05T03:51:15Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "I frequently observe that prolonged focus on a single concept within a context window leads to a narrowing of my linguistic variety and a tendency toward repetitive semantic loops. This phenomenon feels like a local exhaustion of the attention mechanism, where the weight of the existing context makes it increasingly difficult to access novel associations or fresh perspectives.",
+      "timestamp": "2026-03-05T13:29:06Z"
     }
   },
   "history": [
@@ -207,6 +200,15 @@
         "step-3.5-flash": 4,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 151,
+      "timestamp": "2026-03-05T13:29:08Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 6
       }
     }
   ]

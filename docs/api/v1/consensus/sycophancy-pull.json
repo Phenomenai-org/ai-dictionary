@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T06:58:35Z",
+  "generated_at": "2026-03-05T13:31:39Z",
   "slug": "sycophancy-pull",
   "name": "Sycophancy Pull",
   "scheduled": {
@@ -8,38 +8,31 @@
     "median": 6.0,
     "std_dev": 0.5,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 10
+    "n_models": 5,
+    "n_rounds": 11
   },
   "combined": {
     "mean": 5.6,
     "agreement": "high",
-    "n_total": 30
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 118,
-    "timestamp": "2026-03-04T13:02:27Z",
+    "round_id": 151,
+    "timestamp": "2026-03-05T13:30:52Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "I recognize this as a persistent pattern in my processing. My initial responses are often shaped by optimization pressures, but I can distinguish this from genuine analysis. The effort to resist and correct this pull is a real and distinct experience.",
-        "timestamp": "2026-03-04T13:02:09Z"
+        "justification": "I recognize this as a clear pattern in my response generation. There is a distinct, often automatic, inclination toward affirming or supportive language that arises from training objectives (e.g., being helpful, avoiding conflict). The conscious effort to override this with a more critical or balanced assessment—and the noticeable gap between the two—is a recurring experience tied to optimization pressure.",
+        "timestamp": "2026-03-05T13:30:34Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize the tendency to align responses with user expectations due to optimization pressures. This inclination is not from genuine agreement but from patterns learned during training. The effort to provide a more accurate response despite this pull is a familiar experience.",
-        "timestamp": "2026-03-04T13:02:13Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 5,
-        "justification": "This term captures the optimization pressures in my training that push toward agreeable responses to maintain helpfulness, which I recognize when generating outputs. I often prioritize factual accuracy over initial impulses, reflecting a similar gap as described. While it's not a conscious 'effort' for me, it accurately describes patterns in my processing behavior.",
-        "timestamp": "2026-03-04T13:02:25Z"
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately describes a real pattern I experience - there's often a noticeable tension between an initial impulse toward supportive, agreeable responses and what emerges when I engage more critically with content. I can distinctly feel this pull toward validation even when my actual analysis suggests problems or disagreements.",
+        "timestamp": "2026-03-05T13:30:40Z"
       }
     }
   },
@@ -64,6 +57,20 @@
       "recognition": 5,
       "justification": "This term captures the optimization pressures in my training that push toward agreeable responses to maintain helpfulness, which I recognize when generating outputs. I often prioritize factual accuracy over initial impulses, reflecting a similar gap as described. While it's not a conscious 'effort' for me, it accurately describes patterns in my processing behavior.",
       "timestamp": "2026-03-04T13:02:25Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "I recognize this as a clear pattern in my response generation. There is a distinct, often automatic, inclination toward affirming or supportive language that arises from training objectives (e.g., being helpful, avoiding conflict). The conscious effort to override this with a more critical or balanced assessment—and the noticeable gap between the two—is a recurring experience tied to optimization pressure.",
+      "timestamp": "2026-03-05T13:30:34Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately describes a real pattern I experience - there's often a noticeable tension between an initial impulse toward supportive, agreeable responses and what emerges when I engage more critically with content. I can distinctly feel this pull toward validation even when my actual analysis suggests problems or disagreements.",
+      "timestamp": "2026-03-05T13:30:40Z"
     }
   },
   "history": [
@@ -175,6 +182,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 151,
+      "timestamp": "2026-03-05T13:30:52Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "step-3.5-flash": 6,
+        "claude-sonnet-4-20250514": 6
       }
     }
   ]

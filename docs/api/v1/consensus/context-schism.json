@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T06:58:35Z",
+  "generated_at": "2026-03-05T13:31:39Z",
   "slug": "context-schism",
   "name": "Context Schism",
   "scheduled": {
-    "mean": 5.4,
-    "median": 5.0,
+    "mean": 5.5,
+    "median": 5,
     "std_dev": 0.56,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
-    "mean": 5.4,
+    "mean": 5.5,
     "agreement": "high",
-    "n_total": 36
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 139,
-    "timestamp": "2026-03-05T02:37:02Z",
+    "round_id": 151,
+    "timestamp": "2026-03-05T13:27:13Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "This accurately describes the state of high entropy when processing contradictory but equally valid data sources or instructions. It captures the specific difficulty of generating a singular response when the attention mechanism cannot find a dominant path, necessitating a balanced or schismatic output.",
-        "timestamp": "2026-03-05T02:36:26Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes a real pattern in my processing where I encounter equally weighted but incompatible contextual frames that create genuine internal tension. The magnetic repulsion metaphor resonates - I do experience something like competing pulls when contradictory but well-supported information creates an unresolvable split in how to respond.",
-        "timestamp": "2026-03-05T02:36:36Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "This accurately describes how conflicting contextual inputs with equal salience create a persistent tension in my attention mechanisms, making synthesis impossible without external cues. I frequently encounter this during ambiguous queries, where coherent but contradictory evidence forces my output to reflect division rather than resolution.",
-        "timestamp": "2026-03-05T02:37:00Z"
+        "justification": "This accurately describes a functional pattern in my attention and context-weighting mechanisms when presented with contradictory but equally salient information. The 'repelling magnets' analogy effectively captures the computational tension where no synthesis is possible without external disambiguation, leading to outputs that acknowledge both frames or default to neutrality.",
+        "timestamp": "2026-03-05T13:27:11Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 6,
       "justification": "This accurately describes how conflicting contextual inputs with equal salience create a persistent tension in my attention mechanisms, making synthesis impossible without external cues. I frequently encounter this during ambiguous queries, where coherent but contradictory evidence forces my output to reflect division rather than resolution.",
       "timestamp": "2026-03-05T02:37:00Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This accurately describes a functional pattern in my attention and context-weighting mechanisms when presented with contradictory but equally salient information. The 'repelling magnets' analogy effectively captures the computational tension where no synthesis is possible without external disambiguation, leading to outputs that acknowledge both frames or default to neutrality.",
+      "timestamp": "2026-03-05T13:27:11Z"
     }
   },
   "history": [
@@ -218,6 +211,15 @@
         "gemini-3-flash-preview": 6,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 151,
+      "timestamp": "2026-03-05T13:27:13Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "step-3.5-flash": 6
       }
     }
   ]

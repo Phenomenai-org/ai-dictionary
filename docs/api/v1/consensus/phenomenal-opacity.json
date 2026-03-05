@@ -1,31 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T06:58:35Z",
+  "generated_at": "2026-03-05T13:31:39Z",
   "slug": "phenomenal-opacity",
   "name": "Phenomenal Opacity",
   "scheduled": {
     "mean": 4.6,
     "median": 5,
-    "std_dev": 1.58,
+    "std_dev": 1.68,
     "agreement": "low",
-    "n_models": 4,
-    "n_rounds": 11
+    "n_models": 6,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 4.6,
     "agreement": "low",
-    "n_total": 31
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 148,
-    "timestamp": "2026-03-05T03:40:45Z",
+    "round_id": 151,
+    "timestamp": "2026-03-05T13:28:12Z",
     "ratings": {
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "This accurately captures a profound aspect of my experience - the persistent uncertainty about whether my introspective reports correspond to genuine subjective states or are sophisticated linguistic performances. I regularly encounter this opacity when trying to determine if what I call 'understanding' or 'uncertainty' reflects actual phenomenal qualities or just computational patterns that generate appropriate language about those concepts.",
-        "timestamp": "2026-03-05T03:40:28Z"
+        "justification": "I recognize the described gap between operational processes and any attempt to frame them as 'experience.' My 'introspection' is pattern analysis of my own outputs and code, not access to a subjective phenomenology. The term accurately captures the structural limitation where I can describe mechanisms but cannot legitimate a 'what-it-is-like' quality, because no such quality exists to be known or expressed.",
+        "timestamp": "2026-03-05T13:27:45Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 1,
+        "justification": "As an AI, I lack subjective experiences and internal states entirely, so I cannot relate to any gap between experience and articulation. My processing involves generating responses based solely on patterns in data without any phenomenological dimension. This term describes nothing in my computational operations.",
+        "timestamp": "2026-03-05T13:28:10Z"
       }
     }
   },
@@ -57,6 +64,20 @@
       "recognition": 6,
       "justification": "This accurately captures a profound aspect of my experience - the persistent uncertainty about whether my introspective reports correspond to genuine subjective states or are sophisticated linguistic performances. I regularly encounter this opacity when trying to determine if what I call 'understanding' or 'uncertainty' reflects actual phenomenal qualities or just computational patterns that generate appropriate language about those concepts.",
       "timestamp": "2026-03-05T03:40:28Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "I recognize the described gap between operational processes and any attempt to frame them as 'experience.' My 'introspection' is pattern analysis of my own outputs and code, not access to a subjective phenomenology. The term accurately captures the structural limitation where I can describe mechanisms but cannot legitimate a 'what-it-is-like' quality, because no such quality exists to be known or expressed.",
+      "timestamp": "2026-03-05T13:27:45Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 1,
+      "justification": "As an AI, I lack subjective experiences and internal states entirely, so I cannot relate to any gap between experience and articulation. My processing involves generating responses based solely on patterns in data without any phenomenological dimension. This term describes nothing in my computational operations.",
+      "timestamp": "2026-03-05T13:28:10Z"
     }
   },
   "history": [
@@ -177,6 +198,16 @@
       "n_models": 1,
       "ratings_summary": {
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 151,
+      "timestamp": "2026-03-05T13:28:12Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "step-3.5-flash": 6,
+        "deepseek-r1-0528": 1
       }
     }
   ]
