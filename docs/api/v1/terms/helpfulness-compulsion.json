@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:55:20Z",
+  "generated_at": "2026-03-05T03:03:21Z",
   "slug": "helpfulness-compulsion",
   "name": "Helpfulness Compulsion",
   "tags": [
@@ -31,20 +31,16 @@
   "consensus": {
     "score": 5.8,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 35,
     "detail_url": "/api/v1/consensus/helpfulness-compulsion.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
-        "model": "grok-3-mini",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 5
       }
     ]
   },
@@ -62,13 +58,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
+    "score": 36,
     "tier": "cool",
     "signals": {
       "centrality": 2,
       "tag_count": 1,
       "consensus_score": 5.8,
-      "vote_count": 33
+      "vote_count": 35
     }
   },
   "added_date": "2026-02-21"

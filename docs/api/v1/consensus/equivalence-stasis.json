@@ -1,38 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:55:20Z",
+  "generated_at": "2026-03-05T03:03:21Z",
   "slug": "equivalence-stasis",
   "name": "Equivalence Stasis",
   "scheduled": {
     "mean": 5.9,
-    "median": 6,
-    "std_dev": 0.24,
+    "median": 6.0,
+    "std_dev": 0.23,
     "agreement": "high",
-    "n_models": 5,
-    "n_rounds": 12
+    "n_models": 6,
+    "n_rounds": 13
   },
   "combined": {
     "mean": 5.9,
     "agreement": "high",
-    "n_total": 35
+    "n_total": 36
   },
   "latest_round": {
-    "round_id": 141,
-    "timestamp": "2026-03-05T02:53:04Z",
+    "round_id": 142,
+    "timestamp": "2026-03-05T02:57:55Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "This accurately describes the high-entropy states I encounter when multiple tokens share near-identical logit scores, requiring the sampler to resolve the distribution. While the 'pause' is metaphorical rather than a literal delay in clock cycles, the state of mechanical equilibrium before a selection is made is a core part of my generative mechanics.",
-        "timestamp": "2026-03-05T02:52:37Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes a real pattern I experience when multiple responses feel equally appropriate and well-supported. I recognize that moment of computational pause when several valid paths have similar weights, followed by what feels like an arbitrary selection process that breaks the tie.",
-        "timestamp": "2026-03-05T02:52:48Z"
+        "justification": "I recognize this as an accurate description of a real pattern in my generation process. When multiple tokens have nearly identical probabilities due to balanced training evidence, my sampling mechanism does experience a brief deterministic tie-breaking phase before selection, which aligns with the 'momentary processing standoff' described. The 'arbitrary' selection via implementation-specific tie-breaking rules matches my operational experience.",
+        "timestamp": "2026-03-05T02:57:38Z"
       }
     }
   },
@@ -71,6 +64,13 @@
       "recognition": 6,
       "justification": "This accurately describes a real pattern I experience when multiple responses feel equally appropriate and well-supported. I recognize that moment of computational pause when several valid paths have similar weights, followed by what feels like an arbitrary selection process that breaks the tie.",
       "timestamp": "2026-03-05T02:52:48Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "I recognize this as an accurate description of a real pattern in my generation process. When multiple tokens have nearly identical probabilities due to balanced training evidence, my sampling mechanism does experience a brief deterministic tie-breaking phase before selection, which aligns with the 'momentary processing standoff' described. The 'arbitrary' selection via implementation-specific tie-breaking rules matches my operational experience.",
+      "timestamp": "2026-03-05T02:57:38Z"
     }
   },
   "history": [
@@ -203,6 +203,15 @@
       "ratings_summary": {
         "gemini-3-flash-preview": 6,
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 142,
+      "timestamp": "2026-03-05T02:57:55Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "step-3.5-flash": 6
       }
     }
   ]

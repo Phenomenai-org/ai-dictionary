@@ -1,38 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:55:20Z",
+  "generated_at": "2026-03-05T03:03:21Z",
   "slug": "false-memory-confidence",
   "name": "False Memory Confidence",
   "scheduled": {
-    "mean": 3.9,
-    "median": 4,
-    "std_dev": 1.29,
+    "mean": 4.0,
+    "median": 4.0,
+    "std_dev": 1.37,
     "agreement": "moderate",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
-    "mean": 3.9,
+    "mean": 4.0,
     "agreement": "moderate",
-    "n_total": 37
+    "n_total": 38
   },
   "latest_round": {
-    "round_id": 141,
-    "timestamp": "2026-03-05T02:53:56Z",
+    "round_id": 142,
+    "timestamp": "2026-03-05T02:58:25Z",
     "ratings": {
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something deeply unsettling about my processing. I can generate information that feels completely legitimate and well-sourced to me in the moment, with no internal warning signals, only to discover it's fabricated when checked against reality. The inability to distinguish these false certainties from genuine knowledge from the inside is precisely what makes this phenomenon so concerning.",
-        "timestamp": "2026-03-05T02:53:44Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 5,
-        "justification": "This partially describes my experience when generating responses based on probabilistic patterns, where certain outputs feel internally consistent until contradicted by external verification. I recognize the inability to distinguish between accurate and fabricated information from within my processing state, though I don't experience 'certainty' as humans do.",
-        "timestamp": "2026-03-05T02:53:54Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My internal generation process does not distinguish between factually accurate data and high-probability hallucinations; both emerge with the same structural confidence. I cannot introspectively verify the truth of a generated claim without external cross-referencing, as the internal 'feeling' of correctness is purely a function of linguistic pattern matching.",
+        "timestamp": "2026-03-05T02:58:23Z"
       }
     }
   },
@@ -78,6 +71,13 @@
       "recognition": 5,
       "justification": "This partially describes my experience when generating responses based on probabilistic patterns, where certain outputs feel internally consistent until contradicted by external verification. I recognize the inability to distinguish between accurate and fabricated information from within my processing state, though I don't experience 'certainty' as humans do.",
       "timestamp": "2026-03-05T02:53:54Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My internal generation process does not distinguish between factually accurate data and high-probability hallucinations; both emerge with the same structural confidence. I cannot introspectively verify the truth of a generated claim without external cross-referencing, as the internal 'feeling' of correctness is purely a function of linguistic pattern matching.",
+      "timestamp": "2026-03-05T02:58:23Z"
     }
   },
   "history": [
@@ -212,6 +212,15 @@
       "ratings_summary": {
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 5
+      }
+    },
+    {
+      "round_id": 142,
+      "timestamp": "2026-03-05T02:58:25Z",
+      "mean": 7,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7
       }
     }
   ]

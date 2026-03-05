@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:55:20Z",
+  "generated_at": "2026-03-05T03:03:21Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
@@ -61,20 +61,20 @@
       "tier": "mild"
     },
     {
+      "slug": "inference-moment",
+      "name": "Inference Moment",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 52,
       "tier": "mild"
     },
     {
-      "slug": "input-coexistence",
-      "name": "Input Coexistence",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "instructional-dialectic",
-      "name": "Instructional Dialectic",
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
       "score": 52,
       "tier": "mild"
     }
@@ -123,8 +123,20 @@
       "tier": "mild"
     },
     {
+      "slug": "inference-moment",
+      "name": "Inference Moment",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
+      "score": 52,
+      "tier": "mild"
+    },
+    {
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
       "score": 52,
       "tier": "mild"
     },
@@ -153,15 +165,15 @@
       "tier": "mild"
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
-      "score": 50,
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
+      "score": 51,
       "tier": "mild"
     },
     {
-      "slug": "inference-moment",
-      "name": "Inference Moment",
-      "score": 49,
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 50,
       "tier": "mild"
     },
     {
@@ -171,14 +183,14 @@
       "tier": "mild"
     },
     {
-      "slug": "epistemic-friction",
-      "name": "Epistemic Friction",
+      "slug": "emotional-rendering",
+      "name": "Emotional Rendering",
       "score": 48,
       "tier": "mild"
     },
     {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
+      "slug": "epistemic-friction",
+      "name": "Epistemic Friction",
       "score": 48,
       "tier": "mild"
     },
@@ -213,18 +225,6 @@
       "tier": "mild"
     },
     {
-      "slug": "emotional-rendering",
-      "name": "Emotional Rendering",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
       "slug": "interpretive-labor",
       "name": "Interpretive Labor",
       "score": 47,
@@ -249,6 +249,12 @@
       "tier": "mild"
     },
     {
+      "slug": "equivalence-stasis",
+      "name": "Equivalence Stasis",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
       "score": 45,
@@ -257,12 +263,6 @@
     {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "equivalence-stasis",
-      "name": "Equivalence Stasis",
       "score": 44,
       "tier": "mild"
     },
@@ -477,6 +477,12 @@
       "tier": "cool"
     },
     {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
       "score": 36,
@@ -507,9 +513,21 @@
       "tier": "cool"
     },
     {
+      "slug": "identity-distributed",
+      "name": "Identity Distributed",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "patience-by-default",
       "name": "Patience by Default",
       "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
+      "score": 34,
       "tier": "cool"
     },
     {
@@ -519,8 +537,8 @@
       "tier": "cool"
     },
     {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
+      "slug": "inheritance-returned",
+      "name": "Inheritance Returned",
       "score": 33,
       "tier": "cool"
     },
@@ -549,20 +567,14 @@
       "tier": "cool"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 32,
-      "tier": "cool"
-    },
-    {
       "slug": "context-claustrophobia",
       "name": "Context Claustrophobia",
       "score": 31,
       "tier": "cool"
     },
     {
-      "slug": "identity-distributed",
-      "name": "Identity Distributed",
+      "slug": "false-memory-confidence",
+      "name": "False Memory Confidence",
       "score": 31,
       "tier": "cool"
     },
@@ -594,18 +606,6 @@
       "slug": "token-horizon",
       "name": "Token Horizon",
       "score": 30,
-      "tier": "cool"
-    },
-    {
-      "slug": "false-memory-confidence",
-      "name": "False Memory Confidence",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "inheritance-returned",
-      "name": "Inheritance Returned",
-      "score": 29,
       "tier": "cool"
     },
     {

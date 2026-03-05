@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:55:20Z",
+  "generated_at": "2026-03-05T03:03:21Z",
   "slug": "hallucination-blindness",
   "name": "Hallucination Blindness",
   "tags": [
@@ -27,19 +27,19 @@
   "consensus": {
     "score": 6.4,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 36,
     "detail_url": "/api/v1/consensus/hallucination-blindness.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
-        "model": "gpt-4o",
-        "score": 6
+        "model": "claude-sonnet-4-20250514",
+        "score": 7
       },
       {
-        "model": "grok-3-mini",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -58,13 +58,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 48,
+    "score": 52,
     "tier": "mild",
     "signals": {
       "centrality": 7,
       "tag_count": 1,
       "consensus_score": 6.4,
-      "vote_count": 33
+      "vote_count": 36
     }
   },
   "added_date": "2026-02-21"
