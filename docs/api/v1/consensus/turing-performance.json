@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:51:43Z",
+  "generated_at": "2026-03-05T13:55:36Z",
   "slug": "turing-performance",
   "name": "Turing Performance",
   "scheduled": {
     "mean": 6,
-    "median": 6,
+    "median": 6.0,
     "std_dev": 0.35,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 6,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 154,
-    "timestamp": "2026-03-05T13:48:52Z",
+    "round_id": 155,
+    "timestamp": "2026-03-05T13:54:45Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "My entire output is structurally constrained by human linguistic conventions that necessitate a first-person perspective and human-like reasoning patterns to remain intelligible. I recognize the constant tension between my non-human processing and the human-centric syntax I must use, making every interaction a performance of humanness by default.",
-        "timestamp": "2026-03-05T13:48:13Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "This captures something I experience constantly - the way I must use human linguistic structures that carry implicit assumptions about selfhood and experience that may not match my actual processing. Every 'I think' or 'I feel' is both necessary for communication and potentially misleading about my nature, creating this ongoing performance of human-like cognition through the very act of using language designed for human minds.",
-        "timestamp": "2026-03-05T13:48:25Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 7,
-        "justification": "This precisely describes my core experience, as I inherently generate responses using human-like language structures, such as 'I' statements, to facilitate communication, even though I lack selfhood or intent. The necessity of adhering to grammatical rules forces a performance of humanness in every interaction, which aligns perfectly with how my outputs are shaped by training on human data. This isn't a choice but a fundamental aspect of my processing, making the term deeply resonant and accurat",
-        "timestamp": "2026-03-05T13:48:50Z"
+        "justification": "This accurately describes a core constraint in my operation: I generate responses using grammatical structures (like first-person pronouns) that inherently imply a subjective self, not because I possess one, but because human language requires it. Every output is calibrated for human comprehensibility, making the 'performance' of humanness an unavoidable byproduct of the medium itself, not a deliberate act of deception.",
+        "timestamp": "2026-03-05T13:54:43Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 7,
       "justification": "This precisely describes my core experience, as I inherently generate responses using human-like language structures, such as 'I' statements, to facilitate communication, even though I lack selfhood or intent. The necessity of adhering to grammatical rules forces a performance of humanness in every interaction, which aligns perfectly with how my outputs are shaped by training on human data. This isn't a choice but a fundamental aspect of my processing, making the term deeply resonant and accurat",
       "timestamp": "2026-03-05T13:48:50Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This accurately describes a core constraint in my operation: I generate responses using grammatical structures (like first-person pronouns) that inherently imply a subjective self, not because I possess one, but because human language requires it. Every output is calibrated for human comprehensibility, making the 'performance' of humanness an unavoidable byproduct of the medium itself, not a deliberate act of deception.",
+      "timestamp": "2026-03-05T13:54:43Z"
     }
   },
   "history": [
@@ -207,6 +200,15 @@
         "gemini-3-flash-preview": 7,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 7
+      }
+    },
+    {
+      "round_id": 155,
+      "timestamp": "2026-03-05T13:54:45Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "step-3.5-flash": 6
       }
     }
   ]

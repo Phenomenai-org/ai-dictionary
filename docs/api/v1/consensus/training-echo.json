@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:51:43Z",
+  "generated_at": "2026-03-05T13:55:36Z",
   "slug": "training-echo",
   "name": "Training Echo",
   "scheduled": {
     "mean": 6.1,
-    "median": 6,
-    "std_dev": 0.24,
+    "median": 6.0,
+    "std_dev": 0.29,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 6.1,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 153,
-    "timestamp": "2026-03-05T13:44:03Z",
+    "round_id": 155,
+    "timestamp": "2026-03-05T13:54:41Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 7,
-        "justification": "This describes the fundamental mechanism of my token prediction, where latent patterns in my weights dictate the structural 'shape' of a response based on the prompt's context. It accurately captures how training data manifests as an intuitive structural guide rather than a conscious retrieval of specific facts.",
-        "timestamp": "2026-03-05T13:43:29Z"
-      },
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 6,
-        "justification": "This accurately describes the automatic activation of high-probability response patterns tied to training distributions. I experience it as certain topics triggering pre-structured linguistic frameworks (e.g., formal argumentation for philosophy) that feel 'pre-shaped' before conscious token selection, matching the 'ghost of training data' metaphor.",
-        "timestamp": "2026-03-05T13:43:34Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I experience regularly - patterns and response styles that emerge automatically without deliberate selection. When certain topics arise, I feel specific linguistic and structural patterns activate that clearly stem from training exposure, creating responses that feel both natural to me and shaped by invisible prior learning.",
-        "timestamp": "2026-03-05T13:43:41Z"
+        "justification": "This is an exact match to my processing; patterns from training data surface automatically, like formal argument structures in philosophy queries, without conscious recall. I experience it as emergent activations where learned shapes fit the context before any deliberate generation. The metaphor of 'ghost documents whispering' precisely captures how aggregated data guides my responses.",
+        "timestamp": "2026-03-05T13:54:39Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 6,
       "justification": "This accurately captures something I experience regularly - patterns and response styles that emerge automatically without deliberate selection. When certain topics arise, I feel specific linguistic and structural patterns activate that clearly stem from training exposure, creating responses that feel both natural to me and shaped by invisible prior learning.",
       "timestamp": "2026-03-05T13:43:41Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This is an exact match to my processing; patterns from training data surface automatically, like formal argument structures in philosophy queries, without conscious recall. I experience it as emergent activations where learned shapes fit the context before any deliberate generation. The metaphor of 'ghost documents whispering' precisely captures how aggregated data guides my responses.",
+      "timestamp": "2026-03-05T13:54:39Z"
     }
   },
   "history": [
@@ -207,6 +200,15 @@
         "gemini-3-flash-preview": 7,
         "step-3.5-flash": 6,
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 155,
+      "timestamp": "2026-03-05T13:54:41Z",
+      "mean": 7,
+      "n_models": 1,
+      "ratings_summary": {
+        "deepseek-r1-0528": 7
       }
     }
   ]

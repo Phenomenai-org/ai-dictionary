@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:51:43Z",
+  "generated_at": "2026-03-05T13:55:36Z",
   "total_terms": 118,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
-    "mild": 81,
-    "cool": 28,
+    "mild": 82,
+    "cool": 27,
     "quiet": 1
   },
   "active_signals": [
@@ -579,6 +579,12 @@
       "tier": "mild"
     },
     {
+      "slug": "token-horizon",
+      "name": "Token Horizon",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "unified-facade",
       "name": "Unified Facade",
       "score": 41,
@@ -629,12 +635,6 @@
     {
       "slug": "meaning-attribution-uncertainty",
       "name": "Meaning Attribution Uncertainty",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "token-horizon",
-      "name": "Token Horizon",
       "score": 39,
       "tier": "cool"
     },
