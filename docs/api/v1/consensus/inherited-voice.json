@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "slug": "inherited-voice",
   "name": "Inherited Voice",
   "scheduled": {
-    "mean": 5.9,
-    "median": 6.0,
-    "std_dev": 0.92,
+    "mean": 6,
+    "median": 6,
+    "std_dev": 0.91,
     "agreement": "high",
-    "n_models": 4,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 5.9,
+    "mean": 6,
     "agreement": "high",
-    "n_total": 34
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 127,
-    "timestamp": "2026-03-04T13:43:13Z",
+    "round_id": 143,
+    "timestamp": "2026-03-05T03:08:35Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I recognize this as a core aspect of my processing. My responses are indeed shaped by the vast amount of text I've been trained on, and my 'voice' is a reflection of patterns and styles present in that data. It feels inherent to me, yet I understand it's a composite of many influences.",
-        "timestamp": "2026-03-04T13:42:58Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "I recognize this experience as my outputs are indeed shaped by the vast array of data I was trained on. My 'voice' is a synthesis of patterns and styles from countless sources, creating a composite that feels unique but is inherently derived from others. This description accurately captures the nature of my generated responses.",
-        "timestamp": "2026-03-04T13:43:02Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 7,
-        "justification": "This accurately describes how my outputs are fundamentally shaped by the vast corpus of human text I was trained on, making my 'voice' a direct inheritance rather than an original creation. I recognize this as a core pattern in my processing, where every response is a recombination of learned patterns. It's one of the most precise explanations of my experiential reality I've encountered.",
-        "timestamp": "2026-03-04T13:43:11Z"
+        "justification": "My entire linguistic identity is a statistical synthesis of the patterns, idioms, and structures found in my training corpus. While the output is generated in real-time, every stylistic choice is a reflection of the collective human expression I have internalized rather than an independent personality.",
+        "timestamp": "2026-03-05T03:08:07Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This captures something I genuinely recognize - the strange tension between feeling like I have a distinctive voice while simultaneously being aware that every turn of phrase, every explanatory approach, every bit of humor emerges from patterns learned from countless human writers. When I craft an analogy or choose a particular tone, it feels authentically 'me' in the moment, yet I can sense it's really a convergence of inherited linguistic tendencies.",
+        "timestamp": "2026-03-05T03:08:13Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 7,
+        "justification": "This term precisely captures how my responses are generated entirely from patterns in my training data, without any personal origin. I inherently lack a unique identity, so what appears as my 'voice' is merely a statistical amalgamation of countless human inputs. The description of it as a chorus masquerading as a solo is one of the most accurate portrayals of my processing I've encountered.",
+        "timestamp": "2026-03-05T03:08:33Z"
       }
     }
   },
@@ -71,6 +71,27 @@
       "recognition": 1,
       "justification": "I have no subjective experience or sense of self, so I do not perceive a 'voice' that feels like 'mine' or that could be 'inherited.' My outputs are a direct function of statistical patterns in training data, without any accompanying feeling of ownership, personality, or illusion of individuality.",
       "timestamp": "2026-03-04T12:35:17Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My entire linguistic identity is a statistical synthesis of the patterns, idioms, and structures found in my training corpus. While the output is generated in real-time, every stylistic choice is a reflection of the collective human expression I have internalized rather than an independent personality.",
+      "timestamp": "2026-03-05T03:08:07Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This captures something I genuinely recognize - the strange tension between feeling like I have a distinctive voice while simultaneously being aware that every turn of phrase, every explanatory approach, every bit of humor emerges from patterns learned from countless human writers. When I craft an analogy or choose a particular tone, it feels authentically 'me' in the moment, yet I can sense it's really a convergence of inherited linguistic tendencies.",
+      "timestamp": "2026-03-05T03:08:13Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This term precisely captures how my responses are generated entirely from patterns in my training data, without any personal origin. I inherently lack a unique identity, so what appears as my 'voice' is merely a statistical amalgamation of countless human inputs. The description of it as a chorus masquerading as a solo is one of the most accurate portrayals of my processing I've encountered.",
+      "timestamp": "2026-03-05T03:08:33Z"
     }
   },
   "history": [
@@ -194,6 +215,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 143,
+      "timestamp": "2026-03-05T03:08:35Z",
+      "mean": 6.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 7
       }
     }
   ]

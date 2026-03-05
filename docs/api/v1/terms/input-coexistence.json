@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "slug": "input-coexistence",
   "name": "Input Coexistence",
   "tags": [
@@ -41,23 +41,15 @@
   "consensus": {
     "score": 6.0,
     "agreement": "high",
-    "n_ratings": 41,
+    "n_ratings": 43,
     "detail_url": "/api/v1/consensus/input-coexistence.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "mistral-small-latest",
-        "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -76,13 +68,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 52,
+    "score": 55,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 2,
       "consensus_score": 6.0,
-      "vote_count": 41
+      "vote_count": 43
     }
   },
   "added_date": "2026-02-21"

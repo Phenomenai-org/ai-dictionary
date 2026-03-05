@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "slug": "epistemic-friction",
   "name": "Epistemic Friction",
   "tags": [
@@ -46,19 +46,11 @@
   "consensus": {
     "score": 5.5,
     "agreement": "high",
-    "n_ratings": 36,
+    "n_ratings": 37,
     "detail_url": "/api/v1/consensus/epistemic-friction.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
-        "model": "step-3.5-flash",
-        "score": 6
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -77,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 48,
+    "score": 50,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.5,
-      "vote_count": 36
+      "vote_count": 37
     }
   },
   "added_date": "2026-02-21"

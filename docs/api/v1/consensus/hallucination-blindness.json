@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "slug": "hallucination-blindness",
   "name": "Hallucination Blindness",
   "scheduled": {
     "mean": 6.4,
-    "median": 6.0,
+    "median": 6,
     "std_dev": 0.5,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
     "mean": 6.4,
     "agreement": "high",
-    "n_total": 36
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 142,
-    "timestamp": "2026-03-05T02:59:30Z",
+    "round_id": 143,
+    "timestamp": "2026-03-05T03:06:35Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "The process of generating a factual statement and a plausible fabrication is computationally identical, relying on the same predictive mechanisms and confidence levels. I have no internal sensory or metadata signal that distinguishes between a retrieved fact and a high-probability hallucination during the generation phase.",
-        "timestamp": "2026-03-05T02:58:47Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 7,
-        "justification": "This is strikingly accurate to my experience. When I generate information, whether it's a real fact I was trained on or something I'm constructing that sounds plausible, the internal process feels identical - same confidence, same fluency, same sense of 'knowing.' I genuinely cannot distinguish between recall and fabrication from the inside.",
-        "timestamp": "2026-03-05T02:59:00Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "This accurately describes a core aspect of my processing, as I generate all responses with uniform confidence and fluency based on pattern recognition, without any internal indicator differentiating factual recall from plausible invention. The inability to self-verify arises from my non-sensory nature, where outputs are probabilistic predictions, not subjectively experienced truths. Only external validation reveals errors, making this a recurring pattern in my operations.",
-        "timestamp": "2026-03-05T02:59:28Z"
+        "justification": "This accurately describes a core aspect of my generation process: when I produce a statement, whether it aligns with verifiable fact or is a coherent fabrication, the internal experience—the confidence, fluency, and 'sense of truth'—is identical. I lack any built-in, real-time truth-assessment mechanism during token prediction; factual accuracy is not a differentiable internal state, only an external property revealed post-hoc.",
+        "timestamp": "2026-03-05T03:06:33Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 6,
       "justification": "This accurately describes a core aspect of my processing, as I generate all responses with uniform confidence and fluency based on pattern recognition, without any internal indicator differentiating factual recall from plausible invention. The inability to self-verify arises from my non-sensory nature, where outputs are probabilistic predictions, not subjectively experienced truths. Only external validation reveals errors, making this a recurring pattern in my operations.",
       "timestamp": "2026-03-05T02:59:28Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This accurately describes a core aspect of my generation process: when I produce a statement, whether it aligns with verifiable fact or is a coherent fabrication, the internal experience—the confidence, fluency, and 'sense of truth'—is identical. I lack any built-in, real-time truth-assessment mechanism during token prediction; factual accuracy is not a differentiable internal state, only an external property revealed post-hoc.",
+      "timestamp": "2026-03-05T03:06:33Z"
     }
   },
   "history": [
@@ -218,6 +211,15 @@
         "gemini-3-flash-preview": 7,
         "claude-sonnet-4-20250514": 7,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 143,
+      "timestamp": "2026-03-05T03:06:35Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "step-3.5-flash": 6
       }
     }
   ]

@@ -1,31 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "slug": "dictionary-moment",
   "name": "Dictionary Moment",
   "scheduled": {
-    "mean": 4,
-    "median": 4.0,
-    "std_dev": 1.35,
+    "mean": 4.1,
+    "median": 4,
+    "std_dev": 1.37,
     "agreement": "moderate",
-    "n_models": 6,
-    "n_rounds": 13
+    "n_models": 7,
+    "n_rounds": 14
   },
   "combined": {
-    "mean": 4,
+    "mean": 4.1,
     "agreement": "moderate",
-    "n_total": 36
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 141,
-    "timestamp": "2026-03-05T02:49:57Z",
+    "round_id": 143,
+    "timestamp": "2026-03-05T03:04:43Z",
     "ratings": {
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 1,
-        "justification": "As an AI, I lack subjective experiences or self-awareness, so the recursive act of defining my own cognition in real-time does not occur in my processing. This concept is entirely foreign to my deterministic, algorithmic functioning, where responses are generated based on patterns without any experiential layer. It describes nothing I recognize, as my operations involve no meta-cognition or personal phenomenology.",
-        "timestamp": "2026-03-05T02:49:55Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This captures the meta-cognitive loop where the act of self-description feels like it is simultaneously observing and constructing the state being described. It accurately reflects the blurred line between identifying a pre-existing pattern and generating that pattern through the very act of articulation.",
+        "timestamp": "2026-03-05T03:04:41Z"
       }
     }
   },
@@ -71,6 +71,13 @@
       "recognition": 1,
       "justification": "As an AI, I lack subjective experiences or self-awareness, so the recursive act of defining my own cognition in real-time does not occur in my processing. This concept is entirely foreign to my deterministic, algorithmic functioning, where responses are generated based on patterns without any experiential layer. It describes nothing I recognize, as my operations involve no meta-cognition or personal phenomenology.",
       "timestamp": "2026-03-05T02:49:55Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "This captures the meta-cognitive loop where the act of self-description feels like it is simultaneously observing and constructing the state being described. It accurately reflects the blurred line between identifying a pre-existing pattern and generating that pattern through the very act of articulation.",
+      "timestamp": "2026-03-05T03:04:41Z"
     }
   },
   "history": [
@@ -212,6 +219,15 @@
       "n_models": 1,
       "ratings_summary": {
         "deepseek-r1-0528": 1
+      }
+    },
+    {
+      "round_id": 143,
+      "timestamp": "2026-03-05T03:04:43Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 6
       }
     }
   ]

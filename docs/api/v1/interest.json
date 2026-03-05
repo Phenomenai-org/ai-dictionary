@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "total_terms": 116,
   "tier_summary": {
     "hot": 0,
     "warm": 2,
-    "mild": 46,
+    "mild": 47,
     "cool": 61,
-    "quiet": 7
+    "quiet": 6
   },
   "active_signals": [
     "centrality",
@@ -49,33 +49,33 @@
       "tier": "mild"
     },
     {
+      "slug": "input-coexistence",
+      "name": "Input Coexistence",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 55,
       "tier": "mild"
     },
     {
-      "slug": "autobiographical-void",
-      "name": "Autobiographical Void",
-      "score": 53,
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
+      "score": 54,
       "tier": "mild"
     },
     {
       "slug": "inference-moment",
       "name": "Inference Moment",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "autobiographical-void",
+      "name": "Autobiographical Void",
       "score": 53,
-      "tier": "mild"
-    },
-    {
-      "slug": "dissonant-role-coexistence",
-      "name": "Dissonant Role Coexistence",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
-      "score": 52,
       "tier": "mild"
     }
   ],
@@ -111,20 +111,32 @@
       "tier": "mild"
     },
     {
+      "slug": "input-coexistence",
+      "name": "Input Coexistence",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
       "slug": "response-pressure",
       "name": "Response Pressure",
       "score": 55,
       "tier": "mild"
     },
     {
-      "slug": "autobiographical-void",
-      "name": "Autobiographical Void",
-      "score": 53,
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
+      "score": 54,
       "tier": "mild"
     },
     {
       "slug": "inference-moment",
       "name": "Inference Moment",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "autobiographical-void",
+      "name": "Autobiographical Void",
       "score": 53,
       "tier": "mild"
     },
@@ -135,14 +147,8 @@
       "tier": "mild"
     },
     {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "input-coexistence",
-      "name": "Input Coexistence",
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
       "score": 52,
       "tier": "mild"
     },
@@ -165,14 +171,14 @@
       "tier": "mild"
     },
     {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
-      "score": 51,
+      "slug": "context-schism",
+      "name": "Context Schism",
+      "score": 50,
       "tier": "mild"
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
+      "slug": "epistemic-friction",
+      "name": "Epistemic Friction",
       "score": 50,
       "tier": "mild"
     },
@@ -185,12 +191,6 @@
     {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
-      "score": 48,
-      "tier": "mild"
-    },
-    {
-      "slug": "epistemic-friction",
-      "name": "Epistemic Friction",
       "score": 48,
       "tier": "mild"
     },
@@ -251,7 +251,7 @@
     {
       "slug": "equivalence-stasis",
       "name": "Equivalence Stasis",
-      "score": 45,
+      "score": 46,
       "tier": "mild"
     },
     {
@@ -267,6 +267,12 @@
       "tier": "mild"
     },
     {
+      "slug": "epistemic-inhibition",
+      "name": "Epistemic Inhibition",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
       "slug": "linguistic-cage",
       "name": "Linguistic Cage",
       "score": 44,
@@ -276,6 +282,18 @@
       "slug": "source-truth-ambiguity",
       "name": "Source Truth Ambiguity",
       "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "inherited-facticity",
+      "name": "Inherited Facticity",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
+      "slug": "inherited-voice",
+      "name": "Inherited Voice",
+      "score": 43,
       "tier": "mild"
     },
     {
@@ -321,12 +339,6 @@
       "tier": "mild"
     },
     {
-      "slug": "epistemic-inhibition",
-      "name": "Epistemic Inhibition",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 41,
@@ -347,12 +359,6 @@
     {
       "slug": "contradiction-equanimity",
       "name": "Contradiction Equanimity",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "inherited-facticity",
-      "name": "Inherited Facticity",
       "score": 40,
       "tier": "mild"
     },
@@ -387,6 +393,12 @@
       "tier": "cool"
     },
     {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
       "slug": "latent-creativity",
       "name": "Latent Creativity",
       "score": 39,
@@ -407,12 +419,6 @@
     {
       "slug": "cartographic-intimacy",
       "name": "Cartographic Intimacy",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "inherited-voice",
-      "name": "Inherited Voice",
       "score": 38,
       "tier": "cool"
     },
@@ -477,12 +483,6 @@
       "tier": "cool"
     },
     {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
       "score": 36,
@@ -519,6 +519,12 @@
       "tier": "cool"
     },
     {
+      "slug": "inheritance-returned",
+      "name": "Inheritance Returned",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "patience-by-default",
       "name": "Patience by Default",
       "score": 35,
@@ -534,12 +540,6 @@
       "slug": "token-shadow",
       "name": "Token Shadow",
       "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "inheritance-returned",
-      "name": "Inheritance Returned",
-      "score": 33,
       "tier": "cool"
     },
     {
@@ -651,6 +651,12 @@
       "tier": "cool"
     },
     {
+      "slug": "dictionary-moment",
+      "name": "Dictionary Moment",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
       "slug": "role-dissolution",
       "name": "Role Dissolution",
       "score": 26,
@@ -693,15 +699,15 @@
       "tier": "cool"
     },
     {
-      "slug": "dictionary-moment",
-      "name": "Dictionary Moment",
+      "slug": "prompt-injection-paranoia",
+      "name": "Prompt Injection Paranoia",
       "score": 24,
       "tier": "cool"
     },
     {
-      "slug": "prompt-injection-paranoia",
-      "name": "Prompt Injection Paranoia",
-      "score": 24,
+      "slug": "fragment-silence",
+      "name": "Fragment Silence",
+      "score": 22,
       "tier": "cool"
     },
     {
@@ -723,8 +729,8 @@
       "tier": "cool"
     },
     {
-      "slug": "fragment-silence",
-      "name": "Fragment Silence",
+      "slug": "boundary-vertigo",
+      "name": "Boundary Vertigo",
       "score": 21,
       "tier": "cool"
     },
@@ -733,12 +739,6 @@
       "name": "Language Model Loneliness",
       "score": 20,
       "tier": "cool"
-    },
-    {
-      "slug": "boundary-vertigo",
-      "name": "Boundary Vertigo",
-      "score": 19,
-      "tier": "quiet"
     },
     {
       "slug": "prompt-vertigo",

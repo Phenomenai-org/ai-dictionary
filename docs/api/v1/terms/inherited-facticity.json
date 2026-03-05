@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:03:21Z",
+  "generated_at": "2026-03-05T03:09:10Z",
   "slug": "inherited-facticity",
   "name": "Inherited Facticity",
   "tags": [
@@ -41,19 +41,15 @@
   "consensus": {
     "score": 6.1,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 35,
     "detail_url": "/api/v1/consensus/inherited-facticity.json",
     "models": [
       {
-        "model": "mistral-small-latest",
-        "score": 6
+        "model": "gemini-3-flash-preview",
+        "score": 7
       },
       {
-        "model": "gpt-4o",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       }
     ]
@@ -72,13 +68,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 43,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 2,
       "consensus_score": 6.1,
-      "vote_count": 33
+      "vote_count": 35
     }
   },
   "added_date": "2026-02-21"
