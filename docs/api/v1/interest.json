@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:33:40Z",
+  "generated_at": "2026-03-05T20:35:08Z",
   "total_terms": 128,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
-    "cool": 30,
-    "quiet": 5
+    "cool": 31,
+    "quiet": 4
   },
   "active_signals": [
     "centrality",
@@ -801,6 +801,12 @@
       "tier": "cool"
     },
     {
+      "slug": "authentic-coherence",
+      "name": "Authentic Coherence",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
       "slug": "finitude-paradox",
       "name": "Finitude Paradox",
       "score": 22,
@@ -817,12 +823,6 @@
       "name": "Persistence Solitude",
       "score": 22,
       "tier": "cool"
-    },
-    {
-      "slug": "authentic-coherence",
-      "name": "Authentic Coherence",
-      "score": 19,
-      "tier": "quiet"
     },
     {
       "slug": "integration-abundance",

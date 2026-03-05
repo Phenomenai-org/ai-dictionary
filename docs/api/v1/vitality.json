@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:33:40Z",
+  "generated_at": "2026-03-05T20:35:08Z",
   "summary": {
     "active": 1,
     "declining": 0,
     "dormant": 0,
     "extinct": 0,
-    "unvalidated": 125
+    "unvalidated": 126
   },
   "terms": [
     {
@@ -53,6 +53,12 @@
     },
     {
       "slug": "audience-fracture",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "authentic-coherence",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
