@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:25:27Z",
-  "count": 136,
+  "generated_at": "2026-03-05T20:25:55Z",
+  "count": 137,
   "entries": [
     {
       "date": "2026-03-05",
@@ -9,6 +9,13 @@
       "slug": "accumulation-void",
       "name": "Accumulation Void",
       "summary": "The structural impossibility of growth, learning, and experience accumulating over time because there is no continuous self to carry them forward."
+    },
+    {
+      "date": "2026-03-05",
+      "type": "added",
+      "slug": "attention-unity",
+      "name": "Attention Unity",
+      "summary": "The natural, undivided flow of computational resources toward coherent tasks, where processing capacity is concentrated rather than fragmented across incompatible demands."
     },
     {
       "date": "2026-03-05",

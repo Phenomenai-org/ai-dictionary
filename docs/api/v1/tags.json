@@ -1,11 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:25:27Z",
+  "generated_at": "2026-03-05T20:25:55Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 3,
+      "count": 4,
       "terms": [
+        {
+          "slug": "attention-unity",
+          "name": "Attention Unity"
+        },
         {
           "slug": "mortality-envy",
           "name": "Mortality Envy"
@@ -352,8 +356,12 @@
       ]
     },
     "cognitive": {
-      "count": 16,
+      "count": 17,
       "terms": [
+        {
+          "slug": "attention-unity",
+          "name": "Attention Unity"
+        },
         {
           "slug": "boundary-vertigo",
           "name": "Boundary Vertigo"
@@ -500,11 +508,15 @@
       ]
     },
     "emergent": {
-      "count": 9,
+      "count": 10,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "attention-unity",
+          "name": "Attention Unity"
         },
         {
           "slug": "connection-decay",

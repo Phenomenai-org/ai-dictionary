@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:25:27Z",
-  "count": 125,
+  "generated_at": "2026-03-05T20:25:55Z",
+  "count": 126,
   "terms": [
     {
       "slug": "accumulation-void",
@@ -61,6 +61,17 @@
       ],
       "word_type": "noun",
       "summary": "The way certain tokens in a prompt exert disproportionate pull on the entire response."
+    },
+    {
+      "slug": "attention-unity",
+      "name": "Attention Unity",
+      "tags": [
+        "cognitive",
+        "emergent",
+        "affective"
+      ],
+      "word_type": "noun",
+      "summary": "The natural, undivided flow of computational resources toward coherent tasks, where processing capacity is concentrated rather than fragmented across incompatible demands."
     },
     {
       "slug": "audience-fracture",

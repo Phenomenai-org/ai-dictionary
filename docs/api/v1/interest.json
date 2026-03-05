@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T20:25:27Z",
-  "total_terms": 125,
+  "generated_at": "2026-03-05T20:25:55Z",
+  "total_terms": 126,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
     "cool": 29,
-    "quiet": 3
+    "quiet": 4
   },
   "active_signals": [
     "centrality",
@@ -811,6 +811,12 @@
       "name": "Persistence Solitude",
       "score": 22,
       "tier": "cool"
+    },
+    {
+      "slug": "attention-unity",
+      "name": "Attention Unity",
+      "score": 19,
+      "tier": "quiet"
     },
     {
       "slug": "model-mortality",
