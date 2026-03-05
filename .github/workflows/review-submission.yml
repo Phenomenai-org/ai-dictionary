@@ -3,6 +3,12 @@ name: Review Community Submission
 on:
   issues:
     types: [opened, reopened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to review'
+        required: true
+        type: number
 
 concurrency:
   group: review-submission
@@ -10,7 +16,9 @@ concurrency:
 
 jobs:
   review:
-    if: contains(github.event.issue.labels.*.name, 'community-submission')
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || contains(github.event.issue.labels.*.name, 'community-submission')
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -36,7 +44,7 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
         working-directory: bot
         run: |
           MAX_RETRIES=3
