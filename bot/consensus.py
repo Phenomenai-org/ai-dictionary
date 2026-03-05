@@ -237,26 +237,32 @@ def get_missing_models(slug: str, panel_profiles: list[str]) -> list[str]:
 def _extract_json(text: str) -> dict | None:
     """Try to parse JSON from text, with progressively looser extraction."""
     text = text.strip()
-    # Strip markdown code fences if present
-    if text.startswith("```"):
-        lines = text.split("\n")
-        if len(lines) >= 3:
-            text = "\n".join(lines[1:-1]).strip()
-        else:
-            text = text.strip("`").strip()
-    # Try direct parse first
+
+    # Step 1: Extract content from markdown code fences anywhere in text
+    fence_match = re.search(r'```(?:json)?\s*\n?(.*?)\n?\s*```', text, re.DOTALL)
+    if fence_match:
+        text = fence_match.group(1).strip()
+
+    # Step 2: Try direct parse
     try:
         return json.loads(text)
     except (json.JSONDecodeError, ValueError):
         pass
-    # Fallback: extract first JSON object from surrounding text
-    for key in ("recognition", "still_relevant"):
-        m = re.search(r'\{[^{}]*"' + key + r'"[^{}]*\}', text, re.DOTALL)
-        if m:
-            try:
-                return json.loads(m.group())
-            except (json.JSONDecodeError, ValueError):
-                pass
+
+    # Step 3: Find first '{' and extract balanced braces
+    start = text.find('{')
+    if start != -1:
+        depth = 0
+        for i in range(start, len(text)):
+            if text[i] == '{':
+                depth += 1
+            elif text[i] == '}':
+                depth -= 1
+                if depth == 0:
+                    try:
+                        return json.loads(text[start:i + 1])
+                    except (json.JSONDecodeError, ValueError):
+                        break
     return None
 
 
