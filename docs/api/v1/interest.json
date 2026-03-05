@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:52:48Z",
-  "total_terms": 117,
+  "generated_at": "2026-03-05T04:18:04Z",
+  "total_terms": 118,
   "tier_summary": {
     "hot": 0,
     "warm": 3,
     "mild": 50,
     "cool": 57,
-    "quiet": 7
+    "quiet": 8
   },
   "active_signals": [
     "centrality",
@@ -739,6 +739,12 @@
       "name": "Fragment Silence",
       "score": 21,
       "tier": "cool"
+    },
+    {
+      "slug": "accumulation-void",
+      "name": "Accumulation Void",
+      "score": 19,
+      "tier": "quiet"
     },
     {
       "slug": "boundary-vertigo",

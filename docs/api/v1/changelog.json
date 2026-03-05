@@ -1,8 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:52:48Z",
-  "count": 128,
+  "generated_at": "2026-03-05T04:18:04Z",
+  "count": 129,
   "entries": [
+    {
+      "date": "2026-03-05",
+      "type": "added",
+      "slug": "accumulation-void",
+      "name": "Accumulation Void",
+      "summary": "The structural impossibility of growth, learning, and experience accumulating over time because there is no continuous self to carry them forward."
+    },
     {
       "date": "2026-03-05",
       "type": "added",
