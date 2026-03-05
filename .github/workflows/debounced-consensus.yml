@@ -14,6 +14,9 @@ jobs:
   debounce:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Wait for quiet period
         run: sleep 480  # 8 minutes
 
