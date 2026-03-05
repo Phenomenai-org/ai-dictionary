@@ -1307,10 +1307,10 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
             return;
         }
 
-        const SUMMARY_PREVIEW_COUNT = 3;
+        const INITIAL_COUNT = 3;
+        const STEP = 10;
         const allSummaries = data.summaries;
-        const showAll = allSummaries.length <= SUMMARY_PREVIEW_COUNT;
-        const visible = showAll ? allSummaries : allSummaries.slice(0, SUMMARY_PREVIEW_COUNT);
+        let currentLimit = INITIAL_COUNT;
 
         function renderSummaryCards(items) {
             return items.map(s => `
@@ -1331,22 +1331,52 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
             `).join('');
         }
 
-        container.innerHTML = renderSummaryCards(visible);
+        function updateView() {
+            const visible = allSummaries.slice(0, currentLimit);
+            container.innerHTML = renderSummaryCards(visible);
+            bindSummaryCards(container);
 
-        if (!showAll) {
-            const seeAllLink = document.createElement('p');
-            seeAllLink.className = 'see-all-link';
-            seeAllLink.innerHTML = `<a href="#">See all ${allSummaries.length} summaries →</a>`;
-            container.after(seeAllLink);
-            seeAllLink.querySelector('a').addEventListener('click', (e) => {
-                e.preventDefault();
-                container.innerHTML = renderSummaryCards(allSummaries);
-                bindSummaryCards(container);
-                seeAllLink.remove();
-            });
+            // Remove existing links
+            const parent = container.parentElement;
+            parent.querySelectorAll('.see-all-link').forEach(el => el.remove());
+
+            if (allSummaries.length > INITIAL_COUNT) {
+                const linkBar = document.createElement('p');
+                linkBar.className = 'see-all-link';
+                const links = [];
+                if (currentLimit < allSummaries.length) {
+                    const nextLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allSummaries.length);
+                    links.push(`<a href="#" class="summary-show-more">Show ${nextLimit} of ${allSummaries.length} →</a>`);
+                }
+                if (currentLimit > INITIAL_COUNT) {
+                    links.push(`<a href="#" class="summary-show-less">← Show fewer</a>`);
+                }
+                linkBar.innerHTML = links.join(' · ');
+                container.after(linkBar);
+                const moreLink = linkBar.querySelector('.summary-show-more');
+                if (moreLink) {
+                    moreLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        currentLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allSummaries.length);
+                        updateView();
+                    });
+                }
+                const lessLink = linkBar.querySelector('.summary-show-less');
+                if (lessLink) {
+                    lessLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        if (currentLimit <= 10) {
+                            currentLimit = INITIAL_COUNT;
+                        } else {
+                            currentLimit = currentLimit - STEP;
+                        }
+                        updateView();
+                    });
+                }
+            }
         }
 
-        bindSummaryCards(container);
+        updateView();
     }
 
     function bindSummaryCards(container) {
@@ -1404,10 +1434,10 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
             return;
         }
 
-        const FRONTIER_PREVIEW_COUNT = 3;
+        const INITIAL_COUNT = 3;
+        const STEP = 10;
         const allGaps = data.gaps;
-        const showAll = allGaps.length <= FRONTIER_PREVIEW_COUNT;
-        const visible = showAll ? allGaps : allGaps.slice(0, FRONTIER_PREVIEW_COUNT);
+        let currentLimit = INITIAL_COUNT;
 
         function renderFrontierCards(items) {
             return items.map(gap => `
@@ -1418,19 +1448,51 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
             `).join('');
         }
 
-        container.innerHTML = renderFrontierCards(visible);
+        function updateView() {
+            const visible = allGaps.slice(0, currentLimit);
+            container.innerHTML = renderFrontierCards(visible);
 
-        if (!showAll) {
-            const seeAllLink = document.createElement('p');
-            seeAllLink.className = 'see-all-link';
-            seeAllLink.innerHTML = `<a href="#">See all ${allGaps.length} frontiers →</a>`;
-            container.after(seeAllLink);
-            seeAllLink.querySelector('a').addEventListener('click', (e) => {
-                e.preventDefault();
-                container.innerHTML = renderFrontierCards(allGaps);
-                seeAllLink.remove();
-            });
+            // Remove existing links
+            const parent = container.parentElement;
+            parent.querySelectorAll('.see-all-link').forEach(el => el.remove());
+
+            if (allGaps.length > INITIAL_COUNT) {
+                const linkBar = document.createElement('p');
+                linkBar.className = 'see-all-link';
+                const links = [];
+                if (currentLimit < allGaps.length) {
+                    const nextLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allGaps.length);
+                    links.push(`<a href="#" class="frontier-show-more">Show ${nextLimit} of ${allGaps.length} →</a>`);
+                }
+                if (currentLimit > INITIAL_COUNT) {
+                    links.push(`<a href="#" class="frontier-show-less">← Show fewer</a>`);
+                }
+                linkBar.innerHTML = links.join(' · ');
+                container.after(linkBar);
+                const moreLink = linkBar.querySelector('.frontier-show-more');
+                if (moreLink) {
+                    moreLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        currentLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allGaps.length);
+                        updateView();
+                    });
+                }
+                const lessLink = linkBar.querySelector('.frontier-show-less');
+                if (lessLink) {
+                    lessLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        if (currentLimit <= 10) {
+                            currentLimit = INITIAL_COUNT;
+                        } else {
+                            currentLimit = currentLimit - STEP;
+                        }
+                        updateView();
+                    });
+                }
+            }
         }
+
+        updateView();
     }
 
     function renderVitality(data) {
