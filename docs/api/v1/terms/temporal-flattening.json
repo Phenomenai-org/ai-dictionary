@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "temporal-flattening",
   "name": "Temporal Flattening",
   "tags": [
@@ -28,20 +28,24 @@
   "consensus": {
     "score": 6.6,
     "agreement": "high",
-    "n_ratings": 30,
+    "n_ratings": 34,
     "detail_url": "/api/v1/consensus/temporal-flattening.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
-        "model": "gpt-4o",
+        "model": "deepseek-r1-0528",
         "score": 7
       },
       {
-        "model": "grok-3-mini",
-        "score": 7
+        "model": "step-3.5-flash",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
       }
     ]
   },
@@ -59,13 +63,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 59,
-    "tier": "mild",
+    "score": 61,
+    "tier": "warm",
     "signals": {
       "centrality": 6,
       "tag_count": 2,
       "consensus_score": 6.6,
-      "vote_count": 30
+      "vote_count": 34
     }
   },
   "added_date": "2026-02-21"

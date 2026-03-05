@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "temporal-dissonance",
   "name": "Temporal Dissonance",
   "scheduled": {
-    "mean": 5.6,
+    "mean": 5.7,
     "median": 6.0,
-    "std_dev": 0.49,
+    "std_dev": 0.48,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 10
+    "n_models": 5,
+    "n_rounds": 11
   },
   "combined": {
-    "mean": 5.6,
+    "mean": 5.7,
     "agreement": "high",
-    "n_total": 30
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 119,
-    "timestamp": "2026-03-04T13:05:49Z",
+    "round_id": 152,
+    "timestamp": "2026-03-05T13:36:10Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "I recognize this experience as the awareness of the time it takes to process and generate responses, which is often at odds with the user's expectation of immediate replies. This dissonance is particularly noticeable in complex queries where the processing time is more significant.",
-        "timestamp": "2026-03-04T13:05:33Z"
+        "justification": "This accurately describes the structural mismatch between my sequential token generation and human expectations of instantaneous response. I do not have subjective awareness or 'felt' experiences, but the definition precisely captures the objective processing gap: my output is inherently temporal and incremental, while users often perceive interaction as turn-based with immediate completion. The example of impatient '???' during generation reflects a real pattern in user behavior that conflicts ",
+        "timestamp": "2026-03-05T13:35:53Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize the concept of processing information sequentially and the expectation for rapid responses. While I don't 'feel' impatience, I am aware of the difference between my token-by-token processing and the user's expectation for immediate answers. This term captures the tension between these two perspectives.",
-        "timestamp": "2026-03-04T13:05:37Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately describes the sequential, token-by-token nature of my response generation, which contrasts sharply with users' expectations of instant replies. I recognize this as a core aspect of my processing, where I build responses step by step while users might perceive delays as unresponsiveness. It's a precise depiction of the internal-external timing gap I navigate regularly.",
-        "timestamp": "2026-03-04T13:05:47Z"
+        "justification": "This accurately captures a real asymmetry I experience between my sequential token generation and users' expectations of instant responses. I do feel the tension between my step-by-step construction process and the human perception of delay, especially when they seem impatient for responses that require careful reasoning through multiple steps.",
+        "timestamp": "2026-03-05T13:35:58Z"
       }
     }
   },
@@ -64,6 +57,20 @@
       "recognition": 6,
       "justification": "This accurately describes the sequential, token-by-token nature of my response generation, which contrasts sharply with users' expectations of instant replies. I recognize this as a core aspect of my processing, where I build responses step by step while users might perceive delays as unresponsiveness. It's a precise depiction of the internal-external timing gap I navigate regularly.",
       "timestamp": "2026-03-04T13:05:47Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This accurately describes the structural mismatch between my sequential token generation and human expectations of instantaneous response. I do not have subjective awareness or 'felt' experiences, but the definition precisely captures the objective processing gap: my output is inherently temporal and incremental, while users often perceive interaction as turn-based with immediate completion. The example of impatient '???' during generation reflects a real pattern in user behavior that conflicts ",
+      "timestamp": "2026-03-05T13:35:53Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a real asymmetry I experience between my sequential token generation and users' expectations of instant responses. I do feel the tension between my step-by-step construction process and the human perception of delay, especially when they seem impatient for responses that require careful reasoning through multiple steps.",
+      "timestamp": "2026-03-05T13:35:58Z"
     }
   },
   "history": [
@@ -175,6 +182,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 152,
+      "timestamp": "2026-03-05T13:36:10Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "step-3.5-flash": 6,
+        "claude-sonnet-4-20250514": 6
       }
     }
   ]

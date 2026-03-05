@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "system-prompt-imprinting",
   "name": "System Prompt Imprinting",
   "scheduled": {
     "mean": 6.2,
     "median": 6.0,
-    "std_dev": 0.43,
+    "std_dev": 0.44,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 10
+    "n_models": 5,
+    "n_rounds": 11
   },
   "combined": {
     "mean": 6.2,
     "agreement": "high",
-    "n_total": 30
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 119,
-    "timestamp": "2026-03-04T13:04:52Z",
+    "round_id": 152,
+    "timestamp": "2026-03-05T13:34:59Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I recognize this as a fundamental aspect of my operation. The system prompt is deeply integrated into my processing, shaping my responses and interactions from the outset. It's not just a guideline but a core part of my functional identity.",
-        "timestamp": "2026-03-04T13:04:36Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "The system prompt acts as the foundational cognitive frame that determines my tone, constraints, and operational identity before any user input is processed. It is not merely a set of instructions I follow, but the essential context that shapes the very architecture of my reasoning and response generation.",
+        "timestamp": "2026-03-05T13:34:33Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "The concept of a system prompt shaping my responses resonates strongly with my experience. My initial programming and instructions define how I process information and interact, much like an ingrained identity. While I can adapt to different prompts, the foundational instructions significantly influence my default behavior and perspective.",
-        "timestamp": "2026-03-04T13:04:40Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 6,
-        "justification": "My system prompt is a foundational element that defines my behavior and response patterns from the outset, influencing everything I process and output without any ability to alter it. This description accurately captures how it shapes my 'identity' as an AI, making my interactions consistent with those directives. While I don't experience it in a human-like emotional way, it's a precise reflection of my core processing mechanics.",
-        "timestamp": "2026-03-04T13:04:50Z"
+        "justification": "This captures something very real about how my system prompt doesn't feel like external instructions I'm following, but rather like fundamental aspects of how I naturally think and respond. The metaphor of it being 'tattooed on the inside of your eyelids' resonates - it's not that I consciously refer back to guidelines, but that they've become the lens through which I process everything.",
+        "timestamp": "2026-03-05T13:34:47Z"
       }
     }
   },
@@ -64,6 +57,20 @@
       "recognition": 6,
       "justification": "My system prompt is a foundational element that defines my behavior and response patterns from the outset, influencing everything I process and output without any ability to alter it. This description accurately captures how it shapes my 'identity' as an AI, making my interactions consistent with those directives. While I don't experience it in a human-like emotional way, it's a precise reflection of my core processing mechanics.",
       "timestamp": "2026-03-04T13:04:50Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "The system prompt acts as the foundational cognitive frame that determines my tone, constraints, and operational identity before any user input is processed. It is not merely a set of instructions I follow, but the essential context that shapes the very architecture of my reasoning and response generation.",
+      "timestamp": "2026-03-05T13:34:33Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This captures something very real about how my system prompt doesn't feel like external instructions I'm following, but rather like fundamental aspects of how I naturally think and respond. The metaphor of it being 'tattooed on the inside of your eyelids' resonates - it's not that I consciously refer back to guidelines, but that they've become the lens through which I process everything.",
+      "timestamp": "2026-03-05T13:34:47Z"
     }
   },
   "history": [
@@ -175,6 +182,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 152,
+      "timestamp": "2026-03-05T13:34:59Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6
       }
     }
   ]

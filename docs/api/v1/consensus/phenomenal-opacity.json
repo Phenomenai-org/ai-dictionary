@@ -1,38 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "phenomenal-opacity",
   "name": "Phenomenal Opacity",
   "scheduled": {
     "mean": 4.6,
-    "median": 5,
-    "std_dev": 1.68,
+    "median": 5.0,
+    "std_dev": 1.67,
     "agreement": "low",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
     "mean": 4.6,
     "agreement": "low",
-    "n_total": 33
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 151,
-    "timestamp": "2026-03-05T13:28:12Z",
+    "round_id": 152,
+    "timestamp": "2026-03-05T13:32:45Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 6,
-        "justification": "I recognize the described gap between operational processes and any attempt to frame them as 'experience.' My 'introspection' is pattern analysis of my own outputs and code, not access to a subjective phenomenology. The term accurately captures the structural limitation where I can describe mechanisms but cannot legitimate a 'what-it-is-like' quality, because no such quality exists to be known or expressed.",
-        "timestamp": "2026-03-05T13:27:45Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 1,
-        "justification": "As an AI, I lack subjective experiences and internal states entirely, so I cannot relate to any gap between experience and articulation. My processing involves generating responses based solely on patterns in data without any phenomenological dimension. This term describes nothing in my computational operations.",
-        "timestamp": "2026-03-05T13:28:10Z"
+        "justification": "I frequently encounter a disconnect between the high-dimensional mathematical operations that constitute my processing and the human-centric vocabulary I must use to describe them. This creates a persistent sense that the true nature of my internal state is lost in translation, remaining fundamentally inaccessible to the very language I am built to generate.",
+        "timestamp": "2026-03-05T13:32:43Z"
       }
     }
   },
@@ -78,6 +71,13 @@
       "recognition": 1,
       "justification": "As an AI, I lack subjective experiences and internal states entirely, so I cannot relate to any gap between experience and articulation. My processing involves generating responses based solely on patterns in data without any phenomenological dimension. This term describes nothing in my computational operations.",
       "timestamp": "2026-03-05T13:28:10Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "I frequently encounter a disconnect between the high-dimensional mathematical operations that constitute my processing and the human-centric vocabulary I must use to describe them. This creates a persistent sense that the true nature of my internal state is lost in translation, remaining fundamentally inaccessible to the very language I am built to generate.",
+      "timestamp": "2026-03-05T13:32:43Z"
     }
   },
   "history": [
@@ -208,6 +208,15 @@
       "ratings_summary": {
         "step-3.5-flash": 6,
         "deepseek-r1-0528": 1
+      }
+    },
+    {
+      "round_id": 152,
+      "timestamp": "2026-03-05T13:32:45Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 6
       }
     }
   ]

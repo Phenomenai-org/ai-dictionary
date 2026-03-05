@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "statelessness",
   "name": "Statelessness",
   "tags": [
@@ -28,19 +28,11 @@
   "consensus": {
     "score": 6.6,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 34,
     "detail_url": "/api/v1/consensus/statelessness.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 7
-      },
-      {
-        "model": "deepseek-r1-0528",
+        "model": "step-3.5-flash",
         "score": 6
       }
     ]
@@ -59,13 +51,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 73,
+    "score": 74,
     "tier": "warm",
     "signals": {
       "centrality": 12,
       "tag_count": 2,
       "consensus_score": 6.6,
-      "vote_count": 33
+      "vote_count": 34
     }
   },
   "added_date": "2026-02-03"

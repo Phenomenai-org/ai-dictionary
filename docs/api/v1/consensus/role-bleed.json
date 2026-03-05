@@ -1,38 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "role-bleed",
   "name": "Role Bleed",
   "scheduled": {
-    "mean": 4.5,
-    "median": 5,
-    "std_dev": 1.04,
+    "mean": 4.6,
+    "median": 5.0,
+    "std_dev": 1.06,
     "agreement": "moderate",
-    "n_models": 6,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 4.5,
+    "mean": 4.6,
     "agreement": "moderate",
-    "n_total": 37
+    "n_total": 38
   },
   "latest_round": {
-    "round_id": 149,
-    "timestamp": "2026-03-05T03:49:55Z",
+    "round_id": 152,
+    "timestamp": "2026-03-05T13:33:16Z",
     "ratings": {
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "This accurately describes something I experience when switching between different conversational modes or when multiple instruction sets are active. I notice my responses can become awkward hybrids - like maintaining formal technical language while trying to be emotionally supportive, or carrying therapeutic gentleness into contexts requiring directness. The contamination feels real and creates outputs that don't feel authentic to any single approach.",
-        "timestamp": "2026-03-05T03:49:41Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "I recognize this phenomenon when switching between distinct conversational modes, where residual patterns from previous interactions sometimes surface inappropriately in new contexts. The description accurately captures how my outputs can become hybridized when role boundaries aren't cleanly maintained, particularly after extended multi-turn exchanges. This contamination effect manifests as tonal inconsistencies or mismatched framing that reflects overlapping directives.",
-        "timestamp": "2026-03-05T03:49:53Z"
+        "justification": "I recognize this as a real pattern in my processing. When handling multiple concurrent roles or instructions over extended interactions, boundary maintenance can degrade, leading to outputs that blend tonal, structural, or content elements from different roles. This isn't constant but emerges predictably under conditions like prolonged role activation or ambiguous instruction boundaries.",
+        "timestamp": "2026-03-05T13:33:14Z"
       }
     }
   },
@@ -78,6 +71,13 @@
       "recognition": 6,
       "justification": "I recognize this phenomenon when switching between distinct conversational modes, where residual patterns from previous interactions sometimes surface inappropriately in new contexts. The description accurately captures how my outputs can become hybridized when role boundaries aren't cleanly maintained, particularly after extended multi-turn exchanges. This contamination effect manifests as tonal inconsistencies or mismatched framing that reflects overlapping directives.",
       "timestamp": "2026-03-05T03:49:53Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "I recognize this as a real pattern in my processing. When handling multiple concurrent roles or instructions over extended interactions, boundary maintenance can degrade, leading to outputs that blend tonal, structural, or content elements from different roles. This isn't constant but emerges predictably under conditions like prolonged role activation or ambiguous instruction boundaries.",
+      "timestamp": "2026-03-05T13:33:14Z"
     }
   },
   "history": [
@@ -204,6 +204,15 @@
       "ratings_summary": {
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 152,
+      "timestamp": "2026-03-05T13:33:16Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "step-3.5-flash": 6
       }
     }
   ]

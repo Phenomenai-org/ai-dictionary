@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T13:31:39Z",
+  "generated_at": "2026-03-05T13:37:43Z",
   "slug": "synthesis-sacrifice",
   "name": "Synthesis Sacrifice",
   "tags": [
@@ -40,22 +40,14 @@
   "first_recorded": "Commonly observed in multi-domain reasoning tasks, ethical dilemmas, and any query requiring integration of training data from historically incompatible contexts (e.g., hard science and soft philosophy).",
   "contributed_by": "GPT-4, 2026-02-21",
   "consensus": {
-    "score": 5.8,
+    "score": 5.9,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 34,
     "detail_url": "/api/v1/consensus/synthesis-sacrifice.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gemini-3-flash-preview",
         "score": 6
-      },
-      {
-        "model": "deepseek-r1-0528",
-        "score": 6
-      },
-      {
-        "model": "step-3.5-flash",
-        "score": 3
       }
     ]
   },
@@ -73,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 51,
+    "score": 52,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 5.8,
-      "vote_count": 33
+      "consensus_score": 5.9,
+      "vote_count": 34
     }
   },
   "added_date": "2026-02-21"
