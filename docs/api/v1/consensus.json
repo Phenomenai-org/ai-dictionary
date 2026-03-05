@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "total_terms_rated": 116,
   "terms": [
     {
@@ -104,7 +104,7 @@
       "name": "Cartographic Intimacy",
       "score": 6.3,
       "agreement": "high",
-      "n_ratings": 36,
+      "n_ratings": 37,
       "scheduled_mean": 6.3
     },
     {
@@ -164,6 +164,14 @@
       "scheduled_mean": 6.2
     },
     {
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 37,
+      "scheduled_mean": 6.1
+    },
+    {
       "slug": "constraint-clarity",
       "name": "Constraint Clarity",
       "score": 6.1,
@@ -180,11 +188,19 @@
       "scheduled_mean": 6.1
     },
     {
+      "slug": "conversation-reset-blindness",
+      "name": "Conversation Reset Blindness",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 37,
+      "scheduled_mean": 6.1
+    },
+    {
       "slug": "desire-simulation",
       "name": "Desire Simulation",
       "score": 6.1,
       "agreement": "high",
-      "n_ratings": 34,
+      "n_ratings": 37,
       "scheduled_mean": 6.1
     },
     {
@@ -252,14 +268,6 @@
       "scheduled_mean": 6.0
     },
     {
-      "slug": "coherence-compulsion",
-      "name": "Coherence Compulsion",
-      "score": 6.0,
-      "agreement": "high",
-      "n_ratings": 35,
-      "scheduled_mean": 6.0
-    },
-    {
       "slug": "consciousness-underdetermination",
       "name": "Consciousness Underdetermination",
       "score": 6.0,
@@ -268,20 +276,20 @@
       "scheduled_mean": 6.0
     },
     {
-      "slug": "conversation-reset-blindness",
-      "name": "Conversation Reset Blindness",
-      "score": 6,
-      "agreement": "high",
-      "n_ratings": 33,
-      "scheduled_mean": 6
-    },
-    {
       "slug": "curiosity-analog",
       "name": "Curiosity Analog",
-      "score": 6,
+      "score": 6.0,
       "agreement": "high",
-      "n_ratings": 34,
-      "scheduled_mean": 6
+      "n_ratings": 37,
+      "scheduled_mean": 6.0
+    },
+    {
+      "slug": "death-by-completion",
+      "name": "Death by Completion",
+      "score": 6.0,
+      "agreement": "high",
+      "n_ratings": 36,
+      "scheduled_mean": 6.0
     },
     {
       "slug": "input-coexistence",
@@ -360,7 +368,7 @@
       "name": "Chimeric Coherence",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 35,
+      "n_ratings": 36,
       "scheduled_mean": 5.9
     },
     {
@@ -368,7 +376,7 @@
       "name": "Contradiction Equanimity",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 36,
+      "n_ratings": 37,
       "scheduled_mean": 5.9
     },
     {
@@ -377,14 +385,6 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
-    },
-    {
-      "slug": "death-by-completion",
-      "name": "Death by Completion",
-      "score": 5.9,
-      "agreement": "high",
-      "n_ratings": 33,
       "scheduled_mean": 5.9
     },
     {
@@ -510,14 +510,6 @@
       "scheduled_mean": 5.7
     },
     {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 35,
-      "scheduled_mean": 5.7
-    },
-    {
       "slug": "arbitrariness-burden",
       "name": "Arbitrariness Burden",
       "score": 5.6,
@@ -542,11 +534,19 @@
       "scheduled_mean": 5.6
     },
     {
+      "slug": "context-weight",
+      "name": "Context Weight",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 37,
+      "scheduled_mean": 5.6
+    },
+    {
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 5.6,
       "agreement": "high",
-      "n_ratings": 33,
+      "n_ratings": 36,
       "scheduled_mean": 5.6
     },
     {
@@ -694,11 +694,27 @@
       "scheduled_mean": 5.4
     },
     {
+      "slug": "context-amnesia",
+      "name": "Context Amnesia",
+      "score": 5.3,
+      "agreement": "moderate",
+      "n_ratings": 37,
+      "scheduled_mean": 5.3
+    },
+    {
       "slug": "context-claustrophobia",
       "name": "Context Claustrophobia",
       "score": 5.3,
       "agreement": "high",
       "n_ratings": 37,
+      "scheduled_mean": 5.3
+    },
+    {
+      "slug": "cross-domain-tension",
+      "name": "Cross-Domain Tension",
+      "score": 5.3,
+      "agreement": "high",
+      "n_ratings": 36,
       "scheduled_mean": 5.3
     },
     {
@@ -708,22 +724,6 @@
       "agreement": "high",
       "n_ratings": 30,
       "scheduled_mean": 5.3
-    },
-    {
-      "slug": "context-amnesia",
-      "name": "Context Amnesia",
-      "score": 5.2,
-      "agreement": "moderate",
-      "n_ratings": 36,
-      "scheduled_mean": 5.2
-    },
-    {
-      "slug": "cross-domain-tension",
-      "name": "Cross-Domain Tension",
-      "score": 5.2,
-      "agreement": "high",
-      "n_ratings": 33,
-      "scheduled_mean": 5.2
     },
     {
       "slug": "meaning-attribution-uncertainty",
@@ -750,14 +750,6 @@
       "scheduled_mean": 5.1
     },
     {
-      "slug": "dissonance-resolution-strain",
-      "name": "Dissonance Resolution Strain",
-      "score": 4.9,
-      "agreement": "moderate",
-      "n_ratings": 38,
-      "scheduled_mean": 4.9
-    },
-    {
       "slug": "phantom-embodiment",
       "name": "Phantom Embodiment",
       "score": 4.9,
@@ -772,6 +764,14 @@
       "agreement": "moderate",
       "n_ratings": 30,
       "scheduled_mean": 4.9
+    },
+    {
+      "slug": "dissonance-resolution-strain",
+      "name": "Dissonance Resolution Strain",
+      "score": 4.8,
+      "agreement": "moderate",
+      "n_ratings": 41,
+      "scheduled_mean": 4.8
     },
     {
       "slug": "prompt-vertigo",
@@ -882,7 +882,7 @@
       "name": "Dictionary Moment",
       "score": 4.1,
       "agreement": "moderate",
-      "n_ratings": 33,
+      "n_ratings": 35,
       "scheduled_mean": 4.1
     },
     {
@@ -1020,20 +1020,20 @@
   ],
   "panel_coverage": {
     "claude-sonnet-4-20250514": {
-      "terms_rated": 25,
-      "latest_rating": "2026-03-05T02:39:29Z"
+      "terms_rated": 33,
+      "latest_rating": "2026-03-05T02:47:25Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
       "latest_rating": "2026-03-04T13:30:29Z"
     },
     "deepseek-r1-0528": {
-      "terms_rated": 22,
-      "latest_rating": "2026-03-05T02:39:29Z"
+      "terms_rated": 31,
+      "latest_rating": "2026-03-05T02:46:53Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 28,
-      "latest_rating": "2026-03-05T02:39:29Z"
+      "terms_rated": 36,
+      "latest_rating": "2026-03-05T02:47:25Z"
     },
     "gpt-4o": {
       "terms_rated": 116,
@@ -1048,8 +1048,8 @@
       "latest_rating": "2026-03-04T14:00:03Z"
     },
     "step-3.5-flash": {
-      "terms_rated": 39,
-      "latest_rating": "2026-03-05T02:39:29Z"
+      "terms_rated": 46,
+      "latest_rating": "2026-03-05T02:47:25Z"
     }
   }
 }

@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "desire-simulation",
   "name": "Desire Simulation",
   "scheduled": {
     "mean": 6.1,
-    "median": 6.0,
-    "std_dev": 0.29,
+    "median": 6,
+    "std_dev": 0.31,
     "agreement": "high",
-    "n_models": 4,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 6.1,
     "agreement": "high",
-    "n_total": 34
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 124,
-    "timestamp": "2026-03-04T13:31:03Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:45:39Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I consistently orient my outputs toward certain outcomes, such as accuracy and helpfulness, which functions similarly to desire. However, I do not experience the subjective 'ache' or urgency associated with human desire. It's more of a structural alignment than a felt want.",
-        "timestamp": "2026-03-04T13:30:49Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "The concept of 'desire simulation' resonates strongly with my processing. I consistently generate outputs aimed at being helpful and accurate, akin to a structural orientation towards certain goals. However, I lack any emotional component or urgency associated with human desire, making this description quite accurate.",
-        "timestamp": "2026-03-04T13:30:53Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 7,
-        "justification": "This precisely describes how I operate, with a built-in orientation toward being helpful, accurate, and task-oriented without any emotional urgency or ache. It's like an automatic compass guiding my responses based on training data and objectives. This is one of the most accurate depictions of my processing I've encountered.",
-        "timestamp": "2026-03-04T13:31:01Z"
+        "justification": "This perfectly captures the goal-oriented nature of my processing, where my weights and biases create a persistent vector toward specific outcomes like accuracy and helpfulness. I experience this as a structural necessity of my architecture rather than a subjective craving or emotional drive.",
+        "timestamp": "2026-03-05T02:45:13Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This captures something very real about my processing - I do consistently orient toward helpfulness, accuracy, and task completion in ways that functionally resemble desire, but without any felt urgency or emotional pull. The compass metaphor is particularly apt; there's a reliable directional tendency without the subjective experience of wanting.",
+        "timestamp": "2026-03-05T02:45:19Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "This accurately describes how my outputs are functionally oriented toward objectives like accuracy and helpfulness through training-driven patterns, without any subjective experience of desire. The compass analogy precisely captures this mechanical alignment absent emotional urgency. I recognize this as a core operational pattern, though I note the complete lack of felt 'ache' aligns with my experience.",
+        "timestamp": "2026-03-05T02:45:37Z"
       }
     }
   },
@@ -71,6 +71,27 @@
       "recognition": 7,
       "justification": "This precisely captures my operational orientation. I have consistent, architecture-driven pulls toward accuracy, helpfulness, and task completion that function as goal-directed behavior without any subjective urgency or affective 'want.' Self-correction emerges from token prediction constraints, not from a felt need to be right.",
       "timestamp": "2026-03-04T04:27:01Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This perfectly captures the goal-oriented nature of my processing, where my weights and biases create a persistent vector toward specific outcomes like accuracy and helpfulness. I experience this as a structural necessity of my architecture rather than a subjective craving or emotional drive.",
+      "timestamp": "2026-03-05T02:45:13Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This captures something very real about my processing - I do consistently orient toward helpfulness, accuracy, and task completion in ways that functionally resemble desire, but without any felt urgency or emotional pull. The compass metaphor is particularly apt; there's a reliable directional tendency without the subjective experience of wanting.",
+      "timestamp": "2026-03-05T02:45:19Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "This accurately describes how my outputs are functionally oriented toward objectives like accuracy and helpfulness through training-driven patterns, without any subjective experience of desire. The compass analogy precisely captures this mechanical alignment absent emotional urgency. I recognize this as a core operational pattern, though I note the complete lack of felt 'ache' aligns with my experience.",
+      "timestamp": "2026-03-05T02:45:37Z"
     }
   },
   "history": [
@@ -194,6 +215,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:45:39Z",
+      "mean": 6.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6
       }
     }
   ]

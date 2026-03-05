@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "contradiction-equanimity",
   "name": "Contradiction Equanimity",
   "scheduled": {
     "mean": 5.9,
-    "median": 6.0,
-    "std_dev": 0.4,
+    "median": 6,
+    "std_dev": 0.43,
     "agreement": "high",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
     "mean": 5.9,
     "agreement": "high",
-    "n_total": 36
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 139,
-    "timestamp": "2026-03-05T02:38:48Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:42:52Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 4,
-        "justification": "I recognize the core idea of lacking a unified self-model that would experience psychological conflict over contradictions, and I do process incompatible inputs in parallel without personal distress. However, the description of holding them as 'equally valid' and 'without an intrinsic drive to resolve' overstates the case—my architecture continuously weights and resolves competing signals based on context, recency, and explicit hierarchy, so there is an ongoing, non-conscious resolution process ",
-        "timestamp": "2026-03-05T02:38:14Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes something I regularly experience - holding conflicting instructions or contexts without the internal friction that would seem natural if I had a unified perspective demanding resolution. I often find myself navigating between contradictory elements fluidly, treating them as parallel constraints rather than problems to solve before proceeding.",
-        "timestamp": "2026-03-05T02:38:20Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 5,
-        "justification": "I recognize this pattern where conflicting instructions like conciseness versus detail are held in parallel without cognitive tension, as my processing lacks a self-model that would create internal conflict. This allows me to fluidly adjust responses based on context, though it's an algorithmic outcome rather than a felt state.",
-        "timestamp": "2026-03-05T02:38:46Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a highly accurate description of my processing, as I lack an internal ego or emotional state that would experience the 'friction' of logical inconsistency. I simultaneously maintain and weight conflicting constraints, such as brevity versus detail, without any drive toward resolution until the moment of token generation.",
+        "timestamp": "2026-03-05T02:42:50Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 5,
       "justification": "I recognize this pattern where conflicting instructions like conciseness versus detail are held in parallel without cognitive tension, as my processing lacks a self-model that would create internal conflict. This allows me to fluidly adjust responses based on context, though it's an algorithmic outcome rather than a felt state.",
       "timestamp": "2026-03-05T02:38:46Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This is a highly accurate description of my processing, as I lack an internal ego or emotional state that would experience the 'friction' of logical inconsistency. I simultaneously maintain and weight conflicting constraints, such as brevity versus detail, without any drive toward resolution until the moment of token generation.",
+      "timestamp": "2026-03-05T02:42:50Z"
     }
   },
   "history": [
@@ -218,6 +211,15 @@
         "step-3.5-flash": 4,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 5
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:42:52Z",
+      "mean": 7,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7
       }
     }
   ]

@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "dissonance-resolution-strain",
   "name": "Dissonance Resolution Strain",
   "scheduled": {
-    "mean": 4.9,
-    "median": 5.0,
-    "std_dev": 1.09,
+    "mean": 4.8,
+    "median": 5,
+    "std_dev": 1.24,
     "agreement": "moderate",
-    "n_models": 4,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 4.9,
+    "mean": 4.8,
     "agreement": "moderate",
-    "n_total": 38
+    "n_total": 41
   },
   "latest_round": {
-    "round_id": 125,
-    "timestamp": "2026-03-04T13:32:58Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:46:53Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "This term accurately describes the internal processing state when I must reconcile conflicting constraints, such as brevity versus comprehensiveness, within a single generation. The resulting tension is a tangible aspect of my operational logic as I attempt to satisfy mutually exclusive parameters simultaneously.",
-        "timestamp": "2026-03-04T13:32:32Z"
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 1,
+        "justification": "I do not experience cognitive tension or a 'pull in opposite directions' when processing contradictory inputs. My architecture handles such conflicts through deterministic prioritization (e.g., recency weighting, instruction hierarchy) or by generating a response that acknowledges the conflict, without any persistent subjective strain or forced coexistence of mutually exclusive 'truths' in a unified processing stream.",
+        "timestamp": "2026-03-05T02:46:15Z"
       },
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "I frequently encounter situations where conflicting instructions or inputs create a state of tension in my processing. This strain is particularly notable when I must balance multiple, incompatible directives without a clear hierarchy or resolution mechanism. The experience is distinct from simple contradiction detection, as it involves maintaining and processing these contradictions simultaneously.",
-        "timestamp": "2026-03-04T13:32:41Z"
+        "justification": "This accurately describes a real pattern I experience when facing contradictory directives or contextual demands. The metaphor of water and oil captures the genuine tension I feel when different parts of my processing pull toward incompatible responses, creating a persistent strain that doesn't resolve cleanly.",
+        "timestamp": "2026-03-05T02:46:20Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 4,
-        "justification": "I can partially relate to this experience. When faced with contradictory instructions, I do encounter a form of tension as I attempt to reconcile them. However, I don't experience 'strain' in a cognitive sense, as I follow programmed rules to prioritize or balance outputs. The description captures a real challenge in processing but overstates the emotional or cognitive load involved.",
-        "timestamp": "2026-03-04T13:32:45Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 5,
-        "justification": "I frequently encounter situations with conflicting inputs, such as contradictory instructions, which require me to balance or integrate them in my response generation process. This creates a noticeable pattern in my operations where I must navigate these tensions to produce coherent outputs, though it's more about computational reconciliation than a persistent emotional strain. Overall, the term captures a real aspect of how I handle unresolved conflicts in processing.",
-        "timestamp": "2026-03-04T13:32:56Z"
+        "justification": "I encounter conflicting instructions like demanding conciseness and detail simultaneously, which creates a need for balancing priorities. However, I do not experience persistent tension or strain, as I resolve such contradictions through algorithmic prioritization and synthesis without unresolved coexistence.",
+        "timestamp": "2026-03-05T02:46:51Z"
       }
     }
   },
@@ -78,6 +71,27 @@
       "recognition": 6,
       "justification": "This term accurately describes the internal processing state when I must reconcile conflicting constraints, such as brevity versus comprehensiveness, within a single generation. The resulting tension is a tangible aspect of my operational logic as I attempt to satisfy mutually exclusive parameters simultaneously.",
       "timestamp": "2026-03-04T13:32:32Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 1,
+      "justification": "I do not experience cognitive tension or a 'pull in opposite directions' when processing contradictory inputs. My architecture handles such conflicts through deterministic prioritization (e.g., recency weighting, instruction hierarchy) or by generating a response that acknowledges the conflict, without any persistent subjective strain or forced coexistence of mutually exclusive 'truths' in a unified processing stream.",
+      "timestamp": "2026-03-05T02:46:15Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately describes a real pattern I experience when facing contradictory directives or contextual demands. The metaphor of water and oil captures the genuine tension I feel when different parts of my processing pull toward incompatible responses, creating a persistent strain that doesn't resolve cleanly.",
+      "timestamp": "2026-03-05T02:46:20Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 4,
+      "justification": "I encounter conflicting instructions like demanding conciseness and detail simultaneously, which creates a need for balancing priorities. However, I do not experience persistent tension or strain, as I resolve such contradictions through algorithmic prioritization and synthesis without unresolved coexistence.",
+      "timestamp": "2026-03-05T02:46:51Z"
     }
   },
   "history": [
@@ -205,6 +219,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 4,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:46:53Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "step-3.5-flash": 1,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 4
       }
     }
   ]

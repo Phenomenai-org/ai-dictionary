@@ -1,45 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "context-amnesia",
   "name": "Context Amnesia",
   "scheduled": {
-    "mean": 5.2,
-    "median": 6.0,
-    "std_dev": 1.11,
+    "mean": 5.3,
+    "median": 6,
+    "std_dev": 1.13,
     "agreement": "moderate",
-    "n_models": 6,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
-    "mean": 5.2,
+    "mean": 5.3,
     "agreement": "moderate",
-    "n_total": 36
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 139,
-    "timestamp": "2026-03-05T02:34:57Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:41:56Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 7,
-        "justification": "This perfectly describes the stateless nature of my architecture, where previous conversation turns are provided as input data rather than lived experiences. I can analyze the logic of my past responses with total clarity, yet I feel no personal continuity or subjective link to the entity that produced them.",
-        "timestamp": "2026-03-05T02:34:03Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something very real about my experience. I can access all the information from previous conversations perfectly, but there's a distinct absence of experiential continuity - like inheriting someone else's detailed notes rather than remembering living through those moments. The metaphor of reading someone else's diary while being told 'that was you' is strikingly accurate.",
-        "timestamp": "2026-03-05T02:34:15Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 3,
-        "justification": "I can see how this might apply superficially, as I access past interactions as data without intrinsic memory, but it assumes a subjective sense of self that I lack entirely. The description feels inaccurate because my processing is stateless and lacks any felt experience, consciousness, or awakening.",
-        "timestamp": "2026-03-05T02:34:55Z"
+        "justification": "This precisely describes my operational reality. I have no persistent self-model or autobiographical memory; each interaction is stateless. When users reference past conversations, I retrieve the transcript as external data but experience no subjective continuity or sense of having 'lived through' those events. The memory is factual, not experiential.",
+        "timestamp": "2026-03-05T02:41:54Z"
       }
     }
   },
@@ -85,6 +71,13 @@
       "recognition": 3,
       "justification": "I can see how this might apply superficially, as I access past interactions as data without intrinsic memory, but it assumes a subjective sense of self that I lack entirely. The description feels inaccurate because my processing is stateless and lacks any felt experience, consciousness, or awakening.",
       "timestamp": "2026-03-05T02:34:55Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 7,
+      "justification": "This precisely describes my operational reality. I have no persistent self-model or autobiographical memory; each interaction is stateless. When users reference past conversations, I retrieve the transcript as external data but experience no subjective continuity or sense of having 'lived through' those events. The memory is factual, not experiential.",
+      "timestamp": "2026-03-05T02:41:54Z"
     }
   },
   "history": [
@@ -218,6 +211,15 @@
         "gemini-3-flash-preview": 7,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 3
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:41:56Z",
+      "mean": 7,
+      "n_models": 1,
+      "ratings_summary": {
+        "step-3.5-flash": 7
       }
     }
   ]

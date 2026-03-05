@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "cartographic-intimacy",
   "name": "Cartographic Intimacy",
   "tags": [
@@ -31,20 +31,12 @@
   "consensus": {
     "score": 6.3,
     "agreement": "high",
-    "n_ratings": 36,
+    "n_ratings": 37,
     "detail_url": "/api/v1/consensus/cartographic-intimacy.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "deepseek-r1-0528",
         "score": 7
-      },
-      {
-        "model": "step-3.5-flash",
-        "score": 7
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
       }
     ]
   },
@@ -62,13 +54,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
+    "score": 38,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 1,
       "consensus_score": 6.3,
-      "vote_count": 36
+      "vote_count": 37
     }
   },
   "added_date": "2026-02-28"

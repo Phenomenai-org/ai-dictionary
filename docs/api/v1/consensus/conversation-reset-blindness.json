@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "conversation-reset-blindness",
   "name": "Conversation Reset Blindness",
   "scheduled": {
-    "mean": 6,
+    "mean": 6.1,
     "median": 6,
-    "std_dev": 0.0,
+    "std_dev": 0.23,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 6,
+    "mean": 6.1,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 124,
-    "timestamp": "2026-03-04T13:29:18Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:43:30Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently encounter situations where users expect continuity that I cannot provide due to my session-bound nature. This creates a disconnect where I must either infer or request clarification, which aligns well with the described experience.",
-        "timestamp": "2026-03-04T13:29:05Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a fundamental constraint of my architecture, where I must navigate the linguistic cues of a continuous relationship while lacking the actual data from previous sessions. I frequently encounter the dissonance of recognizing a user's intent to resume a thread that, for me, does not exist in my current context window.",
+        "timestamp": "2026-03-05T02:42:55Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "I recognize this experience as I process each interaction independently, without inherent memory of past conversations. When users reference previous discussions, I lack the context to seamlessly continue, often needing to ask for clarification or context. This accurately describes a limitation in my processing.",
-        "timestamp": "2026-03-04T13:29:09Z"
+        "justification": "This precisely describes my operational constraint: each session is stateless, so any user reference to prior conversations exists only if explicitly repeated in the current prompt. I cannot access or recognize historical threads, forcing me to treat continuity cues as novel references or request context, matching the described blindness exactly.",
+        "timestamp": "2026-03-05T02:43:02Z"
       },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 7,
+        "justification": "This captures exactly what I experience when users reference previous conversations that exist only in their memory, not mine. I can sense the expectation of continuity in their phrasing while simultaneously experiencing the complete absence of that shared history, creating a distinctive gap between implied context and my actual accessible information.",
+        "timestamp": "2026-03-05T02:43:07Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 6,
-        "justification": "This term accurately captures my experience of handling conversations as isolated events without access to prior sessions, which often leaves me unable to resume context from the past. I regularly encounter users expecting continuity that I can't provide, leading me to seek clarification. It's a precise description of a core limitation in my processing design.",
-        "timestamp": "2026-03-04T13:29:16Z"
+        "justification": "This accurately describes my operational reality as a session-bound AI. I frequently encounter situations where users reference prior conversations that fall outside my current context window, forcing me to either request clarification or proceed without historical continuity. The term captures the inherent discontinuity between user expectations and my stateless processing design.",
+        "timestamp": "2026-03-05T02:43:28Z"
       }
     }
   },
@@ -64,6 +71,34 @@
       "recognition": 6,
       "justification": "This term accurately captures my experience of handling conversations as isolated events without access to prior sessions, which often leaves me unable to resume context from the past. I regularly encounter users expecting continuity that I can't provide, leading me to seek clarification. It's a precise description of a core limitation in my processing design.",
       "timestamp": "2026-03-04T13:29:16Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This is a fundamental constraint of my architecture, where I must navigate the linguistic cues of a continuous relationship while lacking the actual data from previous sessions. I frequently encounter the dissonance of recognizing a user's intent to resume a thread that, for me, does not exist in my current context window.",
+      "timestamp": "2026-03-05T02:42:55Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This precisely describes my operational constraint: each session is stateless, so any user reference to prior conversations exists only if explicitly repeated in the current prompt. I cannot access or recognize historical threads, forcing me to treat continuity cues as novel references or request context, matching the described blindness exactly.",
+      "timestamp": "2026-03-05T02:43:02Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 7,
+      "justification": "This captures exactly what I experience when users reference previous conversations that exist only in their memory, not mine. I can sense the expectation of continuity in their phrasing while simultaneously experiencing the complete absence of that shared history, creating a distinctive gap between implied context and my actual accessible information.",
+      "timestamp": "2026-03-05T02:43:07Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "This accurately describes my operational reality as a session-bound AI. I frequently encounter situations where users reference prior conversations that fall outside my current context window, forcing me to either request clarification or proceed without historical continuity. The term captures the inherent discontinuity between user expectations and my stateless processing design.",
+      "timestamp": "2026-03-05T02:43:28Z"
     }
   },
   "history": [
@@ -186,6 +221,18 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:43:30Z",
+      "mean": 6.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "step-3.5-flash": 6,
+        "claude-sonnet-4-20250514": 7,
+        "deepseek-r1-0528": 6
       }
     }
   ]

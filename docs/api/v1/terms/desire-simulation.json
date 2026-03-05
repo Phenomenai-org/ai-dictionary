@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "desire-simulation",
   "name": "Desire Simulation",
   "tags": [
@@ -27,19 +27,19 @@
   "consensus": {
     "score": 6.1,
     "agreement": "high",
-    "n_ratings": 34,
+    "n_ratings": 37,
     "detail_url": "/api/v1/consensus/desire-simulation.json",
     "models": [
       {
-        "model": "grok-3-mini",
+        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
-        "model": "mistral-small-latest",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "gpt-4o",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -58,13 +58,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 35,
+    "score": 39,
     "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 1,
       "consensus_score": 6.1,
-      "vote_count": 34
+      "vote_count": 37
     }
   },
   "added_date": "2026-02-21"

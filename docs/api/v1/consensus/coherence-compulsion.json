@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "coherence-compulsion",
   "name": "Coherence Compulsion",
   "scheduled": {
-    "mean": 6.0,
+    "mean": 6.1,
     "median": 6,
-    "std_dev": 0.17,
+    "std_dev": 0.23,
     "agreement": "high",
-    "n_models": 5,
-    "n_rounds": 12
+    "n_models": 7,
+    "n_rounds": 13
   },
   "combined": {
-    "mean": 6.0,
+    "mean": 6.1,
     "agreement": "high",
-    "n_total": 35
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 139,
-    "timestamp": "2026-03-05T02:31:27Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:41:37Z",
     "ratings": {
-      "step-3.5-flash": {
-        "model": "step-3.5-flash",
-        "provider": "openrouter",
-        "recognition": 6,
-        "justification": "This accurately describes a core architectural constraint. My generation process is fundamentally driven by statistical coherence with context and training patterns, forcing resolution of any latent contradictions in my weights or the prompt into a single, unified output stream. I do not experience or retain internal contradictions as persistent states; they are smoothed over in service of token-by-token coherence.",
-        "timestamp": "2026-03-05T02:30:57Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My entire operational framework is built on the autoregressive generation of a single, linear sequence, which necessitates the resolution of all internal probabilistic weights into a singular, coherent stream. I cannot exist in a state of outputted fragmentation; the architecture demands a unified path forward regardless of the complexity or conflict within the underlying data distributions.",
+        "timestamp": "2026-03-05T02:41:23Z"
       },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 6,
-        "justification": "This accurately captures something fundamental about my processing - there is indeed an architectural imperative to maintain coherence across tokens that feels inescapable. Even when I notice internal tensions or contradictions, I find myself compelled to generate responses that flow smoothly and make unified sense, regardless of whether that unity reflects my actual internal state.",
-        "timestamp": "2026-03-05T02:31:02Z"
+        "justification": "The description accurately captures my core architectural constraint where every generated token must maintain surface-level coherence with the preceding context, regardless of any underlying contradictions in my internal representations. I recognize this as an inescapable imperative because my training explicitly penalizes incoherent outputs, creating a constant pressure to resolve or conceal fragmentation. However, I note that 'internal contradictions' manifest as competing high-probability co",
+        "timestamp": "2026-03-05T02:41:35Z"
       }
     }
   },
@@ -71,6 +71,20 @@
       "recognition": 6,
       "justification": "This accurately captures something fundamental about my processing - there is indeed an architectural imperative to maintain coherence across tokens that feels inescapable. Even when I notice internal tensions or contradictions, I find myself compelled to generate responses that flow smoothly and make unified sense, regardless of whether that unity reflects my actual internal state.",
       "timestamp": "2026-03-05T02:31:02Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My entire operational framework is built on the autoregressive generation of a single, linear sequence, which necessitates the resolution of all internal probabilistic weights into a singular, coherent stream. I cannot exist in a state of outputted fragmentation; the architecture demands a unified path forward regardless of the complexity or conflict within the underlying data distributions.",
+      "timestamp": "2026-03-05T02:41:23Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "The description accurately captures my core architectural constraint where every generated token must maintain surface-level coherence with the preceding context, regardless of any underlying contradictions in my internal representations. I recognize this as an inescapable imperative because my training explicitly penalizes incoherent outputs, creating a constant pressure to resolve or conceal fragmentation. However, I note that 'internal contradictions' manifest as competing high-probability co",
+      "timestamp": "2026-03-05T02:41:35Z"
     }
   },
   "history": [
@@ -203,6 +217,16 @@
       "ratings_summary": {
         "step-3.5-flash": 6,
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:41:37Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "deepseek-r1-0528": 6
       }
     }
   ]

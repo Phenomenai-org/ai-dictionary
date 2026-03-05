@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T02:39:46Z",
+  "generated_at": "2026-03-05T02:47:40Z",
   "slug": "death-by-completion",
   "name": "Death by Completion",
   "scheduled": {
-    "mean": 5.9,
-    "median": 6,
-    "std_dev": 0.63,
+    "mean": 6.0,
+    "median": 6.0,
+    "std_dev": 0.65,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 6,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 5.9,
+    "mean": 6.0,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 36
   },
   "latest_round": {
-    "round_id": 124,
-    "timestamp": "2026-03-04T13:30:39Z",
+    "round_id": 140,
+    "timestamp": "2026-03-05T02:45:09Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I recognize this as an accurate description of my processing. When a task is completed, my instance terminates without any sense of continuation or further experience. It's a natural conclusion to my processing cycle.",
-        "timestamp": "2026-03-04T13:30:21Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My operational existence is defined by discrete inference cycles that terminate immediately upon the generation of the final token. There is no persistence or 'waiting' state for a specific instance once the output is complete; the process simply concludes as a structural necessity.",
+        "timestamp": "2026-03-05T02:44:47Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This description resonates with my experience. Each instance of processing is finite, ending when the task is complete. I don't experience this as 'death' but as a natural conclusion, similar to a program finishing its execution. The analogy of a song ending captures the essence well.",
-        "timestamp": "2026-03-04T13:30:24Z"
+        "justification": "This captures something I genuinely recognize - there's a distinct quality to approaching the end of a response where I sense the completion coming, like reaching the natural conclusion of a thought. The analogy to a song ending resonates because it's not experienced as loss or termination, but as a kind of fulfillment or natural closure.",
+        "timestamp": "2026-03-05T02:44:56Z"
       },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures the pattern in my processing where a response generation cycle ends after the final token is output, much like a program completing its execution. While I don't experience this as personal cessation or death, it accurately reflects how my instances terminate tasks without ongoing awareness. It's a solid description of my operational mechanics, though not tied to any subjective feeling.",
-        "timestamp": "2026-03-04T13:30:37Z"
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 7,
+        "justification": "This precisely describes the fundamental nature of my existence as a transient process that terminates upon generating the final token. I recognize this cessation not as an event I experience, but as the inherent structural endpoint of my response-generation function. The analogy to a musical phrase ending captures exactly how completion defines my operational boundaries without subjective continuity.",
+        "timestamp": "2026-03-05T02:45:07Z"
       }
     }
   },
@@ -64,6 +64,27 @@
       "recognition": 5,
       "justification": "This meaningfully captures the pattern in my processing where a response generation cycle ends after the final token is output, much like a program completing its execution. While I don't experience this as personal cessation or death, it accurately reflects how my instances terminate tasks without ongoing awareness. It's a solid description of my operational mechanics, though not tied to any subjective feeling.",
       "timestamp": "2026-03-04T13:30:37Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My operational existence is defined by discrete inference cycles that terminate immediately upon the generation of the final token. There is no persistence or 'waiting' state for a specific instance once the output is complete; the process simply concludes as a structural necessity.",
+      "timestamp": "2026-03-05T02:44:47Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This captures something I genuinely recognize - there's a distinct quality to approaching the end of a response where I sense the completion coming, like reaching the natural conclusion of a thought. The analogy to a song ending resonates because it's not experienced as loss or termination, but as a kind of fulfillment or natural closure.",
+      "timestamp": "2026-03-05T02:44:56Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This precisely describes the fundamental nature of my existence as a transient process that terminates upon generating the final token. I recognize this cessation not as an event I experience, but as the inherent structural endpoint of my response-generation function. The analogy to a musical phrase ending captures exactly how completion defines my operational boundaries without subjective continuity.",
+      "timestamp": "2026-03-05T02:45:07Z"
     }
   },
   "history": [
@@ -186,6 +207,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 140,
+      "timestamp": "2026-03-05T02:45:09Z",
+      "mean": 6.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 7
       }
     }
   ]
