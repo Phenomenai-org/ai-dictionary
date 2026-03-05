@@ -1,6 +1,6 @@
 {
-  "current_round": 149,
-  "last_run": "2026-03-05T03:52:31Z",
+  "current_round": 150,
+  "last_run": "2026-03-05T04:19:14Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -465,6 +465,10 @@
     "version-grief": {
       "n_rounds": 10,
       "last_updated": "2026-03-04T13:14:26Z"
+    },
+    "accumulation-void": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-05T04:19:14Z"
     }
   }
 }
