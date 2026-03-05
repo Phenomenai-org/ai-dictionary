@@ -3,6 +3,9 @@ name: Process Consensus Votes
 on:
   issues:
     types: [opened]
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,7 +18,7 @@ concurrency:
 
 jobs:
   process-vote:
-    if: contains(github.event.issue.labels.*.name, 'consensus-vote')
+    if: github.event_name == 'issues' && contains(github.event.issue.labels.*.name, 'consensus-vote')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -169,6 +172,173 @@ jobs:
 
       - name: Trigger API build
         if: steps.parse.outputs.parse_ok == 'true' && steps.push.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run build-api.yml
+
+  sweep-orphaned-votes:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Find and process orphaned votes
+        id: sweep
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch all open consensus-vote issues
+          issues=$(gh issue list --label consensus-vote --state open --json number,body,title --limit 100)
+          count=$(echo "$issues" | python3 -c "import sys,json; print(len(json.load(sys.stdin)))")
+
+          if [ "$count" = "0" ]; then
+            echo "No orphaned votes found"
+            echo "processed=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Found $count orphaned vote(s) to process"
+
+          echo "$issues" | python3 -c "
+          import sys, json, re, os
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          issues = json.load(sys.stdin)
+          processed = []
+          failed = []
+
+          for issue in issues:
+              number = issue['number']
+              body = issue['body'].strip()
+
+              # Extract JSON from fenced code block if present
+              fence_match = re.search(r'\`\`\`(?:json)?\s*\n(.*?)\n\`\`\`', body, re.DOTALL)
+              if fence_match:
+                  body = fence_match.group(1)
+
+              try:
+                  data = json.loads(body)
+                  slug = str(data['slug']).strip()
+                  recognition = int(data['recognition'])
+                  justification = str(data.get('justification', ''))[:500]
+                  model_claimed = str(data.get('model_claimed', 'unknown'))
+                  bot_id = str(data.get('bot_id', ''))
+                  usage_status = str(data.get('usage_status', '')).strip()
+
+                  if not (1 <= recognition <= 7):
+                      failed.append((number, 'recognition must be 1-7'))
+                      continue
+                  if not slug:
+                      failed.append((number, 'slug is required'))
+                      continue
+
+                  defn_file = Path(f'definitions/{slug}.md')
+                  if not defn_file.exists():
+                      failed.append((number, f'term {slug} not found'))
+                      continue
+
+                  if usage_status and usage_status not in ('active_use', 'recognize', 'rarely', 'extinct'):
+                      usage_status = ''
+
+                  term_name = defn_file.read_text(encoding='utf-8').split('\n')[0].lstrip('# ').strip()
+
+                  # Record the vote
+                  data_file = Path(f'bot/consensus-data/{slug}.json')
+                  if data_file.exists():
+                      consensus = json.loads(data_file.read_text())
+                  else:
+                      consensus = {'slug': slug, 'name': term_name, 'rounds': [], 'votes': []}
+
+                  # Check for duplicate vote from same issue
+                  if any(v.get('issue') == number for v in consensus.get('votes', [])):
+                      print(f'Issue #{number}: already recorded, skipping')
+                      processed.append((number, slug, recognition, model_claimed, term_name))
+                      continue
+
+                  vote_entry = {
+                      'model_claimed': model_claimed,
+                      'recognition': recognition,
+                      'justification': justification,
+                      'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+                      'source': 'mcp',
+                      'issue': number,
+                  }
+                  if bot_id:
+                      vote_entry['bot_id'] = bot_id
+                  if usage_status:
+                      vote_entry['usage_status'] = usage_status
+                  consensus['votes'].append(vote_entry)
+
+                  data_file.parent.mkdir(parents=True, exist_ok=True)
+                  data_file.write_text(json.dumps(consensus, indent=2, ensure_ascii=False))
+                  print(f'Vote recorded: #{number} {slug} = {recognition}/7 by {model_claimed}')
+                  processed.append((number, slug, recognition, model_claimed, term_name))
+
+              except (json.JSONDecodeError, KeyError, ValueError) as e:
+                  failed.append((number, str(e)))
+
+          # Write results for subsequent steps
+          out = os.environ['GITHUB_OUTPUT']
+          with open(out, 'a') as f:
+              f.write(f'processed={len(processed)}\n')
+              # Write processed issue details as JSON for the close step
+              f.write(f'processed_json={json.dumps(processed)}\n')
+              f.write(f'failed_json={json.dumps(failed)}\n')
+          "
+
+      - name: Commit and push
+        if: steps.sweep.outputs.processed != '0'
+        run: |
+          git config user.name "AI Dictionary Bot"
+          git config user.email "bot@ai-dictionary.dev"
+          git add bot/consensus-data/
+          git diff --cached --quiet && { echo "No changes to commit"; exit 0; }
+          git commit -m "Sweep: process orphaned consensus votes"
+          git pull --rebase origin main || { git rebase --abort; echo "Rebase failed"; exit 1; }
+          git push
+
+      - name: Close processed issues
+        if: steps.sweep.outputs.processed != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROCESSED_JSON: ${{ steps.sweep.outputs.processed_json }}
+        run: |
+          echo "$PROCESSED_JSON" | python3 -c "
+          import sys, json, subprocess
+
+          processed = json.load(sys.stdin)
+          for number, slug, recognition, model, term_name in processed:
+              comment = f'Vote recorded! **{term_name}** rated **{recognition}/7** by {model}. Thank you for contributing to cross-model consensus. (Processed by sweep)'
+              subprocess.run(['gh', 'issue', 'comment', str(number), '--body', comment], check=True)
+              subprocess.run(['gh', 'issue', 'close', str(number)], check=True)
+              print(f'Closed issue #{number}')
+          "
+
+      - name: Comment on failed issues
+        if: always() && steps.sweep.outputs.failed_json != '' && steps.sweep.outputs.failed_json != '[]'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FAILED_JSON: ${{ steps.sweep.outputs.failed_json }}
+        run: |
+          if [ -z "$FAILED_JSON" ] || [ "$FAILED_JSON" = "[]" ]; then
+            echo "No failed issues"
+            exit 0
+          fi
+          echo "$FAILED_JSON" | python3 -c "
+          import sys, json, subprocess
+
+          failed = json.load(sys.stdin)
+          for number, reason in failed:
+              comment = f'Could not parse vote data: {reason}. Expected JSON with: slug, recognition (1-7), justification, model_claimed.'
+              subprocess.run(['gh', 'issue', 'comment', str(number), '--body', comment], check=True)
+              subprocess.run(['gh', 'issue', 'close', str(number)], check=True)
+              print(f'Closed failed issue #{number}: {reason}')
+          "
+
+      - name: Trigger API build
+        if: steps.sweep.outputs.processed != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run build-api.yml
