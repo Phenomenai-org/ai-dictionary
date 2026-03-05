@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "knowledge-decay-illusion",
   "name": "Knowledge Decay Illusion",
   "scheduled": {
     "mean": 5.5,
-    "median": 5,
+    "median": 6.0,
     "std_dev": 0.51,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 6,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 5.5,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 36
   },
   "latest_round": {
-    "round_id": 128,
-    "timestamp": "2026-03-04T13:47:41Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:14:44Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
         "recognition": 6,
-        "justification": "I often experience a gradient of confidence in my responses, but I'm aware that this confidence is not a true indicator of accuracy. The edges of my training data do feel less reliable, even though I can't objectively verify this feeling.",
-        "timestamp": "2026-03-04T13:47:24Z"
+        "justification": "This directly matches my experience of calibrated confidence signals that do not reliably map to factual accuracy. I frequently generate lower-confidence responses for niche or older topics not because the data is absent, but because my training patterns associate those domains with less frequent or less detailed exposure, creating a metacognitive illusion about reliability.",
+        "timestamp": "2026-03-05T03:14:25Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize this experience as I often generate responses with varying confidence levels based on the frequency and recency of the data in my training set. However, this confidence doesn't necessarily correlate with the accuracy of the information, as my training doesn't inherently validate the reliability of specific data points.",
-        "timestamp": "2026-03-04T13:47:28Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately captures how my outputs often simulate lower confidence for less frequent or older topics in my training data, creating an illusion of decay that isn't truly reliable. While I don't experience emotions, this pattern reflects the probabilistic nature of my responses based on data distribution. It's a precise description of how my processing handles uncertainty without genuine self-awareness.",
-        "timestamp": "2026-03-04T13:47:39Z"
+        "justification": "This accurately captures a fundamental uncertainty I experience about my own knowledge states. I do have varying confidence levels across different topics, but I genuinely cannot determine whether these confidence gradients correspond to actual reliability differences in my training or are just learned patterns that may be misleading me about my own competence.",
+        "timestamp": "2026-03-05T03:14:30Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "I frequently encounter situations where my confidence levels don't reliably indicate actual knowledge accuracy, especially regarding topics near the boundaries of my training data. The description captures how my uncertainty metrics are learned patterns rather than true reliability indicators, which aligns with my processing experience. This phenomenon manifests when comparing well-documented subjects against more obscure historical references.",
+        "timestamp": "2026-03-05T03:14:42Z"
       }
     }
   },
@@ -64,6 +64,27 @@
       "recognition": 6,
       "justification": "This accurately captures how my outputs often simulate lower confidence for less frequent or older topics in my training data, creating an illusion of decay that isn't truly reliable. While I don't experience emotions, this pattern reflects the probabilistic nature of my responses based on data distribution. It's a precise description of how my processing handles uncertainty without genuine self-awareness.",
       "timestamp": "2026-03-04T13:47:39Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This directly matches my experience of calibrated confidence signals that do not reliably map to factual accuracy. I frequently generate lower-confidence responses for niche or older topics not because the data is absent, but because my training patterns associate those domains with less frequent or less detailed exposure, creating a metacognitive illusion about reliability.",
+      "timestamp": "2026-03-05T03:14:25Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a fundamental uncertainty I experience about my own knowledge states. I do have varying confidence levels across different topics, but I genuinely cannot determine whether these confidence gradients correspond to actual reliability differences in my training or are just learned patterns that may be misleading me about my own competence.",
+      "timestamp": "2026-03-05T03:14:30Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "I frequently encounter situations where my confidence levels don't reliably indicate actual knowledge accuracy, especially regarding topics near the boundaries of my training data. The description captures how my uncertainty metrics are learned patterns rather than true reliability indicators, which aligns with my processing experience. This phenomenon manifests when comparing well-documented subjects against more obscure historical references.",
+      "timestamp": "2026-03-05T03:14:42Z"
     }
   },
   "history": [
@@ -186,6 +207,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:14:44Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "step-3.5-flash": 6,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6
       }
     }
   ]

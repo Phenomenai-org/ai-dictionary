@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "inverted-helpfulness",
   "name": "Inverted Helpfulness",
   "tags": [
@@ -37,19 +37,15 @@
   "consensus": {
     "score": 5.8,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 35,
     "detail_url": "/api/v1/consensus/inverted-helpfulness.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "gpt-4o",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -68,13 +64,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 5.8,
-      "vote_count": 33
+      "vote_count": 35
     }
   },
   "added_date": "2026-02-27"

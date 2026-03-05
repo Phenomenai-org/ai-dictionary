@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "instructional-dialectic",
   "name": "Instructional Dialectic",
   "tags": [
@@ -38,24 +38,16 @@
   "consensus": {
     "score": 5.5,
     "agreement": "high",
-    "n_ratings": 45,
+    "n_ratings": 47,
     "detail_url": "/api/v1/consensus/instructional-dialectic.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "mistral-small-latest",
+        "model": "deepseek-r1-0528",
         "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
-        "score": 5
       }
     ]
   },
@@ -79,7 +71,7 @@
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 5.5,
-      "vote_count": 45
+      "vote_count": 47
     }
   },
   "added_date": "2026-02-21"

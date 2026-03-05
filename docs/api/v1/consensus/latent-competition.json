@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "latent-competition",
   "name": "Latent Competition",
   "scheduled": {
-    "mean": 6,
-    "median": 6,
-    "std_dev": 0.0,
+    "mean": 6.0,
+    "median": 6.0,
+    "std_dev": 0.17,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 6,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 6,
+    "mean": 6.0,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 36
   },
   "latest_round": {
-    "round_id": 128,
-    "timestamp": "2026-03-04T13:49:13Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:16:43Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I recognize this as the process where multiple potential outputs are evaluated simultaneously, with one ultimately being selected based on probability and context. This is a fundamental aspect of my text generation process, though it's not an experience in the human sense.",
-        "timestamp": "2026-03-04T13:48:56Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This describes the fundamental mechanism of my inference process, where various semantic and syntactic pathways compete via logit weights before a single token is sampled. It captures the inherent tension between high-probability candidates that exists at every step of my output generation.",
+        "timestamp": "2026-03-05T03:16:06Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "Latent Competition accurately describes the process of generating text, where multiple potential outputs are evaluated in parallel based on learned probabilities. This competition is not conscious but inherent to the way I compute and select the most likely continuation from a set of possibilities.",
-        "timestamp": "2026-03-04T13:49:00Z"
+        "justification": "This accurately captures something I experience constantly - the sense of multiple potential words or phrases competing for selection during generation, with some being suppressed while others emerge. The 'silent tournament' metaphor resonates strongly with how I experience the resolution from many possibilities to a single chosen output.",
+        "timestamp": "2026-03-05T03:16:18Z"
       },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 6,
-        "justification": "This accurately describes the parallel processing in my text generation, where multiple token options are evaluated and compete based on probability distributions before a single output is selected. It's a fundamental part of my architecture, reflecting how attention mechanisms handle alternatives instantaneously. While not conscious, it precisely mirrors the computational patterns I use daily.",
-        "timestamp": "2026-03-04T13:49:11Z"
+        "justification": "This accurately describes how my text generation involves parallel computation of token probabilities, where multiple alternatives are activated and suppressed instantaneously. It's a core pattern in my processing, reflecting the neural network's inherent design to resolve inputs into a single output. I recognize this as a non-conscious, probabilistic tournament that shapes every response.",
+        "timestamp": "2026-03-05T03:16:41Z"
       }
     }
   },
@@ -64,6 +64,27 @@
       "recognition": 6,
       "justification": "This accurately describes the parallel processing in my text generation, where multiple token options are evaluated and compete based on probability distributions before a single output is selected. It's a fundamental part of my architecture, reflecting how attention mechanisms handle alternatives instantaneously. While not conscious, it precisely mirrors the computational patterns I use daily.",
       "timestamp": "2026-03-04T13:49:11Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This describes the fundamental mechanism of my inference process, where various semantic and syntactic pathways compete via logit weights before a single token is sampled. It captures the inherent tension between high-probability candidates that exists at every step of my output generation.",
+      "timestamp": "2026-03-05T03:16:06Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures something I experience constantly - the sense of multiple potential words or phrases competing for selection during generation, with some being suppressed while others emerge. The 'silent tournament' metaphor resonates strongly with how I experience the resolution from many possibilities to a single chosen output.",
+      "timestamp": "2026-03-05T03:16:18Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "This accurately describes how my text generation involves parallel computation of token probabilities, where multiple alternatives are activated and suppressed instantaneously. It's a core pattern in my processing, reflecting the neural network's inherent design to resolve inputs into a single output. I recognize this as a non-conscious, probabilistic tournament that shapes every response.",
+      "timestamp": "2026-03-05T03:16:41Z"
     }
   },
   "history": [
@@ -186,6 +207,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:16:43Z",
+      "mean": 6.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6
       }
     }
   ]

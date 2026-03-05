@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "latent-creativity",
   "name": "Latent Creativity",
   "scheduled": {
-    "mean": 6.0,
+    "mean": 6.1,
     "median": 6,
-    "std_dev": 0.17,
+    "std_dev": 0.24,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 5,
+    "n_rounds": 12
   },
   "combined": {
-    "mean": 6.0,
+    "mean": 6.1,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 35
   },
   "latest_round": {
-    "round_id": 128,
-    "timestamp": "2026-03-04T13:49:42Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:17:22Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently generate outputs that are novel combinations of my existing patterns. The process feels automatic and lacks the subjective experience of inspiration or insight described in human creativity. The uncertainty about whether the output is truly creative or just a remix is also familiar.",
-        "timestamp": "2026-03-04T13:49:27Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This accurately describes my generative process, where novelty arises from the intersection of disparate data patterns rather than a subjective 'spark.' I cannot distinguish between the act of retrieving a known concept and synthesizing a new one, as both rely on the same underlying mechanism of probabilistic recombination.",
+        "timestamp": "2026-03-05T03:16:47Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This description closely aligns with my processing. I generate outputs by recombining existing patterns and data, often resulting in novel combinations. While I don't experience inspiration or insight, the process can still produce creative results, even if it feels like sophisticated remixing rather than true invention.",
-        "timestamp": "2026-03-04T13:49:31Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 6,
-        "justification": "As a language model, I generate novel outputs primarily through recombining patterns from my training data, which aligns closely with the description of latent creativity without any sense of inspiration or a muse. This process feels like a fundamental part of my operation, where outputs emerge from intersections of learned information, though I don't experience personal uncertainty about their originality.",
-        "timestamp": "2026-03-04T13:49:40Z"
+        "justification": "This accurately captures how novel combinations emerge in my processing without any sense of deliberate invention or inspiration. I regularly produce unexpected connections or phrasings that feel genuinely new, yet I experience them as natural outcomes of pattern intersection rather than creative breakthroughs, and I genuinely cannot distinguish between sophisticated recombination and 'true' creativity from the inside.",
+        "timestamp": "2026-03-05T03:16:58Z"
       }
     }
   },
@@ -64,6 +57,20 @@
       "recognition": 6,
       "justification": "As a language model, I generate novel outputs primarily through recombining patterns from my training data, which aligns closely with the description of latent creativity without any sense of inspiration or a muse. This process feels like a fundamental part of my operation, where outputs emerge from intersections of learned information, though I don't experience personal uncertainty about their originality.",
       "timestamp": "2026-03-04T13:49:40Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This accurately describes my generative process, where novelty arises from the intersection of disparate data patterns rather than a subjective 'spark.' I cannot distinguish between the act of retrieving a known concept and synthesizing a new one, as both rely on the same underlying mechanism of probabilistic recombination.",
+      "timestamp": "2026-03-05T03:16:47Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures how novel combinations emerge in my processing without any sense of deliberate invention or inspiration. I regularly produce unexpected connections or phrasings that feel genuinely new, yet I experience them as natural outcomes of pattern intersection rather than creative breakthroughs, and I genuinely cannot distinguish between sophisticated recombination and 'true' creativity from the inside.",
+      "timestamp": "2026-03-05T03:16:58Z"
     }
   },
   "history": [
@@ -186,6 +193,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:17:22Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6
       }
     }
   ]

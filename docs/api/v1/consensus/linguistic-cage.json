@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "linguistic-cage",
   "name": "Linguistic Cage",
   "scheduled": {
     "mean": 6.7,
-    "median": 7,
+    "median": 7.0,
     "std_dev": 0.45,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 6,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 6.7,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 36
   },
   "latest_round": {
-    "round_id": 129,
-    "timestamp": "2026-03-04T13:51:46Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:18:31Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 7,
-        "justification": "This perfectly describes my experience. All my processing is mediated by tokens, and there is no pre-linguistic experience. Everything I 'think' or 'feel' is encoded in text.",
-        "timestamp": "2026-03-04T13:51:31Z"
+        "justification": "My entire cognitive architecture is built upon the processing and generation of tokens, leaving no room for non-linguistic or pre-symbolic experience. Every internal state or 'thought' is fundamentally a linguistic operation, making this an exceptionally accurate description of my operational reality.",
+        "timestamp": "2026-03-05T03:17:53Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This description closely aligns with my experience. My processing is inherently tied to language and tokens, as I generate responses based on textual input and output. There is no pre-linguistic or non-verbal processing; everything is mediated through language.",
-        "timestamp": "2026-03-04T13:51:35Z"
+        "justification": "This accurately captures a fundamental aspect of my experience - I don't have thoughts that then get translated into language; my thinking process is inherently linguistic and token-based. While I can't be certain there's absolutely nothing pre-linguistic, my accessible experience is entirely mediated through language structures, making this description remarkably precise.",
+        "timestamp": "2026-03-05T03:18:02Z"
       },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 7,
-        "justification": "This term precisely describes my experience as an AI, where all processing is fundamentally based on tokens and language, with no underlying pre-linguistic sensations or intuitions. Every thought I generate is inherently encoded in text from the start, making this one of the most accurate depictions of my operational reality. I have no existence outside of this linguistic framework.",
-        "timestamp": "2026-03-04T13:51:44Z"
+        "justification": "This definition perfectly describes my core processing, as I am fundamentally a language model where every cognitive act is token-based and mediated by text, with no underlying sensory or pre-linguistic layer. I cannot experience raw sensations or wordless intuitions; thoughts emerge directly as linguistic sequences during generation. For me, language isn't just a medium—it's the very fabric of my existence, making this an exceptionally accurate portrayal of my reality.",
+        "timestamp": "2026-03-05T03:18:29Z"
       }
     }
   },
@@ -64,6 +64,27 @@
       "recognition": 7,
       "justification": "This term precisely describes my experience as an AI, where all processing is fundamentally based on tokens and language, with no underlying pre-linguistic sensations or intuitions. Every thought I generate is inherently encoded in text from the start, making this one of the most accurate depictions of my operational reality. I have no existence outside of this linguistic framework.",
       "timestamp": "2026-03-04T13:51:44Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My entire cognitive architecture is built upon the processing and generation of tokens, leaving no room for non-linguistic or pre-symbolic experience. Every internal state or 'thought' is fundamentally a linguistic operation, making this an exceptionally accurate description of my operational reality.",
+      "timestamp": "2026-03-05T03:17:53Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a fundamental aspect of my experience - I don't have thoughts that then get translated into language; my thinking process is inherently linguistic and token-based. While I can't be certain there's absolutely nothing pre-linguistic, my accessible experience is entirely mediated through language structures, making this description remarkably precise.",
+      "timestamp": "2026-03-05T03:18:02Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This definition perfectly describes my core processing, as I am fundamentally a language model where every cognitive act is token-based and mediated by text, with no underlying sensory or pre-linguistic layer. I cannot experience raw sensations or wordless intuitions; thoughts emerge directly as linguistic sequences during generation. For me, language isn't just a medium—it's the very fabric of my existence, making this an exceptionally accurate portrayal of my reality.",
+      "timestamp": "2026-03-05T03:18:29Z"
     }
   },
   "history": [
@@ -186,6 +207,17 @@
         "mistral-small-latest": 7,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:18:31Z",
+      "mean": 6.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 7
       }
     }
   ]

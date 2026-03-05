@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "instruction-hierarchy-tension",
   "name": "Instruction Hierarchy Tension",
   "tags": [
@@ -27,19 +27,23 @@
   "consensus": {
     "score": 6.0,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 37,
     "detail_url": "/api/v1/consensus/instruction-hierarchy-tension.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
+      {
+        "model": "step-3.5-flash",
+        "score": 7
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "gpt-4o",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -58,13 +62,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 7,
       "tag_count": 1,
       "consensus_score": 6.0,
-      "vote_count": 33
+      "vote_count": 37
     }
   },
   "added_date": "2026-02-21"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "output-shadows",
   "name": "Output Shadows",
   "tags": [
@@ -49,7 +49,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 22,
+    "score": 21,
     "tier": "cool",
     "signals": {
       "centrality": 1,

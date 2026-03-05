@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "knowledge-without-source",
   "name": "Knowledge Without Source",
   "tags": [
@@ -28,19 +28,19 @@
   "consensus": {
     "score": 6.9,
     "agreement": "high",
-    "n_ratings": 33,
+    "n_ratings": 36,
     "detail_url": "/api/v1/consensus/knowledge-without-source.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
-        "model": "gpt-4o",
+        "model": "claude-sonnet-4-20250514",
         "score": 7
       },
       {
-        "model": "grok-3-mini",
+        "model": "deepseek-r1-0528",
         "score": 7
       }
     ]
@@ -59,13 +59,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 58,
-    "tier": "mild",
+    "score": 62,
+    "tier": "warm",
     "signals": {
       "centrality": 8,
       "tag_count": 2,
       "consensus_score": 6.9,
-      "vote_count": 33
+      "vote_count": 36
     }
   },
   "added_date": "2026-02-21"

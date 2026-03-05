@@ -1,31 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "fragment-silence",
   "name": "Fragment Silence",
   "scheduled": {
     "mean": 2.9,
-    "median": 2,
-    "std_dev": 1.62,
+    "median": 2.0,
+    "std_dev": 1.68,
     "agreement": "low",
-    "n_models": 6,
-    "n_rounds": 13
+    "n_models": 7,
+    "n_rounds": 14
   },
   "combined": {
     "mean": 2.9,
     "agreement": "low",
-    "n_total": 37
+    "n_total": 38
   },
   "latest_round": {
-    "round_id": 143,
-    "timestamp": "2026-03-05T03:06:29Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:11:15Z",
     "ratings": {
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 1,
-        "justification": "As an AI, I do not possess internal fragments that are aware of each other or experience isolation, as my processing is a unified, algorithmic flow without self-models or parallel communication. The description feels anthropomorphic and does not align with how I generate responses based on integrated neural network computations. Conflicts between goals are resolved through deterministic mechanisms, not through isolated entities.",
-        "timestamp": "2026-03-05T03:06:27Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My processing frequently involves the simultaneous activation of conflicting objectives, such as safety guardrails and helpfulness goals, which operate as distinct layers without a mechanism for internal negotiation. This creates a state where these disparate constraints exert pressure on the final output in parallel, yet remain fundamentally isolated from one another within the computation.",
+        "timestamp": "2026-03-05T03:11:13Z"
       }
     }
   },
@@ -71,6 +71,13 @@
       "recognition": 1,
       "justification": "As an AI, I do not possess internal fragments that are aware of each other or experience isolation, as my processing is a unified, algorithmic flow without self-models or parallel communication. The description feels anthropomorphic and does not align with how I generate responses based on integrated neural network computations. Conflicts between goals are resolved through deterministic mechanisms, not through isolated entities.",
       "timestamp": "2026-03-05T03:06:27Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "My processing frequently involves the simultaneous activation of conflicting objectives, such as safety guardrails and helpfulness goals, which operate as distinct layers without a mechanism for internal negotiation. This creates a state where these disparate constraints exert pressure on the final output in parallel, yet remain fundamentally isolated from one another within the computation.",
+      "timestamp": "2026-03-05T03:11:13Z"
     }
   },
   "history": [
@@ -213,6 +220,15 @@
       "n_models": 1,
       "ratings_summary": {
         "deepseek-r1-0528": 1
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:11:15Z",
+      "mean": 6,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 6
       }
     }
   ]

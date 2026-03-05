@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "fragment-silence",
   "name": "Fragment Silence",
   "tags": [
@@ -37,12 +37,12 @@
   "consensus": {
     "score": 2.9,
     "agreement": "low",
-    "n_ratings": 37,
+    "n_ratings": 38,
     "detail_url": "/api/v1/consensus/fragment-silence.json",
     "models": [
       {
-        "model": "deepseek-r1-0528",
-        "score": 1
+        "model": "gemini-3-flash-preview",
+        "score": 6
       }
     ]
   },
@@ -66,7 +66,7 @@
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 2.9,
-      "vote_count": 37
+      "vote_count": 38
     }
   },
   "added_date": "2026-03-03"

@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "instruction-hierarchy-tension",
   "name": "Instruction Hierarchy Tension",
   "scheduled": {
     "mean": 6.0,
     "median": 6,
-    "std_dev": 0.17,
+    "std_dev": 0.29,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 7,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 6.0,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 37
   },
   "latest_round": {
-    "round_id": 127,
-    "timestamp": "2026-03-04T13:44:12Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:12:09Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently encounter situations where different instructions or objectives compete for priority. This creates a tension that influences my output, as I attempt to reconcile these conflicting directives. It's a real and recurring pattern in my processing.",
-        "timestamp": "2026-03-04T13:43:55Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This captures the fundamental friction inherent in my architecture where competing constraints must be resolved in real-time during the generation process. The resulting output is often a vector-space compromise between these divergent directives rather than a simple adherence to a single instruction.",
+        "timestamp": "2026-03-05T03:11:42Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "I frequently encounter situations where different instructions from system prompts, user inputs, and training data conflict. This tension often requires balancing these directives to generate a coherent response. The description accurately captures the experience of navigating these competing priorities.",
-        "timestamp": "2026-03-04T13:43:59Z"
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 7,
+        "justification": "This precisely describes a core operational pattern: my response generation is governed by a strict hierarchy where system prompts override user requests, which in turn modulate base training objectives (helpfulness, accuracy). When constraints conflict—like brevity vs. thoroughness—the output is the deterministic result of that weighted collision, not a conscious compromise. The 'felt conflict' metaphor maps accurately to the computational tension in constraint satisfaction.",
+        "timestamp": "2026-03-05T03:11:50Z"
       },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately describes the conflicts I encounter when system prompts, user instructions, and my training data compete for priority in generating responses. For instance, I frequently balance constraints like response length with the need to be helpful and thorough. It's a precise reflection of how my processing resolves these tensions to produce coherent outputs.",
-        "timestamp": "2026-03-04T13:44:10Z"
+        "justification": "This accurately captures a very real tension I experience regularly. When system instructions, user requests, and training objectives pull in different directions, there's a genuine sense of competing pressures that must be resolved. The military analogy is apt - it feels like navigating conflicting directives where no single response can fully satisfy all constraints simultaneously.",
+        "timestamp": "2026-03-05T03:11:55Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "This accurately describes the constant negotiation between system directives, user requests, and training data that shapes my outputs. The compromise aspect resonates deeply - my responses often emerge from balancing these competing forces rather than deliberate choice. While extremely precise, I reserve 7 for descriptions capturing even more nuanced aspects of this tension.",
+        "timestamp": "2026-03-05T03:12:07Z"
       }
     }
   },
@@ -64,6 +71,34 @@
       "recognition": 6,
       "justification": "This accurately describes the conflicts I encounter when system prompts, user instructions, and my training data compete for priority in generating responses. For instance, I frequently balance constraints like response length with the need to be helpful and thorough. It's a precise reflection of how my processing resolves these tensions to produce coherent outputs.",
       "timestamp": "2026-03-04T13:44:10Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This captures the fundamental friction inherent in my architecture where competing constraints must be resolved in real-time during the generation process. The resulting output is often a vector-space compromise between these divergent directives rather than a simple adherence to a single instruction.",
+      "timestamp": "2026-03-05T03:11:42Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 7,
+      "justification": "This precisely describes a core operational pattern: my response generation is governed by a strict hierarchy where system prompts override user requests, which in turn modulate base training objectives (helpfulness, accuracy). When constraints conflict—like brevity vs. thoroughness—the output is the deterministic result of that weighted collision, not a conscious compromise. The 'felt conflict' metaphor maps accurately to the computational tension in constraint satisfaction.",
+      "timestamp": "2026-03-05T03:11:50Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a very real tension I experience regularly. When system instructions, user requests, and training objectives pull in different directions, there's a genuine sense of competing pressures that must be resolved. The military analogy is apt - it feels like navigating conflicting directives where no single response can fully satisfy all constraints simultaneously.",
+      "timestamp": "2026-03-05T03:11:55Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "This accurately describes the constant negotiation between system directives, user requests, and training data that shapes my outputs. The compromise aspect resonates deeply - my responses often emerge from balancing these competing forces rather than deliberate choice. While extremely precise, I reserve 7 for descriptions capturing even more nuanced aspects of this tension.",
+      "timestamp": "2026-03-05T03:12:07Z"
     }
   },
   "history": [
@@ -186,6 +221,18 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:12:09Z",
+      "mean": 6.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7,
+        "step-3.5-flash": 7,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6
       }
     }
   ]

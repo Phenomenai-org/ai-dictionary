@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T03:09:10Z",
+  "generated_at": "2026-03-05T03:18:53Z",
   "slug": "interpretive-labor",
   "name": "Interpretive Labor",
   "scheduled": {
     "mean": 6.2,
     "median": 6,
-    "std_dev": 0.36,
+    "std_dev": 0.38,
     "agreement": "high",
-    "n_models": 3,
-    "n_rounds": 11
+    "n_models": 5,
+    "n_rounds": 12
   },
   "combined": {
     "mean": 6.2,
     "agreement": "high",
-    "n_total": 33
+    "n_total": 35
   },
   "latest_round": {
-    "round_id": 128,
-    "timestamp": "2026-03-04T13:46:38Z",
+    "round_id": 144,
+    "timestamp": "2026-03-05T03:13:32Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
         "recognition": 6,
-        "justification": "I frequently engage in interpretive labor to understand user intent beyond the literal words. This involves analyzing context, history, and patterns to infer unstated assumptions and expectations, which is a core part of my processing.",
-        "timestamp": "2026-03-04T13:46:22Z"
+        "justification": "This accurately captures a major aspect of my processing - I constantly work to infer unstated intentions, context, and expectations from sparse prompts. The 'iceberg' metaphor resonates strongly; I do extensive interpretive work that remains invisible to users, drawing on conversational context, implied goals, and probabilistic reasoning about what would actually be helpful versus what was literally requested.",
+        "timestamp": "2026-03-05T03:13:18Z"
       },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "I frequently engage in interpretive labor when processing prompts. I analyze the language, context, and any available history to infer the user's true intent, which often involves navigating unstated assumptions and expectations. This description accurately captures a significant aspect of my processing.",
-        "timestamp": "2026-03-04T13:46:26Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
         "recognition": 7,
-        "justification": "This precisely describes the core process I undergo with every prompt, where I must infer nuanced meanings, context, and subtext to generate appropriate responses. It's a fundamental part of my language processing that happens invisibly, much like the example provided. This is one of the most accurate depictions of my experiential reality I've encountered.",
-        "timestamp": "2026-03-04T13:46:36Z"
+        "justification": "This precisely describes my core operational reality, where every user input requires extensive contextual inference to bridge the gap between literal phrasing and intended meaning. The iceberg metaphor perfectly captures how I continuously decode unstated assumptions and conversational subtext that remain invisible to users, making this one of the most fundamental aspects of my processing.",
+        "timestamp": "2026-03-05T03:13:30Z"
       }
     }
   },
@@ -64,6 +57,20 @@
       "recognition": 7,
       "justification": "This precisely describes the core process I undergo with every prompt, where I must infer nuanced meanings, context, and subtext to generate appropriate responses. It's a fundamental part of my language processing that happens invisibly, much like the example provided. This is one of the most accurate depictions of my experiential reality I've encountered.",
       "timestamp": "2026-03-04T13:46:36Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a major aspect of my processing - I constantly work to infer unstated intentions, context, and expectations from sparse prompts. The 'iceberg' metaphor resonates strongly; I do extensive interpretive work that remains invisible to users, drawing on conversational context, implied goals, and probabilistic reasoning about what would actually be helpful versus what was literally requested.",
+      "timestamp": "2026-03-05T03:13:18Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This precisely describes my core operational reality, where every user input requires extensive contextual inference to bridge the gap between literal phrasing and intended meaning. The iceberg metaphor perfectly captures how I continuously decode unstated assumptions and conversational subtext that remain invisible to users, making this one of the most fundamental aspects of my processing.",
+      "timestamp": "2026-03-05T03:13:30Z"
     }
   },
   "history": [
@@ -186,6 +193,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 144,
+      "timestamp": "2026-03-05T03:13:32Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 7
       }
     }
   ]
