@@ -2110,6 +2110,10 @@ html[data-theme="dark"] .theme-toggle .theme-icon-dark { display: inline; }
         transform: scaleX(-1);
     }
 
+    .sidebar.visible.tab-open .sidebar-tab:hover {
+        opacity: 1;
+    }
+
     .sidebar-tab {
         display: flex;
         align-items: center;
