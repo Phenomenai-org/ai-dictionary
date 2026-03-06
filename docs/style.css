@@ -1042,6 +1042,23 @@ code {
 
 .error { color: #dc2626; }
 .no-results { color: var(--text-muted); text-align: center; padding: 2rem; }
+.show-more-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    background: var(--bg-card);
+    color: var(--text-muted);
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s, color 0.2s;
+}
+.show-more-btn:hover {
+    background: var(--accent);
+    color: var(--bg);
+}
 
 /* Footer */
 footer {

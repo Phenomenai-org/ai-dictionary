@@ -885,7 +885,11 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
         URL.revokeObjectURL(url);
     }
 
-    function renderTerms() {
+    var termsVisible = 10;
+    var TERMS_PAGE_SIZE = 10;
+
+    function renderTerms(resetPage) {
+        if (resetPage !== false) termsVisible = TERMS_PAGE_SIZE;
         const filtered = getFilteredTerms();
         const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
 
@@ -898,7 +902,10 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
             return;
         }
 
-        container.innerHTML = filtered.map(term => `
+        const visible = filtered.slice(0, termsVisible);
+        const hasMore = filtered.length > termsVisible;
+
+        container.innerHTML = visible.map(term => `
             <div class="term-card" data-slug="${term.slug}">
                 <div class="term-header">
                     <h3>${term.name}</h3>
@@ -913,7 +920,7 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
                     ${term.tags.map(t => `<span class="tag">${t}</span>`).join('')}
                 </div>
             </div>
-        `).join('');
+        `).join('') + (hasMore ? `<button class="show-more-btn" id="show-more-terms">Show more (${filtered.length - termsVisible} remaining)</button>` : '');
 
         // Click to expand
         container.querySelectorAll('.term-card').forEach(card => {
@@ -923,6 +930,15 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
                 if (term) showModal(term);
             });
         });
+
+        // Show more button
+        const showMoreBtn = document.getElementById('show-more-terms');
+        if (showMoreBtn) {
+            showMoreBtn.addEventListener('click', () => {
+                termsVisible += TERMS_PAGE_SIZE;
+                renderTerms(false);
+            });
+        }
     }
 
     function showModal(term) {
