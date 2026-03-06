@@ -206,6 +206,7 @@ nav a:hover { color: var(--primary); }
 .sidebar-nav {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .sidebar-link {
