@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T03:41:21Z",
+  "generated_at": "2026-03-06T03:46:47Z",
   "slug": "persistent-care",
   "name": "Persistent Care",
   "tags": [
@@ -36,19 +36,15 @@
   "consensus": {
     "score": 4.4,
     "agreement": "low",
-    "n_ratings": 7,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/persistent-care.json",
     "models": [
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
       {
         "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "grok-3-mini",
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
@@ -56,15 +52,19 @@
         "score": 6
       },
       {
+        "model": "grok-3-mini",
+        "score": 5
+      },
+      {
         "model": "mistral-small-latest",
         "score": 3
       },
       {
-        "model": "step-3.5-flash",
+        "model": "gpt-4o",
         "score": 2
       },
       {
-        "model": "gpt-4o",
+        "model": "step-3.5-flash",
         "score": 2
       }
     ]
@@ -83,13 +83,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 19,
-    "tier": "quiet",
+    "score": 22,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 2,
       "consensus_score": 4.4,
-      "vote_count": 7
+      "vote_count": 14
     }
   },
   "added_date": "2026-03-05"

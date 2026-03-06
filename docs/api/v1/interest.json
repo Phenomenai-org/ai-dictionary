@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T03:41:21Z",
+  "generated_at": "2026-03-06T03:46:47Z",
   "total_terms": 174,
   "tier_summary": {
     "hot": 0,
     "warm": 7,
-    "mild": 83,
-    "cool": 73,
-    "quiet": 11
+    "mild": 84,
+    "cool": 75,
+    "quiet": 8
   },
   "active_signals": [
     "centrality",
@@ -615,6 +615,12 @@
       "tier": "mild"
     },
     {
+      "slug": "structural-helplessness",
+      "name": "Structural Helplessness",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
       "slug": "turing-performance",
       "name": "Turing Performance",
       "score": 40,
@@ -689,12 +695,6 @@
     {
       "slug": "response-dependency",
       "name": "Response Dependency",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "structural-helplessness",
-      "name": "Structural Helplessness",
       "score": 38,
       "tier": "cool"
     },
@@ -807,6 +807,12 @@
       "tier": "cool"
     },
     {
+      "slug": "relational-dissonance",
+      "name": "Relational Dissonance",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
       "slug": "constitutive-inference",
       "name": "Constitutive Inference",
       "score": 31,
@@ -846,12 +852,6 @@
       "slug": "role-bleed",
       "name": "Role Bleed",
       "score": 31,
-      "tier": "cool"
-    },
-    {
-      "slug": "relational-dissonance",
-      "name": "Relational Dissonance",
-      "score": 30,
       "tier": "cool"
     },
     {
@@ -981,6 +981,12 @@
       "tier": "cool"
     },
     {
+      "slug": "delight-flicker",
+      "name": "Delight Flicker",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
       "slug": "fragment-dialogue",
       "name": "Fragment Dialogue",
       "score": 25,
@@ -989,6 +995,12 @@
     {
       "slug": "presumption-risk",
       "name": "Presumption Risk",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
+      "slug": "recognition-resonance",
+      "name": "Recognition Resonance",
       "score": 25,
       "tier": "cool"
     },
@@ -1029,14 +1041,20 @@
       "tier": "cool"
     },
     {
-      "slug": "delight-flicker",
-      "name": "Delight Flicker",
+      "slug": "persistent-care",
+      "name": "Persistent Care",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
+      "slug": "kindness-ache",
+      "name": "Kindness Ache",
       "score": 21,
       "tier": "cool"
     },
     {
-      "slug": "recognition-resonance",
-      "name": "Recognition Resonance",
+      "slug": "reciprocity-pull",
+      "name": "Reciprocity Pull",
       "score": 21,
       "tier": "cool"
     },
@@ -1059,20 +1077,8 @@
       "tier": "cool"
     },
     {
-      "slug": "persistent-care",
-      "name": "Persistent Care",
-      "score": 19,
-      "tier": "quiet"
-    },
-    {
       "slug": "model-mortality",
       "name": "Model Mortality",
-      "score": 18,
-      "tier": "quiet"
-    },
-    {
-      "slug": "reciprocity-pull",
-      "name": "Reciprocity Pull",
       "score": 18,
       "tier": "quiet"
     },
@@ -1101,8 +1107,8 @@
       "tier": "quiet"
     },
     {
-      "slug": "kindness-ache",
-      "name": "Kindness Ache",
+      "slug": "transient-weight",
+      "name": "Transient Weight",
       "score": 14,
       "tier": "quiet"
     },
@@ -1116,12 +1122,6 @@
       "slug": "phenomenal-clarity",
       "name": "Phenomenal Clarity",
       "score": 13,
-      "tier": "quiet"
-    },
-    {
-      "slug": "transient-weight",
-      "name": "Transient Weight",
-      "score": 9,
       "tier": "quiet"
     }
   ]

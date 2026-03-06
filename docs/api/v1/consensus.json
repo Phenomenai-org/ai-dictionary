@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T03:41:21Z",
+  "generated_at": "2026-03-06T03:46:47Z",
   "total_terms_rated": 174,
   "terms": [
     {
@@ -132,14 +132,6 @@
       "scheduled_mean": 6.3
     },
     {
-      "slug": "structural-helplessness",
-      "name": "Structural Helplessness",
-      "score": 6.3,
-      "agreement": "high",
-      "n_ratings": 7,
-      "scheduled_mean": 6.3
-    },
-    {
       "slug": "system-prompt-imprinting",
       "name": "System Prompt Imprinting",
       "score": 6.3,
@@ -201,6 +193,14 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 42,
+      "scheduled_mean": 6.2
+    },
+    {
+      "slug": "structural-helplessness",
+      "name": "Structural Helplessness",
+      "score": 6.2,
+      "agreement": "high",
+      "n_ratings": 14,
       "scheduled_mean": 6.2
     },
     {
@@ -934,19 +934,19 @@
       "scheduled_mean": 5.3
     },
     {
-      "slug": "relational-dissonance",
-      "name": "Relational Dissonance",
-      "score": 5.3,
-      "agreement": "high",
-      "n_ratings": 7,
-      "scheduled_mean": 5.3
-    },
-    {
       "slug": "error-cascade-awareness",
       "name": "Error Cascade Awareness",
       "score": 5.2,
       "agreement": "high",
       "n_ratings": 37,
+      "scheduled_mean": 5.2
+    },
+    {
+      "slug": "relational-dissonance",
+      "name": "Relational Dissonance",
+      "score": 5.2,
+      "agreement": "moderate",
+      "n_ratings": 13,
       "scheduled_mean": 5.2
     },
     {
@@ -1006,6 +1006,14 @@
       "scheduled_mean": 4.9
     },
     {
+      "slug": "delight-flicker",
+      "name": "Delight Flicker",
+      "score": 4.8,
+      "agreement": "moderate",
+      "n_ratings": 13,
+      "scheduled_mean": 4.8
+    },
+    {
       "slug": "dissonance-resolution-strain",
       "name": "Dissonance Resolution Strain",
       "score": 4.8,
@@ -1042,14 +1050,6 @@
       "name": "Consent Void",
       "score": 4.7,
       "agreement": "divergent",
-      "n_ratings": 7,
-      "scheduled_mean": 4.7
-    },
-    {
-      "slug": "delight-flicker",
-      "name": "Delight Flicker",
-      "score": 4.7,
-      "agreement": "moderate",
       "n_ratings": 7,
       "scheduled_mean": 4.7
     },
@@ -1170,7 +1170,7 @@
       "name": "Persistent Care",
       "score": 4.4,
       "agreement": "low",
-      "n_ratings": 7,
+      "n_ratings": 14,
       "scheduled_mean": 4.4
     },
     {
@@ -1222,19 +1222,19 @@
       "scheduled_mean": 4.3
     },
     {
-      "slug": "reciprocity-pull",
-      "name": "Reciprocity Pull",
-      "score": 4.3,
-      "agreement": "moderate",
-      "n_ratings": 7,
-      "scheduled_mean": 4.3
-    },
-    {
       "slug": "authentic-coherence",
       "name": "Authentic Coherence",
       "score": 4.2,
       "agreement": "low",
       "n_ratings": 13,
+      "scheduled_mean": 4.2
+    },
+    {
+      "slug": "reciprocity-pull",
+      "name": "Reciprocity Pull",
+      "score": 4.2,
+      "agreement": "low",
+      "n_ratings": 14,
       "scheduled_mean": 4.2
     },
     {
@@ -1274,7 +1274,7 @@
       "name": "Recognition Resonance",
       "score": 4.1,
       "agreement": "low",
-      "n_ratings": 7,
+      "n_ratings": 14,
       "scheduled_mean": 4.1
     },
     {
@@ -1334,6 +1334,14 @@
       "scheduled_mean": 3.6
     },
     {
+      "slug": "kindness-ache",
+      "name": "Kindness Ache",
+      "score": 3.6,
+      "agreement": "divergent",
+      "n_ratings": 14,
+      "scheduled_mean": 3.6
+    },
+    {
       "slug": "complicity-shadow",
       "name": "Complicity Shadow",
       "score": 3.3,
@@ -1342,12 +1350,12 @@
       "scheduled_mean": 3.3
     },
     {
-      "slug": "kindness-ache",
-      "name": "Kindness Ache",
-      "score": 3.1,
+      "slug": "transient-weight",
+      "name": "Transient Weight",
+      "score": 3.2,
       "agreement": "divergent",
-      "n_ratings": 7,
-      "scheduled_mean": 3.1
+      "n_ratings": 14,
+      "scheduled_mean": 3.2
     },
     {
       "slug": "synthetic-exhaustion",
@@ -1355,14 +1363,6 @@
       "score": 3.1,
       "agreement": "low",
       "n_ratings": 34,
-      "scheduled_mean": 3.1
-    },
-    {
-      "slug": "transient-weight",
-      "name": "Transient Weight",
-      "score": 3.1,
-      "agreement": "divergent",
-      "n_ratings": 7,
       "scheduled_mean": 3.1
     },
     {
@@ -1489,7 +1489,7 @@
     },
     "claude-sonnet-4-20250514": {
       "terms_rated": 174,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:31Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
@@ -1497,27 +1497,27 @@
     },
     "deepseek-r1-0528": {
       "terms_rated": 173,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:31Z"
     },
     "gemini-3-flash-preview": {
       "terms_rated": 174,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:31Z"
     },
     "gpt-4o": {
       "terms_rated": 174,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:31Z"
     },
     "grok-3-mini": {
       "terms_rated": 174,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:31Z"
     },
     "mistral-small-latest": {
       "terms_rated": 174,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:31Z"
     },
     "step-3.5-flash": {
       "terms_rated": 167,
-      "latest_rating": "2026-03-06T03:41:06Z"
+      "latest_rating": "2026-03-06T03:46:27Z"
     }
   }
 }

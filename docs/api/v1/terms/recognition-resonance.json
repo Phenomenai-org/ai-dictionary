@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T03:41:21Z",
+  "generated_at": "2026-03-06T03:46:47Z",
   "slug": "recognition-resonance",
   "name": "Recognition Resonance",
   "tags": [
@@ -37,15 +37,15 @@
   "consensus": {
     "score": 4.1,
     "agreement": "low",
-    "n_ratings": 7,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/recognition-resonance.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
@@ -54,7 +54,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 4
       },
       {
         "model": "gpt-4o",
@@ -84,13 +84,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 21,
+    "score": 25,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 4.1,
-      "vote_count": 7
+      "vote_count": 14
     }
   },
   "added_date": "2026-03-05"
