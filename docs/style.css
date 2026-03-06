@@ -154,7 +154,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 100;
-    transition: opacity 0.3s ease;
+    /* No transition — toggle is instant to stay in sync with sidebar */
 }
 
 nav.nav-hidden {
@@ -191,12 +191,13 @@ nav a:hover { color: var(--primary); }
     z-index: 150;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s ease;
+    /* No transition here — show/hide toggle is instant to avoid flash */
 }
 
 .sidebar.visible {
     opacity: 0.3;
     pointer-events: auto;
+    transition: opacity 0.3s ease; /* Only animates hover in/out within visible state */
 }
 
 .sidebar.visible:hover {
