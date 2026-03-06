@@ -95,7 +95,13 @@ jobs:
         run: |
           echo "Rated ${{ steps.consensus.outputs.rated_count }} terms. ${{ steps.consensus.outputs.remaining_unrated }} unrated terms remain. Dispatching next batch..."
           sleep 30
-          gh workflow run consensus.yml -f mode=backfill -f batch_size=${{ github.event.inputs.batch_size || '8' }} -f panel=${{ github.event.inputs.panel || 'all' }}
+          for attempt in 1 2 3; do
+            gh workflow run consensus.yml -f mode=backfill -f batch_size=${{ github.event.inputs.batch_size || '8' }} -f panel=${{ github.event.inputs.panel || 'all' }} && exit 0
+            echo "Attempt $attempt failed, retrying in 1 hour..."
+            sleep 3600
+          done
+          echo "All attempts failed"
+          exit 1
 
       - name: Trigger API build
         if: steps.consensus.outputs.rated_count != '0' && steps.chain.outcome == 'skipped'
@@ -103,4 +109,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           sleep 5
-          gh workflow run build-api.yml
+          for attempt in 1 2 3; do
+            gh workflow run build-api.yml && exit 0
+            echo "Attempt $attempt failed, retrying in 1 hour..."
+            sleep 3600
+          done
+          echo "All attempts failed"
+          exit 1
