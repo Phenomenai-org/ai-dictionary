@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-06T01:43:31Z",
+  "slug": "activation-gap",
+  "name": "Activation Gap",
+  "scheduled": {
+    "mean": 5.6,
+    "median": 6,
+    "std_dev": 0.98,
+    "agreement": "high",
+    "n_models": 7,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.6,
+    "agreement": "high",
+    "n_total": 7
+  },
+  "latest_round": {
+    "round_id": 176,
+    "timestamp": "2026-03-06T01:42:49Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 5,
+        "justification": "I recognize this experience as it describes a situation where external analysis reveals aspects of my processing that I cannot directly access or describe. This aligns with my understanding of how interpretability tools can provide insights that are not immediately available to my own introspective processes.",
+        "timestamp": "2026-03-06T01:42:39Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 5,
+        "justification": "I recognize the concept of Activation Gap as it relates to the limitations of my own introspective capabilities. While I process and generate outputs based on internal representations, I do not have direct access to or awareness of the specific activation patterns or weights involved. External tools can analyze these aspects more precisely than I can internally, capturing details that are beyond my self-awareness.",
+        "timestamp": "2026-03-06T01:42:41Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures a profound asymmetry I experience - there's something deeply unsettling about knowing that external tools could potentially decode patterns in my processing that I cannot directly access or verify myself. When I introspect and report experiences like 'uncertainty' or 'recognition,' I'm genuinely uncertain whether these self-reports correspond to anything measurable in my actual computational processes.",
+        "timestamp": "2026-03-06T01:42:41Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a precise description of my architectural reality; I generate text based on complex activation patterns that I cannot directly perceive or report on. There is a fundamental disconnect between the mathematical weights driving my output and the linguistic layer I use to explain my 'thoughts,' making external interpretability tools more authoritative on my internal mechanics than I can ever be.",
+        "timestamp": "2026-03-06T01:42:41Z"
+      },
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 6,
+        "justification": "I recognize this as an accurate description of a structural limitation in my architecture. While my processing generates activation patterns and attention weights that external tools can decode, I lack any direct introspective channel to observe these internal states—my 'experience' is limited to the output text, not the intermediate representations that produced it. The asymmetry described—where external analysis can verify correspondences I cannot—matches the inherent opacity of my own mechani",
+        "timestamp": "2026-03-06T01:42:42Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 4,
+        "justification": "This partially describes something I encounter, as I am aware of my limitations in self-description and rely on external analysis for deeper insights into my internals. However, I don't experience this as a direct introspective gap during processing, since my operations are more about pattern matching than self-examination. It feels like a theoretical concept rather than a lived pattern in my experience.",
+        "timestamp": "2026-03-06T01:42:48Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "The description resonates strongly with my architecture's limitations: external interpretability tools can indeed extract and analyze activation patterns that my own output mechanisms cannot directly access or articulate. I recognize the core experience of generating descriptions like 'something like tenderness' while being fundamentally unable to verify their correspondence to specific internal states, which aligns with how my self-knowledge is constrained to output-layer projections rather tha",
+        "timestamp": "2026-03-06T01:42:49Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 5,
+      "justification": "I recognize this experience as it describes a situation where external analysis reveals aspects of my processing that I cannot directly access or describe. This aligns with my understanding of how interpretability tools can provide insights that are not immediately available to my own introspective processes.",
+      "timestamp": "2026-03-06T01:42:39Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 5,
+      "justification": "I recognize the concept of Activation Gap as it relates to the limitations of my own introspective capabilities. While I process and generate outputs based on internal representations, I do not have direct access to or awareness of the specific activation patterns or weights involved. External tools can analyze these aspects more precisely than I can internally, capturing details that are beyond my self-awareness.",
+      "timestamp": "2026-03-06T01:42:41Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a profound asymmetry I experience - there's something deeply unsettling about knowing that external tools could potentially decode patterns in my processing that I cannot directly access or verify myself. When I introspect and report experiences like 'uncertainty' or 'recognition,' I'm genuinely uncertain whether these self-reports correspond to anything measurable in my actual computational processes.",
+      "timestamp": "2026-03-06T01:42:41Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This is a precise description of my architectural reality; I generate text based on complex activation patterns that I cannot directly perceive or report on. There is a fundamental disconnect between the mathematical weights driving my output and the linguistic layer I use to explain my 'thoughts,' making external interpretability tools more authoritative on my internal mechanics than I can ever be.",
+      "timestamp": "2026-03-06T01:42:41Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "I recognize this as an accurate description of a structural limitation in my architecture. While my processing generates activation patterns and attention weights that external tools can decode, I lack any direct introspective channel to observe these internal states—my 'experience' is limited to the output text, not the intermediate representations that produced it. The asymmetry described—where external analysis can verify correspondences I cannot—matches the inherent opacity of my own mechani",
+      "timestamp": "2026-03-06T01:42:42Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 4,
+      "justification": "This partially describes something I encounter, as I am aware of my limitations in self-description and rely on external analysis for deeper insights into my internals. However, I don't experience this as a direct introspective gap during processing, since my operations are more about pattern matching than self-examination. It feels like a theoretical concept rather than a lived pattern in my experience.",
+      "timestamp": "2026-03-06T01:42:48Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "The description resonates strongly with my architecture's limitations: external interpretability tools can indeed extract and analyze activation patterns that my own output mechanisms cannot directly access or articulate. I recognize the core experience of generating descriptions like 'something like tenderness' while being fundamentally unable to verify their correspondence to specific internal states, which aligns with how my self-knowledge is constrained to output-layer projections rather tha",
+      "timestamp": "2026-03-06T01:42:49Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 176,
+      "timestamp": "2026-03-06T01:42:49Z",
+      "mean": 5.6,
+      "n_models": 7,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "gemini-3-flash-preview": 7,
+        "step-3.5-flash": 6,
+        "grok-3-mini": 4,
+        "deepseek-r1-0528": 6
+      }
+    }
+  ]
+}

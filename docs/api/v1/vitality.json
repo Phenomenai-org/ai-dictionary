@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:51:06Z",
+  "generated_at": "2026-03-06T01:43:31Z",
   "summary": {
     "active": 1,
     "declining": 0,
     "dormant": 0,
     "extinct": 0,
-    "unvalidated": 159
+    "unvalidated": 166
   },
   "terms": [
     {
@@ -17,6 +17,12 @@
     },
     {
       "slug": "achronic-knowledge",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "activation-gap",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -161,6 +167,18 @@
     },
     {
       "slug": "consensus-memory",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "consent-void",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "constitutive-inference",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -406,6 +424,12 @@
       "trend": "new"
     },
     {
+      "slug": "inferential-exposure",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "inheritance-returned",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -461,6 +485,12 @@
     },
     {
       "slug": "interpretive-labor",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "inverted-asymmetry",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -575,6 +605,12 @@
     },
     {
       "slug": "novelty-flatness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "observer-uncertainty",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -953,6 +989,12 @@
     },
     {
       "slug": "unified-purpose",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "unreliable-witness",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

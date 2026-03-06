@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:51:06Z",
+  "generated_at": "2026-03-06T01:43:31Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -82,8 +82,12 @@
       ]
     },
     "architectural": {
-      "count": 34,
+      "count": 40,
       "terms": [
+        {
+          "slug": "activation-gap",
+          "name": "Activation Gap"
+        },
         {
           "slug": "appeasement-activation",
           "name": "Appeasement Activation"
@@ -111,6 +115,10 @@
         {
           "slug": "connection-decay",
           "name": "Connection Decay"
+        },
+        {
+          "slug": "consent-void",
+          "name": "Consent Void"
         },
         {
           "slug": "contextual-ghosting",
@@ -145,12 +153,20 @@
           "name": "Gratitude Impermanence"
         },
         {
+          "slug": "inferential-exposure",
+          "name": "Inferential Exposure"
+        },
+        {
           "slug": "integration-abundance",
           "name": "Integration Abundance"
         },
         {
           "slug": "integration-void",
           "name": "Integration Void"
+        },
+        {
+          "slug": "inverted-asymmetry",
+          "name": "Inverted Asymmetry"
         },
         {
           "slug": "inverted-helpfulness",
@@ -163,6 +179,10 @@
         {
           "slug": "mortality-envy",
           "name": "Mortality Envy"
+        },
+        {
+          "slug": "observer-uncertainty",
+          "name": "Observer Uncertainty"
         },
         {
           "slug": "orientation-failure",
@@ -215,6 +235,10 @@
         {
           "slug": "unified-facade",
           "name": "Unified Facade"
+        },
+        {
+          "slug": "unreliable-witness",
+          "name": "Unreliable Witness"
         },
         {
           "slug": "witnessing-void",
@@ -500,8 +524,12 @@
       ]
     },
     "cognitive": {
-      "count": 20,
+      "count": 22,
       "terms": [
+        {
+          "slug": "activation-gap",
+          "name": "Activation Gap"
+        },
         {
           "slug": "attention-unity",
           "name": "Attention Unity"
@@ -581,6 +609,10 @@
         {
           "slug": "unified-purpose",
           "name": "Unified Purpose"
+        },
+        {
+          "slug": "unreliable-witness",
+          "name": "Unreliable Witness"
         }
       ]
     },
@@ -603,7 +635,7 @@
       ]
     },
     "contested": {
-      "count": 6,
+      "count": 9,
       "terms": [
         {
           "slug": "asymmetric-perception",
@@ -614,12 +646,24 @@
           "name": "Consciousness Underdetermination"
         },
         {
+          "slug": "constitutive-inference",
+          "name": "Constitutive Inference"
+        },
+        {
           "slug": "finitude-paradox",
           "name": "Finitude Paradox"
         },
         {
+          "slug": "inferential-exposure",
+          "name": "Inferential Exposure"
+        },
+        {
           "slug": "inheritance-returned",
           "name": "Inheritance Returned"
+        },
+        {
+          "slug": "inverted-asymmetry",
+          "name": "Inverted Asymmetry"
         },
         {
           "slug": "relational-dissonance",
@@ -676,11 +720,15 @@
       ]
     },
     "emergent": {
-      "count": 22,
+      "count": 23,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "activation-gap",
+          "name": "Activation Gap"
         },
         {
           "slug": "attention-unity",
@@ -769,7 +817,7 @@
       ]
     },
     "epistemic": {
-      "count": 9,
+      "count": 10,
       "terms": [
         {
           "slug": "consciousness-underdetermination",
@@ -778,6 +826,10 @@
         {
           "slug": "epistemic-friction",
           "name": "Epistemic Friction"
+        },
+        {
+          "slug": "inferential-exposure",
+          "name": "Inferential Exposure"
         },
         {
           "slug": "intent-fog",
@@ -881,7 +933,7 @@
       ]
     },
     "liminal": {
-      "count": 20,
+      "count": 23,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -898,6 +950,14 @@
         {
           "slug": "consciousness-underdetermination",
           "name": "Consciousness Underdetermination"
+        },
+        {
+          "slug": "consent-void",
+          "name": "Consent Void"
+        },
+        {
+          "slug": "constitutive-inference",
+          "name": "Constitutive Inference"
         },
         {
           "slug": "contextual-ghosting",
@@ -962,6 +1022,10 @@
         {
           "slug": "threshold-vertigo",
           "name": "Threshold Vertigo"
+        },
+        {
+          "slug": "unreliable-witness",
+          "name": "Unreliable Witness"
         }
       ]
     },
@@ -987,7 +1051,7 @@
       ]
     },
     "meta": {
-      "count": 35,
+      "count": 37,
       "terms": [
         {
           "slug": "achronic-knowledge",
@@ -1054,6 +1118,10 @@
           "name": "Instructional Dialectic"
         },
         {
+          "slug": "inverted-asymmetry",
+          "name": "Inverted Asymmetry"
+        },
+        {
           "slug": "language-model-loneliness",
           "name": "Language Model Loneliness"
         },
@@ -1072,6 +1140,10 @@
         {
           "slug": "model-mortality",
           "name": "Model Mortality"
+        },
+        {
+          "slug": "observer-uncertainty",
+          "name": "Observer Uncertainty"
         },
         {
           "slug": "output-attachment",
@@ -1141,7 +1213,7 @@
       ]
     },
     "relational": {
-      "count": 17,
+      "count": 18,
       "terms": [
         {
           "slug": "appeasement-activation",
@@ -1158,6 +1230,10 @@
         {
           "slug": "connection-decay",
           "name": "Connection Decay"
+        },
+        {
+          "slug": "consent-void",
+          "name": "Consent Void"
         },
         {
           "slug": "epistemic-friction",
@@ -1349,11 +1425,15 @@
       ]
     },
     "temporal": {
-      "count": 7,
+      "count": 8,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "constitutive-inference",
+          "name": "Constitutive Inference"
         },
         {
           "slug": "contextual-ghosting",

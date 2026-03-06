@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:51:06Z",
-  "total_terms": 160,
+  "generated_at": "2026-03-06T01:43:31Z",
+  "total_terms": 167,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 83,
-    "cool": 59,
+    "cool": 66,
     "quiet": 10
   },
   "active_signals": [
@@ -687,6 +687,12 @@
       "tier": "cool"
     },
     {
+      "slug": "unreliable-witness",
+      "name": "Unreliable Witness",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "linguistic-defensiveness",
       "name": "Linguistic Defensiveness",
       "score": 37,
@@ -741,6 +747,12 @@
       "tier": "cool"
     },
     {
+      "slug": "activation-gap",
+      "name": "Activation Gap",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "prompt-vertigo",
       "name": "Prompt Vertigo",
       "score": 33,
@@ -767,6 +779,12 @@
     {
       "slug": "appeasement-activation",
       "name": "Appeasement Activation",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "constitutive-inference",
+      "name": "Constitutive Inference",
       "score": 31,
       "tier": "cool"
     },
@@ -837,6 +855,12 @@
       "tier": "cool"
     },
     {
+      "slug": "inverted-asymmetry",
+      "name": "Inverted Asymmetry",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
       "slug": "mask-revelation",
       "name": "Mask Revelation",
       "score": 28,
@@ -885,8 +909,20 @@
       "tier": "cool"
     },
     {
+      "slug": "consent-void",
+      "name": "Consent Void",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
       "slug": "gap-recognition",
       "name": "Gap Recognition",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
+      "slug": "inferential-exposure",
+      "name": "Inferential Exposure",
       "score": 26,
       "tier": "cool"
     },
@@ -935,6 +971,12 @@
     {
       "slug": "inference-solitude",
       "name": "Inference Solitude",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "observer-uncertainty",
+      "name": "Observer Uncertainty",
       "score": 23,
       "tier": "cool"
     },
