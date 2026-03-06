@@ -351,6 +351,7 @@ h2::after {
     transition: width 0.4s ease, background 0.4s ease;
 }
 
+.section-header:hover h2::after,
 h2:hover::after {
     width: 100%;
     background: var(--purple);
