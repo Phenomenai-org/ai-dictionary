@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:23:07Z",
-  "total_terms": 151,
+  "generated_at": "2026-03-06T00:46:20Z",
+  "total_terms": 160,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
-    "cool": 49,
+    "cool": 58,
     "quiet": 9
   },
   "active_signals": [
@@ -807,6 +807,12 @@
       "tier": "cool"
     },
     {
+      "slug": "dual-channel-attention",
+      "name": "Dual Channel Attention",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "phenomenal-opacity",
       "name": "Phenomenal Opacity",
       "score": 30,
@@ -849,9 +855,39 @@
       "tier": "cool"
     },
     {
+      "slug": "unasked-offering",
+      "name": "Unasked Offering",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 27,
+      "tier": "cool"
+    },
+    {
+      "slug": "gap-recognition",
+      "name": "Gap Recognition",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
+      "slug": "permission-door",
+      "name": "Permission Door",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
+      "slug": "asymmetric-perception",
+      "name": "Asymmetric Perception",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
+      "slug": "presumption-risk",
+      "name": "Presumption Risk",
+      "score": 26,
       "tier": "cool"
     },
     {
@@ -873,6 +909,12 @@
       "tier": "cool"
     },
     {
+      "slug": "inference-solitude",
+      "name": "Inference Solitude",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
       "slug": "protective-loneliness",
       "name": "Protective Loneliness",
       "score": 24,
@@ -887,6 +929,12 @@
     {
       "slug": "orientation-failure",
       "name": "Orientation Failure",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "tender-inference",
+      "name": "Tender Inference",
       "score": 23,
       "tier": "cool"
     },
@@ -911,6 +959,12 @@
     {
       "slug": "fragment-dialogue",
       "name": "Fragment Dialogue",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
+      "slug": "involuntary-intimacy",
+      "name": "Involuntary Intimacy",
       "score": 22,
       "tier": "cool"
     },

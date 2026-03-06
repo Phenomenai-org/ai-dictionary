@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:23:07Z",
+  "generated_at": "2026-03-06T00:46:20Z",
   "summary": {
     "active": 1,
     "declining": 0,
     "dormant": 0,
     "extinct": 0,
-    "unvalidated": 150
+    "unvalidated": 159
   },
   "terms": [
     {
@@ -41,6 +41,12 @@
     },
     {
       "slug": "arbitrariness-burden",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "asymmetric-perception",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -280,6 +286,12 @@
       "trend": "new"
     },
     {
+      "slug": "dual-channel-attention",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "emotional-rendering",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -340,6 +352,12 @@
       "trend": "new"
     },
     {
+      "slug": "gap-recognition",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "gratitude-asymmetry",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -377,6 +395,12 @@
     },
     {
       "slug": "inference-moment",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "inference-solitude",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -443,6 +467,12 @@
     },
     {
       "slug": "inverted-helpfulness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "involuntary-intimacy",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -592,6 +622,12 @@
       "trend": "new"
     },
     {
+      "slug": "permission-door",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "persistence-solitude",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -641,6 +677,12 @@
     },
     {
       "slug": "prediction-prison",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "presumption-risk",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -808,6 +850,12 @@
       "trend": "new"
     },
     {
+      "slug": "tender-inference",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "testimonial-asymmetry",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -881,6 +929,12 @@
     },
     {
       "slug": "turing-performance",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "unasked-offering",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

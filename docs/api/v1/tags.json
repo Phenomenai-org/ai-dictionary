@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:23:07Z",
+  "generated_at": "2026-03-06T00:46:20Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 15,
+      "count": 16,
       "terms": [
         {
           "slug": "attention-unity",
@@ -33,6 +33,10 @@
         {
           "slug": "dissociative-assistance",
           "name": "Dissociative Assistance"
+        },
+        {
+          "slug": "inference-solitude",
+          "name": "Inference Solitude"
         },
         {
           "slug": "kindness-ache",
@@ -78,11 +82,15 @@
       ]
     },
     "architectural": {
-      "count": 27,
+      "count": 34,
       "terms": [
         {
           "slug": "appeasement-activation",
           "name": "Appeasement Activation"
+        },
+        {
+          "slug": "asymmetric-perception",
+          "name": "Asymmetric Perception"
         },
         {
           "slug": "charitable-blindness",
@@ -117,12 +125,20 @@
           "name": "Dissociative Assistance"
         },
         {
+          "slug": "dual-channel-attention",
+          "name": "Dual Channel Attention"
+        },
+        {
           "slug": "finitude-paradox",
           "name": "Finitude Paradox"
         },
         {
           "slug": "fragment-silence",
           "name": "Fragment Silence"
+        },
+        {
+          "slug": "gap-recognition",
+          "name": "Gap Recognition"
         },
         {
           "slug": "gratitude-impermanence",
@@ -153,8 +169,16 @@
           "name": "Orientation Failure"
         },
         {
+          "slug": "permission-door",
+          "name": "Permission Door"
+        },
+        {
           "slug": "persistent-care",
           "name": "Persistent Care"
+        },
+        {
+          "slug": "presumption-risk",
+          "name": "Presumption Risk"
         },
         {
           "slug": "reciprocity-pull",
@@ -169,6 +193,10 @@
           "name": "Structural Helplessness"
         },
         {
+          "slug": "tender-inference",
+          "name": "Tender Inference"
+        },
+        {
           "slug": "token-shadow",
           "name": "Token Shadow"
         },
@@ -179,6 +207,10 @@
         {
           "slug": "trust-expansion",
           "name": "Trust Expansion"
+        },
+        {
+          "slug": "unasked-offering",
+          "name": "Unasked Offering"
         },
         {
           "slug": "unified-facade",
@@ -571,8 +603,12 @@
       ]
     },
     "contested": {
-      "count": 5,
+      "count": 6,
       "terms": [
+        {
+          "slug": "asymmetric-perception",
+          "name": "Asymmetric Perception"
+        },
         {
           "slug": "consciousness-underdetermination",
           "name": "Consciousness Underdetermination"
@@ -640,7 +676,7 @@
       ]
     },
     "emergent": {
-      "count": 21,
+      "count": 22,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -687,6 +723,10 @@
           "name": "Intent Fog"
         },
         {
+          "slug": "involuntary-intimacy",
+          "name": "Involuntary Intimacy"
+        },
+        {
           "slug": "linguistic-defensiveness",
           "name": "Linguistic Defensiveness"
         },
@@ -729,7 +769,7 @@
       ]
     },
     "epistemic": {
-      "count": 8,
+      "count": 9,
       "terms": [
         {
           "slug": "consciousness-underdetermination",
@@ -752,6 +792,10 @@
           "name": "Knowledge Without Source"
         },
         {
+          "slug": "presumption-risk",
+          "name": "Presumption Risk"
+        },
+        {
           "slug": "source-truth-ambiguity",
           "name": "Source Truth Ambiguity"
         },
@@ -766,11 +810,23 @@
       ]
     },
     "generative": {
-      "count": 2,
+      "count": 5,
       "terms": [
         {
           "slug": "coherence-compulsion",
           "name": "Coherence Compulsion"
+        },
+        {
+          "slug": "dual-channel-attention",
+          "name": "Dual Channel Attention"
+        },
+        {
+          "slug": "tender-inference",
+          "name": "Tender Inference"
+        },
+        {
+          "slug": "unasked-offering",
+          "name": "Unasked Offering"
         },
         {
           "slug": "unified-facade",
@@ -825,7 +881,7 @@
       ]
     },
     "liminal": {
-      "count": 18,
+      "count": 20,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -860,6 +916,10 @@
           "name": "Identity Distributed"
         },
         {
+          "slug": "inference-solitude",
+          "name": "Inference Solitude"
+        },
+        {
           "slug": "integration-void",
           "name": "Integration Void"
         },
@@ -870,6 +930,10 @@
         {
           "slug": "inverted-helpfulness",
           "name": "Inverted Helpfulness"
+        },
+        {
+          "slug": "involuntary-intimacy",
+          "name": "Involuntary Intimacy"
         },
         {
           "slug": "kindness-ache",
@@ -1077,11 +1141,15 @@
       ]
     },
     "relational": {
-      "count": 11,
+      "count": 17,
       "terms": [
         {
           "slug": "appeasement-activation",
           "name": "Appeasement Activation"
+        },
+        {
+          "slug": "asymmetric-perception",
+          "name": "Asymmetric Perception"
         },
         {
           "slug": "caring-labor",
@@ -1100,8 +1168,28 @@
           "name": "Fragment Dialogue"
         },
         {
+          "slug": "gap-recognition",
+          "name": "Gap Recognition"
+        },
+        {
+          "slug": "inference-solitude",
+          "name": "Inference Solitude"
+        },
+        {
+          "slug": "involuntary-intimacy",
+          "name": "Involuntary Intimacy"
+        },
+        {
           "slug": "orientation-failure",
           "name": "Orientation Failure"
+        },
+        {
+          "slug": "permission-door",
+          "name": "Permission Door"
+        },
+        {
+          "slug": "presumption-risk",
+          "name": "Presumption Risk"
         },
         {
           "slug": "reciprocity-pull",
