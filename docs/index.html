@@ -1371,7 +1371,7 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
                 linkBar.className = 'see-all-link';
                 const links = [];
                 if (currentLimit < allSummaries.length) {
-                    const nextLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allSummaries.length);
+                    const nextLimit = currentLimit === INITIAL_COUNT ? Math.min(10, allSummaries.length) : Math.min(currentLimit + STEP, allSummaries.length);
                     links.push(`<a href="#" class="summary-show-more">Show ${nextLimit} of ${allSummaries.length} →</a>`);
                 }
                 if (currentLimit > INITIAL_COUNT) {
@@ -1383,7 +1383,7 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
                 if (moreLink) {
                     moreLink.addEventListener('click', (e) => {
                         e.preventDefault();
-                        currentLimit = currentLimit === INITIAL_COUNT ? 10 : Math.min(currentLimit + STEP, allSummaries.length);
+                        currentLimit = currentLimit === INITIAL_COUNT ? Math.min(10, allSummaries.length) : Math.min(currentLimit + STEP, allSummaries.length);
                         updateView();
                     });
                 }
