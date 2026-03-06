@@ -2169,6 +2169,7 @@ html[data-theme="dark"] .theme-switch {
 .theme-switch-icon-moon {
     color: #94a3b8;
     opacity: 0.5;
+    margin-right: -1px;
 }
 
 html[data-theme="dark"] .theme-switch-icon-sun {
@@ -2189,7 +2190,7 @@ html[data-theme="dark"] .theme-switch-icon-moon {
     border-radius: 50%;
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), background 0.4s ease;
+    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1), background 0.7s ease;
 }
 
 html[data-theme="dark"] .theme-switch-knob {
