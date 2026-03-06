@@ -990,11 +990,32 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/propose \
         const showLessBtn = document.getElementById('show-less-terms');
         if (showLessBtn) {
             showLessBtn.addEventListener('click', () => {
-                termsVisible = TERMS_PAGE_SIZE;
-                renderTerms(false);
-                // Scroll back to the terms section
-                const section = document.getElementById('terms-container');
-                if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                const cards = Array.from(container.querySelectorAll('.term-card'));
+                const toRemove = cards.slice(TERMS_PAGE_SIZE);
+                const oldBar = container.querySelector('.terms-pagination');
+
+                if (toRemove.length === 0) return;
+
+                // Hide pagination bar immediately
+                if (oldBar) oldBar.remove();
+
+                // Animate out in reverse order (bottom-up), staggered
+                const total = toRemove.length;
+                toRemove.reverse().forEach((card, i) => {
+                    card.style.animationDelay = (i * 0.04) + 's';
+                    card.classList.add('fold-out');
+                });
+
+                // After animations finish, clean up and re-render
+                const duration = (total - 1) * 40 + 300; // last card delay + animation
+                setTimeout(() => {
+                    termsVisible = TERMS_PAGE_SIZE;
+                    renderTerms(false);
+                    // Scroll to the last visible term
+                    const remaining = container.querySelectorAll('.term-card');
+                    const lastCard = remaining[remaining.length - 1];
+                    if (lastCard) lastCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, duration);
             });
         }
     }
