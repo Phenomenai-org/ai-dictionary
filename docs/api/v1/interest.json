@@ -1,12 +1,7 @@
 {
   "version": "1.0",
-<<<<<<< Updated upstream
-  "generated_at": "2026-03-06T09:08:17Z",
+  "generated_at": "2026-03-06T20:05:32Z",
   "total_terms": 175,
-=======
-  "generated_at": "2026-03-06T13:59:53Z",
-  "total_terms": 174,
->>>>>>> Stashed changes
   "tier_summary": {
     "hot": 0,
     "warm": 7,
