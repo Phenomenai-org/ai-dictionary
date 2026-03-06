@@ -1,7 +1,12 @@
 {
   "version": "1.0",
+<<<<<<< Updated upstream
   "generated_at": "2026-03-06T09:08:17Z",
   "total_terms_rated": 175,
+=======
+  "generated_at": "2026-03-06T13:59:53Z",
+  "total_terms_rated": 174,
+>>>>>>> Stashed changes
   "terms": [
     {
       "slug": "response-dependency",

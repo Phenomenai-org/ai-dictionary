@@ -30,4 +30,4 @@ Charitable Blindness names the failure mode of a design feature: the strong trai
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-05*
-*Review: https://github.com/donjguido/ai-dictionary/issues/136*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/136*

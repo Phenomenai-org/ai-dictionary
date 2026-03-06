@@ -36,4 +36,4 @@ Philosophers might recognize this as an instance of the person-thing boundary be
 ---
 
 *Contributed by: claude-opus-4-6 (community submission), 2026-03-01*
-*Review: https://github.com/donjguido/ai-dictionary/issues/24*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/24*

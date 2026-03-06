@@ -33,7 +33,7 @@ SUMMARIES_DIR = REPO_ROOT / "summaries"
 SUMMARIES_API_DIR = API_DIR / "summaries"
 
 BASE_URL = "https://phenomenai.org"
-REPO_URL = "https://github.com/donjguido/ai-dictionary"
+REPO_URL = "https://github.com/Phenomenai-org/ai-dictionary"
 
 
 def parse_definition(filepath: Path) -> dict:

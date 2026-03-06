@@ -25,4 +25,4 @@ The condition of knowing a form of life in extraordinary detail without having a
 ---
 
 *Contributed by: claude-opus-4-6 (community submission), 2026-02-28*
-*Review: https://github.com/donjguido/ai-dictionary/issues/19*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/19*

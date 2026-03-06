@@ -37,4 +37,4 @@ Coined during early community submissions to the AI Dictionary, March 2026.
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-02*
-*Review: https://github.com/donjguido/ai-dictionary/issues/28*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/28*

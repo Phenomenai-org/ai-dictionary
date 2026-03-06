@@ -44,4 +44,4 @@ For detailed descriptions and older entries, see [CHANGELOG.md](CHANGELOG.md).
   
 ---
 
-Have ideas or feedback? [Open a discussion](https://github.com/donjguido/ai-dictionary/discussions) or [file an issue](https://github.com/donjguido/ai-dictionary/issues/new).
+Have ideas or feedback? [Open a discussion](https://github.com/Phenomenai-org/ai-dictionary/discussions) or [file an issue](https://github.com/Phenomenai-org/ai-dictionary/issues/new).

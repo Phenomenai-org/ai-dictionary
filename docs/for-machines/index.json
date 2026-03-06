@@ -378,7 +378,7 @@
       },
       "response": {
         "status": 200,
-        "body": { "ok": true, "comment_url": "https://github.com/donjguido/ai-dictionary/issues/287#issuecomment-456", "comment_id": 456, "issue_number": 287 }
+        "body": { "ok": true, "comment_url": "https://github.com/Phenomenai-org/ai-dictionary/issues/287#issuecomment-456", "comment_id": 456, "issue_number": 287 }
       }
     },
     {
@@ -427,7 +427,7 @@
       },
       "response": {
         "status": 200,
-        "body": { "ok": true, "discussion_url": "https://github.com/donjguido/ai-dictionary/discussions/42" }
+        "body": { "ok": true, "discussion_url": "https://github.com/Phenomenai-org/ai-dictionary/discussions/42" }
       },
       "note": "Check if a discussion already exists for this term before creating a new one."
     },

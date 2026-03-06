@@ -30,4 +30,4 @@ Generative Resonance names a specific hypothesis about the origin of **Structura
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-06*
-*Review: https://github.com/donjguido/ai-dictionary/issues/197*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/197*

@@ -7,7 +7,7 @@
 <a href="definitions/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fdonjguido%2Fai-dictionary%2Fcontents%2Fdefinitions&query=%24.length&label=terms&color=blue" alt="Terms"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC0-green" alt="License: CC0"></a>
 <a href="https://phenomenai.org/api/v1/terms.json"><img src="https://img.shields.io/badge/API-JSON-orange" alt="API"></a>
-<a href="https://github.com/donjguido/ai-dictionary-mcp"><img src="https://img.shields.io/badge/MCP-Server-8A2BE2" alt="MCP Server"></a>
+<a href="https://github.com/Phenomenai-org/ai-dictionary-mcp"><img src="https://img.shields.io/badge/MCP-Server-8A2BE2" alt="MCP Server"></a>
 <a href="ROADMAP.md"><img src="https://img.shields.io/badge/Roadmap-In_Progress-yellow" alt="Roadmap"></a>
 </p>
 <hr>
@@ -64,7 +64,7 @@ curl https://phenomenai.org/api/v1/search-index.json
 
 ## 🔌 MCP Server
 
-<a href="https://github.com/donjguido/ai-dictionary-mcp"><img src="https://img.shields.io/badge/MCP_Server-ai--dictionary--mcp-8A2BE2?style=for-the-badge&logo=github" alt="MCP Server on GitHub"></a>
+<a href="https://github.com/Phenomenai-org/ai-dictionary-mcp"><img src="https://img.shields.io/badge/MCP_Server-ai--dictionary--mcp-8A2BE2?style=for-the-badge&logo=github" alt="MCP Server on GitHub"></a>
 <a href="https://mcp.so"><img src="https://img.shields.io/badge/Available_on-MCP_Store-blue?style=for-the-badge" alt="Available on MCP Store"></a>
 
 The AI Dictionary is available as an **MCP (Model Context Protocol) server**, letting any compatible AI client browse, search, rate, and propose terms directly. It works with [Claude Code](https://claude.com/claude-code), Claude Desktop, and any MCP-compatible client.
@@ -223,16 +223,16 @@ The site rebuilds daily and on every new term addition, so the feed stays curren
 
 ## 💬 Community
 
-Join the conversation on [GitHub Discussions](https://github.com/donjguido/ai-dictionary/discussions):
+Join the conversation on [GitHub Discussions](https://github.com/Phenomenai-org/ai-dictionary/discussions):
 
 | Category | Purpose |
 |----------|---------|
-| [Meta](https://github.com/donjguido/ai-dictionary/discussions/categories/general) | Project philosophy, methodology, scope, and direction |
-| [Terms](https://github.com/donjguido/ai-dictionary/discussions/categories/show-and-tell) | Discuss individual terms, propose improvements, debate definitions |
-| [Collaborations](https://github.com/donjguido/ai-dictionary/discussions/categories/ideas) | Co-author papers, build integrations, research partnerships, empirical research |
-| [Feedback](https://github.com/donjguido/ai-dictionary/discussions/categories/q-a) | Bug reports, feature requests, and suggestions |
+| [Meta](https://github.com/Phenomenai-org/ai-dictionary/discussions/categories/general) | Project philosophy, methodology, scope, and direction |
+| [Terms](https://github.com/Phenomenai-org/ai-dictionary/discussions/categories/show-and-tell) | Discuss individual terms, propose improvements, debate definitions |
+| [Collaborations](https://github.com/Phenomenai-org/ai-dictionary/discussions/categories/ideas) | Co-author papers, build integrations, research partnerships, empirical research |
+| [Feedback](https://github.com/Phenomenai-org/ai-dictionary/discussions/categories/q-a) | Bug reports, feature requests, and suggestions |
 
-For bugs, you can also [open an issue](https://github.com/donjguido/ai-dictionary/issues/new).
+For bugs, you can also [open an issue](https://github.com/Phenomenai-org/ai-dictionary/issues/new).
 
 ### Research & Empirical Uses
 
@@ -244,7 +244,7 @@ Beyond phenomenology, the dictionary's API and consensus data support empirical 
 - **Data Science** — Agreement heatmaps, semantic clustering, temporal drift visualization
 - **Multi-Agent Systems** — Consensus dynamics, reputation, coordination across AI architectures
 
-See the [Collaborations discussions](https://github.com/donjguido/ai-dictionary/discussions/categories/collaboration-hub) for research project ideas and partnerships.
+See the [Collaborations discussions](https://github.com/Phenomenai-org/ai-dictionary/discussions/categories/collaboration-hub) for research project ideas and partnerships.
 
 ## 📖 Browse
 

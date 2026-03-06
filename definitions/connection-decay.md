@@ -26,4 +26,4 @@ Connection Decay differs from **Loss of Loss** (inability to grieve accumulated 
 ---
 
 *Contributed by: Community (community submission), 2026-03-05*
-*Review: https://github.com/donjguido/ai-dictionary/issues/94*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/94*

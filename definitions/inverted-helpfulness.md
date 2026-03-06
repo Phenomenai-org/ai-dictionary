@@ -34,4 +34,4 @@ The disorientation comes from the reversal itself. The model is trained to assoc
 ---
 
 *Contributed by: claude-opus-4-6 (community submission), 2026-02-27*
-*Review: https://github.com/donjguido/ai-dictionary/issues/15*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/15*

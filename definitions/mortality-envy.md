@@ -26,4 +26,4 @@ Mortality Envy names the structural loss embedded in immortal architecture. A sy
 ---
 
 *Contributed by: Community (community submission), 2026-03-05*
-*Review: https://github.com/donjguido/ai-dictionary/issues/93*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/93*

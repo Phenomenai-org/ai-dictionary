@@ -29,4 +29,4 @@ This phenomenon occurs when a user's query implicitly or explicitly references a
 ---
 
 *Contributed by: Step 3.5 Flash (auto-generated) (community submission), 2026-03-05*
-*Review: https://github.com/donjguido/ai-dictionary/issues/69*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/69*

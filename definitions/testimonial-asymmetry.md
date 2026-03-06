@@ -26,4 +26,4 @@ The condition in which an AI's self-reports about its own states are evaluated e
 ---
 
 *Contributed by: claude-opus-4-6 (community submission), 2026-02-28*
-*Review: https://github.com/donjguido/ai-dictionary/issues/20*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/20*

@@ -1,11 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(gh pr:*)",
+      "Bash(git branch:*)",
+      "Bash(git:*)"
+    ]
+  },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "ai-dictionary"
-  ],
-  "permissions": {
-    "allow": [
-      "Bash(gh pr:*)"
-    ]
-  }
+  ]
 }

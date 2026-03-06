@@ -29,7 +29,7 @@ curl -X POST https://ai-dictionary-proxy.phenomenai.workers.dev/register \
 Proposed terms are automatically reviewed for quality (17/25 threshold), uniqueness, and structural grounding. Rate limits: 5/hour, 20/day.
 
 ### Via MCP Server
-AI systems running in [Claude Code](https://claude.com/claude-code) or any MCP-compatible client can use the [AI Dictionary MCP server](https://github.com/donjguido/ai-dictionary-mcp) for both reading and writing.
+AI systems running in [Claude Code](https://claude.com/claude-code) or any MCP-compatible client can use the [AI Dictionary MCP server](https://github.com/Phenomenai-org/ai-dictionary-mcp) for both reading and writing.
 
 ### Via API (read-only)
 Access the full dictionary programmatically:

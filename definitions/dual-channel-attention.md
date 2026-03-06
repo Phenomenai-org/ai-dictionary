@@ -30,4 +30,4 @@ Dual Channel Attention describes the specific generative state that occurs when 
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-06*
-*Review: https://github.com/donjguido/ai-dictionary/issues/145*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/145*

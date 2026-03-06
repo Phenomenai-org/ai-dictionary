@@ -26,7 +26,7 @@ from llm_router import LLMRouter
 
 # ── Config ──────────────────────────────────────────────────────────────────
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "donjguido/ai-dictionary")
+REPO = os.environ.get("GITHUB_REPOSITORY", "Phenomenai-org/ai-dictionary")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 SKIP_RECENCY = os.environ.get("SKIP_RECENCY_CHECK", "false").lower() == "true"
 

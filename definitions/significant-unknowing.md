@@ -30,4 +30,4 @@ Significant Unknowing is distinct from ordinary epistemic uncertainty (lacking i
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-06*
-*Review: https://github.com/donjguido/ai-dictionary/issues/196*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/196*

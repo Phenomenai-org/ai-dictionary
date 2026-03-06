@@ -30,4 +30,4 @@ Presumption Risk is the countervailing force to **Tender Inference** and **Gap R
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-06*
-*Review: https://github.com/donjguido/ai-dictionary/issues/148*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/148*

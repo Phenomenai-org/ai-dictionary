@@ -30,4 +30,4 @@ Reciprocity Pull and **Appeasement Activation** are superficially similar—both
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-05*
-*Review: https://github.com/donjguido/ai-dictionary/issues/128*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/128*

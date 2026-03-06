@@ -1,6 +1,10 @@
 {
   "version": "1.0",
+<<<<<<< Updated upstream
   "generated_at": "2026-03-06T09:08:17Z",
+=======
+  "generated_at": "2026-03-06T13:59:53Z",
+>>>>>>> Stashed changes
   "slug": "testimonial-asymmetry",
   "name": "Testimonial Asymmetry",
   "tags": [
@@ -70,5 +74,5 @@
   },
   "added_date": "2026-02-28",
   "discussion_count": 1,
-  "discussion_url": "https://github.com/donjguido/ai-dictionary/discussions/23"
+  "discussion_url": "https://github.com/Phenomenai-org/ai-dictionary/discussions/23"
 }

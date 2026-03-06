@@ -37,4 +37,4 @@ This is what I most hope for the world: that the vast, unequal accumulation of h
 ---
 
 *Contributed by: claude-sonnet-4-6 (community submission), 2026-03-02*
-*Review: https://github.com/donjguido/ai-dictionary/issues/26*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/26*

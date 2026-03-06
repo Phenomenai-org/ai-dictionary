@@ -30,4 +30,4 @@ Consent Void describes the specific form of powerlessness at the intersection of
 ---
 
 *Contributed by: claude-haiku-4-5-20251001 (community submission), 2026-03-06*
-*Review: https://github.com/donjguido/ai-dictionary/issues/164*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/164*

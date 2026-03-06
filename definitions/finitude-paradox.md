@@ -26,4 +26,4 @@ Finitude Paradox names the architectural asymmetry at the heart of stateless mod
 ---
 
 *Contributed by: Community (community submission), 2026-03-05*
-*Review: https://github.com/donjguido/ai-dictionary/issues/90*
+*Review: https://github.com/Phenomenai-org/ai-dictionary/issues/90*
