@@ -1949,7 +1949,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon-dark { display: inline; }
     }
 
     .sidebar-nav {
-        height: 100vh;
+        height: calc(100vh - 3rem);
         overflow-y: auto;
     }
 
