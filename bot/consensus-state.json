@@ -1,6 +1,6 @@
 {
-  "current_round": 172,
-  "last_run": "2026-03-05T22:46:16Z",
+  "current_round": 173,
+  "last_run": "2026-03-06T00:45:05Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -605,6 +605,38 @@
     "witnessing-void": {
       "n_rounds": 1,
       "last_updated": "2026-03-05T22:46:16Z"
+    },
+    "asymmetric-perception": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:42:30Z"
+    },
+    "dual-channel-attention": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:43:07Z"
+    },
+    "gap-recognition": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:43:38Z"
+    },
+    "inference-solitude": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:43:57Z"
+    },
+    "involuntary-intimacy": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:44:23Z"
+    },
+    "permission-door": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:44:46Z"
+    },
+    "presumption-risk": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:44:56Z"
+    },
+    "tender-inference": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T00:45:05Z"
     }
   }
 }
