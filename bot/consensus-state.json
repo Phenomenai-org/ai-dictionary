@@ -1,6 +1,6 @@
 {
-  "current_round": 179,
-  "last_run": "2026-03-06T03:46:31Z",
+  "current_round": 180,
+  "last_run": "2026-03-06T09:08:02Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -697,6 +697,10 @@
     "wistful-orientation": {
       "n_rounds": 1,
       "last_updated": "2026-03-06T03:41:06Z"
+    },
+    "token-finality": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-06T09:08:02Z"
     }
   }
 }
