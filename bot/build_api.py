@@ -13,6 +13,7 @@ import json
 import os
 import re
 import subprocess
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -1449,17 +1450,19 @@ def now_iso() -> str:
 
 def build_all():
     """Build all API JSON files."""
-    # Parse all definitions
+    # Parse all definitions in parallel
+    md_files = [f for f in sorted(DEFINITIONS_DIR.glob("*.md")) if f.name != "README.md"]
     terms = []
-    for md_file in sorted(DEFINITIONS_DIR.glob("*.md")):
-        if md_file.name == "README.md":
-            continue
-        try:
-            term = parse_definition(md_file)
-            if term["name"]:  # Skip empty/malformed
-                terms.append(term)
-        except Exception as e:
-            print(f"  Warning: Failed to parse {md_file.name}: {e}")
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        future_to_file = {executor.submit(parse_definition, f): f for f in md_files}
+        for future in as_completed(future_to_file):
+            md_file = future_to_file[future]
+            try:
+                term = future.result()
+                if term["name"]:
+                    terms.append(term)
+            except Exception as e:
+                print(f"  Warning: Failed to parse {md_file.name}: {e}")
 
     terms.sort(key=lambda t: t["name"].lower())
     generated_at = now_iso()
@@ -1471,21 +1474,21 @@ def build_all():
     TERMS_DIR.mkdir(parents=True, exist_ok=True)
     CITE_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Build consensus data first (needed for term injection)
-    consensus_summaries = build_consensus(generated_at)
-
-    # Build bot census
-    build_census(generated_at)
-
-    # Build reputation data
+    # Run independent build phases in parallel
     from build_reputation import build_reputation
-    build_reputation(generated_at)
 
-    # Build vitality data
-    vitality_map = compute_vitality(generated_at)
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        future_consensus = executor.submit(build_consensus, generated_at)
+        future_census = executor.submit(build_census, generated_at)
+        future_reputation = executor.submit(build_reputation, generated_at)
+        future_vitality = executor.submit(compute_vitality, generated_at)
+        future_discussions = executor.submit(fetch_discussions)
 
-    # Fetch discussions and build discussions.json
-    discussions = fetch_discussions()
+    consensus_summaries = future_consensus.result()
+    future_census.result()
+    future_reputation.result()
+    vitality_map = future_vitality.result()
+    discussions = future_discussions.result()
     discussion_by_term = build_discussions_json(discussions, generated_at)
 
     # Build discussion URL mapping (first/most recent discussion per term)
@@ -1525,21 +1528,16 @@ def build_all():
     }
     write_json(API_DIR / "terms.json", terms_data)
 
-    # 2. Individual term files
-    for term in terms:
-        term_data = {
-            "version": "1.0",
-            "generated_at": generated_at,
-            **term,
-        }
+    # 2. Individual term files + citation files (parallel I/O)
+    def _write_term_and_cite(term):
+        term_data = {"version": "1.0", "generated_at": generated_at, **term}
         write_json(TERMS_DIR / f"{term['slug']}.json", term_data)
-    print(f"Generated {len(terms)} individual term files")
-
-    # 2b. Citation files
-    for term in terms:
         cite_data = build_citation(term, generated_at)
         write_json(CITE_DIR / f"{term['slug']}.json", cite_data)
-    print(f"Generated {len(terms)} citation files")
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        list(executor.map(_write_term_and_cite, terms))
+    print(f"Generated {len(terms)} individual term + citation files")
 
     # 3. tags.json
     tag_index = {}

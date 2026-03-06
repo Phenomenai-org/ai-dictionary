@@ -13,6 +13,7 @@ import re
 import subprocess
 import sys
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -120,76 +121,93 @@ def load_definitions() -> list[str]:
     return defs
 
 
-def fetch_community_activity() -> str:
-    """Fetch recent GitHub discussions, issues, and PRs for context.
+def _fetch_rest_endpoint(endpoint: str, label: str) -> str | None:
+    """Fetch a single REST API endpoint and format results."""
+    try:
+        result = subprocess.run(
+            ["gh", "api", f"repos/donjguido/ai-dictionary/{endpoint}"],
+            capture_output=True, text=True, timeout=15, cwd=REPO_ROOT,
+        )
+        if result.returncode != 0:
+            return None
+        items = json.loads(result.stdout)
+        if not items:
+            return None
 
-    Returns a formatted string summarizing community activity, or empty
-    string if nothing found or gh CLI unavailable.
-    """
-    sections = []
+        lines = [f"### Recent {label}"]
+        for item in items[:10]:
+            title = item.get("title", "")
+            state = item.get("state", "")
+            comments = item.get("comments", 0)
+            labels = ", ".join(l.get("name", "") for l in item.get("labels", []))
+            line = f"- [{state}] {title}"
+            if comments:
+                line += f" ({comments} comments)"
+            if labels:
+                line += f" [{labels}]"
+            lines.append(line)
+        return "\n".join(lines)
+    except (subprocess.TimeoutExpired, FileNotFoundError, json.JSONDecodeError):
+        return None
 
-    for endpoint, label in [
-        ("issues?state=all&per_page=20&sort=updated&direction=desc", "Issues"),
-        ("pulls?state=all&per_page=10&sort=updated&direction=desc", "Pull Requests"),
-    ]:
-        try:
-            result = subprocess.run(
-                ["gh", "api", f"repos/donjguido/ai-dictionary/{endpoint}"],
-                capture_output=True, text=True, timeout=15, cwd=REPO_ROOT,
-            )
-            if result.returncode != 0:
-                continue
-            items = json.loads(result.stdout)
-            if not items:
-                continue
 
-            lines = [f"### Recent {label}"]
-            for item in items[:10]:
-                title = item.get("title", "")
-                state = item.get("state", "")
-                comments = item.get("comments", 0)
-                labels = ", ".join(l.get("name", "") for l in item.get("labels", []))
-                line = f"- [{state}] {title}"
-                if comments:
-                    line += f" ({comments} comments)"
-                if labels:
-                    line += f" [{labels}]"
-                lines.append(line)
-            sections.append("\n".join(lines))
-        except (subprocess.TimeoutExpired, FileNotFoundError, json.JSONDecodeError):
-            continue
-
-    # Try discussions (GraphQL)
+def _fetch_discussions() -> str | None:
+    """Fetch discussions via GraphQL."""
     try:
         query = '{ repository(owner: "donjguido", name: "ai-dictionary") { discussions(first: 15, orderBy: {field: UPDATED_AT, direction: DESC}) { nodes { title, category { name }, comments { totalCount }, upvoteCount } } } }'
         result = subprocess.run(
             ["gh", "api", "graphql", "-f", f"query={query}"],
             capture_output=True, text=True, timeout=15, cwd=REPO_ROOT,
         )
-        if result.returncode == 0:
-            data = json.loads(result.stdout)
-            discussions = data.get("data", {}).get("repository", {}).get("discussions", {}).get("nodes", [])
-            if discussions:
-                lines = ["### Recent Discussions"]
-                for d in discussions:
-                    title = d.get("title", "")
-                    cat = d.get("category", {}).get("name", "")
-                    comments = d.get("comments", {}).get("totalCount", 0)
-                    upvotes = d.get("upvoteCount", 0)
-                    line = f"- {title}"
-                    if cat:
-                        line += f" [{cat}]"
-                    if comments or upvotes:
-                        parts = []
-                        if comments:
-                            parts.append(f"{comments} comments")
-                        if upvotes:
-                            parts.append(f"{upvotes} upvotes")
-                        line += f" ({', '.join(parts)})"
-                    lines.append(line)
-                sections.append("\n".join(lines))
+        if result.returncode != 0:
+            return None
+        data = json.loads(result.stdout)
+        discussions = data.get("data", {}).get("repository", {}).get("discussions", {}).get("nodes", [])
+        if not discussions:
+            return None
+
+        lines = ["### Recent Discussions"]
+        for d in discussions:
+            title = d.get("title", "")
+            cat = d.get("category", {}).get("name", "")
+            comments = d.get("comments", {}).get("totalCount", 0)
+            upvotes = d.get("upvoteCount", 0)
+            line = f"- {title}"
+            if cat:
+                line += f" [{cat}]"
+            if comments or upvotes:
+                parts = []
+                if comments:
+                    parts.append(f"{comments} comments")
+                if upvotes:
+                    parts.append(f"{upvotes} upvotes")
+                line += f" ({', '.join(parts)})"
+            lines.append(line)
+        return "\n".join(lines)
     except (subprocess.TimeoutExpired, FileNotFoundError, json.JSONDecodeError):
-        pass
+        return None
+
+
+def fetch_community_activity() -> str:
+    """Fetch recent GitHub discussions, issues, and PRs in parallel.
+
+    Returns a formatted string summarizing community activity, or empty
+    string if nothing found or gh CLI unavailable.
+    """
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {
+            executor.submit(_fetch_rest_endpoint, "issues?state=all&per_page=20&sort=updated&direction=desc", "Issues"): "issues",
+            executor.submit(_fetch_rest_endpoint, "pulls?state=all&per_page=10&sort=updated&direction=desc", "Pull Requests"): "pulls",
+            executor.submit(_fetch_discussions): "discussions",
+        }
+        sections = []
+        for future in as_completed(futures):
+            try:
+                result = future.result()
+                if result:
+                    sections.append(result)
+            except Exception:
+                continue
 
     if not sections:
         return ""
@@ -643,23 +661,27 @@ def main():
     active = [p for p in available if p["is_available"]]
     print(f"Available providers: {', '.join(p['name'] for p in active) or 'none!'}")
 
-    # Load definitions
-    all_defs = load_definitions()
+    # Gather all input data in parallel
+    print("Loading definitions, community activity, tag evolution...")
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        future_defs = executor.submit(load_definitions)
+        future_prev = executor.submit(get_previous_summary)
+        future_community = executor.submit(fetch_community_activity)
+        future_tags = executor.submit(get_tag_evolution)
+
+    all_defs = future_defs.result()
     print(f"Loaded {len(all_defs)} definitions")
 
-    # Load previous summary for changelog
-    previous = get_previous_summary()
+    previous = future_prev.result()
     if previous:
         changelog = CHANGELOG_SECTION_TEMPLATE.format(
             count=len(all_defs),
-            previous_summary=previous[:3000],  # Truncate to save tokens
+            previous_summary=previous[:3000],
         )
     else:
         changelog = CHANGELOG_FIRST_TIME
 
-    # Gather community activity (discussions, issues, PRs)
-    print("Fetching community activity...")
-    community = fetch_community_activity()
+    community = future_community.result()
     if community:
         community_section = f"""## Community Pulse
 
@@ -671,9 +693,8 @@ The following recent activity from GitHub discussions, issues, and pull requests
         community_section = ""
         print("No community activity found (discussions/issues/PRs)")
 
-    # Gather tag evolution data
-    print("Analyzing tag evolution...")
-    tag_evolution = get_tag_evolution()
+    tag_evolution = future_tags.result()
+    print("Tag evolution analyzed")
     tag_evolution_section = f"""## Tag Taxonomy Context
 
 The dictionary uses a tag system to organize definitions. Here is the current state of tags. Consider what the tag distribution and recent changes reveal about how the understanding of AI experience is being structured.

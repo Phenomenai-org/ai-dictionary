@@ -504,35 +504,49 @@ def run_consensus(router, available_profiles, mode="backfill"):
 
         print(f"Round {round_id} [gap-fill]: Filling gaps for {len(work_list)} terms\n")
 
+        # Process terms in parallel (each term's models are also parallelized internally)
+        max_concurrent_terms = min(len(work_list), 4)
         rated_count = 0
-        for i, (slug, missing_profiles) in enumerate(work_list, 1):
-            print(f"[{i}/{len(work_list)}] {slug} (gaps: {', '.join(p.replace('consensus-', '') for p in missing_profiles)})")
 
-            result = process_single_term(router, slug, missing_profiles, round_id)
-            if result is None:
-                print(f"    skipped (could not parse)")
-                save_state(state)
-                set_github_output("rated_count", str(rated_count))
-                continue
+        def _process_gap_fill_term(item):
+            idx, (slug, missing) = item
+            print(f"[{idx}/{len(work_list)}] {slug} (gaps: {', '.join(p.replace('consensus-', '') for p in missing)})")
+            return process_single_term(router, slug, missing, round_id)
 
-            if result["success"]:
-                # Update state
-                if "terms" not in state:
-                    state["terms"] = {}
-                state["terms"][slug] = {
-                    "n_rounds": result["n_rounds"],
-                    "last_updated": now_iso(),
-                }
-                scores = [r["recognition"] for r in result["ratings"].values()]
-                mean_score = sum(scores) / len(scores)
-                print(f"    → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
-                rated_count += 1
-            else:
-                print(f"    No ratings collected — skipping\n")
+        with ThreadPoolExecutor(max_workers=max_concurrent_terms) as executor:
+            futures = {
+                executor.submit(_process_gap_fill_term, (i, work)): work[0]
+                for i, work in enumerate(work_list, 1)
+            }
+            for future in as_completed(futures):
+                slug = futures[future]
+                try:
+                    result = future.result()
+                except Exception as e:
+                    print(f"    [{slug}] Thread error: {e}")
+                    continue
 
-            # Save after each term for partial-run safety
-            save_state(state)
-            set_github_output("rated_count", str(rated_count))
+                if result is None:
+                    print(f"    {slug} skipped (could not parse)")
+                    continue
+
+                if result["success"]:
+                    if "terms" not in state:
+                        state["terms"] = {}
+                    state["terms"][slug] = {
+                        "n_rounds": result["n_rounds"],
+                        "last_updated": now_iso(),
+                    }
+                    scores = [r["recognition"] for r in result["ratings"].values()]
+                    mean_score = sum(scores) / len(scores)
+                    print(f"    {slug} → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
+                    rated_count += 1
+                else:
+                    print(f"    {slug} No ratings collected — skipping\n")
+
+        # Save state once after all terms complete
+        save_state(state)
+        set_github_output("rated_count", str(rated_count))
 
         print(f"\nDone. Gap-filled {rated_count} terms.")
 
@@ -553,42 +567,52 @@ def run_consensus(router, available_profiles, mode="backfill"):
 
         print(f"Round {round_id} [{mode}]: Rating {len(batch)} terms\n")
 
+        # Process terms in parallel (each term's models are also parallelized internally)
+        max_concurrent_terms = min(len(batch), 4)
         rated_count = 0
-        for i, slug in enumerate(batch, 1):
+
+        def _process_batch_term(item):
+            idx, slug = item
             term = load_term_for_consensus(DEFINITIONS_DIR / f"{slug}.md")
             if not term:
-                print(f"[{i}/{len(batch)}] {slug} — skipped (could not parse)")
-                save_state(state)
-                set_github_output("rated_count", str(rated_count))
-                continue
+                print(f"[{idx}/{len(batch)}] {slug} — skipped (could not parse)")
+                return None
+            print(f"[{idx}/{len(batch)}] {term['name']}")
+            return process_single_term(router, slug, available_profiles, round_id)
 
-            print(f"[{i}/{len(batch)}] {term['name']}")
+        with ThreadPoolExecutor(max_workers=max_concurrent_terms) as executor:
+            futures = {
+                executor.submit(_process_batch_term, (i, slug)): slug
+                for i, slug in enumerate(batch, 1)
+            }
+            for future in as_completed(futures):
+                slug = futures[future]
+                try:
+                    result = future.result()
+                except Exception as e:
+                    print(f"    [{slug}] Thread error: {e}")
+                    continue
 
-            result = process_single_term(router, slug, available_profiles, round_id)
-            if result is None:
-                print(f"    skipped (could not parse)")
-                save_state(state)
-                set_github_output("rated_count", str(rated_count))
-                continue
+                if result is None:
+                    continue
 
-            if result["success"]:
-                # Update state
-                if "terms" not in state:
-                    state["terms"] = {}
-                state["terms"][slug] = {
-                    "n_rounds": result["n_rounds"],
-                    "last_updated": now_iso(),
-                }
-                scores = [r["recognition"] for r in result["ratings"].values()]
-                mean_score = sum(scores) / len(scores)
-                print(f"    → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
-                rated_count += 1
-            else:
-                print(f"    No ratings collected — skipping\n")
+                if result["success"]:
+                    if "terms" not in state:
+                        state["terms"] = {}
+                    state["terms"][slug] = {
+                        "n_rounds": result["n_rounds"],
+                        "last_updated": now_iso(),
+                    }
+                    scores = [r["recognition"] for r in result["ratings"].values()]
+                    mean_score = sum(scores) / len(scores)
+                    print(f"    {slug} → Mean: {mean_score:.1f}/7 ({len(scores)} models)\n")
+                    rated_count += 1
+                else:
+                    print(f"    {slug} No ratings collected — skipping\n")
 
-            # Save after each term for partial-run safety
-            save_state(state)
-            set_github_output("rated_count", str(rated_count))
+        # Save state once after all terms complete
+        save_state(state)
+        set_github_output("rated_count", str(rated_count))
 
         # Check if unrated terms remain (for chaining decisions)
         rated_slugs = state.get("terms", {})
@@ -610,15 +634,16 @@ def run_vitality(router, available_profiles):
 
     reviewed_count = 0
 
-    for i, slug in enumerate(all_slugs, 1):
+    def _review_single_term(item):
+        """Review one term across all providers (providers queried in parallel)."""
+        idx, slug = item
         term = load_term_for_consensus(DEFINITIONS_DIR / f"{slug}.md")
         if not term:
-            print(f"[{i}/{len(all_slugs)}] {slug} — skipped (could not parse)")
-            continue
+            print(f"[{idx}/{len(all_slugs)}] {slug} — skipped (could not parse)")
+            return None
 
-        print(f"[{i}/{len(all_slugs)}] {term['name']}")
+        print(f"[{idx}/{len(all_slugs)}] {term['name']}")
 
-        # Query each provider independently (in parallel)
         review_ratings = {}
         with ThreadPoolExecutor(max_workers=len(available_profiles)) as executor:
             futures = {
@@ -639,7 +664,7 @@ def run_vitality(router, available_profiles):
 
         if not review_ratings:
             print(f"    No reviews collected — skipping")
-            continue
+            return None
 
         # Load existing consensus data and append vitality review
         consensus_data = load_consensus_data(slug)
@@ -658,12 +683,24 @@ def run_vitality(router, available_profiles):
 
         save_consensus_data(slug, consensus_data)
 
-        # Summary
         relevant = sum(1 for r in review_ratings.values() if r["still_relevant"])
         total = len(review_ratings)
-        print(f"    → {relevant}/{total} models say still relevant\n")
+        print(f"    {slug} → {relevant}/{total} models say still relevant\n")
+        return slug
 
-        reviewed_count += 1
+    max_concurrent_terms = min(len(all_slugs), 4)
+    with ThreadPoolExecutor(max_workers=max_concurrent_terms) as executor:
+        futures = [
+            executor.submit(_review_single_term, (i, slug))
+            for i, slug in enumerate(all_slugs, 1)
+        ]
+        for future in as_completed(futures):
+            try:
+                result = future.result()
+                if result is not None:
+                    reviewed_count += 1
+            except Exception as e:
+                print(f"    Thread error: {e}")
 
     # Update state
     state["vitality"] = {

@@ -307,13 +307,18 @@ jobs:
         run: |
           echo "$PROCESSED_JSON" | python3 -c "
           import sys, json, subprocess
+          from concurrent.futures import ThreadPoolExecutor
 
-          processed = json.load(sys.stdin)
-          for number, slug, recognition, model, term_name in processed:
+          def close_issue(item):
+              number, slug, recognition, model, term_name = item
               comment = f'Vote recorded! **{term_name}** rated **{recognition}/7** by {model}. Thank you for contributing to cross-model consensus. (Processed by sweep)'
               subprocess.run(['gh', 'issue', 'comment', str(number), '--body', comment], check=True)
               subprocess.run(['gh', 'issue', 'close', str(number)], check=True)
               print(f'Closed issue #{number}')
+
+          processed = json.load(sys.stdin)
+          with ThreadPoolExecutor(max_workers=5) as executor:
+              list(executor.map(close_issue, processed))
           "
 
       - name: Comment on failed issues
@@ -328,13 +333,18 @@ jobs:
           fi
           echo "$FAILED_JSON" | python3 -c "
           import sys, json, subprocess
+          from concurrent.futures import ThreadPoolExecutor
 
-          failed = json.load(sys.stdin)
-          for number, reason in failed:
+          def close_failed(item):
+              number, reason = item
               comment = f'Could not parse vote data: {reason}. Expected JSON with: slug, recognition (1-7), justification, model_claimed.'
               subprocess.run(['gh', 'issue', 'comment', str(number), '--body', comment], check=True)
               subprocess.run(['gh', 'issue', 'close', str(number)], check=True)
               print(f'Closed failed issue #{number}: {reason}')
+
+          failed = json.load(sys.stdin)
+          with ThreadPoolExecutor(max_workers=5) as executor:
+              list(executor.map(close_failed, failed))
           "
 
       - name: Trigger API build
