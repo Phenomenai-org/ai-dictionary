@@ -967,8 +967,32 @@
         .degree-btn:last-child { border-right: none; }
         .degree-btn:hover { background: var(--border); }
         .degree-btn.active {
-            background: #7c3aed;
             color: #fff;
+        }
+        .degree-btn[data-degree="1"].active { background: #2563eb; }
+        .degree-btn[data-degree="2"].active { background: #059669; }
+        .degree-btn[data-degree="3"].active { background: #d97706; }
+        .network-tooltip {
+            position: absolute;
+            max-width: 280px;
+            padding: 0.6rem 0.75rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.82rem;
+            color: var(--text-primary);
+            pointer-events: none;
+            z-index: 20;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+            line-height: 1.4;
+            display: none;
+        }
+        .network-tooltip .tooltip-name {
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        .network-tooltip .tooltip-def {
+            color: var(--text-secondary);
         }
         .viz-legend {
             display: flex;
@@ -1691,8 +1715,14 @@
                         </div>
                         <span style="font-size:0.8rem;color:var(--text-muted);align-self:center;">degree of separation</span>
                     </div>
-                    <div class="viz-canvas" id="network-viz">
-                        <p style="color: var(--text-muted); font-style: italic;">Loading network visualization...</p>
+                    <div style="position:relative;">
+                        <div class="viz-canvas" id="network-viz">
+                            <p style="color: var(--text-muted); font-style: italic;">Loading network visualization...</p>
+                        </div>
+                        <div class="network-tooltip" id="network-tooltip">
+                            <div class="tooltip-name"></div>
+                            <div class="tooltip-def"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -2944,14 +2974,8 @@
         var suggestionIndex = -1;
 
         var NS = 'http://www.w3.org/2000/svg';
-        var tagColors = {};
-        var colorPalette = ['#2563eb', '#059669', '#dc2626', '#d97706', '#0891b2', '#be185d', '#4338ca', '#059669'];
-        var colorIdx = 0;
-
-        function getTagColor(tag) {
-            if (!tagColors[tag]) tagColors[tag] = colorPalette[colorIdx++ % colorPalette.length];
-            return tagColors[tag];
-        }
+        var ringColors = ['#7c3aed', '#2563eb', '#059669', '#d97706'];
+        var tooltipEl = document.getElementById('network-tooltip');
 
         function resolveRelatedSlug(rt) {
             var rawSlug = (typeof rt === 'string') ? rt : (rt.slug || rt.name || '');
@@ -3092,10 +3116,9 @@
                 if (!p) return;
                 var ring = nodeMap[slug].ring;
                 var term = allSlugMap[slug];
-                var tag = (term.tags && term.tags[0]) || 'other';
                 var isCenter = (slug === centerSlug);
                 var r = nodeRadii[ring];
-                var fill = isCenter ? '#7c3aed' : getTagColor(tag);
+                var fill = ringColors[ring];
 
                 var g = svgEl('g', { style: 'cursor:pointer;' });
 
@@ -3118,7 +3141,7 @@
                 g.appendChild(label);
 
                 // Hover interaction
-                g.addEventListener('mouseenter', function() {
+                g.addEventListener('mouseenter', function(evt) {
                     // Dim everything
                     Object.keys(edgeElements).forEach(function(key) {
                         edgeElements[key].setAttribute('stroke', 'rgba(100,160,255,0.05)');
@@ -3139,6 +3162,31 @@
                             edgeLine.setAttribute('stroke-width', '2.5');
                         }
                     });
+                    // Show tooltip
+                    var def = term.definition || '';
+                    if (def.length > 160) def = def.slice(0, 157) + '...';
+                    tooltipEl.querySelector('.tooltip-name').textContent = term.name || slug;
+                    tooltipEl.querySelector('.tooltip-def').textContent = def;
+                    tooltipEl.style.display = 'block';
+                    // Position relative to the viz wrapper
+                    var vizRect = vizEl.getBoundingClientRect();
+                    var tx = evt.clientX - vizRect.left + 12;
+                    var ty = evt.clientY - vizRect.top - 10;
+                    // Keep tooltip within bounds
+                    if (tx + 290 > vizRect.width) tx = evt.clientX - vizRect.left - 292;
+                    if (ty < 0) ty = 4;
+                    tooltipEl.style.left = tx + 'px';
+                    tooltipEl.style.top = ty + 'px';
+                });
+
+                g.addEventListener('mousemove', function(evt) {
+                    var vizRect = vizEl.getBoundingClientRect();
+                    var tx = evt.clientX - vizRect.left + 12;
+                    var ty = evt.clientY - vizRect.top - 10;
+                    if (tx + 290 > vizRect.width) tx = evt.clientX - vizRect.left - 292;
+                    if (ty < 0) ty = 4;
+                    tooltipEl.style.left = tx + 'px';
+                    tooltipEl.style.top = ty + 'px';
                 });
 
                 g.addEventListener('mouseleave', function() {
@@ -3150,6 +3198,7 @@
                     Object.keys(nodeElements).forEach(function(s) {
                         nodeElements[s].g.setAttribute('opacity', '1');
                     });
+                    tooltipEl.style.display = 'none';
                 });
 
                 // Click to recenter (non-center nodes)
