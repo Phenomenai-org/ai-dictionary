@@ -481,10 +481,10 @@
             white-space: nowrap;
             cursor: help;
         }
-        .conf-high { background: rgba(34,197,94,0.12); color: #22c55e; }
-        .conf-moderate { background: rgba(147,160,178,0.15); color: var(--text-secondary); }
-        .conf-low { background: rgba(147,160,178,0.15); color: var(--text-muted); }
-        .conf-very-low { background: rgba(239,68,68,0.12); color: #ef4444; }
+        .conf-q4 { background: rgba(59,130,246,0.15); color: #3b82f6; }
+        .conf-q3 { background: rgba(99,102,241,0.12); color: #6366f1; }
+        .conf-q2 { background: rgba(139,92,246,0.10); color: #8b5cf6; }
+        .conf-q1 { background: rgba(168,85,247,0.10); color: #a855f7; }
 
         /* Per-model recognition rows in term explorer */
         .te-model-row {
@@ -564,17 +564,21 @@
         .term-explorer-wrapper {
             position: relative;
         }
-        .divergence-rail {
+        .rails-container {
             position: absolute;
-            right: -44px;
+            right: -72px;
             top: 0;
             bottom: 0;
+            display: flex;
+            gap: 6px;
+            user-select: none;
+        }
+        .divergence-rail {
             width: 28px;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 7px;
-            user-select: none;
         }
         .dr-arrow {
             background: var(--bg-secondary);
@@ -618,6 +622,10 @@
         .dr-seg-moderate { background: #f59e0b; }
         .dr-seg-low { background: #f97316; }
         .dr-seg-divergent { background: #ec4899; }
+        .cr-seg-q4 { background: #3b82f6; }
+        .cr-seg-q3 { background: #6366f1; }
+        .cr-seg-q2 { background: #8b5cf6; }
+        .cr-seg-q1 { background: #a855f7; }
         .dr-current {
             outline: 2px solid var(--text);
             outline-offset: -1px;
@@ -625,7 +633,7 @@
         }
         .dr-tooltip {
             position: absolute;
-            right: 34px;
+            right: 68px;
             background: var(--bg-secondary);
             border: 1px solid var(--border);
             border-radius: 4px;
@@ -1179,10 +1187,17 @@
                     <div id="term-explorer-container">
                         <p style="color: var(--text-muted); font-style: italic;">Loading term data...</p>
                     </div>
-                    <div id="divergence-rail" class="divergence-rail" style="display:none;">
-                        <button class="dr-arrow dr-arrow-up" id="dr-up" aria-label="More agreement">&uarr;</button>
-                        <div class="dr-stack" id="dr-stack"></div>
-                        <button class="dr-arrow dr-arrow-down" id="dr-down" aria-label="More disagreement">&darr;</button>
+                    <div class="rails-container" id="rails-container" style="display:none;">
+                        <div id="divergence-rail" class="divergence-rail">
+                            <button class="dr-arrow dr-arrow-up" id="dr-up" aria-label="More agreement">&uarr;</button>
+                            <div class="dr-stack" id="dr-stack"></div>
+                            <button class="dr-arrow dr-arrow-down" id="dr-down" aria-label="More disagreement">&darr;</button>
+                        </div>
+                        <div id="confidence-rail" class="divergence-rail">
+                            <button class="dr-arrow dr-arrow-up" id="cr-up" aria-label="Higher confidence">&uarr;</button>
+                            <div class="dr-stack" id="cr-stack"></div>
+                            <button class="dr-arrow dr-arrow-down" id="cr-down" aria-label="Lower confidence">&darr;</button>
+                        </div>
                         <div class="dr-tooltip" id="dr-tooltip"></div>
                     </div>
                 </div>
@@ -1688,9 +1703,11 @@
             modelsData = results[0];
             termsData = results[1];
             consensusData = results[2];
+            precomputeConfidenceQuartiles();
             initModelComparison();
             initTermExplorer();
             initDivergenceRail();
+            initConfidenceRail();
         }).catch(function(err) {
             modelContainer.innerHTML = '<p style="color:var(--text-muted);">Could not load data. <a href="' + API + '/terms.json" target="_blank">Browse the API directly</a>.</p>';
             termContainer.innerHTML = '';
@@ -1846,6 +1863,45 @@
             renderTermExplorer(term, consensus);
         }
 
+        // Confidence quartile boundaries and per-slug scores
+        var confQuartiles = [0, 0, 0]; // q25, q50, q75
+        var confBySlug = {}; // slug -> confidence score
+
+        function precomputeConfidenceQuartiles() {
+            if (!consensusData || !consensusData.terms) return;
+            var scores = [];
+            for (var i = 0; i < consensusData.terms.length; i++) {
+                var ct = consensusData.terms[i];
+                var nModels = ct.n_ratings || 0;
+                var nTotal = ct.n_ratings || 0;
+                var stdDev = ct.std_dev;
+                // Lightweight confidence calc (same formula, using index data)
+                var totalPanel = modelsData && modelsData.models ? Object.keys(modelsData.models).length : 7;
+                if (!nTotal) continue;
+                var breadth = Math.min((ct.n_ratings > 0 ? Math.min(ct.n_ratings, totalPanel) : 0) / totalPanel, 1);
+                var depth = Math.min(nTotal / (totalPanel * 3), 1);
+                var agreementScore = (stdDev !== null && stdDev !== undefined) ? Math.max(0, Math.min(1, 1 - (stdDev / 3))) : 0.5;
+                // Approximate reliability at 0.7 for precomputation (exact value needs per-term consensus fetch)
+                var raw = (breadth * 0.25 + depth * 0.25 + 0.7 * 0.25 + agreementScore * 0.25) * 100;
+                var score = Math.round(raw);
+                confBySlug[ct.slug] = score;
+                scores.push(score);
+            }
+            scores.sort(function(a, b) { return a - b; });
+            if (scores.length > 0) {
+                confQuartiles[0] = scores[Math.floor(scores.length * 0.25)];
+                confQuartiles[1] = scores[Math.floor(scores.length * 0.5)];
+                confQuartiles[2] = scores[Math.floor(scores.length * 0.75)];
+            }
+        }
+
+        function getConfClass(score) {
+            if (score >= confQuartiles[2]) return 'conf-q4';
+            if (score >= confQuartiles[1]) return 'conf-q3';
+            if (score >= confQuartiles[0]) return 'conf-q2';
+            return 'conf-q1';
+        }
+
         function computeConfidence(consensus, nModels, nTotal, stdDev) {
             // Composite confidence score (0-100) considering:
             // 1. Panel breadth: what fraction of the full panel rated this term
@@ -1931,14 +1987,14 @@
                 var agrBgs = { high: 'rgba(34,197,94,0.15)', moderate: 'rgba(245,158,11,0.15)', low: 'rgba(249,115,22,0.15)', divergent: 'rgba(236,72,153,0.15)' };
                 var ac = agrColors[agreement] || 'var(--text-secondary)';
                 var ab = agrBgs[agreement] || 'var(--bg-tertiary)';
-                h += '<span class="stat-pill" style="background:' + ab + ';color:' + ac + '">Agreement: <strong>' + escHtml(agreement) + '</strong></span>';
+                h += '<span class="stat-pill" style="background:' + ab + ';color:' + ac + '">Agreement: <strong style="color:inherit">' + escHtml(agreement) + '</strong></span>';
             }
             if (stdDev !== null) h += '<span class="stat-pill">Std dev: <strong>' + Number(stdDev).toFixed(2) + '</strong></span>';
 
             // Confidence indicator
             var conf = computeConfidence(consensus, nModels, nTotal, stdDev);
             if (conf !== null) {
-                var confClass = conf.score >= 75 ? 'conf-high' : (conf.score >= 50 ? 'conf-moderate' : (conf.score >= 25 ? 'conf-low' : 'conf-very-low'));
+                var confClass = getConfClass(conf.score);
                 h += '<span class="confidence-indicator ' + confClass + '" title="' + escHtml(conf.breakdown) + '">';
                 h += 'Confidence: <strong>' + conf.score + '%</strong>';
                 h += '</span>';
@@ -2053,11 +2109,15 @@
         // ── Divergence Rail ──
 
         var railTerms = []; // sorted by std_dev ascending (most agreement first)
-        var railEl = document.getElementById('divergence-rail');
+        var confRailTerms = []; // sorted by confidence descending (highest first)
+        var railsContainer = document.getElementById('rails-container');
         var stackEl = document.getElementById('dr-stack');
+        var crStackEl = document.getElementById('cr-stack');
         var tooltipEl = document.getElementById('dr-tooltip');
         var drUp = document.getElementById('dr-up');
         var drDown = document.getElementById('dr-down');
+        var crUp = document.getElementById('cr-up');
+        var crDown = document.getElementById('cr-down');
 
         function initDivergenceRail() {
             if (!consensusData || !consensusData.terms) return;
@@ -2065,7 +2125,7 @@
             // Check if viewport is wide enough
             function checkWidth() {
                 var show = window.innerWidth >= 1100;
-                railEl.style.display = show ? 'flex' : 'none';
+                railsContainer.style.display = show ? 'flex' : 'none';
             }
             checkWidth();
             window.addEventListener('resize', checkWidth);
@@ -2101,7 +2161,7 @@
                 if (idx >= railTerms.length) idx = railTerms.length - 1;
                 var rt = railTerms[idx];
                 tooltipEl.textContent = rt.name + ' (\u03c3 ' + rt.std_dev.toFixed(2) + ')';
-                tooltipEl.style.top = (e.clientY - railEl.getBoundingClientRect().top - 12) + 'px';
+                tooltipEl.style.top = (e.clientY - railsContainer.getBoundingClientRect().top - 12) + 'px';
                 tooltipEl.classList.add('visible');
             });
 
@@ -2151,6 +2211,7 @@
         }
 
         function updateRailHighlight(slug) {
+            // Agreement rail
             var segs = stackEl.querySelectorAll('.dr-seg');
             for (var i = 0; i < segs.length; i++) {
                 segs[i].classList.remove('dr-current');
@@ -2159,6 +2220,100 @@
             if (idx >= 0 && segs[idx]) {
                 segs[idx].classList.add('dr-current');
             }
+            // Confidence rail
+            var cSegs = crStackEl.querySelectorAll('.dr-seg');
+            for (var i = 0; i < cSegs.length; i++) {
+                cSegs[i].classList.remove('dr-current');
+            }
+            var cIdx = findConfRailIdx(slug);
+            if (cIdx >= 0 && cSegs[cIdx]) {
+                cSegs[cIdx].classList.add('dr-current');
+            }
+        }
+
+        // ── Confidence Rail ──
+
+        function findConfRailIdx(slug) {
+            for (var i = 0; i < confRailTerms.length; i++) {
+                if (confRailTerms[i].slug === slug) return i;
+            }
+            return -1;
+        }
+
+        function initConfidenceRail() {
+            if (!consensusData || !consensusData.terms || Object.keys(confBySlug).length === 0) return;
+
+            // Build sorted term list (by confidence descending — highest first)
+            var terms = [];
+            for (var i = 0; i < consensusData.terms.length; i++) {
+                var t = consensusData.terms[i];
+                if (confBySlug[t.slug] !== undefined) {
+                    terms.push({ slug: t.slug, name: t.name, conf: confBySlug[t.slug] });
+                }
+            }
+            terms.sort(function(a, b) { return b.conf - a.conf; });
+            confRailTerms = terms;
+
+            if (confRailTerms.length === 0) return;
+
+            // Build colored segments
+            var html = '';
+            for (var i = 0; i < confRailTerms.length; i++) {
+                var ct = confRailTerms[i];
+                var segClass = 'dr-seg ' + getConfClass(ct.conf).replace('conf-', 'cr-seg-');
+                html += '<div class="' + segClass + '" data-idx="' + i + '" style="flex:1;"></div>';
+            }
+            crStackEl.innerHTML = html;
+
+            // Hover
+            crStackEl.addEventListener('mousemove', function(e) {
+                var rect = crStackEl.getBoundingClientRect();
+                var y = e.clientY - rect.top;
+                var idx = Math.floor(y / rect.height * confRailTerms.length);
+                if (idx < 0) idx = 0;
+                if (idx >= confRailTerms.length) idx = confRailTerms.length - 1;
+                var ct = confRailTerms[idx];
+                tooltipEl.textContent = ct.name + ' (' + ct.conf + '% confidence)';
+                tooltipEl.style.top = (e.clientY - railsContainer.getBoundingClientRect().top - 12) + 'px';
+                tooltipEl.classList.add('visible');
+            });
+
+            crStackEl.addEventListener('mouseleave', function() {
+                tooltipEl.classList.remove('visible');
+            });
+
+            // Click
+            crStackEl.addEventListener('click', function(e) {
+                var rect = crStackEl.getBoundingClientRect();
+                var y = e.clientY - rect.top;
+                var idx = Math.floor(y / rect.height * confRailTerms.length);
+                if (idx < 0) idx = 0;
+                if (idx >= confRailTerms.length) idx = confRailTerms.length - 1;
+                var slug = confRailTerms[idx].slug;
+                termSelect.value = slug;
+                loadTermExplorer(slug);
+            });
+
+            // Arrow buttons
+            crUp.addEventListener('click', function() {
+                var curSlug = termSelect.value;
+                var curIdx = findConfRailIdx(curSlug);
+                if (curIdx > 0) {
+                    var slug = confRailTerms[curIdx - 1].slug;
+                    termSelect.value = slug;
+                    loadTermExplorer(slug);
+                }
+            });
+
+            crDown.addEventListener('click', function() {
+                var curSlug = termSelect.value;
+                var curIdx = findConfRailIdx(curSlug);
+                if (curIdx >= 0 && curIdx < confRailTerms.length - 1) {
+                    var slug = confRailTerms[curIdx + 1].slug;
+                    termSelect.value = slug;
+                    loadTermExplorer(slug);
+                }
+            });
         }
     })();
 
