@@ -2650,10 +2650,11 @@
             var raw = (breadth * 0.25 + depth * 0.25 + reliability * 0.25 + agreementScore * 0.25) * 100;
             var score = Math.round(raw);
 
-            var breakdown = 'Panel breadth: ' + Math.round(breadth * 100) + '% (' + nModels + '/' + totalPanel + ' models)'
-                + ' | Rating depth: ' + Math.round(depth * 100) + '% (' + nTotal + ' ratings)'
-                + ' | Rater reliability: ' + Math.round(reliability * 100) + '%'
-                + ' | Agreement: ' + Math.round(agreementScore * 100) + '%';
+            var breakdown = 'Confidence that this is a consistent, universally recognized phenomenon across models. '
+                + 'Computed from: Panel breadth ' + Math.round(breadth * 100) + '% (' + nModels + '/' + totalPanel + ' models rated) '
+                + '| Rating depth ' + Math.round(depth * 100) + '% (' + nTotal + ' total ratings) '
+                + '| Rater reliability ' + Math.round(reliability * 100) + '% (how consistent the rating models are across all terms) '
+                + '| Cross-model agreement ' + Math.round(agreementScore * 100) + '% (how closely models agree on this term)';
 
             return { score: score, breakdown: breakdown };
         }
@@ -2683,7 +2684,13 @@
             var nModels = consensus.scheduled ? consensus.scheduled.n_models : Object.keys(consensus.model_opinions || {}).length;
 
             if (mean !== null) h += '<span class="stat-pill">Mean: <strong>' + Number(mean).toFixed(1) + '</strong>/7</span>';
-            if (agreement) h += '<span class="stat-pill">Agreement: <strong>' + escHtml(agreement) + '</strong></span>';
+            if (agreement) {
+                var agrColors = { high: '#22c55e', moderate: '#f59e0b', low: '#f97316', divergent: '#ec4899' };
+                var agrBgs = { high: 'rgba(34,197,94,0.15)', moderate: 'rgba(245,158,11,0.15)', low: 'rgba(249,115,22,0.15)', divergent: 'rgba(236,72,153,0.15)' };
+                var ac = agrColors[agreement] || 'var(--text-secondary)';
+                var ab = agrBgs[agreement] || 'var(--bg-tertiary)';
+                h += '<span class="stat-pill" style="background:' + ab + ';color:' + ac + '">Agreement: <strong>' + escHtml(agreement) + '</strong></span>';
+            }
             if (stdDev !== null) h += '<span class="stat-pill">Std dev: <strong>' + Number(stdDev).toFixed(2) + '</strong></span>';
 
             // Confidence indicator
