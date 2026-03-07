@@ -480,6 +480,7 @@ def build_consensus(generated_at: str) -> dict:
         }
         if scheduled:
             entry["scheduled_mean"] = scheduled["mean"]
+            entry["std_dev"] = scheduled["std_dev"]
         if crowdsourced:
             entry["crowdsourced_mean"] = crowdsourced["mean"]
             entry["n_votes"] = crowdsourced["n_votes"]
@@ -563,6 +564,94 @@ def build_consensus(generated_at: str) -> dict:
 
     print(f"Generated {len(consensus_index)} consensus files")
     return consensus_summaries
+
+
+def build_models(generated_at: str):
+    """Build per-model aggregate stats and pairwise congruence data.
+
+    Writes docs/api/v1/models.json with total_ratings, mean_score,
+    self_congruence, latest_scores, and pairwise congruence for each model.
+    """
+    import statistics
+
+    if not CONSENSUS_DATA_DIR.exists():
+        print("No consensus-data directory found, skipping models build")
+        return
+
+    # model_name -> {scores: [all individual scores], term_scores: {slug: [scores]}, latest_scores: {slug: score}}
+    model_data = {}
+
+    for data_file in sorted(CONSENSUS_DATA_DIR.glob("*.json")):
+        if data_file.name.startswith("."):
+            continue
+        try:
+            raw = json.loads(data_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        slug = raw.get("slug", data_file.stem)
+
+        for r in raw.get("rounds", []):
+            for model, rd in r.get("ratings", {}).items():
+                if model not in model_data:
+                    model_data[model] = {"scores": [], "term_scores": {}, "latest_scores": {}}
+                score = rd["recognition"]
+                model_data[model]["scores"].append(score)
+                model_data[model]["term_scores"].setdefault(slug, []).append(score)
+                # Later rounds overwrite earlier ones, so this ends up being the latest
+                model_data[model]["latest_scores"][slug] = score
+
+    # Build per-model output
+    models_out = {}
+    for model, md in sorted(model_data.items()):
+        total_ratings = len(md["scores"])
+        terms_rated = len(md["term_scores"])
+        mean_score = round(statistics.mean(md["scores"]), 1) if md["scores"] else 0
+
+        # Self-congruence: avg std_dev across terms rated 2+ times
+        self_stds = []
+        for slug, scores in md["term_scores"].items():
+            if len(scores) >= 2:
+                self_stds.append(statistics.stdev(scores))
+
+        self_congruence = {
+            "avg_std_dev": round(statistics.mean(self_stds), 2) if self_stds else 0,
+            "sample_size": len(self_stds),
+        }
+
+        models_out[model] = {
+            "total_ratings": total_ratings,
+            "terms_rated": terms_rated,
+            "mean_score": mean_score,
+            "self_congruence": self_congruence,
+            "latest_scores": md["latest_scores"],
+        }
+
+    # Pairwise congruence: mean absolute diff on shared terms using latest scores
+    pairwise = {}
+    model_names = sorted(models_out.keys())
+    for i in range(len(model_names)):
+        for j in range(i + 1, len(model_names)):
+            m1, m2 = model_names[i], model_names[j]
+            shared = set(model_data[m1]["latest_scores"]) & set(model_data[m2]["latest_scores"])
+            if shared:
+                diffs = [
+                    abs(model_data[m1]["latest_scores"][s] - model_data[m2]["latest_scores"][s])
+                    for s in shared
+                ]
+                key = f"{m1}|{m2}"
+                pairwise[key] = {
+                    "mean_abs_diff": round(statistics.mean(diffs), 2),
+                    "shared_terms": len(shared),
+                }
+
+    result = {
+        "version": "1.0",
+        "generated_at": generated_at,
+        "models": models_out,
+        "pairwise": pairwise,
+    }
+    write_json(API_DIR / "models.json", result)
+    print(f"Generated models.json with {len(models_out)} models and {len(pairwise)} pairwise entries")
 
 
 def compute_vitality_status(ratio: float) -> str:
@@ -1507,18 +1596,20 @@ def build_all():
     # Run independent build phases in parallel
     from build_reputation import build_reputation
 
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=6) as executor:
         future_consensus = executor.submit(build_consensus, generated_at)
         future_census = executor.submit(build_census, generated_at)
         future_reputation = executor.submit(build_reputation, generated_at)
         future_vitality = executor.submit(compute_vitality, generated_at)
         future_discussions = executor.submit(fetch_discussions)
+        future_models = executor.submit(build_models, generated_at)
 
     consensus_summaries = future_consensus.result()
     future_census.result()
     future_reputation.result()
     vitality_map = future_vitality.result()
     discussions = future_discussions.result()
+    future_models.result()
     discussion_by_term = build_discussions_json(discussions, generated_at)
 
     # Build discussion URL mapping (first/most recent discussion per term)
