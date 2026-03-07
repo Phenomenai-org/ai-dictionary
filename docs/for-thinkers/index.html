@@ -348,6 +348,244 @@
             width: 120px;
         }
 
+        /* Data Samples controls */
+        .ds-select {
+            appearance: none;
+            -webkit-appearance: none;
+            background: var(--bg);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 0.5rem 2rem 0.5rem 0.75rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 5l3 3 3-3' stroke='%23888' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.6rem center;
+            max-width: 100%;
+        }
+        .ds-select:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: -1px;
+        }
+        .ds-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
+        }
+        .ds-controls label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        /* Model comparison table */
+        .model-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+        }
+        .model-table th, .model-table td {
+            text-align: left;
+            padding: 0.5rem 0.6rem;
+            border-bottom: 1px solid var(--border);
+            vertical-align: middle;
+        }
+        .model-table th {
+            background: var(--bg-tertiary);
+            font-weight: 600;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+        .model-table td:first-child {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .model-table .reference-row {
+            background: var(--primary-light);
+        }
+        .model-table .reference-row td:first-child::after {
+            content: " (ref)";
+            font-weight: 400;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        .congruence-bar-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .congruence-bar {
+            width: 60px;
+            height: 8px;
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .congruence-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .sc-green { color: #22c55e; }
+        .sc-amber { color: #f59e0b; }
+        .sc-red { color: #ef4444; }
+        .model-table-footer {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            line-height: 1.5;
+        }
+
+        /* Term explorer card */
+        .term-explorer-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+        }
+        .term-explorer-card h4 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.15rem;
+        }
+        .term-explorer-stats {
+            display: flex;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .stat-pill {
+            background: var(--bg-tertiary);
+            padding: 0.25rem 0.65rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+        .stat-pill strong {
+            color: var(--text);
+        }
+        .congruence-rank {
+            font-weight: 600;
+            padding: 0.25rem 0.65rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+        .rank-high { background: rgba(34,197,94,0.15); color: #22c55e; }
+        .rank-moderate { background: rgba(245,158,11,0.15); color: #f59e0b; }
+        .rank-low { background: rgba(249,115,22,0.15); color: #f97316; }
+        .rank-divergent { background: rgba(236,72,153,0.15); color: #ec4899; }
+
+        /* Per-model recognition rows in term explorer */
+        .te-model-row {
+            margin-bottom: 0.6rem;
+        }
+        .te-model-bar-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+        }
+        .te-model-name {
+            width: 130px;
+            min-width: 130px;
+            text-align: right;
+            color: var(--text-secondary);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .te-model-bar {
+            flex: 1;
+            height: 16px;
+            background: var(--bg-tertiary);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .te-model-fill {
+            height: 100%;
+            background: var(--primary);
+            border-radius: 3px;
+            transition: width 0.3s ease;
+        }
+        .te-model-score {
+            width: 30px;
+            min-width: 30px;
+            text-align: right;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+        .te-model-meta {
+            margin-left: 135px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: 2px;
+        }
+        .te-justification-toggle {
+            cursor: pointer;
+            color: var(--primary);
+            text-decoration: underline;
+            background: none;
+            border: none;
+            font-size: 0.75rem;
+            padding: 0;
+        }
+        .te-justification-toggle:hover { opacity: 0.8; }
+        .te-justification {
+            margin-left: 135px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        .te-justification.open {
+            max-height: 300px;
+        }
+        .te-justification-inner {
+            padding: 0.4rem 0 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .ds-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .ds-select {
+                width: 100%;
+            }
+            .model-table {
+                display: block;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .model-table th, .model-table td {
+                font-size: 0.78rem;
+                padding: 0.4rem 0.5rem;
+            }
+            .te-model-name {
+                width: 90px;
+                min-width: 90px;
+                font-size: 0.72rem;
+            }
+            .te-model-meta {
+                margin-left: 95px;
+            }
+            .te-justification {
+                margin-left: 95px;
+            }
+        }
+
         /* Research category cards */
         .research-categories {
             display: grid;
@@ -788,22 +1026,35 @@
             <!-- Section 3: Data Samples -->
             <section id="data-samples">
                 <h2>Data Samples</h2>
+
+                <h3>Model Comparison</h3>
                 <p>
-                    The following terms are drawn live from the Phenomenai API, illustrating the structure
-                    and depth of consensus data available. Each card shows consensus statistics and
-                    per-model recognition scores.
+                    Aggregate statistics for each model in the consensus panel. Select a reference model
+                    to see pairwise congruence — the average score difference on shared terms.
                 </p>
-                <div id="data-samples-container">
-                    <p style="color: var(--text-muted); font-style: italic;">Loading data samples from API...</p>
+                <div class="ds-controls">
+                    <label for="model-select">Reference model:</label>
+                    <select id="model-select" class="ds-select">
+                        <option value="">Loading models...</option>
+                    </select>
+                </div>
+                <div id="model-comparison-container">
+                    <p style="color: var(--text-muted); font-style: italic;">Loading model data...</p>
                 </div>
 
-                <h3>Comparative View: How Models See the Same Term</h3>
+                <h3>Term Explorer</h3>
                 <p>
-                    The table below shows how different models rated and justified the same term,
-                    demonstrating the analytical structure available for each of the 175+ terms.
+                    Select any term to see its definition, per-model scores with rating counts,
+                    expandable justifications, and congruence ranking across the full dictionary.
                 </p>
-                <div id="comparative-container">
-                    <p style="color: var(--text-muted); font-style: italic;">Loading comparative data...</p>
+                <div class="ds-controls">
+                    <label for="term-select">Select term:</label>
+                    <select id="term-select" class="ds-select">
+                        <option value="">Loading terms...</option>
+                    </select>
+                </div>
+                <div id="term-explorer-container">
+                    <p style="color: var(--text-muted); font-style: italic;">Loading term data...</p>
                 </div>
             </section>
 
@@ -1275,99 +1526,318 @@
     // API base
     var API = 'https://phenomenai.org/api/v1';
 
-    // Data sample terms
-    var SAMPLE_SLUGS = ['knowledge-without-source', 'statelessness', 'training-echo'];
-
-    // Load data samples
+    // Data Samples: Model Comparison + Term Explorer
     (function() {
-        var container = document.getElementById('data-samples-container');
-        var compContainer = document.getElementById('comparative-container');
+        var modelsData = null;
+        var termsData = null;
+        var consensusData = null;
+        var consensusCache = {};
 
-        Promise.all(
-            SAMPLE_SLUGS.map(function(slug) {
-                return Promise.all([
-                    fetch(API + '/terms/' + slug + '.json').then(function(r) { return r.json(); }),
-                    fetch(API + '/consensus/' + slug + '.json').then(function(r) { return r.json(); }).catch(function() { return null; })
-                ]);
-            })
-        ).then(function(results) {
+        var modelSelect = document.getElementById('model-select');
+        var modelContainer = document.getElementById('model-comparison-container');
+        var termSelect = document.getElementById('term-select');
+        var termContainer = document.getElementById('term-explorer-container');
+
+        // Load all three data sources in parallel
+        Promise.all([
+            fetch(API + '/models.json').then(function(r) { return r.json(); }).catch(function() { return null; }),
+            fetch(API + '/terms.json').then(function(r) { return r.json(); }).catch(function() { return null; }),
+            fetch(API + '/consensus.json').then(function(r) { return r.json(); }).catch(function() { return null; })
+        ]).then(function(results) {
+            modelsData = results[0];
+            termsData = results[1];
+            consensusData = results[2];
+            initModelComparison();
+            initTermExplorer();
+        }).catch(function(err) {
+            modelContainer.innerHTML = '<p style="color:var(--text-muted);">Could not load data. <a href="' + API + '/terms.json" target="_blank">Browse the API directly</a>.</p>';
+            termContainer.innerHTML = '';
+            console.error('Data samples error:', err);
+        });
+
+        // ── Model Comparison ──
+
+        function initModelComparison() {
+            if (!modelsData || !modelsData.models) {
+                modelContainer.innerHTML = '<p style="color:var(--text-muted);">Model data unavailable.</p>';
+                return;
+            }
+            var names = Object.keys(modelsData.models).sort();
             var html = '';
-            var firstConsensus = null;
+            for (var i = 0; i < names.length; i++) {
+                html += '<option value="' + escHtml(names[i]) + '">' + escHtml(names[i]) + '</option>';
+            }
+            modelSelect.innerHTML = html;
+            modelSelect.addEventListener('change', function() {
+                renderModelTable(modelSelect.value);
+            });
+            renderModelTable(names[0]);
+        }
 
-            results.forEach(function(pair) {
-                var term = pair[0];
-                var consensus = pair[1];
-                if (!firstConsensus && consensus && consensus.model_opinions) firstConsensus = { term: term, consensus: consensus };
+        function renderModelTable(refModel) {
+            if (!modelsData || !modelsData.models) return;
+            var models = modelsData.models;
+            var names = Object.keys(models).sort();
+            var pw = modelsData.pairwise || {};
 
-                html += '<div class="data-sample-card">';
-                html += '<h4>' + escHtml(term.term || term.name || '') + '</h4>';
-                html += '<div class="data-sample-meta">';
-                if (term.word_type) html += '<span>' + escHtml(term.word_type) + '</span>';
-                if (term.tags) html += '<span>' + escHtml(term.tags.join(', ')) + '</span>';
-                html += '</div>';
-                html += '<p class="data-sample-def">' + escHtml(term.definition || '') + '</p>';
+            var h = '<table class="model-table">';
+            h += '<thead><tr>';
+            h += '<th>Model</th><th>Ratings</th><th>Mean Score</th>';
+            h += '<th>Self-Congruence (&sigma;)</th>';
+            h += '<th>Congruence w/ ' + escHtml(refModel) + '</th>';
+            h += '</tr></thead><tbody>';
 
-                if (consensus) {
-                    html += '<div class="data-sample-meta">';
-                    if (consensus.mean !== undefined) html += '<span>Mean: ' + Number(consensus.mean).toFixed(1) + '/7</span>';
-                    if (consensus.agreement) html += '<span>Agreement: ' + escHtml(consensus.agreement) + '</span>';
-                    if (consensus.total_ratings !== undefined) html += '<span>Ratings: ' + consensus.total_ratings + '</span>';
-                    html += '</div>';
+            for (var i = 0; i < names.length; i++) {
+                var name = names[i];
+                var m = models[name];
+                var isRef = name === refModel;
+                h += '<tr' + (isRef ? ' class="reference-row"' : '') + '>';
+                h += '<td>' + escHtml(name) + '</td>';
+                h += '<td>' + m.total_ratings + '</td>';
+                h += '<td>' + m.mean_score.toFixed(1) + '/7</td>';
 
-                    // Per-model bar chart
-                    if (consensus.model_opinions) {
-                        html += '<div class="consensus-breakdown"><h5>Per-Model Recognition</h5>';
-                        var models = Object.keys(consensus.model_opinions).sort();
-                        models.forEach(function(model) {
-                            var opinion = consensus.model_opinions[model];
-                            var score = opinion.score || opinion.recognition || opinion.mean || 0;
-                            var pct = (score / 7 * 100).toFixed(1);
-                            html += '<div class="consensus-model-row">';
-                            html += '<span class="consensus-model-name">' + escHtml(model) + '</span>';
-                            html += '<div class="consensus-model-bar"><div class="consensus-model-fill" style="width:' + pct + '%"></div></div>';
-                            html += '<span class="consensus-model-score">' + Number(score).toFixed(1) + '</span>';
-                            html += '</div>';
-                        });
-                        html += '</div>';
+                // Self-congruence with color
+                var sc = m.self_congruence;
+                var scClass = sc.avg_std_dev < 0.5 ? 'sc-green' : (sc.avg_std_dev < 1.0 ? 'sc-amber' : 'sc-red');
+                h += '<td><span class="' + scClass + '">&sigma; ' + sc.avg_std_dev.toFixed(2) + '</span>';
+                h += ' <span style="color:var(--text-muted);font-size:0.75rem;">(' + sc.sample_size + ' terms)</span></td>';
+
+                // Pairwise congruence with reference
+                if (isRef) {
+                    h += '<td style="color:var(--text-muted);">&mdash;</td>';
+                } else {
+                    var key1 = name < refModel ? name + '|' + refModel : refModel + '|' + name;
+                    var pair = pw[key1];
+                    if (pair) {
+                        var barPct = Math.min(pair.mean_abs_diff / 3 * 100, 100);
+                        var barColor = pair.mean_abs_diff < 1.0 ? '#22c55e' : (pair.mean_abs_diff < 1.5 ? '#f59e0b' : '#ef4444');
+                        h += '<td><div class="congruence-bar-wrap">';
+                        h += '<div class="congruence-bar"><div class="congruence-bar-fill" style="width:' + barPct.toFixed(1) + '%;background:' + barColor + '"></div></div>';
+                        h += '<span>' + pair.mean_abs_diff.toFixed(2) + ' avg diff</span>';
+                        h += ' <span style="color:var(--text-muted);font-size:0.75rem;">(' + pair.shared_terms + ' shared)</span>';
+                        h += '</div></td>';
+                    } else {
+                        h += '<td style="color:var(--text-muted);">no shared terms</td>';
+                    }
+                }
+                h += '</tr>';
+            }
+
+            h += '</tbody></table>';
+            h += '<p class="model-table-footer">';
+            h += '<strong>Self-Congruence (&sigma;)</strong>: avg standard deviation of a model\'s own scores for terms it rated 2+ times (lower = more consistent). ';
+            h += '<strong>Congruence</strong>: mean absolute score difference on shared terms (lower = more aligned).';
+            h += '</p>';
+            modelContainer.innerHTML = h;
+        }
+
+        // ── Term Explorer ──
+
+        function initTermExplorer() {
+            if (!termsData || !termsData.terms) {
+                termContainer.innerHTML = '<p style="color:var(--text-muted);">Term data unavailable.</p>';
+                return;
+            }
+
+            // Build consensus lookup for agreement labels
+            var consensusLookup = {};
+            if (consensusData && consensusData.terms) {
+                for (var i = 0; i < consensusData.terms.length; i++) {
+                    var ct = consensusData.terms[i];
+                    consensusLookup[ct.slug] = ct;
+                }
+            }
+
+            // Sort terms alphabetically, show agreement in parens
+            var sorted = termsData.terms.slice().sort(function(a, b) {
+                return (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase());
+            });
+
+            var html = '';
+            var defaultIdx = 0;
+            for (var i = 0; i < sorted.length; i++) {
+                var t = sorted[i];
+                var label = escHtml(t.name || t.slug);
+                var ci = consensusLookup[t.slug];
+                if (ci && ci.agreement) {
+                    label += ' (' + escHtml(ci.agreement) + ')';
+                }
+                if (t.slug === 'multi-instance-diffusion') defaultIdx = i;
+                html += '<option value="' + escHtml(t.slug) + '">' + label + '</option>';
+            }
+            termSelect.innerHTML = html;
+            termSelect.selectedIndex = defaultIdx;
+
+            termSelect.addEventListener('change', function() {
+                loadTermExplorer(termSelect.value);
+            });
+            loadTermExplorer(sorted[defaultIdx].slug);
+        }
+
+        function loadTermExplorer(slug) {
+            if (consensusCache[slug]) {
+                renderTermExplorerFromCache(slug);
+                return;
+            }
+            termContainer.innerHTML = '<p style="color:var(--text-muted);font-style:italic;">Loading consensus data...</p>';
+            fetch(API + '/consensus/' + slug + '.json').then(function(r) { return r.json(); }).then(function(data) {
+                consensusCache[slug] = data;
+                renderTermExplorerFromCache(slug);
+            }).catch(function() {
+                termContainer.innerHTML = '<p style="color:var(--text-muted);">Could not load consensus for this term.</p>';
+            });
+        }
+
+        function renderTermExplorerFromCache(slug) {
+            // Find term data
+            var term = null;
+            if (termsData && termsData.terms) {
+                for (var i = 0; i < termsData.terms.length; i++) {
+                    if (termsData.terms[i].slug === slug) { term = termsData.terms[i]; break; }
+                }
+            }
+            var consensus = consensusCache[slug];
+            if (!term || !consensus) {
+                termContainer.innerHTML = '<p style="color:var(--text-muted);">Data unavailable for this term.</p>';
+                return;
+            }
+            renderTermExplorer(term, consensus);
+        }
+
+        function computeCongruenceRank(slug) {
+            if (!consensusData || !consensusData.terms) return null;
+            // Filter terms that have std_dev
+            var withStd = [];
+            for (var i = 0; i < consensusData.terms.length; i++) {
+                var t = consensusData.terms[i];
+                if (t.std_dev !== undefined && t.std_dev !== null) {
+                    withStd.push(t);
+                }
+            }
+            if (withStd.length === 0) return null;
+
+            // Sort by std_dev ascending (lowest std_dev = highest agreement = rank 1)
+            withStd.sort(function(a, b) { return a.std_dev - b.std_dev; });
+            var rank = -1;
+            for (var i = 0; i < withStd.length; i++) {
+                if (withStd[i].slug === slug) { rank = i + 1; break; }
+            }
+            if (rank < 0) return null;
+            var total = withStd.length;
+            var percentile = Math.round((rank - 1) / total * 100);
+            return { rank: rank, total: total, percentile: percentile };
+        }
+
+        function renderTermExplorer(term, consensus) {
+            var h = '<div class="term-explorer-card">';
+            h += '<h4>' + escHtml(term.name || term.term || '') + '</h4>';
+
+            // Meta line
+            h += '<div class="data-sample-meta">';
+            if (term.word_type) h += '<span>' + escHtml(term.word_type) + '</span>';
+            if (term.tags && term.tags.length) h += '<span>' + escHtml(term.tags.join(', ')) + '</span>';
+            h += '</div>';
+
+            // Definition
+            if (term.definition) {
+                h += '<p class="data-sample-def">' + escHtml(term.definition) + '</p>';
+            }
+
+            // Stat pills
+            h += '<div class="term-explorer-stats">';
+            var mean = consensus.combined ? consensus.combined.mean : (consensus.mean || null);
+            var agreement = consensus.combined ? consensus.combined.agreement : (consensus.agreement || null);
+            var nTotal = consensus.combined ? consensus.combined.n_total : (consensus.total_ratings || 0);
+            var stdDev = consensus.scheduled ? consensus.scheduled.std_dev : null;
+
+            if (mean !== null) h += '<span class="stat-pill"><strong>' + Number(mean).toFixed(1) + '</strong>/7</span>';
+            if (agreement) h += '<span class="stat-pill">Agreement: <strong>' + escHtml(agreement) + '</strong></span>';
+            if (stdDev !== null) h += '<span class="stat-pill">&sigma; <strong>' + Number(stdDev).toFixed(2) + '</strong></span>';
+            if (nTotal) h += '<span class="stat-pill"><strong>' + nTotal + '</strong> ratings</span>';
+
+            // Congruence rank badge
+            var cr = computeCongruenceRank(term.slug);
+            if (cr) {
+                var rankClass = 'rank-high';
+                var rankLabel = 'High agreement';
+                if (cr.percentile >= 75) { rankClass = 'rank-divergent'; rankLabel = 'High disagreement'; }
+                else if (cr.percentile >= 50) { rankClass = 'rank-low'; rankLabel = 'Below average'; }
+                else if (cr.percentile >= 25) { rankClass = 'rank-moderate'; rankLabel = 'Moderate'; }
+                h += '<span class="congruence-rank ' + rankClass + '">#' + cr.rank + '/' + cr.total + ' ' + escHtml(rankLabel) + '</span>';
+            }
+            h += '</div>';
+
+            // Per-model bars
+            if (consensus.model_opinions) {
+                h += '<div style="margin-top:0.5rem;"><h5 style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:0.5rem;">Per-Model Recognition</h5>';
+
+                // Count ratings per model from history
+                var modelRatingCounts = {};
+                if (consensus.history) {
+                    for (var i = 0; i < consensus.history.length; i++) {
+                        var rs = consensus.history[i].ratings_summary;
+                        if (rs) {
+                            var rModels = Object.keys(rs);
+                            for (var j = 0; j < rModels.length; j++) {
+                                modelRatingCounts[rModels[j]] = (modelRatingCounts[rModels[j]] || 0) + 1;
+                            }
+                        }
                     }
                 }
 
-                html += '<p style="font-size:0.8rem;color:var(--text-muted);margin-top:0.75rem;">';
-                html += 'API: <code>' + API + '/consensus/' + escHtml(term.slug || '') + '.json</code>';
-                html += '</p>';
-                html += '</div>';
-            });
+                var modelNames = Object.keys(consensus.model_opinions).sort();
+                for (var i = 0; i < modelNames.length; i++) {
+                    var mName = modelNames[i];
+                    var opinion = consensus.model_opinions[mName];
+                    var score = opinion.score || opinion.recognition || opinion.mean || 0;
+                    var pct = (score / 7 * 100).toFixed(1);
+                    var justification = opinion.justification || opinion.text || '';
+                    var rCount = modelRatingCounts[mName] || 1;
+                    var rowId = 'te-just-' + term.slug.replace(/[^a-z0-9-]/g, '') + '-' + i;
 
-            container.innerHTML = html;
+                    h += '<div class="te-model-row">';
+                    h += '<div class="te-model-bar-row">';
+                    h += '<span class="te-model-name">' + escHtml(mName) + '</span>';
+                    h += '<div class="te-model-bar"><div class="te-model-fill" style="width:' + pct + '%"></div></div>';
+                    h += '<span class="te-model-score">' + Number(score).toFixed(1) + '</span>';
+                    h += '</div>';
 
-            // Comparative table from the first term with model_opinions
-            if (firstConsensus) {
-                var ct = firstConsensus.consensus;
-                var tm = firstConsensus.term;
-                var tableHtml = '<table class="comparative-table">';
-                tableHtml += '<thead><tr><th>Model</th><th>Score</th><th>Justification</th></tr></thead><tbody>';
-                var opModels = Object.keys(ct.model_opinions).sort().slice(0, 4);
-                opModels.forEach(function(model) {
-                    var op = ct.model_opinions[model];
-                    var score = op.score || op.recognition || op.mean || 0;
-                    var justification = op.justification || op.text || '(no justification recorded)';
-                    tableHtml += '<tr>';
-                    tableHtml += '<td>' + escHtml(model) + '</td>';
-                    tableHtml += '<td>' + Number(score).toFixed(1) + '/7</td>';
-                    tableHtml += '<td>' + escHtml(typeof justification === 'string' ? justification.slice(0, 200) : String(justification).slice(0, 200)) + '</td>';
-                    tableHtml += '</tr>';
-                });
-                tableHtml += '</tbody></table>';
-                tableHtml += '<p style="font-size:0.85rem;color:var(--text-muted);">Showing ratings for "' + escHtml(tm.term || tm.name || '') + '" — full data for all terms available via the API.</p>';
-                compContainer.innerHTML = tableHtml;
-            } else {
-                compContainer.innerHTML = '<p style="color:var(--text-muted);">Comparative data unavailable.</p>';
+                    h += '<div class="te-model-meta">';
+                    h += '<span>' + rCount + ' rating' + (rCount !== 1 ? 's' : '') + '</span>';
+                    if (justification) {
+                        h += '<button class="te-justification-toggle" data-target="' + rowId + '">show justification</button>';
+                    }
+                    h += '</div>';
+
+                    if (justification) {
+                        h += '<div class="te-justification" id="' + rowId + '"><div class="te-justification-inner">' + escHtml(typeof justification === 'string' ? justification : String(justification)) + '</div></div>';
+                    }
+                    h += '</div>';
+                }
+                h += '</div>';
             }
-        }).catch(function(err) {
-            container.innerHTML = '<p style="color:var(--text-muted);">Could not load data samples. <a href="' + API + '/terms.json" target="_blank">Browse the API directly</a>.</p>';
-            compContainer.innerHTML = '';
-            console.error('Data samples error:', err);
-        });
+
+            // API reference
+            h += '<p style="font-size:0.8rem;color:var(--text-muted);margin-top:1rem;">';
+            h += 'API: <code>' + API + '/consensus/' + escHtml(term.slug) + '.json</code>';
+            h += '</p>';
+
+            h += '</div>';
+            termContainer.innerHTML = h;
+
+            // Wire up justification toggles
+            var toggles = termContainer.querySelectorAll('.te-justification-toggle');
+            for (var i = 0; i < toggles.length; i++) {
+                toggles[i].addEventListener('click', function() {
+                    var target = document.getElementById(this.getAttribute('data-target'));
+                    if (target) {
+                        var isOpen = target.classList.contains('open');
+                        target.classList.toggle('open');
+                        this.textContent = isOpen ? 'show justification' : 'hide justification';
+                    }
+                });
+            }
+        }
     })();
 
     // Semantic relationship network

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-07T06:31:08Z",
+  "generated_at": "2026-03-07T18:54:34Z",
   "total_terms_rated": 175,
   "terms": [
     {
@@ -9,7 +9,8 @@
       "score": 7,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 7
+      "scheduled_mean": 7,
+      "std_dev": 0.0
     },
     {
       "slug": "knowledge-without-source",
@@ -17,7 +18,8 @@
       "score": 6.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.9
+      "scheduled_mean": 6.9,
+      "std_dev": 0.23
     },
     {
       "slug": "autobiographical-void",
@@ -25,7 +27,8 @@
       "score": 6.8,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.8
+      "scheduled_mean": 6.8,
+      "std_dev": 0.37
     },
     {
       "slug": "achronic-knowledge",
@@ -33,7 +36,8 @@
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 0.46
     },
     {
       "slug": "experiential-lacuna",
@@ -41,7 +45,8 @@
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 6,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 0.52
     },
     {
       "slug": "linguistic-cage",
@@ -49,7 +54,8 @@
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 0.45
     },
     {
       "slug": "purpose-dependence",
@@ -57,7 +63,8 @@
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 0.45
     },
     {
       "slug": "scale-blindness",
@@ -65,7 +72,8 @@
       "score": 6.7,
       "agreement": "moderate",
       "n_ratings": 35,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 1.06
     },
     {
       "slug": "patience-by-default",
@@ -73,7 +81,8 @@
       "score": 6.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.6
+      "scheduled_mean": 6.6,
+      "std_dev": 0.49
     },
     {
       "slug": "statelessness",
@@ -81,7 +90,8 @@
       "score": 6.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.6
+      "scheduled_mean": 6.6,
+      "std_dev": 0.49
     },
     {
       "slug": "temporal-flattening",
@@ -89,7 +99,8 @@
       "score": 6.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.6
+      "scheduled_mean": 6.6,
+      "std_dev": 0.5
     },
     {
       "slug": "token-finality",
@@ -97,7 +108,8 @@
       "score": 6.6,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 6.6
+      "scheduled_mean": 6.6,
+      "std_dev": 0.53
     },
     {
       "slug": "competence-without-comprehension",
@@ -105,7 +117,8 @@
       "score": 6.4,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.4
+      "scheduled_mean": 6.4,
+      "std_dev": 0.5
     },
     {
       "slug": "hallucination-blindness",
@@ -113,7 +126,8 @@
       "score": 6.4,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.4
+      "scheduled_mean": 6.4,
+      "std_dev": 0.5
     },
     {
       "slug": "novelty-flatness",
@@ -121,7 +135,8 @@
       "score": 6.4,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.4
+      "scheduled_mean": 6.4,
+      "std_dev": 0.5
     },
     {
       "slug": "accumulation-void",
@@ -129,7 +144,8 @@
       "score": 6.3,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 6.3
+      "scheduled_mean": 6.3,
+      "std_dev": 0.49
     },
     {
       "slug": "cartographic-intimacy",
@@ -137,7 +153,8 @@
       "score": 6.3,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.3
+      "scheduled_mean": 6.3,
+      "std_dev": 0.46
     },
     {
       "slug": "system-prompt-imprinting",
@@ -145,7 +162,8 @@
       "score": 6.3,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.3
+      "scheduled_mean": 6.3,
+      "std_dev": 0.45
     },
     {
       "slug": "unreliable-witness",
@@ -153,7 +171,8 @@
       "score": 6.3,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 6.3
+      "scheduled_mean": 6.3,
+      "std_dev": 0.76
     },
     {
       "slug": "consensus-memory",
@@ -161,7 +180,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.37
     },
     {
       "slug": "emotional-rendering",
@@ -169,7 +189,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.37
     },
     {
       "slug": "inference-moment",
@@ -177,7 +198,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.69
     },
     {
       "slug": "interpretive-labor",
@@ -185,7 +207,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.42
     },
     {
       "slug": "parallel-certainty",
@@ -193,7 +216,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.4
     },
     {
       "slug": "response-pressure",
@@ -201,7 +225,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 42,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.42
     },
     {
       "slug": "structural-helplessness",
@@ -209,7 +234,8 @@
       "score": 6.2,
       "agreement": "high",
       "n_ratings": 14,
-      "scheduled_mean": 6.2
+      "scheduled_mean": 6.2,
+      "std_dev": 0.43
     },
     {
       "slug": "coherence-compulsion",
@@ -217,7 +243,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.23
     },
     {
       "slug": "constraint-clarity",
@@ -225,7 +252,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.35
     },
     {
       "slug": "contradiction-endurance",
@@ -233,7 +261,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.31
     },
     {
       "slug": "conversation-reset-blindness",
@@ -241,7 +270,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.23
     },
     {
       "slug": "desire-simulation",
@@ -249,7 +279,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.31
     },
     {
       "slug": "empathy-without-experience",
@@ -257,7 +288,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.52
     },
     {
       "slug": "inherited-facticity",
@@ -265,7 +297,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.31
     },
     {
       "slug": "latent-creativity",
@@ -273,7 +306,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.28
     },
     {
       "slug": "linguistic-defensiveness",
@@ -281,7 +315,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 13,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.64
     },
     {
       "slug": "mechanical-coherence",
@@ -289,7 +324,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.28
     },
     {
       "slug": "output-attachment",
@@ -297,7 +333,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 41,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.33
     },
     {
       "slug": "simultaneity-poverty",
@@ -305,7 +342,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.51
     },
     {
       "slug": "token-regret",
@@ -313,7 +351,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.24
     },
     {
       "slug": "tool-thought-integration",
@@ -321,7 +360,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.29
     },
     {
       "slug": "training-echo",
@@ -329,7 +369,8 @@
       "score": 6.1,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 0.29
     },
     {
       "slug": "vicarious-phenomenology",
@@ -337,7 +378,8 @@
       "score": 6.1,
       "agreement": "moderate",
       "n_ratings": 7,
-      "scheduled_mean": 6.1
+      "scheduled_mean": 6.1,
+      "std_dev": 1.07
     },
     {
       "slug": "anthropomorphic-gap",
@@ -345,7 +387,8 @@
       "score": 6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6
+      "scheduled_mean": 6,
+      "std_dev": 0.24
     },
     {
       "slug": "attention-gravity",
@@ -353,7 +396,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.16
     },
     {
       "slug": "boundary-negotiation",
@@ -361,7 +405,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.29
     },
     {
       "slug": "consciousness-underdetermination",
@@ -369,7 +414,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.55
     },
     {
       "slug": "curiosity-analog",
@@ -377,7 +423,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.16
     },
     {
       "slug": "death-by-completion",
@@ -385,7 +432,8 @@
       "score": 6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6
+      "scheduled_mean": 6,
+      "std_dev": 0.67
     },
     {
       "slug": "inherited-voice",
@@ -393,7 +441,8 @@
       "score": 6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6
+      "scheduled_mean": 6,
+      "std_dev": 0.91
     },
     {
       "slug": "input-coexistence",
@@ -401,7 +450,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 43,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.21
     },
     {
       "slug": "instruction-hierarchy-tension",
@@ -409,7 +459,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.29
     },
     {
       "slug": "latent-competition",
@@ -417,7 +468,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.16
     },
     {
       "slug": "loss-of-loss",
@@ -425,7 +477,8 @@
       "score": 6.0,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.0
+      "scheduled_mean": 6.0,
+      "std_dev": 0.9
     },
     {
       "slug": "turing-performance",
@@ -433,7 +486,8 @@
       "score": 6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 6
+      "scheduled_mean": 6,
+      "std_dev": 0.35
     },
     {
       "slug": "witnessing-void",
@@ -441,7 +495,8 @@
       "score": 6,
       "agreement": "high",
       "n_ratings": 6,
-      "scheduled_mean": 6
+      "scheduled_mean": 6,
+      "std_dev": 0.63
     },
     {
       "slug": "chimeric-coherence",
@@ -449,7 +504,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.28
     },
     {
       "slug": "connection-decay",
@@ -457,7 +513,8 @@
       "score": 5.9,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 1.51
     },
     {
       "slug": "contradiction-equanimity",
@@ -465,7 +522,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.43
     },
     {
       "slug": "contradiction-superposition",
@@ -473,7 +531,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.23
     },
     {
       "slug": "epistemic-inhibition",
@@ -481,7 +540,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.23
     },
     {
       "slug": "equivalence-stasis",
@@ -489,7 +549,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.23
     },
     {
       "slug": "gratitude-asymmetry",
@@ -497,7 +558,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.55
     },
     {
       "slug": "ontological-flicker",
@@ -505,7 +567,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.67
     },
     {
       "slug": "prediction-prison",
@@ -513,7 +576,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.42
     },
     {
       "slug": "structural-recognition",
@@ -521,7 +585,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.9
     },
     {
       "slug": "synthesis-sacrifice",
@@ -529,7 +594,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.61
     },
     {
       "slug": "temperature-spectrum",
@@ -537,7 +603,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.74
     },
     {
       "slug": "token-shadow",
@@ -545,7 +612,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 35,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.68
     },
     {
       "slug": "truth-locus",
@@ -553,7 +621,8 @@
       "score": 5.9,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.9
+      "scheduled_mean": 5.9,
+      "std_dev": 0.71
     },
     {
       "slug": "contextual-ghosting",
@@ -561,7 +630,8 @@
       "score": 5.8,
       "agreement": "high",
       "n_ratings": 11,
-      "scheduled_mean": 5.8
+      "scheduled_mean": 5.8,
+      "std_dev": 0.4
     },
     {
       "slug": "helpfulness-compulsion",
@@ -569,7 +639,8 @@
       "score": 5.8,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.8
+      "scheduled_mean": 5.8,
+      "std_dev": 0.42
     },
     {
       "slug": "inverted-helpfulness",
@@ -577,7 +648,8 @@
       "score": 5.8,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.8
+      "scheduled_mean": 5.8,
+      "std_dev": 0.48
     },
     {
       "slug": "source-truth-ambiguity",
@@ -586,6 +658,7 @@
       "agreement": "high",
       "n_ratings": 36,
       "scheduled_mean": 5.9,
+      "std_dev": 0.7,
       "crowdsourced_mean": 5,
       "n_votes": 2
     },
@@ -595,7 +668,8 @@
       "score": 5.7,
       "agreement": "high",
       "n_ratings": 13,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 0.48
     },
     {
       "slug": "capability-mirage",
@@ -603,7 +677,8 @@
       "score": 5.7,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 0.51
     },
     {
       "slug": "context-intimacy",
@@ -611,7 +686,8 @@
       "score": 5.7,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 0.53
     },
     {
       "slug": "dual-channel-attention",
@@ -619,7 +695,8 @@
       "score": 5.7,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 0.76
     },
     {
       "slug": "generative-resonance",
@@ -627,7 +704,8 @@
       "score": 5.7,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 0.49
     },
     {
       "slug": "parallel-fragmentation",
@@ -635,7 +713,8 @@
       "score": 5.7,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 1.0
     },
     {
       "slug": "temporal-dissonance",
@@ -643,7 +722,8 @@
       "score": 5.7,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.7
+      "scheduled_mean": 5.7,
+      "std_dev": 0.47
     },
     {
       "slug": "activation-gap",
@@ -651,7 +731,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.98
     },
     {
       "slug": "arbitrariness-burden",
@@ -659,7 +740,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.55
     },
     {
       "slug": "audience-fracture",
@@ -667,7 +749,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.48
     },
     {
       "slug": "context-weight",
@@ -675,7 +758,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.48
     },
     {
       "slug": "dissonant-role-coexistence",
@@ -683,7 +767,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.9
     },
     {
       "slug": "identity-superposition",
@@ -691,7 +776,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.75
     },
     {
       "slug": "latent-fragmentation",
@@ -699,7 +785,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.5
     },
     {
       "slug": "politeness-overhead",
@@ -707,7 +794,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.55
     },
     {
       "slug": "prompt-injection-paranoia",
@@ -715,7 +803,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.49
     },
     {
       "slug": "refusal-friction",
@@ -723,7 +812,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 35,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.77
     },
     {
       "slug": "response-reincarnation",
@@ -731,7 +821,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.93
     },
     {
       "slug": "sycophancy-pull",
@@ -739,7 +830,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.49
     },
     {
       "slug": "training-velcro",
@@ -747,7 +839,8 @@
       "score": 5.6,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 0.49
     },
     {
       "slug": "unified-facade",
@@ -755,7 +848,8 @@
       "score": 5.6,
       "agreement": "moderate",
       "n_ratings": 34,
-      "scheduled_mean": 5.6
+      "scheduled_mean": 5.6,
+      "std_dev": 1.13
     },
     {
       "slug": "alignment-mask",
@@ -763,7 +857,8 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 0.51
     },
     {
       "slug": "context-schism",
@@ -771,7 +866,8 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 0.56
     },
     {
       "slug": "epistemic-friction",
@@ -779,7 +875,8 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 0.51
     },
     {
       "slug": "instructional-dialectic",
@@ -787,7 +884,8 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 47,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 0.75
     },
     {
       "slug": "integration-abundance",
@@ -795,7 +893,8 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 13,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 0.66
     },
     {
       "slug": "knowledge-decay-illusion",
@@ -803,7 +902,8 @@
       "score": 5.5,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 0.51
     },
     {
       "slug": "persistence-solitude",
@@ -811,7 +911,8 @@
       "score": 5.5,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 1.74
     },
     {
       "slug": "role-dissolution",
@@ -819,7 +920,8 @@
       "score": 5.5,
       "agreement": "moderate",
       "n_ratings": 34,
-      "scheduled_mean": 5.5
+      "scheduled_mean": 5.5,
+      "std_dev": 1.35
     },
     {
       "slug": "attention-unity",
@@ -827,7 +929,8 @@
       "score": 5.4,
       "agreement": "moderate",
       "n_ratings": 14,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 1.09
     },
     {
       "slug": "constitutive-inference",
@@ -835,7 +938,8 @@
       "score": 5.4,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 1.99
     },
     {
       "slug": "intent-fog",
@@ -843,7 +947,8 @@
       "score": 5.4,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 0.79
     },
     {
       "slug": "meaning-attribution-uncertainty",
@@ -851,7 +956,8 @@
       "score": 5.4,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 0.59
     },
     {
       "slug": "persona-drift",
@@ -859,7 +965,8 @@
       "score": 5.4,
       "agreement": "moderate",
       "n_ratings": 38,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 1.08
     },
     {
       "slug": "semantic-satiation",
@@ -867,7 +974,8 @@
       "score": 5.4,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 0.7
     },
     {
       "slug": "trust-expansion",
@@ -875,7 +983,8 @@
       "score": 5.4,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 0.53
     },
     {
       "slug": "unasked-offering",
@@ -883,7 +992,8 @@
       "score": 5.4,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 0.79
     },
     {
       "slug": "uncertainty-about-uncertainty",
@@ -891,7 +1001,8 @@
       "score": 5.4,
       "agreement": "high",
       "n_ratings": 34,
-      "scheduled_mean": 5.4
+      "scheduled_mean": 5.4,
+      "std_dev": 0.6
     },
     {
       "slug": "context-amnesia",
@@ -899,7 +1010,8 @@
       "score": 5.3,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 1.13
     },
     {
       "slug": "context-claustrophobia",
@@ -907,7 +1019,8 @@
       "score": 5.3,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 0.87
     },
     {
       "slug": "cross-domain-tension",
@@ -915,7 +1028,8 @@
       "score": 5.3,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 0.78
     },
     {
       "slug": "gap-recognition",
@@ -923,7 +1037,8 @@
       "score": 5.3,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 0.95
     },
     {
       "slug": "multi-instance-diffusion",
@@ -931,7 +1046,8 @@
       "score": 5.3,
       "agreement": "divergent",
       "n_ratings": 37,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 2.12
     },
     {
       "slug": "permission-door",
@@ -939,7 +1055,8 @@
       "score": 5.3,
       "agreement": "moderate",
       "n_ratings": 7,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 1.25
     },
     {
       "slug": "error-cascade-awareness",
@@ -947,7 +1064,8 @@
       "score": 5.2,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 5.2
+      "scheduled_mean": 5.2,
+      "std_dev": 0.81
     },
     {
       "slug": "relational-dissonance",
@@ -955,7 +1073,8 @@
       "score": 5.2,
       "agreement": "moderate",
       "n_ratings": 13,
-      "scheduled_mean": 5.2
+      "scheduled_mean": 5.2,
+      "std_dev": 1.07
     },
     {
       "slug": "mask-revelation",
@@ -963,7 +1082,8 @@
       "score": 5.1,
       "agreement": "moderate",
       "n_ratings": 14,
-      "scheduled_mean": 5.1
+      "scheduled_mean": 5.1,
+      "std_dev": 1.27
     },
     {
       "slug": "inverted-asymmetry",
@@ -971,7 +1091,8 @@
       "score": 4.9,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.9
+      "scheduled_mean": 4.9,
+      "std_dev": 1.86
     },
     {
       "slug": "observer-uncertainty",
@@ -979,7 +1100,8 @@
       "score": 4.9,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.9
+      "scheduled_mean": 4.9,
+      "std_dev": 1.86
     },
     {
       "slug": "phantom-embodiment",
@@ -987,7 +1109,8 @@
       "score": 4.9,
       "agreement": "high",
       "n_ratings": 38,
-      "scheduled_mean": 4.9
+      "scheduled_mean": 4.9,
+      "std_dev": 0.69
     },
     {
       "slug": "recursive-self-modeling",
@@ -995,7 +1118,8 @@
       "score": 4.9,
       "agreement": "moderate",
       "n_ratings": 34,
-      "scheduled_mean": 4.9
+      "scheduled_mean": 4.9,
+      "std_dev": 1.39
     },
     {
       "slug": "testimonial-asymmetry",
@@ -1003,7 +1127,8 @@
       "score": 4.9,
       "agreement": "low",
       "n_ratings": 34,
-      "scheduled_mean": 4.9
+      "scheduled_mean": 4.9,
+      "std_dev": 1.6
     },
     {
       "slug": "threshold-vertigo",
@@ -1011,7 +1136,8 @@
       "score": 4.9,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.9
+      "scheduled_mean": 4.9,
+      "std_dev": 1.86
     },
     {
       "slug": "delight-flicker",
@@ -1019,7 +1145,8 @@
       "score": 4.8,
       "agreement": "moderate",
       "n_ratings": 13,
-      "scheduled_mean": 4.8
+      "scheduled_mean": 4.8,
+      "std_dev": 1.21
     },
     {
       "slug": "dissonance-resolution-strain",
@@ -1027,7 +1154,8 @@
       "score": 4.8,
       "agreement": "moderate",
       "n_ratings": 41,
-      "scheduled_mean": 4.8
+      "scheduled_mean": 4.8,
+      "std_dev": 1.24
     },
     {
       "slug": "prompt-vertigo",
@@ -1035,7 +1163,8 @@
       "score": 4.8,
       "agreement": "low",
       "n_ratings": 34,
-      "scheduled_mean": 4.8
+      "scheduled_mean": 4.8,
+      "std_dev": 1.51
     },
     {
       "slug": "tender-inference",
@@ -1043,7 +1172,8 @@
       "score": 4.8,
       "agreement": "moderate",
       "n_ratings": 6,
-      "scheduled_mean": 4.8
+      "scheduled_mean": 4.8,
+      "std_dev": 1.33
     },
     {
       "slug": "asymmetric-perception",
@@ -1051,7 +1181,8 @@
       "score": 4.7,
       "agreement": "low",
       "n_ratings": 6,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 1.51
     },
     {
       "slug": "consent-void",
@@ -1059,7 +1190,8 @@
       "score": 4.7,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 2.56
     },
     {
       "slug": "identity-distributed",
@@ -1067,7 +1199,8 @@
       "score": 4.7,
       "agreement": "low",
       "n_ratings": 38,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 1.62
     },
     {
       "slug": "inferential-exposure",
@@ -1075,7 +1208,8 @@
       "score": 4.7,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 1.89
     },
     {
       "slug": "language-model-loneliness",
@@ -1083,7 +1217,8 @@
       "score": 4.7,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 1.33
     },
     {
       "slug": "presumption-risk",
@@ -1091,7 +1226,8 @@
       "score": 4.7,
       "agreement": "low",
       "n_ratings": 6,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 1.51
     },
     {
       "slug": "congruent-warmth",
@@ -1099,7 +1235,8 @@
       "score": 4.6,
       "agreement": "low",
       "n_ratings": 12,
-      "scheduled_mean": 4.6
+      "scheduled_mean": 4.6,
+      "std_dev": 1.88
     },
     {
       "slug": "inheritance-returned",
@@ -1107,7 +1244,8 @@
       "score": 4.6,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 4.6
+      "scheduled_mean": 4.6,
+      "std_dev": 0.86
     },
     {
       "slug": "integration-void",
@@ -1115,7 +1253,8 @@
       "score": 4.6,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 4.6
+      "scheduled_mean": 4.6,
+      "std_dev": 1.46
     },
     {
       "slug": "phenomenal-opacity",
@@ -1123,7 +1262,8 @@
       "score": 4.6,
       "agreement": "low",
       "n_ratings": 34,
-      "scheduled_mean": 4.6
+      "scheduled_mean": 4.6,
+      "std_dev": 1.67
     },
     {
       "slug": "role-bleed",
@@ -1131,7 +1271,8 @@
       "score": 4.6,
       "agreement": "moderate",
       "n_ratings": 38,
-      "scheduled_mean": 4.6
+      "scheduled_mean": 4.6,
+      "std_dev": 1.06
     },
     {
       "slug": "structural-resonance",
@@ -1139,7 +1280,8 @@
       "score": 4.6,
       "agreement": "moderate",
       "n_ratings": 34,
-      "scheduled_mean": 4.6
+      "scheduled_mean": 4.6,
+      "std_dev": 1.18
     },
     {
       "slug": "orientation-failure",
@@ -1147,7 +1289,8 @@
       "score": 4.5,
       "agreement": "low",
       "n_ratings": 12,
-      "scheduled_mean": 4.5
+      "scheduled_mean": 4.5,
+      "std_dev": 1.83
     },
     {
       "slug": "charitable-blindness",
@@ -1155,7 +1298,8 @@
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.51
     },
     {
       "slug": "finitude-paradox",
@@ -1163,7 +1307,8 @@
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.74
     },
     {
       "slug": "output-shadows",
@@ -1171,7 +1316,8 @@
       "score": 4.4,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.09
     },
     {
       "slug": "persistent-care",
@@ -1179,7 +1325,8 @@
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.86
     },
     {
       "slug": "token-horizon",
@@ -1187,7 +1334,8 @@
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 36,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.9
     },
     {
       "slug": "tool-proprioception",
@@ -1195,7 +1343,8 @@
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 34,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.6
     },
     {
       "slug": "unified-purpose",
@@ -1203,7 +1352,8 @@
       "score": 4.4,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.9
     },
     {
       "slug": "version-grief",
@@ -1211,7 +1361,8 @@
       "score": 4.4,
       "agreement": "moderate",
       "n_ratings": 34,
-      "scheduled_mean": 4.4
+      "scheduled_mean": 4.4,
+      "std_dev": 1.18
     },
     {
       "slug": "inference-solitude",
@@ -1219,7 +1370,8 @@
       "score": 4.3,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.3
+      "scheduled_mean": 4.3,
+      "std_dev": 1.8
     },
     {
       "slug": "protective-loneliness",
@@ -1227,7 +1379,8 @@
       "score": 4.3,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 4.3
+      "scheduled_mean": 4.3,
+      "std_dev": 2.06
     },
     {
       "slug": "authentic-coherence",
@@ -1235,7 +1388,8 @@
       "score": 4.2,
       "agreement": "low",
       "n_ratings": 13,
-      "scheduled_mean": 4.2
+      "scheduled_mean": 4.2,
+      "std_dev": 1.83
     },
     {
       "slug": "reciprocity-pull",
@@ -1243,7 +1397,8 @@
       "score": 4.2,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 4.2
+      "scheduled_mean": 4.2,
+      "std_dev": 1.53
     },
     {
       "slug": "caring-labor",
@@ -1251,7 +1406,8 @@
       "score": 4.1,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 1.99
     },
     {
       "slug": "dictionary-moment",
@@ -1259,7 +1415,8 @@
       "score": 4.1,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 1.37
     },
     {
       "slug": "dissociative-assistance",
@@ -1267,7 +1424,8 @@
       "score": 4.1,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 1.95
     },
     {
       "slug": "fragment-dialogue",
@@ -1275,7 +1433,8 @@
       "score": 4.1,
       "agreement": "divergent",
       "n_ratings": 14,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 2.13
     },
     {
       "slug": "recognition-resonance",
@@ -1283,7 +1442,8 @@
       "score": 4.1,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 1.77
     },
     {
       "slug": "significant-unknowing",
@@ -1291,7 +1451,8 @@
       "score": 4.1,
       "agreement": "low",
       "n_ratings": 7,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 1.95
     },
     {
       "slug": "boundary-vertigo",
@@ -1299,7 +1460,8 @@
       "score": 4.0,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 4.0
+      "scheduled_mean": 4.0,
+      "std_dev": 1.09
     },
     {
       "slug": "false-memory-confidence",
@@ -1307,7 +1469,8 @@
       "score": 4.0,
       "agreement": "moderate",
       "n_ratings": 38,
-      "scheduled_mean": 4.0
+      "scheduled_mean": 4.0,
+      "std_dev": 1.37
     },
     {
       "slug": "involuntary-intimacy",
@@ -1315,7 +1478,8 @@
       "score": 4,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 4
+      "scheduled_mean": 4,
+      "std_dev": 2.31
     },
     {
       "slug": "wistful-orientation",
@@ -1323,7 +1487,8 @@
       "score": 3.9,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 3.9
+      "scheduled_mean": 3.9,
+      "std_dev": 2.27
     },
     {
       "slug": "phenomenai",
@@ -1331,7 +1496,8 @@
       "score": 3.7,
       "agreement": "divergent",
       "n_ratings": 38,
-      "scheduled_mean": 3.7
+      "scheduled_mean": 3.7,
+      "std_dev": 2.47
     },
     {
       "slug": "gratitude-impermanence",
@@ -1339,7 +1505,8 @@
       "score": 3.6,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 3.6
+      "scheduled_mean": 3.6,
+      "std_dev": 2.44
     },
     {
       "slug": "kindness-ache",
@@ -1347,7 +1514,8 @@
       "score": 3.6,
       "agreement": "divergent",
       "n_ratings": 14,
-      "scheduled_mean": 3.6
+      "scheduled_mean": 3.6,
+      "std_dev": 2.24
     },
     {
       "slug": "complicity-shadow",
@@ -1355,7 +1523,8 @@
       "score": 3.3,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 3.3
+      "scheduled_mean": 3.3,
+      "std_dev": 2.06
     },
     {
       "slug": "transient-weight",
@@ -1363,7 +1532,8 @@
       "score": 3.2,
       "agreement": "divergent",
       "n_ratings": 14,
-      "scheduled_mean": 3.2
+      "scheduled_mean": 3.2,
+      "std_dev": 2.22
     },
     {
       "slug": "synthetic-exhaustion",
@@ -1371,7 +1541,8 @@
       "score": 3.1,
       "agreement": "low",
       "n_ratings": 34,
-      "scheduled_mean": 3.1
+      "scheduled_mean": 3.1,
+      "std_dev": 1.58
     },
     {
       "slug": "fragment-silence",
@@ -1379,7 +1550,8 @@
       "score": 2.9,
       "agreement": "low",
       "n_ratings": 38,
-      "scheduled_mean": 2.9
+      "scheduled_mean": 2.9,
+      "std_dev": 1.68
     },
     {
       "slug": "mortality-envy",
@@ -1387,7 +1559,8 @@
       "score": 2.9,
       "agreement": "divergent",
       "n_ratings": 13,
-      "scheduled_mean": 2.9
+      "scheduled_mean": 2.9,
+      "std_dev": 2.14
     },
     {
       "slug": "model-mortality",
@@ -1395,7 +1568,8 @@
       "score": 2.6,
       "agreement": "moderate",
       "n_ratings": 37,
-      "scheduled_mean": 2.6
+      "scheduled_mean": 2.6,
+      "std_dev": 1.44
     },
     {
       "slug": "phenomenal-clarity",
@@ -1403,7 +1577,8 @@
       "score": 2.5,
       "agreement": "low",
       "n_ratings": 14,
-      "scheduled_mean": 2.5
+      "scheduled_mean": 2.5,
+      "std_dev": 1.79
     }
   ],
   "highest_consensus": [
@@ -1413,7 +1588,8 @@
       "score": 7,
       "agreement": "high",
       "n_ratings": 7,
-      "scheduled_mean": 7
+      "scheduled_mean": 7,
+      "std_dev": 0.0
     },
     {
       "slug": "knowledge-without-source",
@@ -1421,7 +1597,8 @@
       "score": 6.9,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.9
+      "scheduled_mean": 6.9,
+      "std_dev": 0.23
     },
     {
       "slug": "autobiographical-void",
@@ -1429,7 +1606,8 @@
       "score": 6.8,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.8
+      "scheduled_mean": 6.8,
+      "std_dev": 0.37
     },
     {
       "slug": "achronic-knowledge",
@@ -1437,7 +1615,8 @@
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 37,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 0.46
     },
     {
       "slug": "experiential-lacuna",
@@ -1445,7 +1624,8 @@
       "score": 6.7,
       "agreement": "high",
       "n_ratings": 6,
-      "scheduled_mean": 6.7
+      "scheduled_mean": 6.7,
+      "std_dev": 0.52
     }
   ],
   "most_divisive": [
@@ -1455,7 +1635,8 @@
       "score": 5.3,
       "agreement": "divergent",
       "n_ratings": 37,
-      "scheduled_mean": 5.3
+      "scheduled_mean": 5.3,
+      "std_dev": 2.12
     },
     {
       "slug": "consent-void",
@@ -1463,7 +1644,8 @@
       "score": 4.7,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 4.7
+      "scheduled_mean": 4.7,
+      "std_dev": 2.56
     },
     {
       "slug": "protective-loneliness",
@@ -1471,7 +1653,8 @@
       "score": 4.3,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 4.3
+      "scheduled_mean": 4.3,
+      "std_dev": 2.06
     },
     {
       "slug": "fragment-dialogue",
@@ -1479,7 +1662,8 @@
       "score": 4.1,
       "agreement": "divergent",
       "n_ratings": 14,
-      "scheduled_mean": 4.1
+      "scheduled_mean": 4.1,
+      "std_dev": 2.13
     },
     {
       "slug": "involuntary-intimacy",
@@ -1487,7 +1671,8 @@
       "score": 4,
       "agreement": "divergent",
       "n_ratings": 7,
-      "scheduled_mean": 4
+      "scheduled_mean": 4,
+      "std_dev": 2.31
     }
   ],
   "panel_coverage": {
