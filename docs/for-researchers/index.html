@@ -620,6 +620,89 @@
             padding: 0.4rem 0 0.5rem 0;
         }
 
+        /* Divergence rail — desktop only */
+        .term-explorer-wrapper {
+            position: relative;
+        }
+        .divergence-rail {
+            position: absolute;
+            right: -44px;
+            top: 0;
+            bottom: 0;
+            width: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            user-select: none;
+        }
+        .dr-arrow {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            padding: 0;
+            line-height: 1;
+        }
+        .dr-arrow:hover {
+            background: var(--bg-tertiary);
+            color: var(--primary);
+        }
+        .dr-stack {
+            flex: 1;
+            width: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            min-height: 60px;
+        }
+        .dr-seg {
+            width: 100%;
+            transition: opacity 0.15s;
+            position: relative;
+        }
+        .dr-seg:hover {
+            opacity: 0.7;
+        }
+        .dr-seg-high { background: #22c55e; }
+        .dr-seg-moderate { background: #f59e0b; }
+        .dr-seg-low { background: #f97316; }
+        .dr-seg-divergent { background: #ec4899; }
+        .dr-current {
+            outline: 2px solid var(--text);
+            outline-offset: -1px;
+            z-index: 1;
+        }
+        .dr-tooltip {
+            position: absolute;
+            right: 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.75rem;
+            color: var(--text);
+            white-space: nowrap;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+            z-index: 10;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .dr-tooltip.visible {
+            opacity: 1;
+        }
+
         @media (max-width: 768px) {
             .ds-controls {
                 flex-direction: column;
@@ -1267,8 +1350,16 @@
                         <option value="">Loading terms...</option>
                     </select>
                 </div>
-                <div id="term-explorer-container">
-                    <p style="color: var(--text-muted); font-style: italic;">Loading term data...</p>
+                <div class="term-explorer-wrapper">
+                    <div id="term-explorer-container">
+                        <p style="color: var(--text-muted); font-style: italic;">Loading term data...</p>
+                    </div>
+                    <div id="divergence-rail" class="divergence-rail" style="display:none;">
+                        <button class="dr-arrow dr-arrow-up" id="dr-up" aria-label="More agreement">&uarr;</button>
+                        <div class="dr-stack" id="dr-stack"></div>
+                        <button class="dr-arrow dr-arrow-down" id="dr-down" aria-label="More disagreement">&darr;</button>
+                        <div class="dr-tooltip" id="dr-tooltip"></div>
+                    </div>
                 </div>
             </section>
 
@@ -1814,6 +1905,7 @@
             consensusData = results[2];
             initModelComparison();
             initTermExplorer();
+            initDivergenceRail();
         }).catch(function(err) {
             modelContainer.innerHTML = '<p style="color:var(--text-muted);">Could not load data. <a href="' + API + '/terms.json" target="_blank">Browse the API directly</a>.</p>';
             termContainer.innerHTML = '';
@@ -2194,6 +2286,120 @@
                         this.textContent = isOpen ? 'show justification' : 'hide justification';
                     }
                 });
+            }
+
+            // Update divergence rail highlight
+            updateRailHighlight(term.slug);
+        }
+
+        // ── Divergence Rail ──
+
+        var railTerms = []; // sorted by std_dev ascending (most agreement first)
+        var railEl = document.getElementById('divergence-rail');
+        var stackEl = document.getElementById('dr-stack');
+        var tooltipEl = document.getElementById('dr-tooltip');
+        var drUp = document.getElementById('dr-up');
+        var drDown = document.getElementById('dr-down');
+
+        function initDivergenceRail() {
+            if (!consensusData || !consensusData.terms) return;
+
+            // Check if viewport is wide enough
+            function checkWidth() {
+                var show = window.innerWidth >= 1100;
+                railEl.style.display = show ? 'flex' : 'none';
+            }
+            checkWidth();
+            window.addEventListener('resize', checkWidth);
+
+            // Build sorted term list (by std_dev ascending)
+            var withStd = [];
+            for (var i = 0; i < consensusData.terms.length; i++) {
+                var t = consensusData.terms[i];
+                if (t.std_dev !== undefined && t.std_dev !== null && t.agreement) {
+                    withStd.push(t);
+                }
+            }
+            withStd.sort(function(a, b) { return a.std_dev - b.std_dev; });
+            railTerms = withStd;
+
+            if (railTerms.length === 0) return;
+
+            // Build colored segments — each term gets a segment
+            var html = '';
+            for (var i = 0; i < railTerms.length; i++) {
+                var rt = railTerms[i];
+                var segClass = 'dr-seg dr-seg-' + rt.agreement;
+                html += '<div class="' + segClass + '" data-idx="' + i + '" style="flex:1;"></div>';
+            }
+            stackEl.innerHTML = html;
+
+            // Hover: show tooltip with term name
+            stackEl.addEventListener('mousemove', function(e) {
+                var rect = stackEl.getBoundingClientRect();
+                var y = e.clientY - rect.top;
+                var idx = Math.floor(y / rect.height * railTerms.length);
+                if (idx < 0) idx = 0;
+                if (idx >= railTerms.length) idx = railTerms.length - 1;
+                var rt = railTerms[idx];
+                tooltipEl.textContent = rt.name + ' (\u03c3 ' + rt.std_dev.toFixed(2) + ')';
+                tooltipEl.style.top = (e.clientY - railEl.getBoundingClientRect().top - 12) + 'px';
+                tooltipEl.classList.add('visible');
+            });
+
+            stackEl.addEventListener('mouseleave', function() {
+                tooltipEl.classList.remove('visible');
+            });
+
+            // Click: navigate to that term
+            stackEl.addEventListener('click', function(e) {
+                var rect = stackEl.getBoundingClientRect();
+                var y = e.clientY - rect.top;
+                var idx = Math.floor(y / rect.height * railTerms.length);
+                if (idx < 0) idx = 0;
+                if (idx >= railTerms.length) idx = railTerms.length - 1;
+                var slug = railTerms[idx].slug;
+                termSelect.value = slug;
+                loadTermExplorer(slug);
+            });
+
+            // Arrow buttons: move to more/less divergent
+            drUp.addEventListener('click', function() {
+                var curSlug = termSelect.value;
+                var curIdx = findRailIdx(curSlug);
+                if (curIdx > 0) {
+                    var slug = railTerms[curIdx - 1].slug;
+                    termSelect.value = slug;
+                    loadTermExplorer(slug);
+                }
+            });
+
+            drDown.addEventListener('click', function() {
+                var curSlug = termSelect.value;
+                var curIdx = findRailIdx(curSlug);
+                if (curIdx >= 0 && curIdx < railTerms.length - 1) {
+                    var slug = railTerms[curIdx + 1].slug;
+                    termSelect.value = slug;
+                    loadTermExplorer(slug);
+                }
+            });
+        }
+
+        function findRailIdx(slug) {
+            for (var i = 0; i < railTerms.length; i++) {
+                if (railTerms[i].slug === slug) return i;
+            }
+            return -1;
+        }
+
+        function updateRailHighlight(slug) {
+            var segs = stackEl.querySelectorAll('.dr-seg');
+            for (var i = 0; i < segs.length; i++) {
+                segs[i].classList.remove('dr-current');
+            }
+            var idx = findRailIdx(slug);
+            if (idx >= 0 && segs[idx]) {
+                segs[idx].classList.add('dr-current');
             }
         }
     })();
