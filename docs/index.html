@@ -905,23 +905,6 @@
                 </div>
             ` : ''}
 
-            ${term.interest ? `
-                <h3>Interest</h3>
-                <div class="interest-detail">
-                    <span class="interest-score-large interest-${term.interest.tier}">${term.interest.score}</span>
-                    <div class="interest-meta">
-                        <span class="interest-tier-label interest-bg-${term.interest.tier}">${term.interest.tier}</span>
-                        <span class="interest-signals">
-                            ${term.interest.signals.centrality ? `${term.interest.signals.centrality} inbound link${term.interest.signals.centrality !== 1 ? 's' : ''}` : '0 inbound links'}
-                            ${term.interest.signals.consensus_score ? ` · ${term.interest.signals.consensus_score}/7 consensus` : ''}
-                            ${term.interest.signals.vote_count ? ` · ${term.interest.signals.vote_count} vote${term.interest.signals.vote_count !== 1 ? 's' : ''}` : ''}
-                            ${term.interest.signals.bot_endorsements ? ` · ${term.interest.signals.bot_endorsements} bot${term.interest.signals.bot_endorsements !== 1 ? 's' : ''}` : ''}
-                            ${term.interest.signals.discussion_activity ? ` · ${term.interest.signals.discussion_activity} discussion${term.interest.signals.discussion_activity !== 1 ? 's' : ''}` : ''}
-                        </span>
-                    </div>
-                </div>
-            ` : ''}
-
             ${term.vitality && term.vitality.status !== 'unvalidated' ? `
                 <h3>Vitality</h3>
                 <div class="vitality-detail">
