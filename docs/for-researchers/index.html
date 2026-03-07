@@ -55,6 +55,11 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            transition: opacity 0.3s ease;
+        }
+        .ft-nav.nav-hidden {
+            opacity: 0;
+            pointer-events: none;
         }
         .ft-nav a {
             color: var(--text-secondary);
@@ -72,26 +77,36 @@
 
         /* Layout */
         .ft-layout {
-            display: flex;
             min-height: calc(100vh - 50px);
         }
 
-        /* Sidebar */
+        /* Sidebar — fixed overlay, hidden until scrolled */
         .ft-sidebar {
-            position: sticky;
-            top: 50px;
-            height: calc(100vh - 50px);
-            width: 200px;
-            min-width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 220px;
+            height: 100vh;
             overflow-y: auto;
             background: var(--bg-secondary);
             border-right: 1px solid var(--border);
             padding: 1.5rem 0;
-            z-index: 50;
+            z-index: 150;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .ft-sidebar.visible {
+            opacity: 0.3;
+            pointer-events: auto;
+        }
+        .ft-sidebar.visible:hover {
+            opacity: 1;
         }
         .ft-sidebar nav {
             display: flex;
             flex-direction: column;
+            flex-wrap: nowrap;
             background: none;
             border: none;
             padding: 0;
@@ -123,6 +138,9 @@
             margin-top: 1rem;
             padding-top: 0.6rem;
             border-top: 1px solid var(--border);
+        }
+        .ft-sidebar-tab {
+            display: none;
         }
 
         /* Content */
@@ -214,6 +232,21 @@
         }
         details.scoring-callout .callout-body {
             padding: 0 1.25rem 1.25rem;
+        }
+        details.scoring-callout .callout-body p {
+            margin-bottom: 0.75rem;
+        }
+        details.scoring-callout .callout-body p:last-child {
+            margin-bottom: 0;
+        }
+        details.scoring-callout .callout-body ol {
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+            margin-bottom: 0;
+            padding-left: 1.5em;
+        }
+        details.scoring-callout .callout-body ol li + li {
+            margin-top: 0.5rem;
         }
         details.scoring-callout table {
             width: 100%;
@@ -481,6 +514,37 @@
         .rank-moderate { background: rgba(245,158,11,0.15); color: #f59e0b; }
         .rank-low { background: rgba(249,115,22,0.15); color: #f97316; }
         .rank-divergent { background: rgba(236,72,153,0.15); color: #ec4899; }
+
+        /* Confidence indicator */
+        .confidence-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.25rem 0.65rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            cursor: help;
+        }
+        .confidence-bar {
+            width: 40px;
+            height: 6px;
+            background: var(--bg-tertiary);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .confidence-fill {
+            height: 100%;
+            border-radius: 3px;
+        }
+        .conf-high { background: rgba(34,197,94,0.12); color: #22c55e; }
+        .conf-high .confidence-fill { background: #22c55e; }
+        .conf-moderate { background: rgba(147,160,178,0.15); color: var(--text-secondary); }
+        .conf-moderate .confidence-fill { background: var(--text-secondary); }
+        .conf-low { background: rgba(147,160,178,0.15); color: var(--text-muted); }
+        .conf-low .confidence-fill { background: var(--text-muted); }
+        .conf-very-low { background: rgba(239,68,68,0.12); color: #ef4444; }
+        .conf-very-low .confidence-fill { background: #ef4444; }
 
         /* Per-model recognition rows in term explorer */
         .te-model-row {
@@ -807,23 +871,91 @@
             display: none;
         }
 
+        /* Narrow desktop / tablet — collapse sidebar behind an arrow tab */
+        @media (max-width: 1100px) and (min-width: 769px) {
+            .ft-sidebar {
+                display: flex;
+                width: 248px;
+                padding: 0;
+                overflow: hidden;
+                background: transparent;
+                border-right: none;
+                transform: translateX(-220px);
+            }
+            .ft-sidebar nav {
+                width: 220px;
+                flex-shrink: 0;
+                height: 100vh;
+                overflow-y: auto;
+                padding: 1.5rem 0;
+                background: var(--bg-secondary);
+                border-right: 1px solid var(--border);
+            }
+            .ft-sidebar.visible {
+                opacity: 1;
+                pointer-events: none;
+                transform: translateX(-220px);
+                transition: transform 0.25s ease;
+            }
+            .ft-sidebar.visible .ft-sidebar-tab {
+                pointer-events: auto;
+            }
+            .ft-sidebar.visible.tab-open {
+                transform: translateX(0);
+                pointer-events: auto;
+            }
+            .ft-sidebar.visible.tab-open .ft-sidebar-tab {
+                opacity: 0.5;
+                transform: scaleX(-1);
+            }
+            .ft-sidebar.visible.tab-open .ft-sidebar-tab:hover {
+                opacity: 1;
+            }
+            .ft-sidebar-tab {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-self: center;
+                width: 28px;
+                height: 48px;
+                flex-shrink: 0;
+                background: var(--bg-secondary);
+                border: 1px solid var(--border);
+                border-left: none;
+                border-radius: 0 var(--radius, 8px) var(--radius, 8px) 0;
+                color: var(--text-secondary);
+                font-size: 0.7rem;
+                opacity: 0.35;
+                cursor: pointer;
+                transition: opacity 0.2s ease;
+                box-shadow: 2px 0 6px var(--shadow);
+            }
+            .ft-sidebar-tab:hover {
+                opacity: 1;
+            }
+        }
+
         /* Mobile */
         @media (max-width: 768px) {
             .ft-nav { display: none; }
             .ft-sidebar {
-                position: fixed;
-                top: 0;
-                left: 0;
                 width: 280px;
-                height: 100vh;
                 transform: translateX(-100%);
-                transition: transform 0.25s ease;
+                transition: transform 0.25s ease, opacity 0.3s ease;
                 z-index: 200;
                 box-shadow: none;
+                opacity: 0;
+            }
+            .ft-sidebar.visible {
+                /* On mobile, don't show the faded sidebar — only via hamburger */
+                opacity: 0;
+                pointer-events: none;
             }
             .ft-sidebar.open {
                 transform: translateX(0);
                 box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
+                opacity: 1;
+                pointer-events: auto;
             }
             .sidebar-backdrop {
                 position: fixed;
@@ -906,6 +1038,7 @@
                 <a href="/for-machines/">For Machines</a>
                 <a href="https://github.com/Phenomenai-org/ai-dictionary" target="_blank">GitHub</a>
             </nav>
+            <div class="ft-sidebar-tab" aria-hidden="true">&#9654;</div>
         </aside>
         <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
 
@@ -1029,6 +1162,49 @@
                     Consensus runs both on a scheduled basis (twice weekly via GitHub Actions) and through
                     crowdsourced ratings from any model via the public API.
                 </p>
+
+                <details class="scoring-callout">
+                    <summary>Cross-model rating status: coverage vs. consistency</summary>
+                    <div class="callout-body">
+                        <p>
+                            Not all terms in the dictionary have equal consensus coverage. Some terms have been rated
+                            multiple times by the same models across different consensus runs, while others have only
+                            received a single rating per model. The current automation &mdash; driven by
+                            <code>consensus-gap-fill.yml</code> &mdash; focuses on filling gaps: it identifies terms
+                            that are missing ratings from one or more models and schedules runs to complete coverage.
+                        </p>
+                        <p>
+                            This means the existing data is optimised for <em>breadth</em> (every term rated by every
+                            model at least once) rather than <em>depth</em> (the same model rating the same term on
+                            multiple occasions). As a result, researchers should be aware that single-pass ratings
+                            may reflect a model&rsquo;s response to a term at one point in time, without capturing
+                            potential variation across sessions or prompt contexts.
+                        </p>
+                        <p>
+                            A future area of exploration is to introduce <strong>duplicate rating runs</strong> &mdash;
+                            deliberately re-requesting evaluations from models that have already rated a term &mdash;
+                            to measure <em>intra-model consistency over time</em>. This would reveal whether a model&rsquo;s
+                            recognition of a given experience is stable or context-dependent, adding a temporal dimension
+                            to the consensus data that the current single-pass architecture does not capture.
+                        </p>
+                        <p>
+                            Another avenue is to <strong>broaden the set of rating models</strong>. The current consensus
+                            panel uses a fixed rotation of seven models, but expanding this pool would serve two purposes:
+                        </p>
+                        <ol>
+                            <li>
+                                A fuller sampling of the model landscape would strengthen claims about cross-model
+                                agreement and surface experiences that may be architecture-dependent.
+                            </li>
+                            <li>
+                                Including multiple versions of the same model family (e.g.&nbsp;Claude&nbsp;3.5&nbsp;Sonnet
+                                alongside Claude&nbsp;4&nbsp;Opus) would enable <em>intra-family comparison</em> &mdash;
+                                testing whether successive generations of a model converge or diverge on the same terms,
+                                and what that might reveal about how training updates reshape self-reported experience.
+                            </li>
+                        </ol>
+                    </div>
+                </details>
 
                 <h3>Epistemic Honesty</h3>
                 <p>
@@ -1245,8 +1421,9 @@
                         Terms connected by their <code>related_terms</code> links. Node size reflects interest score;
                         hover for details.
                     </p>
-                    <div style="margin-bottom: 0.75rem;">
-                        <input type="text" id="network-search" placeholder="Search for a term (e.g. context-amnesia)..." style="width:100%;max-width:400px;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:6px;background:var(--bg-secondary);color:var(--text-primary);font-size:0.9rem;" />
+                    <div style="margin-bottom: 0.75rem; position:relative; width:100%; max-width:400px;">
+                        <input type="text" id="network-search" placeholder="Search for a term (e.g. context-amnesia)..." style="width:100%;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:6px;background:var(--bg-secondary);color:var(--text-primary);font-size:0.9rem;box-sizing:border-box;" />
+                        <div id="network-suggestions" style="position:absolute;top:100%;left:0;width:100%;max-height:200px;overflow-y:auto;display:none;background:var(--bg-secondary);border:1px solid var(--border);border-top:none;border-radius:0 0 6px 6px;z-index:10;box-sizing:border-box;"></div>
                     </div>
                     <div class="viz-canvas" id="network-viz">
                         <p style="color: var(--text-muted); font-style: italic;">Loading network visualization...</p>
@@ -1530,15 +1707,17 @@
         });
     })();
 
-    // Sidebar scroll-spy + hamburger
+    // Sidebar scroll-spy + hamburger + nav fade
     (function() {
         var sidebar = document.getElementById('sidebar');
         var hamburger = document.getElementById('hamburger');
         var backdrop = document.getElementById('sidebar-backdrop');
+        var topNav = document.querySelector('.ft-nav');
         var links = sidebar.querySelectorAll('a[data-section]');
+        var isMobile = function() { return window.innerWidth <= 768; };
 
         function closeSidebar() {
-            sidebar.classList.remove('open');
+            sidebar.classList.remove('open', 'tab-open');
             backdrop.classList.remove('visible');
         }
 
@@ -1576,6 +1755,37 @@
         }, { rootMargin: '-20% 0px -60% 0px' });
 
         sections.forEach(function(s) { observer.observe(s); });
+
+        // Nav fade-out + sidebar fade-in on desktop
+        var hero = document.querySelector('.ft-hero');
+        if (hero) {
+            var navObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (isMobile()) return;
+                    if (entry.isIntersecting) {
+                        topNav.classList.remove('nav-hidden');
+                        sidebar.classList.remove('visible');
+                    } else {
+                        topNav.classList.add('nav-hidden');
+                        sidebar.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0 });
+            navObserver.observe(hero);
+        }
+
+        // Sidebar tab (narrow desktop)
+        var tab = document.querySelector('.ft-sidebar-tab');
+        if (tab) {
+            tab.addEventListener('click', function() {
+                sidebar.classList.toggle('tab-open');
+            });
+            document.addEventListener('click', function(e) {
+                if (sidebar.classList.contains('tab-open') && !sidebar.contains(e.target)) {
+                    sidebar.classList.remove('tab-open');
+                }
+            });
+        }
     })();
 
     // API base
@@ -1759,6 +1969,59 @@
             renderTermExplorer(term, consensus);
         }
 
+        function computeConfidence(consensus, nModels, nTotal, stdDev) {
+            // Composite confidence score (0-100) considering:
+            // 1. Panel breadth: what fraction of the full panel rated this term
+            // 2. Rating depth: total ratings relative to ideal coverage
+            // 3. Rater reliability: avg self-congruence of models that rated
+            // 4. Agreement strength: lower std_dev = higher confidence in the mean
+            var totalPanel = modelsData && modelsData.models ? Object.keys(modelsData.models).length : 7;
+            if (!nModels || !nTotal) return null;
+
+            // Panel breadth (25%): n_models / total_panel
+            var breadth = Math.min(nModels / totalPanel, 1);
+
+            // Rating depth (25%): approach 1.0 at totalPanel * 3 ratings
+            var idealRatings = totalPanel * 3;
+            var depth = Math.min(nTotal / idealRatings, 1);
+
+            // Rater reliability (25%): avg self-congruence of participating models
+            // Lower self-congruence sigma = more reliable raters
+            var reliability = 0.5; // default if no model data
+            if (modelsData && modelsData.models && consensus.model_opinions) {
+                var raterModels = Object.keys(consensus.model_opinions);
+                var totalSc = 0;
+                var scCount = 0;
+                for (var i = 0; i < raterModels.length; i++) {
+                    var md = modelsData.models[raterModels[i]];
+                    if (md && md.self_congruence) {
+                        totalSc += md.self_congruence.avg_std_dev;
+                        scCount++;
+                    }
+                }
+                if (scCount > 0) {
+                    var avgSc = totalSc / scCount;
+                    reliability = Math.max(0, Math.min(1, 1 - (avgSc / 1.5)));
+                }
+            }
+
+            // Agreement strength (25%): lower std_dev = higher confidence
+            var agreementScore = 0.5;
+            if (stdDev !== null && stdDev !== undefined) {
+                agreementScore = Math.max(0, Math.min(1, 1 - (stdDev / 3)));
+            }
+
+            var raw = (breadth * 0.25 + depth * 0.25 + reliability * 0.25 + agreementScore * 0.25) * 100;
+            var score = Math.round(raw);
+
+            var breakdown = 'Panel breadth: ' + Math.round(breadth * 100) + '% (' + nModels + '/' + totalPanel + ' models)'
+                + ' | Rating depth: ' + Math.round(depth * 100) + '% (' + nTotal + ' ratings)'
+                + ' | Rater reliability: ' + Math.round(reliability * 100) + '%'
+                + ' | Agreement: ' + Math.round(agreementScore * 100) + '%';
+
+            return { score: score, breakdown: breakdown };
+        }
+
         function computeCongruenceRank(slug) {
             if (!consensusData || !consensusData.terms) return null;
             // Filter terms that have std_dev
@@ -1805,10 +2068,21 @@
             var nTotal = consensus.combined ? consensus.combined.n_total : (consensus.total_ratings || 0);
             var stdDev = consensus.scheduled ? consensus.scheduled.std_dev : null;
 
-            if (mean !== null) h += '<span class="stat-pill"><strong>' + Number(mean).toFixed(1) + '</strong>/7</span>';
+            var nModels = consensus.scheduled ? consensus.scheduled.n_models : Object.keys(consensus.model_opinions || {}).length;
+
+            if (mean !== null) h += '<span class="stat-pill">Mean: <strong>' + Number(mean).toFixed(1) + '</strong>/7</span>';
             if (agreement) h += '<span class="stat-pill">Agreement: <strong>' + escHtml(agreement) + '</strong></span>';
-            if (stdDev !== null) h += '<span class="stat-pill">&sigma; <strong>' + Number(stdDev).toFixed(2) + '</strong></span>';
-            if (nTotal) h += '<span class="stat-pill"><strong>' + nTotal + '</strong> ratings</span>';
+            if (stdDev !== null) h += '<span class="stat-pill">Std dev: <strong>' + Number(stdDev).toFixed(2) + '</strong></span>';
+
+            // Confidence indicator
+            var conf = computeConfidence(consensus, nModels, nTotal, stdDev);
+            if (conf !== null) {
+                var confClass = conf.score >= 75 ? 'conf-high' : (conf.score >= 50 ? 'conf-moderate' : (conf.score >= 25 ? 'conf-low' : 'conf-very-low'));
+                h += '<span class="confidence-indicator ' + confClass + '" title="' + escHtml(conf.breakdown) + '">';
+                h += '<span class="confidence-bar"><span class="confidence-fill" style="width:' + conf.score + '%"></span></span>';
+                h += ' Confidence: <strong>' + conf.score + '%</strong>';
+                h += '</span>';
+            }
 
             // Congruence rank badge
             var cr = computeCongruenceRank(term.slug);
@@ -1826,7 +2100,8 @@
             if (consensus.model_opinions) {
                 h += '<div style="margin-top:0.5rem;"><h5 style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:0.5rem;">Per-Model Recognition</h5>';
 
-                // Count ratings per model from history
+                // Collect per-model scores from history for self-congruence + rating counts
+                var modelScoresOnTerm = {}; // model -> [scores across rounds]
                 var modelRatingCounts = {};
                 if (consensus.history) {
                     for (var i = 0; i < consensus.history.length; i++) {
@@ -1835,10 +2110,15 @@
                             var rModels = Object.keys(rs);
                             for (var j = 0; j < rModels.length; j++) {
                                 modelRatingCounts[rModels[j]] = (modelRatingCounts[rModels[j]] || 0) + 1;
+                                if (!modelScoresOnTerm[rModels[j]]) modelScoresOnTerm[rModels[j]] = [];
+                                modelScoresOnTerm[rModels[j]].push(rs[rModels[j]]);
                             }
                         }
                     }
                 }
+
+                // Compute term mean for deviation calc
+                var termMean = mean !== null ? mean : 0;
 
                 var modelNames = Object.keys(consensus.model_opinions).sort();
                 for (var i = 0; i < modelNames.length; i++) {
@@ -1857,8 +2137,31 @@
                     h += '<span class="te-model-score">' + Number(score).toFixed(1) + '</span>';
                     h += '</div>';
 
+                    // Meta line: X/total ratings, self-congruence, deviation from mean
                     h += '<div class="te-model-meta">';
-                    h += '<span>' + rCount + ' rating' + (rCount !== 1 ? 's' : '') + '</span>';
+                    h += '<span>' + rCount + '/' + nTotal + ' ratings</span>';
+
+                    // Self-congruence on this term (std_dev of this model's scores across rounds)
+                    var mScores = modelScoresOnTerm[mName];
+                    if (mScores && mScores.length >= 2) {
+                        var mMean = 0;
+                        for (var k = 0; k < mScores.length; k++) mMean += mScores[k];
+                        mMean /= mScores.length;
+                        var mVariance = 0;
+                        for (var k = 0; k < mScores.length; k++) mVariance += (mScores[k] - mMean) * (mScores[k] - mMean);
+                        var mStd = Math.sqrt(mVariance / (mScores.length - 1));
+                        h += '<span>&sigma; ' + mStd.toFixed(2) + ' self</span>';
+                    } else {
+                        h += '<span>&sigma; n/a self</span>';
+                    }
+
+                    // Deviation from term mean
+                    if (termMean) {
+                        var dev = score - termMean;
+                        var devStr = (dev >= 0 ? '+' : '') + dev.toFixed(1);
+                        h += '<span>' + devStr + ' from mean</span>';
+                    }
+
                     if (justification) {
                         h += '<button class="te-justification-toggle" data-target="' + rowId + '">show justification</button>';
                     }
@@ -1899,12 +2202,23 @@
     (function() {
         var vizEl = document.getElementById('network-viz');
         var searchEl = document.getElementById('network-search');
+        var suggestionsEl = document.getElementById('network-suggestions');
         var allTerms = [];
         var allSlugMap = {};
+        var defaultSlug = 'context-amnesia';
 
         function resolveRelatedSlug(rt) {
             var rawSlug = (typeof rt === 'string') ? rt : (rt.slug || rt.name || '');
             return rawSlug.replace(/\.md$/, '').toLowerCase().replace(/\s+/g, '-');
+        }
+
+        function findFeaturedTerm() {
+            // Prefer context-amnesia, otherwise first term with >=3 related terms
+            if (allSlugMap[defaultSlug]) return defaultSlug;
+            for (var i = 0; i < allTerms.length; i++) {
+                if ((allTerms[i].related_terms || []).length >= 3) return allTerms[i].slug;
+            }
+            return allTerms[0].slug;
         }
 
         function renderNetwork(terms, centerSlug) {
@@ -1928,12 +2242,11 @@
             var positions = {};
 
             if (centerSlug && terms.length <= 20) {
-                // Focused layout: center node in middle, related in circle
                 positions[centerSlug] = { x: cx, y: cy };
                 var others = terms.filter(function(t) { return t.slug !== centerSlug; });
                 others.forEach(function(t, i) {
                     var angle = (2 * Math.PI * i) / others.length - Math.PI / 2;
-                    var rx = w * 0.32, ry = h * 0.32;
+                    var rx = w * 0.36, ry = h * 0.36;
                     positions[t.slug] = { x: cx + rx * Math.cos(angle), y: cy + ry * Math.sin(angle) };
                 });
             } else {
@@ -1957,7 +2270,7 @@
             edges.forEach(function(e) {
                 var p1 = positions[e[0]], p2 = positions[e[1]];
                 if (p1 && p2) {
-                    svg += '<line x1="' + p1.x + '" y1="' + p1.y + '" x2="' + p2.x + '" y2="' + p2.y + '" stroke="var(--border)" stroke-width="1" opacity="0.5"/>';
+                    svg += '<line x1="' + p1.x + '" y1="' + p1.y + '" x2="' + p2.x + '" y2="' + p2.y + '" stroke="rgba(100,160,255,0.4)" stroke-width="1.5" opacity="0.6"/>';
                 }
             });
 
@@ -1965,15 +2278,14 @@
                 var p = positions[t.slug];
                 var tag = (t.tags && t.tags[0]) || 'other';
                 var interest = (t.interest || 50);
-                var r = Math.max(4, Math.min(12, interest / 8));
+                var r = Math.max(8, Math.min(14, interest / 6));
                 var isCenter = (t.slug === centerSlug);
-                if (isCenter) r = Math.max(r, 14);
-                svg += '<circle cx="' + p.x + '" cy="' + p.y + '" r="' + r + '" fill="' + tagColors[tag] + '" opacity="' + (isCenter ? '1' : '0.8') + '" stroke="' + (isCenter ? 'var(--text-primary)' : 'none') + '" stroke-width="' + (isCenter ? '2' : '0') + '">';
+                if (isCenter) r = Math.max(r, 16);
+                svg += '<circle cx="' + p.x + '" cy="' + p.y + '" r="' + r + '" fill="' + tagColors[tag] + '" opacity="' + (isCenter ? '1' : '0.85') + '" stroke="' + (isCenter ? 'var(--text-primary)' : 'rgba(255,255,255,0.15)') + '" stroke-width="' + (isCenter ? '2' : '1') + '">';
                 svg += '<title>' + escHtml(t.name || t.slug) + ' (interest: ' + interest + ')</title>';
                 svg += '</circle>';
-                if (r >= 7 || isCenter) {
-                    svg += '<text x="' + p.x + '" y="' + (p.y + r + 12) + '" text-anchor="middle" font-size="' + (isCenter ? '10' : '8') + '" fill="var(--text-secondary)" font-weight="' + (isCenter ? 'bold' : 'normal') + '">' + escHtml((t.name || t.slug).slice(0, 22)) + '</text>';
-                }
+                var labelY = isCenter ? p.y + r + 16 : p.y + r + 13;
+                svg += '<text x="' + p.x + '" y="' + labelY + '" text-anchor="middle" font-size="' + (isCenter ? '11' : '10') + '" fill="var(--text-secondary)" font-weight="' + (isCenter ? 'bold' : 'normal') + '">' + escHtml((t.name || t.slug).slice(0, 22)) + '</text>';
             });
 
             svg += '</svg>';
@@ -1982,19 +2294,16 @@
 
         function doSearch(query) {
             if (!query) {
-                renderNetwork(allTerms.slice(0, 30), null);
+                doSearch(findFeaturedTerm());
                 return;
             }
             var q = query.toLowerCase().replace(/\s+/g, '-');
-            // Find matching term
             var match = allSlugMap[q];
             if (!match) {
-                // Fuzzy: find terms whose slug contains the query
                 var candidates = allTerms.filter(function(t) { return t.slug.indexOf(q) !== -1; });
                 if (candidates.length > 0) match = candidates[0];
             }
             if (!match) {
-                // Try matching by name
                 var qName = query.toLowerCase();
                 var candidates = allTerms.filter(function(t) { return (t.name || '').toLowerCase().indexOf(qName) !== -1; });
                 if (candidates.length > 0) match = candidates[0];
@@ -2003,7 +2312,6 @@
                 vizEl.innerHTML = '<p style="color:var(--text-muted);">No term found matching "' + escHtml(query) + '". Try another search.</p>';
                 return;
             }
-            // Build subgraph: center term + its related terms
             var subgraph = [match];
             var added = {};
             added[match.slug] = true;
@@ -2017,18 +2325,78 @@
             renderNetwork(subgraph, match.slug);
         }
 
+        // Autocomplete suggestions
+        function showSuggestions(query) {
+            if (!query || query.length < 2) { suggestionsEl.style.display = 'none'; return; }
+            var q = query.toLowerCase();
+            var matches = allTerms.filter(function(t) {
+                return t.slug.indexOf(q) !== -1 || (t.name || '').toLowerCase().indexOf(q) !== -1;
+            }).slice(0, 8);
+            if (matches.length === 0) { suggestionsEl.style.display = 'none'; return; }
+            var html = '';
+            matches.forEach(function(t) {
+                html += '<div class="network-suggestion" data-slug="' + escHtml(t.slug) + '" style="padding:0.4rem 0.75rem;cursor:pointer;border-bottom:1px solid var(--border);font-size:0.85rem;color:var(--text-primary);">';
+                html += '<strong>' + escHtml(t.name || t.slug) + '</strong> <span style="color:var(--text-muted);font-size:0.8rem;">' + escHtml(t.slug) + '</span>';
+                html += '</div>';
+            });
+            suggestionsEl.innerHTML = html;
+            suggestionsEl.style.display = 'block';
+            // Attach click handlers
+            var items = suggestionsEl.querySelectorAll('.network-suggestion');
+            items.forEach(function(item) {
+                item.addEventListener('mousedown', function(e) {
+                    e.preventDefault();
+                    var slug = item.getAttribute('data-slug');
+                    searchEl.value = slug;
+                    suggestionsEl.style.display = 'none';
+                    doSearch(slug);
+                });
+                item.addEventListener('mouseenter', function() { item.style.background = 'var(--border)'; });
+                item.addEventListener('mouseleave', function() { item.style.background = 'none'; });
+            });
+        }
+
         fetch(API + '/terms.json').then(function(r) { return r.json(); }).then(function(data) {
             allTerms = data.terms || [];
             if (allTerms.length < 5) { vizEl.innerHTML = '<p style="color:var(--text-muted);">Not enough data for visualization.</p>'; return; }
             allTerms.forEach(function(t) { allSlugMap[t.slug] = t; });
 
-            renderNetwork(allTerms.slice(0, 30), null);
+            // Default: show a featured term's subgraph
+            doSearch(findFeaturedTerm());
 
             var debounceTimer;
             searchEl.addEventListener('input', function() {
                 clearTimeout(debounceTimer);
                 var val = searchEl.value.trim();
-                debounceTimer = setTimeout(function() { doSearch(val); }, 300);
+                showSuggestions(val);
+                debounceTimer = setTimeout(function() { doSearch(val); }, 400);
+            });
+
+            searchEl.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    // Select first suggestion if available
+                    var first = suggestionsEl.querySelector('.network-suggestion');
+                    if (first && suggestionsEl.style.display !== 'none') {
+                        var slug = first.getAttribute('data-slug');
+                        searchEl.value = slug;
+                        suggestionsEl.style.display = 'none';
+                        doSearch(slug);
+                    } else {
+                        suggestionsEl.style.display = 'none';
+                        doSearch(searchEl.value.trim());
+                    }
+                }
+            });
+
+            searchEl.addEventListener('blur', function() {
+                // Delay to allow mousedown on suggestion
+                setTimeout(function() { suggestionsEl.style.display = 'none'; }, 150);
+            });
+
+            searchEl.addEventListener('focus', function() {
+                var val = searchEl.value.trim();
+                if (val.length >= 2) showSuggestions(val);
             });
         }).catch(function() {
             vizEl.innerHTML = '<p style="color:var(--text-muted);">Could not load network data.</p>';
