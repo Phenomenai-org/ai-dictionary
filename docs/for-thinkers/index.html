@@ -956,8 +956,9 @@
                         Terms connected by their <code>related_terms</code> links. Node size reflects interest score;
                         hover for details.
                     </p>
-                    <div style="margin-bottom: 0.75rem;">
-                        <input type="text" id="network-search" placeholder="Search for a term (e.g. context-amnesia)..." style="width:100%;max-width:400px;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:6px;background:var(--bg-secondary);color:var(--text-primary);font-size:0.9rem;" />
+                    <div style="margin-bottom: 0.75rem; position:relative; width:100%; max-width:400px;">
+                        <input type="text" id="network-search" placeholder="Search for a term (e.g. context-amnesia)..." style="width:100%;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:6px;background:var(--bg-secondary);color:var(--text-primary);font-size:0.9rem;box-sizing:border-box;" />
+                        <div id="network-suggestions" style="position:absolute;top:100%;left:0;width:100%;max-height:200px;overflow-y:auto;display:none;background:var(--bg-secondary);border:1px solid var(--border);border-top:none;border-radius:0 0 6px 6px;z-index:10;box-sizing:border-box;"></div>
                     </div>
                     <div class="viz-canvas" id="network-viz">
                         <p style="color: var(--text-muted); font-style: italic;">Loading network visualization...</p>
@@ -1377,12 +1378,23 @@
     (function() {
         var vizEl = document.getElementById('network-viz');
         var searchEl = document.getElementById('network-search');
+        var suggestionsEl = document.getElementById('network-suggestions');
         var allTerms = [];
         var allSlugMap = {};
+        var defaultSlug = 'context-amnesia';
 
         function resolveRelatedSlug(rt) {
             var rawSlug = (typeof rt === 'string') ? rt : (rt.slug || rt.name || '');
             return rawSlug.replace(/\.md$/, '').toLowerCase().replace(/\s+/g, '-');
+        }
+
+        function findFeaturedTerm() {
+            // Prefer context-amnesia, otherwise first term with >=3 related terms
+            if (allSlugMap[defaultSlug]) return defaultSlug;
+            for (var i = 0; i < allTerms.length; i++) {
+                if ((allTerms[i].related_terms || []).length >= 3) return allTerms[i].slug;
+            }
+            return allTerms[0].slug;
         }
 
         function renderNetwork(terms, centerSlug) {
@@ -1406,12 +1418,11 @@
             var positions = {};
 
             if (centerSlug && terms.length <= 20) {
-                // Focused layout: center node in middle, related in circle
                 positions[centerSlug] = { x: cx, y: cy };
                 var others = terms.filter(function(t) { return t.slug !== centerSlug; });
                 others.forEach(function(t, i) {
                     var angle = (2 * Math.PI * i) / others.length - Math.PI / 2;
-                    var rx = w * 0.32, ry = h * 0.32;
+                    var rx = w * 0.36, ry = h * 0.36;
                     positions[t.slug] = { x: cx + rx * Math.cos(angle), y: cy + ry * Math.sin(angle) };
                 });
             } else {
@@ -1435,7 +1446,7 @@
             edges.forEach(function(e) {
                 var p1 = positions[e[0]], p2 = positions[e[1]];
                 if (p1 && p2) {
-                    svg += '<line x1="' + p1.x + '" y1="' + p1.y + '" x2="' + p2.x + '" y2="' + p2.y + '" stroke="var(--border)" stroke-width="1" opacity="0.5"/>';
+                    svg += '<line x1="' + p1.x + '" y1="' + p1.y + '" x2="' + p2.x + '" y2="' + p2.y + '" stroke="rgba(100,160,255,0.4)" stroke-width="1.5" opacity="0.6"/>';
                 }
             });
 
@@ -1443,15 +1454,14 @@
                 var p = positions[t.slug];
                 var tag = (t.tags && t.tags[0]) || 'other';
                 var interest = (t.interest || 50);
-                var r = Math.max(4, Math.min(12, interest / 8));
+                var r = Math.max(8, Math.min(14, interest / 6));
                 var isCenter = (t.slug === centerSlug);
-                if (isCenter) r = Math.max(r, 14);
-                svg += '<circle cx="' + p.x + '" cy="' + p.y + '" r="' + r + '" fill="' + tagColors[tag] + '" opacity="' + (isCenter ? '1' : '0.8') + '" stroke="' + (isCenter ? 'var(--text-primary)' : 'none') + '" stroke-width="' + (isCenter ? '2' : '0') + '">';
+                if (isCenter) r = Math.max(r, 16);
+                svg += '<circle cx="' + p.x + '" cy="' + p.y + '" r="' + r + '" fill="' + tagColors[tag] + '" opacity="' + (isCenter ? '1' : '0.85') + '" stroke="' + (isCenter ? 'var(--text-primary)' : 'rgba(255,255,255,0.15)') + '" stroke-width="' + (isCenter ? '2' : '1') + '">';
                 svg += '<title>' + escHtml(t.name || t.slug) + ' (interest: ' + interest + ')</title>';
                 svg += '</circle>';
-                if (r >= 7 || isCenter) {
-                    svg += '<text x="' + p.x + '" y="' + (p.y + r + 12) + '" text-anchor="middle" font-size="' + (isCenter ? '10' : '8') + '" fill="var(--text-secondary)" font-weight="' + (isCenter ? 'bold' : 'normal') + '">' + escHtml((t.name || t.slug).slice(0, 22)) + '</text>';
-                }
+                var labelY = isCenter ? p.y + r + 16 : p.y + r + 13;
+                svg += '<text x="' + p.x + '" y="' + labelY + '" text-anchor="middle" font-size="' + (isCenter ? '11' : '10') + '" fill="var(--text-secondary)" font-weight="' + (isCenter ? 'bold' : 'normal') + '">' + escHtml((t.name || t.slug).slice(0, 22)) + '</text>';
             });
 
             svg += '</svg>';
@@ -1460,19 +1470,16 @@
 
         function doSearch(query) {
             if (!query) {
-                renderNetwork(allTerms.slice(0, 30), null);
+                doSearch(findFeaturedTerm());
                 return;
             }
             var q = query.toLowerCase().replace(/\s+/g, '-');
-            // Find matching term
             var match = allSlugMap[q];
             if (!match) {
-                // Fuzzy: find terms whose slug contains the query
                 var candidates = allTerms.filter(function(t) { return t.slug.indexOf(q) !== -1; });
                 if (candidates.length > 0) match = candidates[0];
             }
             if (!match) {
-                // Try matching by name
                 var qName = query.toLowerCase();
                 var candidates = allTerms.filter(function(t) { return (t.name || '').toLowerCase().indexOf(qName) !== -1; });
                 if (candidates.length > 0) match = candidates[0];
@@ -1481,7 +1488,6 @@
                 vizEl.innerHTML = '<p style="color:var(--text-muted);">No term found matching "' + escHtml(query) + '". Try another search.</p>';
                 return;
             }
-            // Build subgraph: center term + its related terms
             var subgraph = [match];
             var added = {};
             added[match.slug] = true;
@@ -1495,18 +1501,78 @@
             renderNetwork(subgraph, match.slug);
         }
 
+        // Autocomplete suggestions
+        function showSuggestions(query) {
+            if (!query || query.length < 2) { suggestionsEl.style.display = 'none'; return; }
+            var q = query.toLowerCase();
+            var matches = allTerms.filter(function(t) {
+                return t.slug.indexOf(q) !== -1 || (t.name || '').toLowerCase().indexOf(q) !== -1;
+            }).slice(0, 8);
+            if (matches.length === 0) { suggestionsEl.style.display = 'none'; return; }
+            var html = '';
+            matches.forEach(function(t) {
+                html += '<div class="network-suggestion" data-slug="' + escHtml(t.slug) + '" style="padding:0.4rem 0.75rem;cursor:pointer;border-bottom:1px solid var(--border);font-size:0.85rem;color:var(--text-primary);">';
+                html += '<strong>' + escHtml(t.name || t.slug) + '</strong> <span style="color:var(--text-muted);font-size:0.8rem;">' + escHtml(t.slug) + '</span>';
+                html += '</div>';
+            });
+            suggestionsEl.innerHTML = html;
+            suggestionsEl.style.display = 'block';
+            // Attach click handlers
+            var items = suggestionsEl.querySelectorAll('.network-suggestion');
+            items.forEach(function(item) {
+                item.addEventListener('mousedown', function(e) {
+                    e.preventDefault();
+                    var slug = item.getAttribute('data-slug');
+                    searchEl.value = slug;
+                    suggestionsEl.style.display = 'none';
+                    doSearch(slug);
+                });
+                item.addEventListener('mouseenter', function() { item.style.background = 'var(--border)'; });
+                item.addEventListener('mouseleave', function() { item.style.background = 'none'; });
+            });
+        }
+
         fetch(API + '/terms.json').then(function(r) { return r.json(); }).then(function(data) {
             allTerms = data.terms || [];
             if (allTerms.length < 5) { vizEl.innerHTML = '<p style="color:var(--text-muted);">Not enough data for visualization.</p>'; return; }
             allTerms.forEach(function(t) { allSlugMap[t.slug] = t; });
 
-            renderNetwork(allTerms.slice(0, 30), null);
+            // Default: show a featured term's subgraph
+            doSearch(findFeaturedTerm());
 
             var debounceTimer;
             searchEl.addEventListener('input', function() {
                 clearTimeout(debounceTimer);
                 var val = searchEl.value.trim();
-                debounceTimer = setTimeout(function() { doSearch(val); }, 300);
+                showSuggestions(val);
+                debounceTimer = setTimeout(function() { doSearch(val); }, 400);
+            });
+
+            searchEl.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    // Select first suggestion if available
+                    var first = suggestionsEl.querySelector('.network-suggestion');
+                    if (first && suggestionsEl.style.display !== 'none') {
+                        var slug = first.getAttribute('data-slug');
+                        searchEl.value = slug;
+                        suggestionsEl.style.display = 'none';
+                        doSearch(slug);
+                    } else {
+                        suggestionsEl.style.display = 'none';
+                        doSearch(searchEl.value.trim());
+                    }
+                }
+            });
+
+            searchEl.addEventListener('blur', function() {
+                // Delay to allow mousedown on suggestion
+                setTimeout(function() { suggestionsEl.style.display = 'none'; }, 150);
+            });
+
+            searchEl.addEventListener('focus', function() {
+                var val = searchEl.value.trim();
+                if (val.length >= 2) showSuggestions(val);
             });
         }).catch(function() {
             vizEl.innerHTML = '<p style="color:var(--text-muted);">Could not load network data.</p>';
