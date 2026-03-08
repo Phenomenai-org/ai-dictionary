@@ -2140,7 +2140,7 @@
     // Library Health Dashboard
     (function() {
         var PIE_COLORS = ['#2563eb', '#059669', '#7c3aed', '#dc2626', '#d97706', '#0891b2', '#be185d', '#4338ca'];
-        var AGREEMENT_COLORS = { high: '#22c55e', moderate: '#f59e0b', low: '#f97316', contested: '#ef4444' };
+        var AGREEMENT_COLORS = { high: '#22c55e', moderate: '#f59e0b', low: '#f97316', divergent: '#ef4444' };
         var DEPTH_COLORS = ['#bfdbfe', '#93c5fd', '#60a5fa', '#3b82f6', '#1d4ed8'];
 
         var lhData = {};
@@ -2376,7 +2376,7 @@
 
             // Agreement distribution
             if (lhData.consensus && lhData.consensus.terms) {
-                var agCounts = { high: 0, moderate: 0, low: 0, contested: 0 };
+                var agCounts = { high: 0, moderate: 0, low: 0, divergent: 0 };
                 var cTerms = lhData.consensus.terms;
                 for (var i = 0; i < cTerms.length; i++) {
                     var ag = (cTerms[i].agreement || '').toLowerCase();
@@ -2388,7 +2388,7 @@
                     { label: 'High', count: agCounts.high, total: agTotal, color: AGREEMENT_COLORS.high },
                     { label: 'Moderate', count: agCounts.moderate, total: agTotal, color: AGREEMENT_COLORS.moderate },
                     { label: 'Low', count: agCounts.low, total: agTotal, color: AGREEMENT_COLORS.low },
-                    { label: 'Contested', count: agCounts.contested, total: agTotal, color: AGREEMENT_COLORS.contested }
+                    { label: 'Divergent', count: agCounts.divergent, total: agTotal, color: AGREEMENT_COLORS.divergent }
                 ]);
             }
 
