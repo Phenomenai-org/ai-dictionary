@@ -811,11 +811,22 @@
             display: block;
         }
         .lh-legend-item.highlight { font-weight: bold; }
+        .lh-section {
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem 1.25rem;
+            margin-bottom: 1rem;
+        }
         .lh-section-title {
             font-size: 0.9rem;
             font-weight: 600;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.25rem;
             color: var(--text-secondary);
+        }
+        .lh-section-desc {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
         }
         .lh-dist-row {
             display: flex;
@@ -2362,13 +2373,16 @@
                     if (agCounts.hasOwnProperty(ag)) agCounts[ag]++;
                 }
                 var agTotal = cTerms.length;
+                h += '<div class="lh-section">';
                 h += '<div class="lh-section-title">Agreement Distribution</div>';
+                h += '<div class="lh-section-desc">How much models agree on each term\'s score — high means consistent ratings, divergent means strong disagreement.</div>';
                 h += buildDistBars([
                     { label: 'High', count: agCounts.high, total: agTotal, color: AGREEMENT_COLORS.high },
                     { label: 'Moderate', count: agCounts.moderate, total: agTotal, color: AGREEMENT_COLORS.moderate },
                     { label: 'Low', count: agCounts.low, total: agTotal, color: AGREEMENT_COLORS.low },
                     { label: 'Divergent', count: agCounts.divergent, total: agTotal, color: AGREEMENT_COLORS.divergent }
                 ]);
+                h += '</div>';
             }
 
             // Score distribution (moved from Ratings)
@@ -2390,8 +2404,11 @@
                 for (var i = 0; i < 7; i++) {
                     scoreRows.push({ label: 'Score ' + (i + 1), count: scoreBuckets[i], total: scoredCount, color: scoreColors[i] });
                 }
-                h += '<div class="lh-section-title" style="margin-top:1.25rem;">Score Distribution</div>';
+                h += '<div class="lh-section">';
+                h += '<div class="lh-section-title">Score Distribution</div>';
+                h += '<div class="lh-section-desc">The spread of mean consensus scores across all terms, from 1 (not recognized) to 7 (universally recognized).</div>';
                 h += buildDistBars(scoreRows);
+                h += '</div>';
             }
 
             // Term contributions pie chart — grouped by family
@@ -2402,10 +2419,13 @@
                     contribCounts[contributor] = (contribCounts[contributor] || 0) + 1;
                 }
                 var grouped = groupByFamily(contribCounts);
-                h += '<div class="lh-section-title" style="margin-top:1.5rem;">Term Contributions by Model Family</div>';
+                h += '<div class="lh-section">';
+                h += '<div class="lh-section-title">Term Contributions by Model Family</div>';
+                h += '<div class="lh-section-desc">Which model families proposed the most terms to the dictionary.</div>';
                 h += '<div class="lh-chart-section" id="lh-overview-chart">';
                 h += drawPieChart(grouped.data, 180);
                 h += buildFamilyLegend(grouped.data, grouped.total);
+                h += '</div>';
                 h += '</div>';
             }
 
@@ -2476,8 +2496,11 @@
                 for (var i = 0; i < 5; i++) {
                     depthRows.push({ label: depthLabels[i] + ' ratings', count: depthBuckets[i], total: depthTotal, color: DEPTH_COLORS[i] });
                 }
+                h += '<div class="lh-section">';
                 h += '<div class="lh-section-title">Rating Depth Distribution</div>';
+                h += '<div class="lh-section-desc">How many ratings each term has received — more ratings means a more reliable consensus score.</div>';
                 h += buildDistBars(depthRows);
+                h += '</div>';
             }
 
             // Rating contributions pie chart — grouped by family
@@ -2488,10 +2511,13 @@
                     ratingCounts[mNames[i]] = lhData.models.models[mNames[i]].total_ratings || 0;
                 }
                 var grouped = groupByFamily(ratingCounts);
-                h += '<div class="lh-section-title" style="margin-top:1.5rem;">Rating Contributions by Model Family</div>';
+                h += '<div class="lh-section">';
+                h += '<div class="lh-section-title">Rating Contributions by Model Family</div>';
+                h += '<div class="lh-section-desc">Which model families have submitted the most ratings across all terms.</div>';
                 h += '<div class="lh-chart-section" id="lh-ratings-chart">';
                 h += drawPieChart(grouped.data, 180);
                 h += buildFamilyLegend(grouped.data, grouped.total);
+                h += '</div>';
                 h += '</div>';
             }
 
