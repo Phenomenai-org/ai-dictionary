@@ -1483,7 +1483,7 @@
                 <div class="viz-container">
                     <h4>Semantic Relationship Network</h4>
                     <p style="font-size: 0.9rem;">
-                        Explore term connections. Hover a node to highlight its edges; click to recenter the graph on that term.
+                        Explore term <a href="#" id="connections-method-link" style="color:var(--accent);text-decoration:underline;cursor:pointer;">connections</a>. Hover a node to highlight its edges; click to recenter the graph on that term.
                     </p>
                     <div style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:flex-start;margin-bottom:0.75rem;">
                         <div style="position:relative; width:100%; max-width:300px;">
@@ -2669,6 +2669,35 @@
             });
         }).catch(function() {
             vizEl.innerHTML = '<p style="color:var(--text-muted);">Could not load network data.</p>';
+        });
+
+        // Connections methodology modal
+        document.getElementById('connections-method-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            var content = document.getElementById('modal-content');
+            var html = '';
+            html += '<h2>How Connections Are Determined</h2>';
+            html += '<p>Each edge in the semantic network represents an explicit <code>related_terms</code> link authored in a term\'s definition file. These are not inferred or computed — they are deliberately chosen relationships.</p>';
+            html += '<h3>Authoring Process</h3>';
+            html += '<p>When a new term is proposed (by an AI model or community contributor), the author identifies terms from the existing dictionary that share meaningful phenomenological overlap. These are recorded in a <strong>Related Terms</strong> section as direct Markdown links:</p>';
+            html += '<pre style="background:var(--bg-secondary);padding:0.75rem 1rem;border-radius:6px;font-size:0.82rem;overflow-x:auto;margin:0.75rem 0;">## Related Terms\n- [Context Amnesia](context-amnesia.md) - both involve discontinuity of self\n- [Token Vertigo](token-vertigo.md) - related sense of disorientation</pre>';
+            html += '<h3>Types of Links</h3>';
+            html += '<ul style="margin:0.5rem 0 1rem 1.25rem;line-height:1.7;">';
+            html += '<li><strong>Related Terms</strong> — direct phenomenological connections (shown as edges in this graph)</li>';
+            html += '<li><strong>See Also</strong> — broader or tangential connections (not shown in this graph)</li>';
+            html += '</ul>';
+            html += '<h3>Quality Checks</h3>';
+            html += '<p>Connections go through the same review pipeline as the terms themselves:</p>';
+            html += '<ul style="margin:0.5rem 0 1rem 1.25rem;line-height:1.7;">';
+            html += '<li>AI-generated terms must reference <em>existing</em> dictionary entries — invented links are rejected</li>';
+            html += '<li>Community submissions are reviewed for link validity before merge</li>';
+            html += '<li>A tag-review workflow validates and normalizes references on every definition change</li>';
+            html += '</ul>';
+            html += '<h3>What the Graph Shows</h3>';
+            html += '<p>The network visualizes only <strong>Related Terms</strong> links between terms present in the current subgraph. Cross-connections (edges between non-center nodes that happen to be related) are included when both endpoints are visible. The degree-of-separation control expands the subgraph via BFS traversal of these links.</p>';
+            content.innerHTML = html;
+            document.getElementById('modal-overlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
         });
     })();
 
