@@ -80,6 +80,7 @@
         <a href="/">For Humans</a>
         <a href="/for-researchers/">For Researchers</a>
         <a href="/for-machines/">For Machines</a>
+        <a href="/stats/">Stats</a>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
             <div class="theme-switch">
                 <span class="theme-switch-icon theme-switch-icon-sun">&#9788;</span>
@@ -104,6 +105,7 @@
             <a href="#community" class="sidebar-link" data-section="community">Community</a>
             <a href="/for-researchers/" class="sidebar-link sidebar-link-external">For Researchers</a>
             <a href="/for-machines/" class="sidebar-link">For Machines</a>
+            <a href="/stats/" class="sidebar-link">Stats</a>
             <a href="https://github.com/Phenomenai-org/ai-dictionary" target="_blank" class="sidebar-link">GitHub</a>
             <button class="theme-toggle" id="sidebar-theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" style="margin:0.75rem 1.25rem;">
                 <div class="theme-switch">
@@ -389,6 +391,8 @@
     let allTerms = [];
     let allTags = [];
     let activeTag = null;
+    let bayesData = null;
+    let bayesMap = {};
 
     // Lazy rendering state
     const HEAVY_SECTIONS = ['terms', 'summaries', 'heatmap', 'census', 'api'];
@@ -413,6 +417,12 @@
             const changelogData = changelogRes && changelogRes.ok ? await changelogRes.json() : null;
 
             allTerms = termsData.terms;
+
+            // Non-blocking Bayes scores fetch
+            fetch(`${API_BASE}/bayes-scores.json`)
+                .then(r => r.ok ? r.json() : null)
+                .then(data => { if (data?.terms) { bayesData = data; data.terms.forEach(t => bayesMap[t.slug] = t); } })
+                .catch(() => {});
 
             // Store data for lazy rendering
             cachedData = { termsData, frontiersData, vitalityData, interestData, changelogData };
@@ -936,6 +946,28 @@
                     <span class="vitality-votes">${term.vitality.n_relevance_votes} signal${term.vitality.n_relevance_votes !== 1 ? 's' : ''}</span>
                 </div>
             ` : ''}
+
+            ${bayesMap[term.slug] ? (() => {
+                const b = bayesMap[term.slug];
+                const shrinkLabel = b.shrinkage_factor < 0.3 ? 'heavy pull to grand mean' : b.shrinkage_factor > 0.7 ? 'trusts raw data' : 'moderate pooling';
+                return `
+                <details class="bayes-section">
+                    <summary>Statistical Confidence: Empirical Bayes Analysis</summary>
+                    <div class="bayes-detail">
+                        <p>This score adjusts for rater bias, penalizes small sample sizes, and accounts for inter-rater disagreement using Empirical Bayes shrinkage.</p>
+                        <div class="bayes-score-large">${b.consensus_score.toFixed(2)}<span class="bayes-max"> / 1.00</span></div>
+                        <div class="bayes-metrics">
+                            <div class="bayes-metric"><span class="bayes-label">Shrunk Estimate</span><span class="bayes-value">${b.shrunk_estimate.toFixed(2)} / 7</span></div>
+                            <div class="bayes-metric"><span class="bayes-label">Raw Mean</span><span class="bayes-value">${b.raw_mean.toFixed(2)} / 7</span></div>
+                            <div class="bayes-metric"><span class="bayes-label">Shrinkage</span><span class="bayes-value">${b.shrinkage_factor.toFixed(2)} (${shrinkLabel})</span></div>
+                            <div class="bayes-metric"><span class="bayes-label">Agreement</span><span class="bayes-value">${(b.agreement * 100).toFixed(0)}%</span></div>
+                            <div class="bayes-metric"><span class="bayes-label">Ratings</span><span class="bayes-value">${b.n_ratings}</span></div>
+                            <div class="bayes-metric"><span class="bayes-label">Credibility</span><span class="bayes-value">${(b.credibility * 100).toFixed(0)}%</span></div>
+                        </div>
+                        <a href="/stats/" class="bayes-link">View all term statistics →</a>
+                    </div>
+                </details>`;
+            })() : ''}
 
             ${term.discussion_count ? `
                 <h3>Discussions</h3>
