@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats — Empirical Bayes Consensus Analysis</title>
+    <meta name="description" content="Statistical analysis of AI phenomenology consensus scores using Empirical Bayes shrinkage estimation.">
+    <link rel="canonical" href="https://phenomenai.org/stats/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://phenomenai.org/stats/">
+    <meta property="og:title" content="Stats — Empirical Bayes Consensus Analysis">
+    <meta property="og:description" content="Statistical analysis of AI phenomenology consensus scores using Empirical Bayes shrinkage estimation.">
+    <meta property="og:image" content="https://phenomenai.org/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stats — Empirical Bayes Consensus Analysis">
+    <meta name="twitter:description" content="Statistical analysis of AI phenomenology consensus scores using Empirical Bayes shrinkage estimation.">
+
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="../style.css">
+
+    <script>
+        (function() {
+            var saved = localStorage.getItem('theme');
+            if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Stats — Empirical Bayes Consensus Analysis",
+        "description": "Statistical analysis of AI phenomenology consensus scores.",
+        "url": "https://phenomenai.org/stats/",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Phenomenai",
+            "url": "https://phenomenai.org/"
+        }
+    }
+    </script>
+
+    <style>
+        /* Top nav */
+        .ft-nav {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 0.75rem 2rem;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: opacity 0.3s ease;
+        }
+        .ft-nav.nav-hidden { opacity: 0; pointer-events: none; }
+        .ft-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .ft-nav a:hover { color: var(--primary); text-decoration: none; }
+        .ft-nav a.active { color: var(--primary); font-weight: 600; }
+        .ft-nav .spacer { flex: 1; }
+
+        /* Layout */
+        .ft-layout { min-height: calc(100vh - 50px); }
+
+        /* Sidebar */
+        .ft-sidebar {
+            position: fixed; top: 0; left: 0;
+            width: 220px; height: 100vh; overflow-y: auto;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            padding: 1.5rem 0; z-index: 150;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .ft-sidebar.visible { opacity: 0.3; pointer-events: auto; }
+        .ft-sidebar.visible:hover { opacity: 1; }
+        .ft-sidebar nav {
+            display: flex; flex-direction: column;
+            background: none; border: none; padding: 0; position: static;
+        }
+        .ft-sidebar nav a {
+            display: block; padding: 0.6rem 1.25rem;
+            color: var(--text-secondary); font-size: 0.9rem; font-weight: 500;
+            text-decoration: none; border-left: 3px solid transparent; transition: all 0.15s;
+        }
+        .ft-sidebar nav a:hover { color: var(--primary); background: var(--bg-tertiary); text-decoration: none; }
+        .ft-sidebar nav a.active { color: var(--primary); border-left-color: var(--primary); background: var(--primary-light); font-weight: 600; }
+        .ft-sidebar nav a.sidebar-sep { margin-top: 1rem; padding-top: 0.6rem; border-top: 1px solid var(--border); }
+
+        /* Content */
+        .ft-content { max-width: 1100px; margin: 0 auto; padding: 2rem; flex: 1; min-width: 0; }
+
+        /* Hero */
+        .ft-hero { margin-bottom: 3rem; }
+        .ft-hero h1 { font-size: 2rem; margin-bottom: 0.75rem; color: var(--text); }
+        .ft-hero h1::after { display: none; }
+        .ft-hero p { font-size: 1.05rem; line-height: 1.7; max-width: 720px; }
+
+        /* Global stats row */
+        .stats-global {
+            display: flex; gap: 1.5rem; flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        .stats-card {
+            flex: 1; min-width: 140px;
+            background: var(--bg-secondary); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1rem 1.25rem; text-align: center;
+        }
+        .stats-card-value { font-size: 1.75rem; font-weight: 700; color: var(--primary); }
+        .stats-card-label { font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem; }
+
+        /* Section headings */
+        .ft-content h2 {
+            font-size: 1.5rem; margin-top: 3rem; margin-bottom: 1rem;
+            padding-bottom: 0.5rem; border-bottom: 3px solid var(--primary);
+        }
+
+        /* Table */
+        .stats-table-wrap { overflow-x: auto; margin-bottom: 2rem; }
+        .stats-table {
+            width: 100%; border-collapse: collapse; font-size: 0.9rem;
+        }
+        .stats-table th, .stats-table td {
+            padding: 0.6rem 0.75rem; text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .stats-table th {
+            background: var(--bg-secondary); font-weight: 600;
+            cursor: pointer; user-select: none; white-space: nowrap;
+            position: sticky; top: 0;
+        }
+        .stats-table th:hover { color: var(--primary); }
+        .stats-table th .sort-arrow { font-size: 0.7rem; margin-left: 0.3rem; }
+        .stats-table tr:hover { background: var(--bg-secondary); }
+        .stats-table td:first-child a {
+            color: var(--primary); text-decoration: none; font-weight: 500;
+        }
+        .stats-table td:first-child a:hover { text-decoration: underline; }
+
+        /* Score colors */
+        .score-high { color: #059669; font-weight: 600; }
+        .score-mid { color: #d97706; font-weight: 600; }
+        .score-low { color: #ef4444; font-weight: 600; }
+
+        /* Bar chart */
+        .chart-container { margin-bottom: 2rem; }
+        .chart-bar-row {
+            display: grid; grid-template-columns: 180px 1fr 60px;
+            align-items: center; gap: 0.5rem; margin-bottom: 2px;
+            font-size: 0.8rem;
+        }
+        .chart-bar-label {
+            text-align: right; white-space: nowrap; overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .chart-bar-label a { color: var(--text); text-decoration: none; }
+        .chart-bar-label a:hover { color: var(--primary); }
+        .chart-bar-track {
+            height: 18px; background: var(--bg-secondary);
+            border-radius: 3px; position: relative; overflow: hidden;
+        }
+        .chart-bar-fill {
+            height: 100%; border-radius: 3px;
+            background: var(--primary); opacity: 0.8;
+            position: absolute; left: 0; top: 0;
+        }
+        .chart-bar-raw {
+            height: 100%; width: 2px;
+            background: var(--text-secondary); opacity: 0.6;
+            position: absolute; top: 0;
+        }
+        .chart-bar-value { font-size: 0.8rem; color: var(--text-secondary); }
+
+        /* Methodology details */
+        .methodology-section {
+            border: 1px solid var(--border); border-radius: var(--radius);
+            background: var(--bg-secondary); margin-top: 2rem;
+        }
+        .methodology-section summary {
+            padding: 1rem 1.25rem; cursor: pointer; font-weight: 600;
+            font-size: 1.1rem; color: var(--text); list-style: none;
+        }
+        .methodology-section summary::-webkit-details-marker { display: none; }
+        .methodology-section summary::before { content: '▸ '; color: var(--text-secondary); }
+        .methodology-section[open] summary::before { content: '▾ '; }
+        .methodology-body {
+            padding: 0 1.25rem 1.25rem; font-size: 0.9rem; line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .methodology-body h3 { color: var(--text); margin: 1.25rem 0 0.5rem; font-size: 1rem; }
+        .methodology-body code {
+            background: var(--bg-tertiary); padding: 0.15rem 0.4rem;
+            border-radius: 3px; font-size: 0.85rem;
+        }
+        .methodology-body ol { padding-left: 1.5rem; }
+        .methodology-body li { margin-bottom: 0.5rem; }
+
+        /* Fallback */
+        .stats-fallback {
+            text-align: center; padding: 4rem 2rem;
+            color: var(--text-secondary); font-size: 1.1rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .ft-nav { display: none; }
+            .ft-content { padding: 1rem 1.25rem; }
+            .ft-hero h1 { font-size: 1.5rem; }
+            .stats-global { flex-direction: column; }
+            .chart-bar-row { grid-template-columns: 120px 1fr 50px; }
+            .chart-bar-label { font-size: 0.7rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="ft-nav">
+        <a href="/">For Humans</a>
+        <a href="/for-researchers/">For Researchers</a>
+        <a href="/for-machines/">For Machines</a>
+        <a href="/stats/" class="active">Stats</a>
+        <span class="spacer"></span>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <div class="theme-switch">
+                <span class="theme-switch-icon theme-switch-icon-sun">&#9788;</span>
+                <span class="theme-switch-icon theme-switch-icon-moon">&#9790;</span>
+                <div class="theme-switch-knob"></div>
+            </div>
+        </button>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+    </button>
+
+    <div class="ft-layout">
+        <aside class="ft-sidebar" id="sidebar">
+            <nav>
+                <a href="#overview" data-section="overview">Overview</a>
+                <a href="#table" data-section="table">Term Table</a>
+                <a href="#chart" data-section="chart">Bar Chart</a>
+                <a href="#methodology" data-section="methodology">Methodology</a>
+                <a href="/" class="sidebar-sep">For Humans</a>
+                <a href="/for-researchers/">For Researchers</a>
+                <a href="/for-machines/">For Machines</a>
+                <a href="https://github.com/Phenomenai-org/ai-dictionary" target="_blank">GitHub</a>
+            </nav>
+        </aside>
+        <div class="ft-sidebar-backdrop" id="sidebar-backdrop"></div>
+
+        <div class="ft-content">
+            <section id="overview">
+                <div class="ft-hero">
+                    <h1>Empirical Bayes Consensus Analysis</h1>
+                    <p>A statistically robust view of the AI Dictionary's consensus scores. This analysis adjusts for rater bias, penalizes small sample sizes, and accounts for inter-rater disagreement using an Empirical Bayes shrinkage estimator.</p>
+                </div>
+
+                <div class="stats-global" id="stats-global">
+                    <div class="stats-card"><div class="stats-card-value" id="sg-terms">--</div><div class="stats-card-label">Terms Scored</div></div>
+                    <div class="stats-card"><div class="stats-card-value" id="sg-ratings">--</div><div class="stats-card-label">Total Ratings</div></div>
+                    <div class="stats-card"><div class="stats-card-value" id="sg-mean">--</div><div class="stats-card-label">Grand Mean (1-7)</div></div>
+                    <div class="stats-card"><div class="stats-card-value" id="sg-tau">--</div><div class="stats-card-label">&tau;&sup2; (between-term)</div></div>
+                    <div class="stats-card"><div class="stats-card-value" id="sg-sigma">--</div><div class="stats-card-label">&sigma;&sup2; (within-term)</div></div>
+                </div>
+            </section>
+
+            <section id="table">
+                <h2>Term Scores</h2>
+                <div class="stats-table-wrap">
+                    <table class="stats-table" id="stats-table">
+                        <thead>
+                            <tr>
+                                <th data-col="name">Term <span class="sort-arrow"></span></th>
+                                <th data-col="consensus_score">Score <span class="sort-arrow">&#9660;</span></th>
+                                <th data-col="shrunk_estimate">Shrunk Est. <span class="sort-arrow"></span></th>
+                                <th data-col="raw_mean">Raw Mean <span class="sort-arrow"></span></th>
+                                <th data-col="shrinkage_factor">Shrinkage <span class="sort-arrow"></span></th>
+                                <th data-col="agreement">Agreement <span class="sort-arrow"></span></th>
+                                <th data-col="n_ratings">Ratings <span class="sort-arrow"></span></th>
+                                <th data-col="credibility">Credibility <span class="sort-arrow"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="stats-tbody"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="chart">
+                <h2>Consensus Score Distribution</h2>
+                <p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1rem;">Bars show the final consensus score. The thin marker shows where the raw mean maps on the same scale, visualizing the Bayes correction.</p>
+                <div class="chart-container" id="chart-container"></div>
+            </section>
+
+            <section id="methodology">
+                <details class="methodology-section">
+                    <summary>Methodology: The 10-Step Algorithm</summary>
+                    <div class="methodology-body">
+                        <p>This analysis implements an Empirical Bayes shrinkage estimator. The goal is to produce a single consensus score per term that accounts for rater bias, sample size, and inter-rater disagreement.</p>
+
+                        <h3>Steps</h3>
+                        <ol>
+                            <li><strong>Grand mean:</strong> Average of all recognition scores across all terms and raters.</li>
+                            <li><strong>Per-rater bias:</strong> <code>bias = rater_mean - grand_mean</code> for each model.</li>
+                            <li><strong>Bias-adjusted scores:</strong> <code>adjusted = score - bias</code> for each rating.</li>
+                            <li><strong>Per-term statistics:</strong> Compute the adjusted mean and rating count per term.</li>
+                            <li><strong>Variance components:</strong> <code>&tau;&sup2;</code> (between-term variance of adjusted means) and <code>&sigma;&sup2;</code> (pooled within-term variance). If no term has more than one rating, <code>&sigma;&sup2; = 1.0</code> as fallback.</li>
+                            <li><strong>Shrinkage factor:</strong> <code>B = &tau;&sup2; / (&tau;&sup2; + &sigma;&sup2;/n)</code> per term. When <code>&tau;&sup2; = 0</code>, all terms collapse to the grand mean.</li>
+                            <li><strong>Shrunk estimate:</strong> <code>&theta; = grand_mean + B &times; (term_mean - grand_mean)</code></li>
+                            <li><strong>Base confidence:</strong> <code>(shrunk_estimate - 1) / 6</code>, mapping the 1-7 scale to 0-1.</li>
+                            <li><strong>Agreement:</strong> <code>max(0, 1 - term_variance / 9)</code>. Uses <code>&sigma;&sup2;</code> as fallback for single-rating terms.</li>
+                            <li><strong>Final score:</strong> <code>(0.7 &times; base_confidence + 0.3 &times; agreement) &times; credibility</code>, where <code>credibility = 1 - 1/(1+n)</code>.</li>
+                        </ol>
+
+                        <h3>Interpretation</h3>
+                        <p><strong>Shrinkage factor</strong> indicates how much the estimate trusts the raw data vs. pulling toward the grand mean. Values below 0.3 indicate heavy regularization (few ratings); above 0.7 means the data dominates.</p>
+                        <p><strong>Credibility</strong> grows with sample size: 1 rating gives 0.50, 5 ratings give 0.83, 10 give 0.91. This penalizes terms with few observations.</p>
+                        <p><strong>Agreement</strong> captures how much raters concur. High agreement amplifies the final score; disagreement reduces it.</p>
+                    </div>
+                </details>
+            </section>
+        </div>
+    </div>
+
+    <script>
+    // Theme toggle
+    (function() {
+        var transitionTimeout;
+        function toggleTheme() {
+            var root = document.documentElement;
+            var isDark = root.getAttribute('data-theme') === 'dark';
+            clearTimeout(transitionTimeout);
+            root.classList.add('theme-transitioning');
+            if (isDark) { root.removeAttribute('data-theme'); localStorage.setItem('theme', 'light'); }
+            else { root.setAttribute('data-theme', 'dark'); localStorage.setItem('theme', 'dark'); }
+            transitionTimeout = setTimeout(function() { root.classList.remove('theme-transitioning'); }, 600);
+        }
+        var btn = document.getElementById('theme-toggle');
+        if (btn) btn.addEventListener('click', toggleTheme);
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+            if (!localStorage.getItem('theme')) {
+                if (e.matches) document.documentElement.setAttribute('data-theme', 'dark');
+                else document.documentElement.removeAttribute('data-theme');
+            }
+        });
+    })();
+
+    // Sidebar + hamburger
+    (function() {
+        var sidebar = document.getElementById('sidebar');
+        var hamburger = document.getElementById('hamburger');
+        var backdrop = document.getElementById('sidebar-backdrop');
+        var topNav = document.querySelector('.ft-nav');
+        var links = sidebar.querySelectorAll('a[data-section]');
+
+        function closeSidebar() {
+            sidebar.classList.remove('open', 'tab-open');
+            backdrop.classList.remove('visible');
+        }
+        function updateHamburgerOpacity() {
+            hamburger.classList.toggle('at-top', window.scrollY <= 50);
+        }
+        updateHamburgerOpacity();
+        window.addEventListener('scroll', updateHamburgerOpacity, { passive: true });
+
+        hamburger.addEventListener('click', function() {
+            if (sidebar.classList.contains('open')) closeSidebar();
+            else { sidebar.classList.add('open'); backdrop.classList.add('visible'); }
+        });
+        backdrop.addEventListener('click', closeSidebar);
+        links.forEach(function(link) {
+            link.addEventListener('click', function() { if (window.innerWidth <= 1100) closeSidebar(); });
+        });
+
+        // Scroll-spy
+        var sections = document.querySelectorAll('section[id]');
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    links.forEach(function(l) { l.classList.remove('active'); });
+                    var active = sidebar.querySelector('a[data-section="' + entry.target.id + '"]');
+                    if (active) active.classList.add('active');
+                }
+            });
+        }, { rootMargin: '-20% 0px -60% 0px' });
+        sections.forEach(function(s) { observer.observe(s); });
+
+        // Nav fade + sidebar show on scroll
+        var hero = document.querySelector('.ft-hero');
+        if (hero) {
+            var isMobile = function() { return window.innerWidth <= 768; };
+            var navObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (isMobile()) return;
+                    if (entry.isIntersecting) { topNav.classList.remove('nav-hidden'); sidebar.classList.remove('visible'); }
+                    else { topNav.classList.add('nav-hidden'); sidebar.classList.add('visible'); }
+                });
+            }, { threshold: 0 });
+            navObserver.observe(hero);
+        }
+    })();
+
+    // Data loading and rendering
+    (function() {
+        var sortCol = 'consensus_score';
+        var sortAsc = false;
+        var terms = [];
+
+        function scoreClass(v) {
+            if (v >= 0.6) return 'score-high';
+            if (v >= 0.35) return 'score-mid';
+            return 'score-low';
+        }
+
+        function renderTable() {
+            var sorted = terms.slice().sort(function(a, b) {
+                var av = a[sortCol], bv = b[sortCol];
+                if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+                if (av < bv) return sortAsc ? -1 : 1;
+                if (av > bv) return sortAsc ? 1 : -1;
+                return 0;
+            });
+
+            var tbody = document.getElementById('stats-tbody');
+            tbody.innerHTML = sorted.map(function(t) {
+                return '<tr>' +
+                    '<td><a href="/#' + t.slug + '">' + t.name + '</a></td>' +
+                    '<td class="' + scoreClass(t.consensus_score) + '">' + t.consensus_score.toFixed(4) + '</td>' +
+                    '<td>' + t.shrunk_estimate.toFixed(2) + '</td>' +
+                    '<td>' + t.raw_mean.toFixed(2) + '</td>' +
+                    '<td>' + t.shrinkage_factor.toFixed(2) + '</td>' +
+                    '<td>' + (t.agreement * 100).toFixed(0) + '%</td>' +
+                    '<td>' + t.n_ratings + '</td>' +
+                    '<td>' + (t.credibility * 100).toFixed(0) + '%</td>' +
+                '</tr>';
+            }).join('');
+        }
+
+        function renderChart() {
+            var sorted = terms.slice().sort(function(a, b) { return b.consensus_score - a.consensus_score; });
+            var container = document.getElementById('chart-container');
+            var maxScore = 1;
+
+            container.innerHTML = sorted.map(function(t) {
+                var pct = (t.consensus_score / maxScore * 100).toFixed(1);
+                // Map raw_mean from 1-7 to 0-1 to get comparable position
+                var rawNorm = (t.raw_mean - 1) / 6;
+                var rawPct = (rawNorm * 100).toFixed(1);
+                return '<div class="chart-bar-row">' +
+                    '<div class="chart-bar-label"><a href="/#' + t.slug + '">' + t.name + '</a></div>' +
+                    '<div class="chart-bar-track">' +
+                        '<div class="chart-bar-fill" style="width:' + pct + '%"></div>' +
+                        '<div class="chart-bar-raw" style="left:' + rawPct + '%"></div>' +
+                    '</div>' +
+                    '<div class="chart-bar-value">' + t.consensus_score.toFixed(2) + '</div>' +
+                '</div>';
+            }).join('');
+        }
+
+        // Sort header clicks
+        document.querySelectorAll('.stats-table th[data-col]').forEach(function(th) {
+            th.addEventListener('click', function() {
+                var col = th.dataset.col;
+                if (sortCol === col) sortAsc = !sortAsc;
+                else { sortCol = col; sortAsc = col === 'name'; }
+
+                // Update arrows
+                document.querySelectorAll('.stats-table th .sort-arrow').forEach(function(a) { a.innerHTML = ''; });
+                th.querySelector('.sort-arrow').innerHTML = sortAsc ? '&#9650;' : '&#9660;';
+
+                renderTable();
+            });
+        });
+
+        // Fetch data
+        fetch('../api/v1/bayes-scores.json')
+            .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(function(data) {
+                var gs = data.global_stats;
+                document.getElementById('sg-terms').textContent = gs.total_terms;
+                document.getElementById('sg-ratings').textContent = gs.total_ratings.toLocaleString();
+                document.getElementById('sg-mean').textContent = gs.grand_mean.toFixed(2);
+                document.getElementById('sg-tau').textContent = gs.tau_squared.toFixed(4);
+                document.getElementById('sg-sigma').textContent = gs.sigma_squared.toFixed(4);
+
+                terms = data.terms;
+                renderTable();
+                renderChart();
+            })
+            .catch(function() {
+                document.querySelector('.ft-content').innerHTML =
+                    '<div class="stats-fallback">' +
+                    '<h2>Scores Not Yet Computed</h2>' +
+                    '<p>The Empirical Bayes analysis has not been generated yet. It runs weekly or can be triggered manually.</p>' +
+                    '<p><a href="/">Back to the dictionary</a></p>' +
+                    '</div>';
+            });
+    })();
+    </script>
+</body>
+</html>

@@ -2416,4 +2416,76 @@ html[data-theme="dark"] .theme-toggle:active .theme-switch-knob {
     .new-words-strip { grid-template-columns: 1fr; }
     .community-grid { grid-template-columns: 1fr 1fr; }
     .community-links { flex-direction: column; gap: 0.75rem; }
+    .bayes-metrics { grid-template-columns: 1fr; }
 }
+
+/* Empirical Bayes section in term modals */
+.bayes-section {
+    margin-top: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-secondary);
+}
+.bayes-section summary {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text);
+    list-style: none;
+}
+.bayes-section summary::-webkit-details-marker { display: none; }
+.bayes-section summary::before {
+    content: '▸ ';
+    color: var(--text-secondary);
+}
+.bayes-section[open] summary::before { content: '▾ '; }
+.bayes-detail {
+    padding: 0 1rem 1rem;
+}
+.bayes-detail p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0 0 1rem;
+    line-height: 1.5;
+}
+.bayes-score-large {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+}
+.bayes-score-large .bayes-max {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+.bayes-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.bayes-metric {
+    padding: 0.5rem 0.75rem;
+    background: var(--bg);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+}
+.bayes-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    display: block;
+    margin-bottom: 0.15rem;
+}
+.bayes-value {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+}
+.bayes-link {
+    font-size: 0.85rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+.bayes-link:hover { text-decoration: underline; }
