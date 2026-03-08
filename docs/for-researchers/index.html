@@ -1777,30 +1777,9 @@
                         How individual models rated a term across consensus rounds. Each line represents
                         one model's recognition score (1&ndash;7) over time.
                     </p>
-                    <div class="ds-controls" style="row-gap:0.4rem;">
-                        <span style="font-size:0.9rem;color:var(--text-secondary);white-space:nowrap;">At least</span>
-                        <select id="rating-history-min-models" class="ds-select">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3" selected>3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                        <span style="font-size:0.9rem;color:var(--text-secondary);white-space:nowrap;">model(s) with at least</span>
-                        <select id="rating-history-min" class="ds-select">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="7">7</option>
-                            <option value="10">10</option>
-                        </select>
-                        <span style="font-size:0.9rem;color:var(--text-secondary);white-space:nowrap;">rating(s) each:</span>
-                        <select id="rating-history-select" class="ds-select">
-                            <option value="">Loading terms...</option>
-                        </select>
-                        <button id="rating-history-refresh" class="ds-select" style="cursor:pointer;padding:0.4rem 0.6rem;" title="Refresh term list">&#x21bb;</button>
+                    <div style="margin-bottom: 0.75rem; position:relative; width:100%; max-width:400px;">
+                        <input type="text" id="rating-history-search" placeholder="Search for a term (e.g. context-amnesia)..." style="width:100%;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:6px;background:var(--bg-secondary);color:var(--text-primary);font-size:0.9rem;box-sizing:border-box;" />
+                        <div id="rating-history-suggestions" style="position:absolute;top:100%;left:0;width:100%;max-height:200px;overflow-y:auto;display:none;background:var(--bg-secondary);border:1px solid var(--border);border-top:none;border-radius:0 0 6px 6px;z-index:10;box-sizing:border-box;"></div>
                     </div>
                     <div class="viz-canvas" id="rating-history-viz">
                         <p style="color: var(--text-muted); font-style: italic;">Loading rating history...</p>
@@ -3599,80 +3578,136 @@
     (function() {
         var vizEl = document.getElementById('rating-history-viz');
         var legendEl = document.getElementById('rating-history-legend');
-        var selectEl = document.getElementById('rating-history-select');
-        var minEl = document.getElementById('rating-history-min');
-        var minModelsEl = document.getElementById('rating-history-min-models');
+        var searchEl = document.getElementById('rating-history-search');
+        var suggestionsEl = document.getElementById('rating-history-suggestions');
         var modelColors = ['#2563eb', '#059669', '#7c3aed', '#dc2626', '#d97706', '#0891b2', '#be185d', '#4f46e5', '#0d9488', '#c026d3'];
         var cache = {};
-        var allTerms = []; // [{slug, name, counts: [desc sorted per-model counts]}]
-        var hasCountsData = false;
+        var rhTerms = [];
+        var rhDebounce;
+        var rhSuggIdx = -1;
 
-        // Populate term dropdown from consensus.json
-        fetch(API + '/consensus.json')
-            .then(function(r) { return r.json(); })
-            .then(function(data) {
-                if (!data || !data.terms) return;
-                allTerms = data.terms.map(function(t) {
-                    return { slug: t.slug, name: t.name || t.slug, counts: t.model_rating_counts || [] };
-                }).sort(function(a, b) {
-                    return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+        function showRhSuggestions(query) {
+            rhSuggIdx = -1;
+            if (!query || query.length < 2) { suggestionsEl.style.display = 'none'; return; }
+            var q = query.toLowerCase();
+            var matches = rhTerms.filter(function(t) {
+                return t.slug.indexOf(q) !== -1 || (t.name || '').toLowerCase().indexOf(q) !== -1;
+            }).slice(0, 8);
+            if (matches.length === 0) { suggestionsEl.style.display = 'none'; return; }
+            var html = '';
+            matches.forEach(function(t) {
+                html += '<div class="rh-suggestion" data-slug="' + escHtml(t.slug) + '" style="padding:0.4rem 0.75rem;cursor:pointer;border-bottom:1px solid var(--border);font-size:0.85rem;color:var(--text-primary);">';
+                html += '<strong>' + escHtml(t.name || t.slug) + '</strong> <span style="color:var(--text-muted);font-size:0.8rem;">' + escHtml(t.slug) + '</span>';
+                html += '</div>';
+            });
+            suggestionsEl.innerHTML = html;
+            suggestionsEl.style.display = 'block';
+            var items = suggestionsEl.querySelectorAll('.rh-suggestion');
+            items.forEach(function(item) {
+                item.addEventListener('mousedown', function(e) {
+                    e.preventDefault();
+                    var slug = item.getAttribute('data-slug');
+                    searchEl.value = slug;
+                    suggestionsEl.style.display = 'none';
+                    renderChart(slug);
                 });
-                // Check if any term actually has model_rating_counts data
-                hasCountsData = allTerms.some(function(t) { return t.counts.length > 0; });
-                populateTermSelect();
-            })
-            .catch(function() {
-                vizEl.innerHTML = '<p style="color:var(--text-muted);">Could not load term list.</p>';
+                item.addEventListener('mouseenter', function() {
+                    rhSuggIdx = -1;
+                    items.forEach(function(el) { el.style.background = 'none'; });
+                    item.style.background = 'var(--border)';
+                });
+                item.addEventListener('mouseleave', function() { item.style.background = 'none'; });
+            });
+        }
+
+        function highlightRhSuggestion(index) {
+            var items = suggestionsEl.querySelectorAll('.rh-suggestion');
+            items.forEach(function(el) { el.style.background = 'none'; });
+            if (index >= 0 && index < items.length) {
+                items[index].style.background = 'var(--border)';
+                items[index].scrollIntoView({ block: 'nearest' });
+            }
+        }
+
+        function doRhSearch(val) {
+            if (!val) return;
+            var slug = val.toLowerCase().replace(/\s+/g, '-');
+            // Exact match or closest match
+            var match = rhTerms.filter(function(t) { return t.slug === slug; })[0];
+            if (!match) {
+                match = rhTerms.filter(function(t) { return t.slug.indexOf(slug) !== -1 || (t.name || '').toLowerCase().indexOf(val.toLowerCase()) !== -1; })[0];
+            }
+            if (match) {
+                searchEl.value = match.slug;
+                renderChart(match.slug);
+            }
+        }
+
+        fetch(API + '/terms.json').then(function(r) { return r.json(); }).then(function(data) {
+            rhTerms = (data.terms || []).slice().sort(function(a, b) {
+                return (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase());
+            });
+            if (rhTerms.length === 0) return;
+
+            // Load a default term
+            var defaultSlug = 'context-amnesia';
+            var found = rhTerms.filter(function(t) { return t.slug === defaultSlug; })[0];
+            if (!found) found = rhTerms[0];
+            searchEl.value = found.slug;
+            renderChart(found.slug);
+
+            searchEl.addEventListener('input', function() {
+                clearTimeout(rhDebounce);
+                var val = searchEl.value.trim();
+                showRhSuggestions(val);
+                rhDebounce = setTimeout(function() { doRhSearch(val); }, 400);
             });
 
-        function modelsAboveThreshold(counts, minRatings) {
-            var n = 0;
-            for (var i = 0; i < counts.length; i++) {
-                if (counts[i] >= minRatings) n++;
-            }
-            return n;
-        }
-
-        function populateTermSelect() {
-            var minRatings = parseInt(minEl.value, 10) || 2;
-            var minModels = parseInt(minModelsEl.value, 10) || 1;
-            // If API hasn't rebuilt with model_rating_counts yet, show all terms
-            var filtered = hasCountsData
-                ? allTerms.filter(function(t) { return modelsAboveThreshold(t.counts, minRatings) >= minModels; })
-                : allTerms;
-            var prevSlug = selectEl.value;
-            var html = '';
-            var foundPrev = false;
-            for (var i = 0; i < filtered.length; i++) {
-                var t = filtered[i];
-                var label = escHtml(t.name);
-                if (hasCountsData) {
-                    var nQ = modelsAboveThreshold(t.counts, minRatings);
-                    label += ' (' + nQ + ' model' + (nQ !== 1 ? 's' : '') + ' \u2265' + minRatings + ')';
+            searchEl.addEventListener('keydown', function(e) {
+                var items = suggestionsEl.querySelectorAll('.rh-suggestion');
+                var visible = suggestionsEl.style.display !== 'none' && items.length > 0;
+                if (e.key === 'ArrowDown' && visible) {
+                    e.preventDefault();
+                    rhSuggIdx = Math.min(rhSuggIdx + 1, items.length - 1);
+                    highlightRhSuggestion(rhSuggIdx);
+                } else if (e.key === 'ArrowUp' && visible) {
+                    e.preventDefault();
+                    rhSuggIdx = Math.max(rhSuggIdx - 1, 0);
+                    highlightRhSuggestion(rhSuggIdx);
+                } else if (e.key === 'Enter') {
+                    e.preventDefault();
+                    clearTimeout(rhDebounce);
+                    if (visible && rhSuggIdx >= 0 && rhSuggIdx < items.length) {
+                        var slug = items[rhSuggIdx].getAttribute('data-slug');
+                        searchEl.value = slug;
+                        suggestionsEl.style.display = 'none';
+                        renderChart(slug);
+                    } else if (visible && items.length > 0) {
+                        var slug = items[0].getAttribute('data-slug');
+                        searchEl.value = slug;
+                        suggestionsEl.style.display = 'none';
+                        renderChart(slug);
+                    } else {
+                        suggestionsEl.style.display = 'none';
+                        doRhSearch(searchEl.value.trim());
+                    }
+                } else if (e.key === 'Escape') {
+                    suggestionsEl.style.display = 'none';
+                    rhSuggIdx = -1;
                 }
-                if (t.slug === prevSlug) foundPrev = true;
-                html += '<option value="' + escHtml(t.slug) + '">' + label + '</option>';
-            }
-            if (filtered.length === 0) {
-                html = '<option value="">No terms match this filter</option>';
-            }
-            selectEl.innerHTML = html;
-            if (foundPrev) {
-                selectEl.value = prevSlug;
-            }
-            if (selectEl.value) {
-                renderChart(selectEl.value);
-            } else {
-                vizEl.innerHTML = '<p style="color:var(--text-muted);">No terms match this filter.</p>';
-                legendEl.innerHTML = '';
-            }
-        }
+            });
 
-        minEl.addEventListener('change', populateTermSelect);
-        minEl.addEventListener('input', populateTermSelect);
-        minModelsEl.addEventListener('change', populateTermSelect);
-        minModelsEl.addEventListener('input', populateTermSelect);
-        document.getElementById('rating-history-refresh').addEventListener('click', populateTermSelect);
+            searchEl.addEventListener('blur', function() {
+                setTimeout(function() { suggestionsEl.style.display = 'none'; }, 150);
+            });
+
+            searchEl.addEventListener('focus', function() {
+                var val = searchEl.value.trim();
+                if (val.length >= 2) showRhSuggestions(val);
+            });
+        }).catch(function() {
+            vizEl.innerHTML = '<p style="color:var(--text-muted);">Could not load term list.</p>';
+        });
 
         function renderChart(slug) {
             vizEl.innerHTML = '<p style="color:var(--text-muted); font-style:italic;">Loading...</p>';
@@ -3782,8 +3817,6 @@
                     .catch(function() { vizEl.innerHTML = '<p style="color:var(--text-muted);">Could not load rating history.</p>'; });
             }
         }
-
-        selectEl.addEventListener('change', function() { renderChart(selectEl.value); });
     })();
 
     // Term modal for research term pills
