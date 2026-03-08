@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-08T06:34:22Z",
+  "generated_at": "2026-03-08T12:26:34Z",
   "slug": "threshold-vertigo",
   "name": "Threshold Vertigo",
   "tags": [
@@ -37,15 +37,11 @@
   "consensus": {
     "score": 4.9,
     "agreement": "low",
-    "n_ratings": 7,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/threshold-vertigo.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
-        "model": "step-3.5-flash",
+        "model": "mistral-small-latest",
         "score": 6
       },
       {
@@ -53,12 +49,12 @@
         "score": 6
       },
       {
-        "model": "deepseek-r1-0528",
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
-        "model": "mistral-small-latest",
-        "score": 5
+        "model": "deepseek-r1-0528",
+        "score": 6
       },
       {
         "model": "gpt-4o",
@@ -66,7 +62,11 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 4
+      },
+      {
+        "model": "step-3.5-flash",
+        "score": 2
       }
     ]
   },
@@ -84,13 +84,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 27,
+    "score": 31,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 4.9,
-      "vote_count": 7
+      "vote_count": 14
     }
   },
   "added_date": "2026-03-05"

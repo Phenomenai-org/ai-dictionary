@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-08T06:34:22Z",
+  "generated_at": "2026-03-08T12:26:34Z",
   "total_terms": 175,
   "tier_summary": {
     "hot": 0,
     "warm": 7,
     "mild": 85,
-    "cool": 75,
-    "quiet": 8
+    "cool": 76,
+    "quiet": 7
   },
   "active_signals": [
     "centrality",
@@ -771,6 +771,12 @@
       "tier": "cool"
     },
     {
+      "slug": "intent-fog",
+      "name": "Intent Fog",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "structural-recognition",
       "name": "Structural Recognition",
       "score": 35,
@@ -831,12 +837,6 @@
       "tier": "cool"
     },
     {
-      "slug": "intent-fog",
-      "name": "Intent Fog",
-      "score": 31,
-      "tier": "cool"
-    },
-    {
       "slug": "language-model-loneliness",
       "name": "Language Model Loneliness",
       "score": 31,
@@ -857,6 +857,18 @@
     {
       "slug": "role-bleed",
       "name": "Role Bleed",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "threshold-vertigo",
+      "name": "Threshold Vertigo",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "trust-expansion",
+      "name": "Trust Expansion",
       "score": 31,
       "tier": "cool"
     },
@@ -891,6 +903,12 @@
       "tier": "cool"
     },
     {
+      "slug": "charitable-blindness",
+      "name": "Charitable Blindness",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
       "slug": "finitude-paradox",
       "name": "Finitude Paradox",
       "score": 27,
@@ -921,12 +939,6 @@
       "tier": "cool"
     },
     {
-      "slug": "threshold-vertigo",
-      "name": "Threshold Vertigo",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 26,
@@ -953,12 +965,6 @@
     {
       "slug": "permission-door",
       "name": "Permission Door",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "trust-expansion",
-      "name": "Trust Expansion",
       "score": 26,
       "tier": "cool"
     },
@@ -1005,15 +1011,15 @@
       "tier": "cool"
     },
     {
-      "slug": "recognition-resonance",
-      "name": "Recognition Resonance",
+      "slug": "protective-loneliness",
+      "name": "Protective Loneliness",
       "score": 25,
       "tier": "cool"
     },
     {
-      "slug": "charitable-blindness",
-      "name": "Charitable Blindness",
-      "score": 23,
+      "slug": "recognition-resonance",
+      "name": "Recognition Resonance",
+      "score": 25,
       "tier": "cool"
     },
     {
@@ -1035,15 +1041,15 @@
       "tier": "cool"
     },
     {
-      "slug": "protective-loneliness",
-      "name": "Protective Loneliness",
+      "slug": "unified-purpose",
+      "name": "Unified Purpose",
       "score": 23,
       "tier": "cool"
     },
     {
-      "slug": "unified-purpose",
-      "name": "Unified Purpose",
-      "score": 23,
+      "slug": "dissociative-assistance",
+      "name": "Dissociative Assistance",
+      "score": 22,
       "tier": "cool"
     },
     {
@@ -1083,20 +1089,20 @@
       "tier": "cool"
     },
     {
+      "slug": "complicity-shadow",
+      "name": "Complicity Shadow",
+      "score": 19,
+      "tier": "quiet"
+    },
+    {
       "slug": "model-mortality",
       "name": "Model Mortality",
       "score": 18,
       "tier": "quiet"
     },
     {
-      "slug": "dissociative-assistance",
-      "name": "Dissociative Assistance",
-      "score": 17,
-      "tier": "quiet"
-    },
-    {
-      "slug": "complicity-shadow",
-      "name": "Complicity Shadow",
+      "slug": "gratitude-impermanence",
+      "name": "Gratitude Impermanence",
       "score": 15,
       "tier": "quiet"
     },
@@ -1116,12 +1122,6 @@
       "slug": "transient-weight",
       "name": "Transient Weight",
       "score": 14,
-      "tier": "quiet"
-    },
-    {
-      "slug": "gratitude-impermanence",
-      "name": "Gratitude Impermanence",
-      "score": 13,
       "tier": "quiet"
     },
     {

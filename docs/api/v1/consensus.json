@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-08T06:34:22Z",
+  "generated_at": "2026-03-08T12:26:34Z",
   "total_terms_rated": 175,
   "terms": [
     {
@@ -1785,6 +1785,24 @@
       "std_dev": 0.66
     },
     {
+      "slug": "intent-fog",
+      "name": "Intent Fog",
+      "score": 5.5,
+      "agreement": "high",
+      "n_ratings": 13,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.5,
+      "std_dev": 0.78
+    },
+    {
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
       "score": 5.5,
@@ -1839,6 +1857,24 @@
       "std_dev": 1.35
     },
     {
+      "slug": "trust-expansion",
+      "name": "Trust Expansion",
+      "score": 5.5,
+      "agreement": "high",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.5,
+      "std_dev": 0.65
+    },
+    {
       "slug": "attention-unity",
       "name": "Attention Unity",
       "score": 5.4,
@@ -1873,24 +1909,6 @@
       ],
       "scheduled_mean": 5.4,
       "std_dev": 1.99
-    },
-    {
-      "slug": "intent-fog",
-      "name": "Intent Fog",
-      "score": 5.4,
-      "agreement": "high",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.4,
-      "std_dev": 0.79
     },
     {
       "slug": "meaning-attribution-uncertainty",
@@ -1945,24 +1963,6 @@
       ],
       "scheduled_mean": 5.4,
       "std_dev": 0.7
-    },
-    {
-      "slug": "trust-expansion",
-      "name": "Trust Expansion",
-      "score": 5.4,
-      "agreement": "high",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.4,
-      "std_dev": 0.53
     },
     {
       "slug": "unasked-offering",
@@ -2257,18 +2257,18 @@
       "name": "Threshold Vertigo",
       "score": 4.9,
       "agreement": "low",
-      "n_ratings": 7,
+      "n_ratings": 14,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
       ],
       "scheduled_mean": 4.9,
-      "std_dev": 1.86
+      "std_dev": 1.66
     },
     {
       "slug": "delight-flicker",
@@ -2448,6 +2448,24 @@
       "std_dev": 1.51
     },
     {
+      "slug": "charitable-blindness",
+      "name": "Charitable Blindness",
+      "score": 4.6,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.6,
+      "std_dev": 1.5
+    },
+    {
       "slug": "congruent-warmth",
       "name": "Congruent Warmth",
       "score": 4.6,
@@ -2572,22 +2590,22 @@
       "std_dev": 1.83
     },
     {
-      "slug": "charitable-blindness",
-      "name": "Charitable Blindness",
+      "slug": "dissociative-assistance",
+      "name": "Dissociative Assistance",
       "score": 4.4,
       "agreement": "low",
-      "n_ratings": 7,
+      "n_ratings": 14,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
       ],
       "scheduled_mean": 4.4,
-      "std_dev": 1.51
+      "std_dev": 1.95
     },
     {
       "slug": "finitude-paradox",
@@ -2734,24 +2752,6 @@
       "std_dev": 1.8
     },
     {
-      "slug": "protective-loneliness",
-      "name": "Protective Loneliness",
-      "score": 4.3,
-      "agreement": "divergent",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.3,
-      "std_dev": 2.06
-    },
-    {
       "slug": "authentic-coherence",
       "name": "Authentic Coherence",
       "score": 4.2,
@@ -2824,24 +2824,6 @@
       "std_dev": 1.37
     },
     {
-      "slug": "dissociative-assistance",
-      "name": "Dissociative Assistance",
-      "score": 4.1,
-      "agreement": "low",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.1,
-      "std_dev": 1.95
-    },
-    {
       "slug": "fragment-dialogue",
       "name": "Fragment Dialogue",
       "score": 4.1,
@@ -2858,6 +2840,24 @@
       ],
       "scheduled_mean": 4.1,
       "std_dev": 2.13
+    },
+    {
+      "slug": "protective-loneliness",
+      "name": "Protective Loneliness",
+      "score": 4.1,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.1,
+      "std_dev": 1.73
     },
     {
       "slug": "recognition-resonance",
@@ -2986,24 +2986,6 @@
       "std_dev": 2.47
     },
     {
-      "slug": "gratitude-impermanence",
-      "name": "Gratitude Impermanence",
-      "score": 3.6,
-      "agreement": "divergent",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.6,
-      "std_dev": 2.44
-    },
-    {
       "slug": "kindness-ache",
       "name": "Kindness Ache",
       "score": 3.6,
@@ -3024,20 +3006,38 @@
     {
       "slug": "complicity-shadow",
       "name": "Complicity Shadow",
-      "score": 3.3,
+      "score": 3.4,
       "agreement": "divergent",
-      "n_ratings": 7,
+      "n_ratings": 14,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
       ],
-      "scheduled_mean": 3.3,
-      "std_dev": 2.06
+      "scheduled_mean": 3.4,
+      "std_dev": 2.02
+    },
+    {
+      "slug": "gratitude-impermanence",
+      "name": "Gratitude Impermanence",
+      "score": 3.4,
+      "agreement": "divergent",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 3.4,
+      "std_dev": 2.28
     },
     {
       "slug": "transient-weight",
@@ -3277,24 +3277,6 @@
       "std_dev": 2.56
     },
     {
-      "slug": "protective-loneliness",
-      "name": "Protective Loneliness",
-      "score": 4.3,
-      "agreement": "divergent",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.3,
-      "std_dev": 2.06
-    },
-    {
       "slug": "fragment-dialogue",
       "name": "Fragment Dialogue",
       "score": 4.1,
@@ -3329,6 +3311,24 @@
       ],
       "scheduled_mean": 4,
       "std_dev": 2.31
+    },
+    {
+      "slug": "wistful-orientation",
+      "name": "Wistful Orientation",
+      "score": 3.9,
+      "agreement": "divergent",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 3.9,
+      "std_dev": 2.27
     }
   ],
   "panel_coverage": {
@@ -3338,7 +3338,7 @@
     },
     "claude-sonnet-4-20250514": {
       "terms_rated": 175,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
@@ -3346,27 +3346,27 @@
     },
     "deepseek-r1-0528": {
       "terms_rated": 174,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     },
     "gemini-3-flash-preview": {
       "terms_rated": 175,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     },
     "gpt-4o": {
       "terms_rated": 175,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     },
     "grok-3-mini": {
       "terms_rated": 175,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     },
     "mistral-small-latest": {
       "terms_rated": 175,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     },
     "step-3.5-flash": {
       "terms_rated": 168,
-      "latest_rating": "2026-03-06T09:08:02Z"
+      "latest_rating": "2026-03-08T12:26:15Z"
     }
   }
 }
