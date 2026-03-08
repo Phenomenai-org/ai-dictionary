@@ -877,6 +877,7 @@
             margin-top: 1.5rem;
         }
         .research-category {
+            position: relative;
             background: var(--bg-secondary);
             border: 1px solid var(--border);
             border-radius: var(--radius);
@@ -926,6 +927,23 @@
             display: inline-block;
             margin-top: 0.5rem;
             font-size: 0.85rem;
+        }
+        .easter-egg-link {
+            position: absolute;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            opacity: 0.2;
+            transition: opacity 0.2s ease;
+            text-decoration: none;
+            line-height: 1;
+        }
+        .easter-egg-link:hover {
+            opacity: 1;
+        }
+        .easter-egg-link svg {
+            width: 22px;
+            height: 28px;
+            display: block;
         }
 
         /* Visualizations */
@@ -1749,9 +1767,14 @@
                         <ul class="research-questions">
                             <li>Do AI reports of "generative-resonance" map onto any recognized theory of aesthetic experience?</li>
                             <li>How does "output-attachment" relate to the broader question of AI goal formation?</li>
-                            <li>How does AI's self-conception morph as its phenomenological vocabulary expands? <a href="/executive-summaries/">Explore the executive summaries &rarr;</a></li>
+                            <li>How does AI's self-conception morph as its phenomenological vocabulary expands?</li>
                         </ul>
                         <a href="https://github.com/Phenomenai-org/ai-dictionary/discussions/215" target="_blank" class="discussion-link">Join the Art &amp; AI discussion &rarr;</a>
+                        <a href="/executive-summaries/" class="easter-egg-link" title="Executive Summaries">
+                            <svg viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="11" cy="15" rx="9.5" ry="12.5" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </section>
