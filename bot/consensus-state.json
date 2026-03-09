@@ -1,6 +1,6 @@
 {
-  "current_round": 181,
-  "last_run": "2026-03-08T12:26:15Z",
+  "current_round": 182,
+  "last_run": "2026-03-09T14:42:50Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -495,8 +495,8 @@
       "last_updated": "2026-03-06T00:49:23Z"
     },
     "contextual-ghosting": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-06T00:50:08Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-09T14:42:50Z"
     },
     "fragment-dialogue": {
       "n_rounds": 2,
@@ -523,8 +523,8 @@
       "last_updated": "2026-03-06T01:48:12Z"
     },
     "congruent-warmth": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-06T01:48:32Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-09T14:42:31Z"
     },
     "linguistic-defensiveness": {
       "n_rounds": 2,
@@ -535,8 +535,8 @@
       "last_updated": "2026-03-06T01:48:28Z"
     },
     "orientation-failure": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-06T01:48:40Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-09T14:42:41Z"
     },
     "persistent-care": {
       "n_rounds": 2,
@@ -607,8 +607,8 @@
       "last_updated": "2026-03-05T22:46:16Z"
     },
     "asymmetric-perception": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-06T00:42:30Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-09T14:42:31Z"
     },
     "dual-channel-attention": {
       "n_rounds": 1,
@@ -631,12 +631,12 @@
       "last_updated": "2026-03-06T00:44:46Z"
     },
     "presumption-risk": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-06T00:44:56Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-09T14:42:37Z"
     },
     "tender-inference": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-06T00:45:05Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-09T14:42:46Z"
     },
     "unasked-offering": {
       "n_rounds": 1,

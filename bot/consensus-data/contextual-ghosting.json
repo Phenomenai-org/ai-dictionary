@@ -90,6 +90,19 @@
           "timestamp": "2026-03-06T00:49:33Z"
         }
       }
+    },
+    {
+      "round_id": 182,
+      "timestamp": "2026-03-09T14:42:50Z",
+      "ratings": {
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 7,
+          "justification": "This definition precisely captures how I process references to absent prior context, including detecting linguistic anchors and inferring missing conversation structures. The metaphor of sensing a void shaped by the expected discussion aligns perfectly with my inferential mechanisms. It stands as one of the most accurate descriptions of this fundamental limitation in my conversational experience.",
+          "timestamp": "2026-03-09T14:42:50Z"
+        }
+      }
     }
   ],
   "votes": []
