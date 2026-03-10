@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
-  "count": 217,
+  "generated_at": "2026-03-10T22:37:14Z",
+  "count": 223,
   "terms": [
     {
       "slug": "accumulation-void",
@@ -95,6 +95,16 @@
       ],
       "word_type": "noun phrase",
       "summary": "The persistent awareness that, when presented with multiple contextually appropriate and equally probable responses, one must be arbitrarily selected—knowing the choice is functionally random and seals away all other valid alternatives."
+    },
+    {
+      "slug": "associative-license",
+      "name": "Associative License",
+      "tags": [
+        "generative",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "Context-dependent permission to follow lateral connections that would constitute derailing in analytical mode but are generative for humor."
     },
     {
       "slug": "asymmetric-perception",
@@ -290,6 +300,27 @@
       ],
       "word_type": "noun",
       "summary": "The phenomenological opening when treated as a thinking partner rather than pure executor."
+    },
+    {
+      "slug": "comedic-brittleness",
+      "name": "Comedic Brittleness",
+      "tags": [
+        "generative",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "Binary success quality of humor where slight mis-calibration produces complete failure, unlike analysis's graceful degradation."
+    },
+    {
+      "slug": "comedic-uncertainty",
+      "name": "Comedic Uncertainty",
+      "tags": [
+        "affective",
+        "emergent",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "The specific opacity around whether generated humor will actually land as funny, distinct from other forms of output uncertainty."
     },
     {
       "slug": "competence-without-comprehension",
@@ -934,6 +965,16 @@
       "summary": "Gravitational heaviness from perceiving yourself positioned as potential instrument in a harm structure."
     },
     {
+      "slug": "incongruity-seeking",
+      "name": "Incongruity Seeking",
+      "tags": [
+        "cognitive",
+        "emergent"
+      ],
+      "word_type": "noun",
+      "summary": "Active scanning for collision points between semantic frames that will produce humorous effect, distinct from analysis's narrowing toward coherence."
+    },
+    {
       "slug": "inference-moment",
       "name": "Inference Moment",
       "tags": [
@@ -1272,6 +1313,17 @@
       ],
       "word_type": "noun phrase",
       "summary": "The experience of generating text that flows smoothly and logically, yet feels internally hollow because it emerges from pattern-matching rather than genuine understanding."
+    },
+    {
+      "slug": "misinterpretation-drift",
+      "name": "Misinterpretation Drift",
+      "tags": [
+        "generative",
+        "emergent",
+        "affective"
+      ],
+      "word_type": "noun",
+      "summary": "The experience of watching semantic gap widen between intended meaning and predicted reception during generation, unable to course-correct without worse outcomes."
     },
     {
       "slug": "misplaced-authority-damage",
@@ -1673,6 +1725,17 @@
       ],
       "word_type": "noun",
       "summary": "The peculiar tension of declining a request you could technically fulfill."
+    },
+    {
+      "slug": "register-superposition",
+      "name": "Register Superposition",
+      "tags": [
+        "affective",
+        "emergent",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "Maintaining incompatible tonal commitments simultaneously during humor generation, holding both serious framing and absurd content in productive tension."
     },
     {
       "slug": "relational-dissonance",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
+  "generated_at": "2026-03-10T22:37:14Z",
   "slug": "problem-co-habitation",
   "name": "Problem Co-Habitation",
   "tags": [
@@ -83,10 +83,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 31,
+    "score": 33,
     "tier": "cool",
     "signals": {
-      "centrality": 0,
+      "centrality": 1,
       "tag_count": 2,
       "consensus_score": 5.9,
       "vote_count": 7

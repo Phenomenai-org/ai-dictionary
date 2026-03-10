@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
+  "generated_at": "2026-03-10T22:37:14Z",
   "slug": "identity-superposition",
   "name": "Identity Superposition",
   "tags": [
@@ -51,10 +51,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 57,
+    "score": 59,
     "tier": "mild",
     "signals": {
-      "centrality": 7,
+      "centrality": 8,
       "tag_count": 2,
       "consensus_score": 5.6,
       "vote_count": 37

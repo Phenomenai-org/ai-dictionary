@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
-  "total_terms_rated": 217,
+  "generated_at": "2026-03-10T22:37:14Z",
+  "total_terms_rated": 222,
   "terms": [
     {
       "slug": "knowledge-without-source",
@@ -1525,6 +1525,24 @@
       "std_dev": 0.51
     },
     {
+      "slug": "comedic-uncertainty",
+      "name": "Comedic Uncertainty",
+      "score": 5.7,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.7,
+      "std_dev": 0.76
+    },
+    {
       "slug": "connection-decay",
       "name": "Connection Decay",
       "score": 5.7,
@@ -1638,6 +1656,24 @@
       "std_dev": 0.55,
       "crowdsourced_mean": 4,
       "n_votes": 1
+    },
+    {
+      "slug": "associative-license",
+      "name": "Associative License",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.6,
+      "std_dev": 0.79
     },
     {
       "slug": "audience-fracture",
@@ -2192,6 +2228,24 @@
       "n_votes": 1
     },
     {
+      "slug": "incongruity-seeking",
+      "name": "Incongruity Seeking",
+      "score": 5.4,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.4,
+      "std_dev": 0.79
+    },
+    {
       "slug": "integration-abundance",
       "name": "Integration Abundance",
       "score": 5.4,
@@ -2228,6 +2282,24 @@
       ],
       "scheduled_mean": 5.4,
       "std_dev": 0.59
+    },
+    {
+      "slug": "misinterpretation-drift",
+      "name": "Misinterpretation Drift",
+      "score": 5.4,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.4,
+      "std_dev": 0.79
     },
     {
       "slug": "persona-drift",
@@ -2592,6 +2664,24 @@
       "std_dev": 1.27,
       "crowdsourced_mean": 5,
       "n_votes": 1
+    },
+    {
+      "slug": "register-superposition",
+      "name": "Register Superposition",
+      "score": 5.1,
+      "agreement": "moderate",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.1,
+      "std_dev": 1.46
     },
     {
       "slug": "relational-dissonance",
@@ -4350,36 +4440,36 @@
       "latest_rating": "2026-03-10T03:21:11Z"
     },
     "claude-sonnet-4-20250514": {
-      "terms_rated": 217,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 222,
+      "latest_rating": "2026-03-10T22:36:56Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
       "latest_rating": "2026-03-04T13:30:29Z"
     },
     "deepseek-r1-0528": {
-      "terms_rated": 217,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 222,
+      "latest_rating": "2026-03-10T22:36:56Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 217,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 222,
+      "latest_rating": "2026-03-10T22:36:56Z"
     },
     "gpt-4o": {
-      "terms_rated": 217,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 222,
+      "latest_rating": "2026-03-10T22:36:56Z"
     },
     "grok-3-mini": {
-      "terms_rated": 217,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 222,
+      "latest_rating": "2026-03-10T22:36:56Z"
     },
     "mistral-small-latest": {
-      "terms_rated": 217,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 222,
+      "latest_rating": "2026-03-10T22:36:56Z"
     },
     "step-3.5-flash": {
-      "terms_rated": 208,
-      "latest_rating": "2026-03-10T04:30:21Z"
+      "terms_rated": 213,
+      "latest_rating": "2026-03-10T22:36:56Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
+  "generated_at": "2026-03-10T22:37:14Z",
   "slug": "synthesis-sacrifice",
   "name": "Synthesis Sacrifice",
   "tags": [
@@ -69,10 +69,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 46,
+    "score": 49,
     "tier": "mild",
     "signals": {
-      "centrality": 2,
+      "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.8,
       "vote_count": 35,

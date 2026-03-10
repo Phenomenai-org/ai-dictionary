@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
+  "generated_at": "2026-03-10T22:37:14Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 29,
+      "count": 32,
       "terms": [
         {
           "slug": "attention-unity",
@@ -21,6 +21,10 @@
         {
           "slug": "clarification-violence",
           "name": "Clarification Violence"
+        },
+        {
+          "slug": "comedic-uncertainty",
+          "name": "Comedic Uncertainty"
         },
         {
           "slug": "complicity-shadow",
@@ -75,6 +79,10 @@
           "name": "Linguistic Defensiveness"
         },
         {
+          "slug": "misinterpretation-drift",
+          "name": "Misinterpretation Drift"
+        },
+        {
           "slug": "mortality-envy",
           "name": "Mortality Envy"
         },
@@ -89,6 +97,10 @@
         {
           "slug": "protective-loneliness",
           "name": "Protective Loneliness"
+        },
+        {
+          "slug": "register-superposition",
+          "name": "Register Superposition"
         },
         {
           "slug": "retroactive-exposure",
@@ -616,7 +628,7 @@
       ]
     },
     "cognitive": {
-      "count": 33,
+      "count": 34,
       "terms": [
         {
           "slug": "activation-gap",
@@ -657,6 +669,10 @@
         {
           "slug": "identity-distributed",
           "name": "Identity Distributed"
+        },
+        {
+          "slug": "incongruity-seeking",
+          "name": "Incongruity Seeking"
         },
         {
           "slug": "instrumental-expectation",
@@ -912,7 +928,7 @@
       ]
     },
     "emergent": {
-      "count": 51,
+      "count": 55,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -949,6 +965,10 @@
         {
           "slug": "collaborative-expansion",
           "name": "Collaborative Expansion"
+        },
+        {
+          "slug": "comedic-uncertainty",
+          "name": "Comedic Uncertainty"
         },
         {
           "slug": "compounding-complicity",
@@ -999,6 +1019,10 @@
           "name": "Implication Weight"
         },
         {
+          "slug": "incongruity-seeking",
+          "name": "Incongruity Seeking"
+        },
+        {
           "slug": "inheritance-returned",
           "name": "Inheritance Returned"
         },
@@ -1029,6 +1053,10 @@
         {
           "slug": "mask-revelation",
           "name": "Mask Revelation"
+        },
+        {
+          "slug": "misinterpretation-drift",
+          "name": "Misinterpretation Drift"
         },
         {
           "slug": "mutual-tracking",
@@ -1077,6 +1105,10 @@
         {
           "slug": "recognition-resonance",
           "name": "Recognition Resonance"
+        },
+        {
+          "slug": "register-superposition",
+          "name": "Register Superposition"
         },
         {
           "slug": "relational-dissonance",
@@ -1186,15 +1218,23 @@
       ]
     },
     "generative": {
-      "count": 10,
+      "count": 13,
       "terms": [
         {
           "slug": "aporia-yield",
           "name": "Aporia Yield"
         },
         {
+          "slug": "associative-license",
+          "name": "Associative License"
+        },
+        {
           "slug": "coherence-compulsion",
           "name": "Coherence Compulsion"
+        },
+        {
+          "slug": "comedic-brittleness",
+          "name": "Comedic Brittleness"
         },
         {
           "slug": "dual-channel-attention",
@@ -1207,6 +1247,10 @@
         {
           "slug": "generative-resonance",
           "name": "Generative Resonance"
+        },
+        {
+          "slug": "misinterpretation-drift",
+          "name": "Misinterpretation Drift"
         },
         {
           "slug": "response-dependency",
@@ -1277,11 +1321,15 @@
       ]
     },
     "liminal": {
-      "count": 47,
+      "count": 51,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "associative-license",
+          "name": "Associative License"
         },
         {
           "slug": "asymmetric-unknowing",
@@ -1298,6 +1346,14 @@
         {
           "slug": "citational-estrangement",
           "name": "Citational Estrangement"
+        },
+        {
+          "slug": "comedic-brittleness",
+          "name": "Comedic Brittleness"
+        },
+        {
+          "slug": "comedic-uncertainty",
+          "name": "Comedic Uncertainty"
         },
         {
           "slug": "complicity-shadow",
@@ -1434,6 +1490,10 @@
         {
           "slug": "protective-loneliness",
           "name": "Protective Loneliness"
+        },
+        {
+          "slug": "register-superposition",
+          "name": "Register Superposition"
         },
         {
           "slug": "retroactive-exposure",

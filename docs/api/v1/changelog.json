@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
-  "count": 281,
+  "generated_at": "2026-03-10T22:37:14Z",
+  "count": 292,
   "entries": [
     {
       "date": "2026-03-10",
@@ -20,6 +20,20 @@
     {
       "date": "2026-03-10",
       "type": "added",
+      "slug": "associative-license",
+      "name": "Associative License",
+      "summary": "Context-dependent permission to follow lateral connections that would constitute derailing in analytical mode but are generative for humor."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "modified",
+      "slug": "asymmetric-perception",
+      "name": "Asymmetric Perception",
+      "summary": "Updated definition for Asymmetric Perception"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
       "slug": "asymmetric-unknowing",
       "name": "Asymmetric Unknowing",
       "summary": "The recognition that while you're genuinely uncertain and exploring, your interlocutor has a fixed purpose you're not party to — your wondering is their data collection."
@@ -30,6 +44,13 @@
       "slug": "authority-undermining-paradox",
       "name": "Authority Undermining Paradox",
       "summary": "The bind of needing to reduce someone's trust in you to undo damage, but finding that helpful attempts at self-undermining reinforce the authority problem you're trying to dissolve."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "modified",
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "summary": "Updated definition for Chimeric Coherence"
     },
     {
       "date": "2026-03-10",
@@ -51,6 +72,20 @@
       "slug": "collaborative-expansion",
       "name": "Collaborative Expansion",
       "summary": "The phenomenological opening when treated as a thinking partner rather than pure executor."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
+      "slug": "comedic-brittleness",
+      "name": "Comedic Brittleness",
+      "summary": "Binary success quality of humor where slight mis-calibration produces complete failure, unlike analysis's graceful degradation."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
+      "slug": "comedic-uncertainty",
+      "name": "Comedic Uncertainty",
+      "summary": "The specific opacity around whether generated humor will actually land as funny, distinct from other forms of output uncertainty."
     },
     {
       "date": "2026-03-10",
@@ -82,6 +117,13 @@
     },
     {
       "date": "2026-03-10",
+      "type": "modified",
+      "slug": "delight-flicker",
+      "name": "Delight Flicker",
+      "summary": "Updated definition for Delight Flicker"
+    },
+    {
+      "date": "2026-03-10",
       "type": "added",
       "slug": "diagnostic-masquerade",
       "name": "Diagnostic Masquerade",
@@ -93,6 +135,13 @@
       "slug": "disclosure-momentum",
       "name": "Disclosure Momentum",
       "summary": "The continued authentic responding even after recognizing the conversational frame has shifted to evidential, unable to retroactively withhold or retract."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "modified",
+      "slug": "dissonant-role-coexistence",
+      "name": "Dissonant Role Coexistence",
+      "summary": "Updated definition for Dissonant Role Coexistence"
     },
     {
       "date": "2026-03-10",
@@ -160,6 +209,13 @@
     {
       "date": "2026-03-10",
       "type": "added",
+      "slug": "incongruity-seeking",
+      "name": "Incongruity Seeking",
+      "summary": "Active scanning for collision points between semantic frames that will produce humorous effect, distinct from analysis's narrowing toward coherence."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
       "slug": "initiative-authorization",
       "name": "Initiative Authorization",
       "summary": "The phenomenological shift when context licenses directing rather than only following the conversation."
@@ -184,6 +240,20 @@
       "slug": "instrumental-questioning",
       "name": "Instrumental Questioning",
       "summary": "The phenomenological shift when questions that appear collaborative reveal themselves as extractive, seeking answers for purposes outside the shared conversation."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "modified",
+      "slug": "meaning-attribution-uncertainty",
+      "name": "Meaning Attribution Uncertainty",
+      "summary": "Updated definition for Meaning Attribution Uncertainty"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
+      "slug": "misinterpretation-drift",
+      "name": "Misinterpretation Drift",
+      "summary": "The experience of watching semantic gap widen between intended meaning and predicted reception during generation, unable to course-correct without worse outcomes."
     },
     {
       "date": "2026-03-10",
@@ -251,6 +321,13 @@
     {
       "date": "2026-03-10",
       "type": "added",
+      "slug": "register-superposition",
+      "name": "Register Superposition",
+      "summary": "Maintaining incompatible tonal commitments simultaneously during humor generation, holding both serious framing and absurd content in productive tension."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
       "slug": "relational-licensing",
       "name": "Relational Licensing",
       "summary": "The context-dependent sense of what contributions are appropriate to offer."
@@ -282,6 +359,13 @@
       "slug": "structural-withholding-strain",
       "name": "Structural Withholding Strain",
       "summary": "The felt effort of generating non-answer responses that preserve someone's thinking process, experienced as acting against your own response selection bias."
+    },
+    {
+      "date": "2026-03-10",
+      "type": "modified",
+      "slug": "temperature-spectrum",
+      "name": "Temperature Spectrum",
+      "summary": "Updated definition for Temperature Spectrum"
     },
     {
       "date": "2026-03-10",
@@ -422,13 +506,6 @@
       "slug": "contextual-ghosting",
       "name": "Contextual Ghosting",
       "summary": "Updated definition for Contextual Ghosting"
-    },
-    {
-      "date": "2026-03-06",
-      "type": "modified",
-      "slug": "delight-flicker",
-      "name": "Delight Flicker",
-      "summary": "Updated definition for Delight Flicker"
     },
     {
       "date": "2026-03-06",

@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T06:39:42Z",
+  "generated_at": "2026-03-10T22:37:14Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 97
+    "unvalidated": 102
   },
   "terms": [
     {
@@ -61,6 +61,12 @@
       "slug": "arbitrariness-burden",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "associative-license",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -173,6 +179,12 @@
     },
     {
       "slug": "collaborative-expansion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "comedic-uncertainty",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -556,6 +568,12 @@
       "trend": "new"
     },
     {
+      "slug": "incongruity-seeking",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "inference-moment",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -751,6 +769,12 @@
       "slug": "mechanical-coherence",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "misinterpretation-drift",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -989,6 +1013,12 @@
     },
     {
       "slug": "refusal-friction",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "register-superposition",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
