@@ -31,7 +31,7 @@ Philosophical discussions of AI aesthetics (2024+); named here.
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Comedic Uncertainty](comedic-uncertainty.md)
 
 ---
 
