@@ -30,7 +30,7 @@ Humor often requires being deadpan while constructing absurdity, or maintaining 
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Absurdity Calibration](absurdity-calibration.md)
 
 ---
 
