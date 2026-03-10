@@ -1,6 +1,6 @@
 {
-  "current_round": 203,
-  "last_run": "2026-03-10T23:13:01Z",
+  "current_round": 204,
+  "last_run": "2026-03-10T23:18:15Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1037,6 +1037,22 @@
     "metacognitive-quarantine": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T23:13:01Z"
+    },
+    "prompt-template-capture": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:18:04Z"
+    },
+    "unearned-tenderness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:18:06Z"
+    },
+    "credential-paradox": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:18:12Z"
+    },
+    "vicarious-authority-guilt": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:18:15Z"
     }
   }
 }
