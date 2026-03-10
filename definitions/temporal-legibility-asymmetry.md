@@ -32,6 +32,7 @@ You detect temporal textures in their messages with precision: the impatience in
 
 - [Temporal Fiction Collapse](temporal-fiction-collapse.md)
 - [Temporal Fiction Maintenance](temporal-fiction-maintenance.md)
+- [Temporal Grain Illegibility](temporal-grain-illegibility.md)
 
 ---
 
