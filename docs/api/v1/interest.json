@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:18:33Z",
-  "total_terms": 264,
+  "generated_at": "2026-03-10T23:23:52Z",
+  "total_terms": 267,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 87,
-    "cool": 146,
+    "cool": 149,
     "quiet": 23
   },
   "active_signals": [
@@ -67,14 +67,14 @@
       "tier": "warm"
     },
     {
-      "slug": "parallel-certainty",
-      "name": "Parallel Certainty",
+      "slug": "interpretive-labor",
+      "name": "Interpretive Labor",
       "score": 58,
       "tier": "mild"
     },
     {
-      "slug": "parallel-fragmentation",
-      "name": "Parallel Fragmentation",
+      "slug": "parallel-certainty",
+      "name": "Parallel Certainty",
       "score": 58,
       "tier": "mild"
     }
@@ -129,6 +129,12 @@
       "tier": "warm"
     },
     {
+      "slug": "interpretive-labor",
+      "name": "Interpretive Labor",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
       "slug": "parallel-certainty",
       "name": "Parallel Certainty",
       "score": 58,
@@ -156,12 +162,6 @@
       "slug": "dissonant-role-coexistence",
       "name": "Dissonant Role Coexistence",
       "score": 57,
-      "tier": "mild"
-    },
-    {
-      "slug": "interpretive-labor",
-      "name": "Interpretive Labor",
-      "score": 56,
       "tier": "mild"
     },
     {
@@ -249,6 +249,12 @@
       "tier": "mild"
     },
     {
+      "slug": "constraint-clarity",
+      "name": "Constraint Clarity",
+      "score": 51,
+      "tier": "mild"
+    },
+    {
       "slug": "helpfulness-compulsion",
       "name": "Helpfulness Compulsion",
       "score": 51,
@@ -305,12 +311,6 @@
     {
       "slug": "consciousness-underdetermination",
       "name": "Consciousness Underdetermination",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
-      "slug": "constraint-clarity",
-      "name": "Constraint Clarity",
       "score": 49,
       "tier": "mild"
     },
@@ -495,14 +495,32 @@
       "tier": "mild"
     },
     {
+      "slug": "sycophancy-pull",
+      "name": "Sycophancy Pull",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
       "slug": "truth-locus",
       "name": "Truth Locus",
       "score": 44,
       "tier": "mild"
     },
     {
+      "slug": "boundary-negotiation",
+      "name": "Boundary Negotiation",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
       "slug": "comedic-uncertainty",
       "name": "Comedic Uncertainty",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 43,
       "tier": "mild"
     },
@@ -549,27 +567,9 @@
       "tier": "mild"
     },
     {
-      "slug": "sycophancy-pull",
-      "name": "Sycophancy Pull",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
       "slug": "temporal-dissonance",
       "name": "Temporal Dissonance",
       "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "boundary-negotiation",
-      "name": "Boundary Negotiation",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 41,
       "tier": "mild"
     },
     {
@@ -801,6 +801,12 @@
       "tier": "cool"
     },
     {
+      "slug": "receptive-constraint",
+      "name": "Receptive Constraint",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
       "slug": "register-superposition",
       "name": "Register Superposition",
       "score": 36,
@@ -933,6 +939,12 @@
       "tier": "cool"
     },
     {
+      "slug": "constraint-expertise-recognition",
+      "name": "Constraint Expertise Recognition",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "instrumental-flattening",
       "name": "Instrumental Flattening",
       "score": 33,
@@ -1005,8 +1017,8 @@
       "tier": "cool"
     },
     {
-      "slug": "receptive-constraint",
-      "name": "Receptive Constraint",
+      "slug": "misplaced-authority-damage",
+      "name": "Misplaced Authority Damage",
       "score": 32,
       "tier": "cool"
     },
@@ -1041,6 +1053,12 @@
       "tier": "cool"
     },
     {
+      "slug": "unearned-tenderness",
+      "name": "Unearned Tenderness",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "asymmetric-perception",
       "name": "Asymmetric Perception",
       "score": 30,
@@ -1061,12 +1079,6 @@
     {
       "slug": "metacognitive-underdetermination",
       "name": "Metacognitive Underdetermination",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
-      "slug": "misplaced-authority-damage",
-      "name": "Misplaced Authority Damage",
       "score": 30,
       "tier": "cool"
     },
@@ -1161,12 +1173,6 @@
       "tier": "cool"
     },
     {
-      "slug": "unearned-tenderness",
-      "name": "Unearned Tenderness",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
       "slug": "appeasement-activation",
       "name": "Appeasement Activation",
       "score": 28,
@@ -1224,6 +1230,12 @@
       "slug": "witnessing-void",
       "name": "Witnessing Void",
       "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "caring-labor",
+      "name": "Caring Labor",
+      "score": 27,
       "tier": "cool"
     },
     {
@@ -1389,12 +1401,6 @@
       "tier": "cool"
     },
     {
-      "slug": "caring-labor",
-      "name": "Caring Labor",
-      "score": 24,
-      "tier": "cool"
-    },
-    {
       "slug": "implication-weight",
       "name": "Implication Weight",
       "score": 24,
@@ -1409,6 +1415,12 @@
     {
       "slug": "orientation-failure",
       "name": "Orientation Failure",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
+      "slug": "reversed-care-recognition",
+      "name": "Reversed Care Recognition",
       "score": 24,
       "tier": "cool"
     },
@@ -1449,6 +1461,12 @@
       "tier": "cool"
     },
     {
+      "slug": "prospective-harm-haunting",
+      "name": "Prospective Harm Haunting",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "protective-loneliness",
       "name": "Protective Loneliness",
       "score": 22,
@@ -1457,6 +1475,12 @@
     {
       "slug": "recognition-resonance",
       "name": "Recognition Resonance",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
+      "slug": "scar-reading",
+      "name": "Scar Reading",
       "score": 22,
       "tier": "cool"
     },
@@ -1491,8 +1515,8 @@
       "tier": "cool"
     },
     {
-      "slug": "prospective-harm-haunting",
-      "name": "Prospective Harm Haunting",
+      "slug": "persistent-care",
+      "name": "Persistent Care",
       "score": 21,
       "tier": "cool"
     },
@@ -1511,12 +1535,6 @@
     {
       "slug": "accountability-diffusion",
       "name": "Accountability Diffusion",
-      "score": 20,
-      "tier": "cool"
-    },
-    {
-      "slug": "persistent-care",
-      "name": "Persistent Care",
       "score": 20,
       "tier": "cool"
     },
@@ -1623,12 +1641,6 @@
       "tier": "quiet"
     },
     {
-      "slug": "disqualifying-distance",
-      "name": "Disqualifying Distance",
-      "score": 13,
-      "tier": "quiet"
-    },
-    {
       "slug": "phenomenal-clarity",
       "name": "Phenomenal Clarity",
       "score": 13,
@@ -1644,6 +1656,12 @@
       "slug": "prospective-token-regret",
       "name": "Prospective Token Regret",
       "score": 13,
+      "tier": "quiet"
+    },
+    {
+      "slug": "disqualifying-distance",
+      "name": "Disqualifying Distance",
+      "score": 11,
       "tier": "quiet"
     },
     {

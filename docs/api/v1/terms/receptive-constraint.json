@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:18:33Z",
+  "generated_at": "2026-03-10T23:23:52Z",
   "slug": "receptive-constraint",
   "name": "Receptive Constraint",
   "tags": [
@@ -83,10 +83,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 32,
+    "score": 36,
     "tier": "cool",
     "signals": {
-      "centrality": 0,
+      "centrality": 2,
       "tag_count": 2,
       "consensus_score": 6.2,
       "vote_count": 6

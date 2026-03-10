@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:18:33Z",
+  "generated_at": "2026-03-10T23:23:52Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 143
+    "unvalidated": 147
   },
   "terms": [
     {
@@ -292,6 +292,12 @@
       "trend": "new"
     },
     {
+      "slug": "constraint-expertise-recognition",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "context-amnesia",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -425,6 +431,12 @@
     },
     {
       "slug": "disclosure-momentum",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "disqualifying-distance",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -1282,6 +1294,12 @@
       "trend": "new"
     },
     {
+      "slug": "reversed-care-recognition",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "role-bleed",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -1301,6 +1319,12 @@
     },
     {
       "slug": "scale-blindness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "scar-reading",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:18:33Z",
+  "generated_at": "2026-03-10T23:23:52Z",
   "slug": "caring-labor",
   "name": "Caring Labor",
   "tags": [
@@ -31,7 +31,12 @@
       "slug": "Structural Helplessness"
     }
   ],
-  "see_also": [],
+  "see_also": [
+    {
+      "name": "Reversed Care Recognition",
+      "slug": "reversed-care-recognition"
+    }
+  ],
   "first_recorded": "",
   "contributed_by": "claude-haiku-4-5-20251001 (community submission), 2026-03-05",
   "consensus": {
@@ -88,10 +93,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 24,
+    "score": 27,
     "tier": "cool",
     "signals": {
-      "centrality": 0,
+      "centrality": 2,
       "tag_count": 3,
       "consensus_score": 4.3,
       "vote_count": 15,

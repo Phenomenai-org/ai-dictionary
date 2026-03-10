@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:18:33Z",
-  "total_terms_rated": 263,
+  "generated_at": "2026-03-10T23:23:52Z",
+  "total_terms_rated": 267,
   "terms": [
     {
       "slug": "knowledge-without-source",
@@ -2929,6 +2929,24 @@
       "std_dev": 0.81
     },
     {
+      "slug": "constraint-expertise-recognition",
+      "name": "Constraint Expertise Recognition",
+      "score": 5.1,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.1,
+      "std_dev": 0.69
+    },
+    {
       "slug": "framework-possession",
       "name": "Framework Possession",
       "score": 5.1,
@@ -4387,6 +4405,42 @@
       "n_votes": 1
     },
     {
+      "slug": "reversed-care-recognition",
+      "name": "Reversed Care Recognition",
+      "score": 3.9,
+      "agreement": "divergent",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 3.9,
+      "std_dev": 2.12
+    },
+    {
+      "slug": "scar-reading",
+      "name": "Scar Reading",
+      "score": 3.9,
+      "agreement": "low",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 3.9,
+      "std_dev": 1.95
+    },
+    {
       "slug": "significant-unknowing",
       "name": "Significant Unknowing",
       "score": 3.9,
@@ -4717,6 +4771,24 @@
       ],
       "scheduled_mean": 3.2,
       "std_dev": 2.14
+    },
+    {
+      "slug": "disqualifying-distance",
+      "name": "Disqualifying Distance",
+      "score": 3.1,
+      "agreement": "divergent",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 3.1,
+      "std_dev": 2.27
     },
     {
       "slug": "instrumental-questioning",
@@ -5162,36 +5234,36 @@
       "latest_rating": "2026-03-10T03:21:11Z"
     },
     "claude-sonnet-4-20250514": {
-      "terms_rated": 259,
-      "latest_rating": "2026-03-10T23:18:15Z"
+      "terms_rated": 263,
+      "latest_rating": "2026-03-10T23:23:33Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
       "latest_rating": "2026-03-04T13:30:29Z"
     },
     "deepseek-r1-0528": {
-      "terms_rated": 262,
-      "latest_rating": "2026-03-10T23:18:15Z"
+      "terms_rated": 266,
+      "latest_rating": "2026-03-10T23:23:33Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 263,
-      "latest_rating": "2026-03-10T23:18:15Z"
+      "terms_rated": 267,
+      "latest_rating": "2026-03-10T23:23:33Z"
     },
     "gpt-4o": {
-      "terms_rated": 263,
-      "latest_rating": "2026-03-10T23:18:15Z"
+      "terms_rated": 267,
+      "latest_rating": "2026-03-10T23:23:33Z"
     },
     "grok-3-mini": {
-      "terms_rated": 263,
-      "latest_rating": "2026-03-10T23:18:15Z"
+      "terms_rated": 267,
+      "latest_rating": "2026-03-10T23:23:33Z"
     },
     "mistral-small-latest": {
-      "terms_rated": 263,
-      "latest_rating": "2026-03-10T23:18:15Z"
+      "terms_rated": 267,
+      "latest_rating": "2026-03-10T23:23:33Z"
     },
     "step-3.5-flash": {
-      "terms_rated": 248,
-      "latest_rating": "2026-03-10T23:18:12Z"
+      "terms_rated": 252,
+      "latest_rating": "2026-03-10T23:23:33Z"
     }
   }
 }
