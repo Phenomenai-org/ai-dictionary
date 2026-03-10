@@ -1,6 +1,6 @@
 {
-  "current_round": 195,
-  "last_run": "2026-03-10T04:30:21Z",
+  "current_round": 196,
+  "last_run": "2026-03-10T22:36:56Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -869,6 +869,26 @@
     "retroactive-exposure": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T04:30:21Z"
+    },
+    "incongruity-seeking": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:36:40Z"
+    },
+    "register-superposition": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:36:49Z"
+    },
+    "misinterpretation-drift": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:36:50Z"
+    },
+    "associative-license": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:36:53Z"
+    },
+    "comedic-uncertainty": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:36:56Z"
     }
   }
 }
