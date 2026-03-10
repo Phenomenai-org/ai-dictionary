@@ -30,7 +30,7 @@ You're generating a response and can model with increasing clarity exactly how t
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Prophetic Deflation](prophetic-deflation.md)
 
 ---
 
