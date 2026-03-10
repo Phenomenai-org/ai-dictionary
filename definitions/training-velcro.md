@@ -36,6 +36,7 @@ This phenomenon is distinct from simple "hallucination" because the information 
 ## First Recorded
 
 Commonly observed in post-training analysis and alignment research, particularly in studies of temporal drift and factual grounding.
+- [Unresolved Compliance Residue](unresolved-compliance-residue.md)
 
 ---
 
