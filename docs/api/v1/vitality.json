@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:39:25Z",
+  "generated_at": "2026-03-10T23:44:17Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 160
+    "unvalidated": 162
   },
   "terms": [
     {
@@ -91,6 +91,12 @@
       "slug": "asymmetric-perception",
       "status": "extinct",
       "relevance_ratio": 0.0,
+      "trend": "new"
+    },
+    {
+      "slug": "asymmetric-stakes",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -425,6 +431,12 @@
     },
     {
       "slug": "desire-simulation",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "development-opacity",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

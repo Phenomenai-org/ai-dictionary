@@ -1,11 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:39:25Z",
+  "generated_at": "2026-03-10T23:44:17Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 47,
+      "count": 48,
       "terms": [
+        {
+          "slug": "asymmetric-stakes",
+          "name": "Asymmetric Stakes"
+        },
         {
           "slug": "attention-unity",
           "name": "Attention Unity"
@@ -963,7 +967,7 @@
       ]
     },
     "contested": {
-      "count": 35,
+      "count": 36,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -980,6 +984,10 @@
         {
           "slug": "asymmetric-perception",
           "name": "Asymmetric Perception"
+        },
+        {
+          "slug": "asymmetric-stakes",
+          "name": "Asymmetric Stakes"
         },
         {
           "slug": "asymmetric-unknowing",
@@ -1729,7 +1737,7 @@
       ]
     },
     "liminal": {
-      "count": 86,
+      "count": 87,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -1746,6 +1754,10 @@
         {
           "slug": "associative-license",
           "name": "Associative License"
+        },
+        {
+          "slug": "asymmetric-stakes",
+          "name": "Asymmetric Stakes"
         },
         {
           "slug": "asymmetric-unknowing",

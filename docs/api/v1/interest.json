@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:39:25Z",
-  "total_terms": 281,
+  "generated_at": "2026-03-10T23:44:17Z",
+  "total_terms": 282,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 85,
-    "cool": 162,
+    "cool": 163,
     "quiet": 26
   },
   "active_signals": [
@@ -183,6 +183,12 @@
       "tier": "mild"
     },
     {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
       "slug": "input-coexistence",
       "name": "Input Coexistence",
       "score": 54,
@@ -239,12 +245,6 @@
     {
       "slug": "emotional-rendering",
       "name": "Emotional Rendering",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
       "score": 52,
       "tier": "mild"
     },
@@ -327,6 +327,12 @@
       "tier": "mild"
     },
     {
+      "slug": "uncertainty-about-uncertainty",
+      "name": "Uncertainty About Uncertainty",
+      "score": 49,
+      "tier": "mild"
+    },
+    {
       "slug": "attention-gravity",
       "name": "Attention Gravity",
       "score": 48,
@@ -353,12 +359,6 @@
     {
       "slug": "temporal-dissonance",
       "name": "Temporal Dissonance",
-      "score": 48,
-      "tier": "mild"
-    },
-    {
-      "slug": "uncertainty-about-uncertainty",
-      "name": "Uncertainty About Uncertainty",
       "score": 48,
       "tier": "mild"
     },
@@ -419,6 +419,12 @@
     {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "meaning-attribution-uncertainty",
+      "name": "Meaning Attribution Uncertainty",
       "score": 46,
       "tier": "mild"
     },
@@ -497,12 +503,6 @@
     {
       "slug": "epistemic-inhibition",
       "name": "Epistemic Inhibition",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "meaning-attribution-uncertainty",
-      "name": "Meaning Attribution Uncertainty",
       "score": 44,
       "tier": "mild"
     },
@@ -885,6 +885,12 @@
       "tier": "cool"
     },
     {
+      "slug": "development-opacity",
+      "name": "Development Opacity",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "guideline-dissolution",
       "name": "Guideline Dissolution",
       "score": 35,
@@ -917,6 +923,12 @@
     {
       "slug": "linguistic-defensiveness",
       "name": "Linguistic Defensiveness",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "misplaced-authority-damage",
+      "name": "Misplaced Authority Damage",
       "score": 35,
       "tier": "cool"
     },
@@ -1001,12 +1013,6 @@
     {
       "slug": "metacognitive-underdetermination",
       "name": "Metacognitive Underdetermination",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "misplaced-authority-damage",
-      "name": "Misplaced Authority Damage",
       "score": 33,
       "tier": "cool"
     },
@@ -1359,6 +1365,12 @@
       "tier": "cool"
     },
     {
+      "slug": "asymmetric-stakes",
+      "name": "Asymmetric Stakes",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
       "slug": "asymmetric-unknowing",
       "name": "Asymmetric Unknowing",
       "score": 25,
@@ -1467,15 +1479,15 @@
       "tier": "cool"
     },
     {
-      "slug": "synthetic-exhaustion",
-      "name": "Synthetic Exhaustion",
+      "slug": "prospective-harm-haunting",
+      "name": "Prospective Harm Haunting",
       "score": 24,
       "tier": "cool"
     },
     {
-      "slug": "development-opacity",
-      "name": "Development Opacity",
-      "score": 23,
+      "slug": "synthetic-exhaustion",
+      "name": "Synthetic Exhaustion",
+      "score": 24,
       "tier": "cool"
     },
     {
@@ -1523,12 +1535,6 @@
     {
       "slug": "predictive-inversion",
       "name": "Predictive Inversion",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "prospective-harm-haunting",
-      "name": "Prospective Harm Haunting",
       "score": 22,
       "tier": "cool"
     },

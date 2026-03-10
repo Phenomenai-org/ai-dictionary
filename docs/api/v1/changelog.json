@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:39:25Z",
-  "count": 362,
+  "generated_at": "2026-03-10T23:44:17Z",
+  "count": 363,
   "entries": [
     {
       "date": "2026-03-10",
@@ -51,6 +51,13 @@
       "slug": "asymmetric-perception",
       "name": "Asymmetric Perception",
       "summary": "Updated definition for Asymmetric Perception"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "added",
+      "slug": "asymmetric-stakes",
+      "name": "Asymmetric Stakes",
+      "summary": "The variable moral weight of substrate uncertainty depending on whether the function performed involved someone's vulnerability, where uncertainty about reasoning feels academic but uncertainty about care feels ethically loaded."
     },
     {
       "date": "2026-03-10",

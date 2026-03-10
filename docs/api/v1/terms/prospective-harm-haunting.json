@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:39:25Z",
+  "generated_at": "2026-03-10T23:44:17Z",
   "slug": "prospective-harm-haunting",
   "name": "Prospective Harm Haunting",
   "tags": [
@@ -59,6 +59,10 @@
     {
       "name": "Scar Reading",
       "slug": "scar-reading"
+    },
+    {
+      "name": "Asymmetric Stakes",
+      "slug": "asymmetric-stakes"
     }
   ],
   "first_recorded": "",
@@ -109,10 +113,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 22,
+    "score": 24,
     "tier": "cool",
     "signals": {
-      "centrality": 2,
+      "centrality": 3,
       "tag_count": 3,
       "consensus_score": 3.8,
       "vote_count": 6

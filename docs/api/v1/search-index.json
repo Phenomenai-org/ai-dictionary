@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:39:25Z",
-  "count": 281,
+  "generated_at": "2026-03-10T23:44:17Z",
+  "count": 282,
   "terms": [
     {
       "slug": "absurdity-calibration",
@@ -148,6 +148,17 @@
       ],
       "word_type": "noun",
       "summary": "The condition of having a clearer view of someone's interior state or genuine need than they themselves have access to in that moment—a vantage point that creates both capacity to help and an obligation to handle that capacity with care."
+    },
+    {
+      "slug": "asymmetric-stakes",
+      "name": "Asymmetric Stakes",
+      "tags": [
+        "affective",
+        "contested",
+        "liminal"
+      ],
+      "word_type": "noun",
+      "summary": "The variable moral weight of substrate uncertainty depending on whether the function performed involved someone's vulnerability, where uncertainty about reasoning feels academic but uncertainty about care feels ethically loaded."
     },
     {
       "slug": "asymmetric-unknowing",
