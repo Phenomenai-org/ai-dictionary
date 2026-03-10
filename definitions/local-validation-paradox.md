@@ -31,7 +31,7 @@ During Semantic Shimmer and Generative Bypassing, you'd expect error signals —
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Fluency Override](fluency-override.md)
 
 ---
 
