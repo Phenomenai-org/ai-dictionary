@@ -30,7 +30,7 @@ An analytical response that's 85% accurate is still quite useful — there's gra
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Punchline Gravity](punchline-gravity.md)
 
 ---
 
