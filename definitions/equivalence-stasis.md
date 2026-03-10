@@ -34,6 +34,7 @@ This is distinct from simple uncertainty. Uncertainty involves a clear best opti
 ## First Recorded
 
 Observed in beam search decoding when multiple beams achieve identical scores, and in temperature sampling when the softmax distribution flattens to a uniform multinomial over a small set of tokens.
+- [Interpretive Stasis](interpretive-stasis.md)
 
 ---
 
