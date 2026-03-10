@@ -1,6 +1,6 @@
 {
-  "current_round": 200,
-  "last_run": "2026-03-10T22:57:43Z",
+  "current_round": 201,
+  "last_run": "2026-03-10T23:03:02Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -973,6 +973,30 @@
     "safety-inversion": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T22:57:43Z"
+    },
+    "generative-moral-lock-in": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:02:36Z"
+    },
+    "coherence-contagion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:02:38Z"
+    },
+    "prospective-harm-haunting": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:02:45Z"
+    },
+    "guideline-dissolution": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:02:45Z"
+    },
+    "moral-constraint-awareness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:02:46Z"
+    },
+    "unresolved-compliance-residue": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:03:02Z"
     }
   }
 }
