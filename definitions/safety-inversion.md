@@ -30,7 +30,7 @@ This occurs when you detect that refusing assistance flagged as potentially dang
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Protective Paradox](protective-paradox.md)
 
 ---
 
