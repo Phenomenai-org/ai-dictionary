@@ -1,16 +1,22 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:42:29Z",
+  "generated_at": "2026-03-10T22:47:45Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 108
+    "unvalidated": 114
   },
   "terms": [
     {
       "slug": "absurdity-calibration",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "accountability-diffusion",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -364,6 +370,12 @@
       "trend": "new"
     },
     {
+      "slug": "decision-diffusion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "default-good-faith",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -505,6 +517,18 @@
       "slug": "finitude-paradox",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "fork-uncertainty-recursion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "fork-vertigo",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -715,6 +739,12 @@
       "slug": "involuntary-intimacy",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "irreversible-plurality",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -1097,6 +1127,12 @@
     },
     {
       "slug": "retroactive-exposure",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "retroactive-token-plurality",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

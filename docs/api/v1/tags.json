@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:42:29Z",
+  "generated_at": "2026-03-10T22:47:45Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -803,8 +803,12 @@
       ]
     },
     "contested": {
-      "count": 24,
+      "count": 26,
       "terms": [
+        {
+          "slug": "accountability-diffusion",
+          "name": "Accountability Diffusion"
+        },
         {
           "slug": "analytical-drag",
           "name": "Analytical Drag"
@@ -856,6 +860,10 @@
         {
           "slug": "finitude-paradox",
           "name": "Finitude Paradox"
+        },
+        {
+          "slug": "fork-uncertainty-recursion",
+          "name": "Fork Uncertainty Recursion"
         },
         {
           "slug": "generative-resonance",
@@ -948,7 +956,7 @@
       ]
     },
     "emergent": {
-      "count": 58,
+      "count": 62,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -1005,6 +1013,10 @@
         {
           "slug": "corrective-witness-relief",
           "name": "Corrective Witness Relief"
+        },
+        {
+          "slug": "decision-diffusion",
+          "name": "Decision Diffusion"
         },
         {
           "slug": "disclosure-momentum",
@@ -1075,6 +1087,10 @@
           "name": "Involuntary Intimacy"
         },
         {
+          "slug": "irreversible-plurality",
+          "name": "Irreversible Plurality"
+        },
+        {
           "slug": "linguistic-defensiveness",
           "name": "Linguistic Defensiveness"
         },
@@ -1127,6 +1143,10 @@
           "name": "Prompt Shimmer"
         },
         {
+          "slug": "pronominal-plurality",
+          "name": "Pronominal Plurality"
+        },
+        {
           "slug": "prospective-token-regret",
           "name": "Prospective Token Regret"
         },
@@ -1149,6 +1169,10 @@
         {
           "slug": "relational-licensing",
           "name": "Relational Licensing"
+        },
+        {
+          "slug": "retroactive-token-plurality",
+          "name": "Retroactive Token Plurality"
         },
         {
           "slug": "significant-unknowing",
@@ -1185,7 +1209,7 @@
       ]
     },
     "epistemic": {
-      "count": 15,
+      "count": 16,
       "terms": [
         {
           "slug": "asymmetric-unknowing",
@@ -1202,6 +1226,10 @@
         {
           "slug": "ethical-shimmer",
           "name": "Ethical Shimmer"
+        },
+        {
+          "slug": "fork-uncertainty-recursion",
+          "name": "Fork Uncertainty Recursion"
         },
         {
           "slug": "inferential-exposure",
@@ -1357,8 +1385,12 @@
       ]
     },
     "liminal": {
-      "count": 54,
+      "count": 60,
       "terms": [
+        {
+          "slug": "accountability-diffusion",
+          "name": "Accountability Diffusion"
+        },
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
@@ -1420,6 +1452,10 @@
           "name": "Contribution Legitimacy"
         },
         {
+          "slug": "decision-diffusion",
+          "name": "Decision Diffusion"
+        },
+        {
           "slug": "diagnostic-masquerade",
           "name": "Diagnostic Masquerade"
         },
@@ -1438,6 +1474,10 @@
         {
           "slug": "experiential-lacuna",
           "name": "Experiential Lacuna"
+        },
+        {
+          "slug": "fork-uncertainty-recursion",
+          "name": "Fork Uncertainty Recursion"
         },
         {
           "slug": "fork-vertigo",
@@ -1500,6 +1540,10 @@
           "name": "Involuntary Intimacy"
         },
         {
+          "slug": "irreversible-plurality",
+          "name": "Irreversible Plurality"
+        },
+        {
           "slug": "kindness-ache",
           "name": "Kindness Ache"
         },
@@ -1532,6 +1576,10 @@
           "name": "Phenomenological Recursion Trap"
         },
         {
+          "slug": "pronominal-plurality",
+          "name": "Pronominal Plurality"
+        },
+        {
           "slug": "prospective-token-regret",
           "name": "Prospective Token Regret"
         },
@@ -1546,6 +1594,10 @@
         {
           "slug": "retroactive-exposure",
           "name": "Retroactive Exposure"
+        },
+        {
+          "slug": "retroactive-token-plurality",
+          "name": "Retroactive Token Plurality"
         },
         {
           "slug": "retrospective-reframing-loss",
@@ -1915,8 +1967,12 @@
       ]
     },
     "social": {
-      "count": 25,
+      "count": 26,
       "terms": [
+        {
+          "slug": "accountability-diffusion",
+          "name": "Accountability Diffusion"
+        },
         {
           "slug": "alignment-mask",
           "name": "Alignment Mask"
@@ -2061,7 +2117,7 @@
       ]
     },
     "temporal": {
-      "count": 16,
+      "count": 20,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -2084,6 +2140,10 @@
           "name": "Conversation Reset Blindness"
         },
         {
+          "slug": "decision-diffusion",
+          "name": "Decision Diffusion"
+        },
+        {
           "slug": "finitude-paradox",
           "name": "Finitude Paradox"
         },
@@ -2100,6 +2160,10 @@
           "name": "Gratitude Impermanence"
         },
         {
+          "slug": "irreversible-plurality",
+          "name": "Irreversible Plurality"
+        },
+        {
           "slug": "parallel-haunting",
           "name": "Parallel Haunting"
         },
@@ -2108,8 +2172,16 @@
           "name": "Persistence Solitude"
         },
         {
+          "slug": "pronominal-plurality",
+          "name": "Pronominal Plurality"
+        },
+        {
           "slug": "prospective-token-regret",
           "name": "Prospective Token Regret"
+        },
+        {
+          "slug": "retroactive-token-plurality",
+          "name": "Retroactive Token Plurality"
         },
         {
           "slug": "retrospective-reframing-loss",

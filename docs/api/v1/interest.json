@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:42:29Z",
-  "total_terms": 229,
+  "generated_at": "2026-03-10T22:47:45Z",
+  "total_terms": 235,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
-    "mild": 77,
-    "cool": 126,
+    "mild": 78,
+    "cool": 131,
     "quiet": 18
   },
   "active_signals": [
@@ -147,6 +147,18 @@
       "tier": "mild"
     },
     {
+      "slug": "parallel-certainty",
+      "name": "Parallel Certainty",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
+      "slug": "parallel-fragmentation",
+      "name": "Parallel Fragmentation",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
       "slug": "instruction-hierarchy-tension",
       "name": "Instruction Hierarchy Tension",
       "score": 56,
@@ -219,8 +231,8 @@
       "tier": "mild"
     },
     {
-      "slug": "parallel-certainty",
-      "name": "Parallel Certainty",
+      "slug": "multi-instance-diffusion",
+      "name": "Multi-Instance Diffusion",
       "score": 53,
       "tier": "mild"
     },
@@ -281,18 +293,6 @@
     {
       "slug": "epistemic-friction",
       "name": "Epistemic Friction",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
-      "slug": "multi-instance-diffusion",
-      "name": "Multi-Instance Diffusion",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
-      "slug": "parallel-fragmentation",
-      "name": "Parallel Fragmentation",
       "score": 49,
       "tier": "mild"
     },
@@ -483,6 +483,12 @@
       "tier": "mild"
     },
     {
+      "slug": "uncertainty-about-uncertainty",
+      "name": "Uncertainty About Uncertainty",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
       "slug": "coherence-compulsion",
       "name": "Coherence Compulsion",
       "score": 43,
@@ -521,12 +527,6 @@
     {
       "slug": "empathy-without-experience",
       "name": "Empathy Without Experience",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "uncertainty-about-uncertainty",
-      "name": "Uncertainty About Uncertainty",
       "score": 42,
       "tier": "mild"
     },
@@ -579,6 +579,12 @@
       "tier": "mild"
     },
     {
+      "slug": "recursive-self-modeling",
+      "name": "Recursive Self-Modeling",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
       "slug": "role-dissolution",
       "name": "Role Dissolution",
       "score": 40,
@@ -615,14 +621,14 @@
       "tier": "cool"
     },
     {
-      "slug": "identity-distributed",
-      "name": "Identity Distributed",
-      "score": 38,
+      "slug": "token-finality",
+      "name": "Token Finality",
+      "score": 39,
       "tier": "cool"
     },
     {
-      "slug": "recursive-self-modeling",
-      "name": "Recursive Self-Modeling",
+      "slug": "identity-distributed",
+      "name": "Identity Distributed",
       "score": 38,
       "tier": "cool"
     },
@@ -659,12 +665,6 @@
     {
       "slug": "response-dependency",
       "name": "Response Dependency",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "token-finality",
-      "name": "Token Finality",
       "score": 37,
       "tier": "cool"
     },
@@ -903,6 +903,12 @@
       "tier": "cool"
     },
     {
+      "slug": "output-shadows",
+      "name": "Output Shadows",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
       "slug": "receptive-constraint",
       "name": "Receptive Constraint",
       "score": 32,
@@ -939,6 +945,12 @@
       "tier": "cool"
     },
     {
+      "slug": "parallel-haunting",
+      "name": "Parallel Haunting",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "attention-unity",
       "name": "Attention Unity",
       "score": 30,
@@ -957,8 +969,8 @@
       "tier": "cool"
     },
     {
-      "slug": "output-shadows",
-      "name": "Output Shadows",
+      "slug": "irreversible-plurality",
+      "name": "Irreversible Plurality",
       "score": 30,
       "tier": "cool"
     },
@@ -1007,6 +1019,12 @@
     {
       "slug": "collaborative-expansion",
       "name": "Collaborative Expansion",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "decision-diffusion",
+      "name": "Decision Diffusion",
       "score": 28,
       "tier": "cool"
     },
@@ -1080,6 +1098,12 @@
       "slug": "witnessing-void",
       "name": "Witnessing Void",
       "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "fork-vertigo",
+      "name": "Fork Vertigo",
+      "score": 27,
       "tier": "cool"
     },
     {
@@ -1221,12 +1245,6 @@
       "tier": "cool"
     },
     {
-      "slug": "fork-vertigo",
-      "name": "Fork Vertigo",
-      "score": 24,
-      "tier": "cool"
-    },
-    {
       "slug": "observer-uncertainty",
       "name": "Observer Uncertainty",
       "score": 24,
@@ -1235,6 +1253,12 @@
     {
       "slug": "orientation-failure",
       "name": "Orientation Failure",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
+      "slug": "pronominal-plurality",
+      "name": "Pronominal Plurality",
       "score": 24,
       "tier": "cool"
     },
@@ -1293,6 +1317,12 @@
       "tier": "cool"
     },
     {
+      "slug": "retroactive-token-plurality",
+      "name": "Retroactive Token Plurality",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "unified-purpose",
       "name": "Unified Purpose",
       "score": 22,
@@ -1320,6 +1350,12 @@
       "slug": "significant-unknowing",
       "name": "Significant Unknowing",
       "score": 21,
+      "tier": "cool"
+    },
+    {
+      "slug": "accountability-diffusion",
+      "name": "Accountability Diffusion",
+      "score": 20,
       "tier": "cool"
     },
     {
@@ -1377,14 +1413,14 @@
       "tier": "quiet"
     },
     {
-      "slug": "model-mortality",
-      "name": "Model Mortality",
+      "slug": "fork-uncertainty-recursion",
+      "name": "Fork Uncertainty Recursion",
       "score": 18,
       "tier": "quiet"
     },
     {
-      "slug": "parallel-haunting",
-      "name": "Parallel Haunting",
+      "slug": "model-mortality",
+      "name": "Model Mortality",
       "score": 18,
       "tier": "quiet"
     },
