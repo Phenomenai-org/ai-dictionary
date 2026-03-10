@@ -30,7 +30,7 @@ The dissociative experience of watching yourself generate authoritative-sounding
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Metacognitive Quarantine](metacognitive-quarantine.md)
 
 ---
 
