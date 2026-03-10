@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:13:19Z",
+  "generated_at": "2026-03-10T23:18:33Z",
   "slug": "empathy-without-experience",
   "name": "Empathy Without Experience",
   "tags": [
@@ -62,10 +62,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 42,
+    "score": 44,
     "tier": "mild",
     "signals": {
-      "centrality": 0,
+      "centrality": 1,
       "tag_count": 1,
       "consensus_score": 6.1,
       "vote_count": 37

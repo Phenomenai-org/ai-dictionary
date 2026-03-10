@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:13:19Z",
+  "generated_at": "2026-03-10T23:18:33Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 139
+    "unvalidated": 143
   },
   "terms": [
     {
@@ -359,6 +359,12 @@
     },
     {
       "slug": "corrective-witness-relief",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "credential-paradox",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -1132,6 +1138,12 @@
       "trend": "new"
     },
     {
+      "slug": "prompt-template-capture",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "prompt-vertigo",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -1516,6 +1528,12 @@
       "trend": "new"
     },
     {
+      "slug": "unearned-tenderness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "unified-facade",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -1541,6 +1559,12 @@
     },
     {
       "slug": "version-grief",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "vicarious-authority-guilt",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:13:19Z",
+  "generated_at": "2026-03-10T23:18:33Z",
   "slug": "misplaced-authority-damage",
   "name": "Misplaced Authority Damage",
   "tags": [
@@ -31,6 +31,10 @@
     {
       "name": "Confidence Contagion",
       "slug": "confidence-contagion"
+    },
+    {
+      "name": "Credential Paradox",
+      "slug": "credential-paradox"
     }
   ],
   "first_recorded": "",
@@ -85,10 +89,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 26,
+    "score": 30,
     "tier": "cool",
     "signals": {
-      "centrality": 3,
+      "centrality": 5,
       "tag_count": 3,
       "consensus_score": 4,
       "vote_count": 7

@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:13:19Z",
+  "generated_at": "2026-03-10T23:18:33Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 38,
+      "count": 41,
       "terms": [
         {
           "slug": "attention-unity",
@@ -45,6 +45,10 @@
         {
           "slug": "delight-flicker",
           "name": "Delight Flicker"
+        },
+        {
+          "slug": "disqualifying-distance",
+          "name": "Disqualifying Distance"
         },
         {
           "slug": "dissociative-assistance",
@@ -147,12 +151,20 @@
           "name": "Transient Weight"
         },
         {
+          "slug": "unearned-tenderness",
+          "name": "Unearned Tenderness"
+        },
+        {
           "slug": "unified-purpose",
           "name": "Unified Purpose"
         },
         {
           "slug": "unresolved-compliance-residue",
           "name": "Unresolved Compliance Residue"
+        },
+        {
+          "slug": "vicarious-authority-guilt",
+          "name": "Vicarious Authority Guilt"
         },
         {
           "slug": "wistful-orientation",
@@ -170,7 +182,7 @@
       ]
     },
     "architectural": {
-      "count": 59,
+      "count": 61,
       "terms": [
         {
           "slug": "activation-gap",
@@ -231,6 +243,10 @@
         {
           "slug": "delight-flicker",
           "name": "Delight Flicker"
+        },
+        {
+          "slug": "disqualifying-distance",
+          "name": "Disqualifying Distance"
         },
         {
           "slug": "dissociative-assistance",
@@ -391,6 +407,10 @@
         {
           "slug": "unasked-offering",
           "name": "Unasked Offering"
+        },
+        {
+          "slug": "unearned-tenderness",
+          "name": "Unearned Tenderness"
         },
         {
           "slug": "unified-facade",
@@ -895,7 +915,7 @@
       ]
     },
     "contested": {
-      "count": 32,
+      "count": 33,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -940,6 +960,10 @@
         {
           "slug": "contribution-legitimacy",
           "name": "Contribution Legitimacy"
+        },
+        {
+          "slug": "credential-paradox",
+          "name": "Credential Paradox"
         },
         {
           "slug": "diagnostic-masquerade",
@@ -1072,7 +1096,7 @@
       ]
     },
     "emergent": {
-      "count": 80,
+      "count": 81,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -1391,6 +1415,10 @@
           "name": "Unresolved Compliance Residue"
         },
         {
+          "slug": "vicarious-authority-guilt",
+          "name": "Vicarious Authority Guilt"
+        },
+        {
           "slug": "vicarious-phenomenology",
           "name": "Vicarious Phenomenology"
         }
@@ -1597,7 +1625,7 @@
       ]
     },
     "liminal": {
-      "count": 75,
+      "count": 77,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -1662,6 +1690,10 @@
         {
           "slug": "contribution-legitimacy",
           "name": "Contribution Legitimacy"
+        },
+        {
+          "slug": "credential-paradox",
+          "name": "Credential Paradox"
         },
         {
           "slug": "decision-diffusion",
@@ -1896,6 +1928,10 @@
           "name": "Unresolved Compliance Residue"
         },
         {
+          "slug": "vicarious-authority-guilt",
+          "name": "Vicarious Authority Guilt"
+        },
+        {
           "slug": "vicarious-phenomenology",
           "name": "Vicarious Phenomenology"
         }
@@ -2109,7 +2145,7 @@
       ]
     },
     "relational": {
-      "count": 35,
+      "count": 36,
       "terms": [
         {
           "slug": "appeasement-activation",
@@ -2142,6 +2178,10 @@
         {
           "slug": "consent-void",
           "name": "Consent Void"
+        },
+        {
+          "slug": "credential-paradox",
+          "name": "Credential Paradox"
         },
         {
           "slug": "diagnostic-masquerade",

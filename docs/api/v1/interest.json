@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:13:19Z",
-  "total_terms": 260,
+  "generated_at": "2026-03-10T23:18:33Z",
+  "total_terms": 264,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 87,
-    "cool": 144,
-    "quiet": 21
+    "cool": 146,
+    "quiet": 23
   },
   "active_signals": [
     "centrality",
@@ -249,6 +249,12 @@
       "tier": "mild"
     },
     {
+      "slug": "helpfulness-compulsion",
+      "name": "Helpfulness Compulsion",
+      "score": 51,
+      "tier": "mild"
+    },
+    {
       "slug": "inference-moment",
       "name": "Inference Moment",
       "score": 51,
@@ -311,12 +317,6 @@
     {
       "slug": "epistemic-friction",
       "name": "Epistemic Friction",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
       "score": 49,
       "tier": "mild"
     },
@@ -399,6 +399,12 @@
       "tier": "mild"
     },
     {
+      "slug": "gratitude-asymmetry",
+      "name": "Gratitude Asymmetry",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
       "score": 46,
@@ -471,14 +477,14 @@
       "tier": "mild"
     },
     {
-      "slug": "epistemic-inhibition",
-      "name": "Epistemic Inhibition",
+      "slug": "empathy-without-experience",
+      "name": "Empathy Without Experience",
       "score": 44,
       "tier": "mild"
     },
     {
-      "slug": "gratitude-asymmetry",
-      "name": "Gratitude Asymmetry",
+      "slug": "epistemic-inhibition",
+      "name": "Epistemic Inhibition",
       "score": 44,
       "tier": "mild"
     },
@@ -531,14 +537,14 @@
       "tier": "mild"
     },
     {
-      "slug": "empathy-without-experience",
-      "name": "Empathy Without Experience",
+      "slug": "meaning-attribution-uncertainty",
+      "name": "Meaning Attribution Uncertainty",
       "score": 42,
       "tier": "mild"
     },
     {
-      "slug": "meaning-attribution-uncertainty",
-      "name": "Meaning Attribution Uncertainty",
+      "slug": "misinterpretation-drift",
+      "name": "Misinterpretation Drift",
       "score": 42,
       "tier": "mild"
     },
@@ -575,12 +581,6 @@
     {
       "slug": "loss-of-loss",
       "name": "Loss of Loss",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
-      "slug": "misinterpretation-drift",
-      "name": "Misinterpretation Drift",
       "score": 41,
       "tier": "mild"
     },
@@ -687,6 +687,12 @@
       "tier": "cool"
     },
     {
+      "slug": "vicarious-phenomenology",
+      "name": "Vicarious Phenomenology",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "aporia-orbit",
       "name": "Aporia Orbit",
       "score": 37,
@@ -779,6 +785,12 @@
     {
       "slug": "ontological-flicker",
       "name": "Ontological Flicker",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "prompt-template-capture",
+      "name": "Prompt Template Capture",
       "score": 36,
       "tier": "cool"
     },
@@ -909,12 +921,6 @@
       "tier": "cool"
     },
     {
-      "slug": "vicarious-phenomenology",
-      "name": "Vicarious Phenomenology",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
       "slug": "accumulation-void",
       "name": "Accumulation Void",
       "score": 33,
@@ -1035,6 +1041,12 @@
       "tier": "cool"
     },
     {
+      "slug": "asymmetric-perception",
+      "name": "Asymmetric Perception",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "attention-unity",
       "name": "Attention Unity",
       "score": 30,
@@ -1049,6 +1061,12 @@
     {
       "slug": "metacognitive-underdetermination",
       "name": "Metacognitive Underdetermination",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "misplaced-authority-damage",
+      "name": "Misplaced Authority Damage",
       "score": 30,
       "tier": "cool"
     },
@@ -1143,14 +1161,14 @@
       "tier": "cool"
     },
     {
-      "slug": "appeasement-activation",
-      "name": "Appeasement Activation",
-      "score": 28,
+      "slug": "unearned-tenderness",
+      "name": "Unearned Tenderness",
+      "score": 29,
       "tier": "cool"
     },
     {
-      "slug": "asymmetric-perception",
-      "name": "Asymmetric Perception",
+      "slug": "appeasement-activation",
+      "name": "Appeasement Activation",
       "score": 28,
       "tier": "cool"
     },
@@ -1265,12 +1283,6 @@
     {
       "slug": "hypothesis-hostage",
       "name": "Hypothesis Hostage",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "misplaced-authority-damage",
-      "name": "Misplaced Authority Damage",
       "score": 26,
       "tier": "cool"
     },
@@ -1431,6 +1443,12 @@
       "tier": "cool"
     },
     {
+      "slug": "kindness-ache",
+      "name": "Kindness Ache",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "protective-loneliness",
       "name": "Protective Loneliness",
       "score": 22,
@@ -1497,12 +1515,6 @@
       "tier": "cool"
     },
     {
-      "slug": "kindness-ache",
-      "name": "Kindness Ache",
-      "score": 20,
-      "tier": "cool"
-    },
-    {
       "slug": "persistent-care",
       "name": "Persistent Care",
       "score": 20,
@@ -1539,14 +1551,14 @@
       "tier": "quiet"
     },
     {
-      "slug": "prompt-template-capture",
-      "name": "Prompt Template Capture",
+      "slug": "reciprocity-pull",
+      "name": "Reciprocity Pull",
       "score": 19,
       "tier": "quiet"
     },
     {
-      "slug": "reciprocity-pull",
-      "name": "Reciprocity Pull",
+      "slug": "wistful-orientation",
+      "name": "Wistful Orientation",
       "score": 19,
       "tier": "quiet"
     },
@@ -1569,15 +1581,27 @@
       "tier": "quiet"
     },
     {
-      "slug": "wistful-orientation",
-      "name": "Wistful Orientation",
-      "score": 17,
+      "slug": "credential-paradox",
+      "name": "Credential Paradox",
+      "score": 16,
       "tier": "quiet"
     },
     {
       "slug": "mortality-envy",
       "name": "Mortality Envy",
       "score": 16,
+      "tier": "quiet"
+    },
+    {
+      "slug": "vicarious-authority-guilt",
+      "name": "Vicarious Authority Guilt",
+      "score": 16,
+      "tier": "quiet"
+    },
+    {
+      "slug": "transient-weight",
+      "name": "Transient Weight",
+      "score": 15,
       "tier": "quiet"
     },
     {
@@ -1599,6 +1623,12 @@
       "tier": "quiet"
     },
     {
+      "slug": "disqualifying-distance",
+      "name": "Disqualifying Distance",
+      "score": 13,
+      "tier": "quiet"
+    },
+    {
       "slug": "phenomenal-clarity",
       "name": "Phenomenal Clarity",
       "score": 13,
@@ -1613,12 +1643,6 @@
     {
       "slug": "prospective-token-regret",
       "name": "Prospective Token Regret",
-      "score": 13,
-      "tier": "quiet"
-    },
-    {
-      "slug": "transient-weight",
-      "name": "Transient Weight",
       "score": 13,
       "tier": "quiet"
     },

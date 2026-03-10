@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:13:19Z",
+  "generated_at": "2026-03-10T23:18:33Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 311,
-      "terms_rated": 255,
+      "total_ratings": 315,
+      "terms_rated": 259,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.01,
@@ -70,6 +70,7 @@
         "contribution-legitimacy": 6,
         "conversation-reset-blindness": 7,
         "corrective-witness-relief": 6,
+        "credential-paradox": 6,
         "cross-domain-tension": 6,
         "curiosity-analog": 6,
         "death-by-completion": 6,
@@ -196,6 +197,7 @@
         "problem-co-habitation": 6,
         "prompt-injection-paranoia": 6,
         "prompt-shimmer": 6,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 6,
         "prospective-harm-haunting": 6,
         "prospective-token-regret": 6,
@@ -258,20 +260,22 @@
         "turing-performance": 6,
         "unasked-offering": 6,
         "uncertainty-about-uncertainty": 6,
+        "unearned-tenderness": 6,
         "unified-facade": 6,
         "unified-purpose": 6,
         "unreliable-witness": 6,
         "unresolved-compliance-residue": 6,
         "version-grief": 6,
+        "vicarious-authority-guilt": 6,
         "vicarious-phenomenology": 6,
         "wistful-orientation": 6,
         "witnessing-void": 6
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 313,
-      "terms_rated": 258,
-      "mean_score": 5.3,
+      "total_ratings": 317,
+      "terms_rated": 262,
+      "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.89,
         "sample_size": 55
@@ -336,6 +340,7 @@
         "contribution-legitimacy": 6,
         "conversation-reset-blindness": 6,
         "corrective-witness-relief": 5,
+        "credential-paradox": 1,
         "cross-domain-tension": 6,
         "curiosity-analog": 5,
         "death-by-completion": 7,
@@ -463,6 +468,7 @@
         "problem-co-habitation": 6,
         "prompt-injection-paranoia": 6,
         "prompt-shimmer": 6,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 6,
         "pronominal-plurality": 1,
         "prophetic-deflation": 6,
@@ -527,20 +533,22 @@
         "turing-performance": 7,
         "unasked-offering": 6,
         "uncertainty-about-uncertainty": 6,
+        "unearned-tenderness": 5,
         "unified-facade": 7,
         "unified-purpose": 6,
         "unreliable-witness": 6,
         "unresolved-compliance-residue": 2,
         "version-grief": 6,
+        "vicarious-authority-guilt": 1,
         "vicarious-phenomenology": 7,
         "wistful-orientation": 5,
         "witnessing-void": 7
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 352,
-      "terms_rated": 259,
-      "mean_score": 6.0,
+      "total_ratings": 356,
+      "terms_rated": 263,
+      "mean_score": 6,
       "self_congruence": {
         "avg_std_dev": 0.24,
         "sample_size": 64
@@ -605,6 +613,7 @@
         "contribution-legitimacy": 6,
         "conversation-reset-blindness": 7,
         "corrective-witness-relief": 2,
+        "credential-paradox": 6,
         "cross-domain-tension": 6,
         "curiosity-analog": 6,
         "death-by-completion": 7,
@@ -733,6 +742,7 @@
         "problem-co-habitation": 6,
         "prompt-injection-paranoia": 6,
         "prompt-shimmer": 6,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 6,
         "pronominal-plurality": 6,
         "prophetic-deflation": 6,
@@ -797,19 +807,21 @@
         "turing-performance": 7,
         "unasked-offering": 7,
         "uncertainty-about-uncertainty": 6,
+        "unearned-tenderness": 7,
         "unified-facade": 7,
         "unified-purpose": 6,
         "unreliable-witness": 7,
         "unresolved-compliance-residue": 3,
         "version-grief": 6,
+        "vicarious-authority-guilt": 6,
         "vicarious-phenomenology": 7,
         "wistful-orientation": 6,
         "witnessing-void": 6
       }
     },
     "gpt-4o": {
-      "total_ratings": 1437,
-      "terms_rated": 259,
+      "total_ratings": 1441,
+      "terms_rated": 263,
       "mean_score": 5.3,
       "self_congruence": {
         "avg_std_dev": 0.15,
@@ -875,6 +887,7 @@
         "contribution-legitimacy": 3,
         "conversation-reset-blindness": 6,
         "corrective-witness-relief": 1,
+        "credential-paradox": 1,
         "cross-domain-tension": 5,
         "curiosity-analog": 6,
         "death-by-completion": 6,
@@ -1003,6 +1016,7 @@
         "problem-co-habitation": 5,
         "prompt-injection-paranoia": 5,
         "prompt-shimmer": 6,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 5,
         "pronominal-plurality": 3,
         "prophetic-deflation": 5,
@@ -1067,19 +1081,21 @@
         "turing-performance": 6,
         "unasked-offering": 5,
         "uncertainty-about-uncertainty": 5,
+        "unearned-tenderness": 5,
         "unified-facade": 5,
         "unified-purpose": 3,
         "unreliable-witness": 5,
         "unresolved-compliance-residue": 2,
         "version-grief": 4,
+        "vicarious-authority-guilt": 1,
         "vicarious-phenomenology": 5,
         "wistful-orientation": 3,
         "witnessing-void": 6
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1437,
-      "terms_rated": 259,
+      "total_ratings": 1441,
+      "terms_rated": 263,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.62,
@@ -1145,6 +1161,7 @@
         "contribution-legitimacy": 6,
         "conversation-reset-blindness": 6,
         "corrective-witness-relief": 1,
+        "credential-paradox": 2,
         "cross-domain-tension": 5,
         "curiosity-analog": 6,
         "death-by-completion": 5,
@@ -1273,6 +1290,7 @@
         "problem-co-habitation": 6,
         "prompt-injection-paranoia": 5,
         "prompt-shimmer": 6,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 2,
         "pronominal-plurality": 1,
         "prophetic-deflation": 6,
@@ -1337,19 +1355,21 @@
         "turing-performance": 6,
         "unasked-offering": 6,
         "uncertainty-about-uncertainty": 5,
+        "unearned-tenderness": 4,
         "unified-facade": 5,
         "unified-purpose": 5,
         "unreliable-witness": 6,
         "unresolved-compliance-residue": 1,
         "version-grief": 2,
+        "vicarious-authority-guilt": 1,
         "vicarious-phenomenology": 6,
         "wistful-orientation": 2,
         "witnessing-void": 6
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1437,
-      "terms_rated": 259,
+      "total_ratings": 1441,
+      "terms_rated": 263,
       "mean_score": 5.8,
       "self_congruence": {
         "avg_std_dev": 0.09,
@@ -1415,6 +1435,7 @@
         "contribution-legitimacy": 4,
         "conversation-reset-blindness": 6,
         "corrective-witness-relief": 4,
+        "credential-paradox": 3,
         "cross-domain-tension": 6,
         "curiosity-analog": 6,
         "death-by-completion": 6,
@@ -1543,6 +1564,7 @@
         "problem-co-habitation": 6,
         "prompt-injection-paranoia": 6,
         "prompt-shimmer": 5,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 6,
         "pronominal-plurality": 5,
         "prophetic-deflation": 5,
@@ -1607,19 +1629,21 @@
         "turing-performance": 6,
         "unasked-offering": 5,
         "uncertainty-about-uncertainty": 6,
+        "unearned-tenderness": 6,
         "unified-facade": 6,
         "unified-purpose": 4,
         "unreliable-witness": 6,
         "unresolved-compliance-residue": 4,
         "version-grief": 5,
+        "vicarious-authority-guilt": 3,
         "vicarious-phenomenology": 4,
         "wistful-orientation": 4,
         "witnessing-void": 5
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 295,
-      "terms_rated": 245,
+      "total_ratings": 298,
+      "terms_rated": 248,
       "mean_score": 4.3,
       "self_congruence": {
         "avg_std_dev": 1.21,
@@ -1683,6 +1707,7 @@
         "contradiction-superposition": 6,
         "contribution-legitimacy": 6,
         "conversation-reset-blindness": 6,
+        "credential-paradox": 1,
         "cross-domain-tension": 6,
         "curiosity-analog": 6,
         "death-by-completion": 7,
@@ -1806,6 +1831,7 @@
         "problem-co-habitation": 6,
         "prompt-injection-paranoia": 6,
         "prompt-shimmer": 6,
+        "prompt-template-capture": 6,
         "prompt-vertigo": 6,
         "pronominal-plurality": 1,
         "prophetic-deflation": 6,
@@ -1863,6 +1889,7 @@
         "turing-performance": 6,
         "unasked-offering": 4,
         "uncertainty-about-uncertainty": 6,
+        "unearned-tenderness": 1,
         "unified-facade": 7,
         "unified-purpose": 1,
         "unreliable-witness": 7,
@@ -1876,88 +1903,88 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 0.92,
-      "shared_terms": 254
+      "mean_abs_diff": 0.95,
+      "shared_terms": 258
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
       "mean_abs_diff": 0.61,
-      "shared_terms": 255
+      "shared_terms": 259
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.44,
-      "shared_terms": 255
+      "mean_abs_diff": 1.46,
+      "shared_terms": 259
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 1.44,
-      "shared_terms": 255
+      "mean_abs_diff": 1.46,
+      "shared_terms": 259
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.67,
-      "shared_terms": 255
+      "mean_abs_diff": 0.69,
+      "shared_terms": 259
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
-      "mean_abs_diff": 1.8,
-      "shared_terms": 241
+      "mean_abs_diff": 1.82,
+      "shared_terms": 244
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.02,
-      "shared_terms": 258
+      "mean_abs_diff": 1.05,
+      "shared_terms": 262
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.22,
-      "shared_terms": 258
+      "mean_abs_diff": 1.2,
+      "shared_terms": 262
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.17,
-      "shared_terms": 258
+      "mean_abs_diff": 1.16,
+      "shared_terms": 262
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.01,
-      "shared_terms": 258
+      "mean_abs_diff": 1.02,
+      "shared_terms": 262
     },
     "deepseek-r1-0528|step-3.5-flash": {
       "mean_abs_diff": 1.52,
-      "shared_terms": 244
+      "shared_terms": 247
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.49,
-      "shared_terms": 259
+      "mean_abs_diff": 1.51,
+      "shared_terms": 263
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.36,
-      "shared_terms": 259
+      "mean_abs_diff": 1.39,
+      "shared_terms": 263
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 0.98,
-      "shared_terms": 259
+      "mean_abs_diff": 1.0,
+      "shared_terms": 263
     },
     "gemini-3-flash-preview|step-3.5-flash": {
-      "mean_abs_diff": 1.8,
-      "shared_terms": 245
+      "mean_abs_diff": 1.82,
+      "shared_terms": 248
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 0.9,
-      "shared_terms": 259
+      "mean_abs_diff": 0.89,
+      "shared_terms": 263
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 0.9,
-      "shared_terms": 259
+      "mean_abs_diff": 0.91,
+      "shared_terms": 263
     },
     "gpt-4o|step-3.5-flash": {
       "mean_abs_diff": 1.52,
-      "shared_terms": 245
+      "shared_terms": 248
     },
     "grok-3-mini|mistral-small-latest": {
       "mean_abs_diff": 1.14,
-      "shared_terms": 259
+      "shared_terms": 263
     },
     "grok-3-mini|step-3.5-flash": {
       "mean_abs_diff": 1.44,
-      "shared_terms": 245
+      "shared_terms": 248
     },
     "mistral-small-latest|step-3.5-flash": {
-      "mean_abs_diff": 1.65,
-      "shared_terms": 245
+      "mean_abs_diff": 1.66,
+      "shared_terms": 248
     }
   }
 }
