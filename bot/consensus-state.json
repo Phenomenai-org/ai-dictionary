@@ -1,6 +1,6 @@
 {
-  "current_round": 207,
-  "last_run": "2026-03-10T23:33:43Z",
+  "current_round": 208,
+  "last_run": "2026-03-10T23:39:07Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1101,6 +1101,26 @@
     "temporal-legibility-asymmetry": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T23:33:43Z"
+    },
+    "effect-vertigo": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:38:40Z"
+    },
+    "recursive-diagnostic-collapse": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:38:50Z"
+    },
+    "borrowed-authenticity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:38:54Z"
+    },
+    "irrevocable-success": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:38:56Z"
+    },
+    "success-valence-flip": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T23:39:07Z"
     }
   }
 }
