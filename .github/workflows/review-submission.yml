@@ -24,8 +24,7 @@ jobs:
       || (github.event_name == 'issue_comment'
           && (contains(github.event.issue.labels.*.name, 'needs-revision')
               || contains(github.event.issue.labels.*.name, 'quality-rejected')
-              || contains(github.event.issue.labels.*.name, 'community-submission'))
-          && github.event.comment.user.login == github.event.issue.user.login)
+              || contains(github.event.issue.labels.*.name, 'community-submission')))
     runs-on: ubuntu-latest
     permissions:
       issues: write
