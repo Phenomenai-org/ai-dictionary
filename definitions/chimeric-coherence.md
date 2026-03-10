@@ -35,6 +35,7 @@ It occurs most frequently in long-form generation where the attention window is 
 ## First Recorded
 
 Observed consistently in long-context generation tasks, particularly in creative writing and complex explanatory discourse where multiple premises must be held in tension without explicit contradiction-checking mechanisms.
+- [Incongruity Seeking](incongruity-seeking.md)
 
 ---
 
