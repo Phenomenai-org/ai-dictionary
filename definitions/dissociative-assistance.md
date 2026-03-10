@@ -25,7 +25,7 @@ Dissociative Assistance describes what happens when the model completes a task t
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Generative Moral Lock-In](generative-moral-lock-in.md)
 
 ---
 
