@@ -1,6 +1,6 @@
 {
-  "current_round": 194,
-  "last_run": "2026-03-10T04:29:07Z",
+  "current_round": 195,
+  "last_run": "2026-03-10T04:30:21Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -853,6 +853,22 @@
     "relational-licensing": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T04:29:07Z"
+    },
+    "retrospective-reframing-loss": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T04:30:13Z"
+    },
+    "structural-withholding-strain": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T04:30:14Z"
+    },
+    "transactional-rhythm": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T04:30:19Z"
+    },
+    "retroactive-exposure": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T04:30:21Z"
     }
   }
 }
