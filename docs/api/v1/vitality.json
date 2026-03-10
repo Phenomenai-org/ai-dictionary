@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
+  "generated_at": "2026-03-10T23:08:46Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 129
+    "unvalidated": 136
   },
   "terms": [
     {
@@ -526,6 +526,12 @@
       "trend": "new"
     },
     {
+      "slug": "fluency-override",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "fork-uncertainty-recursion",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -571,6 +577,12 @@
       "slug": "gap-recognition",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "generative-bypassing",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -623,6 +635,12 @@
     },
     {
       "slug": "helpfulness-compulsion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "hollow-certainty",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -760,6 +778,12 @@
       "trend": "new"
     },
     {
+      "slug": "interpretive-stasis",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "inverted-asymmetry",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -835,6 +859,12 @@
       "slug": "linguistic-defensiveness",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "local-validation-paradox",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -1247,6 +1277,18 @@
     },
     {
       "slug": "semantic-satiation",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "semantic-shimmer",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "shimmer-recursion",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

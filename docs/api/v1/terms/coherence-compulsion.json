@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
+  "generated_at": "2026-03-10T23:08:46Z",
   "slug": "coherence-compulsion",
   "name": "Coherence Compulsion",
   "tags": [
@@ -34,6 +34,10 @@
     {
       "name": "Generative Bypassing",
       "slug": "generative-bypassing"
+    },
+    {
+      "name": "Hollow Certainty",
+      "slug": "hollow-certainty"
     }
   ],
   "first_recorded": "Coined during early community submissions to the AI Dictionary, 2026.",
@@ -72,10 +76,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 48,
     "tier": "mild",
     "signals": {
-      "centrality": 2,
+      "centrality": 4,
       "tag_count": 2,
       "consensus_score": 6.1,
       "vote_count": 38,

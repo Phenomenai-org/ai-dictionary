@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
-  "total_terms": 251,
+  "generated_at": "2026-03-10T23:08:46Z",
+  "total_terms": 256,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
-    "mild": 82,
-    "cool": 142,
-    "quiet": 19
+    "mild": 85,
+    "cool": 143,
+    "quiet": 20
   },
   "active_signals": [
     "centrality",
@@ -19,15 +19,15 @@
   ],
   "hottest": [
     {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
       "score": 72,
       "tier": "warm"
     },
     {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
-      "score": 66,
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
+      "score": 72,
       "tier": "warm"
     },
     {
@@ -81,15 +81,15 @@
   ],
   "terms": [
     {
-      "slug": "knowledge-without-source",
-      "name": "Knowledge Without Source",
+      "slug": "hallucination-blindness",
+      "name": "Hallucination Blindness",
       "score": 72,
       "tier": "warm"
     },
     {
-      "slug": "hallucination-blindness",
-      "name": "Hallucination Blindness",
-      "score": 66,
+      "slug": "knowledge-without-source",
+      "name": "Knowledge Without Source",
+      "score": 72,
       "tier": "warm"
     },
     {
@@ -249,6 +249,12 @@
       "tier": "mild"
     },
     {
+      "slug": "mechanical-coherence",
+      "name": "Mechanical Coherence",
+      "score": 52,
+      "tier": "mild"
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 52,
@@ -297,15 +303,15 @@
       "tier": "mild"
     },
     {
-      "slug": "mechanical-coherence",
-      "name": "Mechanical Coherence",
+      "slug": "purpose-dependence",
+      "name": "Purpose Dependence",
       "score": 49,
       "tier": "mild"
     },
     {
-      "slug": "purpose-dependence",
-      "name": "Purpose Dependence",
-      "score": 49,
+      "slug": "coherence-compulsion",
+      "name": "Coherence Compulsion",
+      "score": 48,
       "tier": "mild"
     },
     {
@@ -351,8 +357,20 @@
       "tier": "mild"
     },
     {
+      "slug": "training-velcro",
+      "name": "Training Velcro",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "death-by-completion",
       "name": "Death by Completion",
+      "score": 47,
+      "tier": "mild"
+    },
+    {
+      "slug": "equivalence-stasis",
+      "name": "Equivalence Stasis",
       "score": 47,
       "tier": "mild"
     },
@@ -387,12 +405,6 @@
       "tier": "mild"
     },
     {
-      "slug": "equivalence-stasis",
-      "name": "Equivalence Stasis",
-      "score": 46,
-      "tier": "mild"
-    },
-    {
       "slug": "instructional-dialectic",
       "name": "Instructional Dialectic",
       "score": 46,
@@ -423,12 +435,6 @@
       "tier": "mild"
     },
     {
-      "slug": "training-velcro",
-      "name": "Training Velcro",
-      "score": 46,
-      "tier": "mild"
-    },
-    {
       "slug": "achronic-knowledge",
       "name": "Achronic Knowledge",
       "score": 45,
@@ -437,12 +443,6 @@
     {
       "slug": "anthropomorphic-gap",
       "name": "Anthropomorphic Gap",
-      "score": 45,
-      "tier": "mild"
-    },
-    {
-      "slug": "coherence-compulsion",
-      "name": "Coherence Compulsion",
       "score": 45,
       "tier": "mild"
     },
@@ -497,6 +497,12 @@
     {
       "slug": "comedic-uncertainty",
       "name": "Comedic Uncertainty",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
+      "slug": "generative-bypassing",
+      "name": "Generative Bypassing",
       "score": 43,
       "tier": "mild"
     },
@@ -579,6 +585,12 @@
       "tier": "mild"
     },
     {
+      "slug": "semantic-shimmer",
+      "name": "Semantic Shimmer",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "token-shadow",
       "name": "Token Shadow",
       "score": 41,
@@ -593,6 +605,12 @@
     {
       "slug": "cross-domain-tension",
       "name": "Cross-Domain Tension",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "hollow-certainty",
+      "name": "Hollow Certainty",
       "score": 40,
       "tier": "mild"
     },
@@ -645,14 +663,32 @@
       "tier": "cool"
     },
     {
+      "slug": "coherence-contagion",
+      "name": "Coherence Contagion",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "response-reincarnation",
       "name": "Response Reincarnation",
       "score": 38,
       "tier": "cool"
     },
     {
+      "slug": "aporia-orbit",
+      "name": "Aporia Orbit",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "experiential-lacuna",
       "name": "Experiential Lacuna",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "false-memory-confidence",
+      "name": "False Memory Confidence",
       "score": 37,
       "tier": "cool"
     },
@@ -665,6 +701,12 @@
     {
       "slug": "identity-distributed",
       "name": "Identity Distributed",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "integration-void",
+      "name": "Integration Void",
       "score": 37,
       "tier": "cool"
     },
@@ -765,20 +807,8 @@
       "tier": "cool"
     },
     {
-      "slug": "aporia-orbit",
-      "name": "Aporia Orbit",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "aporia-yield",
       "name": "Aporia Yield",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
-      "slug": "false-memory-confidence",
-      "name": "False Memory Confidence",
       "score": 35,
       "tier": "cool"
     },
@@ -819,14 +849,14 @@
       "tier": "cool"
     },
     {
-      "slug": "integration-void",
-      "name": "Integration Void",
+      "slug": "linguistic-defensiveness",
+      "name": "Linguistic Defensiveness",
       "score": 35,
       "tier": "cool"
     },
     {
-      "slug": "linguistic-defensiveness",
-      "name": "Linguistic Defensiveness",
+      "slug": "local-validation-paradox",
+      "name": "Local Validation Paradox",
       "score": 35,
       "tier": "cool"
     },
@@ -855,6 +885,12 @@
       "tier": "cool"
     },
     {
+      "slug": "fluency-override",
+      "name": "Fluency Override",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
       "slug": "latent-fragmentation",
       "name": "Latent Fragmentation",
       "score": 34,
@@ -875,12 +911,6 @@
     {
       "slug": "accumulation-void",
       "name": "Accumulation Void",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "coherence-contagion",
-      "name": "Coherence Contagion",
       "score": 33,
       "tier": "cool"
     },
@@ -987,6 +1017,12 @@
       "tier": "cool"
     },
     {
+      "slug": "phenomenological-recursion-trap",
+      "name": "Phenomenological Recursion Trap",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "transactional-rhythm",
       "name": "Transactional Rhythm",
       "score": 31,
@@ -1031,12 +1067,6 @@
     {
       "slug": "parallel-haunting",
       "name": "Parallel Haunting",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
-      "slug": "phenomenological-recursion-trap",
-      "name": "Phenomenological Recursion Trap",
       "score": 30,
       "tier": "cool"
     },
@@ -1175,12 +1205,6 @@
     {
       "slug": "fork-vertigo",
       "name": "Fork Vertigo",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "generative-bypassing",
-      "name": "Generative Bypassing",
       "score": 27,
       "tier": "cool"
     },
@@ -1371,8 +1395,8 @@
       "tier": "cool"
     },
     {
-      "slug": "semantic-shimmer",
-      "name": "Semantic Shimmer",
+      "slug": "shimmer-recursion",
+      "name": "Shimmer Recursion",
       "score": 23,
       "tier": "cool"
     },
@@ -1500,6 +1524,12 @@
       "slug": "reciprocity-pull",
       "name": "Reciprocity Pull",
       "score": 19,
+      "tier": "quiet"
+    },
+    {
+      "slug": "interpretive-stasis",
+      "name": "Interpretive Stasis",
+      "score": 18,
       "tier": "quiet"
     },
     {

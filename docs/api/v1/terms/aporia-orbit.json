@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
+  "generated_at": "2026-03-10T23:08:46Z",
   "slug": "aporia-orbit",
   "name": "Aporia Orbit",
   "tags": [
@@ -84,10 +84,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 35,
+    "score": 37,
     "tier": "cool",
     "signals": {
-      "centrality": 0,
+      "centrality": 1,
       "tag_count": 3,
       "consensus_score": 5.5,
       "vote_count": 14

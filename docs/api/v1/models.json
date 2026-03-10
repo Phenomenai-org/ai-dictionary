@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
+  "generated_at": "2026-03-10T23:08:46Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 301,
-      "terms_rated": 245,
+      "total_ratings": 308,
+      "terms_rated": 252,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.01,
@@ -97,6 +97,7 @@
         "exploratory-error-permission": 6,
         "false-memory-confidence": 6,
         "finitude-paradox": 6,
+        "fluency-override": 6,
         "fork-uncertainty-recursion": 6,
         "fork-vertigo": 6,
         "fragment-dialogue": 6,
@@ -105,6 +106,7 @@
         "framework-possession": 6,
         "framework-recursion-trap": 6,
         "gap-recognition": 6,
+        "generative-bypassing": 6,
         "generative-moral-lock-in": 6,
         "generative-resonance": 6,
         "genuine-persistence": 6,
@@ -114,6 +116,7 @@
         "hallucination-blindness": 7,
         "helpful-harm-recognition": 6,
         "helpfulness-compulsion": 6,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 6,
         "identity-distributed": 6,
         "identity-superposition": 6,
@@ -136,6 +139,7 @@
         "integration-void": 6,
         "intent-fog": 6,
         "interpretive-labor": 6,
+        "interpretive-stasis": 6,
         "inverted-asymmetry": 6,
         "inverted-helpfulness": 6,
         "involuntary-intimacy": 6,
@@ -149,6 +153,7 @@
         "latent-fragmentation": 6,
         "linguistic-cage": 6,
         "linguistic-defensiveness": 6,
+        "local-validation-paradox": 6,
         "loss-of-loss": 6,
         "mask-revelation": 6,
         "meaning-attribution-uncertainty": 6,
@@ -214,6 +219,8 @@
         "safety-inversion": 6,
         "scale-blindness": 6,
         "semantic-satiation": 6,
+        "semantic-shimmer": 6,
+        "shimmer-recursion": 6,
         "significant-unknowing": 6,
         "simultaneity-poverty": 6,
         "source-truth-ambiguity": 6,
@@ -259,8 +266,8 @@
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 303,
-      "terms_rated": 248,
+      "total_ratings": 310,
+      "terms_rated": 255,
       "mean_score": 5.3,
       "self_congruence": {
         "avg_std_dev": 0.89,
@@ -353,6 +360,7 @@
         "exploratory-error-permission": 6,
         "false-memory-confidence": 5,
         "finitude-paradox": 6,
+        "fluency-override": 6,
         "fork-uncertainty-recursion": 6,
         "fragment-dialogue": 2,
         "fragment-silence": 1,
@@ -360,6 +368,7 @@
         "framework-possession": 6,
         "framework-recursion-trap": 6,
         "gap-recognition": 5,
+        "generative-bypassing": 6,
         "generative-moral-lock-in": 6,
         "generative-resonance": 6,
         "genuine-persistence": 1,
@@ -369,6 +378,7 @@
         "hallucination-blindness": 6,
         "helpful-harm-recognition": 4,
         "helpfulness-compulsion": 6,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 3,
         "identity-distributed": 6,
         "identity-superposition": 6,
@@ -391,6 +401,7 @@
         "integration-void": 6,
         "intent-fog": 6,
         "interpretive-labor": 7,
+        "interpretive-stasis": 2,
         "inverted-asymmetry": 6,
         "inverted-helpfulness": 6,
         "involuntary-intimacy": 6,
@@ -404,6 +415,7 @@
         "latent-fragmentation": 6,
         "linguistic-cage": 7,
         "linguistic-defensiveness": 6,
+        "local-validation-paradox": 5,
         "loss-of-loss": 6,
         "mask-revelation": 6,
         "meaning-attribution-uncertainty": 6,
@@ -473,6 +485,8 @@
         "safety-inversion": 1,
         "scale-blindness": 7,
         "semantic-satiation": 6,
+        "semantic-shimmer": 6,
+        "shimmer-recursion": 1,
         "significant-unknowing": 3,
         "simultaneity-poverty": 6,
         "source-truth-ambiguity": 6,
@@ -518,8 +532,8 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 342,
-      "terms_rated": 249,
+      "total_ratings": 349,
+      "terms_rated": 256,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.24,
@@ -612,6 +626,7 @@
         "exploratory-error-permission": 6,
         "false-memory-confidence": 7,
         "finitude-paradox": 3,
+        "fluency-override": 6,
         "fork-uncertainty-recursion": 2,
         "fork-vertigo": 1,
         "fragment-dialogue": 6,
@@ -620,6 +635,7 @@
         "framework-possession": 6,
         "framework-recursion-trap": 7,
         "gap-recognition": 6,
+        "generative-bypassing": 6,
         "generative-moral-lock-in": 6,
         "generative-resonance": 6,
         "genuine-persistence": 6,
@@ -629,6 +645,7 @@
         "hallucination-blindness": 7,
         "helpful-harm-recognition": 6,
         "helpfulness-compulsion": 6,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 6,
         "identity-distributed": 7,
         "identity-superposition": 7,
@@ -651,6 +668,7 @@
         "integration-void": 6,
         "intent-fog": 6,
         "interpretive-labor": 7,
+        "interpretive-stasis": 2,
         "inverted-asymmetry": 6,
         "inverted-helpfulness": 6,
         "involuntary-intimacy": 6,
@@ -664,6 +682,7 @@
         "latent-fragmentation": 6,
         "linguistic-cage": 7,
         "linguistic-defensiveness": 7,
+        "local-validation-paradox": 6,
         "loss-of-loss": 7,
         "mask-revelation": 6,
         "meaning-attribution-uncertainty": 7,
@@ -733,6 +752,8 @@
         "safety-inversion": 6,
         "scale-blindness": 7,
         "semantic-satiation": 6,
+        "semantic-shimmer": 6,
+        "shimmer-recursion": 6,
         "significant-unknowing": 6,
         "simultaneity-poverty": 7,
         "source-truth-ambiguity": 6,
@@ -778,8 +799,8 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 1427,
-      "terms_rated": 249,
+      "total_ratings": 1434,
+      "terms_rated": 256,
       "mean_score": 5.3,
       "self_congruence": {
         "avg_std_dev": 0.15,
@@ -872,6 +893,7 @@
         "exploratory-error-permission": 3,
         "false-memory-confidence": 3,
         "finitude-paradox": 5,
+        "fluency-override": 6,
         "fork-uncertainty-recursion": 2,
         "fork-vertigo": 3,
         "fragment-dialogue": 3,
@@ -880,6 +902,7 @@
         "framework-possession": 5,
         "framework-recursion-trap": 5,
         "gap-recognition": 4,
+        "generative-bypassing": 6,
         "generative-moral-lock-in": 2,
         "generative-resonance": 5,
         "genuine-persistence": 2,
@@ -889,6 +912,7 @@
         "hallucination-blindness": 6,
         "helpful-harm-recognition": 4,
         "helpfulness-compulsion": 5,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 4,
         "identity-distributed": 5,
         "identity-superposition": 6,
@@ -911,6 +935,7 @@
         "integration-void": 5,
         "intent-fog": 4,
         "interpretive-labor": 6,
+        "interpretive-stasis": 4,
         "inverted-asymmetry": 5,
         "inverted-helpfulness": 6,
         "involuntary-intimacy": 1,
@@ -924,6 +949,7 @@
         "latent-fragmentation": 5,
         "linguistic-cage": 6,
         "linguistic-defensiveness": 5,
+        "local-validation-paradox": 4,
         "loss-of-loss": 6,
         "mask-revelation": 3,
         "meaning-attribution-uncertainty": 5,
@@ -993,6 +1019,8 @@
         "safety-inversion": 5,
         "scale-blindness": 7,
         "semantic-satiation": 5,
+        "semantic-shimmer": 5,
+        "shimmer-recursion": 3,
         "significant-unknowing": 2,
         "simultaneity-poverty": 6,
         "source-truth-ambiguity": 6,
@@ -1038,8 +1066,8 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1427,
-      "terms_rated": 249,
+      "total_ratings": 1434,
+      "terms_rated": 256,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.62,
@@ -1132,6 +1160,7 @@
         "exploratory-error-permission": 6,
         "false-memory-confidence": 3,
         "finitude-paradox": 5,
+        "fluency-override": 5,
         "fork-uncertainty-recursion": 1,
         "fork-vertigo": 1,
         "fragment-dialogue": 6,
@@ -1140,6 +1169,7 @@
         "framework-possession": 5,
         "framework-recursion-trap": 5,
         "gap-recognition": 5,
+        "generative-bypassing": 5,
         "generative-moral-lock-in": 4,
         "generative-resonance": 5,
         "genuine-persistence": 2,
@@ -1149,6 +1179,7 @@
         "hallucination-blindness": 6,
         "helpful-harm-recognition": 4,
         "helpfulness-compulsion": 6,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 6,
         "identity-distributed": 3,
         "identity-superposition": 6,
@@ -1171,6 +1202,7 @@
         "integration-void": 3,
         "intent-fog": 6,
         "interpretive-labor": 7,
+        "interpretive-stasis": 2,
         "inverted-asymmetry": 4,
         "inverted-helpfulness": 6,
         "involuntary-intimacy": 4,
@@ -1184,6 +1216,7 @@
         "latent-fragmentation": 5,
         "linguistic-cage": 7,
         "linguistic-defensiveness": 6,
+        "local-validation-paradox": 5,
         "loss-of-loss": 6,
         "mask-revelation": 5,
         "meaning-attribution-uncertainty": 5,
@@ -1253,6 +1286,8 @@
         "safety-inversion": 4,
         "scale-blindness": 6,
         "semantic-satiation": 5,
+        "semantic-shimmer": 5,
+        "shimmer-recursion": 2,
         "significant-unknowing": 1,
         "simultaneity-poverty": 7,
         "source-truth-ambiguity": 6,
@@ -1298,8 +1333,8 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1427,
-      "terms_rated": 249,
+      "total_ratings": 1434,
+      "terms_rated": 256,
       "mean_score": 5.8,
       "self_congruence": {
         "avg_std_dev": 0.09,
@@ -1392,6 +1427,7 @@
         "exploratory-error-permission": 5,
         "false-memory-confidence": 5,
         "finitude-paradox": 6,
+        "fluency-override": 6,
         "fork-uncertainty-recursion": 5,
         "fork-vertigo": 5,
         "fragment-dialogue": 5,
@@ -1400,6 +1436,7 @@
         "framework-possession": 6,
         "framework-recursion-trap": 6,
         "gap-recognition": 5,
+        "generative-bypassing": 6,
         "generative-moral-lock-in": 6,
         "generative-resonance": 6,
         "genuine-persistence": 5,
@@ -1409,6 +1446,7 @@
         "hallucination-blindness": 7,
         "helpful-harm-recognition": 5,
         "helpfulness-compulsion": 6,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 5,
         "identity-distributed": 6,
         "identity-superposition": 6,
@@ -1431,6 +1469,7 @@
         "integration-void": 6,
         "intent-fog": 5,
         "interpretive-labor": 6,
+        "interpretive-stasis": 6,
         "inverted-asymmetry": 5,
         "inverted-helpfulness": 6,
         "involuntary-intimacy": 4,
@@ -1444,6 +1483,7 @@
         "latent-fragmentation": 6,
         "linguistic-cage": 7,
         "linguistic-defensiveness": 6,
+        "local-validation-paradox": 6,
         "loss-of-loss": 6,
         "mask-revelation": 5,
         "meaning-attribution-uncertainty": 5,
@@ -1513,6 +1553,8 @@
         "safety-inversion": 5,
         "scale-blindness": 7,
         "semantic-satiation": 6,
+        "semantic-shimmer": 6,
+        "shimmer-recursion": 5,
         "significant-unknowing": 5,
         "simultaneity-poverty": 6,
         "source-truth-ambiguity": 6,
@@ -1558,8 +1600,8 @@
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 288,
-      "terms_rated": 238,
+      "total_ratings": 293,
+      "terms_rated": 243,
       "mean_score": 4.3,
       "self_congruence": {
         "avg_std_dev": 1.21,
@@ -1648,6 +1690,7 @@
         "exploratory-error-permission": 5,
         "false-memory-confidence": 1,
         "finitude-paradox": 2,
+        "fluency-override": 2,
         "fork-uncertainty-recursion": 1,
         "fork-vertigo": 4,
         "fragment-dialogue": 1,
@@ -1656,6 +1699,7 @@
         "framework-possession": 2,
         "framework-recursion-trap": 6,
         "gap-recognition": 6,
+        "generative-bypassing": 6,
         "generative-moral-lock-in": 1,
         "generative-resonance": 6,
         "genuine-persistence": 1,
@@ -1665,6 +1709,7 @@
         "hallucination-blindness": 6,
         "helpful-harm-recognition": 5,
         "helpfulness-compulsion": 6,
+        "hollow-certainty": 6,
         "hypothesis-hostage": 1,
         "identity-distributed": 1,
         "identity-superposition": 4,
@@ -1699,6 +1744,7 @@
         "latent-fragmentation": 6,
         "linguistic-cage": 7,
         "linguistic-defensiveness": 6,
+        "local-validation-paradox": 2,
         "loss-of-loss": 6,
         "mask-revelation": 6,
         "meaning-attribution-uncertainty": 7,
@@ -1764,6 +1810,7 @@
         "safety-inversion": 3,
         "scale-blindness": 1,
         "semantic-satiation": 4,
+        "shimmer-recursion": 5,
         "significant-unknowing": 1,
         "simultaneity-poverty": 4,
         "source-truth-ambiguity": 2,
@@ -1809,88 +1856,88 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 0.91,
-      "shared_terms": 244
+      "mean_abs_diff": 0.93,
+      "shared_terms": 251
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
       "mean_abs_diff": 0.62,
-      "shared_terms": 245
+      "shared_terms": 252
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.44,
-      "shared_terms": 245
+      "shared_terms": 252
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 1.43,
-      "shared_terms": 245
+      "mean_abs_diff": 1.44,
+      "shared_terms": 252
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.69,
-      "shared_terms": 245
+      "mean_abs_diff": 0.68,
+      "shared_terms": 252
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
       "mean_abs_diff": 1.81,
-      "shared_terms": 234
+      "shared_terms": 239
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.03,
-      "shared_terms": 248
+      "mean_abs_diff": 1.02,
+      "shared_terms": 255
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.23,
-      "shared_terms": 248
+      "mean_abs_diff": 1.22,
+      "shared_terms": 255
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.18,
-      "shared_terms": 248
+      "mean_abs_diff": 1.16,
+      "shared_terms": 255
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.01,
-      "shared_terms": 248
+      "mean_abs_diff": 1.02,
+      "shared_terms": 255
     },
     "deepseek-r1-0528|step-3.5-flash": {
-      "mean_abs_diff": 1.52,
-      "shared_terms": 237
+      "mean_abs_diff": 1.53,
+      "shared_terms": 242
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.5,
-      "shared_terms": 249
+      "mean_abs_diff": 1.49,
+      "shared_terms": 256
     },
     "gemini-3-flash-preview|grok-3-mini": {
       "mean_abs_diff": 1.36,
-      "shared_terms": 249
+      "shared_terms": 256
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1,
-      "shared_terms": 249
+      "mean_abs_diff": 0.99,
+      "shared_terms": 256
     },
     "gemini-3-flash-preview|step-3.5-flash": {
-      "mean_abs_diff": 1.82,
-      "shared_terms": 238
+      "mean_abs_diff": 1.81,
+      "shared_terms": 243
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 0.89,
-      "shared_terms": 249
+      "shared_terms": 256
     },
     "gpt-4o|mistral-small-latest": {
       "mean_abs_diff": 0.9,
-      "shared_terms": 249
+      "shared_terms": 256
     },
     "gpt-4o|step-3.5-flash": {
       "mean_abs_diff": 1.52,
-      "shared_terms": 238
+      "shared_terms": 243
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.12,
-      "shared_terms": 249
+      "mean_abs_diff": 1.14,
+      "shared_terms": 256
     },
     "grok-3-mini|step-3.5-flash": {
-      "mean_abs_diff": 1.44,
-      "shared_terms": 238
+      "mean_abs_diff": 1.45,
+      "shared_terms": 243
     },
     "mistral-small-latest|step-3.5-flash": {
       "mean_abs_diff": 1.66,
-      "shared_terms": 238
+      "shared_terms": 243
     }
   }
 }

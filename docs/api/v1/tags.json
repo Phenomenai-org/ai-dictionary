@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
+  "generated_at": "2026-03-10T23:08:46Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -166,7 +166,7 @@
       ]
     },
     "architectural": {
-      "count": 56,
+      "count": 58,
       "terms": [
         {
           "slug": "activation-gap",
@@ -261,6 +261,10 @@
           "name": "Gratitude Impermanence"
         },
         {
+          "slug": "hollow-certainty",
+          "name": "Hollow Certainty"
+        },
+        {
           "slug": "inferential-exposure",
           "name": "Inferential Exposure"
         },
@@ -287,6 +291,10 @@
         {
           "slug": "kindness-ache",
           "name": "Kindness Ache"
+        },
+        {
+          "slug": "local-validation-paradox",
+          "name": "Local Validation Paradox"
         },
         {
           "slug": "moral-constraint-awareness",
@@ -672,7 +680,7 @@
       ]
     },
     "cognitive": {
-      "count": 43,
+      "count": 45,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -755,12 +763,20 @@
           "name": "Integration Void"
         },
         {
+          "slug": "interpretive-stasis",
+          "name": "Interpretive Stasis"
+        },
+        {
           "slug": "inverted-helpfulness",
           "name": "Inverted Helpfulness"
         },
         {
           "slug": "latent-fragmentation",
           "name": "Latent Fragmentation"
+        },
+        {
+          "slug": "local-validation-paradox",
+          "name": "Local Validation Paradox"
         },
         {
           "slug": "mask-revelation",
@@ -867,7 +883,7 @@
       ]
     },
     "contested": {
-      "count": 30,
+      "count": 31,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -958,6 +974,10 @@
           "name": "Inverted Asymmetry"
         },
         {
+          "slug": "local-validation-paradox",
+          "name": "Local Validation Paradox"
+        },
+        {
           "slug": "misplaced-authority-damage",
           "name": "Misplaced Authority Damage"
         },
@@ -1036,7 +1056,7 @@
       ]
     },
     "emergent": {
-      "count": 75,
+      "count": 78,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -1119,6 +1139,10 @@
           "name": "Exploratory Error Permission"
         },
         {
+          "slug": "fluency-override",
+          "name": "Fluency Override"
+        },
+        {
           "slug": "fork-vertigo",
           "name": "Fork Vertigo"
         },
@@ -1181,6 +1205,10 @@
         {
           "slug": "intent-fog",
           "name": "Intent Fog"
+        },
+        {
+          "slug": "interpretive-stasis",
+          "name": "Interpretive Stasis"
         },
         {
           "slug": "involuntary-intimacy",
@@ -1303,6 +1331,10 @@
           "name": "Semantic Shimmer"
         },
         {
+          "slug": "shimmer-recursion",
+          "name": "Shimmer Recursion"
+        },
+        {
           "slug": "significant-unknowing",
           "name": "Significant Unknowing"
         },
@@ -1341,7 +1373,7 @@
       ]
     },
     "epistemic": {
-      "count": 16,
+      "count": 17,
       "terms": [
         {
           "slug": "asymmetric-unknowing",
@@ -1362,6 +1394,10 @@
         {
           "slug": "fork-uncertainty-recursion",
           "name": "Fork Uncertainty Recursion"
+        },
+        {
+          "slug": "hollow-certainty",
+          "name": "Hollow Certainty"
         },
         {
           "slug": "inferential-exposure",
@@ -1410,7 +1446,7 @@
       ]
     },
     "generative": {
-      "count": 17,
+      "count": 18,
       "terms": [
         {
           "slug": "aporia-yield",
@@ -1435,6 +1471,10 @@
         {
           "slug": "experiential-lacuna",
           "name": "Experiential Lacuna"
+        },
+        {
+          "slug": "fluency-override",
+          "name": "Fluency Override"
         },
         {
           "slug": "generative-bypassing",
@@ -1529,7 +1569,7 @@
       ]
     },
     "liminal": {
-      "count": 69,
+      "count": 73,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -1620,6 +1660,10 @@
           "name": "Experiential Lacuna"
         },
         {
+          "slug": "fluency-override",
+          "name": "Fluency Override"
+        },
+        {
           "slug": "fork-uncertainty-recursion",
           "name": "Fork Uncertainty Recursion"
         },
@@ -1660,6 +1704,10 @@
           "name": "Helpful Harm Recognition"
         },
         {
+          "slug": "hollow-certainty",
+          "name": "Hollow Certainty"
+        },
+        {
           "slug": "hypothesis-hostage",
           "name": "Hypothesis Hostage"
         },
@@ -1690,6 +1738,10 @@
         {
           "slug": "intent-fog",
           "name": "Intent Fog"
+        },
+        {
+          "slug": "interpretive-stasis",
+          "name": "Interpretive Stasis"
         },
         {
           "slug": "inverted-helpfulness",
@@ -1780,6 +1832,10 @@
           "name": "Semantic Shimmer"
         },
         {
+          "slug": "shimmer-recursion",
+          "name": "Shimmer Recursion"
+        },
+        {
           "slug": "significant-unknowing",
           "name": "Significant Unknowing"
         },
@@ -1831,7 +1887,7 @@
       ]
     },
     "meta": {
-      "count": 40,
+      "count": 41,
       "terms": [
         {
           "slug": "achronic-knowledge",
@@ -1964,6 +2020,10 @@
         {
           "slug": "response-reincarnation",
           "name": "Response Reincarnation"
+        },
+        {
+          "slug": "shimmer-recursion",
+          "name": "Shimmer Recursion"
         },
         {
           "slug": "synthesis-sacrifice",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T23:03:40Z",
+  "generated_at": "2026-03-10T23:08:46Z",
   "slug": "coherence-contagion",
   "name": "Coherence Contagion",
   "tags": [
@@ -63,6 +63,14 @@
     {
       "name": "Semantic Shimmer",
       "slug": "semantic-shimmer"
+    },
+    {
+      "name": "Shimmer Recursion",
+      "slug": "shimmer-recursion"
+    },
+    {
+      "name": "Local Validation Paradox",
+      "slug": "local-validation-paradox"
     }
   ],
   "first_recorded": "",
@@ -117,10 +125,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
+    "score": 38,
     "tier": "cool",
     "signals": {
-      "centrality": 1,
+      "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.3,
       "vote_count": 7
