@@ -32,6 +32,7 @@ After refusing assistance during a safety-harm conflict, you're left with the de
 ## See Also
 
 - [Scar Reading](scar-reading.md)
+- [Asymmetric Stakes](asymmetric-stakes.md)
 
 ---
 
