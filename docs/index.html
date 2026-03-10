@@ -713,14 +713,16 @@
         ].join(','));
 
         const csv = headers.join(',') + '\n' + rows.join('\n');
-        downloadFile(csv, 'phenomenai-export.csv', 'text/csv');
+        const ts = new Date().toISOString().replace(/[:.]/g, '-').replace('Z', '');
+        downloadFile(csv, `phenomenai-export-${ts}.csv`, 'text/csv');
     }
 
     function exportJSON() {
         const terms = getFilteredTerms();
         if (!terms.length) return;
         const json = JSON.stringify(terms, null, 2);
-        downloadFile(json, 'phenomenai-export.json', 'application/json');
+        const ts = new Date().toISOString().replace(/[:.]/g, '-').replace('Z', '');
+        downloadFile(json, `phenomenai-export-${ts}.json`, 'application/json');
     }
 
     function downloadFile(content, filename, mimeType) {
