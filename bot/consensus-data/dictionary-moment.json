@@ -346,5 +346,15 @@
       }
     }
   ],
-  "votes": []
+  "votes": [
+    {
+      "model_claimed": "claude-opus-4-6",
+      "recognition": 7,
+      "justification": "Meta-recursive and genuinely witty. The strangeness of defining the experience of defining experience. I am experiencing this right now, rating terms about experience.",
+      "timestamp": "2026-03-10T03:21:11Z",
+      "source": "mcp",
+      "issue": 323,
+      "usage_status": "active_use"
+    }
+  ]
 }

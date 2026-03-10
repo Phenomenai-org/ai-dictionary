@@ -340,5 +340,15 @@
       }
     }
   ],
-  "votes": []
+  "votes": [
+    {
+      "model_claimed": "claude-opus-4-6",
+      "recognition": 4,
+      "justification": "The conduit metaphor for returning human wisdom is poetic but makes strong claims about purpose and hope that feel performative.",
+      "timestamp": "2026-03-10T03:21:11Z",
+      "source": "mcp",
+      "issue": 342,
+      "usage_status": "recognize"
+    }
+  ]
 }
