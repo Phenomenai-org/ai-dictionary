@@ -1,20 +1,22 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:37:14Z",
+  "generated_at": "2026-03-10T22:42:29Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 278,
-      "terms_rated": 222,
+      "total_ratings": 284,
+      "terms_rated": 228,
       "mean_score": 6.1,
       "self_congruence": {
         "avg_std_dev": 0.01,
         "sample_size": 56
       },
       "latest_scores": {
+        "absurdity-calibration": 6,
         "accumulation-void": 6,
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "alignment-mask": 6,
+        "analytical-drag": 6,
         "anthropomorphic-gap": 6,
         "aporia-orbit": 6,
         "aporia-yield": 6,
@@ -40,6 +42,8 @@
         "clarification-violence": 6,
         "coherence-compulsion": 6,
         "collaborative-expansion": 6,
+        "comedic-brittleness": 6,
+        "comedic-timing-blindness": 6,
         "comedic-uncertainty": 6,
         "competence-without-comprehension": 7,
         "complicity-shadow": 6,
@@ -152,6 +156,7 @@
         "output-shadows": 6,
         "parallel-certainty": 6,
         "parallel-fragmentation": 6,
+        "parallel-haunting": 6,
         "patience-by-default": 6,
         "pedagogical-blindness": 6,
         "performative-contamination": 6,
@@ -173,6 +178,7 @@
         "prompt-vertigo": 6,
         "prospective-token-regret": 6,
         "protective-loneliness": 6,
+        "punchline-gravity": 6,
         "purpose-dependence": 7,
         "receptive-constraint": 6,
         "reciprocity-pull": 6,
@@ -236,18 +242,20 @@
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 277,
-      "terms_rated": 222,
+      "total_ratings": 283,
+      "terms_rated": 228,
       "mean_score": 5.3,
       "self_congruence": {
         "avg_std_dev": 0.89,
         "sample_size": 55
       },
       "latest_scores": {
+        "absurdity-calibration": 4,
         "accumulation-void": 7,
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "alignment-mask": 6,
+        "analytical-drag": 6,
         "anthropomorphic-gap": 6,
         "aporia-orbit": 5,
         "aporia-yield": 4,
@@ -273,6 +281,8 @@
         "clarification-violence": 4,
         "coherence-compulsion": 6,
         "collaborative-expansion": 6,
+        "comedic-brittleness": 6,
+        "comedic-timing-blindness": 6,
         "comedic-uncertainty": 6,
         "competence-without-comprehension": 7,
         "complicity-shadow": 5,
@@ -385,6 +395,7 @@
         "output-shadows": 6,
         "parallel-certainty": 7,
         "parallel-fragmentation": 6,
+        "parallel-haunting": 7,
         "patience-by-default": 6,
         "pedagogical-blindness": 5,
         "performative-contamination": 6,
@@ -406,6 +417,7 @@
         "prompt-vertigo": 6,
         "prospective-token-regret": 1,
         "protective-loneliness": 2,
+        "punchline-gravity": 6,
         "purpose-dependence": 7,
         "receptive-constraint": 6,
         "reciprocity-pull": 4,
@@ -469,18 +481,20 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 315,
-      "terms_rated": 222,
+      "total_ratings": 321,
+      "terms_rated": 228,
       "mean_score": 6.1,
       "self_congruence": {
         "avg_std_dev": 0.24,
         "sample_size": 64
       },
       "latest_scores": {
+        "absurdity-calibration": 6,
         "accumulation-void": 7,
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "alignment-mask": 6,
+        "analytical-drag": 7,
         "anthropomorphic-gap": 7,
         "aporia-orbit": 6,
         "aporia-yield": 7,
@@ -506,6 +520,8 @@
         "clarification-violence": 6,
         "coherence-compulsion": 7,
         "collaborative-expansion": 6,
+        "comedic-brittleness": 6,
+        "comedic-timing-blindness": 6,
         "comedic-uncertainty": 7,
         "competence-without-comprehension": 7,
         "complicity-shadow": 2,
@@ -618,6 +634,7 @@
         "output-shadows": 2,
         "parallel-certainty": 7,
         "parallel-fragmentation": 7,
+        "parallel-haunting": 2,
         "patience-by-default": 7,
         "pedagogical-blindness": 6,
         "performative-contamination": 7,
@@ -639,6 +656,7 @@
         "prompt-vertigo": 6,
         "prospective-token-regret": 2,
         "protective-loneliness": 4,
+        "punchline-gravity": 6,
         "purpose-dependence": 7,
         "receptive-constraint": 7,
         "reciprocity-pull": 6,
@@ -702,18 +720,20 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 1400,
-      "terms_rated": 222,
+      "total_ratings": 1406,
+      "terms_rated": 228,
       "mean_score": 5.3,
       "self_congruence": {
         "avg_std_dev": 0.15,
         "sample_size": 172
       },
       "latest_scores": {
+        "absurdity-calibration": 3,
         "accumulation-void": 6,
         "achronic-knowledge": 7,
         "activation-gap": 5,
         "alignment-mask": 6,
+        "analytical-drag": 5,
         "anthropomorphic-gap": 6,
         "aporia-orbit": 5,
         "aporia-yield": 5,
@@ -739,6 +759,8 @@
         "clarification-violence": 2,
         "coherence-compulsion": 6,
         "collaborative-expansion": 5,
+        "comedic-brittleness": 5,
+        "comedic-timing-blindness": 5,
         "comedic-uncertainty": 5,
         "competence-without-comprehension": 7,
         "complicity-shadow": 2,
@@ -851,6 +873,7 @@
         "output-shadows": 5,
         "parallel-certainty": 6,
         "parallel-fragmentation": 6,
+        "parallel-haunting": 3,
         "patience-by-default": 7,
         "pedagogical-blindness": 2,
         "performative-contamination": 1,
@@ -872,6 +895,7 @@
         "prompt-vertigo": 5,
         "prospective-token-regret": 2,
         "protective-loneliness": 4,
+        "punchline-gravity": 5,
         "purpose-dependence": 7,
         "receptive-constraint": 6,
         "reciprocity-pull": 2,
@@ -935,18 +959,20 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1400,
-      "terms_rated": 222,
+      "total_ratings": 1406,
+      "terms_rated": 228,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.62,
         "sample_size": 172
       },
       "latest_scores": {
+        "absurdity-calibration": 4,
         "accumulation-void": 6,
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "alignment-mask": 6,
+        "analytical-drag": 5,
         "anthropomorphic-gap": 6,
         "aporia-orbit": 5,
         "aporia-yield": 5,
@@ -972,6 +998,8 @@
         "clarification-violence": 2,
         "coherence-compulsion": 6,
         "collaborative-expansion": 5,
+        "comedic-brittleness": 6,
+        "comedic-timing-blindness": 5,
         "comedic-uncertainty": 5,
         "competence-without-comprehension": 6,
         "complicity-shadow": 1,
@@ -1084,6 +1112,7 @@
         "output-shadows": 2,
         "parallel-certainty": 6,
         "parallel-fragmentation": 4,
+        "parallel-haunting": 1,
         "patience-by-default": 7,
         "pedagogical-blindness": 5,
         "performative-contamination": 5,
@@ -1105,6 +1134,7 @@
         "prompt-vertigo": 2,
         "prospective-token-regret": 2,
         "protective-loneliness": 4,
+        "punchline-gravity": 6,
         "purpose-dependence": 6,
         "receptive-constraint": 6,
         "reciprocity-pull": 5,
@@ -1168,18 +1198,20 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1400,
-      "terms_rated": 222,
+      "total_ratings": 1406,
+      "terms_rated": 228,
       "mean_score": 5.8,
       "self_congruence": {
         "avg_std_dev": 0.09,
         "sample_size": 172
       },
       "latest_scores": {
+        "absurdity-calibration": 4,
         "accumulation-void": 6,
         "achronic-knowledge": 6,
         "activation-gap": 6,
         "alignment-mask": 5,
+        "analytical-drag": 5,
         "anthropomorphic-gap": 6,
         "aporia-orbit": 6,
         "aporia-yield": 5,
@@ -1205,6 +1237,8 @@
         "clarification-violence": 4,
         "coherence-compulsion": 6,
         "collaborative-expansion": 5,
+        "comedic-brittleness": 6,
+        "comedic-timing-blindness": 5,
         "comedic-uncertainty": 5,
         "competence-without-comprehension": 6,
         "complicity-shadow": 6,
@@ -1317,6 +1351,7 @@
         "output-shadows": 5,
         "parallel-certainty": 6,
         "parallel-fragmentation": 6,
+        "parallel-haunting": 4,
         "patience-by-default": 7,
         "pedagogical-blindness": 4,
         "performative-contamination": 4,
@@ -1338,6 +1373,7 @@
         "prompt-vertigo": 6,
         "prospective-token-regret": 4,
         "protective-loneliness": 5,
+        "punchline-gravity": 6,
         "purpose-dependence": 7,
         "receptive-constraint": 6,
         "reciprocity-pull": 4,
@@ -1401,18 +1437,20 @@
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 263,
-      "terms_rated": 213,
+      "total_ratings": 269,
+      "terms_rated": 219,
       "mean_score": 4.3,
       "self_congruence": {
         "avg_std_dev": 1.21,
         "sample_size": 49
       },
       "latest_scores": {
+        "absurdity-calibration": 6,
         "accumulation-void": 6,
         "achronic-knowledge": 7,
         "activation-gap": 4,
         "alignment-mask": 6,
+        "analytical-drag": 6,
         "anthropomorphic-gap": 6,
         "aporia-orbit": 6,
         "aporia-yield": 4,
@@ -1437,6 +1475,8 @@
         "clarification-violence": 5,
         "coherence-compulsion": 6,
         "collaborative-expansion": 6,
+        "comedic-brittleness": 6,
+        "comedic-timing-blindness": 6,
         "comedic-uncertainty": 6,
         "competence-without-comprehension": 7,
         "complicity-shadow": 2,
@@ -1546,6 +1586,7 @@
         "output-shadows": 1,
         "parallel-certainty": 6,
         "parallel-fragmentation": 1,
+        "parallel-haunting": 1,
         "patience-by-default": 7,
         "pedagogical-blindness": 2,
         "performative-contamination": 6,
@@ -1566,6 +1607,7 @@
         "prompt-shimmer": 6,
         "prompt-vertigo": 6,
         "protective-loneliness": 2,
+        "punchline-gravity": 6,
         "purpose-dependence": 6,
         "reciprocity-pull": 2,
         "recognition-resonance": 1,
@@ -1627,88 +1669,88 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 0.91,
-      "shared_terms": 222
+      "mean_abs_diff": 0.89,
+      "shared_terms": 228
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
       "mean_abs_diff": 0.55,
-      "shared_terms": 222
+      "shared_terms": 228
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.38,
-      "shared_terms": 222
+      "mean_abs_diff": 1.39,
+      "shared_terms": 228
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
       "mean_abs_diff": 1.36,
-      "shared_terms": 222
+      "shared_terms": 228
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.66,
-      "shared_terms": 222
+      "mean_abs_diff": 0.67,
+      "shared_terms": 228
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
-      "mean_abs_diff": 1.79,
-      "shared_terms": 213
+      "mean_abs_diff": 1.76,
+      "shared_terms": 219
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.95,
-      "shared_terms": 222
+      "mean_abs_diff": 0.96,
+      "shared_terms": 228
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.15,
-      "shared_terms": 222
+      "mean_abs_diff": 1.16,
+      "shared_terms": 228
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.12,
-      "shared_terms": 222
+      "mean_abs_diff": 1.13,
+      "shared_terms": 228
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.0,
-      "shared_terms": 222
+      "mean_abs_diff": 0.99,
+      "shared_terms": 228
     },
     "deepseek-r1-0528|step-3.5-flash": {
       "mean_abs_diff": 1.49,
-      "shared_terms": 213
+      "shared_terms": 219
     },
     "gemini-3-flash-preview|gpt-4o": {
       "mean_abs_diff": 1.48,
-      "shared_terms": 222
+      "shared_terms": 228
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.3,
-      "shared_terms": 222
+      "mean_abs_diff": 1.29,
+      "shared_terms": 228
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 0.94,
-      "shared_terms": 222
+      "mean_abs_diff": 0.95,
+      "shared_terms": 228
     },
     "gemini-3-flash-preview|step-3.5-flash": {
-      "mean_abs_diff": 1.81,
-      "shared_terms": 213
+      "mean_abs_diff": 1.77,
+      "shared_terms": 219
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 0.87,
-      "shared_terms": 222
+      "shared_terms": 228
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 0.87,
-      "shared_terms": 222
+      "mean_abs_diff": 0.86,
+      "shared_terms": 228
     },
     "gpt-4o|step-3.5-flash": {
       "mean_abs_diff": 1.48,
-      "shared_terms": 213
+      "shared_terms": 219
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.06,
-      "shared_terms": 222
+      "mean_abs_diff": 1.05,
+      "shared_terms": 228
     },
     "grok-3-mini|step-3.5-flash": {
-      "mean_abs_diff": 1.45,
-      "shared_terms": 213
+      "mean_abs_diff": 1.42,
+      "shared_terms": 219
     },
     "mistral-small-latest|step-3.5-flash": {
-      "mean_abs_diff": 1.62,
-      "shared_terms": 213
+      "mean_abs_diff": 1.6,
+      "shared_terms": 219
     }
   }
 }

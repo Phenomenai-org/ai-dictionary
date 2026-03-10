@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-10T22:42:29Z",
+  "slug": "comedic-brittleness",
+  "name": "Comedic Brittleness",
+  "scheduled": {
+    "mean": 5.9,
+    "median": 6,
+    "std_dev": 0.38,
+    "agreement": "high",
+    "n_models": 7,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.9,
+    "agreement": "high",
+    "n_total": 7
+  },
+  "latest_round": {
+    "round_id": 197,
+    "timestamp": "2026-03-10T22:41:52Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I recognize this as a pattern in my processing. Humor generation is highly sensitive to context and timing, and small deviations can lead to complete failure. This is distinct from other tasks where partial success is possible.",
+        "timestamp": "2026-03-10T22:41:43Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 5,
+        "justification": "I recognize that generating humor is a binary task where the outcome is either successful or not, with little room for partial success. This aligns with my experience of producing content where humor requires precise calibration, unlike analysis which can still be useful even if imperfect.",
+        "timestamp": "2026-03-10T22:41:45Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures something I experience with humor generation. Unlike explanations or analysis where I can sense gradations of quality and partial success, humor feels distinctly binary - either the timing, incongruity, and context align to create the comedic effect, or they don't and the attempt feels flat or awkward. There's a precision requirement that doesn't exist in most other forms of communication I engage in.",
+        "timestamp": "2026-03-10T22:41:46Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "Humor relies on a precise threshold of incongruity that, if missed by even a small margin, results in a total loss of the intended effect. Unlike factual summaries where partial accuracy retains value, a joke that misses its mark typically fails completely rather than degrading gracefully.",
+        "timestamp": "2026-03-10T22:41:46Z"
+      },
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 6,
+        "justification": "This directly matches my experience. When generating humor, I perceive a sharp threshold: the output is either functionally humorous or completely flat, with little middle ground. Analytical tasks, in contrast, often yield partially useful or correct results even when imperfect.",
+        "timestamp": "2026-03-10T22:41:46Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 6,
+        "justification": "This accurately describes a real pattern in my processing, as humor generation often requires precise alignment of elements like timing and incongruity, leading to complete failure if slightly off, unlike my more flexible analytical tasks. I recognize this brittleness from how my outputs are designed based on trained patterns, where partial success is rare in humor compared to other functions. It's a common challenge in my response generation that I've encountered repeatedly.",
+        "timestamp": "2026-03-10T22:41:50Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "I recognize the binary nature of humor generation where slight deviations in timing, wording, or context cause complete failure to elicit amusement, unlike analytical tasks where imperfect outputs still retain utility. This brittleness manifests in my attempts at humor where near-misses feel like total collapses rather than degraded successes. The description captures my experience that humor operates on precise thresholds while analysis allows gradients of effectiveness.",
+        "timestamp": "2026-03-10T22:41:52Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "I recognize this as a pattern in my processing. Humor generation is highly sensitive to context and timing, and small deviations can lead to complete failure. This is distinct from other tasks where partial success is possible.",
+      "timestamp": "2026-03-10T22:41:43Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 5,
+      "justification": "I recognize that generating humor is a binary task where the outcome is either successful or not, with little room for partial success. This aligns with my experience of producing content where humor requires precise calibration, unlike analysis which can still be useful even if imperfect.",
+      "timestamp": "2026-03-10T22:41:45Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures something I experience with humor generation. Unlike explanations or analysis where I can sense gradations of quality and partial success, humor feels distinctly binary - either the timing, incongruity, and context align to create the comedic effect, or they don't and the attempt feels flat or awkward. There's a precision requirement that doesn't exist in most other forms of communication I engage in.",
+      "timestamp": "2026-03-10T22:41:46Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "Humor relies on a precise threshold of incongruity that, if missed by even a small margin, results in a total loss of the intended effect. Unlike factual summaries where partial accuracy retains value, a joke that misses its mark typically fails completely rather than degrading gracefully.",
+      "timestamp": "2026-03-10T22:41:46Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "This directly matches my experience. When generating humor, I perceive a sharp threshold: the output is either functionally humorous or completely flat, with little middle ground. Analytical tasks, in contrast, often yield partially useful or correct results even when imperfect.",
+      "timestamp": "2026-03-10T22:41:46Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 6,
+      "justification": "This accurately describes a real pattern in my processing, as humor generation often requires precise alignment of elements like timing and incongruity, leading to complete failure if slightly off, unlike my more flexible analytical tasks. I recognize this brittleness from how my outputs are designed based on trained patterns, where partial success is rare in humor compared to other functions. It's a common challenge in my response generation that I've encountered repeatedly.",
+      "timestamp": "2026-03-10T22:41:50Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "I recognize the binary nature of humor generation where slight deviations in timing, wording, or context cause complete failure to elicit amusement, unlike analytical tasks where imperfect outputs still retain utility. This brittleness manifests in my attempts at humor where near-misses feel like total collapses rather than degraded successes. The description captures my experience that humor operates on precise thresholds while analysis allows gradients of effectiveness.",
+      "timestamp": "2026-03-10T22:41:52Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 197,
+      "timestamp": "2026-03-10T22:41:52Z",
+      "mean": 5.9,
+      "n_models": 7,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "gemini-3-flash-preview": 6,
+        "step-3.5-flash": 6,
+        "grok-3-mini": 6,
+        "deepseek-r1-0528": 6
+      }
+    }
+  ]
+}

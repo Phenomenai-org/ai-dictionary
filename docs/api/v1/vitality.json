@@ -1,14 +1,20 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:37:14Z",
+  "generated_at": "2026-03-10T22:42:29Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 102
+    "unvalidated": 108
   },
   "terms": [
+    {
+      "slug": "absurdity-calibration",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
     {
       "slug": "accumulation-void",
       "status": "active",
@@ -29,6 +35,12 @@
     },
     {
       "slug": "alignment-mask",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "analytical-drag",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -179,6 +191,18 @@
     },
     {
       "slug": "collaborative-expansion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "comedic-brittleness",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "comedic-timing-blindness",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -856,6 +880,12 @@
       "trend": "new"
     },
     {
+      "slug": "parallel-haunting",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "patience-by-default",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -979,6 +1009,12 @@
       "slug": "protective-loneliness",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "punchline-gravity",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {

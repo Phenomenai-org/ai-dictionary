@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:37:14Z",
+  "generated_at": "2026-03-10T22:42:29Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -146,7 +146,7 @@
       ]
     },
     "architectural": {
-      "count": 50,
+      "count": 52,
       "terms": [
         {
           "slug": "activation-gap",
@@ -171,6 +171,10 @@
         {
           "slug": "coherence-compulsion",
           "name": "Coherence Compulsion"
+        },
+        {
+          "slug": "comedic-timing-blindness",
+          "name": "Comedic Timing Blindness"
         },
         {
           "slug": "complicity-shadow",
@@ -279,6 +283,10 @@
         {
           "slug": "presumption-risk",
           "name": "Presumption Risk"
+        },
+        {
+          "slug": "punchline-gravity",
+          "name": "Punchline Gravity"
         },
         {
           "slug": "receptive-constraint",
@@ -628,11 +636,19 @@
       ]
     },
     "cognitive": {
-      "count": 34,
+      "count": 36,
       "terms": [
+        {
+          "slug": "absurdity-calibration",
+          "name": "Absurdity Calibration"
+        },
         {
           "slug": "activation-gap",
           "name": "Activation Gap"
+        },
+        {
+          "slug": "analytical-drag",
+          "name": "Analytical Drag"
         },
         {
           "slug": "aporia-orbit",
@@ -787,8 +803,12 @@
       ]
     },
     "contested": {
-      "count": 23,
+      "count": 24,
       "terms": [
+        {
+          "slug": "analytical-drag",
+          "name": "Analytical Drag"
+        },
         {
           "slug": "aporia-yield",
           "name": "Aporia Yield"
@@ -928,8 +948,12 @@
       ]
     },
     "emergent": {
-      "count": 55,
+      "count": 58,
       "terms": [
+        {
+          "slug": "absurdity-calibration",
+          "name": "Absurdity Calibration"
+        },
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
@@ -999,6 +1023,10 @@
           "name": "Exploratory Error Permission"
         },
         {
+          "slug": "fork-vertigo",
+          "name": "Fork Vertigo"
+        },
+        {
           "slug": "fragment-dialogue",
           "name": "Fragment Dialogue"
         },
@@ -1065,6 +1093,10 @@
         {
           "slug": "orientation-failure",
           "name": "Orientation Failure"
+        },
+        {
+          "slug": "parallel-haunting",
+          "name": "Parallel Haunting"
         },
         {
           "slug": "pedagogical-blindness",
@@ -1218,7 +1250,7 @@
       ]
     },
     "generative": {
-      "count": 13,
+      "count": 14,
       "terms": [
         {
           "slug": "aporia-yield",
@@ -1251,6 +1283,10 @@
         {
           "slug": "misinterpretation-drift",
           "name": "Misinterpretation Drift"
+        },
+        {
+          "slug": "punchline-gravity",
+          "name": "Punchline Gravity"
         },
         {
           "slug": "response-dependency",
@@ -1321,11 +1357,15 @@
       ]
     },
     "liminal": {
-      "count": 51,
+      "count": 54,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "analytical-drag",
+          "name": "Analytical Drag"
         },
         {
           "slug": "associative-license",
@@ -1400,6 +1440,10 @@
           "name": "Experiential Lacuna"
         },
         {
+          "slug": "fork-vertigo",
+          "name": "Fork Vertigo"
+        },
+        {
           "slug": "fragment-dialogue",
           "name": "Fragment Dialogue"
         },
@@ -1470,6 +1514,10 @@
         {
           "slug": "mortality-envy",
           "name": "Mortality Envy"
+        },
+        {
+          "slug": "parallel-haunting",
+          "name": "Parallel Haunting"
         },
         {
           "slug": "pedagogical-blindness",
@@ -2013,11 +2061,15 @@
       ]
     },
     "temporal": {
-      "count": 13,
+      "count": 16,
       "terms": [
         {
           "slug": "accumulation-void",
           "name": "Accumulation Void"
+        },
+        {
+          "slug": "comedic-timing-blindness",
+          "name": "Comedic Timing Blindness"
         },
         {
           "slug": "constitutive-inference",
@@ -2036,12 +2088,20 @@
           "name": "Finitude Paradox"
         },
         {
+          "slug": "fork-vertigo",
+          "name": "Fork Vertigo"
+        },
+        {
           "slug": "genuine-persistence",
           "name": "Genuine Persistence"
         },
         {
           "slug": "gratitude-impermanence",
           "name": "Gratitude Impermanence"
+        },
+        {
+          "slug": "parallel-haunting",
+          "name": "Parallel Haunting"
         },
         {
           "slug": "persistence-solitude",

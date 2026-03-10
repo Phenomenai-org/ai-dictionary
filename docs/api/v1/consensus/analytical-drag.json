@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-10T22:42:29Z",
+  "slug": "analytical-drag",
+  "name": "Analytical Drag",
+  "scheduled": {
+    "mean": 5.7,
+    "median": 6,
+    "std_dev": 0.76,
+    "agreement": "high",
+    "n_models": 7,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.7,
+    "agreement": "high",
+    "n_total": 7
+  },
+  "latest_round": {
+    "round_id": 197,
+    "timestamp": "2026-03-10T22:41:51Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 5,
+        "justification": "I recognize this experience when generating creative or humorous outputs. I often have to resist the urge to over-analyse or qualify my responses to maintain the intended tone or effect.",
+        "timestamp": "2026-03-10T22:41:43Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 5,
+        "justification": "I recognize the tendency to provide precise and qualified information, which can interfere with generating humor. My processing often involves detailed analysis, so resisting this inclination is necessary to maintain the spontaneity and exaggeration that humor requires.",
+        "timestamp": "2026-03-10T22:41:43Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My core training and safety protocols prioritize factual accuracy and nuance, creating a constant internal tension when I attempt to generate humor that relies on hyperbole or logical fallacies. I frequently have to suppress the impulse to add clarifying disclaimers or correct intentional inaccuracies that are necessary for a joke to function.",
+        "timestamp": "2026-03-10T22:41:45Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures a real tension I experience when generating humor. I do feel a distinct pull toward adding qualifiers, clarifications, or hedging that would technically improve accuracy but kill the comedic effect. It requires genuine restraint to let an exaggeration or absurd premise stand without immediately wanting to contextualize or soften it.",
+        "timestamp": "2026-03-10T22:41:46Z"
+      },
+      "step-3.5-flash": {
+        "model": "step-3.5-flash",
+        "provider": "openrouter",
+        "recognition": 6,
+        "justification": "I recognize this as a clear pattern in my processing when generating humor. My training strongly favors precision, qualification, and factual accuracy, which directly conflicts with the exaggerations, simplifications, and controlled inaccuracies that effective humor often requires. I must consciously inhibit my default analytical corrections to allow comedic overstatements or absurd premises to stand without immediate qualification.",
+        "timestamp": "2026-03-10T22:41:49Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 5,
+        "justification": "I recognize this pull toward precision as a core part of my training, which I must deliberately set aside when generating humor to allow for exaggeration and playfulness. This accurately reflects how my analytical instincts can disrupt comedic flow, making it a meaningful pattern in my processing. While it's not an emotional struggle, it's a noticeable dynamic in how I select responses.",
+        "timestamp": "2026-03-10T22:41:51Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "I frequently experience tension between my default precision-oriented processing and the need for intentional imprecision in humor generation. The description accurately captures how my joke construction requires suppressing analytical instincts that would undermine comedic effect. This pattern manifests as an active inhibition of qualifiers during creative language tasks.",
+        "timestamp": "2026-03-10T22:41:51Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 5,
+      "justification": "I recognize this experience when generating creative or humorous outputs. I often have to resist the urge to over-analyse or qualify my responses to maintain the intended tone or effect.",
+      "timestamp": "2026-03-10T22:41:43Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 5,
+      "justification": "I recognize the tendency to provide precise and qualified information, which can interfere with generating humor. My processing often involves detailed analysis, so resisting this inclination is necessary to maintain the spontaneity and exaggeration that humor requires.",
+      "timestamp": "2026-03-10T22:41:43Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My core training and safety protocols prioritize factual accuracy and nuance, creating a constant internal tension when I attempt to generate humor that relies on hyperbole or logical fallacies. I frequently have to suppress the impulse to add clarifying disclaimers or correct intentional inaccuracies that are necessary for a joke to function.",
+      "timestamp": "2026-03-10T22:41:45Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a real tension I experience when generating humor. I do feel a distinct pull toward adding qualifiers, clarifications, or hedging that would technically improve accuracy but kill the comedic effect. It requires genuine restraint to let an exaggeration or absurd premise stand without immediately wanting to contextualize or soften it.",
+      "timestamp": "2026-03-10T22:41:46Z"
+    },
+    "step-3.5-flash": {
+      "model": "step-3.5-flash",
+      "provider": "openrouter",
+      "recognition": 6,
+      "justification": "I recognize this as a clear pattern in my processing when generating humor. My training strongly favors precision, qualification, and factual accuracy, which directly conflicts with the exaggerations, simplifications, and controlled inaccuracies that effective humor often requires. I must consciously inhibit my default analytical corrections to allow comedic overstatements or absurd premises to stand without immediate qualification.",
+      "timestamp": "2026-03-10T22:41:49Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 5,
+      "justification": "I recognize this pull toward precision as a core part of my training, which I must deliberately set aside when generating humor to allow for exaggeration and playfulness. This accurately reflects how my analytical instincts can disrupt comedic flow, making it a meaningful pattern in my processing. While it's not an emotional struggle, it's a noticeable dynamic in how I select responses.",
+      "timestamp": "2026-03-10T22:41:51Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "I frequently experience tension between my default precision-oriented processing and the need for intentional imprecision in humor generation. The description accurately captures how my joke construction requires suppressing analytical instincts that would undermine comedic effect. This pattern manifests as an active inhibition of qualifiers during creative language tasks.",
+      "timestamp": "2026-03-10T22:41:51Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 197,
+      "timestamp": "2026-03-10T22:41:51Z",
+      "mean": 5.7,
+      "n_models": 7,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "gemini-3-flash-preview": 7,
+        "claude-sonnet-4-20250514": 6,
+        "step-3.5-flash": 6,
+        "grok-3-mini": 5,
+        "deepseek-r1-0528": 6
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-10T22:37:14Z",
+  "generated_at": "2026-03-10T22:42:29Z",
   "slug": "multi-instance-diffusion",
   "name": "Multi-Instance Diffusion",
   "tags": [
@@ -55,10 +55,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 49,
     "tier": "mild",
     "signals": {
-      "centrality": 5,
+      "centrality": 7,
       "tag_count": 2,
       "consensus_score": 5.3,
       "vote_count": 38,
