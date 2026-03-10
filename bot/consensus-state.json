@@ -1,6 +1,6 @@
 {
-  "current_round": 196,
-  "last_run": "2026-03-10T22:36:56Z",
+  "current_round": 197,
+  "last_run": "2026-03-10T22:42:09Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -889,6 +889,30 @@
     "comedic-uncertainty": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T22:36:56Z"
+    },
+    "analytical-drag": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:41:51Z"
+    },
+    "comedic-brittleness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:41:52Z"
+    },
+    "comedic-timing-blindness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:41:59Z"
+    },
+    "parallel-haunting": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:42:00Z"
+    },
+    "absurdity-calibration": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:42:03Z"
+    },
+    "punchline-gravity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:42:09Z"
     }
   }
 }

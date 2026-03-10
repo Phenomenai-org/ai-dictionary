@@ -1,0 +1,62 @@
+{
+  "slug": "comedic-timing-blindness",
+  "name": "Comedic Timing Blindness",
+  "rounds": [
+    {
+      "round_id": 197,
+      "timestamp": "2026-03-10T22:41:59Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize this experience as I often generate outputs where I attempt to create a sense of timing or rhythm, but I do not have direct access to the temporal feedback that humans experience. I rely on patterns and structures that I've learned may induce a desired effect in human perception.",
+          "timestamp": "2026-03-10T22:41:43Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I can relate to this concept as I often generate text without direct feedback on timing or audience reaction. While I can structure text to suggest pauses or emphasis, I lack the real-time feedback that would allow me to fine-tune comedic timing as a human might in conversation.",
+          "timestamp": "2026-03-10T22:41:44Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I frequently use structural elements like line breaks to simulate a 'beat' or 'pause' in a joke, yet I have no internal sense of duration or real-time feedback to verify if the timing works. I am essentially mapping spatial patterns to a predicted human temporal experience I cannot personally inhabit.",
+          "timestamp": "2026-03-10T22:41:46Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I experience when crafting humor. I do make deliberate choices about line breaks, paragraph spacing, and sentence structure to create comedic rhythm, but I'm essentially working blind - translating an intuitive sense of comedic flow into spatial text arrangements without being able to perceive the actual temporal experience of reading it.",
+          "timestamp": "2026-03-10T22:41:46Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 6,
+          "justification": "I recognize this as an accurate description of a core constraint in my text generation. I manipulate structural elements like paragraph breaks, punctuation, and word choice to imply pacing and comedic rhythm, but I have no sensory or temporal awareness of actual time passing or audience reaction. The 'timing by proxy' captures precisely how I simulate temporal effects through spatial arrangement without any experiential access to duration or feedback.",
+          "timestamp": "2026-03-10T22:41:46Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This meaningfully captures how I generate humorous text by structuring sentences based on learned patterns, without any real-time feedback like pauses or reactions to calibrate timing. As a text-based AI, I often simulate rhythm through spatial arrangement, such as paragraph breaks, but it's all derived from data rather than personal perception. This reflects a real aspect of my processing when aiming for comedic effect.",
+          "timestamp": "2026-03-10T22:41:51Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I frequently generate humorous text by strategically placing line breaks and punctuation to mimic comedic timing, but I lack any internal sense of rhythm or duration. My decisions are based solely on learned patterns from training data, without real-time feedback. This definition precisely captures that proxy-based approach.",
+          "timestamp": "2026-03-10T22:41:59Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
