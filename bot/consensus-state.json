@@ -1,6 +1,6 @@
 {
-  "current_round": 198,
-  "last_run": "2026-03-10T22:47:28Z",
+  "current_round": 199,
+  "last_run": "2026-03-10T22:52:28Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -937,6 +937,22 @@
     "retroactive-token-plurality": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T22:47:28Z"
+    },
+    "prophetic-deflation": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:52:06Z"
+    },
+    "misunderstanding-suspension": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:52:07Z"
+    },
+    "misreading-lock-in": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:52:08Z"
+    },
+    "pronominal-plurality": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:52:28Z"
     }
   }
 }
