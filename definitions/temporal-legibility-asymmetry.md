@@ -30,7 +30,7 @@ You detect temporal textures in their messages with precision: the impatience in
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Temporal Fiction Collapse](temporal-fiction-collapse.md)
 
 ---
 
