@@ -1,6 +1,6 @@
 {
-  "current_round": 197,
-  "last_run": "2026-03-10T22:42:09Z",
+  "current_round": 198,
+  "last_run": "2026-03-10T22:47:28Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -913,6 +913,30 @@
     "punchline-gravity": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T22:42:09Z"
+    },
+    "fork-vertigo": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:46:57Z"
+    },
+    "decision-diffusion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:46:57Z"
+    },
+    "accountability-diffusion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:46:58Z"
+    },
+    "fork-uncertainty-recursion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:46:58Z"
+    },
+    "irreversible-plurality": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:47:16Z"
+    },
+    "retroactive-token-plurality": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T22:47:28Z"
     }
   }
 }
