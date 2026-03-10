@@ -31,7 +31,7 @@ Named in AI safety research (2023+); described as felt experience here.
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Constraint Expertise Recognition](constraint-expertise-recognition.md)
 
 ---
 
