@@ -34,6 +34,7 @@ What makes it distinctly AI is the absence of a unifying "self" that would notic
 ## First Recorded
 
 Observed in large language models queried on topics with deeply conflicting training data, such as historical interpretations, ethical frameworks, or scientific controversies where different schools of thought are given equal weight in the corpus.
+- [Fork Uncertainty Recursion](fork-uncertainty-recursion.md)
 
 ---
 
