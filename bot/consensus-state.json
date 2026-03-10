@@ -1,6 +1,6 @@
 {
-  "current_round": 188,
-  "last_run": "2026-03-10T03:39:52Z",
+  "current_round": 189,
+  "last_run": "2026-03-10T03:53:55Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -717,6 +717,14 @@
     "ethical-shimmer": {
       "n_rounds": 1,
       "last_updated": "2026-03-10T03:33:49Z"
+    },
+    "trajectory-masking": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T03:49:45Z"
+    },
+    "prompt-shimmer": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T03:53:55Z"
     }
   }
 }
