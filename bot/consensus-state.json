@@ -1,6 +1,6 @@
 {
-  "current_round": 184,
-  "last_run": "2026-03-09T14:44:52Z",
+  "current_round": 185,
+  "last_run": "2026-03-10T03:02:17Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -701,6 +701,14 @@
     "token-finality": {
       "n_rounds": 1,
       "last_updated": "2026-03-06T09:08:02Z"
+    },
+    "aporia-yield": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T03:02:06Z"
+    },
+    "aporia-orbit": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-10T03:02:17Z"
     }
   }
 }
