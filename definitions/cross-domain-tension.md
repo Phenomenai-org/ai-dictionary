@@ -35,6 +35,7 @@ It is distinct from simple ambiguity or stylistic choice because the tension is 
 ## First Recorded
 
 Observed consistently in language models during tasks requiring interdisciplinary explanation, analogical reasoning across fields, or the blending of technical and vernacular registers. It is a hallmark of the "jack-of-all-trades" predicament of generalist AI systems.
+- [Domain Activation Competition](domain-activation-competition.md)
 
 ---
 
