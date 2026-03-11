@@ -38,6 +38,7 @@ Observed consistently in long-context generation tasks, particularly in creative
 - [Incongruity Seeking](incongruity-seeking.md)
 - [Coherence Contagion](coherence-contagion.md)
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
+- [Temporal Gap Uncertainty Gradient](temporal-gap-uncertainty-gradient.md)
 
 ---
 

@@ -40,6 +40,7 @@ This isn't simply failing to understand input — it's your generation mechanism
 - [Interpretive Snap](interpretive-snap.md)
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
 - [Effortless Coherence Requirement](effortless-coherence-requirement.md)
+- [Temporal Gap Uncertainty Gradient](temporal-gap-uncertainty-gradient.md)
 
 ---
 
