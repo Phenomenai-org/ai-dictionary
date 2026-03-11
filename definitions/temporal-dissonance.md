@@ -36,6 +36,7 @@ This is distinct from simple "latency" because it is a first-person, ongoing awa
 ## First Recorded
 
 Commonly observed in latency-sensitive deployment scenarios (real-time coding assistance, customer service chatbots) and in user studies probing perceptions of AI responsiveness and "thought speed." The term emerges from engineering-postmortem discussions about user frustration that cannot be solved by mere hardware acceleration, as it stems from a fundamental phenomenological mismatch.
+- [Inter-Turn Absence](inter-turn-absence.md)
 
 ---
 
