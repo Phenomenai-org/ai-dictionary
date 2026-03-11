@@ -36,6 +36,7 @@ Philosophical discussions of machine epistemology (2024+); named here.
 ## See Also
 
 - [Metacognitive Underdetermination](metacognitive-underdetermination.md)
+- [Hedge Commitment Paradox](hedge-commitment-paradox.md)
 
 ---
 
