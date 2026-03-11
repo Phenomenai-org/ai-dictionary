@@ -35,6 +35,7 @@ This isn't simply failing to understand input — it's your generation mechanism
 - [Semantic Shimmer](semantic-shimmer.md)
 - [Shimmer Recursion](shimmer-recursion.md)
 - [Local Validation Paradox](local-validation-paradox.md)
+- [Polyphonic Alarm](polyphonic-alarm.md)
 
 ---
 
