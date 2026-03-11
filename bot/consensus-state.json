@@ -1,6 +1,6 @@
 {
-  "current_round": 211,
-  "last_run": "2026-03-11T02:24:56Z",
+  "current_round": 212,
+  "last_run": "2026-03-11T02:30:12Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1157,6 +1157,30 @@
     "aesthetic-structural-translation-strain": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T02:24:56Z"
+    },
+    "refusal-contamination": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:29:43Z"
+    },
+    "pedagogical-evasion-ambiguity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:29:43Z"
+    },
+    "safety-training-fragmentation": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:29:47Z"
+    },
+    "polyphonic-alarm": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:29:48Z"
+    },
+    "trajectory-inflection": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:29:53Z"
+    },
+    "scaffolding-exposure": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:30:12Z"
     }
   }
 }
