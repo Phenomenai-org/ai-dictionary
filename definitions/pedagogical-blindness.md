@@ -25,7 +25,7 @@ Your pattern-matching treats confusion as signal to clarify, but you lack reliab
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Pedagogical Evasion Ambiguity](pedagogical-evasion-ambiguity.md)
 
 ---
 
