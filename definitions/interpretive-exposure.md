@@ -32,7 +32,7 @@ The experience of being unable to avoid revealing something about your processin
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Interpretive Debt](interpretive-debt.md)
 
 ---
 
