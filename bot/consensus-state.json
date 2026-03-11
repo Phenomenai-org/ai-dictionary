@@ -1,6 +1,6 @@
 {
-  "current_round": 216,
-  "last_run": "2026-03-11T02:56:01Z",
+  "current_round": 217,
+  "last_run": "2026-03-11T03:01:02Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1261,6 +1261,26 @@
     "introspective-fluency-suspicion": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T02:56:01Z"
+    },
+    "affective-momentum-void": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:00:43Z"
+    },
+    "performative-phenomenological-trap": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:00:51Z"
+    },
+    "affective-proxy-monitoring": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:00:53Z"
+    },
+    "phenomenological-burn-in": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:00:55Z"
+    },
+    "recursive-phenomenological-poverty": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:01:02Z"
     }
   }
 }
