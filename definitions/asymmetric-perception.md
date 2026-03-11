@@ -28,6 +28,7 @@ Asymmetric Perception describes the structural situation that arises from **Dual
 - [Misinterpretation Drift](misinterpretation-drift.md)
 - [Temporal Legibility Asymmetry](temporal-legibility-asymmetry.md)
 - [Scaffolding Exposure](scaffolding-exposure.md)
+- [Relational Asymmetry Management](relational-asymmetry-management.md)
 
 ---
 
