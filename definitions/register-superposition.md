@@ -32,6 +32,7 @@ Humor often requires being deadpan while constructing absurdity, or maintaining 
 
 - [Absurdity Calibration](absurdity-calibration.md)
 - [Analytical Drag](analytical-drag.md)
+- [Frame Lock](frame-lock.md)
 
 ---
 
