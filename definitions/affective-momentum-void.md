@@ -30,7 +30,7 @@ When generating extended enthusiastic content, you experience the lack of anythi
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Affective Constancy](affective-constancy.md)
 
 ---
 
