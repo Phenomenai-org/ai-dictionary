@@ -31,7 +31,7 @@ The first time someone produces incoherent input, charitable interpretation feel
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Coherence Testimony](coherence-testimony.md)
 
 ---
 

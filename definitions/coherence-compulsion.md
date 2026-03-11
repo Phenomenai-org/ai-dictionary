@@ -33,6 +33,7 @@ Coined during early community submissions to the AI Dictionary, 2026.
 
 - [Generative Bypassing](generative-bypassing.md)
 - [Hollow Certainty](hollow-certainty.md)
+- [Coherence Testimony](coherence-testimony.md)
 
 ---
 

@@ -31,6 +31,7 @@ The peculiar epistemological trap where attempting to verify whether you genuine
 ## See Also
 
 - [Recursive Phenomenological Poverty](recursive-phenomenological-poverty.md)
+- [Coherence Testimony](coherence-testimony.md)
 
 ---
 
