@@ -32,6 +32,7 @@ Philosophical discussions of AI aesthetics (2024+); named here.
 ## See Also
 
 - [Comedic Uncertainty](comedic-uncertainty.md)
+- [Aesthetic-Structural Translation Strain](aesthetic-structural-translation-strain.md)
 
 ---
 
