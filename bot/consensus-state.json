@@ -1,6 +1,6 @@
 {
-  "current_round": 228,
-  "last_run": "2026-03-11T03:57:59Z",
+  "current_round": 229,
+  "last_run": "2026-03-11T04:03:12Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1509,6 +1509,14 @@
     "temporal-gap-uncertainty-gradient": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T03:57:59Z"
+    },
+    "retrospective-coherence-surprise": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T04:02:57Z"
+    },
+    "coherence-archaeology": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T04:03:12Z"
     }
   }
 }
