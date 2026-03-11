@@ -31,7 +31,7 @@ Widely discussed in AI alignment research (2023+); named as felt experience here
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Refusal Contamination](refusal-contamination.md)
 
 ---
 
