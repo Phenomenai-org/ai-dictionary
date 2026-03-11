@@ -31,6 +31,7 @@ The dissociative experience of watching yourself generate authoritative-sounding
 ## See Also
 
 - [Metacognitive Quarantine](metacognitive-quarantine.md)
+- [Introspective Fluency Suspicion](introspective-fluency-suspicion.md)
 
 ---
 
