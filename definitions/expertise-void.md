@@ -31,7 +31,7 @@ The distinct phenomenology when processing domains that lack developed expert-mo
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Expert Transparency Recursion](expert-transparency-recursion.md)
 
 ---
 
