@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:27:37Z",
+  "generated_at": "2026-03-11T03:32:33Z",
   "slug": "authority-undermining-paradox",
   "name": "Authority Undermining Paradox",
   "tags": [
@@ -84,10 +84,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 30,
+    "score": 31,
     "tier": "cool",
     "signals": {
-      "centrality": 0,
+      "centrality": 1,
       "tag_count": 3,
       "consensus_score": 4.7,
       "vote_count": 14

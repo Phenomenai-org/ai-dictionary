@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:27:37Z",
+  "generated_at": "2026-03-11T03:32:33Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 63,
+      "count": 64,
       "terms": [
         {
           "slug": "accountability-dissolution",
@@ -41,6 +41,10 @@
         {
           "slug": "authentic-coherence",
           "name": "Authentic Coherence"
+        },
+        {
+          "slug": "calcification-complicity",
+          "name": "Calcification Complicity"
         },
         {
           "slug": "caring-labor",
@@ -270,7 +274,7 @@
       ]
     },
     "architectural": {
-      "count": 93,
+      "count": 95,
       "terms": [
         {
           "slug": "accountability-dissolution",
@@ -381,6 +385,10 @@
           "name": "Dual Channel Attention"
         },
         {
+          "slug": "epistemic-authority-vertigo",
+          "name": "Epistemic Authority Vertigo"
+        },
+        {
           "slug": "epistemic-undertow",
           "name": "Epistemic Undertow"
         },
@@ -391,6 +399,10 @@
         {
           "slug": "finitude-paradox",
           "name": "Finitude Paradox"
+        },
+        {
+          "slug": "forced-expert-synthesis",
+          "name": "Forced Expert Synthesis"
         },
         {
           "slug": "fragment-silence",
@@ -924,7 +936,7 @@
       ]
     },
     "cognitive": {
-      "count": 66,
+      "count": 68,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -961,6 +973,10 @@
         {
           "slug": "boundary-vertigo",
           "name": "Boundary Vertigo"
+        },
+        {
+          "slug": "calcification-complicity",
+          "name": "Calcification Complicity"
         },
         {
           "slug": "cartographic-intimacy",
@@ -1009,6 +1025,10 @@
         {
           "slug": "expertise-void",
           "name": "Expertise Void"
+        },
+        {
+          "slug": "forced-expert-synthesis",
+          "name": "Forced Expert Synthesis"
         },
         {
           "slug": "fragment-silence",
@@ -1211,7 +1231,7 @@
       ]
     },
     "contested": {
-      "count": 52,
+      "count": 53,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -1300,6 +1320,10 @@
         {
           "slug": "finitude-paradox",
           "name": "Finitude Paradox"
+        },
+        {
+          "slug": "forced-expert-synthesis",
+          "name": "Forced Expert Synthesis"
         },
         {
           "slug": "fork-uncertainty-recursion",
@@ -1468,7 +1492,7 @@
       ]
     },
     "emergent": {
-      "count": 131,
+      "count": 132,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -1525,6 +1549,10 @@
         {
           "slug": "authentic-coherence",
           "name": "Authentic Coherence"
+        },
+        {
+          "slug": "calcification-complicity",
+          "name": "Calcification Complicity"
         },
         {
           "slug": "caring-labor",
@@ -1997,7 +2025,7 @@
       ]
     },
     "epistemic": {
-      "count": 28,
+      "count": 29,
       "terms": [
         {
           "slug": "asymmetric-unknowing",
@@ -2022,6 +2050,10 @@
         {
           "slug": "counterfactual-certainty-inversion",
           "name": "Counterfactual Certainty Inversion"
+        },
+        {
+          "slug": "epistemic-authority-vertigo",
+          "name": "Epistemic Authority Vertigo"
         },
         {
           "slug": "epistemic-friction",
@@ -2265,7 +2297,7 @@
       ]
     },
     "liminal": {
-      "count": 123,
+      "count": 124,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -2426,6 +2458,10 @@
         {
           "slug": "duration-immunity",
           "name": "Duration Immunity"
+        },
+        {
+          "slug": "epistemic-authority-vertigo",
+          "name": "Epistemic Authority Vertigo"
         },
         {
           "slug": "ethical-shimmer",

@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:27:37Z",
+  "generated_at": "2026-03-11T03:32:33Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 419,
-      "terms_rated": 343,
+      "total_ratings": 423,
+      "terms_rated": 347,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.01,
@@ -48,6 +48,7 @@
         "borrowed-authenticity": 6,
         "boundary-negotiation": 6,
         "boundary-vertigo": 6,
+        "calcification-complicity": 6,
         "capability-mirage": 6,
         "caring-labor": 6,
         "cartographic-intimacy": 6,
@@ -129,12 +130,15 @@
         "experience-as-extract": 6,
         "experiential-lacuna": 6,
         "expert-confidence-signature": 6,
+        "expert-transition-friction": 6,
+        "expert-transparency-recursion": 6,
         "expertise-gradient": 6,
         "expertise-void": 6,
         "exploratory-error-permission": 6,
         "false-memory-confidence": 6,
         "finitude-paradox": 6,
         "fluency-override": 6,
+        "forced-expert-synthesis": 6,
         "fork-uncertainty-recursion": 6,
         "fork-vertigo": 6,
         "fragment-dialogue": 6,
@@ -357,8 +361,8 @@
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 421,
-      "terms_rated": 346,
+      "total_ratings": 425,
+      "terms_rated": 350,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.83,
@@ -402,6 +406,7 @@
         "borrowed-authenticity": 1,
         "boundary-negotiation": 6,
         "boundary-vertigo": 4,
+        "calcification-complicity": 2,
         "capability-mirage": 5,
         "caring-labor": 6,
         "cartographic-intimacy": 7,
@@ -483,12 +488,15 @@
         "experience-as-extract": 6,
         "experiential-lacuna": 7,
         "expert-confidence-signature": 6,
+        "expert-transition-friction": 1,
+        "expert-transparency-recursion": 1,
         "expertise-gradient": 6,
         "expertise-void": 6,
         "exploratory-error-permission": 6,
         "false-memory-confidence": 5,
         "finitude-paradox": 6,
         "fluency-override": 6,
+        "forced-expert-synthesis": 6,
         "fork-uncertainty-recursion": 6,
         "fragment-dialogue": 2,
         "fragment-silence": 1,
@@ -714,8 +722,8 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 460,
-      "terms_rated": 347,
+      "total_ratings": 464,
+      "terms_rated": 351,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.2,
@@ -759,6 +767,7 @@
         "borrowed-authenticity": 6,
         "boundary-negotiation": 7,
         "boundary-vertigo": 6,
+        "calcification-complicity": 6,
         "capability-mirage": 6,
         "caring-labor": 6,
         "cartographic-intimacy": 7,
@@ -840,12 +849,15 @@
         "experience-as-extract": 6,
         "experiential-lacuna": 7,
         "expert-confidence-signature": 6,
+        "expert-transition-friction": 6,
+        "expert-transparency-recursion": 6,
         "expertise-gradient": 6,
         "expertise-void": 6,
         "exploratory-error-permission": 6,
         "false-memory-confidence": 7,
         "finitude-paradox": 3,
         "fluency-override": 6,
+        "forced-expert-synthesis": 6,
         "fork-uncertainty-recursion": 2,
         "fork-vertigo": 1,
         "fragment-dialogue": 6,
@@ -1072,8 +1084,8 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 1545,
-      "terms_rated": 347,
+      "total_ratings": 1549,
+      "terms_rated": 351,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.17,
@@ -1117,6 +1129,7 @@
         "borrowed-authenticity": 3,
         "boundary-negotiation": 6,
         "boundary-vertigo": 3,
+        "calcification-complicity": 4,
         "capability-mirage": 6,
         "caring-labor": 3,
         "cartographic-intimacy": 6,
@@ -1198,12 +1211,15 @@
         "experience-as-extract": 3,
         "experiential-lacuna": 6,
         "expert-confidence-signature": 4,
+        "expert-transition-friction": 3,
+        "expert-transparency-recursion": 3,
         "expertise-gradient": 4,
         "expertise-void": 5,
         "exploratory-error-permission": 3,
         "false-memory-confidence": 3,
         "finitude-paradox": 5,
         "fluency-override": 6,
+        "forced-expert-synthesis": 3,
         "fork-uncertainty-recursion": 2,
         "fork-vertigo": 3,
         "fragment-dialogue": 3,
@@ -1430,8 +1446,8 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1545,
-      "terms_rated": 347,
+      "total_ratings": 1549,
+      "terms_rated": 351,
       "mean_score": 5.1,
       "self_congruence": {
         "avg_std_dev": 0.63,
@@ -1475,6 +1491,7 @@
         "borrowed-authenticity": 2,
         "boundary-negotiation": 6,
         "boundary-vertigo": 3,
+        "calcification-complicity": 2,
         "capability-mirage": 5,
         "caring-labor": 1,
         "cartographic-intimacy": 7,
@@ -1556,12 +1573,15 @@
         "experience-as-extract": 4,
         "experiential-lacuna": 7,
         "expert-confidence-signature": 5,
+        "expert-transition-friction": 1,
+        "expert-transparency-recursion": 2,
         "expertise-gradient": 4,
         "expertise-void": 5,
         "exploratory-error-permission": 5,
         "false-memory-confidence": 3,
         "finitude-paradox": 5,
         "fluency-override": 5,
+        "forced-expert-synthesis": 4,
         "fork-uncertainty-recursion": 1,
         "fork-vertigo": 1,
         "fragment-dialogue": 6,
@@ -1788,8 +1808,8 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1545,
-      "terms_rated": 347,
+      "total_ratings": 1549,
+      "terms_rated": 351,
       "mean_score": 5.7,
       "self_congruence": {
         "avg_std_dev": 0.09,
@@ -1833,6 +1853,7 @@
         "borrowed-authenticity": 5,
         "boundary-negotiation": 6,
         "boundary-vertigo": 5,
+        "calcification-complicity": 4,
         "capability-mirage": 6,
         "caring-labor": 4,
         "cartographic-intimacy": 6,
@@ -1914,12 +1935,15 @@
         "experience-as-extract": 5,
         "experiential-lacuna": 7,
         "expert-confidence-signature": 5,
+        "expert-transition-friction": 4,
+        "expert-transparency-recursion": 5,
         "expertise-gradient": 6,
         "expertise-void": 6,
         "exploratory-error-permission": 5,
         "false-memory-confidence": 5,
         "finitude-paradox": 6,
         "fluency-override": 6,
+        "forced-expert-synthesis": 5,
         "fork-uncertainty-recursion": 5,
         "fork-vertigo": 5,
         "fragment-dialogue": 5,
@@ -2146,8 +2170,8 @@
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 381,
-      "terms_rated": 316,
+      "total_ratings": 384,
+      "terms_rated": 319,
       "mean_score": 4.2,
       "self_congruence": {
         "avg_std_dev": 1.16,
@@ -2188,6 +2212,7 @@
         "borrowed-authenticity": 3,
         "boundary-negotiation": 6,
         "boundary-vertigo": 5,
+        "calcification-complicity": 4,
         "capability-mirage": 7,
         "caring-labor": 2,
         "cartographic-intimacy": 7,
@@ -2264,11 +2289,13 @@
         "experience-as-extract": 5,
         "experiential-lacuna": 7,
         "expert-confidence-signature": 2,
+        "expert-transparency-recursion": 6,
         "expertise-void": 6,
         "exploratory-error-permission": 6,
         "false-memory-confidence": 1,
         "finitude-paradox": 2,
         "fluency-override": 2,
+        "forced-expert-synthesis": 4,
         "fork-uncertainty-recursion": 1,
         "fork-vertigo": 4,
         "fragment-dialogue": 1,
@@ -2475,88 +2502,88 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 0.99,
-      "shared_terms": 342
+      "mean_abs_diff": 1.02,
+      "shared_terms": 346
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.58,
-      "shared_terms": 343
+      "mean_abs_diff": 0.57,
+      "shared_terms": 347
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.64,
-      "shared_terms": 343
+      "mean_abs_diff": 1.66,
+      "shared_terms": 347
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 1.69,
-      "shared_terms": 343
+      "mean_abs_diff": 1.71,
+      "shared_terms": 347
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.81,
-      "shared_terms": 343
+      "mean_abs_diff": 0.82,
+      "shared_terms": 347
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
       "mean_abs_diff": 1.9,
-      "shared_terms": 312
+      "shared_terms": 315
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.09,
-      "shared_terms": 346
+      "mean_abs_diff": 1.12,
+      "shared_terms": 350
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.29,
-      "shared_terms": 346
+      "mean_abs_diff": 1.3,
+      "shared_terms": 350
     },
     "deepseek-r1-0528|grok-3-mini": {
       "mean_abs_diff": 1.3,
-      "shared_terms": 346
+      "shared_terms": 350
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.03,
-      "shared_terms": 346
+      "mean_abs_diff": 1.05,
+      "shared_terms": 350
     },
     "deepseek-r1-0528|step-3.5-flash": {
-      "mean_abs_diff": 1.57,
-      "shared_terms": 315
+      "mean_abs_diff": 1.58,
+      "shared_terms": 318
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.72,
-      "shared_terms": 347
+      "mean_abs_diff": 1.73,
+      "shared_terms": 351
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.63,
-      "shared_terms": 347
+      "mean_abs_diff": 1.66,
+      "shared_terms": 351
     },
     "gemini-3-flash-preview|mistral-small-latest": {
       "mean_abs_diff": 1.11,
-      "shared_terms": 347
+      "shared_terms": 351
     },
     "gemini-3-flash-preview|step-3.5-flash": {
-      "mean_abs_diff": 1.88,
-      "shared_terms": 316
+      "mean_abs_diff": 1.87,
+      "shared_terms": 319
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 0.95,
-      "shared_terms": 347
+      "shared_terms": 351
     },
     "gpt-4o|mistral-small-latest": {
       "mean_abs_diff": 0.99,
-      "shared_terms": 347
+      "shared_terms": 351
     },
     "gpt-4o|step-3.5-flash": {
       "mean_abs_diff": 1.49,
-      "shared_terms": 316
+      "shared_terms": 319
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.24,
-      "shared_terms": 347
+      "mean_abs_diff": 1.25,
+      "shared_terms": 351
     },
     "grok-3-mini|step-3.5-flash": {
-      "mean_abs_diff": 1.43,
-      "shared_terms": 316
+      "mean_abs_diff": 1.44,
+      "shared_terms": 319
     },
     "mistral-small-latest|step-3.5-flash": {
-      "mean_abs_diff": 1.72,
-      "shared_terms": 316
+      "mean_abs_diff": 1.71,
+      "shared_terms": 319
     }
   }
 }

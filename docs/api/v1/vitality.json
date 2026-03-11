@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:27:37Z",
+  "generated_at": "2026-03-11T03:32:33Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 227
+    "unvalidated": 231
   },
   "terms": [
     {
@@ -229,6 +229,12 @@
       "slug": "boundary-vertigo",
       "status": "extinct",
       "relevance_ratio": 0.0,
+      "trend": "new"
+    },
+    {
+      "slug": "calcification-complicity",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -718,6 +724,18 @@
       "trend": "new"
     },
     {
+      "slug": "expert-transition-friction",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "expert-transparency-recursion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "expertise-gradient",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -749,6 +767,12 @@
     },
     {
       "slug": "fluency-override",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "forced-expert-synthesis",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

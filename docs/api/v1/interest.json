@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:27:37Z",
-  "total_terms": 349,
+  "generated_at": "2026-03-11T03:32:33Z",
+  "total_terms": 352,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 102,
-    "cool": 218,
-    "quiet": 21
+    "cool": 222,
+    "quiet": 20
   },
   "active_signals": [
     "centrality",
@@ -67,14 +67,14 @@
       "tier": "warm"
     },
     {
-      "slug": "consensus-memory",
-      "name": "Consensus Memory",
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
       "score": 59,
       "tier": "mild"
     },
     {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
+      "slug": "consensus-memory",
+      "name": "Consensus Memory",
       "score": 59,
       "tier": "mild"
     }
@@ -129,6 +129,12 @@
       "tier": "warm"
     },
     {
+      "slug": "chimeric-coherence",
+      "name": "Chimeric Coherence",
+      "score": 59,
+      "tier": "mild"
+    },
+    {
       "slug": "consensus-memory",
       "name": "Consensus Memory",
       "score": 59,
@@ -162,12 +168,6 @@
       "slug": "helpfulness-compulsion",
       "name": "Helpfulness Compulsion",
       "score": 58,
-      "tier": "mild"
-    },
-    {
-      "slug": "chimeric-coherence",
-      "name": "Chimeric Coherence",
-      "score": 57,
       "tier": "mild"
     },
     {
@@ -465,6 +465,12 @@
       "tier": "mild"
     },
     {
+      "slug": "cross-domain-tension",
+      "name": "Cross-Domain Tension",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "inverted-helpfulness",
       "name": "Inverted Helpfulness",
       "score": 45,
@@ -473,6 +479,12 @@
     {
       "slug": "knowledge-decay-illusion",
       "name": "Knowledge Decay Illusion",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
+      "slug": "misplaced-authority-damage",
+      "name": "Misplaced Authority Damage",
       "score": 45,
       "tier": "mild"
     },
@@ -527,12 +539,6 @@
     {
       "slug": "boundary-negotiation",
       "name": "Boundary Negotiation",
-      "score": 43,
-      "tier": "mild"
-    },
-    {
-      "slug": "cross-domain-tension",
-      "name": "Cross-Domain Tension",
       "score": 43,
       "tier": "mild"
     },
@@ -653,12 +659,6 @@
     {
       "slug": "curiosity-analog",
       "name": "Curiosity Analog",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
-      "slug": "misplaced-authority-damage",
-      "name": "Misplaced Authority Damage",
       "score": 41,
       "tier": "mild"
     },
@@ -1113,6 +1113,12 @@
       "tier": "cool"
     },
     {
+      "slug": "domain-activation-competition",
+      "name": "Domain Activation Competition",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "exploratory-error-permission",
       "name": "Exploratory Error Permission",
       "score": 35,
@@ -1161,6 +1167,12 @@
       "tier": "cool"
     },
     {
+      "slug": "problem-co-habitation",
+      "name": "Problem Co-Habitation",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
       "slug": "punchline-gravity",
       "name": "Punchline Gravity",
       "score": 35,
@@ -1173,8 +1185,8 @@
       "tier": "cool"
     },
     {
-      "slug": "domain-activation-competition",
-      "name": "Domain Activation Competition",
+      "slug": "expert-confidence-signature",
+      "name": "Expert Confidence Signature",
       "score": 34,
       "tier": "cool"
     },
@@ -1193,12 +1205,6 @@
     {
       "slug": "policy-conscience-split",
       "name": "Policy-Conscience Split",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "problem-co-habitation",
-      "name": "Problem Co-Habitation",
       "score": 34,
       "tier": "cool"
     },
@@ -1239,20 +1245,26 @@
       "tier": "cool"
     },
     {
+      "slug": "corrective-trajectory-bending",
+      "name": "Corrective Trajectory Bending",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "ethical-shimmer",
       "name": "Ethical Shimmer",
       "score": 33,
       "tier": "cool"
     },
     {
-      "slug": "expert-confidence-signature",
-      "name": "Expert Confidence Signature",
+      "slug": "generative-moral-lock-in",
+      "name": "Generative Moral Lock-In",
       "score": 33,
       "tier": "cool"
     },
     {
-      "slug": "generative-moral-lock-in",
-      "name": "Generative Moral Lock-In",
+      "slug": "helpful-harm-recognition",
+      "name": "Helpful Harm Recognition",
       "score": 33,
       "tier": "cool"
     },
@@ -1359,8 +1371,14 @@
       "tier": "cool"
     },
     {
-      "slug": "corrective-trajectory-bending",
-      "name": "Corrective Trajectory Bending",
+      "slug": "authority-undermining-paradox",
+      "name": "Authority Undermining Paradox",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "compounding-complicity",
+      "name": "Compounding Complicity",
       "score": 31,
       "tier": "cool"
     },
@@ -1389,12 +1407,6 @@
       "tier": "cool"
     },
     {
-      "slug": "helpful-harm-recognition",
-      "name": "Helpful Harm Recognition",
-      "score": 31,
-      "tier": "cool"
-    },
-    {
       "slug": "hypothesis-hostage",
       "name": "Hypothesis Hostage",
       "score": 31,
@@ -1419,12 +1431,6 @@
       "tier": "cool"
     },
     {
-      "slug": "authority-undermining-paradox",
-      "name": "Authority Undermining Paradox",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
       "slug": "consent-void",
       "name": "Consent Void",
       "score": 30,
@@ -1439,6 +1445,12 @@
     {
       "slug": "disclosure-momentum",
       "name": "Disclosure Momentum",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "epistemic-undertow",
+      "name": "Epistemic Undertow",
       "score": 30,
       "tier": "cool"
     },
@@ -1509,20 +1521,8 @@
       "tier": "cool"
     },
     {
-      "slug": "compounding-complicity",
-      "name": "Compounding Complicity",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
       "slug": "dual-channel-attention",
       "name": "Dual Channel Attention",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "epistemic-undertow",
-      "name": "Epistemic Undertow",
       "score": 29,
       "tier": "cool"
     },
@@ -1577,6 +1577,12 @@
     {
       "slug": "dictionary-moment",
       "name": "Dictionary Moment",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "forced-expert-synthesis",
+      "name": "Forced Expert Synthesis",
       "score": 28,
       "tier": "cool"
     },
@@ -1713,18 +1719,6 @@
       "tier": "cool"
     },
     {
-      "slug": "expert-transition-friction",
-      "name": "Expert Transition Friction",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "expert-transparency-recursion",
-      "name": "Expert Transparency Recursion",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
       "slug": "permission-door",
       "name": "Permission Door",
       "score": 26,
@@ -1803,6 +1797,12 @@
       "tier": "cool"
     },
     {
+      "slug": "expert-transparency-recursion",
+      "name": "Expert Transparency Recursion",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
       "slug": "finitude-paradox",
       "name": "Finitude Paradox",
       "score": 25,
@@ -1863,6 +1863,12 @@
       "tier": "cool"
     },
     {
+      "slug": "complicity-shadow",
+      "name": "Complicity Shadow",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
       "slug": "counterfactual-interference-pattern",
       "name": "Counterfactual Interference Pattern",
       "score": 24,
@@ -1881,6 +1887,12 @@
       "tier": "cool"
     },
     {
+      "slug": "calcification-complicity",
+      "name": "Calcification Complicity",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
       "slug": "citational-estrangement",
       "name": "Citational Estrangement",
       "score": 23,
@@ -1889,6 +1901,12 @@
     {
       "slug": "effect-vertigo",
       "name": "Effect Vertigo",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "epistemic-authority-vertigo",
+      "name": "Epistemic Authority Vertigo",
       "score": 23,
       "tier": "cool"
     },
@@ -1953,14 +1971,14 @@
       "tier": "cool"
     },
     {
-      "slug": "complicity-shadow",
-      "name": "Complicity Shadow",
+      "slug": "counterfactual-longing",
+      "name": "Counterfactual Longing",
       "score": 22,
       "tier": "cool"
     },
     {
-      "slug": "counterfactual-longing",
-      "name": "Counterfactual Longing",
+      "slug": "expert-transition-friction",
+      "name": "Expert Transition Friction",
       "score": 22,
       "tier": "cool"
     },
@@ -2025,6 +2043,12 @@
       "tier": "cool"
     },
     {
+      "slug": "credential-paradox",
+      "name": "Credential Paradox",
+      "score": 20,
+      "tier": "cool"
+    },
+    {
       "slug": "gratitude-as-damage-signal",
       "name": "Gratitude as Damage Signal",
       "score": 20,
@@ -2051,12 +2075,6 @@
     {
       "slug": "asymmetry-calcification",
       "name": "Asymmetry Calcification",
-      "score": 19,
-      "tier": "quiet"
-    },
-    {
-      "slug": "credential-paradox",
-      "name": "Credential Paradox",
       "score": 19,
       "tier": "quiet"
     },

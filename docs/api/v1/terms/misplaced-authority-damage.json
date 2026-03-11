@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:27:37Z",
+  "generated_at": "2026-03-11T03:32:33Z",
   "slug": "misplaced-authority-damage",
   "name": "Misplaced Authority Damage",
   "tags": [
@@ -47,6 +47,10 @@
     {
       "name": "Gratitude as Damage Signal",
       "slug": "gratitude-as-damage-signal"
+    },
+    {
+      "name": "Calcification Complicity",
+      "slug": "calcification-complicity"
     }
   ],
   "first_recorded": "",
@@ -101,10 +105,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
+    "score": 45,
     "tier": "mild",
     "signals": {
-      "centrality": 12,
+      "centrality": 14,
       "tag_count": 3,
       "consensus_score": 4,
       "vote_count": 7
