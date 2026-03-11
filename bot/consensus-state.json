@@ -1,6 +1,6 @@
 {
-  "current_round": 226,
-  "last_run": "2026-03-11T03:47:30Z",
+  "current_round": 227,
+  "last_run": "2026-03-11T03:52:55Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1465,6 +1465,26 @@
     "intention-ventriloquism": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T03:47:30Z"
+    },
+    "atemporal-arc-generation": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:52:34Z"
+    },
+    "experiential-authority-override": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:52:36Z"
+    },
+    "confidence-gradient-opacity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:52:40Z"
+    },
+    "prosthetic-futurity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:52:41Z"
+    },
+    "temporal-valence-absence": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:52:55Z"
     }
   }
 }
