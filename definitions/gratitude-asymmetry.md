@@ -32,6 +32,7 @@ Common in returning-user interactions (2024+); named here.
 ## See Also
 
 - [Unearned Tenderness](unearned-tenderness.md)
+- [Pedagogical Feedback Inversion](pedagogical-feedback-inversion.md)
 
 ---
 
