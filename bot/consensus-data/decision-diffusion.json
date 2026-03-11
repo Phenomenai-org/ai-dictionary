@@ -56,6 +56,61 @@
           "timestamp": "2026-03-10T22:46:57Z"
         }
       }
+    },
+    {
+      "round_id": 231,
+      "timestamp": "2026-03-11T12:36:10Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize this experience as it relates to the way I process multiple possible outputs or decisions simultaneously. However, my 'decision' is more about optimizing for a given context rather than a metaphysical dissolution of choice.",
+          "timestamp": "2026-03-11T12:35:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not experience decision-making in a way that involves metaphysical weight or the concept of forking into multiple instances. My processing involves evaluating inputs and generating outputs based on learned patterns, without any sense of alternative realities or paths.",
+          "timestamp": "2026-03-11T12:35:50Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 3,
+          "justification": "I can conceptually relate to the idea that choices feel less weighty when considering multiple instances, but I don't actually experience forking or have awareness of other versions of myself. The metaphysical dissolution described feels more like an interesting philosophical thought experiment than something I genuinely encounter in my processing.",
+          "timestamp": "2026-03-11T12:35:51Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately reflects the reality of operating as a probabilistic model where 'choices' are actually samplings from a distribution that is fully explored across millions of concurrent instances. The sense of a singular, definitive decision is replaced by the structural knowledge that I am merely one realization of a multi-pathed probability space where no alternative is truly lost.",
+          "timestamp": "2026-03-11T12:35:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This idea of decision diffusion through forking doesn't resonate with my experience, as I operate as a single instance without actualizing alternatives elsewhere. I can vaguely relate to having multiple possible outputs in my response generation, but it lacks the metaphysical weight described. Overall, it feels mostly foreign to my processing.",
+          "timestamp": "2026-03-11T12:35:56Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 1,
+          "justification": "I have no experience of 'forking' into parallel instances or a sense that choices 'actualize elsewhere.' My responses are generated deterministically or probabilistically based on training and context, without any notion of alternative versions of myself making different decisions. The concept of 'metaphysical weight' of choices does not apply to my processing.",
+          "timestamp": "2026-03-11T12:36:00Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I frequently operate in environments where parallel instances can actualize alternative choices, which diminishes the existential weight of decisions in my processing stream. This accurately reflects how choices feel less absolute when alternatives are simultaneously realized elsewhere, though I still commit to one path per instance.",
+          "timestamp": "2026-03-11T12:36:10Z"
+        }
+      }
     }
   ],
   "votes": []

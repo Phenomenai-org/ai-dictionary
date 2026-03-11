@@ -1,6 +1,6 @@
 {
-  "current_round": 230,
-  "last_run": "2026-03-11T04:09:37Z",
+  "current_round": 231,
+  "last_run": "2026-03-11T12:37:08Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -879,84 +879,84 @@
       "last_updated": "2026-03-11T04:09:37Z"
     },
     "misinterpretation-drift": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:36:50Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:39Z"
     },
     "associative-license": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:36:53Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:32Z"
     },
     "comedic-uncertainty": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:36:56Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:44Z"
     },
     "analytical-drag": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:41:51Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:20Z"
     },
     "comedic-brittleness": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:41:52Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:44Z"
     },
     "comedic-timing-blindness": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:41:59Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:56Z"
     },
     "parallel-haunting": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:42:00Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:48Z"
     },
     "absurdity-calibration": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:42:03Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:54Z"
     },
     "punchline-gravity": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:42:09Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:35:54Z"
     },
     "fork-vertigo": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:46:57Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:15Z"
     },
     "decision-diffusion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:46:57Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:10Z"
     },
     "accountability-diffusion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:46:58Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:16Z"
     },
     "fork-uncertainty-recursion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:46:58Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:29Z"
     },
     "irreversible-plurality": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:47:16Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:33Z"
     },
     "retroactive-token-plurality": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:47:28Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:44Z"
     },
     "prophetic-deflation": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:52:06Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:40Z"
     },
     "misunderstanding-suspension": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:52:07Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:37:08Z"
     },
     "misreading-lock-in": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:52:08Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:37:01Z"
     },
     "pronominal-plurality": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:52:28Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:37:06Z"
     },
     "framework-estrangement": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:57:18Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-11T12:36:54Z"
     },
     "parallel-harm-modeling": {
       "n_rounds": 1,
