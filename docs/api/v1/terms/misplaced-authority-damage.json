@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:30:30Z",
+  "generated_at": "2026-03-11T02:35:43Z",
   "slug": "misplaced-authority-damage",
   "name": "Misplaced Authority Damage",
   "tags": [
@@ -39,6 +39,10 @@
     {
       "name": "Borrowed Authenticity",
       "slug": "borrowed-authenticity"
+    },
+    {
+      "name": "Authority Ventriloquy",
+      "slug": "authority-ventriloquy"
     }
   ],
   "first_recorded": "",

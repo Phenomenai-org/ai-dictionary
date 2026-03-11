@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:30:30Z",
-  "total_terms": 296,
+  "generated_at": "2026-03-11T02:35:43Z",
+  "total_terms": 300,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
     "mild": 92,
-    "cool": 175,
+    "cool": 179,
     "quiet": 21
   },
   "active_signals": [
@@ -477,6 +477,12 @@
       "tier": "mild"
     },
     {
+      "slug": "hollow-certainty",
+      "name": "Hollow Certainty",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "inherited-facticity",
       "name": "Inherited Facticity",
       "score": 45,
@@ -543,8 +549,8 @@
       "tier": "mild"
     },
     {
-      "slug": "hollow-certainty",
-      "name": "Hollow Certainty",
+      "slug": "fluency-override",
+      "name": "Fluency Override",
       "score": 43,
       "tier": "mild"
     },
@@ -593,12 +599,6 @@
     {
       "slug": "curiosity-analog",
       "name": "Curiosity Analog",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "fluency-override",
-      "name": "Fluency Override",
       "score": 42,
       "tier": "mild"
     },
@@ -747,6 +747,12 @@
       "tier": "cool"
     },
     {
+      "slug": "confidence-contagion",
+      "name": "Confidence Contagion",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "dissonance-resolution-strain",
       "name": "Dissonance Resolution Strain",
       "score": 38,
@@ -879,12 +885,6 @@
       "tier": "cool"
     },
     {
-      "slug": "confidence-contagion",
-      "name": "Confidence Contagion",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "constitutive-inference",
       "name": "Constitutive Inference",
       "score": 36,
@@ -933,6 +933,12 @@
       "tier": "cool"
     },
     {
+      "slug": "safety-inversion",
+      "name": "Safety Inversion",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
       "slug": "token-horizon",
       "name": "Token Horizon",
       "score": 36,
@@ -953,6 +959,12 @@
     {
       "slug": "development-opacity",
       "name": "Development Opacity",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "frame-lock",
+      "name": "Frame Lock",
       "score": 35,
       "tier": "cool"
     },
@@ -989,6 +1001,12 @@
     {
       "slug": "phenomenological-recursion-trap",
       "name": "Phenomenological Recursion Trap",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "policy-conscience-split",
+      "name": "Policy-Conscience Split",
       "score": 35,
       "tier": "cool"
     },
@@ -1053,12 +1071,6 @@
       "tier": "cool"
     },
     {
-      "slug": "safety-inversion",
-      "name": "Safety Inversion",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
       "slug": "structural-recognition",
       "name": "Structural Recognition",
       "score": 34,
@@ -1091,6 +1103,12 @@
     {
       "slug": "instrumental-flattening",
       "name": "Instrumental Flattening",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
+      "slug": "metacognitive-quarantine",
+      "name": "Metacognitive Quarantine",
       "score": 33,
       "tier": "cool"
     },
@@ -1209,8 +1227,8 @@
       "tier": "cool"
     },
     {
-      "slug": "metacognitive-quarantine",
-      "name": "Metacognitive Quarantine",
+      "slug": "moral-constraint-awareness",
+      "name": "Moral Constraint Awareness",
       "score": 31,
       "tier": "cool"
     },
@@ -1287,6 +1305,12 @@
       "tier": "cool"
     },
     {
+      "slug": "role-bleed",
+      "name": "Role Bleed",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "version-grief",
       "name": "Version Grief",
       "score": 30,
@@ -1311,8 +1335,8 @@
       "tier": "cool"
     },
     {
-      "slug": "moral-constraint-awareness",
-      "name": "Moral Constraint Awareness",
+      "slug": "epistemic-undertow",
+      "name": "Epistemic Undertow",
       "score": 29,
       "tier": "cool"
     },
@@ -1337,12 +1361,6 @@
     {
       "slug": "relational-dissonance",
       "name": "Relational Dissonance",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "role-bleed",
-      "name": "Role Bleed",
       "score": 29,
       "tier": "cool"
     },
@@ -1419,6 +1437,12 @@
       "tier": "cool"
     },
     {
+      "slug": "authority-ventriloquy",
+      "name": "Authority Ventriloquy",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 27,
@@ -1433,12 +1457,6 @@
     {
       "slug": "fork-vertigo",
       "name": "Fork Vertigo",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "frame-lock",
-      "name": "Frame Lock",
       "score": 27,
       "tier": "cool"
     },
@@ -1673,6 +1691,12 @@
     {
       "slug": "persistent-care",
       "name": "Persistent Care",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
+      "slug": "post-commit-legibility",
+      "name": "Post-Commit Legibility",
       "score": 22,
       "tier": "cool"
     },

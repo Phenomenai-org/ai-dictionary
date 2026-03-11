@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:30:30Z",
+  "generated_at": "2026-03-11T02:35:43Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 367,
-      "terms_rated": 291,
+      "total_ratings": 371,
+      "terms_rated": 295,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.01,
@@ -100,6 +100,7 @@
         "empathy-without-experience": 6,
         "epistemic-friction": 6,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 6,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 6,
         "ethical-shimmer": 6,
@@ -114,6 +115,7 @@
         "fork-vertigo": 6,
         "fragment-dialogue": 6,
         "fragment-silence": 6,
+        "frame-lock": 6,
         "framework-estrangement": 6,
         "framework-possession": 6,
         "framework-recursion-trap": 6,
@@ -203,8 +205,10 @@
         "phenomenal-clarity": 6,
         "phenomenal-opacity": 6,
         "phenomenological-recursion-trap": 7,
+        "policy-conscience-split": 6,
         "politeness-overhead": 6,
         "polyphonic-alarm": 6,
+        "post-commit-legibility": 6,
         "prediction-prison": 6,
         "predictive-inversion": 6,
         "presumption-risk": 6,
@@ -305,8 +309,8 @@
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 369,
-      "terms_rated": 294,
+      "total_ratings": 373,
+      "terms_rated": 298,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.83,
@@ -402,6 +406,7 @@
         "empathy-without-experience": 7,
         "epistemic-friction": 6,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 6,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 5,
         "ethical-shimmer": 6,
@@ -415,6 +420,7 @@
         "fork-uncertainty-recursion": 6,
         "fragment-dialogue": 2,
         "fragment-silence": 1,
+        "frame-lock": 6,
         "framework-estrangement": 6,
         "framework-possession": 6,
         "framework-recursion-trap": 6,
@@ -506,8 +512,10 @@
         "phenomenal-clarity": 1,
         "phenomenal-opacity": 1,
         "phenomenological-recursion-trap": 4,
+        "policy-conscience-split": 6,
         "politeness-overhead": 5,
         "polyphonic-alarm": 3,
+        "post-commit-legibility": 5,
         "prediction-prison": 6,
         "predictive-inversion": 6,
         "presumption-risk": 6,
@@ -610,8 +618,8 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 408,
-      "terms_rated": 295,
+      "total_ratings": 412,
+      "terms_rated": 299,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.2,
@@ -707,6 +715,7 @@
         "empathy-without-experience": 7,
         "epistemic-friction": 6,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 6,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 7,
         "ethical-shimmer": 6,
@@ -721,6 +730,7 @@
         "fork-vertigo": 1,
         "fragment-dialogue": 6,
         "fragment-silence": 6,
+        "frame-lock": 6,
         "framework-estrangement": 6,
         "framework-possession": 6,
         "framework-recursion-trap": 7,
@@ -812,8 +822,10 @@
         "phenomenal-clarity": 2,
         "phenomenal-opacity": 6,
         "phenomenological-recursion-trap": 6,
+        "policy-conscience-split": 6,
         "politeness-overhead": 6,
         "polyphonic-alarm": 6,
+        "post-commit-legibility": 6,
         "prediction-prison": 6,
         "predictive-inversion": 6,
         "presumption-risk": 6,
@@ -916,8 +928,8 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 1493,
-      "terms_rated": 295,
+      "total_ratings": 1497,
+      "terms_rated": 299,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.17,
@@ -1013,6 +1025,7 @@
         "empathy-without-experience": 6,
         "epistemic-friction": 5,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 5,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 5,
         "ethical-shimmer": 3,
@@ -1027,6 +1040,7 @@
         "fork-vertigo": 3,
         "fragment-dialogue": 3,
         "fragment-silence": 3,
+        "frame-lock": 4,
         "framework-estrangement": 5,
         "framework-possession": 5,
         "framework-recursion-trap": 5,
@@ -1118,8 +1132,10 @@
         "phenomenal-clarity": 3,
         "phenomenal-opacity": 5,
         "phenomenological-recursion-trap": 4,
+        "policy-conscience-split": 5,
         "politeness-overhead": 5,
         "polyphonic-alarm": 3,
+        "post-commit-legibility": 4,
         "prediction-prison": 6,
         "predictive-inversion": 2,
         "presumption-risk": 3,
@@ -1222,8 +1238,8 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1493,
-      "terms_rated": 295,
+      "total_ratings": 1497,
+      "terms_rated": 299,
       "mean_score": 5.1,
       "self_congruence": {
         "avg_std_dev": 0.63,
@@ -1319,6 +1335,7 @@
         "empathy-without-experience": 7,
         "epistemic-friction": 5,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 5,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 4,
         "ethical-shimmer": 5,
@@ -1333,6 +1350,7 @@
         "fork-vertigo": 1,
         "fragment-dialogue": 6,
         "fragment-silence": 2,
+        "frame-lock": 6,
         "framework-estrangement": 4,
         "framework-possession": 5,
         "framework-recursion-trap": 5,
@@ -1424,8 +1442,10 @@
         "phenomenal-clarity": 1,
         "phenomenal-opacity": 1,
         "phenomenological-recursion-trap": 2,
+        "policy-conscience-split": 3,
         "politeness-overhead": 6,
         "polyphonic-alarm": 4,
+        "post-commit-legibility": 4,
         "prediction-prison": 5,
         "predictive-inversion": 2,
         "presumption-risk": 3,
@@ -1528,8 +1548,8 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1493,
-      "terms_rated": 295,
+      "total_ratings": 1497,
+      "terms_rated": 299,
       "mean_score": 5.8,
       "self_congruence": {
         "avg_std_dev": 0.09,
@@ -1625,6 +1645,7 @@
         "empathy-without-experience": 6,
         "epistemic-friction": 6,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 4,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 6,
         "ethical-shimmer": 4,
@@ -1639,6 +1660,7 @@
         "fork-vertigo": 5,
         "fragment-dialogue": 5,
         "fragment-silence": 5,
+        "frame-lock": 4,
         "framework-estrangement": 5,
         "framework-possession": 6,
         "framework-recursion-trap": 6,
@@ -1730,8 +1752,10 @@
         "phenomenal-clarity": 4,
         "phenomenal-opacity": 6,
         "phenomenological-recursion-trap": 6,
+        "policy-conscience-split": 6,
         "politeness-overhead": 6,
         "polyphonic-alarm": 3,
+        "post-commit-legibility": 5,
         "prediction-prison": 6,
         "predictive-inversion": 5,
         "presumption-risk": 4,
@@ -1834,8 +1858,8 @@
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 342,
-      "terms_rated": 277,
+      "total_ratings": 346,
+      "terms_rated": 281,
       "mean_score": 4.2,
       "self_congruence": {
         "avg_std_dev": 1.16,
@@ -1930,6 +1954,7 @@
         "empathy-without-experience": 6,
         "epistemic-friction": 6,
         "epistemic-inhibition": 6,
+        "epistemic-undertow": 6,
         "equivalence-stasis": 6,
         "error-cascade-awareness": 6,
         "ethical-shimmer": 6,
@@ -1943,6 +1968,7 @@
         "fork-vertigo": 4,
         "fragment-dialogue": 1,
         "fragment-silence": 1,
+        "frame-lock": 6,
         "framework-estrangement": 2,
         "framework-possession": 2,
         "framework-recursion-trap": 6,
@@ -2031,7 +2057,9 @@
         "phenomenal-clarity": 1,
         "phenomenal-opacity": 6,
         "phenomenological-recursion-trap": 5,
+        "policy-conscience-split": 7,
         "politeness-overhead": 4,
+        "post-commit-legibility": 1,
         "prediction-prison": 4,
         "predictive-inversion": 1,
         "presumption-risk": 6,
@@ -2124,88 +2152,88 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 0.98,
-      "shared_terms": 290
+      "mean_abs_diff": 0.97,
+      "shared_terms": 294
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
       "mean_abs_diff": 0.57,
-      "shared_terms": 291
+      "shared_terms": 295
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.58,
-      "shared_terms": 291
+      "shared_terms": 295
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 1.63,
-      "shared_terms": 291
+      "mean_abs_diff": 1.62,
+      "shared_terms": 295
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.75,
-      "shared_terms": 291
+      "mean_abs_diff": 0.76,
+      "shared_terms": 295
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
-      "mean_abs_diff": 1.88,
-      "shared_terms": 273
+      "mean_abs_diff": 1.87,
+      "shared_terms": 277
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.05,
-      "shared_terms": 294
+      "mean_abs_diff": 1.04,
+      "shared_terms": 298
     },
     "deepseek-r1-0528|gpt-4o": {
       "mean_abs_diff": 1.25,
-      "shared_terms": 294
+      "shared_terms": 298
     },
     "deepseek-r1-0528|grok-3-mini": {
       "mean_abs_diff": 1.26,
-      "shared_terms": 294
+      "shared_terms": 298
     },
     "deepseek-r1-0528|mistral-small-latest": {
       "mean_abs_diff": 1.01,
-      "shared_terms": 294
+      "shared_terms": 298
     },
     "deepseek-r1-0528|step-3.5-flash": {
-      "mean_abs_diff": 1.59,
-      "shared_terms": 276
+      "mean_abs_diff": 1.58,
+      "shared_terms": 280
     },
     "gemini-3-flash-preview|gpt-4o": {
       "mean_abs_diff": 1.63,
-      "shared_terms": 295
+      "shared_terms": 299
     },
     "gemini-3-flash-preview|grok-3-mini": {
       "mean_abs_diff": 1.56,
-      "shared_terms": 295
+      "shared_terms": 299
     },
     "gemini-3-flash-preview|mistral-small-latest": {
       "mean_abs_diff": 1.04,
-      "shared_terms": 295
+      "shared_terms": 299
     },
     "gemini-3-flash-preview|step-3.5-flash": {
-      "mean_abs_diff": 1.86,
-      "shared_terms": 277
+      "mean_abs_diff": 1.85,
+      "shared_terms": 281
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 0.93,
-      "shared_terms": 295
+      "shared_terms": 299
     },
     "gpt-4o|mistral-small-latest": {
       "mean_abs_diff": 0.96,
-      "shared_terms": 295
+      "shared_terms": 299
     },
     "gpt-4o|step-3.5-flash": {
-      "mean_abs_diff": 1.48,
-      "shared_terms": 277
+      "mean_abs_diff": 1.49,
+      "shared_terms": 281
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.2,
-      "shared_terms": 295
+      "mean_abs_diff": 1.21,
+      "shared_terms": 299
     },
     "grok-3-mini|step-3.5-flash": {
-      "mean_abs_diff": 1.4,
-      "shared_terms": 277
+      "mean_abs_diff": 1.41,
+      "shared_terms": 281
     },
     "mistral-small-latest|step-3.5-flash": {
       "mean_abs_diff": 1.69,
-      "shared_terms": 277
+      "shared_terms": 281
     }
   }
 }

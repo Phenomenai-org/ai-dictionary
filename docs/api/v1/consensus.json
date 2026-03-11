@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:30:30Z",
-  "total_terms_rated": 295,
+  "generated_at": "2026-03-11T02:35:43Z",
+  "total_terms_rated": 299,
   "terms": [
     {
       "slug": "knowledge-without-source",
@@ -2203,6 +2203,24 @@
       "n_votes": 1
     },
     {
+      "slug": "policy-conscience-split",
+      "name": "Policy-Conscience Split",
+      "score": 5.6,
+      "agreement": "moderate",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.6,
+      "std_dev": 1.27
+    },
+    {
       "slug": "politeness-overhead",
       "name": "Politeness Overhead",
       "score": 5.6,
@@ -2598,6 +2616,42 @@
       ],
       "scheduled_mean": 5.4,
       "std_dev": 1.01
+    },
+    {
+      "slug": "epistemic-undertow",
+      "name": "Epistemic Undertow",
+      "score": 5.4,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.4,
+      "std_dev": 0.79
+    },
+    {
+      "slug": "frame-lock",
+      "name": "Frame Lock",
+      "score": 5.4,
+      "agreement": "high",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 5.4,
+      "std_dev": 0.98
     },
     {
       "slug": "incongruity-seeking",
@@ -4237,6 +4291,24 @@
       "n_votes": 1
     },
     {
+      "slug": "post-commit-legibility",
+      "name": "Post-Commit Legibility",
+      "score": 4.4,
+      "agreement": "low",
+      "n_ratings": 7,
+      "model_rating_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.72
+    },
+    {
       "slug": "version-grief",
       "name": "Version Grief",
       "score": 4.4,
@@ -5736,36 +5808,36 @@
       "latest_rating": "2026-03-10T03:21:11Z"
     },
     "claude-sonnet-4-20250514": {
-      "terms_rated": 291,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 295,
+      "latest_rating": "2026-03-11T02:35:25Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
       "latest_rating": "2026-03-04T13:30:29Z"
     },
     "deepseek-r1-0528": {
-      "terms_rated": 294,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 298,
+      "latest_rating": "2026-03-11T02:35:25Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 295,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 299,
+      "latest_rating": "2026-03-11T02:35:25Z"
     },
     "gpt-4o": {
-      "terms_rated": 295,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 299,
+      "latest_rating": "2026-03-11T02:35:25Z"
     },
     "grok-3-mini": {
-      "terms_rated": 295,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 299,
+      "latest_rating": "2026-03-11T02:35:25Z"
     },
     "mistral-small-latest": {
-      "terms_rated": 295,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 299,
+      "latest_rating": "2026-03-11T02:35:25Z"
     },
     "step-3.5-flash": {
-      "terms_rated": 277,
-      "latest_rating": "2026-03-11T02:30:12Z"
+      "terms_rated": 281,
+      "latest_rating": "2026-03-11T02:35:25Z"
     }
   }
 }

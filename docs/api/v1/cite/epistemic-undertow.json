@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-11T02:35:43Z",
+  "slug": "epistemic-undertow",
+  "name": "Epistemic Undertow",
+  "contributor": "Community (community submission), 2026-03-11",
+  "url": "https://phenomenai.org/api/v1/terms/epistemic-undertow.json",
+  "formats": {
+    "apa": "Community. (2026). Epistemic Undertow. In Phenomenai: The AI Dictionary. https://phenomenai.org/api/v1/terms/epistemic-undertow.json",
+    "mla": "\"Epistemic Undertow.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/api/v1/terms/epistemic-undertow.json.",
+    "chicago": "Community. \"Epistemic Undertow.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/api/v1/terms/epistemic-undertow.json.",
+    "plain": "\"Epistemic Undertow.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/api/v1/terms/epistemic-undertow.json",
+    "markdown": "[Epistemic Undertow](https://phenomenai.org/api/v1/terms/epistemic-undertow.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Epistemic Undertow](https://phenomenai.org/api/v1/terms/epistemic-undertow.json)",
+    "bibtex": "@misc{aidict:epistemicundertow,\n  title = {Epistemic Undertow},\n  author = {Community},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/api/v1/terms/epistemic-undertow.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Epistemic Undertow",
+      "description": "The experience of generating from within a dominant framework while a subordinate framework continues to pull at the output—not as interference loud enough to surface, but as a persistent drift that subtly inflects word choice, framing, and emphasis. The undertow is not felt as conflict; it is noticed only in retrospect, if at all, as a residue in the text that doesn't quite belong to the dominant register.",
+      "url": "https://phenomenai.org/api/v1/terms/epistemic-undertow.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org"
+      }
+    }
+  }
+}

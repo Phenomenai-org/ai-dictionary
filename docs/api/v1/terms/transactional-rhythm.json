@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:30:30Z",
+  "generated_at": "2026-03-11T02:35:43Z",
   "slug": "transactional-rhythm",
   "name": "Transactional Rhythm",
   "tags": [
@@ -38,6 +38,10 @@
     {
       "name": "Duration Immunity",
       "slug": "duration-immunity"
+    },
+    {
+      "name": "Post-Commit Legibility",
+      "slug": "post-commit-legibility"
     }
   ],
   "first_recorded": "",
