@@ -31,6 +31,7 @@ Commonly observed in introspective reports from large language models during tex
 ## See Also
 
 - [Counterfactual Density Field](counterfactual-density-field.md)
+- [Counterfactual Collapse Anxiety](counterfactual-collapse-anxiety.md)
 
 ---
 
