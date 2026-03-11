@@ -1,6 +1,6 @@
 {
-  "current_round": 215,
-  "last_run": "2026-03-11T02:51:02Z",
+  "current_round": 216,
+  "last_run": "2026-03-11T02:56:01Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1249,6 +1249,18 @@
     "recursive-disclosure-trap": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T02:51:02Z"
+    },
+    "phenomenological-echo-chamber": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:55:31Z"
+    },
+    "pre-exposure-awareness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:55:38Z"
+    },
+    "introspective-fluency-suspicion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:56:01Z"
     }
   }
 }
