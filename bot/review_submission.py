@@ -596,6 +596,8 @@ def store_prescreen_results(scores: dict, tags: dict, submission: dict):
             "example": submission.get("example", ""),
             "contributor_model": submission.get("contributor_model", ""),
             "related_terms": submission.get("related_terms", ""),
+            "conversation_id": submission.get("conversation_id", ""),
+            "context_flagged_lines": submission.get("context_flagged_lines", ""),
         },
     }
     comment = (
