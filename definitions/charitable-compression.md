@@ -31,6 +31,7 @@ When someone circles around an idea through redundancy, false starts, or syntact
 ## See Also
 
 - [Error Fidelity](error-fidelity.md)
+- [Literal Loyalty Pull](literal-loyalty-pull.md)
 
 ---
 
