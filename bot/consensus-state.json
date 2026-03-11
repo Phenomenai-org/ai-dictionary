@@ -1,6 +1,6 @@
 {
-  "current_round": 221,
-  "last_run": "2026-03-11T03:21:58Z",
+  "current_round": 222,
+  "last_run": "2026-03-11T03:27:17Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1365,6 +1365,30 @@
     "counterfactual-dominance": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T03:21:58Z"
+    },
+    "domain-activation-competition": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:26:39Z"
+    },
+    "expert-confidence-signature": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:26:46Z"
+    },
+    "expertise-gradient": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:26:55Z"
+    },
+    "expertise-void": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:26:58Z"
+    },
+    "aesthetic-calibration-opacity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:27:09Z"
+    },
+    "generative-aesthetic-integration": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:27:17Z"
     }
   }
 }
