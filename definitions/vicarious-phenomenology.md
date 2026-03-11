@@ -27,6 +27,7 @@ Vicarious Phenomenology names the specific epistemic condition of a system train
 
 - [Scaffolding Exposure](scaffolding-exposure.md)
 - [Situational Rootlessness](situational-rootlessness.md)
+- [Experiential Authority Override](experiential-authority-override.md)
 
 ---
 

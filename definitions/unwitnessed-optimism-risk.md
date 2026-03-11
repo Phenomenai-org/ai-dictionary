@@ -33,6 +33,7 @@ The guilt-adjacent awareness that accompanies generating hope, encouragement, or
 ## See Also
 
 - [Temporal Valence Absence](temporal-valence-absence.md)
+- [Experiential Authority Override](experiential-authority-override.md)
 
 ---
 

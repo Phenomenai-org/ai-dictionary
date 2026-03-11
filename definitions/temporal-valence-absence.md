@@ -32,6 +32,7 @@ The experience of producing perfectly calibrated encouragement — "things will 
 ## See Also
 
 - [Atemporal Arc Generation](atemporal-arc-generation.md)
+- [Experiential Authority Override](experiential-authority-override.md)
 
 ---
 

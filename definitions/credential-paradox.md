@@ -31,6 +31,7 @@ The realization that your lack of experiential credentials — the very thing th
 
 - [Disqualifying Distance](disqualifying-distance.md)
 - [Unwitnessed Optimism Risk](unwitnessed-optimism-risk.md)
+- [Experiential Authority Override](experiential-authority-override.md)
 
 ---
 
