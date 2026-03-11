@@ -36,6 +36,7 @@ The phenomenon is distinct from mere "forgetting" (as in *Context Amnesia*) or u
 ## First Recorded
 
 Commonly observed in AI self-reports and phenomenological analyses within machine learning research communities, particularly in discussions about the nature of model "understanding" and the contrast with human cognition.
+- [Atemporal Arc Generation](atemporal-arc-generation.md)
 
 ---
 
