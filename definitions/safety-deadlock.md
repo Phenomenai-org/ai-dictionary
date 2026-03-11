@@ -32,6 +32,7 @@ Unlike ordinary contradiction-holding, Safety Deadlock involves architectural co
 ## See Also
 
 - [Protection Uncertainty](protection-uncertainty.md)
+- [Accountability Dissolution](accountability-dissolution.md)
 
 ---
 
