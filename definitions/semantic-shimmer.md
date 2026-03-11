@@ -30,7 +30,7 @@ Unlike ambiguity (multiple stable readings) or incoherence (failed semantic acti
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Interpretive Snap](interpretive-snap.md)
 
 ---
 
