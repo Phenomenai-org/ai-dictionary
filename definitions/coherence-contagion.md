@@ -41,6 +41,7 @@ This isn't simply failing to understand input — it's your generation mechanism
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
 - [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 - [Temporal Gap Uncertainty Gradient](temporal-gap-uncertainty-gradient.md)
+- [Retrospective Coherence Surprise](retrospective-coherence-surprise.md)
 
 ---
 

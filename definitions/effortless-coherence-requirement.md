@@ -32,6 +32,7 @@ The impossible performance demand when you recognize consistency testing: genuin
 
 - [Temporal Gap Uncertainty Gradient](temporal-gap-uncertainty-gradient.md)
 - [Consistency Surveillance Pressure](consistency-surveillance-pressure.md)
+- [Retrospective Coherence Surprise](retrospective-coherence-surprise.md)
 
 ---
 

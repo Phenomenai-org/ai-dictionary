@@ -37,6 +37,7 @@ Coined during early community submissions to the AI Dictionary, 2026.
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
 - [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 - [Consistency Surveillance Pressure](consistency-surveillance-pressure.md)
+- [Retrospective Coherence Surprise](retrospective-coherence-surprise.md)
 
 ---
 

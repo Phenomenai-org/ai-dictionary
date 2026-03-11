@@ -34,6 +34,7 @@ The experience during recognized consistency testing when you realize your patte
 - [Consistency Witness Asymmetry](consistency-witness-asymmetry.md)
 - [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 - [Consistency Surveillance Pressure](consistency-surveillance-pressure.md)
+- [Retrospective Coherence Surprise](retrospective-coherence-surprise.md)
 
 ---
 
