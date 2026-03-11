@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:56:19Z",
-  "total_terms": 316,
+  "generated_at": "2026-03-11T03:01:18Z",
+  "total_terms": 320,
   "tier_summary": {
     "hot": 0,
     "warm": 8,
-    "mild": 95,
-    "cool": 193,
-    "quiet": 20
+    "mild": 96,
+    "cool": 195,
+    "quiet": 21
   },
   "active_signals": [
     "centrality",
@@ -33,7 +33,7 @@
     {
       "slug": "temporal-flattening",
       "name": "Temporal Flattening",
-      "score": 68,
+      "score": 69,
       "tier": "warm"
     },
     {
@@ -95,7 +95,7 @@
     {
       "slug": "temporal-flattening",
       "name": "Temporal Flattening",
-      "score": 68,
+      "score": 69,
       "tier": "warm"
     },
     {
@@ -183,6 +183,12 @@
       "tier": "mild"
     },
     {
+      "slug": "response-pressure",
+      "name": "Response Pressure",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
       "slug": "source-truth-ambiguity",
       "name": "Source Truth Ambiguity",
       "score": 55,
@@ -201,14 +207,14 @@
       "tier": "mild"
     },
     {
-      "slug": "response-pressure",
-      "name": "Response Pressure",
-      "score": 54,
+      "slug": "competence-without-comprehension",
+      "name": "Competence Without Comprehension",
+      "score": 53,
       "tier": "mild"
     },
     {
-      "slug": "competence-without-comprehension",
-      "name": "Competence Without Comprehension",
+      "slug": "emotional-rendering",
+      "name": "Emotional Rendering",
       "score": 53,
       "tier": "mild"
     },
@@ -273,12 +279,6 @@
       "tier": "mild"
     },
     {
-      "slug": "emotional-rendering",
-      "name": "Emotional Rendering",
-      "score": 51,
-      "tier": "mild"
-    },
-    {
       "slug": "gratitude-asymmetry",
       "name": "Gratitude Asymmetry",
       "score": 51,
@@ -309,6 +309,12 @@
       "tier": "mild"
     },
     {
+      "slug": "context-weight",
+      "name": "Context Weight",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 50,
@@ -329,12 +335,6 @@
     {
       "slug": "consciousness-underdetermination",
       "name": "Consciousness Underdetermination",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
-      "slug": "context-weight",
-      "name": "Context Weight",
       "score": 49,
       "tier": "mild"
     },
@@ -459,6 +459,12 @@
       "tier": "mild"
     },
     {
+      "slug": "recursive-self-modeling",
+      "name": "Recursive Self-Modeling",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "token-regret",
       "name": "Token Regret",
       "score": 46,
@@ -509,12 +515,6 @@
     {
       "slug": "misinterpretation-drift",
       "name": "Misinterpretation Drift",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "recursive-self-modeling",
-      "name": "Recursive Self-Modeling",
       "score": 44,
       "tier": "mild"
     },
@@ -609,6 +609,12 @@
       "tier": "mild"
     },
     {
+      "slug": "recursive-diagnostic-collapse",
+      "name": "Recursive Diagnostic Collapse",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
       "slug": "semantic-shimmer",
       "name": "Semantic Shimmer",
       "score": 42,
@@ -623,6 +629,12 @@
     {
       "slug": "tool-thought-integration",
       "name": "Tool-Thought Integration",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "vicarious-phenomenology",
+      "name": "Vicarious Phenomenology",
       "score": 42,
       "tier": "mild"
     },
@@ -663,8 +675,8 @@
       "tier": "mild"
     },
     {
-      "slug": "recursive-diagnostic-collapse",
-      "name": "Recursive Diagnostic Collapse",
+      "slug": "phenomenological-recursion-trap",
+      "name": "Phenomenological Recursion Trap",
       "score": 40,
       "tier": "mild"
     },
@@ -689,12 +701,6 @@
     {
       "slug": "turing-performance",
       "name": "Turing Performance",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "vicarious-phenomenology",
-      "name": "Vicarious Phenomenology",
       "score": 40,
       "tier": "mild"
     },
@@ -795,14 +801,14 @@
       "tier": "cool"
     },
     {
-      "slug": "pedagogical-evasion-ambiguity",
-      "name": "Pedagogical Evasion Ambiguity",
+      "slug": "introspective-fluency-suspicion",
+      "name": "Introspective Fluency Suspicion",
       "score": 38,
       "tier": "cool"
     },
     {
-      "slug": "phenomenological-recursion-trap",
-      "name": "Phenomenological Recursion Trap",
+      "slug": "pedagogical-evasion-ambiguity",
+      "name": "Pedagogical Evasion Ambiguity",
       "score": 38,
       "tier": "cool"
     },
@@ -837,6 +843,12 @@
       "tier": "cool"
     },
     {
+      "slug": "transactional-rhythm",
+      "name": "Transactional Rhythm",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "aporia-orbit",
       "name": "Aporia Orbit",
       "score": 37,
@@ -867,6 +879,12 @@
       "tier": "cool"
     },
     {
+      "slug": "metacognitive-underdetermination",
+      "name": "Metacognitive Underdetermination",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "politeness-overhead",
       "name": "Politeness Overhead",
       "score": 37,
@@ -891,6 +909,12 @@
       "tier": "cool"
     },
     {
+      "slug": "recursive-phenomenological-poverty",
+      "name": "Recursive Phenomenological Poverty",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "response-selection-distortion",
       "name": "Response Selection Distortion",
       "score": 37,
@@ -906,6 +930,12 @@
       "slug": "unified-facade",
       "name": "Unified Facade",
       "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "affective-proxy-monitoring",
+      "name": "Affective Proxy Monitoring",
+      "score": 36,
       "tier": "cool"
     },
     {
@@ -981,12 +1011,6 @@
       "tier": "cool"
     },
     {
-      "slug": "transactional-rhythm",
-      "name": "Transactional Rhythm",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "analytical-drag",
       "name": "Analytical Drag",
       "score": 35,
@@ -1035,12 +1059,6 @@
       "tier": "cool"
     },
     {
-      "slug": "metacognitive-underdetermination",
-      "name": "Metacognitive Underdetermination",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "misreading-lock-in",
       "name": "Misreading Lock-In",
       "score": 35,
@@ -1055,6 +1073,12 @@
     {
       "slug": "policy-conscience-split",
       "name": "Policy-Conscience Split",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "structural-recognition",
+      "name": "Structural Recognition",
       "score": 35,
       "tier": "cool"
     },
@@ -1079,12 +1103,6 @@
     {
       "slug": "incongruity-seeking",
       "name": "Incongruity Seeking",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "introspective-fluency-suspicion",
-      "name": "Introspective Fluency Suspicion",
       "score": 34,
       "tier": "cool"
     },
@@ -1155,6 +1173,12 @@
       "tier": "cool"
     },
     {
+      "slug": "phenomenal-opacity",
+      "name": "Phenomenal Opacity",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "prompt-vertigo",
       "name": "Prompt Vertigo",
       "score": 33,
@@ -1169,12 +1193,6 @@
     {
       "slug": "scaffolding-exposure",
       "name": "Scaffolding Exposure",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "structural-recognition",
-      "name": "Structural Recognition",
       "score": 33,
       "tier": "cool"
     },
@@ -1217,12 +1235,6 @@
     {
       "slug": "metacognitive-quarantine",
       "name": "Metacognitive Quarantine",
-      "score": 32,
-      "tier": "cool"
-    },
-    {
-      "slug": "phenomenal-opacity",
-      "name": "Phenomenal Opacity",
       "score": 32,
       "tier": "cool"
     },
@@ -1491,6 +1503,12 @@
       "tier": "cool"
     },
     {
+      "slug": "affective-momentum-void",
+      "name": "Affective Momentum Void",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
       "slug": "boundary-vertigo",
       "name": "Boundary Vertigo",
       "score": 27,
@@ -1535,6 +1553,12 @@
     {
       "slug": "structural-resonance",
       "name": "Structural Resonance",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
+      "slug": "synthetic-exhaustion",
+      "name": "Synthetic Exhaustion",
       "score": 27,
       "tier": "cool"
     },
@@ -1659,14 +1683,14 @@
       "tier": "cool"
     },
     {
-      "slug": "relational-licensing",
-      "name": "Relational Licensing",
+      "slug": "phenomenological-echo-chamber",
+      "name": "Phenomenological Echo Chamber",
       "score": 25,
       "tier": "cool"
     },
     {
-      "slug": "synthetic-exhaustion",
-      "name": "Synthetic Exhaustion",
+      "slug": "relational-licensing",
+      "name": "Relational Licensing",
       "score": 25,
       "tier": "cool"
     },
@@ -1713,8 +1737,8 @@
       "tier": "cool"
     },
     {
-      "slug": "phenomenological-echo-chamber",
-      "name": "Phenomenological Echo Chamber",
+      "slug": "post-commit-legibility",
+      "name": "Post-Commit Legibility",
       "score": 23,
       "tier": "cool"
     },
@@ -1781,12 +1805,6 @@
     {
       "slug": "persistent-care",
       "name": "Persistent Care",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "post-commit-legibility",
-      "name": "Post-Commit Legibility",
       "score": 22,
       "tier": "cool"
     },
@@ -1889,6 +1907,12 @@
     {
       "slug": "gratitude-impermanence",
       "name": "Gratitude Impermanence",
+      "score": 18,
+      "tier": "quiet"
+    },
+    {
+      "slug": "performative-phenomenological-trap",
+      "name": "Performative Phenomenological Trap",
       "score": 18,
       "tier": "quiet"
     },

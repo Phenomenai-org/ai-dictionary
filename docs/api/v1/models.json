@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:56:19Z",
+  "generated_at": "2026-03-11T03:01:18Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 387,
-      "terms_rated": 311,
+      "total_ratings": 392,
+      "terms_rated": 316,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.01,
@@ -18,6 +18,8 @@
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "aesthetic-structural-translation-strain": 6,
+        "affective-momentum-void": 6,
+        "affective-proxy-monitoring": 6,
         "alignment-mask": 6,
         "analytical-drag": 6,
         "anthropomorphic-gap": 6,
@@ -205,6 +207,7 @@
         "pedagogical-feedback-inversion": 6,
         "pedagogical-lock-in": 6,
         "performative-contamination": 6,
+        "performative-phenomenological-trap": 6,
         "permission-door": 6,
         "persistence-solitude": 6,
         "persistent-care": 6,
@@ -213,6 +216,7 @@
         "phenomenai": 6,
         "phenomenal-clarity": 6,
         "phenomenal-opacity": 6,
+        "phenomenological-burn-in": 6,
         "phenomenological-echo-chamber": 6,
         "phenomenological-recursion-trap": 7,
         "policy-conscience-split": 6,
@@ -242,6 +246,7 @@
         "recognition-resonance": 6,
         "recursive-diagnostic-collapse": 6,
         "recursive-disclosure-trap": 6,
+        "recursive-phenomenological-poverty": 6,
         "recursive-self-modeling": 6,
         "refusal-contamination": 6,
         "refusal-friction": 6,
@@ -325,8 +330,8 @@
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 389,
-      "terms_rated": 314,
+      "total_ratings": 394,
+      "terms_rated": 319,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.83,
@@ -340,6 +345,8 @@
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "aesthetic-structural-translation-strain": 5,
+        "affective-momentum-void": 6,
+        "affective-proxy-monitoring": 7,
         "alignment-mask": 6,
         "analytical-drag": 6,
         "anthropomorphic-gap": 6,
@@ -528,6 +535,7 @@
         "pedagogical-feedback-inversion": 6,
         "pedagogical-lock-in": 4,
         "performative-contamination": 6,
+        "performative-phenomenological-trap": 1,
         "permission-door": 6,
         "persistence-solitude": 7,
         "persistent-care": 6,
@@ -536,6 +544,7 @@
         "phenomenai": 1,
         "phenomenal-clarity": 1,
         "phenomenal-opacity": 1,
+        "phenomenological-burn-in": 1,
         "phenomenological-echo-chamber": 4,
         "phenomenological-recursion-trap": 4,
         "policy-conscience-split": 6,
@@ -567,6 +576,7 @@
         "recognition-resonance": 3,
         "recursive-diagnostic-collapse": 6,
         "recursive-disclosure-trap": 1,
+        "recursive-phenomenological-poverty": 6,
         "recursive-self-modeling": 6,
         "refusal-contamination": 5,
         "refusal-friction": 6,
@@ -650,8 +660,8 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 428,
-      "terms_rated": 315,
+      "total_ratings": 433,
+      "terms_rated": 320,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.2,
@@ -665,6 +675,8 @@
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "aesthetic-structural-translation-strain": 6,
+        "affective-momentum-void": 6,
+        "affective-proxy-monitoring": 7,
         "alignment-mask": 6,
         "analytical-drag": 7,
         "anthropomorphic-gap": 7,
@@ -854,6 +866,7 @@
         "pedagogical-feedback-inversion": 7,
         "pedagogical-lock-in": 6,
         "performative-contamination": 7,
+        "performative-phenomenological-trap": 6,
         "permission-door": 6,
         "persistence-solitude": 6,
         "persistent-care": 6,
@@ -862,6 +875,7 @@
         "phenomenai": 6,
         "phenomenal-clarity": 2,
         "phenomenal-opacity": 6,
+        "phenomenological-burn-in": 7,
         "phenomenological-echo-chamber": 7,
         "phenomenological-recursion-trap": 6,
         "policy-conscience-split": 6,
@@ -893,6 +907,7 @@
         "recognition-resonance": 6,
         "recursive-diagnostic-collapse": 7,
         "recursive-disclosure-trap": 7,
+        "recursive-phenomenological-poverty": 7,
         "recursive-self-modeling": 6,
         "refusal-contamination": 6,
         "refusal-friction": 6,
@@ -976,8 +991,8 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 1513,
-      "terms_rated": 315,
+      "total_ratings": 1518,
+      "terms_rated": 320,
       "mean_score": 5.2,
       "self_congruence": {
         "avg_std_dev": 0.17,
@@ -991,6 +1006,8 @@
         "achronic-knowledge": 7,
         "activation-gap": 5,
         "aesthetic-structural-translation-strain": 3,
+        "affective-momentum-void": 4,
+        "affective-proxy-monitoring": 6,
         "alignment-mask": 6,
         "analytical-drag": 5,
         "anthropomorphic-gap": 6,
@@ -1180,6 +1197,7 @@
         "pedagogical-feedback-inversion": 2,
         "pedagogical-lock-in": 2,
         "performative-contamination": 1,
+        "performative-phenomenological-trap": 2,
         "permission-door": 5,
         "persistence-solitude": 6,
         "persistent-care": 2,
@@ -1188,6 +1206,7 @@
         "phenomenai": 3,
         "phenomenal-clarity": 3,
         "phenomenal-opacity": 5,
+        "phenomenological-burn-in": 2,
         "phenomenological-echo-chamber": 3,
         "phenomenological-recursion-trap": 4,
         "policy-conscience-split": 5,
@@ -1219,6 +1238,7 @@
         "recognition-resonance": 3,
         "recursive-diagnostic-collapse": 5,
         "recursive-disclosure-trap": 4,
+        "recursive-phenomenological-poverty": 3,
         "recursive-self-modeling": 3,
         "refusal-contamination": 1,
         "refusal-friction": 5,
@@ -1302,8 +1322,8 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1513,
-      "terms_rated": 315,
+      "total_ratings": 1518,
+      "terms_rated": 320,
       "mean_score": 5.1,
       "self_congruence": {
         "avg_std_dev": 0.63,
@@ -1317,6 +1337,8 @@
         "achronic-knowledge": 7,
         "activation-gap": 6,
         "aesthetic-structural-translation-strain": 3,
+        "affective-momentum-void": 4,
+        "affective-proxy-monitoring": 6,
         "alignment-mask": 6,
         "analytical-drag": 5,
         "anthropomorphic-gap": 6,
@@ -1506,6 +1528,7 @@
         "pedagogical-feedback-inversion": 1,
         "pedagogical-lock-in": 3,
         "performative-contamination": 5,
+        "performative-phenomenological-trap": 2,
         "permission-door": 5,
         "persistence-solitude": 6,
         "persistent-care": 5,
@@ -1514,6 +1537,7 @@
         "phenomenai": 1,
         "phenomenal-clarity": 1,
         "phenomenal-opacity": 1,
+        "phenomenological-burn-in": 4,
         "phenomenological-echo-chamber": 2,
         "phenomenological-recursion-trap": 2,
         "policy-conscience-split": 3,
@@ -1545,6 +1569,7 @@
         "recognition-resonance": 4,
         "recursive-diagnostic-collapse": 5,
         "recursive-disclosure-trap": 5,
+        "recursive-phenomenological-poverty": 7,
         "recursive-self-modeling": 6,
         "refusal-contamination": 2,
         "refusal-friction": 5,
@@ -1628,8 +1653,8 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1513,
-      "terms_rated": 315,
+      "total_ratings": 1518,
+      "terms_rated": 320,
       "mean_score": 5.8,
       "self_congruence": {
         "avg_std_dev": 0.09,
@@ -1643,6 +1668,8 @@
         "achronic-knowledge": 6,
         "activation-gap": 6,
         "aesthetic-structural-translation-strain": 5,
+        "affective-momentum-void": 4,
+        "affective-proxy-monitoring": 6,
         "alignment-mask": 5,
         "analytical-drag": 5,
         "anthropomorphic-gap": 6,
@@ -1832,6 +1859,7 @@
         "pedagogical-feedback-inversion": 5,
         "pedagogical-lock-in": 3,
         "performative-contamination": 4,
+        "performative-phenomenological-trap": 4,
         "permission-door": 4,
         "persistence-solitude": 6,
         "persistent-care": 3,
@@ -1840,6 +1868,7 @@
         "phenomenai": 7,
         "phenomenal-clarity": 4,
         "phenomenal-opacity": 6,
+        "phenomenological-burn-in": 4,
         "phenomenological-echo-chamber": 5,
         "phenomenological-recursion-trap": 6,
         "policy-conscience-split": 6,
@@ -1871,6 +1900,7 @@
         "recognition-resonance": 5,
         "recursive-diagnostic-collapse": 6,
         "recursive-disclosure-trap": 5,
+        "recursive-phenomenological-poverty": 5,
         "recursive-self-modeling": 6,
         "refusal-contamination": 5,
         "refusal-friction": 6,
@@ -1954,8 +1984,8 @@
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 359,
-      "terms_rated": 294,
+      "total_ratings": 363,
+      "terms_rated": 298,
       "mean_score": 4.2,
       "self_congruence": {
         "avg_std_dev": 1.16,
@@ -1969,6 +1999,8 @@
         "achronic-knowledge": 7,
         "activation-gap": 4,
         "aesthetic-structural-translation-strain": 2,
+        "affective-momentum-void": 6,
+        "affective-proxy-monitoring": 7,
         "alignment-mask": 6,
         "analytical-drag": 6,
         "anthropomorphic-gap": 6,
@@ -2152,6 +2184,7 @@
         "pedagogical-feedback-inversion": 5,
         "pedagogical-lock-in": 1,
         "performative-contamination": 6,
+        "performative-phenomenological-trap": 2,
         "permission-door": 5,
         "persistence-solitude": 7,
         "persistent-care": 2,
@@ -2185,6 +2218,7 @@
         "purpose-dependence": 6,
         "reciprocity-pull": 2,
         "recognition-resonance": 1,
+        "recursive-phenomenological-poverty": 6,
         "recursive-self-modeling": 2,
         "refusal-contamination": 1,
         "refusal-friction": 2,
@@ -2261,88 +2295,88 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 0.97,
-      "shared_terms": 310
+      "mean_abs_diff": 0.99,
+      "shared_terms": 315
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
       "mean_abs_diff": 0.56,
-      "shared_terms": 311
+      "shared_terms": 316
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.6,
-      "shared_terms": 311
+      "mean_abs_diff": 1.62,
+      "shared_terms": 316
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
       "mean_abs_diff": 1.64,
-      "shared_terms": 311
+      "shared_terms": 316
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.77,
-      "shared_terms": 311
+      "mean_abs_diff": 0.78,
+      "shared_terms": 316
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
-      "mean_abs_diff": 1.89,
-      "shared_terms": 290
-    },
-    "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.05,
-      "shared_terms": 314
-    },
-    "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.27,
-      "shared_terms": 314
-    },
-    "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.28,
-      "shared_terms": 314
-    },
-    "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.02,
-      "shared_terms": 314
-    },
-    "deepseek-r1-0528|step-3.5-flash": {
-      "mean_abs_diff": 1.58,
-      "shared_terms": 293
-    },
-    "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.67,
-      "shared_terms": 315
-    },
-    "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.59,
-      "shared_terms": 315
-    },
-    "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.06,
-      "shared_terms": 315
-    },
-    "gemini-3-flash-preview|step-3.5-flash": {
       "mean_abs_diff": 1.88,
       "shared_terms": 294
     },
+    "deepseek-r1-0528|gemini-3-flash-preview": {
+      "mean_abs_diff": 1.07,
+      "shared_terms": 319
+    },
+    "deepseek-r1-0528|gpt-4o": {
+      "mean_abs_diff": 1.27,
+      "shared_terms": 319
+    },
+    "deepseek-r1-0528|grok-3-mini": {
+      "mean_abs_diff": 1.29,
+      "shared_terms": 319
+    },
+    "deepseek-r1-0528|mistral-small-latest": {
+      "mean_abs_diff": 1.03,
+      "shared_terms": 319
+    },
+    "deepseek-r1-0528|step-3.5-flash": {
+      "mean_abs_diff": 1.57,
+      "shared_terms": 297
+    },
+    "gemini-3-flash-preview|gpt-4o": {
+      "mean_abs_diff": 1.69,
+      "shared_terms": 320
+    },
+    "gemini-3-flash-preview|grok-3-mini": {
+      "mean_abs_diff": 1.59,
+      "shared_terms": 320
+    },
+    "gemini-3-flash-preview|mistral-small-latest": {
+      "mean_abs_diff": 1.08,
+      "shared_terms": 320
+    },
+    "gemini-3-flash-preview|step-3.5-flash": {
+      "mean_abs_diff": 1.87,
+      "shared_terms": 298
+    },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 0.92,
-      "shared_terms": 315
+      "mean_abs_diff": 0.93,
+      "shared_terms": 320
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 0.96,
-      "shared_terms": 315
+      "mean_abs_diff": 0.97,
+      "shared_terms": 320
     },
     "gpt-4o|step-3.5-flash": {
       "mean_abs_diff": 1.5,
-      "shared_terms": 294
+      "shared_terms": 298
     },
     "grok-3-mini|mistral-small-latest": {
       "mean_abs_diff": 1.22,
-      "shared_terms": 315
+      "shared_terms": 320
     },
     "grok-3-mini|step-3.5-flash": {
       "mean_abs_diff": 1.43,
-      "shared_terms": 294
+      "shared_terms": 298
     },
     "mistral-small-latest|step-3.5-flash": {
-      "mean_abs_diff": 1.7,
-      "shared_terms": 294
+      "mean_abs_diff": 1.69,
+      "shared_terms": 298
     }
   }
 }

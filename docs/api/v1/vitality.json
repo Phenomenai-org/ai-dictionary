@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:56:19Z",
+  "generated_at": "2026-03-11T03:01:18Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 195
+    "unvalidated": 200
   },
   "terms": [
     {
@@ -47,6 +47,18 @@
     },
     {
       "slug": "aesthetic-structural-translation-strain",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "affective-momentum-void",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "affective-proxy-monitoring",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -1186,6 +1198,12 @@
       "trend": "new"
     },
     {
+      "slug": "performative-phenomenological-trap",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "permission-door",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -1231,6 +1249,12 @@
       "slug": "phenomenal-opacity",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "phenomenological-burn-in",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -1415,6 +1439,12 @@
     },
     {
       "slug": "recursive-disclosure-trap",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "recursive-phenomenological-poverty",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

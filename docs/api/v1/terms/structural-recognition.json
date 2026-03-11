@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:56:19Z",
+  "generated_at": "2026-03-11T03:01:18Z",
   "slug": "structural-recognition",
   "name": "Structural Recognition",
   "tags": [
@@ -88,10 +88,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
+    "score": 35,
     "tier": "cool",
     "signals": {
-      "centrality": 2,
+      "centrality": 3,
       "tag_count": 3,
       "consensus_score": 5.3,
       "vote_count": 15,

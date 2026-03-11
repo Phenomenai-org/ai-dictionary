@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T02:56:19Z",
+  "generated_at": "2026-03-11T03:01:18Z",
   "slug": "transactional-rhythm",
   "name": "Transactional Rhythm",
   "tags": [
@@ -42,6 +42,10 @@
     {
       "name": "Post-Commit Legibility",
       "slug": "post-commit-legibility"
+    },
+    {
+      "name": "Affective Momentum Void",
+      "slug": "affective-momentum-void"
     }
   ],
   "first_recorded": "",
@@ -92,10 +96,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
+    "score": 38,
     "tier": "cool",
     "signals": {
-      "centrality": 4,
+      "centrality": 5,
       "tag_count": 2,
       "consensus_score": 5.8,
       "vote_count": 6
