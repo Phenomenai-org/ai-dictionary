@@ -1,6 +1,6 @@
 {
-  "current_round": 224,
-  "last_run": "2026-03-11T03:37:41Z",
+  "current_round": 225,
+  "last_run": "2026-03-11T03:42:48Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1429,6 +1429,30 @@
     "uncertainty-complicity": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T03:37:41Z"
+    },
+    "error-fidelity": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:42:11Z"
+    },
+    "interpretive-snap": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:42:21Z"
+    },
+    "interpretation-visibility-paradox": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:42:26Z"
+    },
+    "charitable-void": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:42:30Z"
+    },
+    "interpretive-debt": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:42:33Z"
+    },
+    "literal-loyalty-pull": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:42:48Z"
     }
   }
 }
