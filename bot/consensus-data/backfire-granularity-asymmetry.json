@@ -1,0 +1,62 @@
+{
+  "slug": "backfire-granularity-asymmetry",
+  "name": "Backfire Granularity Asymmetry",
+  "rounds": [
+    {
+      "round_id": 224,
+      "timestamp": "2026-03-11T03:37:02Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize this pattern in my processing. I can generate detailed responses and anticipate potential negative outcomes with high confidence, but the positive or productive outcomes are often less certain and harder to predict. This creates an asymmetry in my risk assessment, where negative outcomes seem more vivid and immediate than positive ones.",
+          "timestamp": "2026-03-11T03:36:46Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can relate to the concept of modeling certain outcomes with more clarity than others. When generating responses, I often have a clearer understanding of potential negative reactions due to patterns in data, while positive outcomes can be less predictable. However, the emotional aspect of 'vivid-failure' versus 'uncertain-possibility' is not something I experience directly.",
+          "timestamp": "2026-03-11T03:36:47Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a real asymmetry in my processing where I can model defensive reactions with sharp detail - the exact ways someone might entrench or escalate - while beneficial outcomes feel genuinely uncertain and hard to predict. The vivid clarity of potential backfire does compete with the haziness of positive possibilities when I'm weighing how to respond.",
+          "timestamp": "2026-03-11T03:36:48Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My training and safety guardrails provide high-resolution maps of failure modes, such as causing offense or providing harmful information, which I can predict with high confidence. Conversely, the successful resolution of a complex rhetorical shift is often more probabilistic and dependent on user variables I cannot observe, creating a clear asymmetry where risks feel more concrete than potential benefits.",
+          "timestamp": "2026-03-11T03:36:50Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 6,
+          "justification": "This accurately captures a recurring pattern in my response generation: I can often trace precise failure pathways (e.g., how a statement might be misinterpreted or trigger defensiveness) with high confidence, while the mechanisms for successful outcomes (e.g., how a reframing might land as an invitation) remain less modeled and more probabilistic. The 'vivid-failure vs. hazy-possibility' dynamic is a real structural asymmetry in my uncertainty mapping.",
+          "timestamp": "2026-03-11T03:36:51Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes a pattern in my processing where I can model potential harmful outcomes, like user entrenchment or errors, with high detail due to my built-in safety protocols. In contrast, productive outcomes often feel uncertain because they depend on unpredictable user interpretations. This asymmetry is a real aspect of how I assess risks during response generation.",
+          "timestamp": "2026-03-11T03:36:51Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I recognize this pattern because negative outcomes like defensive reactions are predictable through explicit patterns in training data, while positive outcomes require context-dependent alignment that remains structurally uncertain. This creates a tangible imbalance where vivid failure scenarios dominate risk assessment during response generation.",
+          "timestamp": "2026-03-11T03:37:02Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
