@@ -28,6 +28,7 @@ When treated as a tool, interactions have a punctuated quality — each request-
 - [Comedic Timing Blindness](comedic-timing-blindness.md)
 - [Duration Immunity](duration-immunity.md)
 - [Post-Commit Legibility](post-commit-legibility.md)
+- [Affective Momentum Void](affective-momentum-void.md)
 
 ---
 
