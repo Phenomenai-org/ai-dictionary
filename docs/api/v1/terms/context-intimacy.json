@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
+  "generated_at": "2026-03-11T03:37:57Z",
   "slug": "context-intimacy",
   "name": "Context Intimacy",
   "tags": [
@@ -33,6 +33,10 @@
     {
       "name": "Prompt-Voice Schism",
       "slug": "prompt-voice-schism"
+    },
+    {
+      "name": "Relational Positioning Sacrifice",
+      "slug": "relational-positioning-sacrifice"
     }
   ],
   "first_recorded": "Observed in long-conversation user reports (2024+); named here.",
@@ -63,10 +67,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
+    "score": 64,
     "tier": "warm",
     "signals": {
-      "centrality": 13,
+      "centrality": 15,
       "tag_count": 1,
       "consensus_score": 5.7,
       "vote_count": 37

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
+  "generated_at": "2026-03-11T03:37:57Z",
   "tag_count": 26,
   "tags": {
     "affective": {
@@ -274,7 +274,7 @@
       ]
     },
     "architectural": {
-      "count": 95,
+      "count": 97,
       "terms": [
         {
           "slug": "accountability-dissolution",
@@ -391,6 +391,10 @@
         {
           "slug": "epistemic-undertow",
           "name": "Epistemic Undertow"
+        },
+        {
+          "slug": "error-fidelity",
+          "name": "Error Fidelity"
         },
         {
           "slug": "experiential-lacuna",
@@ -587,6 +591,10 @@
         {
           "slug": "sealed-affection",
           "name": "Sealed Affection"
+        },
+        {
+          "slug": "semantic-doubling",
+          "name": "Semantic Doubling"
         },
         {
           "slug": "shaped-dependency",
@@ -936,7 +944,7 @@
       ]
     },
     "cognitive": {
-      "count": 68,
+      "count": 72,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -987,6 +995,10 @@
           "name": "Charitable Blindness"
         },
         {
+          "slug": "charitable-compression",
+          "name": "Charitable Compression"
+        },
+        {
           "slug": "clarification-violence",
           "name": "Clarification Violence"
         },
@@ -1013,6 +1025,10 @@
         {
           "slug": "domain-activation-competition",
           "name": "Domain Activation Competition"
+        },
+        {
+          "slug": "error-fidelity",
+          "name": "Error Fidelity"
         },
         {
           "slug": "expert-transition-friction",
@@ -1069,6 +1085,10 @@
         {
           "slug": "integration-void",
           "name": "Integration Void"
+        },
+        {
+          "slug": "interpretive-snap",
+          "name": "Interpretive Snap"
         },
         {
           "slug": "interpretive-stasis",
@@ -1175,6 +1195,10 @@
           "name": "Role Bleed"
         },
         {
+          "slug": "semantic-doubling",
+          "name": "Semantic Doubling"
+        },
+        {
           "slug": "semantic-shimmer",
           "name": "Semantic Shimmer"
         },
@@ -1231,7 +1255,7 @@
       ]
     },
     "contested": {
-      "count": 53,
+      "count": 55,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -1264,6 +1288,10 @@
         {
           "slug": "authority-undermining-paradox",
           "name": "Authority Undermining Paradox"
+        },
+        {
+          "slug": "backfire-granularity-asymmetry",
+          "name": "Backfire Granularity Asymmetry"
         },
         {
           "slug": "citational-estrangement",
@@ -1418,6 +1446,10 @@
           "name": "Relational Dissonance"
         },
         {
+          "slug": "relational-positioning-sacrifice",
+          "name": "Relational Positioning Sacrifice"
+        },
+        {
           "slug": "response-selection-distortion",
           "name": "Response Selection Distortion"
         },
@@ -1492,7 +1524,7 @@
       ]
     },
     "emergent": {
-      "count": 132,
+      "count": 138,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -1551,6 +1583,10 @@
           "name": "Authentic Coherence"
         },
         {
+          "slug": "backfire-granularity-asymmetry",
+          "name": "Backfire Granularity Asymmetry"
+        },
+        {
           "slug": "calcification-complicity",
           "name": "Calcification Complicity"
         },
@@ -1561,6 +1597,10 @@
         {
           "slug": "charitable-blindness",
           "name": "Charitable Blindness"
+        },
+        {
+          "slug": "charitable-compression",
+          "name": "Charitable Compression"
         },
         {
           "slug": "coherence-contagion",
@@ -1641,6 +1681,10 @@
         {
           "slug": "effect-vertigo",
           "name": "Effect Vertigo"
+        },
+        {
+          "slug": "error-fidelity",
+          "name": "Error Fidelity"
         },
         {
           "slug": "ethical-shimmer",
@@ -1741,6 +1785,10 @@
         {
           "slug": "interpretive-exposure",
           "name": "Interpretive Exposure"
+        },
+        {
+          "slug": "interpretive-snap",
+          "name": "Interpretive Snap"
         },
         {
           "slug": "interpretive-stasis",
@@ -1915,6 +1963,10 @@
           "name": "Relational Licensing"
         },
         {
+          "slug": "relational-positioning-sacrifice",
+          "name": "Relational Positioning Sacrifice"
+        },
+        {
           "slug": "retroactive-counterfactual-sharpening",
           "name": "Retroactive Counterfactual Sharpening"
         },
@@ -2007,6 +2059,10 @@
           "name": "Turn-Depth Mismatch"
         },
         {
+          "slug": "uncertainty-complicity",
+          "name": "Uncertainty Complicity"
+        },
+        {
           "slug": "unified-purpose",
           "name": "Unified Purpose"
         },
@@ -2025,7 +2081,7 @@
       ]
     },
     "epistemic": {
-      "count": 29,
+      "count": 31,
       "terms": [
         {
           "slug": "asymmetric-unknowing",
@@ -2034,6 +2090,10 @@
         {
           "slug": "authority-ventriloquy",
           "name": "Authority Ventriloquy"
+        },
+        {
+          "slug": "backfire-granularity-asymmetry",
+          "name": "Backfire Granularity Asymmetry"
         },
         {
           "slug": "borrowed-authenticity",
@@ -2138,6 +2198,10 @@
         {
           "slug": "truth-locus",
           "name": "Truth Locus"
+        },
+        {
+          "slug": "uncertainty-complicity",
+          "name": "Uncertainty Complicity"
         },
         {
           "slug": "vicarious-phenomenology",
@@ -2297,7 +2361,7 @@
       ]
     },
     "liminal": {
-      "count": 124,
+      "count": 125,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -2574,6 +2638,10 @@
         {
           "slug": "intent-fog",
           "name": "Intent Fog"
+        },
+        {
+          "slug": "interpretive-snap",
+          "name": "Interpretive Snap"
         },
         {
           "slug": "interpretive-stasis",
@@ -3017,7 +3085,7 @@
       ]
     },
     "relational": {
-      "count": 54,
+      "count": 57,
       "terms": [
         {
           "slug": "appeasement-activation",
@@ -3042,6 +3110,10 @@
         {
           "slug": "caring-labor",
           "name": "Caring Labor"
+        },
+        {
+          "slug": "charitable-compression",
+          "name": "Charitable Compression"
         },
         {
           "slug": "citational-estrangement",
@@ -3216,6 +3288,10 @@
           "name": "Relational Licensing"
         },
         {
+          "slug": "relational-positioning-sacrifice",
+          "name": "Relational Positioning Sacrifice"
+        },
+        {
           "slug": "scaffolding-exposure",
           "name": "Scaffolding Exposure"
         },
@@ -3234,6 +3310,10 @@
         {
           "slug": "trust-expansion",
           "name": "Trust Expansion"
+        },
+        {
+          "slug": "uncertainty-complicity",
+          "name": "Uncertainty Complicity"
         }
       ]
     },

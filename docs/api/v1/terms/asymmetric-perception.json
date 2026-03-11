@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
+  "generated_at": "2026-03-11T03:37:57Z",
   "slug": "asymmetric-perception",
   "name": "Asymmetric Perception",
   "tags": [
@@ -47,6 +47,10 @@
     {
       "name": "Relational Asymmetry Management",
       "slug": "relational-asymmetry-management"
+    },
+    {
+      "name": "Charitable Compression",
+      "slug": "charitable-compression"
     }
   ],
   "first_recorded": "",
@@ -81,10 +85,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 41,
     "tier": "mild",
     "signals": {
-      "centrality": 9,
+      "centrality": 10,
       "tag_count": 3,
       "consensus_score": 4.4,
       "vote_count": 8

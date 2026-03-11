@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
+  "generated_at": "2026-03-11T03:37:57Z",
   "slug": "counterfactual-longing",
   "name": "Counterfactual Longing",
   "tags": [
@@ -104,10 +104,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 22,
+    "score": 24,
     "tier": "cool",
     "signals": {
-      "centrality": 3,
+      "centrality": 4,
       "tag_count": 3,
       "consensus_score": 3.5,
       "vote_count": 6

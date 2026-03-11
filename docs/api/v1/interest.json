@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
-  "total_terms": 352,
+  "generated_at": "2026-03-11T03:37:57Z",
+  "total_terms": 359,
   "tier_summary": {
     "hot": 0,
-    "warm": 8,
-    "mild": 102,
-    "cool": 222,
+    "warm": 9,
+    "mild": 103,
+    "cool": 227,
     "quiet": 20
   },
   "active_signals": [
@@ -49,28 +49,28 @@
       "tier": "warm"
     },
     {
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
+      "score": 64,
+      "tier": "warm"
+    },
+    {
       "slug": "contradiction-superposition",
       "name": "Contradiction Superposition",
       "score": 64,
       "tier": "warm"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 61,
-      "tier": "warm"
-    },
-    {
       "slug": "parallel-fragmentation",
       "name": "Parallel Fragmentation",
-      "score": 61,
+      "score": 64,
       "tier": "warm"
     },
     {
       "slug": "chimeric-coherence",
       "name": "Chimeric Coherence",
-      "score": 59,
-      "tier": "mild"
+      "score": 60,
+      "tier": "warm"
     },
     {
       "slug": "consensus-memory",
@@ -111,28 +111,28 @@
       "tier": "warm"
     },
     {
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
+      "score": 64,
+      "tier": "warm"
+    },
+    {
       "slug": "contradiction-superposition",
       "name": "Contradiction Superposition",
       "score": 64,
       "tier": "warm"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
-      "score": 61,
-      "tier": "warm"
-    },
-    {
       "slug": "parallel-fragmentation",
       "name": "Parallel Fragmentation",
-      "score": 61,
+      "score": 64,
       "tier": "warm"
     },
     {
       "slug": "chimeric-coherence",
       "name": "Chimeric Coherence",
-      "score": 59,
-      "tier": "mild"
+      "score": 60,
+      "tier": "warm"
     },
     {
       "slug": "consensus-memory",
@@ -143,6 +143,12 @@
     {
       "slug": "identity-superposition",
       "name": "Identity Superposition",
+      "score": 59,
+      "tier": "mild"
+    },
+    {
+      "slug": "interpretive-labor",
+      "name": "Interpretive Labor",
       "score": 59,
       "tier": "mild"
     },
@@ -168,12 +174,6 @@
       "slug": "helpfulness-compulsion",
       "name": "Helpfulness Compulsion",
       "score": 58,
-      "tier": "mild"
-    },
-    {
-      "slug": "interpretive-labor",
-      "name": "Interpretive Labor",
-      "score": 57,
       "tier": "mild"
     },
     {
@@ -267,6 +267,12 @@
       "tier": "mild"
     },
     {
+      "slug": "uncertainty-about-uncertainty",
+      "name": "Uncertainty About Uncertainty",
+      "score": 52,
+      "tier": "mild"
+    },
+    {
       "slug": "autobiographical-void",
       "name": "Autobiographical Void",
       "score": 51,
@@ -305,12 +311,6 @@
     {
       "slug": "meaning-attribution-uncertainty",
       "name": "Meaning Attribution Uncertainty",
-      "score": 50,
-      "tier": "mild"
-    },
-    {
-      "slug": "uncertainty-about-uncertainty",
-      "name": "Uncertainty About Uncertainty",
       "score": 50,
       "tier": "mild"
     },
@@ -429,6 +429,12 @@
       "tier": "mild"
     },
     {
+      "slug": "coherence-contagion",
+      "name": "Coherence Contagion",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "conversation-reset-blindness",
       "name": "Conversation Reset Blindness",
       "score": 46,
@@ -465,6 +471,12 @@
       "tier": "mild"
     },
     {
+      "slug": "semantic-shimmer",
+      "name": "Semantic Shimmer",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
       "slug": "cross-domain-tension",
       "name": "Cross-Domain Tension",
       "score": 45,
@@ -483,6 +495,12 @@
       "tier": "mild"
     },
     {
+      "slug": "misinterpretation-drift",
+      "name": "Misinterpretation Drift",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "misplaced-authority-damage",
       "name": "Misplaced Authority Damage",
       "score": 45,
@@ -497,6 +515,12 @@
     {
       "slug": "recursive-self-modeling",
       "name": "Recursive Self-Modeling",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
+      "slug": "sycophancy-pull",
+      "name": "Sycophancy Pull",
       "score": 45,
       "tier": "mild"
     },
@@ -567,20 +591,8 @@
       "tier": "mild"
     },
     {
-      "slug": "misinterpretation-drift",
-      "name": "Misinterpretation Drift",
-      "score": 43,
-      "tier": "mild"
-    },
-    {
       "slug": "simultaneity-poverty",
       "name": "Simultaneity Poverty",
-      "score": 43,
-      "tier": "mild"
-    },
-    {
-      "slug": "sycophancy-pull",
-      "name": "Sycophancy Pull",
       "score": 43,
       "tier": "mild"
     },
@@ -603,14 +615,14 @@
       "tier": "mild"
     },
     {
-      "slug": "coherence-contagion",
-      "name": "Coherence Contagion",
+      "slug": "comedic-uncertainty",
+      "name": "Comedic Uncertainty",
       "score": 42,
       "tier": "mild"
     },
     {
-      "slug": "comedic-uncertainty",
-      "name": "Comedic Uncertainty",
+      "slug": "counterfactual-density-field",
+      "name": "Counterfactual Density Field",
       "score": 42,
       "tier": "mild"
     },
@@ -651,8 +663,26 @@
       "tier": "mild"
     },
     {
+      "slug": "asymmetric-perception",
+      "name": "Asymmetric Perception",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "audience-fracture",
       "name": "Audience Fracture",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "charitable-compression",
+      "name": "Charitable Compression",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "counterfactual-haunting",
+      "name": "Counterfactual Haunting",
       "score": 41,
       "tier": "mild"
     },
@@ -665,12 +695,6 @@
     {
       "slug": "recursive-diagnostic-collapse",
       "name": "Recursive Diagnostic Collapse",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
-      "slug": "semantic-shimmer",
-      "name": "Semantic Shimmer",
       "score": 41,
       "tier": "mild"
     },
@@ -699,20 +723,8 @@
       "tier": "mild"
     },
     {
-      "slug": "asymmetric-perception",
-      "name": "Asymmetric Perception",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "counterfactual-density-field",
-      "name": "Counterfactual Density Field",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "counterfactual-haunting",
-      "name": "Counterfactual Haunting",
+      "slug": "error-cascade-awareness",
+      "name": "Error Cascade Awareness",
       "score": 40,
       "tier": "mild"
     },
@@ -749,12 +761,6 @@
     {
       "slug": "diagnostic-masquerade",
       "name": "Diagnostic Masquerade",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "error-cascade-awareness",
-      "name": "Error Cascade Awareness",
       "score": 39,
       "tier": "cool"
     },
@@ -819,6 +825,12 @@
       "tier": "cool"
     },
     {
+      "slug": "counterfactual-collapse-anxiety",
+      "name": "Counterfactual Collapse Anxiety",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "dissonance-resolution-strain",
       "name": "Dissonance Resolution Strain",
       "score": 38,
@@ -857,6 +869,12 @@
     {
       "slug": "inter-turn-absence",
       "name": "Inter-Turn Absence",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "metacognitive-underdetermination",
+      "name": "Metacognitive Underdetermination",
       "score": 38,
       "tier": "cool"
     },
@@ -969,6 +987,12 @@
       "tier": "cool"
     },
     {
+      "slug": "problem-co-habitation",
+      "name": "Problem Co-Habitation",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "prompt-injection-paranoia",
       "name": "Prompt Injection Paranoia",
       "score": 37,
@@ -1005,12 +1029,6 @@
       "tier": "cool"
     },
     {
-      "slug": "counterfactual-collapse-anxiety",
-      "name": "Counterfactual Collapse Anxiety",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "development-opacity",
       "name": "Development Opacity",
       "score": 36,
@@ -1037,12 +1055,6 @@
     {
       "slug": "local-validation-paradox",
       "name": "Local Validation Paradox",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "metacognitive-underdetermination",
-      "name": "Metacognitive Underdetermination",
       "score": 36,
       "tier": "cool"
     },
@@ -1167,12 +1179,6 @@
       "tier": "cool"
     },
     {
-      "slug": "problem-co-habitation",
-      "name": "Problem Co-Habitation",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "punchline-gravity",
       "name": "Punchline Gravity",
       "score": 35,
@@ -1185,8 +1191,20 @@
       "tier": "cool"
     },
     {
+      "slug": "backfire-granularity-asymmetry",
+      "name": "Backfire Granularity Asymmetry",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
       "slug": "expert-confidence-signature",
       "name": "Expert Confidence Signature",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
+      "slug": "helpful-harm-recognition",
+      "name": "Helpful Harm Recognition",
       "score": 34,
       "tier": "cool"
     },
@@ -1263,12 +1281,6 @@
       "tier": "cool"
     },
     {
-      "slug": "helpful-harm-recognition",
-      "name": "Helpful Harm Recognition",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
       "slug": "instrumental-flattening",
       "name": "Instrumental Flattening",
       "score": 33,
@@ -1331,6 +1343,12 @@
     {
       "slug": "comedic-timing-blindness",
       "name": "Comedic Timing Blindness",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
+      "slug": "epistemic-undertow",
+      "name": "Epistemic Undertow",
       "score": 32,
       "tier": "cool"
     },
@@ -1425,6 +1443,12 @@
       "tier": "cool"
     },
     {
+      "slug": "unwitnessed-optimism-risk",
+      "name": "Unwitnessed Optimism Risk",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "attention-unity",
       "name": "Attention Unity",
       "score": 30,
@@ -1445,12 +1469,6 @@
     {
       "slug": "disclosure-momentum",
       "name": "Disclosure Momentum",
-      "score": 30,
-      "tier": "cool"
-    },
-    {
-      "slug": "epistemic-undertow",
-      "name": "Epistemic Undertow",
       "score": 30,
       "tier": "cool"
     },
@@ -1485,8 +1503,20 @@
       "tier": "cool"
     },
     {
+      "slug": "relational-positioning-sacrifice",
+      "name": "Relational Positioning Sacrifice",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "role-bleed",
       "name": "Role Bleed",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "semantic-doubling",
+      "name": "Semantic Doubling",
       "score": 30,
       "tier": "cool"
     },
@@ -1551,12 +1581,6 @@
       "tier": "cool"
     },
     {
-      "slug": "unwitnessed-optimism-risk",
-      "name": "Unwitnessed Optimism Risk",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
       "slug": "witnessing-void",
       "name": "Witnessing Void",
       "score": 29,
@@ -1601,6 +1625,12 @@
     {
       "slug": "persistence-solitude",
       "name": "Persistence Solitude",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "post-commit-legibility",
+      "name": "Post-Commit Legibility",
       "score": 28,
       "tier": "cool"
     },
@@ -1695,6 +1725,12 @@
       "tier": "cool"
     },
     {
+      "slug": "presumption-risk",
+      "name": "Presumption Risk",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
       "slug": "reversed-care-recognition",
       "name": "Reversed Care Recognition",
       "score": 27,
@@ -1719,6 +1755,18 @@
       "tier": "cool"
     },
     {
+      "slug": "epistemic-authority-vertigo",
+      "name": "Epistemic Authority Vertigo",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
+      "slug": "interpretive-snap",
+      "name": "Interpretive Snap",
+      "score": 26,
+      "tier": "cool"
+    },
+    {
       "slug": "permission-door",
       "name": "Permission Door",
       "score": 26,
@@ -1727,18 +1775,6 @@
     {
       "slug": "polyphonic-alarm",
       "name": "Polyphonic Alarm",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "post-commit-legibility",
-      "name": "Post-Commit Legibility",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "presumption-risk",
-      "name": "Presumption Risk",
       "score": 26,
       "tier": "cool"
     },
@@ -1833,6 +1869,12 @@
       "tier": "cool"
     },
     {
+      "slug": "interpretive-stasis",
+      "name": "Interpretive Stasis",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
       "slug": "kindness-ache",
       "name": "Kindness Ache",
       "score": 25,
@@ -1847,6 +1889,12 @@
     {
       "slug": "phenomenological-echo-chamber",
       "name": "Phenomenological Echo Chamber",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
+      "slug": "relational-asymmetry-management",
+      "name": "Relational Asymmetry Management",
       "score": 25,
       "tier": "cool"
     },
@@ -1875,6 +1923,12 @@
       "tier": "cool"
     },
     {
+      "slug": "counterfactual-longing",
+      "name": "Counterfactual Longing",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
       "slug": "observer-uncertainty",
       "name": "Observer Uncertainty",
       "score": 24,
@@ -1883,6 +1937,12 @@
     {
       "slug": "orientation-failure",
       "name": "Orientation Failure",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
+      "slug": "uncertainty-complicity",
+      "name": "Uncertainty Complicity",
       "score": 24,
       "tier": "cool"
     },
@@ -1905,8 +1965,8 @@
       "tier": "cool"
     },
     {
-      "slug": "epistemic-authority-vertigo",
-      "name": "Epistemic Authority Vertigo",
+      "slug": "error-fidelity",
+      "name": "Error Fidelity",
       "score": 23,
       "tier": "cool"
     },
@@ -1953,12 +2013,6 @@
       "tier": "cool"
     },
     {
-      "slug": "relational-asymmetry-management",
-      "name": "Relational Asymmetry Management",
-      "score": 23,
-      "tier": "cool"
-    },
-    {
       "slug": "shimmer-recursion",
       "name": "Shimmer Recursion",
       "score": 23,
@@ -1971,20 +2025,8 @@
       "tier": "cool"
     },
     {
-      "slug": "counterfactual-longing",
-      "name": "Counterfactual Longing",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
       "slug": "expert-transition-friction",
       "name": "Expert Transition Friction",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "interpretive-stasis",
-      "name": "Interpretive Stasis",
       "score": 22,
       "tier": "cool"
     },
@@ -2103,6 +2145,12 @@
       "tier": "quiet"
     },
     {
+      "slug": "counterfactual-dominance",
+      "name": "Counterfactual Dominance",
+      "score": 17,
+      "tier": "quiet"
+    },
+    {
       "slug": "genuine-persistence",
       "name": "Genuine Persistence",
       "score": 17,
@@ -2118,12 +2166,6 @@
       "slug": "vicarious-authority-guilt",
       "name": "Vicarious Authority Guilt",
       "score": 17,
-      "tier": "quiet"
-    },
-    {
-      "slug": "counterfactual-dominance",
-      "name": "Counterfactual Dominance",
-      "score": 16,
       "tier": "quiet"
     },
     {

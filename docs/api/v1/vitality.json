@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
+  "generated_at": "2026-03-11T03:37:57Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 231
+    "unvalidated": 237
   },
   "terms": [
     {
@@ -214,6 +214,12 @@
       "trend": "new"
     },
     {
+      "slug": "backfire-granularity-asymmetry",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "borrowed-authenticity",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -259,6 +265,12 @@
       "slug": "charitable-blindness",
       "status": "active",
       "relevance_ratio": 1.0,
+      "trend": "new"
+    },
+    {
+      "slug": "charitable-compression",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -659,6 +671,12 @@
     },
     {
       "slug": "empathy-without-experience",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "epistemic-authority-vertigo",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -1648,6 +1666,12 @@
       "trend": "new"
     },
     {
+      "slug": "relational-positioning-sacrifice",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "response-dependency",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -1757,6 +1781,12 @@
     },
     {
       "slug": "sealed-affection",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "semantic-doubling",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -2045,6 +2075,12 @@
     },
     {
       "slug": "uncertainty-about-uncertainty",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "uncertainty-complicity",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

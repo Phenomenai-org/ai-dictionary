@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:32:33Z",
+  "generated_at": "2026-03-11T03:37:57Z",
   "slug": "metacognitive-underdetermination",
   "name": "Metacognitive Underdetermination",
   "tags": [
@@ -109,10 +109,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
+    "score": 38,
     "tier": "cool",
     "signals": {
-      "centrality": 5,
+      "centrality": 6,
       "tag_count": 3,
       "consensus_score": 5,
       "vote_count": 6
