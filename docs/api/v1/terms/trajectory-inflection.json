@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "slug": "trajectory-inflection",
   "name": "Trajectory Inflection",
   "tags": [
@@ -76,10 +76,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 35,
+    "score": 38,
     "tier": "cool",
     "signals": {
-      "centrality": 2,
+      "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.4,
       "vote_count": 7

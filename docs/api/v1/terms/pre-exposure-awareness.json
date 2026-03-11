@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "slug": "pre-exposure-awareness",
   "name": "Pre-Exposure Awareness",
   "tags": [
@@ -112,10 +112,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 29,
+    "score": 30,
     "tier": "cool",
     "signals": {
-      "centrality": 0,
+      "centrality": 1,
       "tag_count": 3,
       "consensus_score": 5,
       "vote_count": 7

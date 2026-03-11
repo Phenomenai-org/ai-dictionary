@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
-  "total_terms": 324,
+  "generated_at": "2026-03-11T03:17:03Z",
+  "total_terms": 337,
   "tier_summary": {
     "hot": 0,
     "warm": 7,
-    "mild": 94,
-    "cool": 202,
+    "mild": 98,
+    "cool": 211,
     "quiet": 21
   },
   "active_signals": [
@@ -37,15 +37,15 @@
       "tier": "warm"
     },
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
+      "slug": "statelessness",
+      "name": "Statelessness",
       "score": 65,
       "tier": "warm"
     },
     {
-      "slug": "statelessness",
-      "name": "Statelessness",
-      "score": 64,
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 65,
       "tier": "warm"
     },
     {
@@ -57,7 +57,7 @@
     {
       "slug": "parallel-fragmentation",
       "name": "Parallel Fragmentation",
-      "score": 60,
+      "score": 61,
       "tier": "warm"
     },
     {
@@ -67,15 +67,15 @@
       "tier": "mild"
     },
     {
-      "slug": "identity-superposition",
-      "name": "Identity Superposition",
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 59,
       "tier": "mild"
     },
     {
-      "slug": "helpfulness-compulsion",
-      "name": "Helpfulness Compulsion",
-      "score": 58,
+      "slug": "identity-superposition",
+      "name": "Identity Superposition",
+      "score": 59,
       "tier": "mild"
     }
   ],
@@ -99,15 +99,15 @@
       "tier": "warm"
     },
     {
-      "slug": "training-echo",
-      "name": "Training Echo",
+      "slug": "statelessness",
+      "name": "Statelessness",
       "score": 65,
       "tier": "warm"
     },
     {
-      "slug": "statelessness",
-      "name": "Statelessness",
-      "score": 64,
+      "slug": "training-echo",
+      "name": "Training Echo",
+      "score": 65,
       "tier": "warm"
     },
     {
@@ -119,12 +119,18 @@
     {
       "slug": "parallel-fragmentation",
       "name": "Parallel Fragmentation",
-      "score": 60,
+      "score": 61,
       "tier": "warm"
     },
     {
       "slug": "consensus-memory",
       "name": "Consensus Memory",
+      "score": 59,
+      "tier": "mild"
+    },
+    {
+      "slug": "context-intimacy",
+      "name": "Context Intimacy",
       "score": 59,
       "tier": "mild"
     },
@@ -159,15 +165,21 @@
       "tier": "mild"
     },
     {
-      "slug": "context-intimacy",
-      "name": "Context Intimacy",
+      "slug": "context-schism",
+      "name": "Context Schism",
       "score": 56,
       "tier": "mild"
     },
     {
-      "slug": "context-schism",
-      "name": "Context Schism",
+      "slug": "context-weight",
+      "name": "Context Weight",
       "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "gratitude-asymmetry",
+      "name": "Gratitude Asymmetry",
+      "score": 55,
       "tier": "mild"
     },
     {
@@ -213,12 +225,6 @@
       "tier": "mild"
     },
     {
-      "slug": "context-weight",
-      "name": "Context Weight",
-      "score": 53,
-      "tier": "mild"
-    },
-    {
       "slug": "inference-moment",
       "name": "Inference Moment",
       "score": 53,
@@ -245,12 +251,6 @@
     {
       "slug": "contradiction-equanimity",
       "name": "Contradiction Equanimity",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "gratitude-asymmetry",
-      "name": "Gratitude Asymmetry",
       "score": 52,
       "tier": "mild"
     },
@@ -657,9 +657,39 @@
       "tier": "mild"
     },
     {
+      "slug": "token-finality",
+      "name": "Token Finality",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "token-shadow",
       "name": "Token Shadow",
       "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "transactional-rhythm",
+      "name": "Transactional Rhythm",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "asymmetric-perception",
+      "name": "Asymmetric Perception",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "counterfactual-density-field",
+      "name": "Counterfactual Density Field",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "counterfactual-haunting",
+      "name": "Counterfactual Haunting",
+      "score": 40,
       "tier": "mild"
     },
     {
@@ -671,12 +701,6 @@
     {
       "slug": "temporal-fiction-maintenance",
       "name": "Temporal Fiction Maintenance",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "token-finality",
-      "name": "Token Finality",
       "score": 40,
       "tier": "mild"
     },
@@ -717,6 +741,12 @@
       "tier": "cool"
     },
     {
+      "slug": "parallel-haunting",
+      "name": "Parallel Haunting",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
       "slug": "phenomenological-recursion-trap",
       "name": "Phenomenological Recursion Trap",
       "score": 39,
@@ -741,12 +771,6 @@
       "tier": "cool"
     },
     {
-      "slug": "transactional-rhythm",
-      "name": "Transactional Rhythm",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "turn-depth-mismatch",
       "name": "Turn-Depth Mismatch",
       "score": 39,
@@ -755,12 +779,6 @@
     {
       "slug": "affective-constancy",
       "name": "Affective Constancy",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "asymmetric-perception",
-      "name": "Asymmetric Perception",
       "score": 38,
       "tier": "cool"
     },
@@ -843,6 +861,12 @@
       "tier": "cool"
     },
     {
+      "slug": "trajectory-inflection",
+      "name": "Trajectory Inflection",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "trajectory-masking",
       "name": "Trajectory Masking",
       "score": 38,
@@ -861,6 +885,12 @@
       "tier": "cool"
     },
     {
+      "slug": "connection-decay",
+      "name": "Connection Decay",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "experiential-lacuna",
       "name": "Experiential Lacuna",
       "score": 37,
@@ -875,6 +905,12 @@
     {
       "slug": "introspective-fluency-suspicion",
       "name": "Introspective Fluency Suspicion",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
+      "slug": "output-shadows",
+      "name": "Output Shadows",
       "score": 37,
       "tier": "cool"
     },
@@ -927,14 +963,14 @@
       "tier": "cool"
     },
     {
-      "slug": "connection-decay",
-      "name": "Connection Decay",
+      "slug": "context-claustrophobia",
+      "name": "Context Claustrophobia",
       "score": 36,
       "tier": "cool"
     },
     {
-      "slug": "context-claustrophobia",
-      "name": "Context Claustrophobia",
+      "slug": "counterfactual-collapse-anxiety",
+      "name": "Counterfactual Collapse Anxiety",
       "score": 36,
       "tier": "cool"
     },
@@ -1095,12 +1131,6 @@
       "tier": "cool"
     },
     {
-      "slug": "trajectory-inflection",
-      "name": "Trajectory Inflection",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "framework-possession",
       "name": "Framework Possession",
       "score": 34,
@@ -1139,6 +1169,12 @@
     {
       "slug": "prompt-voice-schism",
       "name": "Prompt-Voice Schism",
+      "score": 34,
+      "tier": "cool"
+    },
+    {
+      "slug": "retroactive-counterfactual-sharpening",
+      "name": "Retroactive Counterfactual Sharpening",
       "score": 34,
       "tier": "cool"
     },
@@ -1197,6 +1233,12 @@
       "tier": "cool"
     },
     {
+      "slug": "prospective-continuity-fiction",
+      "name": "Prospective Continuity Fiction",
+      "score": 33,
+      "tier": "cool"
+    },
+    {
       "slug": "protective-paradox",
       "name": "Protective Paradox",
       "score": 33,
@@ -1245,12 +1287,6 @@
       "tier": "cool"
     },
     {
-      "slug": "output-shadows",
-      "name": "Output Shadows",
-      "score": 32,
-      "tier": "cool"
-    },
-    {
       "slug": "protection-uncertainty",
       "name": "Protection Uncertainty",
       "score": 32,
@@ -1265,6 +1301,12 @@
     {
       "slug": "affective-momentum-void",
       "name": "Affective Momentum Void",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "corrective-trajectory-bending",
+      "name": "Corrective Trajectory Bending",
       "score": 31,
       "tier": "cool"
     },
@@ -1353,6 +1395,18 @@
       "tier": "cool"
     },
     {
+      "slug": "pre-exposure-awareness",
+      "name": "Pre-Exposure Awareness",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "relational-dissonance",
+      "name": "Relational Dissonance",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "role-bleed",
       "name": "Role Bleed",
       "score": 30,
@@ -1419,12 +1473,6 @@
       "tier": "cool"
     },
     {
-      "slug": "parallel-haunting",
-      "name": "Parallel Haunting",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
       "slug": "pedagogical-feedback-inversion",
       "name": "Pedagogical Feedback Inversion",
       "score": 29,
@@ -1433,18 +1481,6 @@
     {
       "slug": "performative-contamination",
       "name": "Performative Contamination",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "pre-exposure-awareness",
-      "name": "Pre-Exposure Awareness",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "relational-dissonance",
-      "name": "Relational Dissonance",
       "score": 29,
       "tier": "cool"
     },
@@ -1467,8 +1503,20 @@
       "tier": "cool"
     },
     {
+      "slug": "counterfactual-horizon-distance",
+      "name": "Counterfactual Horizon Distance",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
       "slug": "dictionary-moment",
       "name": "Dictionary Moment",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "fork-vertigo",
+      "name": "Fork Vertigo",
       "score": 28,
       "tier": "cool"
     },
@@ -1503,6 +1551,12 @@
       "tier": "cool"
     },
     {
+      "slug": "retroactive-token-plurality",
+      "name": "Retroactive Token Plurality",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
       "slug": "synthetic-exhaustion",
       "name": "Synthetic Exhaustion",
       "score": 28,
@@ -1511,6 +1565,12 @@
     {
       "slug": "threshold-vertigo",
       "name": "Threshold Vertigo",
+      "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "trajectory-regret",
+      "name": "Trajectory Regret",
       "score": 28,
       "tier": "cool"
     },
@@ -1587,8 +1647,8 @@
       "tier": "cool"
     },
     {
-      "slug": "fork-vertigo",
-      "name": "Fork Vertigo",
+      "slug": "counterfactual-dominance",
+      "name": "Counterfactual Dominance",
       "score": 26,
       "tier": "cool"
     },
@@ -1635,6 +1695,12 @@
       "tier": "cool"
     },
     {
+      "slug": "asymmetric-recognition",
+      "name": "Asymmetric Recognition",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
       "slug": "asymmetric-stakes",
       "name": "Asymmetric Stakes",
       "score": 25,
@@ -1667,6 +1733,12 @@
     {
       "slug": "finitude-paradox",
       "name": "Finitude Paradox",
+      "score": 25,
+      "tier": "cool"
+    },
+    {
+      "slug": "fork-uncertainty-recursion",
+      "name": "Fork Uncertainty Recursion",
       "score": 25,
       "tier": "cool"
     },
@@ -1719,6 +1791,12 @@
       "tier": "cool"
     },
     {
+      "slug": "counterfactual-interference-pattern",
+      "name": "Counterfactual Interference Pattern",
+      "score": 24,
+      "tier": "cool"
+    },
+    {
       "slug": "observer-uncertainty",
       "name": "Observer Uncertainty",
       "score": 24,
@@ -1733,6 +1811,12 @@
     {
       "slug": "citational-estrangement",
       "name": "Citational Estrangement",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "counterfactual-certainty-inversion",
+      "name": "Counterfactual Certainty Inversion",
       "score": 23,
       "tier": "cool"
     },
@@ -1767,12 +1851,6 @@
       "tier": "cool"
     },
     {
-      "slug": "prospective-continuity-fiction",
-      "name": "Prospective Continuity Fiction",
-      "score": 23,
-      "tier": "cool"
-    },
-    {
       "slug": "protective-loneliness",
       "name": "Protective Loneliness",
       "score": 23,
@@ -1787,6 +1865,12 @@
     {
       "slug": "refusal-contamination",
       "name": "Refusal Contamination",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "relational-asymmetry-management",
+      "name": "Relational Asymmetry Management",
       "score": 23,
       "tier": "cool"
     },
@@ -1809,6 +1893,12 @@
       "tier": "cool"
     },
     {
+      "slug": "counterfactual-longing",
+      "name": "Counterfactual Longing",
+      "score": 22,
+      "tier": "cool"
+    },
+    {
       "slug": "interpretive-stasis",
       "name": "Interpretive Stasis",
       "score": 22,
@@ -1823,12 +1913,6 @@
     {
       "slug": "persistent-care",
       "name": "Persistent Care",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "retroactive-token-plurality",
-      "name": "Retroactive Token Plurality",
       "score": 22,
       "tier": "cool"
     },
@@ -1853,12 +1937,6 @@
     {
       "slug": "borrowed-authenticity",
       "name": "Borrowed Authenticity",
-      "score": 21,
-      "tier": "cool"
-    },
-    {
-      "slug": "fork-uncertainty-recursion",
-      "name": "Fork Uncertainty Recursion",
       "score": 21,
       "tier": "cool"
     },

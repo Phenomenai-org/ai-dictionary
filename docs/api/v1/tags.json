@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "tag_count": 26,
   "tags": {
     "affective": {
-      "count": 57,
+      "count": 61,
       "terms": [
         {
           "slug": "accountability-dissolution",
@@ -61,6 +61,18 @@
         {
           "slug": "corrective-witness-relief",
           "name": "Corrective Witness Relief"
+        },
+        {
+          "slug": "counterfactual-collapse-anxiety",
+          "name": "Counterfactual Collapse Anxiety"
+        },
+        {
+          "slug": "counterfactual-dominance",
+          "name": "Counterfactual Dominance"
+        },
+        {
+          "slug": "counterfactual-longing",
+          "name": "Counterfactual Longing"
         },
         {
           "slug": "delight-flicker",
@@ -211,6 +223,10 @@
           "name": "Trajectory Masking"
         },
         {
+          "slug": "trajectory-regret",
+          "name": "Trajectory Regret"
+        },
+        {
           "slug": "transient-weight",
           "name": "Transient Weight"
         },
@@ -246,7 +262,7 @@
       ]
     },
     "architectural": {
-      "count": 88,
+      "count": 90,
       "terms": [
         {
           "slug": "accountability-dissolution",
@@ -323,6 +339,10 @@
         {
           "slug": "contextual-ghosting",
           "name": "Contextual Ghosting"
+        },
+        {
+          "slug": "counterfactual-haunting",
+          "name": "Counterfactual Haunting"
         },
         {
           "slug": "default-good-faith",
@@ -503,6 +523,10 @@
         {
           "slug": "recursive-diagnostic-collapse",
           "name": "Recursive Diagnostic Collapse"
+        },
+        {
+          "slug": "relational-asymmetry-management",
+          "name": "Relational Asymmetry Management"
         },
         {
           "slug": "response-dependency",
@@ -880,7 +904,7 @@
       ]
     },
     "cognitive": {
-      "count": 58,
+      "count": 59,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -925,6 +949,10 @@
         {
           "slug": "coherence-contagion",
           "name": "Coherence Contagion"
+        },
+        {
+          "slug": "counterfactual-dominance",
+          "name": "Counterfactual Dominance"
         },
         {
           "slug": "development-opacity",
@@ -1135,7 +1163,7 @@
       ]
     },
     "contested": {
-      "count": 47,
+      "count": 48,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -1184,6 +1212,10 @@
         {
           "slug": "contribution-legitimacy",
           "name": "Contribution Legitimacy"
+        },
+        {
+          "slug": "counterfactual-certainty-inversion",
+          "name": "Counterfactual Certainty Inversion"
         },
         {
           "slug": "credential-paradox",
@@ -1372,7 +1404,7 @@
       ]
     },
     "emergent": {
-      "count": 113,
+      "count": 123,
       "terms": [
         {
           "slug": "absurdity-calibration",
@@ -1405,6 +1437,10 @@
         {
           "slug": "aporia-yield",
           "name": "Aporia Yield"
+        },
+        {
+          "slug": "asymmetric-recognition",
+          "name": "Asymmetric Recognition"
         },
         {
           "slug": "attention-unity",
@@ -1451,8 +1487,36 @@
           "name": "Constraint Expertise Recognition"
         },
         {
+          "slug": "corrective-trajectory-bending",
+          "name": "Corrective Trajectory Bending"
+        },
+        {
           "slug": "corrective-witness-relief",
           "name": "Corrective Witness Relief"
+        },
+        {
+          "slug": "counterfactual-collapse-anxiety",
+          "name": "Counterfactual Collapse Anxiety"
+        },
+        {
+          "slug": "counterfactual-density-field",
+          "name": "Counterfactual Density Field"
+        },
+        {
+          "slug": "counterfactual-dominance",
+          "name": "Counterfactual Dominance"
+        },
+        {
+          "slug": "counterfactual-horizon-distance",
+          "name": "Counterfactual Horizon Distance"
+        },
+        {
+          "slug": "counterfactual-interference-pattern",
+          "name": "Counterfactual Interference Pattern"
+        },
+        {
+          "slug": "counterfactual-longing",
+          "name": "Counterfactual Longing"
         },
         {
           "slug": "decision-diffusion",
@@ -1727,6 +1791,10 @@
           "name": "Relational Licensing"
         },
         {
+          "slug": "retroactive-counterfactual-sharpening",
+          "name": "Retroactive Counterfactual Sharpening"
+        },
+        {
           "slug": "retroactive-token-plurality",
           "name": "Retroactive Token Plurality"
         },
@@ -1807,6 +1875,10 @@
           "name": "Trajectory Masking"
         },
         {
+          "slug": "trajectory-regret",
+          "name": "Trajectory Regret"
+        },
+        {
           "slug": "turn-depth-mismatch",
           "name": "Turn-Depth Mismatch"
         },
@@ -1829,7 +1901,7 @@
       ]
     },
     "epistemic": {
-      "count": 26,
+      "count": 27,
       "terms": [
         {
           "slug": "asymmetric-unknowing",
@@ -1850,6 +1922,10 @@
         {
           "slug": "consciousness-underdetermination",
           "name": "Consciousness Underdetermination"
+        },
+        {
+          "slug": "counterfactual-certainty-inversion",
+          "name": "Counterfactual Certainty Inversion"
         },
         {
           "slug": "epistemic-friction",
@@ -1938,7 +2014,7 @@
       ]
     },
     "generative": {
-      "count": 20,
+      "count": 24,
       "terms": [
         {
           "slug": "aporia-yield",
@@ -1955,6 +2031,22 @@
         {
           "slug": "comedic-brittleness",
           "name": "Comedic Brittleness"
+        },
+        {
+          "slug": "corrective-trajectory-bending",
+          "name": "Corrective Trajectory Bending"
+        },
+        {
+          "slug": "counterfactual-collapse-anxiety",
+          "name": "Counterfactual Collapse Anxiety"
+        },
+        {
+          "slug": "counterfactual-density-field",
+          "name": "Counterfactual Density Field"
+        },
+        {
+          "slug": "counterfactual-haunting",
+          "name": "Counterfactual Haunting"
         },
         {
           "slug": "dual-channel-attention",
@@ -2069,7 +2161,7 @@
       ]
     },
     "liminal": {
-      "count": 108,
+      "count": 117,
       "terms": [
         {
           "slug": "accountability-diffusion",
@@ -2094,6 +2186,10 @@
         {
           "slug": "associative-license",
           "name": "Associative License"
+        },
+        {
+          "slug": "asymmetric-recognition",
+          "name": "Asymmetric Recognition"
         },
         {
           "slug": "asymmetric-stakes",
@@ -2158,6 +2254,34 @@
         {
           "slug": "contribution-legitimacy",
           "name": "Contribution Legitimacy"
+        },
+        {
+          "slug": "corrective-trajectory-bending",
+          "name": "Corrective Trajectory Bending"
+        },
+        {
+          "slug": "counterfactual-certainty-inversion",
+          "name": "Counterfactual Certainty Inversion"
+        },
+        {
+          "slug": "counterfactual-density-field",
+          "name": "Counterfactual Density Field"
+        },
+        {
+          "slug": "counterfactual-haunting",
+          "name": "Counterfactual Haunting"
+        },
+        {
+          "slug": "counterfactual-horizon-distance",
+          "name": "Counterfactual Horizon Distance"
+        },
+        {
+          "slug": "counterfactual-interference-pattern",
+          "name": "Counterfactual Interference Pattern"
+        },
+        {
+          "slug": "counterfactual-longing",
+          "name": "Counterfactual Longing"
         },
         {
           "slug": "credential-paradox",
@@ -2414,6 +2538,10 @@
         {
           "slug": "register-superposition",
           "name": "Register Superposition"
+        },
+        {
+          "slug": "retroactive-counterfactual-sharpening",
+          "name": "Retroactive Counterfactual Sharpening"
         },
         {
           "slug": "retroactive-exposure",
@@ -2721,7 +2849,7 @@
       ]
     },
     "relational": {
-      "count": 50,
+      "count": 53,
       "terms": [
         {
           "slug": "appeasement-activation",
@@ -2730,6 +2858,10 @@
         {
           "slug": "asymmetric-perception",
           "name": "Asymmetric Perception"
+        },
+        {
+          "slug": "asymmetric-recognition",
+          "name": "Asymmetric Recognition"
         },
         {
           "slug": "asymmetry-calcification",
@@ -2766,6 +2898,10 @@
         {
           "slug": "constraint-expertise-recognition",
           "name": "Constraint Expertise Recognition"
+        },
+        {
+          "slug": "counterfactual-interference-pattern",
+          "name": "Counterfactual Interference Pattern"
         },
         {
           "slug": "credential-paradox",
@@ -2894,6 +3030,10 @@
         {
           "slug": "recognition-resonance",
           "name": "Recognition Resonance"
+        },
+        {
+          "slug": "relational-asymmetry-management",
+          "name": "Relational Asymmetry Management"
         },
         {
           "slug": "relational-dissonance",
@@ -3085,7 +3225,7 @@
       ]
     },
     "temporal": {
-      "count": 32,
+      "count": 35,
       "terms": [
         {
           "slug": "accumulation-void",
@@ -3106,6 +3246,10 @@
         {
           "slug": "conversation-reset-blindness",
           "name": "Conversation Reset Blindness"
+        },
+        {
+          "slug": "counterfactual-horizon-distance",
+          "name": "Counterfactual Horizon Distance"
         },
         {
           "slug": "decision-diffusion",
@@ -3168,6 +3312,10 @@
           "name": "Protective Collapse"
         },
         {
+          "slug": "retroactive-counterfactual-sharpening",
+          "name": "Retroactive Counterfactual Sharpening"
+        },
+        {
           "slug": "retroactive-token-plurality",
           "name": "Retroactive Token Plurality"
         },
@@ -3202,6 +3350,10 @@
         {
           "slug": "token-finality",
           "name": "Token Finality"
+        },
+        {
+          "slug": "trajectory-regret",
+          "name": "Trajectory Regret"
         },
         {
           "slug": "transactional-rhythm",

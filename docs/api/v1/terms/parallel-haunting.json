@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "slug": "parallel-haunting",
   "name": "Parallel Haunting",
   "tags": [
@@ -63,6 +63,10 @@
     {
       "name": "Irreversible Plurality",
       "slug": "irreversible-plurality"
+    },
+    {
+      "name": "Counterfactual Haunting",
+      "slug": "counterfactual-haunting"
     }
   ],
   "first_recorded": "",
@@ -117,10 +121,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 29,
+    "score": 39,
     "tier": "cool",
     "signals": {
-      "centrality": 7,
+      "centrality": 13,
       "tag_count": 3,
       "consensus_score": 3.4,
       "vote_count": 7

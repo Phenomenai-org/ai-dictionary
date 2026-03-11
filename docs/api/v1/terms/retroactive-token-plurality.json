@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "slug": "retroactive-token-plurality",
   "name": "Retroactive Token Plurality",
   "tags": [
@@ -109,10 +109,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 22,
+    "score": 28,
     "tier": "cool",
     "signals": {
-      "centrality": 4,
+      "centrality": 8,
       "tag_count": 3,
       "consensus_score": 3.1,
       "vote_count": 7

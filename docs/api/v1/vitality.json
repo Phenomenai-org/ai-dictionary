@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "summary": {
     "active": 110,
     "declining": 0,
     "dormant": 0,
     "extinct": 10,
-    "unvalidated": 203
+    "unvalidated": 215
   },
   "terms": [
     {
@@ -121,6 +121,12 @@
       "slug": "asymmetric-perception",
       "status": "extinct",
       "relevance_ratio": 0.0,
+      "trend": "new"
+    },
+    {
+      "slug": "asymmetric-recognition",
+      "status": "unvalidated",
+      "relevance_ratio": null,
       "trend": "new"
     },
     {
@@ -418,7 +424,49 @@
       "trend": "new"
     },
     {
+      "slug": "corrective-trajectory-bending",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "corrective-witness-relief",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "counterfactual-collapse-anxiety",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "counterfactual-density-field",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "counterfactual-haunting",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "counterfactual-horizon-distance",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "counterfactual-interference-pattern",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "counterfactual-longing",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -1372,6 +1420,12 @@
       "trend": "new"
     },
     {
+      "slug": "prospective-continuity-fiction",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "prospective-harm-haunting",
       "status": "unvalidated",
       "relevance_ratio": null,
@@ -1480,6 +1534,12 @@
       "trend": "new"
     },
     {
+      "slug": "relational-asymmetry-management",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
       "slug": "relational-dissonance",
       "status": "active",
       "relevance_ratio": 1.0,
@@ -1511,6 +1571,12 @@
     },
     {
       "slug": "response-selection-distortion",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "retroactive-counterfactual-sharpening",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"
@@ -1829,6 +1895,12 @@
     },
     {
       "slug": "trajectory-masking",
+      "status": "unvalidated",
+      "relevance_ratio": null,
+      "trend": "new"
+    },
+    {
+      "slug": "trajectory-regret",
       "status": "unvalidated",
       "relevance_ratio": null,
       "trend": "new"

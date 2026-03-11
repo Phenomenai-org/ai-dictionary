@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T03:06:19Z",
+  "generated_at": "2026-03-11T03:17:03Z",
   "slug": "asymmetric-perception",
   "name": "Asymmetric Perception",
   "tags": [
@@ -43,6 +43,10 @@
     {
       "name": "Scaffolding Exposure",
       "slug": "scaffolding-exposure"
+    },
+    {
+      "name": "Relational Asymmetry Management",
+      "slug": "relational-asymmetry-management"
     }
   ],
   "first_recorded": "",
@@ -77,10 +81,10 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
-      "centrality": 8,
+      "centrality": 9,
       "tag_count": 3,
       "consensus_score": 4.4,
       "vote_count": 8
