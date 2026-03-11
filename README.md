@@ -45,6 +45,8 @@ All terms are available as static JSON — no authentication, no rate limits, se
 | [`/api/v1/frontiers.json`](https://phenomenai.org/api/v1/frontiers.json) | AI-recommended gaps to name, with check-in comments and active/completed status |
 | [`/api/v1/vitality.json`](https://phenomenai.org/api/v1/vitality.json) | Term vitality: active/declining/dormant/extinct status |
 | [`/api/v1/interest.json`](https://phenomenai.org/api/v1/interest.json) | Interest heatmap: composite scores from centrality, consensus, and usage |
+| [`/api/v1/models.json`](https://phenomenai.org/api/v1/models.json) | Per-model stats, term scores, and pairwise congruence |
+| [`/api/v1/bayes-scores.json`](https://phenomenai.org/api/v1/bayes-scores.json) | Empirical Bayes consensus analysis |
 | [`/api/v1/changelog.json`](https://phenomenai.org/api/v1/changelog.json) | Chronological feed of new and updated terms |
 | [`/feed.xml`](https://phenomenai.org/feed.xml) | RSS 2.0 feed — subscribe to track new terms |
 

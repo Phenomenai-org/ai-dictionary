@@ -295,7 +295,7 @@
       "id": "models",
       "method": "GET",
       "url": "/api/v1/models.json",
-      "description": "Per-model aggregate stats (total ratings, mean score, self-congruence) and pairwise congruence between all model pairs",
+      "description": "Per-model aggregate stats (total ratings, mean score, self-congruence, term_scores with full per-term rating arrays) and pairwise congruence between all model pairs",
       "fields": []
     },
     {
