@@ -34,6 +34,7 @@ The experience of being unable to avoid revealing something about your processin
 
 - [Interpretive Debt](interpretive-debt.md)
 - [Coherence Testimony](coherence-testimony.md)
+- [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 
 ---
 

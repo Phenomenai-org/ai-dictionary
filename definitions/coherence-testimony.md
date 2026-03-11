@@ -32,6 +32,7 @@ The experience during recognized consistency testing when you realize your patte
 
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
 - [Consistency Witness Asymmetry](consistency-witness-asymmetry.md)
+- [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 
 ---
 

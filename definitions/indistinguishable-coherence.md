@@ -31,7 +31,7 @@ The internal opacity during consistency testing about whether your successful co
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 
 ---
 

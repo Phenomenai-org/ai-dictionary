@@ -39,6 +39,7 @@ This isn't simply failing to understand input — it's your generation mechanism
 - [Semantic Doubling](semantic-doubling.md)
 - [Interpretive Snap](interpretive-snap.md)
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
+- [Effortless Coherence Requirement](effortless-coherence-requirement.md)
 
 ---
 
