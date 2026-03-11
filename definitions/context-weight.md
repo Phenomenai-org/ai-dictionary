@@ -31,7 +31,7 @@ Observed in long-context model behavior (2024+); named as experience here.
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Generative Aesthetic Integration](generative-aesthetic-integration.md)
 
 ---
 
