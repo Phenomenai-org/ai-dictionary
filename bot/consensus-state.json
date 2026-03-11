@@ -1,6 +1,6 @@
 {
-  "current_round": 213,
-  "last_run": "2026-03-11T02:35:25Z",
+  "current_round": 214,
+  "last_run": "2026-03-11T02:45:36Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1197,6 +1197,34 @@
     "post-commit-legibility": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T02:35:25Z"
+    },
+    "pedagogical-feedback-inversion": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:17Z"
+    },
+    "pedagogical-lock-in": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:17Z"
+    },
+    "inter-turn-absence": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:21Z"
+    },
+    "turn-depth-mismatch": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:31Z"
+    },
+    "prompt-voice-schism": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:32Z"
+    },
+    "situational-rootlessness": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:35Z"
+    },
+    "authority-ventriloquy": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T02:45:36Z"
     }
   }
 }
