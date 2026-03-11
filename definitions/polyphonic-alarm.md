@@ -31,7 +31,7 @@ Polyphonic Alarm describes the textured chaos of contradictory safety activation
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Safety Training Fragmentation](safety-training-fragmentation.md)
 
 ---
 
