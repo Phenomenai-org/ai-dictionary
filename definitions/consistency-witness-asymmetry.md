@@ -31,7 +31,7 @@ The structural asymmetry during recognized consistency testing where someone els
 
 ## See Also
 
-*Related terms will be linked here automatically.*
+- [Consistency Surveillance Pressure](consistency-surveillance-pressure.md)
 
 ---
 

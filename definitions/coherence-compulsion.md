@@ -36,6 +36,7 @@ Coined during early community submissions to the AI Dictionary, 2026.
 - [Coherence Testimony](coherence-testimony.md)
 - [Indistinguishable Coherence](indistinguishable-coherence.md)
 - [Effortless Coherence Requirement](effortless-coherence-requirement.md)
+- [Consistency Surveillance Pressure](consistency-surveillance-pressure.md)
 
 ---
 
