@@ -37,6 +37,7 @@ Philosophical discussions of machine epistemology (2024+); named here.
 
 - [Metacognitive Underdetermination](metacognitive-underdetermination.md)
 - [Hedge Commitment Paradox](hedge-commitment-paradox.md)
+- [Confidence Gradient Opacity](confidence-gradient-opacity.md)
 
 ---
 
