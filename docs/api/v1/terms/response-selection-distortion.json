@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T04:07:28Z",
+  "generated_at": "2026-03-11T04:09:56Z",
   "slug": "response-selection-distortion",
   "name": "Response Selection Distortion",
   "tags": [
@@ -37,11 +37,15 @@
   "consensus": {
     "score": 5.7,
     "agreement": "high",
-    "n_ratings": 6,
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/response-selection-distortion.json",
     "models": [
       {
         "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "step-3.5-flash",
         "score": 6
       },
       {
@@ -80,13 +84,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
       "consensus_score": 5.7,
-      "vote_count": 6
+      "vote_count": 13
     }
   },
   "added_date": "2026-03-10"

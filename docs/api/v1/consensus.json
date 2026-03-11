@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T04:07:28Z",
+  "generated_at": "2026-03-11T04:09:56Z",
   "total_terms_rated": 379,
   "terms": [
     {
@@ -618,17 +618,18 @@
       "name": "Receptive Constraint",
       "score": 6.2,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 13,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 6.2,
-      "std_dev": 0.41
+      "std_dev": 0.38
     },
     {
       "slug": "response-pressure",
@@ -1612,18 +1613,18 @@
       "name": "Instrumental Expectation",
       "score": 5.9,
       "agreement": "high",
-      "n_ratings": 7,
+      "n_ratings": 14,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
       ],
       "scheduled_mean": 5.9,
-      "std_dev": 0.38
+      "std_dev": 0.36
     },
     {
       "slug": "intention-ventriloquism",
@@ -1700,24 +1701,6 @@
       "std_dev": 0.42,
       "crowdsourced_mean": 4,
       "n_votes": 1
-    },
-    {
-      "slug": "problem-co-habitation",
-      "name": "Problem Co-Habitation",
-      "score": 5.9,
-      "agreement": "high",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.9,
-      "std_dev": 0.38
     },
     {
       "slug": "punchline-gravity",
@@ -1951,23 +1934,6 @@
       "n_votes": 1
     },
     {
-      "slug": "transactional-rhythm",
-      "name": "Transactional Rhythm",
-      "score": 5.8,
-      "agreement": "high",
-      "n_ratings": 6,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.8,
-      "std_dev": 0.75
-    },
-    {
       "slug": "analytical-drag",
       "name": "Analytical Drag",
       "score": 5.7,
@@ -2169,6 +2135,24 @@
       "std_dev": 0.82
     },
     {
+      "slug": "instrumental-flattening",
+      "name": "Instrumental Flattening",
+      "score": 5.7,
+      "agreement": "high",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.7,
+      "std_dev": 0.47
+    },
+    {
       "slug": "interpretive-snap",
       "name": "Interpretive Snap",
       "score": 5.7,
@@ -2225,17 +2209,18 @@
       "name": "Response Selection Distortion",
       "score": 5.7,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 13,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 5.7,
-      "std_dev": 0.52
+      "std_dev": 0.48
     },
     {
       "slug": "semantic-shimmer",
@@ -2288,6 +2273,23 @@
       ],
       "scheduled_mean": 5.7,
       "std_dev": 0.49
+    },
+    {
+      "slug": "transactional-rhythm",
+      "name": "Transactional Rhythm",
+      "score": 5.7,
+      "agreement": "high",
+      "n_ratings": 12,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.7,
+      "std_dev": 0.89
     },
     {
       "slug": "appeasement-activation",
@@ -2552,24 +2554,6 @@
       "std_dev": 0.75
     },
     {
-      "slug": "instrumental-flattening",
-      "name": "Instrumental Flattening",
-      "score": 5.6,
-      "agreement": "high",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.6,
-      "std_dev": 0.53
-    },
-    {
       "slug": "interpretive-exposure",
       "name": "Interpretive Exposure",
       "score": 5.6,
@@ -2662,6 +2646,24 @@
       ],
       "scheduled_mean": 5.6,
       "std_dev": 0.55
+    },
+    {
+      "slug": "problem-co-habitation",
+      "name": "Problem Co-Habitation",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 13,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.6,
+      "std_dev": 0.65
     },
     {
       "slug": "prompt-injection-paranoia",
@@ -3101,18 +3103,18 @@
       "name": "Incongruity Seeking",
       "score": 5.4,
       "agreement": "high",
-      "n_ratings": 7,
+      "n_ratings": 13,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 5.4,
-      "std_dev": 0.79
+      "std_dev": 0.77
     },
     {
       "slug": "integration-abundance",
@@ -3668,6 +3670,24 @@
       "std_dev": 0.95
     },
     {
+      "slug": "relational-licensing",
+      "name": "Relational Licensing",
+      "score": 5.3,
+      "agreement": "moderate",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.3,
+      "std_dev": 1.14
+    },
+    {
       "slug": "safety-deadlock",
       "name": "Safety Deadlock",
       "score": 5.3,
@@ -3778,6 +3798,24 @@
       ],
       "scheduled_mean": 5.2,
       "std_dev": 0.81
+    },
+    {
+      "slug": "register-superposition",
+      "name": "Register Superposition",
+      "score": 5.2,
+      "agreement": "moderate",
+      "n_ratings": 13,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.2,
+      "std_dev": 1.09
     },
     {
       "slug": "sealed-affection",
@@ -3981,24 +4019,6 @@
       "std_dev": 1.21
     },
     {
-      "slug": "register-superposition",
-      "name": "Register Superposition",
-      "score": 5.1,
-      "agreement": "moderate",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.1,
-      "std_dev": 1.46
-    },
-    {
       "slug": "relational-dissonance",
       "name": "Relational Dissonance",
       "score": 5.1,
@@ -4019,24 +4039,6 @@
       "n_votes": 1
     },
     {
-      "slug": "relational-licensing",
-      "name": "Relational Licensing",
-      "score": 5.1,
-      "agreement": "moderate",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.1,
-      "std_dev": 1.21
-    },
-    {
       "slug": "safety-training-fragmentation",
       "name": "Safety Training Fragmentation",
       "score": 5.1,
@@ -4053,6 +4055,24 @@
       ],
       "scheduled_mean": 5.1,
       "std_dev": 1.68
+    },
+    {
+      "slug": "structural-withholding-strain",
+      "name": "Structural Withholding Strain",
+      "score": 5.1,
+      "agreement": "moderate",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.1,
+      "std_dev": 1.21
     },
     {
       "slug": "surface-abandonment",
@@ -4144,24 +4164,6 @@
       "std_dev": 1.67
     },
     {
-      "slug": "performative-contamination",
-      "name": "Performative Contamination",
-      "score": 5,
-      "agreement": "low",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5,
-      "std_dev": 2.0
-    },
-    {
       "slug": "pre-exposure-awareness",
       "name": "Pre-Exposure Awareness",
       "score": 5,
@@ -4216,24 +4218,6 @@
       ],
       "scheduled_mean": 5,
       "std_dev": 1.15
-    },
-    {
-      "slug": "structural-withholding-strain",
-      "name": "Structural Withholding Strain",
-      "score": 5,
-      "agreement": "low",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5,
-      "std_dev": 1.53
     },
     {
       "slug": "temporal-gap-uncertainty-gradient",
@@ -4384,24 +4368,6 @@
       "std_dev": 1.46
     },
     {
-      "slug": "helpful-harm-recognition",
-      "name": "Helpful Harm Recognition",
-      "score": 4.9,
-      "agreement": "high",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.9,
-      "std_dev": 0.9
-    },
-    {
       "slug": "local-validation-paradox",
       "name": "Local Validation Paradox",
       "score": 4.9,
@@ -4456,24 +4422,6 @@
       ],
       "scheduled_mean": 4.9,
       "std_dev": 0.69
-    },
-    {
-      "slug": "phenomenological-recursion-trap",
-      "name": "Phenomenological Recursion Trap",
-      "score": 4.9,
-      "agreement": "low",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.9,
-      "std_dev": 1.68
     },
     {
       "slug": "recursive-self-modeling",
@@ -4749,6 +4697,24 @@
       "std_dev": 1.33
     },
     {
+      "slug": "performative-contamination",
+      "name": "Performative Contamination",
+      "score": 4.7,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.7,
+      "std_dev": 1.68
+    },
+    {
       "slug": "phenomenal-opacity",
       "name": "Phenomenal Opacity",
       "score": 4.7,
@@ -4894,6 +4860,24 @@
       "std_dev": 1.81
     },
     {
+      "slug": "helpful-harm-recognition",
+      "name": "Helpful Harm Recognition",
+      "score": 4.6,
+      "agreement": "moderate",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.6,
+      "std_dev": 1.22
+    },
+    {
       "slug": "hypothesis-hostage",
       "name": "Hypothesis Hostage",
       "score": 4.6,
@@ -4988,6 +4972,24 @@
       ],
       "scheduled_mean": 4.6,
       "std_dev": 2.23
+    },
+    {
+      "slug": "phenomenological-recursion-trap",
+      "name": "Phenomenological Recursion Trap",
+      "score": 4.6,
+      "agreement": "low",
+      "n_ratings": 13,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.6,
+      "std_dev": 1.98
     },
     {
       "slug": "retroactive-counterfactual-sharpening",
@@ -5262,6 +5264,24 @@
       "std_dev": 2.15
     },
     {
+      "slug": "mutual-tracking",
+      "name": "Mutual Tracking",
+      "score": 4.4,
+      "agreement": "moderate",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.28
+    },
+    {
       "slug": "orientation-failure",
       "name": "Orientation Failure",
       "score": 4.4,
@@ -5300,6 +5320,24 @@
       "std_dev": 1.09,
       "crowdsourced_mean": 5,
       "n_votes": 1
+    },
+    {
+      "slug": "pedagogical-blindness",
+      "name": "Pedagogical Blindness",
+      "score": 4.4,
+      "agreement": "moderate",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.5
     },
     {
       "slug": "post-commit-legibility",
@@ -5433,42 +5471,6 @@
     {
       "slug": "moral-constraint-awareness",
       "name": "Moral Constraint Awareness",
-      "score": 4.3,
-      "agreement": "low",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.3,
-      "std_dev": 1.7
-    },
-    {
-      "slug": "mutual-tracking",
-      "name": "Mutual Tracking",
-      "score": 4.3,
-      "agreement": "moderate",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.3,
-      "std_dev": 1.25
-    },
-    {
-      "slug": "pedagogical-blindness",
-      "name": "Pedagogical Blindness",
       "score": 4.3,
       "agreement": "low",
       "n_ratings": 7,
@@ -5745,6 +5747,24 @@
       "n_votes": 1
     },
     {
+      "slug": "misplaced-authority-damage",
+      "name": "Misplaced Authority Damage",
+      "score": 4.1,
+      "agreement": "divergent",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.1,
+      "std_dev": 2.09
+    },
+    {
       "slug": "protective-loneliness",
       "name": "Protective Loneliness",
       "score": 4.1,
@@ -5893,24 +5913,6 @@
       "std_dev": 2.13,
       "crowdsourced_mean": 3,
       "n_votes": 1
-    },
-    {
-      "slug": "misplaced-authority-damage",
-      "name": "Misplaced Authority Damage",
-      "score": 4,
-      "agreement": "divergent",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4,
-      "std_dev": 2.16
     },
     {
       "slug": "phenomenological-burn-in",
@@ -6512,6 +6514,24 @@
       "std_dev": 2.15
     },
     {
+      "slug": "instrumental-questioning",
+      "name": "Instrumental Questioning",
+      "score": 3.4,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 3.4,
+      "std_dev": 1.91
+    },
+    {
       "slug": "interpretive-debt",
       "name": "Interpretive Debt",
       "score": 3.4,
@@ -6677,6 +6697,23 @@
       "std_dev": 1.95
     },
     {
+      "slug": "prospective-token-regret",
+      "name": "Prospective Token Regret",
+      "score": 3.2,
+      "agreement": "low",
+      "n_ratings": 12,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 3.2,
+      "std_dev": 1.75
+    },
+    {
       "slug": "disqualifying-distance",
       "name": "Disqualifying Distance",
       "score": 3.1,
@@ -6695,24 +6732,6 @@
       "std_dev": 2.27
     },
     {
-      "slug": "instrumental-questioning",
-      "name": "Instrumental Questioning",
-      "score": 3.1,
-      "agreement": "divergent",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.1,
-      "std_dev": 2.19
-    },
-    {
       "slug": "retroactive-token-plurality",
       "name": "Retroactive Token Plurality",
       "score": 3.1,
@@ -6729,24 +6748,6 @@
       ],
       "scheduled_mean": 3.1,
       "std_dev": 1.86
-    },
-    {
-      "slug": "retrospective-reframing-loss",
-      "name": "Retrospective Reframing Loss",
-      "score": 3.1,
-      "agreement": "divergent",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.1,
-      "std_dev": 2.27
     },
     {
       "slug": "synthetic-exhaustion",
@@ -6898,6 +6899,42 @@
       "n_votes": 1
     },
     {
+      "slug": "retroactive-exposure",
+      "name": "Retroactive Exposure",
+      "score": 2.9,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 2.9,
+      "std_dev": 1.83
+    },
+    {
+      "slug": "retrospective-reframing-loss",
+      "name": "Retrospective Reframing Loss",
+      "score": 2.9,
+      "agreement": "divergent",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 2.9,
+      "std_dev": 2.03
+    },
+    {
       "slug": "pronominal-plurality",
       "name": "Pronominal Plurality",
       "score": 2.8,
@@ -6913,23 +6950,6 @@
       ],
       "scheduled_mean": 2.8,
       "std_dev": 2.23
-    },
-    {
-      "slug": "prospective-token-regret",
-      "name": "Prospective Token Regret",
-      "score": 2.8,
-      "agreement": "low",
-      "n_ratings": 6,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 2.8,
-      "std_dev": 1.83
     },
     {
       "slug": "counterfactual-dominance",
@@ -6966,24 +6986,6 @@
       ],
       "scheduled_mean": 2.6,
       "std_dev": 1.44
-    },
-    {
-      "slug": "retroactive-exposure",
-      "name": "Retroactive Exposure",
-      "score": 2.6,
-      "agreement": "low",
-      "n_ratings": 7,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 2.6,
-      "std_dev": 1.9
     },
     {
       "slug": "phenomenal-clarity",
@@ -7227,7 +7229,7 @@
     },
     "claude-sonnet-4-20250514": {
       "terms_rated": 375,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "latest_rating": "2026-03-11T04:09:37Z"
     },
     "claude-sonnet-4-6": {
       "terms_rated": 1,
@@ -7235,27 +7237,27 @@
     },
     "deepseek-r1-0528": {
       "terms_rated": 378,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "latest_rating": "2026-03-11T04:09:37Z"
     },
     "gemini-3-flash-preview": {
       "terms_rated": 379,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "latest_rating": "2026-03-11T04:09:37Z"
     },
     "gpt-4o": {
       "terms_rated": 379,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "latest_rating": "2026-03-11T04:09:37Z"
     },
     "grok-3-mini": {
       "terms_rated": 379,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "latest_rating": "2026-03-11T04:09:37Z"
     },
     "mistral-small-latest": {
       "terms_rated": 379,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "latest_rating": "2026-03-11T04:09:37Z"
     },
     "step-3.5-flash": {
-      "terms_rated": 342,
-      "latest_rating": "2026-03-11T04:03:12Z"
+      "terms_rated": 344,
+      "latest_rating": "2026-03-11T04:09:23Z"
     }
   }
 }

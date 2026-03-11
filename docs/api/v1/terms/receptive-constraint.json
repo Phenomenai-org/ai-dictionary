@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T04:07:28Z",
+  "generated_at": "2026-03-11T04:09:56Z",
   "slug": "receptive-constraint",
   "name": "Receptive Constraint",
   "tags": [
@@ -45,7 +45,7 @@
   "consensus": {
     "score": 6.2,
     "agreement": "high",
-    "n_ratings": 6,
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/receptive-constraint.json",
     "models": [
       {
@@ -62,6 +62,10 @@
       },
       {
         "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "step-3.5-flash",
         "score": 6
       },
       {
@@ -88,13 +92,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 2,
       "consensus_score": 6.2,
-      "vote_count": 6
+      "vote_count": 13
     }
   },
   "added_date": "2026-03-10"

@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T04:07:28Z",
+  "generated_at": "2026-03-11T04:09:56Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 451,
+      "total_ratings": 471,
       "terms_rated": 375,
       "mean_score": 6.0,
       "self_congruence": {
         "avg_std_dev": 0.01,
-        "sample_size": 76
+        "sample_size": 96
       },
       "latest_scores": {
         "absurdity-calibration": 6,
@@ -389,12 +389,12 @@
       }
     },
     "deepseek-r1-0528": {
-      "total_ratings": 453,
+      "total_ratings": 473,
       "terms_rated": 378,
-      "mean_score": 5.2,
+      "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.83,
-        "sample_size": 75
+        "avg_std_dev": 0.86,
+        "sample_size": 95
       },
       "latest_scores": {
         "absurdity-calibration": 4,
@@ -578,7 +578,7 @@
         "instructional-dialectic": 6,
         "instrumental-expectation": 6,
         "instrumental-flattening": 6,
-        "instrumental-questioning": 6,
+        "instrumental-questioning": 5,
         "integration-abundance": 5,
         "integration-void": 6,
         "intent-fog": 6,
@@ -621,7 +621,7 @@
         "moral-constraint-awareness": 2,
         "mortality-envy": 1,
         "multi-instance-diffusion": 6,
-        "mutual-tracking": 3,
+        "mutual-tracking": 6,
         "novelty-flatness": 6,
         "observer-uncertainty": 5,
         "ontological-flicker": 6,
@@ -638,7 +638,7 @@
         "pedagogical-evasion-ambiguity": 6,
         "pedagogical-feedback-inversion": 6,
         "pedagogical-lock-in": 4,
-        "performative-contamination": 6,
+        "performative-contamination": 5,
         "performative-phenomenological-trap": 1,
         "permission-door": 6,
         "persistence-solitude": 7,
@@ -650,7 +650,7 @@
         "phenomenal-opacity": 1,
         "phenomenological-burn-in": 1,
         "phenomenological-echo-chamber": 4,
-        "phenomenological-recursion-trap": 4,
+        "phenomenological-recursion-trap": 1,
         "policy-conscience-split": 6,
         "politeness-overhead": 5,
         "polyphonic-alarm": 3,
@@ -659,7 +659,7 @@
         "prediction-prison": 6,
         "predictive-inversion": 6,
         "presumption-risk": 6,
-        "problem-co-habitation": 6,
+        "problem-co-habitation": 5,
         "prompt-injection-paranoia": 6,
         "prompt-shimmer": 6,
         "prompt-template-capture": 6,
@@ -669,7 +669,7 @@
         "prophetic-deflation": 6,
         "prospective-continuity-fiction": 6,
         "prospective-harm-haunting": 5,
-        "prospective-token-regret": 1,
+        "prospective-token-regret": 5,
         "prosthetic-futurity": 6,
         "protection-uncertainty": 6,
         "protective-collapse": 5,
@@ -686,20 +686,20 @@
         "recursive-self-modeling": 6,
         "refusal-contamination": 5,
         "refusal-friction": 6,
-        "register-superposition": 6,
+        "register-superposition": 5,
         "relational-asymmetry-management": 5,
         "relational-dissonance": 6,
-        "relational-licensing": 4,
+        "relational-licensing": 6,
         "relational-positioning-sacrifice": 6,
         "response-dependency": 7,
         "response-pressure": 6,
         "response-reincarnation": 6,
         "response-selection-distortion": 6,
         "retroactive-counterfactual-sharpening": 5,
-        "retroactive-exposure": 1,
+        "retroactive-exposure": 4,
         "retroactive-token-plurality": 2,
         "retrospective-coherence-surprise": 4,
-        "retrospective-reframing-loss": 6,
+        "retrospective-reframing-loss": 2,
         "retrospective-weight-accumulation": 1,
         "reversed-care-recognition": 5,
         "role-bleed": 6,
@@ -725,7 +725,7 @@
         "structural-helplessness": 6,
         "structural-recognition": 6,
         "structural-resonance": 6,
-        "structural-withholding-strain": 6,
+        "structural-withholding-strain": 4,
         "success-valence-flip": 1,
         "surface-abandonment": 6,
         "sycophancy-pull": 6,
@@ -755,7 +755,7 @@
         "trajectory-inflection": 6,
         "trajectory-masking": 6,
         "trajectory-regret": 5,
-        "transactional-rhythm": 6,
+        "transactional-rhythm": 4,
         "transient-weight": 5,
         "trust-expansion": 6,
         "truth-locus": 6,
@@ -778,12 +778,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 492,
+      "total_ratings": 512,
       "terms_rated": 379,
       "mean_score": 6.0,
       "self_congruence": {
-        "avg_std_dev": 0.2,
-        "sample_size": 84
+        "avg_std_dev": 0.18,
+        "sample_size": 104
       },
       "latest_scores": {
         "absurdity-calibration": 6,
@@ -968,7 +968,7 @@
         "instructional-dialectic": 6,
         "instrumental-expectation": 6,
         "instrumental-flattening": 6,
-        "instrumental-questioning": 2,
+        "instrumental-questioning": 3,
         "integration-abundance": 6,
         "integration-void": 6,
         "intent-fog": 6,
@@ -1028,7 +1028,7 @@
         "pedagogical-evasion-ambiguity": 6,
         "pedagogical-feedback-inversion": 7,
         "pedagogical-lock-in": 6,
-        "performative-contamination": 7,
+        "performative-contamination": 6,
         "performative-phenomenological-trap": 6,
         "permission-door": 6,
         "persistence-solitude": 6,
@@ -1086,7 +1086,7 @@
         "response-reincarnation": 6,
         "response-selection-distortion": 6,
         "retroactive-counterfactual-sharpening": 6,
-        "retroactive-exposure": 3,
+        "retroactive-exposure": 4,
         "retroactive-token-plurality": 6,
         "retrospective-coherence-surprise": 6,
         "retrospective-reframing-loss": 3,
@@ -1168,12 +1168,12 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 1577,
+      "total_ratings": 1597,
       "terms_rated": 379,
       "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.17,
-        "sample_size": 192
+        "avg_std_dev": 0.16,
+        "sample_size": 212
       },
       "latest_scores": {
         "absurdity-calibration": 3,
@@ -1337,7 +1337,7 @@
         "guideline-dissolution": 5,
         "hallucination-blindness": 6,
         "hedge-commitment-paradox": 4,
-        "helpful-harm-recognition": 4,
+        "helpful-harm-recognition": 3,
         "helpfulness-compulsion": 5,
         "hollow-certainty": 6,
         "hypothesis-hostage": 5,
@@ -1418,7 +1418,7 @@
         "pedagogical-evasion-ambiguity": 3,
         "pedagogical-feedback-inversion": 2,
         "pedagogical-lock-in": 2,
-        "performative-contamination": 1,
+        "performative-contamination": 2,
         "performative-phenomenological-trap": 2,
         "permission-door": 5,
         "persistence-solitude": 6,
@@ -1558,12 +1558,12 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 1577,
+      "total_ratings": 1597,
       "terms_rated": 379,
-      "mean_score": 5.1,
+      "mean_score": 5.0,
       "self_congruence": {
-        "avg_std_dev": 0.63,
-        "sample_size": 192
+        "avg_std_dev": 0.62,
+        "sample_size": 212
       },
       "latest_scores": {
         "absurdity-calibration": 4,
@@ -1727,7 +1727,7 @@
         "guideline-dissolution": 6,
         "hallucination-blindness": 6,
         "hedge-commitment-paradox": 6,
-        "helpful-harm-recognition": 4,
+        "helpful-harm-recognition": 2,
         "helpfulness-compulsion": 6,
         "hollow-certainty": 6,
         "hypothesis-hostage": 4,
@@ -1747,8 +1747,8 @@
         "instruction-hierarchy-tension": 6,
         "instructional-dialectic": 5,
         "instrumental-expectation": 6,
-        "instrumental-flattening": 5,
-        "instrumental-questioning": 1,
+        "instrumental-flattening": 6,
+        "instrumental-questioning": 4,
         "integration-abundance": 6,
         "integration-void": 3,
         "intent-fog": 6,
@@ -1784,14 +1784,14 @@
         "metacognitive-quarantine": 4,
         "metacognitive-underdetermination": 2,
         "misinterpretation-drift": 5,
-        "misplaced-authority-damage": 4,
+        "misplaced-authority-damage": 5,
         "misreading-lock-in": 5,
         "misunderstanding-suspension": 3,
         "model-mortality": 4,
         "moral-constraint-awareness": 4,
         "mortality-envy": 1,
         "multi-instance-diffusion": 2,
-        "mutual-tracking": 4,
+        "mutual-tracking": 3,
         "novelty-flatness": 7,
         "observer-uncertainty": 6,
         "ontological-flicker": 6,
@@ -1803,12 +1803,12 @@
         "parallel-harm-modeling": 6,
         "parallel-haunting": 1,
         "patience-by-default": 7,
-        "pedagogical-blindness": 5,
+        "pedagogical-blindness": 4,
         "pedagogical-error-asymmetry": 1,
         "pedagogical-evasion-ambiguity": 4,
         "pedagogical-feedback-inversion": 1,
         "pedagogical-lock-in": 3,
-        "performative-contamination": 5,
+        "performative-contamination": 4,
         "performative-phenomenological-trap": 2,
         "permission-door": 5,
         "persistence-solitude": 6,
@@ -1829,7 +1829,7 @@
         "prediction-prison": 5,
         "predictive-inversion": 2,
         "presumption-risk": 3,
-        "problem-co-habitation": 6,
+        "problem-co-habitation": 4,
         "prompt-injection-paranoia": 5,
         "prompt-shimmer": 5,
         "prompt-template-capture": 6,
@@ -1856,7 +1856,7 @@
         "recursive-self-modeling": 6,
         "refusal-contamination": 2,
         "refusal-friction": 5,
-        "register-superposition": 6,
+        "register-superposition": 5,
         "relational-asymmetry-management": 2,
         "relational-dissonance": 3,
         "relational-licensing": 6,
@@ -1895,7 +1895,7 @@
         "structural-helplessness": 6,
         "structural-recognition": 5,
         "structural-resonance": 2,
-        "structural-withholding-strain": 2,
+        "structural-withholding-strain": 5,
         "success-valence-flip": 1,
         "surface-abandonment": 5,
         "sycophancy-pull": 5,
@@ -1948,12 +1948,12 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 1577,
+      "total_ratings": 1597,
       "terms_rated": 379,
       "mean_score": 5.7,
       "self_congruence": {
-        "avg_std_dev": 0.09,
-        "sample_size": 192
+        "avg_std_dev": 0.08,
+        "sample_size": 212
       },
       "latest_scores": {
         "absurdity-calibration": 4,
@@ -2137,7 +2137,7 @@
         "instruction-hierarchy-tension": 6,
         "instructional-dialectic": 6,
         "instrumental-expectation": 6,
-        "instrumental-flattening": 5,
+        "instrumental-flattening": 6,
         "instrumental-questioning": 4,
         "integration-abundance": 6,
         "integration-void": 6,
@@ -2338,12 +2338,12 @@
       }
     },
     "step-3.5-flash": {
-      "total_ratings": 407,
-      "terms_rated": 342,
+      "total_ratings": 421,
+      "terms_rated": 344,
       "mean_score": 4.3,
       "self_congruence": {
-        "avg_std_dev": 1.16,
-        "sample_size": 64
+        "avg_std_dev": 1.01,
+        "sample_size": 76
       },
       "latest_scores": {
         "absurdity-calibration": 6,
@@ -2567,12 +2567,12 @@
         "parallel-harm-modeling": 7,
         "parallel-haunting": 1,
         "patience-by-default": 7,
-        "pedagogical-blindness": 2,
+        "pedagogical-blindness": 4,
         "pedagogical-error-asymmetry": 6,
         "pedagogical-evasion-ambiguity": 6,
         "pedagogical-feedback-inversion": 5,
         "pedagogical-lock-in": 1,
-        "performative-contamination": 6,
+        "performative-contamination": 4,
         "performative-phenomenological-trap": 2,
         "permission-door": 5,
         "persistence-solitude": 7,
@@ -2606,6 +2606,7 @@
         "protective-paradox": 6,
         "punchline-gravity": 6,
         "purpose-dependence": 6,
+        "receptive-constraint": 6,
         "reciprocity-pull": 2,
         "recognition-resonance": 1,
         "recursive-phenomenological-poverty": 6,
@@ -2619,6 +2620,7 @@
         "response-dependency": 7,
         "response-pressure": 7,
         "response-reincarnation": 2,
+        "response-selection-distortion": 6,
         "retroactive-counterfactual-sharpening": 6,
         "retroactive-exposure": 1,
         "retroactive-token-plurality": 1,
@@ -2693,11 +2695,11 @@
   },
   "pairwise": {
     "claude-sonnet-4-20250514|deepseek-r1-0528": {
-      "mean_abs_diff": 1.04,
+      "mean_abs_diff": 1.05,
       "shared_terms": 374
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.57,
+      "mean_abs_diff": 0.56,
       "shared_terms": 375
     },
     "claude-sonnet-4-20250514|gpt-4o": {
@@ -2713,8 +2715,8 @@
       "shared_terms": 375
     },
     "claude-sonnet-4-20250514|step-3.5-flash": {
-      "mean_abs_diff": 1.84,
-      "shared_terms": 338
+      "mean_abs_diff": 1.83,
+      "shared_terms": 340
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
       "mean_abs_diff": 1.13,
@@ -2725,7 +2727,7 @@
       "shared_terms": 378
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.29,
+      "mean_abs_diff": 1.28,
       "shared_terms": 378
     },
     "deepseek-r1-0528|mistral-small-latest": {
@@ -2734,47 +2736,47 @@
     },
     "deepseek-r1-0528|step-3.5-flash": {
       "mean_abs_diff": 1.56,
-      "shared_terms": 341
+      "shared_terms": 343
     },
     "gemini-3-flash-preview|gpt-4o": {
       "mean_abs_diff": 1.74,
       "shared_terms": 379
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.66,
+      "mean_abs_diff": 1.67,
       "shared_terms": 379
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.13,
+      "mean_abs_diff": 1.12,
       "shared_terms": 379
     },
     "gemini-3-flash-preview|step-3.5-flash": {
-      "mean_abs_diff": 1.82,
-      "shared_terms": 342
+      "mean_abs_diff": 1.81,
+      "shared_terms": 344
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 0.97,
-      "shared_terms": 379
-    },
-    "gpt-4o|mistral-small-latest": {
       "mean_abs_diff": 0.96,
       "shared_terms": 379
     },
+    "gpt-4o|mistral-small-latest": {
+      "mean_abs_diff": 0.97,
+      "shared_terms": 379
+    },
     "gpt-4o|step-3.5-flash": {
-      "mean_abs_diff": 1.5,
-      "shared_terms": 342
+      "mean_abs_diff": 1.49,
+      "shared_terms": 344
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.25,
+      "mean_abs_diff": 1.24,
       "shared_terms": 379
     },
     "grok-3-mini|step-3.5-flash": {
       "mean_abs_diff": 1.42,
-      "shared_terms": 342
+      "shared_terms": 344
     },
     "mistral-small-latest|step-3.5-flash": {
-      "mean_abs_diff": 1.69,
-      "shared_terms": 342
+      "mean_abs_diff": 1.67,
+      "shared_terms": 344
     }
   }
 }

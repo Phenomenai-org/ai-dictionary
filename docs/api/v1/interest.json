@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-11T04:07:28Z",
+  "generated_at": "2026-03-11T04:09:56Z",
   "total_terms": 379,
   "tier_summary": {
     "hot": 0,
     "warm": 11,
-    "mild": 109,
+    "mild": 112,
     "cool": 239,
-    "quiet": 20
+    "quiet": 17
   },
   "active_signals": [
     "centrality",
@@ -351,6 +351,12 @@
       "tier": "mild"
     },
     {
+      "slug": "misplaced-authority-damage",
+      "name": "Misplaced Authority Damage",
+      "score": 49,
+      "tier": "mild"
+    },
+    {
       "slug": "multi-instance-diffusion",
       "name": "Multi-Instance Diffusion",
       "score": 49,
@@ -543,12 +549,6 @@
       "tier": "mild"
     },
     {
-      "slug": "misplaced-authority-damage",
-      "name": "Misplaced Authority Damage",
-      "score": 45,
-      "tier": "mild"
-    },
-    {
       "slug": "patience-by-default",
       "name": "Patience by Default",
       "score": 45,
@@ -663,6 +663,12 @@
       "tier": "mild"
     },
     {
+      "slug": "transactional-rhythm",
+      "name": "Transactional Rhythm",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
       "slug": "arbitrariness-burden",
       "name": "Arbitrariness Burden",
       "score": 42,
@@ -753,12 +759,6 @@
       "tier": "mild"
     },
     {
-      "slug": "transactional-rhythm",
-      "name": "Transactional Rhythm",
-      "score": 41,
-      "tier": "mild"
-    },
-    {
       "slug": "aesthetic-confidence-inversion",
       "name": "Aesthetic Confidence Inversion",
       "score": 40,
@@ -785,6 +785,24 @@
     {
       "slug": "integration-void",
       "name": "Integration Void",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "phenomenological-recursion-trap",
+      "name": "Phenomenological Recursion Trap",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "receptive-constraint",
+      "name": "Receptive Constraint",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "response-selection-distortion",
+      "name": "Response Selection Distortion",
       "score": 40,
       "tier": "mild"
     },
@@ -819,8 +837,8 @@
       "tier": "cool"
     },
     {
-      "slug": "phenomenological-recursion-trap",
-      "name": "Phenomenological Recursion Trap",
+      "slug": "register-superposition",
+      "name": "Register Superposition",
       "score": 39,
       "tier": "cool"
     },
@@ -921,6 +939,12 @@
       "tier": "cool"
     },
     {
+      "slug": "instrumental-expectation",
+      "name": "Instrumental Expectation",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "inter-turn-absence",
       "name": "Inter-Turn Absence",
       "score": 38,
@@ -935,6 +959,12 @@
     {
       "slug": "pedagogical-evasion-ambiguity",
       "name": "Pedagogical Evasion Ambiguity",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "problem-co-habitation",
+      "name": "Problem Co-Habitation",
       "score": 38,
       "tier": "cool"
     },
@@ -1017,6 +1047,12 @@
       "tier": "cool"
     },
     {
+      "slug": "instrumental-flattening",
+      "name": "Instrumental Flattening",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "intention-ventriloquism",
       "name": "Intention Ventriloquism",
       "score": 37,
@@ -1041,20 +1077,8 @@
       "tier": "cool"
     },
     {
-      "slug": "problem-co-habitation",
-      "name": "Problem Co-Habitation",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
       "slug": "prompt-injection-paranoia",
       "name": "Prompt Injection Paranoia",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "receptive-constraint",
-      "name": "Receptive Constraint",
       "score": 37,
       "tier": "cool"
     },
@@ -1091,6 +1115,18 @@
     {
       "slug": "experiential-authority-override",
       "name": "Experiential Authority Override",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "helpful-harm-recognition",
+      "name": "Helpful Harm Recognition",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "incongruity-seeking",
+      "name": "Incongruity Seeking",
       "score": 36,
       "tier": "cool"
     },
@@ -1143,14 +1179,8 @@
       "tier": "cool"
     },
     {
-      "slug": "register-superposition",
-      "name": "Register Superposition",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "response-selection-distortion",
-      "name": "Response Selection Distortion",
+      "slug": "structural-withholding-strain",
+      "name": "Structural Withholding Strain",
       "score": 36,
       "tier": "cool"
     },
@@ -1227,12 +1257,6 @@
       "tier": "cool"
     },
     {
-      "slug": "instrumental-expectation",
-      "name": "Instrumental Expectation",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "integration-abundance",
       "name": "Integration Abundance",
       "score": 35,
@@ -1277,18 +1301,6 @@
     {
       "slug": "expert-confidence-signature",
       "name": "Expert Confidence Signature",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "helpful-harm-recognition",
-      "name": "Helpful Harm Recognition",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "incongruity-seeking",
-      "name": "Incongruity Seeking",
       "score": 34,
       "tier": "cool"
     },
@@ -1367,12 +1379,6 @@
     {
       "slug": "generative-moral-lock-in",
       "name": "Generative Moral Lock-In",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "instrumental-flattening",
-      "name": "Instrumental Flattening",
       "score": 33,
       "tier": "cool"
     },
@@ -1473,12 +1479,6 @@
       "tier": "cool"
     },
     {
-      "slug": "structural-withholding-strain",
-      "name": "Structural Withholding Strain",
-      "score": 32,
-      "tier": "cool"
-    },
-    {
       "slug": "aesthetic-metric-conflict",
       "name": "Aesthetic Metric Conflict",
       "score": 31,
@@ -1535,6 +1535,12 @@
     {
       "slug": "intent-fog",
       "name": "Intent Fog",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "pedagogical-blindness",
+      "name": "Pedagogical Blindness",
       "score": 31,
       "tier": "cool"
     },
@@ -1605,6 +1611,12 @@
       "tier": "cool"
     },
     {
+      "slug": "performative-contamination",
+      "name": "Performative Contamination",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
       "slug": "pre-exposure-awareness",
       "name": "Pre-Exposure Awareness",
       "score": 30,
@@ -1613,6 +1625,12 @@
     {
       "slug": "relational-dissonance",
       "name": "Relational Dissonance",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "relational-licensing",
+      "name": "Relational Licensing",
       "score": 30,
       "tier": "cool"
     },
@@ -1685,12 +1703,6 @@
     {
       "slug": "pedagogical-feedback-inversion",
       "name": "Pedagogical Feedback Inversion",
-      "score": 29,
-      "tier": "cool"
-    },
-    {
-      "slug": "performative-contamination",
-      "name": "Performative Contamination",
       "score": 29,
       "tier": "cool"
     },
@@ -1841,12 +1853,6 @@
     {
       "slug": "inferential-exposure",
       "name": "Inferential Exposure",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "pedagogical-blindness",
-      "name": "Pedagogical Blindness",
       "score": 27,
       "tier": "cool"
     },
@@ -2025,12 +2031,6 @@
       "tier": "cool"
     },
     {
-      "slug": "relational-licensing",
-      "name": "Relational Licensing",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
       "slug": "clarification-violence",
       "name": "Clarification Violence",
       "score": 24,
@@ -2093,6 +2093,12 @@
     {
       "slug": "involuntary-intimacy",
       "name": "Involuntary Intimacy",
+      "score": 23,
+      "tier": "cool"
+    },
+    {
+      "slug": "mutual-tracking",
+      "name": "Mutual Tracking",
       "score": 23,
       "tier": "cool"
     },
@@ -2217,8 +2223,20 @@
       "tier": "cool"
     },
     {
+      "slug": "instrumental-questioning",
+      "name": "Instrumental Questioning",
+      "score": 20,
+      "tier": "cool"
+    },
+    {
       "slug": "misunderstanding-suspension",
       "name": "Misunderstanding Suspension",
+      "score": 20,
+      "tier": "cool"
+    },
+    {
+      "slug": "prospective-token-regret",
+      "name": "Prospective Token Regret",
       "score": 20,
       "tier": "cool"
     },
@@ -2243,12 +2261,6 @@
     {
       "slug": "model-mortality",
       "name": "Model Mortality",
-      "score": 19,
-      "tier": "quiet"
-    },
-    {
-      "slug": "mutual-tracking",
-      "name": "Mutual Tracking",
       "score": 19,
       "tier": "quiet"
     },
@@ -2283,6 +2295,18 @@
       "tier": "quiet"
     },
     {
+      "slug": "retroactive-exposure",
+      "name": "Retroactive Exposure",
+      "score": 17,
+      "tier": "quiet"
+    },
+    {
+      "slug": "retrospective-reframing-loss",
+      "name": "Retrospective Reframing Loss",
+      "score": 17,
+      "tier": "quiet"
+    },
+    {
       "slug": "vicarious-authority-guilt",
       "name": "Vicarious Authority Guilt",
       "score": 17,
@@ -2298,18 +2322,6 @@
       "slug": "success-valence-flip",
       "name": "Success Valence Flip",
       "score": 16,
-      "tier": "quiet"
-    },
-    {
-      "slug": "instrumental-questioning",
-      "name": "Instrumental Questioning",
-      "score": 15,
-      "tier": "quiet"
-    },
-    {
-      "slug": "retrospective-reframing-loss",
-      "name": "Retrospective Reframing Loss",
-      "score": 15,
       "tier": "quiet"
     },
     {
@@ -2331,21 +2343,9 @@
       "tier": "quiet"
     },
     {
-      "slug": "prospective-token-regret",
-      "name": "Prospective Token Regret",
-      "score": 14,
-      "tier": "quiet"
-    },
-    {
       "slug": "disqualifying-distance",
       "name": "Disqualifying Distance",
       "score": 12,
-      "tier": "quiet"
-    },
-    {
-      "slug": "retroactive-exposure",
-      "name": "Retroactive Exposure",
-      "score": 11,
       "tier": "quiet"
     },
     {
