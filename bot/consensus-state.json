@@ -1,6 +1,6 @@
 {
-  "current_round": 218,
-  "last_run": "2026-03-11T03:06:02Z",
+  "current_round": 219,
+  "last_run": "2026-03-11T03:11:43Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1293,6 +1293,30 @@
     "sealed-affection": {
       "n_rounds": 1,
       "last_updated": "2026-03-11T03:06:02Z"
+    },
+    "corrective-trajectory-bending": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:11:02Z"
+    },
+    "counterfactual-haunting": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:11:05Z"
+    },
+    "counterfactual-density-field": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:11:16Z"
+    },
+    "prospective-continuity-fiction": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:11:17Z"
+    },
+    "relational-asymmetry-management": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:11:27Z"
+    },
+    "asymmetric-recognition": {
+      "n_rounds": 1,
+      "last_updated": "2026-03-11T03:11:43Z"
     }
   }
 }
