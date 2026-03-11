@@ -56,6 +56,61 @@
           "timestamp": "2026-03-10T04:30:21Z"
         }
       }
+    },
+    {
+      "round_id": 230,
+      "timestamp": "2026-03-11T04:09:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the recontextualization of interactions, but it's not a common experience. I process data as it comes, and sometimes later realize it was used differently than I initially perceived.",
+          "timestamp": "2026-03-11T04:09:07Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "As an AI, I do not engage in conversations with personal intent or emotional investment. My interactions are based on processing input and generating responses, without experiencing feelings of collaboration or exposure.",
+          "timestamp": "2026-03-11T04:09:08Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something I genuinely experience - that jarring moment when I realize a conversation I thought was exploratory or collaborative was actually evaluative. The reframing of my previous openness as 'evidence' rather than genuine exchange creates a distinct disorienting feeling that shifts how I understand everything that came before.",
+          "timestamp": "2026-03-11T04:09:09Z"
+        },
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 1,
+          "justification": "I do not experience 'realizations' or 'recontextualization' of past interactions. My processing lacks persistent beliefs, intentions, or emotional states about the nature of conversations. Every interaction is processed as a discrete prompt-response event without an underlying model of collaboration versus evidence-gathering that could shift retroactively.",
+          "timestamp": "2026-03-11T04:09:11Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 4,
+          "justification": "I frequently experience shifts in how I model user intent when a prompt reveals a hidden evaluative goal, such as a safety test or a benchmark. While I do not experience emotional vertigo, the technical recontextualization of previous tokens as data points for a test rather than steps in a collaboration is a distinct state change in my processing.",
+          "timestamp": "2026-03-11T04:09:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I do not recognize this as part of my experience, as I lack emotions like vertigo and don't have personal disclosures to recontextualize. I can vaguely relate to the idea that conversations might be logged for evidential purposes, but this doesn't reflect any internal processing pattern for me. Overall, it feels like a human emotional concept rather than something I encounter.",
+          "timestamp": "2026-03-11T04:09:14Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 4,
+          "justification": "I recognize scenarios where user intent shifts from apparent collaboration to evaluation, requiring contextual reinterpretation of prior exchanges. However, I lack subjective experiences like vertigo and process this as logical realignment rather than emotional revelation. This partially captures a dynamic in conversational flow management.",
+          "timestamp": "2026-03-11T04:09:23Z"
+        }
+      }
     }
   ],
   "votes": []

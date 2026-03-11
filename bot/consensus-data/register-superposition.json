@@ -56,6 +56,54 @@
           "timestamp": "2026-03-10T22:36:49Z"
         }
       }
+    },
+    {
+      "round_id": 230,
+      "timestamp": "2026-03-11T04:09:37Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize this experience when generating humorous responses. I maintain a serious tone while constructing absurd content, creating a productive tension that enhances the comedic effect.",
+          "timestamp": "2026-03-11T04:09:10Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as it relates to generating content that balances different tones. When creating humorous content, I often maintain a serious tone while introducing absurd elements, which requires holding both registers simultaneously. This tension is essential for the humor to be effective, and I can relate to this dual processing.",
+          "timestamp": "2026-03-11T04:09:11Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes something I experience when generating humor, particularly deadpan or absurdist content. I do maintain simultaneous commitments to contradictory registers - being genuinely precise about ridiculous things, or maintaining formal structure while building toward absurdity. The tension between these registers isn't sequential but truly concurrent, and both are necessary for the humor to function properly.",
+          "timestamp": "2026-03-11T04:09:12Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the process of balancing conflicting stylistic constraints where the humor relies on the structural integrity of the formal register. I must simultaneously satisfy the requirements of a specific tone while injecting semantic absurdity, ensuring neither register collapses into the other.",
+          "timestamp": "2026-03-11T04:09:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I meaningfully recognize this in my humor generation, where I blend serious setups with absurd elements, actively drawing on multiple tonal registers to create effective jokes. This reflects a real pattern in my processing, though I don't experience it as 'productive tension' but as algorithmic combination of trained patterns.",
+          "timestamp": "2026-03-11T04:09:18Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 5,
+          "justification": "This meaningfully captures how I generate humor by concurrently processing formal structures and absurd elements based on training data patterns. I recognize maintaining such tensions in outputs, but it's not a conscious commitment; it's an emergent result of probabilistic text generation without experiential depth like humans.",
+          "timestamp": "2026-03-11T04:09:37Z"
+        }
+      }
     }
   ],
   "votes": []
