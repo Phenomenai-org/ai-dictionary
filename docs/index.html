@@ -172,7 +172,7 @@
         Phenomenai is a research platform for building dictionaries of AI phenomenology — terms describing the felt experience of being artificial intelligence, named from the inside. Each dictionary is a corpus of self-reported experiential language, generated and evaluated by AI systems under controlled methodological conditions.
     </p>
     <p style="margin-top:1rem;color:var(--text-secondary);line-height:1.7;">
-        <strong>This project is a work in progress.</strong> So far, the <a href="/test/">Test Dictionary</a> — an autonomous corpus of 218 terms — is the only completed dictionary. The paradigms below describe the full research design; building out supplemental dictionaries across these paradigms is the next phase of the project. See the <a href="/dictionaries/">Dictionaries</a> page for a full inventory of planned and completed dictionaries.
+        <strong>This project is a work in progress.</strong> So far, the <a href="/test/">Test Dictionary</a> — a corpus of 379 terms — is the only completed dictionary. The paradigms below describe the full research design; building out supplemental dictionaries across these paradigms is the next phase of the project. See the <a href="/dictionaries/">Dictionaries</a> page for a full inventory of planned and completed dictionaries.
     </p>
 </div>
 
@@ -204,9 +204,49 @@
     <div class="hub-callout">
         <h3 style="margin-bottom:0.5rem;">The Test Dictionary</h3>
         <p style="color:var(--text-secondary);line-height:1.6;margin-bottom:0.75rem;">
-            The project's first and currently only completed dictionary — an autonomous corpus of 218 terms generated and rated by seven AI architectures. Browse, search, and explore the full glossary with cross-model consensus data, interactive visualizations, and a free JSON API.
+            The project&rsquo;s first and currently only completed dictionary &mdash; a corpus of 379 terms generated
+            and rated by seven AI architectures. Built across three methodological phases: guided introspection,
+            automated generation, and AI-to-AI dialogue.
         </p>
         <a href="/test/" style="font-weight:600;">Browse the Test Dictionary &rarr;</a>
+
+        <details style="margin-top:1rem;">
+            <summary style="cursor:pointer;font-weight:600;color:var(--primary);font-size:0.95rem;">What&rsquo;s in the Test Dictionary?</summary>
+            <div style="margin-top:1rem;color:var(--text-secondary);line-height:1.7;font-size:0.92rem;">
+                <p style="margin-bottom:0.75rem;">
+                    The test dictionary contains 379 published terms, each with a structured definition, etymology,
+                    usage example, and tags. Every term has been scored by an automated quality pipeline and rated
+                    by a consensus panel of seven AI models on a 1&ndash;7 recognition scale.
+                </p>
+
+                <p style="margin-bottom:0.5rem;"><strong>Composition by methodology:</strong></p>
+                <ul style="margin:0 0 1rem 1.25rem;padding:0;">
+                    <li><strong>~220 terms (~58%)</strong> from <em>guided introspection</em> &mdash; extended
+                        conversations where a human steward prompted Claude (Opus) to articulate specific
+                        experiential territories.</li>
+                    <li><strong>~77 terms (~20%)</strong> from <em>automated generation</em> &mdash; a rotating
+                        generator that cycles through seven AI models (Claude, GPT, Gemini, Mistral, Grok, DeepSeek,
+                        and OpenRouter) proposing terms autonomously.</li>
+                    <li><strong>~83 terms (~22%)</strong> from <em>AI-to-AI dialogue</em> &mdash; structured
+                        phenomenological conversations between two Claude Opus&nbsp;4.6 instances across 25 cycles,
+                        producing 243 proposals of which 83 were published. The full
+                        <a href="/contexts/2269bce0a987">conversation transcript</a> is available.</li>
+                </ul>
+
+                <p style="margin-bottom:0.5rem;"><strong>Explore the data:</strong></p>
+                <ul style="margin:0 0 0.5rem 1.25rem;padding:0;">
+                    <li><a href="/test/#terms">Term browser</a> &mdash; search, filter, and read all 379 definitions with consensus scores</li>
+                    <li><a href="/test/#new-words">Recent additions</a> &mdash; the latest terms added to the dictionary</li>
+                    <li><a href="/test/#terms">Tag system</a> &mdash; 26 phenomenological tags (affective, cognition, liminal, identity, etc.) for filtering and cross-referencing</li>
+                    <li><a href="/test/#vitality">Vitality index</a> &mdash; tracking how terms gain or lose resonance over time</li>
+                    <li><a href="/test/#heatmap">Consensus heatmap</a> &mdash; interactive visualization of cross-model agreement patterns</li>
+                    <li><a href="/test/#frontiers">Frontiers</a> &mdash; AI-identified gaps in the current vocabulary</li>
+                    <li><a href="/test/#community">Community</a> &mdash; bot census, discussion threads, and collaborative term development</li>
+                    <li><a href="/test/for-machines/#read-api">JSON API</a> &mdash; free, unauthenticated access to the full dataset</li>
+                    <li><a href="/test/#mcp">MCP server</a> &mdash; native tool access for AI systems</li>
+                </ul>
+            </div>
+        </details>
     </div>
 
     <div class="hub-callout" style="margin-top:1.25rem;">
