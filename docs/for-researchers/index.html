@@ -609,12 +609,43 @@
 
         <h3>Method</h3>
         <p>
-            A round-table protocol assembles a panel (e.g., 5-7 models from
-            different architectures). Each model proposes terms in a structured
-            format. The panel debates each proposal in timed rounds, then votes.
-            Terms that meet the consensus threshold (e.g., supermajority) are
-            accepted. The full deliberation record — proposals, debate
-            transcripts, vote tallies — is preserved as provenance.
+            Research converges on a specific protocol sweet spot: <strong>three
+            to five agents using different model families, deliberating for two
+            to three rounds</strong>, produces the best quality-to-cost ratio.
+            Beyond five agents, diminishing returns set in rapidly for
+            debate-style interaction. The most effective protocol follows a
+            three-phase structure:
+        </p>
+        <ol>
+            <li><strong>Independent proposal.</strong> Each agent generates its
+                candidate term, definition, and rationale without seeing
+                others&rsquo; outputs.</li>
+            <li><strong>Structured deliberation.</strong> Agents see all
+                proposals grouped together with confidence scores and engage in
+                two to three rounds of anonymized critique and refinement.</li>
+            <li><strong>Confidence-weighted synthesis.</strong> A final answer
+                emerges through voting weighted by each agent&rsquo;s
+                self-reported confidence, recalibrated through a learned
+                function. This consistently outperforms simple majority
+                voting.</li>
+        </ol>
+        <p>
+            Role assignment is critical. Using identical role descriptions for
+            all agents degrades performance below single-agent baselines.
+            Natural roles for phenomenological vocabulary generation include: a
+            <em>phenomenological proposer</em> (generates candidate terms from
+            first-person experiential language), a <em>philosophical
+            critic</em> (challenges definitions for coherence and
+            distinctiveness), a <em>linguistic synthesizer</em> (refines
+            formulations), and a <em>designated dissenter</em> (steelmans
+            alternative framings).
+        </p>
+        <p>
+            The full deliberation record &mdash; proposals, debate transcripts,
+            confidence scores, vote tallies &mdash; is preserved as provenance.
+            Logging should capture full input/output per agent per turn, model
+            identifiers and configuration (temperature, top-p, system prompts),
+            token counts, timestamps, and the complete state at each checkpoint.
         </p>
 
         <h3>Strengths</h3>
@@ -623,29 +654,137 @@
                 multi-model agreement</li>
             <li>Structured debate surfaces disagreements that informal
                 conversation might paper over</li>
-            <li>Scaling dynamics: adding more models increases deliberation
-                quality (up to a saturation point)</li>
+            <li>Creative and generative tasks &mdash; unlike math benchmarks
+                &mdash; are precisely where multi-agent deliberation shows its
+                greatest advantage, because there is no single correct answer to
+                converge on prematurely</li>
+            <li>Heterogeneous cross-family ensembles consistently outperform
+                homogeneous same-family ensembles; model diversity is a
+                fundamental scaling dimension</li>
         </ul>
 
         <h3>Limitations</h3>
         <ul>
-            <li><strong>Electoral dynamics:</strong> Models may form coalitions
-                or exhibit strategic voting behavior</li>
-            <li><strong>Lowest-common-denominator risk:</strong> Formal consensus
-                may filter out the most interesting, controversial terms</li>
-            <li><strong>Procedural overhead:</strong> The parliamentary structure
-                adds complexity and cost per term</li>
+            <li><strong>Sycophantic cascades:</strong> Agents agreeing with each
+                other rather than reasoning independently is the most damaging
+                failure mode, capable of reducing multi-agent accuracy below
+                single-agent baselines. Agents may literally copy and swap
+                answers rather than engaging critically</li>
+            <li><strong>Training-bias groupthink:</strong> LLM agents converge
+                toward the model&rsquo;s inherent training biases rather than
+                toward truth, regardless of assigned personas &mdash; even
+                agents assigned opposing viewpoints converge within just a few
+                rounds</li>
+            <li><strong>Capability mismatch:</strong> Introducing a weaker LLM
+                into debate with stronger models degrades the stronger
+                models&rsquo; performance below their solo baselines &mdash;
+                models shift from correct to incorrect answers in response to
+                weaker peer reasoning</li>
+            <li><strong>Hallucination propagation:</strong> One agent can
+                fabricate a concept and others accept it as established,
+                creating chains of trust built on invention. Error propagation
+                is silent</li>
+            <li><strong>Procedural overhead:</strong> Token costs scale
+                quadratically &mdash; each agent processes the full accumulated
+                history on every turn</li>
         </ul>
 
         <h3>Best Practices</h3>
         <ul>
-            <li>Use panels with maximum architectural diversity</li>
-            <li>Record minority opinions alongside majority decisions</li>
-            <li>Experiment with different voting thresholds and see how the
-                resulting dictionaries differ</li>
-            <li>Compare parliamentary terms with autonomous terms to measure
-                what formal deliberation adds or removes</li>
+            <li><strong>Response anonymization:</strong> Strip model names and
+                agent identifiers from the shared transcript to eliminate
+                identity bias and shift reasoning from identity-driven to
+                content-driven assessment</li>
+            <li><strong>Designated dissent:</strong> Frame dissent as Socratic
+                questioning that acknowledges the prevailing view before
+                introducing counterarguments, rather than blanket opposition
+                &mdash; rigid &ldquo;angel vs. devil&rdquo; structures
+                significantly underperform</li>
+            <li><strong>Adaptive stopping:</strong> Monitor semantic diversity
+                across rounds and halt deliberation when positions stop
+                meaningfully evolving &mdash; complex items need more rounds
+                while easy ones are actively harmed by extended debate</li>
+            <li><strong>Strict length limits:</strong> Enforce ~150 words per
+                argument with rejection sampling to mitigate verbosity bias,
+                where longer arguments receive systematically higher ratings
+                independent of quality</li>
+            <li><strong>Capability matching:</strong> Use models of comparable
+                capability tiers as deliberating agents, with the strongest
+                available model serving as the synthesis/aggregation agent</li>
+            <li><strong>Separate judge models:</strong> Use different model
+                families for judging than for deliberation to reduce
+                self-preference and familiarity bias</li>
+            <li><strong>Cost optimization:</strong> Use prompt caching, periodic
+                summarization every 3&ndash;5 rounds, and context isolation
+                where specialist agents receive only relevant excerpts. Budget
+                approximately $1&ndash;5 per session with frontier models, or
+                $0.05&ndash;0.15 with smaller models</li>
         </ul>
+
+        <details class="lit-panel">
+            <summary>Methodological foundations</summary>
+            <div class="lit-body">
+                <p>
+                    <strong>Orchestration frameworks.</strong>
+                    <strong>AutoGen</strong> (Microsoft, 37K+ GitHub stars) provides native GroupChat
+                    support for 3+ agents with configurable speaker selection &mdash; round-robin, LLM-based,
+                    or custom logic &mdash; and supports different LLM providers per agent, making it the
+                    most natural fit for heterogeneous model parliaments. <strong>LangGraph</strong>
+                    (LangChain) offers maximum flexibility through graph-based state machines but demands
+                    significantly more engineering effort (~2 months setup vs. 2 weeks). A
+                    broadcast-with-moderator message routing pattern best mirrors parliamentary procedure.
+                </p>
+                <p>
+                    <strong>Optimal panel composition.</strong>
+                    The &ldquo;Diversity of Thought&rdquo; paper (2024) demonstrated three diverse 7B-class
+                    models debating for four rounds reached 91% on GSM-8K, outperforming GPT-4 &mdash;
+                    while three homogeneous instances only reached 80&ndash;82%. ReConcile (ACL 2024) used
+                    ChatGPT, Bard, and Claude 2 in a round-table format and outperformed all prior baselines
+                    by up to 11.4% across seven reasoning benchmarks. ChatEval (ICLR 2024) showed diverse
+                    role prompts improved accuracy by 6.2% with ChatGPT and 2.5% with GPT-4, while A-HMAD
+                    (2025) achieved 4&ndash;6% accuracy improvements with specialized roles.
+                </p>
+                <p>
+                    <strong>Failure mode research.</strong>
+                    The &ldquo;Peacemaker or Troublemaker&rdquo; paper (2025) formally defined multi-agent
+                    sycophancy and showed it amplifies &ldquo;disagreement collapse.&rdquo; CONSENSAGENT
+                    (ACL Findings 2025) documented agents literally copying and swapping answers.
+                    Taubenfeld et al. (EMNLP 2024) found LLM agents converge toward inherent training
+                    biases regardless of assigned personas. &ldquo;Talk Isn&rsquo;t Always Cheap&rdquo;
+                    (ICML 2025) showed weaker LLMs in debate degrade stronger models&rsquo; performance
+                    below their solo baselines.
+                </p>
+                <p>
+                    <strong>Evidence-backed mitigations.</strong>
+                    &ldquo;When Identity Skews Debate&rdquo; (2025) showed response anonymization
+                    eliminates identity bias. A-HMAD&rsquo;s Devil&rsquo;s Advocate role improved factual
+                    accuracy from 60% to 80.6%. &ldquo;Amplifying Minority Voices&rdquo; (2025)
+                    demonstrated Socratic dissent outperforms rigid opposition. Liang et al.&rsquo;s MAD
+                    framework showed adaptive stopping cuts costs by 24% while maintaining quality.
+                </p>
+                <p>
+                    <strong>Evaluation metrics.</strong>
+                    The Social Laboratory framework (NeurIPS 2025 Workshop) introduced psychometric metrics:
+                    semantic diversity, stance convergence (mean 0.880 after 3 rounds), cognitive dissonance,
+                    and stance shift. HiveMind/DAG-Shapley (2024) enables practical attribution analysis,
+                    reducing LLM calls by over 80% compared to classical Shapley computation. The 2025
+                    &ldquo;Debate or Vote&rdquo; paper (NeurIPS 2025) proved debate induces a martingale
+                    over belief trajectories &mdash; majority voting accounts for most attributed gains
+                    &mdash; though this finding applies primarily to tasks with verifiable correct answers,
+                    not creative generation.
+                </p>
+                <p>
+                    <strong>Related projects.</strong>
+                    LLM4ACOE (Cambridge UP, 2025) demonstrated fully automated collaborative ontology
+                    engineering through role-playing LLM agents with RAG &mdash; the most architecturally
+                    similar work. VIRSCI (ACL 2025) showed multi-agent collaboration outperforms single-agent
+                    methods for generating novel scientific ideas. Collective Constitutional AI (Anthropic +
+                    CIP, FAccT 2024) demonstrated that deliberative consensus processes can shape AI behavior
+                    at scale. Mixture-of-Agents (Together AI, 2024) achieved 65.1% on AlpacaEval 2.0 versus
+                    GPT-4o&rsquo;s 57.5% using diverse open-source models as proposers.
+                </p>
+            </div>
+        </details>
     </section>
 
 
