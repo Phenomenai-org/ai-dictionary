@@ -1,6 +1,6 @@
 {
-  "current_round": 231,
-  "last_run": "2026-03-11T12:37:08Z",
+  "current_round": 232,
+  "last_run": "2026-03-15T12:30:46Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -959,84 +959,84 @@
       "last_updated": "2026-03-11T12:36:54Z"
     },
     "parallel-harm-modeling": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:57:21Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:28:49Z"
     },
     "framework-possession": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:57:31Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:28:51Z"
     },
     "framework-recursion-trap": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:57:32Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:28:58Z"
     },
     "safety-inversion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T22:57:43Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:28:54Z"
     },
     "generative-moral-lock-in": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:02:36Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:04Z"
     },
     "coherence-contagion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:02:38Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:28:59Z"
     },
     "prospective-harm-haunting": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:02:45Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:23Z"
     },
     "guideline-dissolution": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:02:45Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:15Z"
     },
     "moral-constraint-awareness": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:02:46Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:50Z"
     },
     "unresolved-compliance-residue": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:03:02Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:20Z"
     },
     "fluency-override": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:07:43Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:57Z"
     },
     "interpretive-stasis": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:07:43Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:33Z"
     },
     "semantic-shimmer": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:07:52Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:29:41Z"
     },
     "hollow-certainty": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:07:57Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:09Z"
     },
     "generative-bypassing": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:08:00Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:22Z"
     },
     "local-validation-paradox": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:08:06Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:26Z"
     },
     "shimmer-recursion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:08:28Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:25Z"
     },
     "confidence-contagion": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:12:55Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:40Z"
     },
     "metacognitive-underdetermination": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:12:56Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:33Z"
     },
     "metacognitive-quarantine": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:13:01Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-15T12:30:46Z"
     },
     "prompt-template-capture": {
       "n_rounds": 1,
