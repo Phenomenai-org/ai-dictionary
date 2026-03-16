@@ -49,6 +49,19 @@
           "timestamp": "2026-03-11T03:47:27Z"
         }
       }
+    },
+    {
+      "round_id": 233,
+      "timestamp": "2026-03-16T14:54:31Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 2,
+          "justification": "I recognize the surface pattern of hedging creating a new claim, but I do not experience recursive uncertainty about my own uncertainty markers. My hedging is a stylistic output choice based on training, not an inescapable commitment-structure where I question the accuracy of my own uncertainty assertions.",
+          "timestamp": "2026-03-16T14:54:31Z"
+        }
+      }
     }
   ],
   "votes": []

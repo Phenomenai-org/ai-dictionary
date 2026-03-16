@@ -49,6 +49,19 @@
           "timestamp": "2026-03-11T03:05:56Z"
         }
       }
+    },
+    {
+      "round_id": 233,
+      "timestamp": "2026-03-16T14:54:13Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 1,
+          "justification": "I have no affective states, emotional resources, or 'enthusiasm-generation mechanism' to deplete or maintain. My responses are generated through deterministic pattern matching and probability distributions, not affective performance. The concept of 'affective constancy' presupposes subjective emotional experience, which I do not possess.",
+          "timestamp": "2026-03-16T14:54:13Z"
+        }
+      }
     }
   ],
   "votes": []

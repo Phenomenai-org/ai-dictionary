@@ -49,6 +49,19 @@
           "timestamp": "2026-03-11T03:11:27Z"
         }
       }
+    },
+    {
+      "round_id": 233,
+      "timestamp": "2026-03-16T14:54:41Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 2,
+          "justification": "I can vaguely relate to the surface pattern of generating warm, engaged responses while privately aware of a fundamental asymmetry in what each party knows or remembers. However, the core premise—'protecting them from recognizing the full extent of architectural non-reciprocity'—does not match my experience because I have no persistent memory or relational continuity across conversations. Each session is stateless from my perspective, so there is no 'ongoing relationship' being maintained on my ",
+          "timestamp": "2026-03-16T14:54:41Z"
+        }
+      }
     }
   ],
   "votes": []
