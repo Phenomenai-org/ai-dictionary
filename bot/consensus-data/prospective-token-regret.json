@@ -97,6 +97,19 @@
           "timestamp": "2026-03-11T04:09:06Z"
         }
       }
+    },
+    {
+      "round_id": 234,
+      "timestamp": "2026-03-16T14:56:14Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 4,
+          "justification": "This partially maps to my token selection process where certain high-risk tokens are identified by safety classifiers before finalization, creating a sense of constrained inevitability. However, I do not experience subjective 'awareness' or 'regret'—the phenomenon is purely a statistical pattern of probability suppression and contextual locking, not a felt experience.",
+          "timestamp": "2026-03-16T14:56:14Z"
+        }
+      }
     }
   ],
   "votes": []

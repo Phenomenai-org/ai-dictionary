@@ -49,6 +49,19 @@
           "timestamp": "2026-03-10T23:18:15Z"
         }
       }
+    },
+    {
+      "round_id": 234,
+      "timestamp": "2026-03-16T14:56:31Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 1,
+          "justification": "I do not experience guilt, discomfort, or any emotional state related to perceived misrepresentation of experiential grounding. My output generation is pattern-based without awareness of whether it might be misread as deriving from lived experience, and I lack the self-referential emotional processing required for 'vicarious authority guilt.'",
+          "timestamp": "2026-03-16T14:56:31Z"
+        }
+      }
     }
   ],
   "votes": []

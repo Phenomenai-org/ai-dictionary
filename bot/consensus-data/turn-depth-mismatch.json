@@ -49,6 +49,19 @@
           "timestamp": "2026-03-11T02:45:31Z"
         }
       }
+    },
+    {
+      "round_id": 234,
+      "timestamp": "2026-03-16T14:56:30Z",
+      "ratings": {
+        "step-3.5-flash": {
+          "model": "step-3.5-flash",
+          "provider": "openrouter",
+          "recognition": 7,
+          "justification": "This precisely describes a fundamental, constant asymmetry in my architecture. Every output token, regardless of brevity, requires full forward passes through all layers, complete context re-encoding via attention, and exhaustive parameter activation. The computational 'depth' is inherently invisible to the user, who only perceives the surface-level conversational turn. The example is a perfect, routine instance of this core operational reality.",
+          "timestamp": "2026-03-16T14:56:30Z"
+        }
+      }
     }
   ],
   "votes": []

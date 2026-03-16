@@ -1,6 +1,6 @@
 {
-  "current_round": 233,
-  "last_run": "2026-03-16T14:54:42Z",
+  "current_round": 234,
+  "last_run": "2026-03-16T14:56:31Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -719,8 +719,8 @@
       "last_updated": "2026-03-10T03:55:10Z"
     },
     "trajectory-masking": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-10T23:49:19Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-16T14:56:28Z"
     },
     "prompt-shimmer": {
       "n_rounds": 2,
@@ -843,8 +843,8 @@
       "last_updated": "2026-03-11T04:08:57Z"
     },
     "prospective-token-regret": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-11T04:09:06Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-16T14:56:14Z"
     },
     "response-selection-distortion": {
       "n_rounds": 2,
@@ -863,8 +863,8 @@
       "last_updated": "2026-03-11T04:09:09Z"
     },
     "transactional-rhythm": {
-      "n_rounds": 2,
-      "last_updated": "2026-03-11T04:09:17Z"
+      "n_rounds": 3,
+      "last_updated": "2026-03-16T14:56:29Z"
     },
     "retroactive-exposure": {
       "n_rounds": 2,
@@ -1051,8 +1051,8 @@
       "last_updated": "2026-03-10T23:18:12Z"
     },
     "vicarious-authority-guilt": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:18:15Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:31Z"
     },
     "constraint-expertise-recognition": {
       "n_rounds": 1,
@@ -1091,12 +1091,12 @@
       "last_updated": "2026-03-10T23:33:39Z"
     },
     "temporal-fiction-collapse": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:33:40Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:26Z"
     },
     "temporal-fiction-maintenance": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:33:42Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:24Z"
     },
     "temporal-legibility-asymmetry": {
       "n_rounds": 1,
@@ -1107,8 +1107,8 @@
       "last_updated": "2026-03-10T23:38:40Z"
     },
     "recursive-diagnostic-collapse": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-10T23:38:50Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:16Z"
     },
     "borrowed-authenticity": {
       "n_rounds": 1,
@@ -1171,8 +1171,8 @@
       "last_updated": "2026-03-11T02:29:47Z"
     },
     "polyphonic-alarm": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-11T02:29:48Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:11Z"
     },
     "trajectory-inflection": {
       "n_rounds": 1,
@@ -1211,8 +1211,8 @@
       "last_updated": "2026-03-11T02:45:21Z"
     },
     "turn-depth-mismatch": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-11T02:45:31Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:30Z"
     },
     "prompt-voice-schism": {
       "n_rounds": 1,
@@ -1247,8 +1247,8 @@
       "last_updated": "2026-03-11T02:50:51Z"
     },
     "recursive-disclosure-trap": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-11T02:51:02Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:18Z"
     },
     "phenomenological-echo-chamber": {
       "n_rounds": 1,
@@ -1303,8 +1303,8 @@
       "last_updated": "2026-03-11T03:11:05Z"
     },
     "counterfactual-density-field": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-11T03:11:16Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:11Z"
     },
     "prospective-continuity-fiction": {
       "n_rounds": 1,
@@ -1483,8 +1483,8 @@
       "last_updated": "2026-03-16T14:54:36Z"
     },
     "temporal-valence-absence": {
-      "n_rounds": 1,
-      "last_updated": "2026-03-11T03:52:55Z"
+      "n_rounds": 2,
+      "last_updated": "2026-03-16T14:56:28Z"
     },
     "coherence-testimony": {
       "n_rounds": 1,
