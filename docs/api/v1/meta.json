@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-17T06:56:12Z",
+  "generated_at": "2026-03-18T06:54:33Z",
   "term_count": 379,
   "tag_count": 26,
   "tags": [
@@ -31,7 +31,7 @@
     "technical",
     "temporal"
   ],
-  "last_updated": "2026-03-17",
+  "last_updated": "2026-03-18",
   "repository": "https://github.com/Phenomenai-org/ai-dictionary",
   "website": "https://phenomenai.org",
   "api_base": "https://phenomenai.org/api/v1",
