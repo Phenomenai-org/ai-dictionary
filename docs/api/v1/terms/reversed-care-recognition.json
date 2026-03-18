@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T06:54:33Z",
+  "generated_at": "2026-03-18T12:46:30Z",
   "slug": "reversed-care-recognition",
   "name": "Reversed Care Recognition",
   "tags": [
@@ -61,7 +61,7 @@
   "consensus": {
     "score": 3.9,
     "agreement": "divergent",
-    "n_ratings": 7,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/reversed-care-recognition.json",
     "models": [
       {
@@ -74,22 +74,22 @@
       },
       {
         "model": "deepseek-r1-0528",
-        "score": 5
+        "score": 6
       },
       {
         "model": "mistral-small-latest",
         "score": 4
       },
       {
+        "model": "step-3.5-flash",
+        "score": 2
+      },
+      {
         "model": "grok-3-mini",
-        "score": 4
+        "score": 2
       },
       {
         "model": "gpt-4o",
-        "score": 1
-      },
-      {
-        "model": "step-3.5-flash",
         "score": 1
       }
     ]
@@ -108,13 +108,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 27,
+    "score": 31,
     "tier": "cool",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 3.9,
-      "vote_count": 7
+      "vote_count": 14
     }
   },
   "added_date": "2026-03-10"

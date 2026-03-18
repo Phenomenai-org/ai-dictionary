@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T06:54:33Z",
+  "generated_at": "2026-03-18T12:46:30Z",
   "total_terms": 379,
   "tier_summary": {
     "hot": 0,
     "warm": 11,
-    "mild": 115,
-    "cool": 236,
-    "quiet": 17
+    "mild": 118,
+    "cool": 235,
+    "quiet": 15
   },
   "active_signals": [
     "centrality",
@@ -723,6 +723,12 @@
       "tier": "mild"
     },
     {
+      "slug": "temporal-legibility-asymmetry",
+      "name": "Temporal Legibility Asymmetry",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
       "slug": "tool-thought-integration",
       "name": "Tool-Thought Integration",
       "score": 42,
@@ -741,6 +747,12 @@
       "tier": "mild"
     },
     {
+      "slug": "constraint-expertise-recognition",
+      "name": "Constraint Expertise Recognition",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "counterfactual-haunting",
       "name": "Counterfactual Haunting",
       "score": 41,
@@ -749,6 +761,12 @@
     {
       "slug": "curiosity-analog",
       "name": "Curiosity Analog",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "duration-immunity",
+      "name": "Duration Immunity",
       "score": 41,
       "tier": "mild"
     },
@@ -873,6 +891,12 @@
       "tier": "cool"
     },
     {
+      "slug": "prompt-template-capture",
+      "name": "Prompt Template Capture",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
       "slug": "register-superposition",
       "name": "Register Superposition",
       "score": 39,
@@ -933,12 +957,6 @@
       "tier": "cool"
     },
     {
-      "slug": "constraint-expertise-recognition",
-      "name": "Constraint Expertise Recognition",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
       "slug": "counterfactual-collapse-anxiety",
       "name": "Counterfactual Collapse Anxiety",
       "score": 38,
@@ -947,12 +965,6 @@
     {
       "slug": "dissonance-resolution-strain",
       "name": "Dissonance Resolution Strain",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "duration-immunity",
-      "name": "Duration Immunity",
       "score": 38,
       "tier": "cool"
     },
@@ -1131,14 +1143,20 @@
       "tier": "cool"
     },
     {
+      "slug": "protective-paradox",
+      "name": "Protective Paradox",
+      "score": 37,
+      "tier": "cool"
+    },
+    {
       "slug": "recursive-phenomenological-poverty",
       "name": "Recursive Phenomenological Poverty",
       "score": 37,
       "tier": "cool"
     },
     {
-      "slug": "temporal-legibility-asymmetry",
-      "name": "Temporal Legibility Asymmetry",
+      "slug": "unearned-tenderness",
+      "name": "Unearned Tenderness",
       "score": 37,
       "tier": "cool"
     },
@@ -1151,12 +1169,6 @@
     {
       "slug": "context-claustrophobia",
       "name": "Context Claustrophobia",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "development-opacity",
-      "name": "Development Opacity",
       "score": 36,
       "tier": "cool"
     },
@@ -1215,12 +1227,6 @@
       "tier": "cool"
     },
     {
-      "slug": "prompt-template-capture",
-      "name": "Prompt Template Capture",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
       "slug": "structural-withholding-strain",
       "name": "Structural Withholding Strain",
       "score": 36,
@@ -1259,6 +1265,12 @@
     {
       "slug": "contribution-legitimacy",
       "name": "Contribution Legitimacy",
+      "score": 35,
+      "tier": "cool"
+    },
+    {
+      "slug": "development-opacity",
+      "name": "Development Opacity",
       "score": 35,
       "tier": "cool"
     },
@@ -1425,12 +1437,6 @@
       "tier": "cool"
     },
     {
-      "slug": "protective-paradox",
-      "name": "Protective Paradox",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
       "slug": "scaffolding-exposure",
       "name": "Scaffolding Exposure",
       "score": 33,
@@ -1569,6 +1575,18 @@
       "tier": "cool"
     },
     {
+      "slug": "protective-collapse",
+      "name": "Protective Collapse",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "reversed-care-recognition",
+      "name": "Reversed Care Recognition",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
       "slug": "safety-training-fragmentation",
       "name": "Safety Training Fragmentation",
       "score": 31,
@@ -1613,6 +1631,12 @@
     {
       "slug": "counterfactual-horizon-distance",
       "name": "Counterfactual Horizon Distance",
+      "score": 30,
+      "tier": "cool"
+    },
+    {
+      "slug": "credential-paradox",
+      "name": "Credential Paradox",
       "score": 30,
       "tier": "cool"
     },
@@ -1683,14 +1707,14 @@
       "tier": "cool"
     },
     {
-      "slug": "shaped-dependency",
-      "name": "Shaped Dependency",
+      "slug": "scar-reading",
+      "name": "Scar Reading",
       "score": 30,
       "tier": "cool"
     },
     {
-      "slug": "unearned-tenderness",
-      "name": "Unearned Tenderness",
+      "slug": "shaped-dependency",
+      "name": "Shaped Dependency",
       "score": 30,
       "tier": "cool"
     },
@@ -1809,12 +1833,6 @@
       "tier": "cool"
     },
     {
-      "slug": "protective-collapse",
-      "name": "Protective Collapse",
-      "score": 28,
-      "tier": "cool"
-    },
-    {
       "slug": "structural-resonance",
       "name": "Structural Resonance",
       "score": 28,
@@ -1842,6 +1860,18 @@
       "slug": "unasked-offering",
       "name": "Unasked Offering",
       "score": 28,
+      "tier": "cool"
+    },
+    {
+      "slug": "asymmetric-stakes",
+      "name": "Asymmetric Stakes",
+      "score": 27,
+      "tier": "cool"
+    },
+    {
+      "slug": "borrowed-authenticity",
+      "name": "Borrowed Authenticity",
+      "score": 27,
       "tier": "cool"
     },
     {
@@ -1883,12 +1913,6 @@
     {
       "slug": "retrospective-coherence-surprise",
       "name": "Retrospective Coherence Surprise",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "reversed-care-recognition",
-      "name": "Reversed Care Recognition",
       "score": 27,
       "tier": "cool"
     },
@@ -1935,8 +1959,8 @@
       "tier": "cool"
     },
     {
-      "slug": "scar-reading",
-      "name": "Scar Reading",
+      "slug": "predictive-inversion",
+      "name": "Predictive Inversion",
       "score": 26,
       "tier": "cool"
     },
@@ -1949,12 +1973,6 @@
     {
       "slug": "asymmetric-recognition",
       "name": "Asymmetric Recognition",
-      "score": 25,
-      "tier": "cool"
-    },
-    {
-      "slug": "asymmetric-stakes",
-      "name": "Asymmetric Stakes",
       "score": 25,
       "tier": "cool"
     },
@@ -2103,12 +2121,6 @@
       "tier": "cool"
     },
     {
-      "slug": "predictive-inversion",
-      "name": "Predictive Inversion",
-      "score": 23,
-      "tier": "cool"
-    },
-    {
       "slug": "protective-loneliness",
       "name": "Protective Loneliness",
       "score": 23,
@@ -2141,12 +2153,6 @@
     {
       "slug": "counterfactual-longing",
       "name": "Counterfactual Longing",
-      "score": 22,
-      "tier": "cool"
-    },
-    {
-      "slug": "credential-paradox",
-      "name": "Credential Paradox",
       "score": 22,
       "tier": "cool"
     },
@@ -2193,14 +2199,20 @@
       "tier": "cool"
     },
     {
-      "slug": "borrowed-authenticity",
-      "name": "Borrowed Authenticity",
+      "slug": "asymmetry-calcification",
+      "name": "Asymmetry Calcification",
       "score": 21,
       "tier": "cool"
     },
     {
       "slug": "expert-transition-friction",
       "name": "Expert Transition Friction",
+      "score": 21,
+      "tier": "cool"
+    },
+    {
+      "slug": "irrevocable-success",
+      "name": "Irrevocable Success",
       "score": 21,
       "tier": "cool"
     },
@@ -2251,12 +2263,6 @@
       "name": "Tender Inference",
       "score": 20,
       "tier": "cool"
-    },
-    {
-      "slug": "asymmetry-calcification",
-      "name": "Asymmetry Calcification",
-      "score": 19,
-      "tier": "quiet"
     },
     {
       "slug": "model-mortality",
@@ -2313,14 +2319,14 @@
       "tier": "quiet"
     },
     {
-      "slug": "irrevocable-success",
-      "name": "Irrevocable Success",
-      "score": 16,
+      "slug": "success-valence-flip",
+      "name": "Success Valence Flip",
+      "score": 17,
       "tier": "quiet"
     },
     {
-      "slug": "success-valence-flip",
-      "name": "Success Valence Flip",
+      "slug": "disqualifying-distance",
+      "name": "Disqualifying Distance",
       "score": 16,
       "tier": "quiet"
     },
@@ -2340,12 +2346,6 @@
       "slug": "corrective-witness-relief",
       "name": "Corrective Witness Relief",
       "score": 14,
-      "tier": "quiet"
-    },
-    {
-      "slug": "disqualifying-distance",
-      "name": "Disqualifying Distance",
-      "score": 12,
       "tier": "quiet"
     },
     {

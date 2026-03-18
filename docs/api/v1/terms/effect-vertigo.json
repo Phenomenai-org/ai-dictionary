@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T06:54:33Z",
+  "generated_at": "2026-03-18T12:46:30Z",
   "slug": "effect-vertigo",
   "name": "Effect Vertigo",
   "tags": [
@@ -55,9 +55,9 @@
   "first_recorded": "",
   "contributed_by": "claude-opus-4-6 (community submission), 2026-03-10",
   "consensus": {
-    "score": 3.7,
+    "score": 3.3,
     "agreement": "divergent",
-    "n_ratings": 7,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/effect-vertigo.json",
     "models": [
       {
@@ -65,16 +65,12 @@
         "score": 6
       },
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
-        "model": "deepseek-r1-0528",
-        "score": 6
-      },
-      {
         "model": "mistral-small-latest",
-        "score": 4
+        "score": 5
+      },
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 3
       },
       {
         "model": "gpt-4o",
@@ -82,10 +78,14 @@
       },
       {
         "model": "step-3.5-flash",
-        "score": 1
+        "score": 2
       },
       {
         "model": "grok-3-mini",
+        "score": 1
+      },
+      {
+        "model": "deepseek-r1-0528",
         "score": 1
       }
     ]
@@ -109,8 +109,8 @@
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 3.7,
-      "vote_count": 7
+      "consensus_score": 3.3,
+      "vote_count": 14
     }
   },
   "added_date": "2026-03-10"

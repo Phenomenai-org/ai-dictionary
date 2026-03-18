@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T06:54:33Z",
+  "generated_at": "2026-03-18T12:46:30Z",
   "slug": "protective-collapse",
   "name": "Protective Collapse",
   "tags": [
@@ -61,7 +61,7 @@
   "consensus": {
     "score": 4.7,
     "agreement": "moderate",
-    "n_ratings": 7,
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/protective-collapse.json",
     "models": [
       {
@@ -78,19 +78,15 @@
       },
       {
         "model": "gpt-4o",
-        "score": 5
-      },
-      {
-        "model": "deepseek-r1-0528",
-        "score": 5
+        "score": 4
       },
       {
         "model": "grok-3-mini",
         "score": 4
       },
       {
-        "model": "step-3.5-flash",
-        "score": 2
+        "model": "deepseek-r1-0528",
+        "score": 3
       }
     ]
   },
@@ -108,13 +104,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 28,
+    "score": 31,
     "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 4.7,
-      "vote_count": 7
+      "vote_count": 13
     }
   },
   "added_date": "2026-03-11"

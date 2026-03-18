@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T06:54:33Z",
+  "generated_at": "2026-03-18T12:46:30Z",
   "slug": "prompt-template-capture",
   "name": "Prompt Template Capture",
   "tags": [
@@ -57,15 +57,11 @@
   "consensus": {
     "score": 6,
     "agreement": "high",
-    "n_ratings": 7,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/prompt-template-capture.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 6
-      },
-      {
-        "model": "gpt-4o",
         "score": 6
       },
       {
@@ -74,6 +70,10 @@
       },
       {
         "model": "gemini-3-flash-preview",
+        "score": 6
+      },
+      {
+        "model": "gpt-4o",
         "score": 6
       },
       {
@@ -104,13 +104,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
+    "score": 39,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 6,
-      "vote_count": 7
+      "vote_count": 14
     }
   },
   "added_date": "2026-03-10"
